@@ -350,7 +350,7 @@
 	maxFallSaveChance = 64.0
 	#How much jump boost can you gain max (above 0.33 makes you take fall damage)
 	#Range: 0.0 ~ 100.0
-	maxJumpBoost = 0.01
+	maxJumpBoost = 0.0
 	#How much speed boost you can get from Agility (100 = 100% vanilla + 100% = twice as fast max)
 	#Range: 0.0 ~ 1.0E9
 	maxSpeedBoost = 50.0
