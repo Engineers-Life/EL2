@@ -1,0 +1,830 @@
+{
+	id: 739,
+	filename: "mining_progression",
+	order_index: 10,
+	title: "Skills progression",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Reach mining level 5",
+			x: -4.5d,
+			y: -1.0d,
+			id: 792,
+			tasks: [{
+				id: 793,
+				type: "pmmo:skill",
+				title: "Unlock Stone pickaxe",
+				icon: {
+					id: "minecraft:stone_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 10.0d
+			}],
+			rewards: [
+				{
+					id: 1038,
+					type: "item",
+					item: {
+						id: "minecraft:stone_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1051,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 1123,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Reach mining level 12",
+			x: -4.5d,
+			y: 0.0d,
+			id: 794,
+			tasks: [{
+				id: 795,
+				type: "pmmo:skill",
+				title: "Unlock Iron pickaxe",
+				icon: {
+					id: "minecraft:iron_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 12.0d
+			}],
+			rewards: [
+				{
+					id: 1039,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				},
+				{
+					id: 1040,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			title: "Reach mining level 40",
+			x: -4.5d,
+			y: 2.0d,
+			id: 798,
+			tasks: [{
+				id: 799,
+				type: "pmmo:skill",
+				title: "Unlock Diamond pickaxe",
+				icon: {
+					id: "minecraft:diamond_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 40.0d
+			}],
+			rewards: [
+				{
+					id: 1043,
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: 1102,
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach mining level 60",
+			x: -4.5d,
+			y: 5.0d,
+			id: 800,
+			tasks: [{
+				id: 801,
+				type: "pmmo:skill",
+				title: "Unlock Netherite pickaxe",
+				icon: {
+					id: "minecraft:netherite_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 60.0d
+			}],
+			rewards: [
+				{
+					id: 1044,
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: 1099,
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach mining level 20",
+			x: -4.5d,
+			y: 1.0d,
+			id: 802,
+			tasks: [{
+				id: 803,
+				type: "pmmo:skill",
+				title: "Unlock steel pickaxe",
+				icon: {
+					id: "immersiveengineering:pickaxe_steel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 20.0d
+			}],
+			rewards: [
+				{
+					id: 1041,
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: 1376,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			title: "Reach combat level 10",
+			x: -3.0d,
+			y: -1.0d,
+			id: 954,
+			tasks: [{
+				id: 955,
+				type: "pmmo:skill",
+				title: "Unlock Stone sword",
+				icon: {
+					id: "minecraft:stone_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "combat",
+				requiredLevel: 10.0d
+			}],
+			rewards: [
+				{
+					id: 1050,
+					type: "item",
+					item: {
+						id: "minecraft:stone_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1052,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 1124,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 10",
+			x: -3.0d,
+			y: 0.0d,
+			id: 956,
+			tasks: [{
+				id: 957,
+				type: "pmmo:skill",
+				title: "Unlock Iron sword",
+				icon: {
+					id: "minecraft:iron_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "combat",
+				requiredLevel: 15.0d
+			}],
+			rewards: [
+				{
+					id: 1048,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1049,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				},
+				{
+					id: 1480,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 40",
+			x: -3.0d,
+			y: 2.0d,
+			id: 958,
+			tasks: [{
+				id: 959,
+				type: "pmmo:skill",
+				title: "Unlock Diamond sword",
+				icon: {
+					id: "minecraft:diamond_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "combat",
+				requiredLevel: 40.0d
+			}],
+			rewards: [
+				{
+					id: 1046,
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: 1101,
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 60",
+			x: -3.0d,
+			y: 5.0d,
+			id: 960,
+			tasks: [{
+				id: 961,
+				type: "pmmo:skill",
+				title: "Unlock Netherite sword",
+				icon: {
+					id: "minecraft:netherite_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "combat",
+				requiredLevel: 60.0d
+			}],
+			rewards: [
+				{
+					id: 1045,
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: 1100,
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 30",
+			x: -3.0d,
+			y: 1.0d,
+			id: 970,
+			tasks: [{
+				id: 971,
+				type: "pmmo:skill",
+				title: "Unlock Steel sword",
+				icon: {
+					id: "immersiveengineering:sword_steel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "combat",
+				requiredLevel: 30.0d
+			}],
+			rewards: [{
+				id: 1047,
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			title: "Reach woodcutting level 10",
+			icon: {
+				id: "minecraft:iron_axe",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 0.0d,
+			id: 1268,
+			tasks: [{
+				id: 1269,
+				type: "pmmo:skill",
+				title: "Unlock iron axe",
+				icon: {
+					id: "minecraft:iron_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "woodcutting",
+				requiredLevel: 10.0d
+			}],
+			rewards: [{
+				id: 1481,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			title: "Reach woodcutting level 20",
+			icon: {
+				id: "immersiveengineering:axe_steel",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 1.0d,
+			id: 1270,
+			tasks: [{
+				id: 1271,
+				type: "pmmo:skill",
+				title: "Unlock steel axe",
+				icon: {
+					id: "immersiveengineering:axe_steel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "woodcutting",
+				requiredLevel: 20.0d
+			}],
+			rewards: [{
+				id: 2089,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach woodcutting level 40",
+			icon: {
+				id: "minecraft:diamond_axe",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 2.0d,
+			id: 1272,
+			tasks: [{
+				id: 1273,
+				type: "pmmo:skill",
+				title: "Unlock diamond axe",
+				icon: {
+					id: "minecraft:diamond_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "woodcutting",
+				requiredLevel: 40.0d
+			}],
+			rewards: [{
+				id: 2088,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach woodcutting level 60",
+			icon: {
+				id: "minecraft:netherite_axe",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 3.0d,
+			id: 1274,
+			tasks: [{
+				id: 1275,
+				type: "pmmo:skill",
+				title: "Unlock netherite axe",
+				icon: {
+					id: "minecraft:netherite_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "woodcutting",
+				requiredLevel: 60.0d
+			}],
+			rewards: [{
+				id: 2087,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach woodcutting level 3",
+			icon: {
+				id: "minecraft:stone_axe",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: -1.0d,
+			id: 1276,
+			tasks: [{
+				id: 1277,
+				type: "pmmo:skill",
+				title: "Unlock stone axe",
+				icon: {
+					id: "minecraft:stone_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "woodcutting",
+				requiredLevel: 3.0d
+			}]
+		},
+		{
+			title: "Reach endurance level 5",
+			x: 0.0d,
+			y: -1.0d,
+			id: 1686,
+			tasks: [{
+				id: 1687,
+				type: "pmmo:skill",
+				title: "Unlock leather armor",
+				icon: {
+					id: "minecraft:leather_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "endurance",
+				requiredLevel: 5.0d
+			}],
+			rewards: [{
+				id: 2095,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 10",
+			x: 0.0d,
+			y: 0.0d,
+			id: 1688,
+			tasks: [{
+				id: 1689,
+				type: "pmmo:skill",
+				title: "Unlock iron armor",
+				icon: {
+					id: "minecraft:iron_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "endurance",
+				requiredLevel: 10.0d
+			}],
+			rewards: [{
+				id: 2090,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 15",
+			x: 0.0d,
+			y: 1.0d,
+			id: 1690,
+			tasks: [{
+				id: 1691,
+				type: "pmmo:skill",
+				title: "Unlock chainmail armor",
+				icon: {
+					id: "minecraft:chainmail_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "endurance",
+				requiredLevel: 15.0d
+			}],
+			rewards: [{
+				id: 2091,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 20",
+			x: 0.0d,
+			y: 2.0d,
+			id: 1692,
+			tasks: [{
+				id: 1693,
+				type: "pmmo:skill",
+				title: "Unlock steel armor",
+				icon: {
+					id: "immersiveengineering:armor_steel_chest",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "endurance",
+				requiredLevel: 20.0d
+			}],
+			rewards: [{
+				id: 2092,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 40",
+			x: 0.0d,
+			y: 4.0d,
+			id: 1694,
+			tasks: [{
+				id: 1695,
+				type: "pmmo:skill",
+				title: "Unlock diamond armor",
+				icon: {
+					id: "minecraft:diamond_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 40.0d
+			}],
+			rewards: [{
+				id: 2093,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 60",
+			x: 0.0d,
+			y: 5.0d,
+			id: 1696,
+			tasks: [{
+				id: 1697,
+				type: "pmmo:skill",
+				title: "Unlock netherite armor",
+				icon: {
+					id: "minecraft:netherite_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 60.0d
+			}],
+			rewards: [{
+				id: 2094,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Endurance level 28",
+			x: 0.0d,
+			y: 3.0d,
+			id: 2096,
+			tasks: [{
+				id: 2097,
+				type: "pmmo:skill",
+				title: "Unlock terminite armor",
+				icon: {
+					id: "betterendforge:terminite_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "endurance",
+				requiredLevel: 28.0d
+			}]
+		},
+		{
+			title: "Reach Endurance level 70",
+			x: 0.0d,
+			y: 6.0d,
+			id: 2098,
+			tasks: [{
+				id: 2099,
+				type: "pmmo:skill",
+				title: "Unlock Aeternium armor",
+				icon: {
+					id: "betterendforge:aeternium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "endurance",
+				requiredLevel: 70.0d
+			}]
+		},
+		{
+			title: "Reach mining level 45",
+			x: -4.5d,
+			y: 3.0d,
+			id: 2100,
+			tasks: [{
+				id: 2101,
+				type: "pmmo:skill",
+				title: "Unlock terminite pickaxe",
+				icon: {
+					id: "betterendforge:terminite_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 43.0d
+			}]
+		},
+		{
+			title: "Reach mining level 50",
+			x: -4.5d,
+			y: 4.0d,
+			id: 2102,
+			tasks: [{
+				id: 2103,
+				type: "pmmo:skill",
+				title: "Unlock aeternium pickaxe",
+				icon: {
+					id: "betterendforge:aeternium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "mining",
+				requiredLevel: 50.0d
+			}]
+		},
+		{
+			title: "Reach combat level 45",
+			x: -3.0d,
+			y: 3.0d,
+			id: 2104,
+			tasks: [{
+				id: 2105,
+				type: "pmmo:skill",
+				title: "Unlock terminite sword",
+				icon: {
+					id: "betterendforge:terminite_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "combat",
+				requiredLevel: 45.0d
+			}]
+		},
+		{
+			title: "Reach combat level 50",
+			x: -3.0d,
+			y: 4.0d,
+			id: 2106,
+			tasks: [{
+				id: 2107,
+				type: "pmmo:skill",
+				title: "Unlock aeternium sword",
+				icon: {
+					id: "betterendforge:aeternium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				skill: "combat",
+				requiredLevel: 50.0d
+			}]
+		}
+	]
+}

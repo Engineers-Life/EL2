@@ -1,0 +1,810 @@
+{
+	id: 283,
+	filename: "advanced_storage",
+	order_index: 8,
+	title: "Advanced storage",
+	icon: "refinedstorage:controller",
+	default_quest_shape: "square",
+	quests: [
+		{
+			x: 0.5d,
+			y: 1.0d,
+			id: 633,
+			tasks: [{
+				id: 634,
+				type: "item",
+				item: "refinedstorage:quartz_enriched_iron"
+			}],
+			rewards: [
+				{
+					id: 1387,
+					type: "item",
+					item: "minecraft:redstone",
+					random_bonus: 4
+				},
+				{
+					id: 1388,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					random_bonus: 3
+				},
+				{
+					id: 1389,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 2,
+					random_bonus: 3
+				},
+				{
+					id: 1390,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			dependencies: [I;633],
+			id: 635,
+			tasks: [{
+				id: 636,
+				type: "item",
+				item: "refinedstorage:silicon"
+			}],
+			rewards: [
+				{
+					id: 1385,
+					type: "item",
+					item: "minecraft:redstone"
+				},
+				{
+					id: 1391,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			dependencies: [I;635],
+			id: 637,
+			tasks: [{
+				id: 638,
+				type: "item",
+				item: "refinedstorage:controller"
+			}],
+			rewards: [
+				{
+					id: 1189,
+					type: "item",
+					item: "spareparts:coins/iron_coin"
+				},
+				{
+					id: 1386,
+					type: "random",
+					table: 1
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 3.0d,
+			dependencies: [I;637],
+			id: 639,
+			tasks: [{
+				id: 640,
+				type: "item",
+				item: "refinedstorage:grid"
+			}],
+			rewards: [{
+				id: 1362,
+				type: "choice",
+				table: 0
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 3.0d,
+			dependencies: [I;639],
+			id: 641,
+			tasks: [{
+				id: 642,
+				type: "item",
+				item: "refinedstorage:crafting_grid"
+			}],
+			rewards: [
+				{
+					id: 1361,
+					type: "random",
+					table: 0
+				},
+				{
+					id: 1395,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -2.0d,
+			dependencies: [I;708],
+			id: 643,
+			tasks: [{
+				id: 644,
+				type: "item",
+				item: "refinedstorage:processor_binding"
+			}],
+			rewards: [{
+				id: 1333,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.0d,
+			dependencies: [I;643],
+			id: 645,
+			tasks: [{
+				id: 646,
+				type: "item",
+				item: "refinedstorage:basic_processor"
+			}],
+			rewards: [{
+				id: 1197,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -2.0d,
+			dependencies: [I;643],
+			id: 647,
+			tasks: [{
+				id: 648,
+				type: "item",
+				item: "refinedstorage:improved_processor"
+			}],
+			rewards: [{
+				id: 1199,
+				type: "item",
+				item: "spareparts:coins/golden_coin"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -4.0d,
+			dependencies: [I;643],
+			id: 649,
+			tasks: [{
+				id: 650,
+				type: "item",
+				item: "refinedstorage:advanced_processor"
+			}],
+			rewards: [{
+				id: 1200,
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -3.0d,
+			dependencies: [I;645],
+			id: 651,
+			tasks: [{
+				id: 652,
+				type: "item",
+				item: "refinedstorage:4k_storage_disk"
+			}],
+			rewards: [
+				{
+					id: 1338,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 2,
+					random_bonus: 3
+				},
+				{
+					id: 1339,
+					type: "item",
+					item: "randomite:randomite_ore",
+					random_bonus: 1
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			dependencies: [I;647],
+			id: 655,
+			tasks: [{
+				id: 656,
+				type: "item",
+				item: "refinedstorage:16k_storage_disk"
+			}],
+			rewards: [
+				{
+					id: 1341,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 2,
+					random_bonus: 4
+				},
+				{
+					id: 1342,
+					type: "item",
+					item: "minecraft:redstone",
+					count: 2,
+					random_bonus: 6
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			dependencies: [I;645],
+			id: 657,
+			tasks: [{
+				id: 658,
+				type: "item",
+				item: "refinedstorage:256k_fluid_storage_disk"
+			}],
+			rewards: [{
+				id: 1337,
+				type: "item",
+				item: "minecraft:iron_ingot",
+				count: 2,
+				random_bonus: 2
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -3.0d,
+			dependencies: [I;647],
+			id: 659,
+			tasks: [{
+				id: 660,
+				type: "item",
+				item: "refinedstorage:1024k_fluid_storage_disk"
+			}],
+			rewards: [
+				{
+					id: 1340,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 2,
+					random_bonus: 3
+				},
+				{
+					id: 1343,
+					type: "item",
+					item: "minecraft:redstone",
+					count: 2,
+					random_bonus: 4
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -5.0d,
+			dependencies: [I;649],
+			id: 661,
+			tasks: [{
+				id: 662,
+				type: "item",
+				item: "refinedstorage:4096k_fluid_storage_disk"
+			}],
+			rewards: [{
+				id: 1334,
+				type: "item",
+				item: "spareparts:valuable_shard"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.0d,
+			dependencies: [I;649],
+			id: 663,
+			tasks: [{
+				id: 664,
+				type: "item",
+				item: "refinedstorage:64k_storage_disk"
+			}],
+			rewards: [{
+				id: 1331,
+				type: "item",
+				item: "spareparts:valuable_shard"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 1.0d,
+			dependencies: [I;637],
+			id: 665,
+			tasks: [{
+				id: 666,
+				type: "item",
+				item: "refinedstorage:cable"
+			}],
+			rewards: [
+				{
+					id: 1377,
+					type: "item",
+					item: "minecraft:redstone"
+				},
+				{
+					id: 1378,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: 0.0d,
+			dependencies: [I;665],
+			id: 667,
+			tasks: [{
+				id: 668,
+				type: "item",
+				item: "refinedstorage:exporter"
+			}],
+			rewards: [
+				{
+					id: 1379,
+					type: "item",
+					item: "minecraft:redstone"
+				},
+				{
+					id: 1380,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				}
+			]
+		},
+		{
+			x: 10.5d,
+			y: 0.0d,
+			dependencies: [I;665],
+			id: 669,
+			tasks: [{
+				id: 670,
+				type: "item",
+				item: "refinedstorage:importer"
+			}],
+			rewards: [{
+				id: 2040,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 2.0d,
+			dependencies: [I;665],
+			id: 671,
+			tasks: [{
+				id: 672,
+				type: "item",
+				item: "refinedstorage:external_storage"
+			}],
+			rewards: [{
+				id: 2041,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 2.0d,
+			dependencies: [I;665],
+			id: 673,
+			tasks: [{
+				id: 674,
+				type: "item",
+				item: "refinedstorage:storage_monitor"
+			}],
+			rewards: [{
+				id: 1528,
+				type: "random",
+				table: 2
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			dependencies: [I;641],
+			id: 675,
+			tasks: [{
+				id: 676,
+				type: "item",
+				item: {
+					id: "refinedstorage:portable_grid",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 1394,
+					type: "item",
+					item: "minecraft:redstone",
+					random_bonus: 5
+				},
+				{
+					id: 2044,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_iii_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 4.0d,
+			dependencies: [I;639],
+			id: 677,
+			tasks: [{
+				id: 678,
+				type: "item",
+				item: "refinedstorage:fluid_grid"
+			}],
+			rewards: [{
+				id: 2045,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 3.0d,
+			dependencies: [I;683],
+			id: 679,
+			tasks: [{
+				id: 680,
+				type: "item",
+				item: "refinedstorage:pattern_grid"
+			}],
+			rewards: [{
+				id: 2042,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 4.0d,
+			dependencies: [I;683],
+			id: 681,
+			tasks: [{
+				id: 682,
+				type: "item",
+				item: "refinedstorage:crafter_manager"
+			}],
+			rewards: [{
+				id: 1365,
+				type: "choice",
+				table: 0
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 3.0d,
+			dependencies: [I;639],
+			id: 683,
+			tasks: [{
+				id: 684,
+				type: "item",
+				item: "refinedstorage:crafter"
+			}],
+			rewards: [{
+				id: 2043,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 3.0d,
+			dependencies: [I;679],
+			id: 685,
+			tasks: [{
+				id: 686,
+				type: "item",
+				item: "refinedstorage:pattern"
+			}],
+			rewards: [{
+				id: 1354,
+				type: "random",
+				table: 0
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -4.0d,
+			dependencies: [I;649],
+			id: 687,
+			tasks: [{
+				id: 688,
+				type: "item",
+				item: "refinedstorage:security_card"
+			}],
+			rewards: [{
+				id: 1335,
+				type: "item",
+				item: "randomite:randomite_ore",
+				random_bonus: 3
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -4.0d,
+			dependencies: [I;687],
+			id: 689,
+			tasks: [{
+				id: 690,
+				type: "item",
+				item: "refinedstorage:security_manager"
+			}],
+			rewards: [{
+				id: 1336,
+				type: "item",
+				item: "minecraft:gold_ingot",
+				count: 2,
+				random_bonus: 1
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -1.0d,
+			dependencies: [I;647],
+			id: 691,
+			tasks: [{
+				id: 692,
+				type: "item",
+				item: "refinedstorage:upgrade"
+			}],
+			rewards: [
+				{
+					id: 1344,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 2,
+					random_bonus: 4
+				},
+				{
+					id: 1345,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 0.0d,
+			dependencies: [I;691],
+			id: 693,
+			tasks: [{
+				id: 694,
+				type: "item",
+				item: "refinedstorage:stack_upgrade"
+			}],
+			rewards: [{
+				id: 1347,
+				type: "item",
+				item: "minecraft:gold_ingot",
+				count: 2,
+				random_bonus: 2
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -1.0d,
+			dependencies: [I;691],
+			id: 695,
+			tasks: [{
+				id: 696,
+				type: "item",
+				item: "refinedstorage:speed_upgrade"
+			}],
+			rewards: [{
+				id: 1346,
+				type: "item",
+				item: "minecraft:redstone",
+				count: 2,
+				random_bonus: 4
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 6.0d,
+			dependencies: [I;639],
+			id: 697,
+			tasks: [{
+				id: 698,
+				type: "item",
+				item: "refinedstorage:wireless_transmitter"
+			}],
+			rewards: [
+				{
+					id: 1382,
+					type: "item",
+					item: "minecraft:redstone"
+				},
+				{
+					id: 1383,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 6.0d,
+			dependencies: [I;697],
+			id: 699,
+			tasks: [{
+				id: 700,
+				type: "item",
+				item: "refinedstorage:range_upgrade"
+			}],
+			rewards: [
+				{
+					id: 1381,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				},
+				{
+					id: 1384,
+					type: "item",
+					item: "minecraft:redstone"
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 7.0d,
+			dependencies: [I;697],
+			id: 701,
+			tasks: [{
+				id: 702,
+				type: "item",
+				item: "refinedstorage:wireless_fluid_grid"
+			}],
+			rewards: [
+				{
+					id: 1349,
+					type: "item",
+					item: "spareparts:coins/iron_coin"
+				},
+				{
+					id: 1353,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 7.0d,
+			dependencies: [I;697],
+			id: 703,
+			tasks: [{
+				id: 704,
+				type: "item",
+				item: "refinedstorage:wireless_crafting_monitor"
+			}],
+			rewards: [
+				{
+					id: 1350,
+					type: "item",
+					item: "spareparts:coins/golden_coin"
+				},
+				{
+					id: 1351,
+					type: "item",
+					item: "minecraft:diamond",
+					random_bonus: 1
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 6.0d,
+			dependencies: [I;697],
+			id: 705,
+			tasks: [
+				{
+					id: 706,
+					type: "item",
+					item: "refinedstorage:network_transmitter"
+				},
+				{
+					id: 707,
+					type: "item",
+					item: "refinedstorage:network_receiver"
+				}
+			],
+			rewards: [
+				{
+					id: 1348,
+					type: "item",
+					item: "spareparts:coins/golden_coin"
+				},
+				{
+					id: 1352,
+					type: "item",
+					item: "spareparts:valuable_shard"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -1.0d,
+			dependencies: [I;637],
+			id: 708,
+			tasks: [{
+				id: 709,
+				type: "item",
+				item: "refinedstorage:disk_drive"
+			}],
+			rewards: [
+				{
+					id: 1392,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					random_bonus: 3
+				},
+				{
+					id: 1393,
+					type: "item",
+					item: "minecraft:redstone",
+					random_bonus: 3
+				}
+			]
+		}
+	]
+}

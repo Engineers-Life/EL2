@@ -1,0 +1,3 @@
+#Enables loose rock world gen added automatically to biomes.
+enableLooseRocksWorldGen = true
+

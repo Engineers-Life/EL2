@@ -1,0 +1,555 @@
+{
+	id: 1775,
+	filename: "peaceful_atom",
+	order_index: 7,
+	title: "Peaceful atom",
+	icon: "bigreactors:basic_reactorfuelrod",
+	default_quest_shape: "octagon",
+	quests: [
+		{
+			x: -1.5d,
+			y: -1.5d,
+			description: [
+				"You probably already got some Yellorium ores laying around... Why not put them to use?",
+				"Let's build a simple reactor!",
+				"",
+				"To process Yellorium ingots you need Arc Furnace",
+				"(for some recipes you can use Uranium from Immersive Engineering mod)"
+			],
+			id: 1776,
+			tasks: [
+				{
+					id: 1777,
+					type: "item",
+					item: "bigreactors:yellorium_ingot"
+				},
+				{
+					id: 1892,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2013,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: [I;1787],
+			id: 1781,
+			tasks: [{
+				id: 1782,
+				type: "item",
+				item: "bigreactors:basic_reactorglass",
+				count: 33L
+			}],
+			rewards: [{
+				id: 2050,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: [I;1785],
+			id: 1783,
+			tasks: [{
+				id: 1784,
+				type: "item",
+				item: "bigreactors:basic_reactorfuelrod",
+				count: 15L
+			}],
+			rewards: [{
+				id: 2052,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			dependencies: [I;1781],
+			id: 1785,
+			tasks: [{
+				id: 1786,
+				type: "item",
+				item: "bigreactors:basic_reactorcontrolrod",
+				count: 5L
+			}],
+			rewards: [{
+				id: 2051,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: [I;1791],
+			id: 1787,
+			tasks: [{
+				id: 1788,
+				type: "item",
+				item: "bigreactors:basic_reactorcasing",
+				count: 57L
+			}],
+			rewards: [{
+				id: 2049,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -1.5d,
+			dependencies: [I;1783],
+			id: 1789,
+			tasks: [{
+				id: 1790,
+				type: "item",
+				item: "bigreactors:basic_reactorsolidaccessport",
+				count: 2L
+			}],
+			rewards: [{
+				id: 2053,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			dependencies: [I;1849],
+			id: 1791,
+			tasks: [{
+				id: 1792,
+				type: "item",
+				item: "bigreactors:basic_reactorcontroller"
+			}],
+			rewards: [{
+				id: 2048,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.5d,
+			dependencies: [I;1789],
+			id: 1793,
+			tasks: [{
+				id: 1794,
+				type: "item",
+				item: "bigreactors:basic_reactorpowertapfe_active"
+			}],
+			rewards: [
+				{
+					id: 2054,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				},
+				{
+					id: 2055,
+					type: "item",
+					item: "spareparts:coins/copper_coin"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			dependencies: [I;1851],
+			id: 1795,
+			tasks: [{
+				id: 1796,
+				type: "item",
+				item: "bigreactors:reinforced_reactorcontroller"
+			}],
+			rewards: [{
+				id: 2058,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.5d,
+			dependencies: [I;1795],
+			id: 1797,
+			tasks: [{
+				id: 1798,
+				type: "item",
+				item: "bigreactors:reinforced_reactorcasing"
+			}],
+			rewards: [{
+				id: 2063,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.5d,
+			dependencies: [I;1803],
+			id: 1799,
+			tasks: [{
+				id: 1800,
+				type: "item",
+				item: "bigreactors:reinforced_reactorfuelrod"
+			}],
+			rewards: [{
+				id: 2060,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.5d,
+			dependencies: [I;1797],
+			id: 1801,
+			tasks: [{
+				id: 1802,
+				type: "item",
+				item: "bigreactors:reinforced_reactorglass"
+			}],
+			rewards: [{
+				id: 2062,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.5d,
+			dependencies: [I;1801],
+			id: 1803,
+			tasks: [{
+				id: 1804,
+				type: "item",
+				item: "bigreactors:reinforced_reactorcontrolrod"
+			}],
+			rewards: [{
+				id: 2061,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 0.5d,
+			dependencies: [I;1807],
+			id: 1805,
+			tasks: [{
+				id: 1806,
+				type: "item",
+				item: "bigreactors:reinforced_reactorfluidport_forge_active"
+			}],
+			rewards: [{
+				id: 2056,
+				type: "item",
+				item: "spareparts:coins/iron_coin"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 0.5d,
+			dependencies: [I;1799],
+			id: 1807,
+			tasks: [{
+				id: 1808,
+				type: "item",
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+			}],
+			rewards: [{
+				id: 2059,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			dependencies: [I;1813],
+			id: 1809,
+			tasks: [{
+				id: 1810,
+				type: "item",
+				item: "bigreactors:basic_turbinecasing"
+			}],
+			rewards: [{
+				id: 2069,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.5d,
+			dependencies: [I;1809],
+			id: 1811,
+			tasks: [{
+				id: 1812,
+				type: "item",
+				item: "bigreactors:basic_turbineglass"
+			}],
+			rewards: [{
+				id: 2068,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 2.5d,
+			dependencies: [I;1805],
+			id: 1813,
+			tasks: [{
+				id: 1814,
+				type: "item",
+				item: "bigreactors:basic_turbinecontroller"
+			}],
+			rewards: [{
+				id: 2070,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.5d,
+			dependencies: [I;1811],
+			id: 1815,
+			tasks: [{
+				id: 1816,
+				type: "item",
+				item: "bigreactors:basic_turbinerotorbearing"
+			}],
+			rewards: [{
+				id: 2067,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 2.5d,
+			dependencies: [I;1815],
+			id: 1817,
+			tasks: [{
+				id: 1818,
+				type: "item",
+				item: "bigreactors:basic_turbinerotorshaft"
+			}],
+			rewards: [{
+				id: 2066,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.5d,
+			dependencies: [I;1817],
+			id: 1819,
+			tasks: [{
+				id: 1820,
+				type: "item",
+				item: "bigreactors:basic_turbinerotorblade"
+			}],
+			rewards: [{
+				id: 2065,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			dependencies: [I;1819],
+			id: 1821,
+			tasks: [{
+				id: 1822,
+				type: "item",
+				item: "bigreactors:basic_turbinepowertapfe_active"
+			}],
+			rewards: [
+				{
+					id: 2057,
+					type: "item",
+					item: "spareparts:coins/golden_coin"
+				},
+				{
+					id: 2064,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_iii_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			subtitle: "Follow this route if you want to learn about the basics of the reactors and need cheap solution for your early game energy",
+			dependencies: [I;1776],
+			id: 1849,
+			tasks: [{
+				id: 1850,
+				type: "checkmark",
+				title: "Basic route"
+			}],
+			rewards: [{
+				id: 2046,
+				type: "item",
+				item: "pamhc2foodextended:lemonjuiceitem"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.5d,
+			subtitle: "Follow this route if you have a large amount of resources and want to jump straight to insane power generation. After completing you can begin building your Turbines right away.",
+			description: ["With reinforced reactors you can generate Vapor(steam) which is needed to run Turbines."],
+			dependencies: [I;1776],
+			id: 1851,
+			tasks: [{
+				id: 1852,
+				type: "checkmark",
+				title: "Advanced route"
+			}],
+			rewards: [{
+				id: 2047,
+				type: "item",
+				item: "simplefarming:candy_cane"
+			}]
+		}
+	]
+}

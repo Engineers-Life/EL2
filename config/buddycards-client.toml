@@ -1,0 +1,43 @@
+
+[mobDrops]
+	#
+	#Odds of baby villager dropping base set packs, 0 for 0%, 1 for 100%, default is 20%
+	#Range: 0.0 ~ 1.0
+	villagerChance = 0.2
+	#
+	#Odds of baby piglin dropping nether set packs, 0 for 0%, 1 for 100%, default is 20%
+	#Range: 0.0 ~ 1.0
+	piglinChance = 0.2
+	#
+	#Odds of ender dragons dropping end set packs, 0 for 0%, 1 for 100%, default is 100%
+	#Range: 0.0 ~ 1.0
+	dragonChance = 1.0
+	#
+	#Odds of baby zombie villager dropping base set packs, 0 for 0%, 1 for 100%, default is 40%
+	#Range: 0.0 ~ 1.0
+	zombieVillagerChance = 0.4
+	#
+	#Odds of baby zombie dropping base set packs, 0 for 0%, 1 for 100%, default is 20%
+	#Range: 0.0 ~ 1.0
+	zombieChance = 0.2
+	#
+	#Odds of baby zombie piglin dropping nether set , 0 for 0%, 1 for 100%, default is 20%
+	#Range: 0.0 ~ 1.0
+	zombiePiglinChance = 0.2
+	#
+	#Odds of shulkers dropping end set packs, 0 for 0%, 1 for 100%, default is 5%
+	#Range: 0.0 ~ 1.0
+	shulkerChance = 0.05
+	#
+	#Maximum amount of packs dropped when a dragon drops packs, default is 4
+	#Range: 1 ~ 16
+	dragonMaxPacks = 4
+
+[lootTables]
+	#
+	#Allow packs to be obtained through Piglin bartering, default is true
+	piglinBartering = true
+	#
+	#Allow natural generation of packs in loot chests, default is true
+	lootChestPacks = true
+

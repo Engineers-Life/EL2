@@ -1,0 +1,399 @@
+{
+	id: 1855,
+	filename: "transportation",
+	order_index: 9,
+	title: "Transportation",
+	icon: "minecraft:powered_rail",
+	default_quest_shape: "rsquare",
+	quests: [
+		{
+			x: -4.0d,
+			y: -1.0d,
+			dependencies: [I;1884],
+			id: 1856,
+			tasks: [{
+				id: 1857,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "transport:guide"
+					}
+				}
+			}],
+			rewards: [{
+				id: 2078,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.0d,
+			dependencies: [I;1856],
+			id: 1858,
+			tasks: [{
+				id: 1859,
+				type: "item",
+				item: "transport:rail_workers_bench"
+			}],
+			rewards: [{
+				id: 2079,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			dependencies: [I;1858],
+			id: 1860,
+			tasks: [{
+				id: 1861,
+				type: "item",
+				item: "transport:rail_breaker"
+			}],
+			rewards: [{
+				id: 2080,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.0d,
+			dependencies: [I;1858],
+			id: 1862,
+			tasks: [{
+				id: 1863,
+				type: "item",
+				item: "transport:module_configurator"
+			}],
+			rewards: [{
+				id: 2077,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			dependencies: [I;1862],
+			id: 1864,
+			tasks: [{
+				id: 1865,
+				type: "item",
+				item: "transport:cargo_minecart"
+			}],
+			rewards: [{
+				id: 2075,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;1860],
+			id: 1866,
+			tasks: [
+				{
+					id: 1867,
+					type: "item",
+					item: "transport:fluid_loader"
+				},
+				{
+					id: 1868,
+					type: "item",
+					item: "transport:item_loader"
+				}
+			],
+			rewards: [{
+				id: 2081,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			dependencies: [I;1860],
+			id: 1869,
+			tasks: [
+				{
+					id: 1870,
+					type: "item",
+					item: "transport:switch_rail"
+				},
+				{
+					id: 1871,
+					type: "item",
+					item: "transport:wye_switch_rail"
+				},
+				{
+					id: 1875,
+					type: "item",
+					item: "transport:diamond_crossing_rail"
+				}
+			],
+			rewards: [{
+				id: 2085,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			dependencies: [I;1858],
+			id: 1872,
+			tasks: [
+				{
+					id: 1873,
+					type: "item",
+					item: "transport:elevator_switch_rail"
+				},
+				{
+					id: 1874,
+					type: "item",
+					item: "transport:scaffolding_rail"
+				}
+			],
+			rewards: [{
+				id: 2083,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			dependencies: [I;1858],
+			id: 1876,
+			tasks: [{
+				id: 1877,
+				type: "item",
+				item: "transport:holding_rail"
+			}],
+			rewards: [{
+				id: 2086,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			dependencies: [I;1860],
+			id: 1878,
+			tasks: [{
+				id: 1879,
+				type: "item",
+				item: "transport:bumper_rail"
+			}],
+			rewards: [{
+				id: 2082,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: [I;1860],
+			id: 1880,
+			tasks: [{
+				id: 1881,
+				type: "item",
+				item: "transport:timed_holding_rail"
+			}],
+			rewards: [{
+				id: 2084,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.0d,
+			dependencies: [I;1860],
+			id: 1882,
+			tasks: [{
+				id: 1883,
+				type: "item",
+				item: "transport:steam_locomotive"
+			}],
+			rewards: [{
+				id: 2076,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.0d,
+			id: 1884,
+			tasks: [{
+				id: 1885,
+				type: "item",
+				item: "minecraft:rail"
+			}],
+			rewards: [{
+				id: 2074,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.0d,
+			dependencies: [I;1884],
+			id: 1886,
+			tasks: [{
+				id: 1887,
+				type: "stat",
+				icon: "minecraft:minecart",
+				stat: "minecraft:minecart_one_cm",
+				value: 1000000
+			}],
+			rewards: [{
+				id: 2073,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -4.0d,
+			dependencies: [I;1886],
+			id: 1888,
+			tasks: [{
+				id: 1889,
+				type: "stat",
+				icon: "minecraft:chest_minecart",
+				stat: "minecraft:minecart_one_cm",
+				value: 2000000
+			}],
+			rewards: [{
+				id: 2072,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			dependencies: [I;1888],
+			id: 1890,
+			tasks: [{
+				id: 1891,
+				type: "stat",
+				icon: "minecraft:furnace_minecart",
+				stat: "minecraft:minecart_one_cm",
+				value: 3000000
+			}],
+			rewards: [{
+				id: 2071,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
+			}]
+		}
+	]
+}

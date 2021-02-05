@@ -1,0 +1,245 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = background
+}
+
+customization {
+  path = config/fancymenu/animations/factory.jpg
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-left
+  x = 1
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -182
+}
+
+customization {
+  identifier = %id=400298%
+  width = 200
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal_sp.png
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -155
+}
+
+customization {
+  identifier = %id=400322%
+  width = 200
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-centered
+  x = 6
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=502382%
+  width = 94
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover_q.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -12
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=376382%
+  width = 16
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = L
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -128
+}
+
+customization {
+  identifier = %id=400346%
+  width = 99
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=400382%
+  width = 86
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  orientation = top-centered
+  name = gears
+  x = -153
+  width = 158
+  action = addanimation
+  y = 8
+  height = 191
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = 1
+  width = 99
+  action = addbutton
+  y = -128
+  backgroundhovered = config/fancymenu/button_hover.png
+  label = Discord
+  backgroundnormal = config/fancymenu/button_normal.png
+  value = https://discord.gg/sTm7QKNUEN
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -100
+  width = 200
+  action = addbutton
+  y = -106
+  backgroundhovered = config/fancymenu/button_hover.png
+  label = Modpack's Progression Guide
+  backgroundnormal = config/fancymenu/button_normal.png
+  value = https://docs.google.com/document/d/1ElYPkXnZbW2bl2eL9kO3SJioGR0tnblWSHVwg-U0s9A/edit?usp=sharing
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = powered by Bisecthosting!
+  buttonaction = openlink
+  x = -100
+  width = 200
+  action = addbutton
+  y = -84
+  backgroundhovered = config/fancymenu/button_hover.png
+  label = Support the creator - rent a server
+  backgroundnormal = config/fancymenu/button_normal.png
+  value = https://bisecthosting.com/xdreamz
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/logo.png
+  orientation = top-centered
+  x = -151
+  width = 303
+  action = addtexture
+  y = 0
+  height = 195
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -58
+  width = 116
+  action = addbutton
+  y = -32
+  backgroundhovered = config/fancymenu/vertical_dark_text_hover.png
+  label = 
+  backgroundnormal = config/fancymenu/vertical_dark_text.png
+  value = https://bisecthosting.com/xdreamz
+  height = 32
+}
+

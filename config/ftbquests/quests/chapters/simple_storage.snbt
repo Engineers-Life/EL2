@@ -1,0 +1,235 @@
+{
+	id: 282,
+	filename: "simple_storage",
+	order_index: 5,
+	title: "Simple Storage Solutions",
+	icon: "storagenetwork:master",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: -1.0d,
+			dependencies: [I;423],
+			id: 417,
+			tasks: [{
+				id: 418,
+				type: "item",
+				item: "storagenetwork:master"
+			}],
+			rewards: [{
+				id: 1193,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.0d,
+			dependencies: [I;421],
+			id: 419,
+			tasks: [{
+				id: 420,
+				type: "item",
+				item: "storagenetwork:storage_kabel"
+			}],
+			rewards: [
+				{
+					id: 1196,
+					type: "item",
+					item: "spareparts:coins/copper_coin"
+				},
+				{
+					id: 1202,
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: 2039,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -1.0d,
+			dependencies: [I;425],
+			id: 421,
+			tasks: [{
+				id: 422,
+				type: "item",
+				item: "storagenetwork:request"
+			}],
+			rewards: [
+				{
+					id: 1195,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: 1201,
+					type: "item",
+					item: "minecraft:emerald"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			id: 423,
+			tasks: [{
+				id: 424,
+				type: "item",
+				item: "storagenetwork:kabel"
+			}],
+			rewards: [{
+				id: 1192,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.0d,
+			dependencies: [I;417],
+			id: 425,
+			tasks: [{
+				id: 426,
+				type: "item",
+				item: "storagenetwork:inventory"
+			}],
+			rewards: [
+				{
+					id: 1194,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 2038,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_i_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			id: 427,
+			tasks: [{
+				id: 428,
+				type: "item",
+				item: "ironchest:iron_chest"
+			}],
+			rewards: [{
+				id: 1120,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			dependencies: [I;427],
+			id: 429,
+			tasks: [{
+				id: 430,
+				type: "item",
+				item: "ironchest:gold_chest"
+			}],
+			rewards: [{
+				id: 1121,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.0d,
+			dependencies: [I;429],
+			id: 431,
+			tasks: [{
+				id: 432,
+				type: "item",
+				item: "ironchest:diamond_chest"
+			}],
+			rewards: [{
+				id: 1122,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.0d,
+			dependencies: [I;431],
+			id: 433,
+			tasks: [{
+				id: 434,
+				type: "item",
+				item: "ironchest:obsidian_chest"
+			}],
+			rewards: [{
+				id: 1203,
+				type: "item",
+				item: "minecraft:emerald"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.0d,
+			id: 1893,
+			tasks: [{
+				id: 1894,
+				type: "item",
+				item: "buildersaddition:cabinet_oak"
+			}],
+			rewards: [{
+				id: 1899,
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.0d,
+			id: 1895,
+			tasks: [{
+				id: 1896,
+				type: "item",
+				item: "buildersaddition:cupboard_acacia"
+			}],
+			rewards: [{
+				id: 1900,
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -5.0d,
+			id: 1897,
+			tasks: [{
+				id: 1898,
+				type: "item",
+				item: "buildersaddition:counter_birch_blackstone"
+			}],
+			rewards: [{
+				id: 1901,
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
+			}]
+		}
+	]
+}

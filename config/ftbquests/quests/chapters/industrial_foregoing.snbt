@@ -1,0 +1,543 @@
+{
+	id: 1243,
+	filename: "industrial_foregoing",
+	order_index: 6,
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:block_breaker",
+	default_quest_shape: "square",
+	quests: [
+		{
+			x: 0.5d,
+			y: -1.5d,
+			id: 1244,
+			tasks: [
+				{
+					id: 1245,
+					type: "item",
+					item: "industrialforegoing:fluid_extractor"
+				},
+				{
+					id: 1579,
+					type: "item",
+					item: "industrialforegoing:latex_bucket"
+				}
+			],
+			rewards: [{
+				id: 2015,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: [I;1244],
+			id: 1246,
+			tasks: [{
+				id: 1247,
+				type: "item",
+				item: "industrialforegoing:latex_processing_unit"
+			}],
+			rewards: [{
+				id: 2016,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: [I;1246],
+			id: 1472,
+			tasks: [{
+				id: 1473,
+				type: "item",
+				item: "industrialforegoing:plastic"
+			}],
+			rewards: [{
+				id: 2017,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -2.5d,
+			dependencies: [I;1556],
+			id: 1536,
+			tasks: [{
+				id: 1537,
+				type: "item",
+				item: "industrialforegoing:animal_rancher"
+			}],
+			rewards: [{
+				id: 2027,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			dependencies: [I;1542],
+			id: 1538,
+			tasks: [{
+				id: 1539,
+				type: "item",
+				item: "industrialforegoing:mob_slaughter_factory"
+			}],
+			rewards: [{
+				id: 2025,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -3.5d,
+			dependencies: [I;1560],
+			id: 1540,
+			tasks: [
+				{
+					id: 1541,
+					type: "item",
+					item: "industrialforegoing:mob_crusher"
+				},
+				{
+					id: 1575,
+					type: "item",
+					item: "industrialforegoing:essence_bucket"
+				}
+			],
+			rewards: [
+				{
+					id: 1989,
+					type: "item",
+					item: "spareparts:coins/iron_coin"
+				},
+				{
+					id: 2022,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_i_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -2.5d,
+			dependencies: [I;1556],
+			id: 1542,
+			tasks: [{
+				id: 1543,
+				type: "item",
+				item: "industrialforegoing:animal_feeder"
+			}],
+			rewards: [{
+				id: 2026,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -3.5d,
+			dependencies: [I;1536],
+			id: 1544,
+			tasks: [{
+				id: 1545,
+				type: "item",
+				item: "industrialforegoing:animal_baby_separator"
+			}],
+			rewards: [{
+				id: 2024,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			dependencies: [I;1552],
+			id: 1546,
+			tasks: [{
+				id: 1547,
+				type: "item",
+				item: "industrialforegoing:plant_fertilizer"
+			}],
+			rewards: [{
+				id: 2033,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			dependencies: [I;1556],
+			id: 1548,
+			tasks: [{
+				id: 1549,
+				type: "item",
+				item: "industrialforegoing:plant_gatherer"
+			}],
+			rewards: [{
+				id: 2029,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -0.5d,
+			dependencies: [I;1556],
+			id: 1550,
+			tasks: [{
+				id: 1551,
+				type: "item",
+				item: "industrialforegoing:plant_sower"
+			}],
+			rewards: [{
+				id: 2030,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.5d,
+			dependencies: [I;1554],
+			id: 1552,
+			tasks: [
+				{
+					id: 1553,
+					type: "item",
+					item: "industrialforegoing:sewage_composter"
+				},
+				{
+					id: 1566,
+					type: "item",
+					item: "industrialforegoing:fertilizer"
+				}
+			],
+			rewards: [{
+				id: 2001,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -0.5d,
+			dependencies: [I;1556],
+			id: 1554,
+			tasks: [
+				{
+					id: 1555,
+					type: "item",
+					item: "industrialforegoing:sewer"
+				},
+				{
+					id: 1576,
+					type: "item",
+					item: "industrialforegoing:sewage_bucket"
+				}
+			],
+			rewards: [{
+				id: 2028,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: [I;1472],
+			id: 1556,
+			tasks: [{
+				id: 1557,
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}],
+			rewards: [{
+				id: 2018,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -1.5d,
+			dependencies: [I;1853],
+			id: 1558,
+			tasks: [{
+				id: 1559,
+				type: "item",
+				item: "industrialforegoing:machine_frame_simple"
+			}],
+			rewards: [{
+				id: 2020,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			dependencies: [I;1558],
+			id: 1560,
+			tasks: [{
+				id: 1561,
+				type: "item",
+				item: "industrialforegoing:machine_frame_advanced"
+			}],
+			rewards: [
+				{
+					id: 2000,
+					type: "item",
+					item: "spareparts:coins/iron_coin"
+				},
+				{
+					id: 2021,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 0.5d,
+			dependencies: [I;1548],
+			id: 1562,
+			tasks: [{
+				id: 1563,
+				type: "item",
+				item: "industrialforegoing:sludge_bucket"
+			}],
+			rewards: [{
+				id: 2031,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.5d,
+			dependencies: [I;1562],
+			id: 1564,
+			tasks: [{
+				id: 1565,
+				type: "item",
+				item: "industrialforegoing:sludge_refiner"
+			}],
+			rewards: [{
+				id: 2032,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -2.5d,
+			dependencies: [I;1560],
+			id: 1567,
+			tasks: [{
+				id: 1568,
+				type: "item",
+				item: "industrialforegoing:enchantment_extractor"
+			}],
+			rewards: [{
+				id: 2006,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -3.5d,
+			dependencies: [I;1540],
+			id: 1569,
+			tasks: [{
+				id: 1570,
+				type: "item",
+				item: "industrialforegoing:enchantment_factory"
+			}],
+			rewards: [{
+				id: 2004,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -4.5d,
+			dependencies: [I;1569],
+			id: 1571,
+			tasks: [{
+				id: 1572,
+				type: "item",
+				item: "industrialforegoing:enchantment_sorter"
+			}],
+			rewards: [{
+				id: 2002,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -3.5d,
+			dependencies: [I;1569],
+			id: 1573,
+			tasks: [{
+				id: 1574,
+				type: "item",
+				item: "industrialforegoing:enchantment_applicator"
+			}],
+			rewards: [{
+				id: 2003,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 0.0d,
+			dependencies: [I;1560],
+			id: 1577,
+			tasks: [{
+				id: 1578,
+				type: "item",
+				item: "industrialforegoing:potion_brewer"
+			}],
+			rewards: [{
+				id: 2023,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.5d,
+			dependencies: [I;1556],
+			id: 1853,
+			tasks: [{
+				id: 1854,
+				type: "item",
+				item: "industrialforegoing:dissolution_chamber"
+			}],
+			rewards: [{
+				id: 2019,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		}
+	]
+}
