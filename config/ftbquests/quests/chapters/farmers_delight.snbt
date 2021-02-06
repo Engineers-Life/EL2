@@ -1,13 +1,13 @@
 {
 	id: 194,
 	filename: "farmers_delight",
-	order_index: 2,
+	order_index: 4,
 	title: "Farmer's Delight",
 	icon: "simplefarming:grapes",
 	default_quest_shape: "rsquare",
 	quests: [
 		{
-			x: -0.5d,
+			x: -1.0d,
 			y: 0.0d,
 			id: 441,
 			tasks: [{
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			x: -1.0d,
+			x: -1.5d,
 			y: 1.0d,
 			dependencies: [I;441],
 			id: 443,
@@ -45,7 +45,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -3.0d,
 			y: 1.0d,
 			dependencies: [I;443],
 			id: 445,
@@ -61,7 +61,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -2.5d,
 			y: 0.0d,
 			dependencies: [I;441],
 			id: 447,
@@ -77,7 +77,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -3.5d,
 			y: 0.0d,
 			dependencies: [I;447],
 			id: 449,
@@ -93,7 +93,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -2.5d,
 			y: -1.5d,
 			dependencies: [I;441],
 			id: 451,
@@ -109,7 +109,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -2.5d,
 			y: -2.5d,
 			dependencies: [I;451],
 			id: 453,
@@ -126,7 +126,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.5d,
 			y: 0.0d,
 			dependencies: [I;
 				475,
@@ -145,7 +145,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 1.0d,
 			y: 1.0d,
 			dependencies: [I;455],
 			id: 457,
@@ -161,7 +161,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: -1.5d,
 			y: -1.5d,
 			dependencies: [I;441],
 			id: 459,
@@ -177,7 +177,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: -1.5d,
 			y: -2.5d,
 			dependencies: [I;459],
 			id: 461,
@@ -193,7 +193,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -0.5d,
 			y: 1.0d,
 			dependencies: [I;441],
 			id: 465,
@@ -209,7 +209,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -0.5d,
 			y: -1.5d,
 			dependencies: [I;441],
 			id: 467,
@@ -225,7 +225,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -0.5d,
 			y: -2.5d,
 			dependencies: [I;467],
 			id: 469,
@@ -241,7 +241,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.5d,
 			y: -1.5d,
 			dependencies: [I;441],
 			id: 471,
@@ -257,7 +257,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.5d,
 			y: -2.5d,
 			dependencies: [I;471],
 			id: 473,
@@ -273,7 +273,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 1.5d,
 			y: 0.0d,
 			id: 475,
 			tasks: [

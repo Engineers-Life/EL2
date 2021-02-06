@@ -1,7 +1,7 @@
 {
 	id: 43,
 	filename: "becoming_an_engineer",
-	order_index: 4,
+	order_index: 6,
 	title: "Becoming an Engineer",
 	icon: "engineersdecor:sign_decor",
 	default_quest_shape: "hexagon",
