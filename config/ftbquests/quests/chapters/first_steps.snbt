@@ -1,8 +1,8 @@
 {
 	id: 2,
 	filename: "first_steps",
-	order_index: 1,
-	title: "First steps",
+	order_index: 2,
+	title: "First Steps",
 	icon: {
 		id: "notreepunching:flint_axe",
 		Count: true,
@@ -13,10 +13,10 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: -4.5d,
-			y: -1.5d,
-			description: ["Leaves can be harvested without a tool for sticks (this is a vanilla feature, but will be very important here."],
-			dependencies: [I;155],
+			x: -7.0d,
+			y: -4.5d,
+			description: ["Leaves can be harvested without a tool for sticks (this is a vanilla feature, but will be very important here.)"],
+			dependencies: [I;3976],
 			id: 3,
 			tasks: [{
 				id: 4,
@@ -38,8 +38,8 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: -1.5d,
+			x: -5.5d,
+			y: -4.5d,
 			description: ["Gravel can be mined without a tool, and enables you to aquire flint."],
 			dependencies: [I;3],
 			id: 5,
@@ -63,8 +63,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: -1.5d,
+			x: -4.0d,
+			y: -4.5d,
 			description: [
 				"In order to create flint shards, necessary for flint tools, flint must be knapped. In order to do this, a piece of flint, and a stone type block is required.",
 				"",
@@ -85,8 +85,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: -1.5d,
+			x: -2.5d,
+			y: -4.5d,
 			description: [
 				"A Flint Knife can now be crafted, allowing you to harvest plant materials for plant fibers and craft plant string.",
 				"",
@@ -94,7 +94,9 @@
 				"",
 				"- When breaking grass, there is a chance that plant fiber will get produced.",
 				"- You can now break plant type blocks and receive their drops.",
-				"- The knife can be crafted with several plant produces to produce plant fiber."
+				"- The knife can be crafted with several plant produces to produce plant fiber.",
+				"",
+				"(You do not have to harvest the grass with the flint knife to get plant fibers.)"
 			],
 			dependencies: [I;8],
 			id: 10,
@@ -128,8 +130,8 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: -1.5d,
+			x: -1.0d,
+			y: -3.0d,
 			description: [
 				"A Flint Axe can enable you to collect wood and build a crafting table.",
 				"",
@@ -163,22 +165,36 @@
 			]
 		},
 		{
-			x: 3.5d,
+			title: "Flint Digging",
+			x: 2.0d,
 			y: -1.5d,
-			description: ["A Flint pickaxe, hoe and shovel will serve as early game tools, while you can create a Macuahutil for a good early game weapon."],
+			description: ["A Flint pickaxe and shovel will serve as early game excavation and mining tools."],
 			dependencies: [I;48],
 			id: 14,
-			tasks: [{
-				id: 15,
-				type: "item",
-				item: {
-					id: "notreepunching:flint_pickaxe",
-					Count: true,
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: 15,
+					type: "item",
+					item: {
+						id: "notreepunching:flint_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3990,
+					type: "item",
+					item: {
+						id: "notreepunching:flint_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}],
+			],
 			rewards: [{
 				id: 804,
 				type: "item",
@@ -188,9 +204,10 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -0.5d,
-			dependencies: [I;14],
+			x: 0.5d,
+			y: 0.0d,
+			description: ["A basic weapon you can create to gain combat skill and protect yourself."],
+			dependencies: [I;48],
 			id: 16,
 			tasks: [{
 				id: 17,
@@ -223,10 +240,10 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: -2.5d,
+			x: -2.5d,
+			y: 0.0d,
 			description: [
-				"The fire starter is a primitive tool which is used to create the campfire. In order to use:",
+				"The fire starter is a primitive tool which is used to create a campfire. In order to use:",
 				"",
 				"• Throw (Q) the following items on the ground, in the space where you want to create the campfire:",
 				"  - One wooden fuel item (any log or plank)",
@@ -236,7 +253,7 @@
 				"",
 				"The fire starter can also be used to relight a campfire, or light fires in the same way: right click and hold the fire starter at the desired location. Smoke particles will appear and after a short while the fire will be started."
 			],
-			dependencies: [I;14],
+			dependencies: [I;48],
 			id: 18,
 			tasks: [{
 				id: 19,
@@ -264,8 +281,8 @@
 			]
 		},
 		{
-			x: -0.5d,
-			y: -1.5d,
+			x: -1.0d,
+			y: -4.5d,
 			description: ["Plant fiber can be crafted into plant string, which is necessary for the creation of other flint tools."],
 			dependencies: [I;10],
 			id: 20,
@@ -288,8 +305,10 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 0.5d,
+			title: "Bones",
+			x: 0.5d,
+			y: 1.5d,
+			description: ["Bet you will want to stop these guys from making you a pin cushion."],
 			dependencies: [I;16],
 			id: 37,
 			tasks: [{
@@ -306,8 +325,10 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 0.5d,
+			title: "Gunpowder",
+			x: 2.0d,
+			y: 1.5d,
+			description: ["Some good old fashioned boom boom dust."],
 			dependencies: [I;16],
 			id: 39,
 			tasks: [{
@@ -324,8 +345,9 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 7.0d,
 			y: -2.5d,
+			description: ["Will light up all those dark places so you don't have to place torches everywhere."],
 			dependencies: [I;69],
 			id: 41,
 			tasks: [{
@@ -362,8 +384,10 @@
 			]
 		},
 		{
-			x: 5.5d,
+			title: "Furnace",
+			x: 4.5d,
 			y: -1.5d,
+			description: ["Time to cook up some ore and get those ingots!"],
 			dependencies: [I;14],
 			id: 44,
 			tasks: [{
@@ -391,14 +415,24 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: -3.5d,
+			title: "Chest",
+			icon: "minecraft:chest",
+			x: 3.0d,
+			y: -5.5d,
+			description: ["Store all that junk you know you are carrying!"],
 			dependencies: [I;48],
 			id: 46,
 			tasks: [{
-				id: 47,
+				id: 3980,
 				type: "item",
-				item: "minecraft:chest"
+				title: "Chest",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:chests"
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -420,13 +454,13 @@
 			]
 		},
 		{
-			x: 1.5d,
+			x: -1.0d,
 			y: -1.5d,
 			description: [
-				"To make planks put a log and axe in crafting table",
+				"To make planks put a log and your flint axe in your 2x2 crafting table in your inventory.",
 				"",
 				"You can bookmark recipe for faster access to it. Hover over item in JEI or inventory and press A. You will see the item on the left of your inventory.",
-				"Try it with an Axe!"
+				"Try it with an Axe because you may need a couple!"
 			],
 			dependencies: [I;12],
 			id: 48,
@@ -443,8 +477,16 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -2.5d,
+			icon: {
+				id: "woodenutilities:wooden_shears",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.0d,
+			y: 0.0d,
+			description: ["A weaker pair of shears, that you can also use to make wooden plates from Planks."],
 			dependencies: [I;48],
 			id: 50,
 			tasks: [
@@ -480,8 +522,10 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -2.5d,
+			title: "Wooden Armor",
+			x: -1.0d,
+			y: 1.5d,
+			description: ["Wooden Armor can be made from wooden plates. Will at least give you a small amount of protection."],
 			dependencies: [I;50],
 			id: 52,
 			tasks: [
@@ -544,8 +588,8 @@
 			]
 		},
 		{
-			x: 8.5d,
-			y: -0.5d,
+			x: 18.0d,
+			y: -1.5d,
 			description: [
 				"Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or flint",
 				"axe, and the yield produced is doubled when using a saw from a flint tool."
@@ -578,8 +622,8 @@
 			]
 		},
 		{
-			x: 10.5d,
-			y: -0.5d,
+			x: 16.0d,
+			y: -3.5d,
 			description: [
 				"In order to create pottery, you'll need blocks of clay and a clay tool, which is crafted from some sticks. Simply right click the clay block with the clay tool and it will become worked clay.",
 				"",
@@ -618,8 +662,10 @@
 			]
 		},
 		{
-			x: 13.5d,
-			y: -0.5d,
+			title: "Brick me up!",
+			x: 20.0d,
+			y: -6.0d,
+			description: ["Can be cooked at a campfire or in the Kiln."],
 			dependencies: [I;61],
 			id: 66,
 			tasks: [
@@ -649,8 +695,9 @@
 			]
 		},
 		{
-			x: 7.5d,
+			x: 8.5d,
 			y: -1.5d,
+			description: ["You are going to need a lot of this stuff."],
 			dependencies: [I;44],
 			id: 69,
 			tasks: [{
@@ -678,8 +725,10 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: -4.5d,
+			title: "Storage Drawer",
+			x: 4.5d,
+			y: -4.0d,
+			description: ["These storage drawers will allow you to store multiple stacks of items in a single block in a sorted manner."],
 			dependencies: [I;46],
 			id: 71,
 			tasks: [{
@@ -714,8 +763,12 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: -3.5d,
+			x: 3.0d,
+			y: -4.0d,
+			description: [
+				"This backpack will allow you to have some extra inventory space.",
+				"Once equipped, use the backpack keybind to open the backpack inventory."
+			],
 			dependencies: [I;46],
 			id: 73,
 			tasks: [{
@@ -749,8 +802,10 @@
 			]
 		},
 		{
-			x: 2.5d,
-			y: -4.5d,
+			title: "Bed",
+			x: 3.0d,
+			y: -7.0d,
+			description: ["A place to kick off your boots and get some Zzzzz's."],
 			dependencies: [I;46],
 			id: 84,
 			tasks: [{
@@ -780,8 +835,9 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: -1.5d,
+			x: 12.5d,
+			y: -1.4523809523809703d,
+			description: ["I feel like this is the start of the whole reason that you are here."],
 			dependencies: [I;69],
 			id: 86,
 			tasks: [{
@@ -809,8 +865,9 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: 0.5d,
+			x: 16.0d,
+			y: -1.5d,
+			description: ["Clang! Clang! Clang! I can make so much with this!"],
 			dependencies: [I;86],
 			id: 88,
 			tasks: [{
@@ -832,8 +889,9 @@
 			]
 		},
 		{
-			x: 10.5d,
-			y: 1.5d,
+			x: 16.0d,
+			y: 0.5d,
+			description: ["Mine me up some ore!"],
 			dependencies: [I;88],
 			id: 90,
 			tasks: [{
@@ -876,12 +934,13 @@
 			]
 		},
 		{
-			x: 15.0d,
-			y: -1.5d,
-			dependencies: [I;
-				86,
-				66
-			],
+			title: "Coke Oven",
+			x: 23.5d,
+			y: -6.0d,
+			shape: "gear",
+			description: ["Place the Coke Brick in a 3x3x3 block to form a Coke Oven. By placing coal into the oven it will create creosote oil."],
+			dependencies: [I;66],
+			size: 3.0d,
 			id: 92,
 			tasks: [
 				{
@@ -934,8 +993,8 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: 1.5d,
+			x: 17.5d,
+			y: 0.0d,
 			description: [
 				"Mattocks are advanced tools, and can be made from iron, gold or diamond. They function both as axes and shovels with regards to the blocks they can break, and have the right click functionality of axes, shovels, and hoes, being able to strip wood,",
 				"till coarse dirt, and create grass paths and farmland.",
@@ -985,8 +1044,9 @@
 			]
 		},
 		{
-			x: 11.5d,
+			x: 16.0d,
 			y: 3.5d,
+			description: ["Watch out for lava when digging for these!"],
 			dependencies: [I;90],
 			id: 97,
 			tasks: [{
@@ -1028,8 +1088,9 @@
 			]
 		},
 		{
-			x: 12.5d,
+			x: 13.5d,
 			y: 3.5d,
+			description: ["This will really dig some stuff."],
 			dependencies: [I;97],
 			id: 99,
 			tasks: [{
@@ -1059,8 +1120,9 @@
 			}]
 		},
 		{
-			x: 11.5d,
-			y: 5.0d,
+			x: 13.5d,
+			y: 5.5d,
+			description: ["How did a pound these diamonds into a blade? Who cares."],
 			dependencies: [I;97],
 			id: 101,
 			tasks: [{
@@ -1109,9 +1171,10 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: 5.0d,
-			dependencies: [I;99],
+			title: "Diamond Armor",
+			x: 16.0d,
+			y: 5.5d,
+			dependencies: [I;97],
 			id: 103,
 			tasks: [
 				{
@@ -1195,52 +1258,9 @@
 			]
 		},
 		{
-			x: 13.5d,
-			y: 5.0d,
-			dependencies: [I;117],
-			id: 108,
-			tasks: [{
-				id: 109,
-				type: "item",
-				item: "minecraft:enchanting_table"
-			}],
-			rewards: [
-				{
-					id: 309,
-					type: "item",
-					item: "minecraft:blue_dye",
-					count: 16
-				},
-				{
-					id: 340,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s,
-								id: "minecraft:fire_protection"
-							}]
-						}
-					}
-				},
-				{
-					id: 341,
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: 815,
-					type: "item",
-					item: "minecraft:paper",
-					count: 5
-				}
-			]
-		},
-		{
-			x: 10.5d,
-			y: 0.5d,
+			title: "Iron Armor",
+			x: 14.5d,
+			y: 0.0d,
 			dependencies: [I;88],
 			id: 110,
 			tasks: [
@@ -1308,8 +1328,9 @@
 			]
 		},
 		{
-			x: 8.5d,
-			y: 0.5d,
+			x: 17.5d,
+			y: -3.0d,
+			description: ["Man I can carry so many liquids in this bucket!"],
 			dependencies: [I;88],
 			id: 115,
 			tasks: [{
@@ -1324,46 +1345,9 @@
 			}]
 		},
 		{
-			x: 13.5d,
-			y: 3.5d,
-			dependencies: [I;99],
-			id: 117,
-			tasks: [{
-				id: 118,
-				type: "item",
-				item: "minecraft:obsidian"
-			}],
-			rewards: [
-				{
-					id: 342,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "minecraft:smite"
-							}]
-						}
-					}
-				},
-				{
-					id: 838,
-					type: "item",
-					item: "minecraft:cooked_salmon",
-					count: 5
-				},
-				{
-					id: 1129,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 0.5d,
-			y: -2.5d,
+			x: 1.5d,
+			y: -5.5d,
+			description: ["Will automatically drop items directly below it."],
 			dependencies: [I;46],
 			id: 119,
 			tasks: [{
@@ -1378,8 +1362,10 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -5.5d,
+			title: "Windows",
+			x: 4.5d,
+			y: -8.5d,
+			description: ["Add some flair to those holes in your walls to see all the baddies through."],
 			dependencies: [I;84],
 			id: 121,
 			tasks: [
@@ -1402,322 +1388,10 @@
 			}]
 		},
 		{
-			x: 15.0d,
-			y: 2.5d,
-			dependencies: [I;128],
-			id: 124,
-			tasks: [
-				{
-					id: 125,
-					type: "item",
-					item: "minecraft:brewing_stand"
-				},
-				{
-					id: 146,
-					type: "item",
-					item: "minecraft:blaze_powder"
-				}
-			],
-			rewards: [{
-				id: 239,
-				type: "item",
-				item: "quark:warped_chest",
-				count: 2
-			}]
-		},
-		{
-			x: 15.0d,
-			y: 5.0d,
-			dependencies: [I;147],
-			id: 126,
-			tasks: [{
-				id: 127,
-				type: "dimension",
-				dimension: "minecraft:end"
-			}],
-			rewards: [{
-				id: 345,
-				type: "item",
-				item: {
-					id: "minecraft:enchanted_book",
-					Count: true,
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s,
-							id: "minecraft:projectile_protection"
-						}]
-					}
-				}
-			}]
-		},
-		{
-			title: "See you in hell...",
-			x: 15.0d,
-			y: 1.5d,
-			dependencies: [I;
-				142,
-				117
-			],
-			id: 128,
-			tasks: [{
-				id: 129,
-				type: "dimension",
-				title: "Visit Nether Dimension",
-				dimension: "minecraft:the_nether"
-			}],
-			rewards: [
-				{
-					id: 343,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "minecraft:power"
-							}]
-						}
-					}
-				},
-				{
-					id: 1106,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 16.0d,
-			y: 1.5d,
-			dependencies: [I;128],
-			id: 130,
-			tasks: [{
-				id: 131,
-				type: "item",
-				item: "minecraft:wither_skeleton_skull",
-				count: 3L
-			}],
-			rewards: [
-				{
-					id: 305,
-					type: "item",
-					item: "minecraft:black_dye",
-					count: 16
-				},
-				{
-					id: 350,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:vorpal"
-							}]
-						}
-					}
-				}
-			]
-		},
-		{
-			x: 17.0d,
-			y: 1.5d,
-			dependencies: [I;130],
-			id: 132,
-			tasks: [{
-				id: 133,
-				type: "kill",
-				entity: "minecraft:wither",
-				value: 1L
-			}],
-			rewards: [{
-				id: 364,
-				type: "item",
-				item: {
-					id: "minecraft:enchanted_book",
-					Count: true,
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s,
-							id: "farmersdelight:backstabbing"
-						}]
-					}
-				}
-			}]
-		},
-		{
-			x: 18.0d,
-			y: 1.5d,
-			dependencies: [I;132],
-			id: 134,
-			tasks: [{
-				id: 135,
-				type: "item",
-				item: "minecraft:nether_star"
-			}],
-			rewards: [{
-				id: 358,
-				type: "xp_levels",
-				xp_levels: 5
-			}]
-		},
-		{
-			x: 19.0d,
-			y: 1.5d,
-			dependencies: [I;134],
-			id: 136,
-			tasks: [{
-				id: 137,
-				type: "item",
-				item: "minecraft:beacon"
-			}],
-			rewards: [
-				{
-					id: 355,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:displacement"
-							}]
-						}
-					}
-				},
-				{
-					id: 356,
-					type: "xp_levels",
-					xp_levels: 10
-				},
-				{
-					id: 368,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "minecraft:flame"
-							}]
-						}
-					}
-				},
-				{
-					id: 972,
-					type: "item",
-					item: "minecraft:emerald"
-				}
-			]
-		},
-		{
-			x: 17.0d,
-			y: 5.0d,
-			dependencies: [I;126],
-			id: 138,
-			tasks: [{
-				id: 139,
-				type: "kill",
-				entity: "minecraft:ender_dragon",
-				value: 1L
-			}],
-			rewards: [
-				{
-					id: 250,
-					type: "item",
-					item: "quark:purpur_chest",
-					count: 2
-				},
-				{
-					id: 351,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "ensorcellation:magic_edge"
-							}]
-						}
-					}
-				},
-				{
-					id: 367,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "ensorcellation:leech"
-							}]
-						}
-					}
-				}
-			]
-		},
-		{
-			x: 19.0d,
-			y: 5.0d,
-			dependencies: [I;138],
-			id: 140,
-			tasks: [{
-				id: 141,
-				type: "item",
-				item: {
-					id: "minecraft:elytra",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [
-				{
-					id: 353,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:weeding"
-							}]
-						}
-					}
-				},
-				{
-					id: 354,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:phalanx"
-							}]
-						}
-					}
-				},
-				{
-					id: 357,
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			x: 13.5d,
-			y: 1.5d,
-			dependencies: [I;90],
+			x: 10.0d,
+			y: -0.5d,
+			description: ["SPARKS! SPARKS! SPARKS!"],
+			dependencies: [I;69],
 			id: 142,
 			tasks: [{
 				id: 143,
@@ -1738,8 +1412,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: -0.5d,
+			x: 10.0d,
+			y: -2.5d,
 			dependencies: [I;69],
 			id: 144,
 			tasks: [{
@@ -1767,136 +1441,20 @@
 			]
 		},
 		{
-			x: 15.0d,
-			y: 3.5d,
-			dependencies: [I;124],
-			id: 147,
-			tasks: [{
-				id: 148,
-				type: "item",
-				item: "minecraft:ender_eye"
-			}],
-			rewards: [
-				{
-					id: 240,
-					type: "item",
-					item: "quark:crimson_chest",
-					count: 2
-				},
-				{
-					id: 346,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s,
-								id: "ensorcellation:reach"
-							}]
-						}
-					}
-				}
-			]
-		},
-		{
-			x: 16.0d,
-			y: 2.5d,
-			dependencies: [I;128],
-			id: 149,
-			tasks: [{
-				id: 150,
-				type: "item",
-				item: "minecraft:ancient_debris"
-			}],
-			rewards: [{
-				id: 347,
-				type: "item",
-				item: {
-					id: "minecraft:enchanted_book",
-					Count: true,
-					tag: {
-						StoredEnchantments: [{
-							lvl: 4s,
-							id: "ensorcellation:damage_villager"
-						}]
-					}
-				}
-			}]
-		},
-		{
-			x: 17.0d,
-			y: 2.5d,
-			dependencies: [I;149],
-			id: 151,
-			tasks: [{
-				id: 152,
-				type: "item",
-				item: "minecraft:netherite_ingot"
-			}],
-			rewards: [{
-				id: 349,
-				type: "item",
-				item: {
-					id: "minecraft:splash_potion",
-					Count: true,
-					tag: {
-						Potion: "minecraft:strong_strength"
-					}
-				}
-			}]
-		},
-		{
-			x: 18.0d,
-			y: 2.5d,
-			dependencies: [I;151],
-			id: 153,
-			tasks: [{
-				id: 154,
-				type: "item",
-				item: {
-					id: "minecraft:netherite_pickaxe",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [
-				{
-					id: 365,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:soulbound"
-							}]
-						}
-					}
-				},
-				{
-					id: 973,
-					type: "item",
-					item: "randomite:randomite_ore"
-				}
-			]
-		},
-		{
-			x: -5.5d,
-			y: -1.5d,
+			title: "Just Enough Items",
+			x: -9.0d,
+			y: -6.5d,
 			description: [
-				"How to use JEI(that thing with items on the left)",
+				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)",
 				"",
-				'• Hovering over an item and pressing the "R" key (for Recipe) will display that item\\\'s recipe.',
+				'• Hovering over an item and pressing the "R" key (for Recipe) will display that item\'s recipe.',
 				'• Pressing the "U" key (for Use) shows what that item can be used to create through crafting grids. ',
 				'• To search by mod name use the "@" key before search in search box. (e.g. @notreepunch)',
 				"• To select the search box without clicking on it, the player can press Ctrl + F.",
-				"• Bookmark recipe(for easier crafting later): Hover over item + A"
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A",
+				""
 			],
-			dependencies: [I;279],
+			dependencies: [I;3976],
 			id: 155,
 			tasks: [{
 				id: 156,
@@ -1912,24 +1470,24 @@
 		},
 		{
 			icon: "itemfilters:item_group",
-			x: -4.5d,
-			y: -0.5d,
+			x: -7.5d,
+			y: -8.0d,
 			description: [
 				"Menu access key: P (for more info and stats)",
 				"",
 				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game.",
-				"(you cannot use Stone or Iron pick right from the beginning - you need to earn the required Mining level. Same with armor.)",
+				"(You cannot use a Stone or Iron pick right from the beginning - you need to earn the required Mining level first. The same skill requirement applies to armor based on Endurance.)",
 				"",
 				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:",
-				"- mining: increasing mining speed with each level;",
-				"- excavation: chance to find treasures while digging;",
-				"- combat: more damage dealt;",
+				"- Mining: increasing mining speed with each level;",
+				"- Excavation: chance to find treasures while digging;",
+				"- Combat: more damage dealt with weapons;",
 				"",
 				"There also different Xp Modifiers for different skill based on your current biome. As an example: you will get less farming experience in desert biome; or more swimming and fishing in ocean biome.",
 				"",
 				"You can also create or join party with using /pmmo party create/accept/invite/leave command.",
 				"",
-				"If your stat list on the left is disappeared - re-enter the game."
+				"If your stat list on the left is disappeared - simply re-enter the game and it should reappear."
 			],
 			dependencies: [I;155],
 			id: 157,
@@ -1945,16 +1503,17 @@
 			}]
 		},
 		{
+			title: "EL2 Text Guide",
 			icon: "itemfilters:tag",
-			x: -3.5d,
-			y: -0.5d,
+			x: -7.5d,
+			y: -6.5d,
 			description: [
-				"You can find all links on the curseforge project page.",
+				"You can a find a link to the Google Drive text guide directly on the EL2 curseforge project page.",
 				"",
-				"Or manually type this:",
+				"Or manually by typing this into the browser of your choice:",
 				"https://bit.ly/el2-guide"
 			],
-			dependencies: [I;157],
+			dependencies: [I;155],
 			id: 159,
 			tasks: [{
 				id: 160,
@@ -1968,8 +1527,9 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: -2.5d,
+			x: 12.5d,
+			y: 0.0d,
+			description: ["Hope you had fun getting this, you will need about a million more."],
 			dependencies: [I;86],
 			id: 161,
 			tasks: [{
@@ -1993,8 +1553,9 @@
 			]
 		},
 		{
-			x: 11.5d,
-			y: -2.5d,
+			x: 12.5d,
+			y: 1.5d,
+			description: ["A bigger chest to store your stuff that tastes kind of metallic."],
 			dependencies: [I;161],
 			id: 163,
 			tasks: [{
@@ -2022,8 +1583,12 @@
 			]
 		},
 		{
-			x: 8.5d,
-			y: 2.5d,
+			x: 11.0d,
+			y: -6.0d,
+			description: [
+				"Will allow you to passively collect resources when placed in a 1 deep block of water.",
+				"If the water is flowing into the strainer you will get better efficiency."
+			],
 			dependencies: [I;180],
 			id: 166,
 			tasks: [{
@@ -2052,8 +1617,9 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: 3.5d,
+			x: 12.5d,
+			y: -6.0d,
+			description: ["Creates worms and fertilizer by composting fruit and vegetables. "],
 			dependencies: [I;166],
 			id: 168,
 			tasks: [{
@@ -2076,8 +1642,9 @@
 			]
 		},
 		{
-			x: 8.5d,
-			y: 4.0d,
+			x: 12.5d,
+			y: -7.5d,
+			description: ["Collect fish and junk but requires bait to operate. Higher densities give longer usage and different item probabilites."],
 			dependencies: [I;
 				166,
 				176
@@ -2109,8 +1676,9 @@
 			]
 		},
 		{
-			x: 7.5d,
-			y: 3.5d,
+			x: 9.5d,
+			y: -7.5d,
+			description: ["Can collect items such as stone, sticks, clay, and planks. Has higher levels of density for longer usage and different item probabilities."],
 			dependencies: [I;166],
 			id: 174,
 			tasks: [{
@@ -2139,8 +1707,10 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: 5.0d,
+			title: "Worms",
+			x: 14.0d,
+			y: -6.0d,
+			description: ["Wiggle Worm"],
 			dependencies: [I;168],
 			id: 176,
 			tasks: [{
@@ -2165,9 +1735,13 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 5.0d,
-			dependencies: [I;176],
+			x: 16.0d,
+			y: -6.0d,
+			description: ["This will decrease the usage of bait in the strainer."],
+			dependencies: [I;
+				176,
+				1053
+			],
 			id: 178,
 			tasks: [{
 				id: 179,
@@ -2203,8 +1777,13 @@
 			]
 		},
 		{
-			x: 8.5d,
-			y: 1.5d,
+			x: 14.5d,
+			y: -3.0d,
+			description: [
+				"Some basic automation, though you will need to start expanding to more soon.",
+				"",
+				"Will connect to whatever inventory you right click it to."
+			],
 			dependencies: [I;88],
 			id: 180,
 			tasks: [{
@@ -2227,8 +1806,9 @@
 			]
 		},
 		{
-			x: 7.5d,
-			y: 1.5d,
+			x: 12.5d,
+			y: -3.0d,
+			description: ["A highly customizable hopper that allows you to change the stack size, drop delay, and a customizable collection range up to 9x9. Can be placed upside down and keeps inventory when broken. Redstone controllable."],
 			dependencies: [I;180],
 			id: 182,
 			tasks: [{
@@ -2261,8 +1841,9 @@
 			]
 		},
 		{
-			x: 2.5d,
-			y: -5.5d,
+			x: 4.5d,
+			y: -7.0d,
+			description: ["A nice decorative table."],
 			dependencies: [I;84],
 			id: 184,
 			tasks: [{
@@ -2285,8 +1866,10 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: -4.5d,
+			title: "Cupboards and Cabinets",
+			x: 4.5d,
+			y: -5.5d,
+			description: ["Some slightly more decorative storage."],
 			dependencies: [I;46],
 			id: 188,
 			tasks: [
@@ -2315,8 +1898,10 @@
 			]
 		},
 		{
-			x: 3.5d,
-			y: -5.5d,
+			title: "Bookshelves",
+			x: 1.5d,
+			y: -8.5d,
+			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."],
 			dependencies: [I;84],
 			id: 190,
 			tasks: [
@@ -2339,9 +1924,13 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: -0.5d,
-			dependencies: [I;14],
+			title: "Outstanding in A Field",
+			x: -5.416666666666671d,
+			y: -1.4642857142857153d,
+			shape: "gear",
+			description: ["The flint hoe will allow you to get started with some basic farming."],
+			dependencies: [I;48],
+			size: 2.0d,
 			id: 195,
 			tasks: [{
 				id: 196,
@@ -2356,164 +1945,10 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 0.5d,
-			dependencies: [I;195],
-			id: 197,
-			tasks: [{
-				id: 198,
-				type: "item",
-				item: "minecraft:wheat_seeds"
-			}],
-			rewards: [
-				{
-					id: 376,
-					type: "xp_levels",
-					xp_levels: 1
-				},
-				{
-					id: 830,
-					type: "item",
-					item: "pamhc2foodcore:pumpkinbreaditem"
-				}
-			]
-		},
-		{
-			x: 5.5d,
-			y: -0.5d,
-			dependencies: [I;195],
-			id: 199,
-			tasks: [{
-				id: 200,
-				type: "item",
-				item: "immersiveengineering:seed"
-			}],
-			rewards: [
-				{
-					id: 375,
-					type: "xp_levels",
-					xp_levels: 1
-				},
-				{
-					id: 839,
-					type: "item",
-					item: "simplefarming:candy"
-				}
-			]
-		},
-		{
-			x: 3.5d,
-			y: 0.5d,
-			dependencies: [I;197],
-			id: 201,
-			tasks: [{
-				id: 202,
-				type: "item",
-				item: "minecraft:wheat",
-				count: 64L
-			}],
-			rewards: [
-				{
-					id: 361,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:furrowing"
-							}]
-						}
-					}
-				},
-				{
-					id: 362,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:weeding"
-							}]
-						}
-					}
-				},
-				{
-					id: 811,
-					type: "item",
-					item: "minecraft:paper",
-					count: 3
-				},
-				{
-					id: 845,
-					type: "item",
-					item: "pamhc2foodcore:pumpkinbreaditem"
-				}
-			]
-		},
-		{
-			x: 3.5d,
-			y: 1.5d,
-			dependencies: [I;201],
-			id: 203,
-			tasks: [{
-				id: 204,
-				type: "item",
-				item: "quark:feeding_trough"
-			}],
-			rewards: [
-				{
-					id: 306,
-					type: "item",
-					item: "minecraft:black_dye",
-					count: 16
-				},
-				{
-					id: 335,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s,
-								id: "ensorcellation:gourmand"
-							}]
-						}
-					}
-				}
-			]
-		},
-		{
-			x: 5.5d,
-			y: 0.5d,
-			dependencies: [I;195],
-			id: 205,
-			tasks: [{
-				id: 206,
-				type: "item",
-				item: "minecraft:potato",
-				count: 64L
-			}],
-			rewards: [
-				{
-					id: 392,
-					type: "xp_levels",
-					xp_levels: 1
-				},
-				{
-					id: 831,
-					type: "item",
-					item: "minecraft:cake"
-				}
-			]
-		},
-		{
-			x: 1.5d,
-			y: -0.5d,
+			title: "Slimeballs",
+			x: 2.0d,
+			y: 0.0d,
+			description: ["Time to go slime hunting!"],
 			dependencies: [I;16],
 			id: 207,
 			tasks: [{
@@ -2538,82 +1973,9 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 1.5d,
-			dependencies: [I;197],
-			id: 209,
-			tasks: [{
-				id: 210,
-				type: "item",
-				item: "quark:cactus_paste"
-			}],
-			rewards: [
-				{
-					id: 293,
-					type: "item",
-					item: "minecraft:green_dye",
-					count: 16
-				},
-				{
-					id: 832,
-					type: "item",
-					item: "simplefarming:fruit_salad"
-				}
-			]
-		},
-		{
-			x: 4.5d,
-			y: 2.5d,
-			dependencies: [I;209],
-			id: 211,
-			tasks: [{
-				id: 212,
-				type: "item",
-				item: "quark:midori_block"
-			}],
-			rewards: [{
-				id: 322,
-				type: "item",
-				item: "minecraft:flower_pot"
-			}]
-		},
-		{
-			x: 2.5d,
-			y: -3.5d,
-			dependencies: [I;50],
-			id: 213,
-			tasks: [{
-				id: 214,
-				type: "item",
-				item: "quark:oak_leaf_carpet"
-			}],
-			rewards: [{
-				id: 315,
-				type: "item",
-				item: "minecraft:large_fern",
-				count: 3
-			}]
-		},
-		{
-			x: 15.0d,
-			y: 0.5d,
-			dependencies: [I;128],
-			id: 215,
-			tasks: [{
-				id: 216,
-				type: "item",
-				item: "quark:magma_bricks"
-			}],
-			rewards: [{
-				id: 221,
-				type: "item",
-				item: "quark:nether_brick_chest",
-				count: 2
-			}]
-		},
-		{
-			x: 13.5d,
-			y: 0.5d,
+			x: 20.0d,
+			y: -8.0d,
+			description: ["Some nice brick blocks to get your some nice engineering building style."],
 			dependencies: [I;66],
 			id: 217,
 			tasks: [
@@ -2648,47 +2010,9 @@
 			]
 		},
 		{
-			x: 8.5d,
-			y: -4.5d,
-			dependencies: [I;226],
-			id: 222,
-			tasks: [{
-				id: 223,
-				type: "item",
-				item: "minecraft:dark_oak_boat"
-			}],
-			rewards: [
-				{
-					id: 258,
-					type: "item",
-					item: {
-						id: "minecraft:splash_potion",
-						Count: true,
-						tag: {
-							Potion: "minecraft:strong_swiftness"
-						}
-					}
-				},
-				{
-					id: 377,
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: 840,
-					type: "item",
-					item: "pamhc2foodcore:hotchocolateitem"
-				},
-				{
-					id: 1127,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 7.5d,
-			y: -2.5d,
+			x: 7.0d,
+			y: -0.5d,
+			description: ["You are going to have to go deep!"],
 			dependencies: [I;69],
 			id: 224,
 			tasks: [{
@@ -2711,165 +2035,10 @@
 			]
 		},
 		{
-			x: 7.5d,
-			y: -3.5d,
-			dependencies: [I;224],
-			id: 226,
-			tasks: [{
-				id: 227,
-				type: "item",
-				item: "minecraft:map"
-			}],
-			rewards: [
-				{
-					id: 302,
-					type: "item",
-					item: "minecraft:light_gray_dye",
-					count: 16
-				},
-				{
-					id: 333,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "minecraft:frost_walker"
-							}]
-						}
-					}
-				}
-			]
-		},
-		{
-			x: 7.5d,
-			y: -5.5d,
-			dependencies: [I;222],
-			id: 228,
-			tasks: [{
-				id: 229,
-				type: "item",
-				item: "minecraft:heart_of_the_sea"
-			}],
-			rewards: [
-				{
-					id: 249,
-					type: "item",
-					item: "quark:prismarine_chest",
-					count: 2
-				},
-				{
-					id: 1104,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 8.5d,
-			y: -5.5d,
-			dependencies: [I;222],
-			id: 230,
-			tasks: [{
-				id: 231,
-				type: "item",
-				item: {
-					id: "minecraft:trident",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [
-				{
-					id: 255,
-					type: "item",
-					item: "minecraft:prismarine_shard",
-					count: 3
-				},
-				{
-					id: 259,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "minecraft:loyalty"
-							}]
-						}
-					}
-				},
-				{
-					id: 389,
-					type: "xp_levels",
-					xp_levels: 5
-				}
-			]
-		},
-		{
-			x: 9.5d,
-			y: -5.5d,
-			dependencies: [I;222],
-			id: 232,
-			tasks: [
-				{
-					id: 233,
-					type: "item",
-					item: "quark:elder_sea_lantern"
-				},
-				{
-					id: 234,
-					type: "item",
-					item: "quark:elder_prismarine"
-				}
-			],
-			rewards: [
-				{
-					id: 256,
-					type: "item",
-					item: "minecraft:prismarine_crystals",
-					count: 4
-				},
-				{
-					id: 257,
-					type: "item",
-					item: {
-						id: "minecraft:splash_potion",
-						Count: true,
-						tag: {
-							Potion: "minecraft:strength"
-						}
-					}
-				},
-				{
-					id: 334,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "minecraft:projectile_protection"
-							}]
-						}
-					}
-				},
-				{
-					id: 1477,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 3.5d,
-			y: -4.5d,
+			title: "Candle",
+			x: 3.0d,
+			y: -8.5d,
+			description: ["Better than a torch right?"],
 			dependencies: [I;84],
 			id: 235,
 			tasks: [{
@@ -2891,8 +2060,9 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: -4.5d,
+			x: 3.0d,
+			y: -10.0d,
+			description: ["A artistic not-torch."],
 			dependencies: [I;235],
 			id: 237,
 			tasks: [{
@@ -2915,69 +2085,9 @@
 			]
 		},
 		{
-			x: 16.0d,
-			y: 0.5d,
-			dependencies: [I;128],
-			id: 241,
-			tasks: [{
-				id: 242,
-				type: "item",
-				item: "minecraft:glowstone"
-			}],
-			rewards: [{
-				id: 297,
-				type: "item",
-				item: "minecraft:purple_dye",
-				count: 16
-			}]
-		},
-		{
-			x: 17.0d,
-			y: 0.5d,
-			dependencies: [I;241],
-			id: 243,
-			tasks: [
-				{
-					id: 244,
-					type: "item",
-					item: "simplylight:illuminant_panel"
-				},
-				{
-					id: 245,
-					type: "item",
-					item: "simplylight:wall_lamp"
-				},
-				{
-					id: 246,
-					type: "item",
-					item: "simplylight:edge_light_top"
-				}
-			],
-			rewards: [
-				{
-					id: 348,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s,
-								id: "minecraft:quick_charge"
-							}]
-						}
-					}
-				},
-				{
-					id: 1107,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
 			x: 8.5d,
-			y: -2.5d,
+			y: 0.0d,
+			description: ["This lantern will be activated when you send it a redstone signal. Could be an interesting signal light."],
 			dependencies: [I;224],
 			id: 247,
 			tasks: [{
@@ -3008,65 +2118,30 @@
 			]
 		},
 		{
-			x: 18.0d,
-			y: 4.0d,
-			dependencies: [I;138],
-			id: 251,
-			tasks: [{
-				id: 252,
-				type: "item",
-				item: "quark:duskbound_block"
-			}],
-			rewards: [
-				{
-					id: 352,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "minecraft:looting"
-							}]
-						}
-					}
-				},
-				{
-					id: 1108,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			title: "Hello there!",
-			x: -6.5d,
-			y: -1.5d,
+			title: "Hello There!",
+			x: -12.5d,
+			y: -4.5d,
 			description: [
 				"Welcome to the Engineer's Life 2 modpack!",
 				"",
-				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations.",
-				"",
-				"To advance click on the reward icon. ('Apple' in this case)",
-				"To advance in the next quest click on the checkmark under the 'Task' title."
+				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations."
 			],
+			size: 4.0d,
 			id: 279,
 			tasks: [{
 				id: 280,
 				type: "dimension",
 				dimension: "minecraft:overworld"
-			}],
-			rewards: [{
-				id: 281,
-				type: "item",
-				item: "minecraft:apple"
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 0.5d,
-			dependencies: [I;115],
+			x: 20.0d,
+			y: -4.0d,
+			description: ["Can grow crops anywhere without water!"],
+			dependencies: [I;
+				115,
+				66
+			],
 			id: 285,
 			tasks: [{
 				id: 286,
@@ -3088,8 +2163,9 @@
 		},
 		{
 			icon: "woodenutilities:crafting_slab",
-			x: 0.5d,
-			y: -0.5d,
+			x: -2.5d,
+			y: -3.0d,
+			description: ["This quest will complete once you interact with a crafting table 256 times."],
 			dependencies: [I;48],
 			id: 745,
 			tasks: [{
@@ -3106,44 +2182,10 @@
 			}]
 		},
 		{
-			x: 16.0d,
-			y: -1.5d,
-			dependencies: [I;92],
-			id: 816,
-			tasks: [{
-				id: 817,
-				type: "item",
-				item: "immersiveengineering:treated_wood_horizontal",
-				count: 64L
-			}],
-			rewards: [
-				{
-					id: 821,
-					type: "item",
-					item: "ironchest:wood_to_iron_chest_upgrade"
-				},
-				{
-					id: 822,
-					type: "item",
-					item: "immersiveengineering:crate"
-				},
-				{
-					id: 974,
-					type: "item",
-					item: "minecraft:emerald"
-				},
-				{
-					id: 1112,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 11.5d,
-			y: 0.5d,
-			description: ["Kiln is used for faster smelting of clay and sand"],
-			dependencies: [I;61],
+			x: 18.0d,
+			y: -6.0d,
+			description: ["The kiln is used for faster smelting of clay and sand."],
+			dependencies: [I;66],
 			id: 1053,
 			tasks: [{
 				id: 1054,
@@ -3157,38 +2199,9 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: -4.5d,
-			description: ["You can use your Totem Of Undying from anywhere in your inventory"],
-			dependencies: [I;226],
-			id: 1057,
-			tasks: [{
-				id: 1058,
-				type: "item",
-				item: "minecraft:totem_of_undying"
-			}],
-			rewards: [
-				{
-					id: 1059,
-					type: "item",
-					item: "minecraft:emerald",
-					random_bonus: 2
-				},
-				{
-					id: 1060,
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: 1110,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 3.5d,
-			y: -3.5d,
+			title: "Alternate Sleeping Arrangements",
+			x: 1.5d,
+			y: -7.0d,
 			description: [
 				"Comforts adds sleeping bags and hammocks.",
 				"",
@@ -3217,8 +2230,10 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: -0.5d,
+			title: "Platformer",
+			x: 8.5d,
+			y: -3.0d,
+			description: ["Will allow you to create some scaffolding with interesting and unique textures."],
 			dependencies: [I;69],
 			id: 1516,
 			tasks: [{
@@ -3240,185 +2255,6 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: -4.5d,
-			dependencies: [I;222],
-			id: 1823,
-			tasks: [{
-				id: 1824,
-				type: "stat",
-				icon: "minecraft:dark_oak_boat",
-				stat: "minecraft:boat_one_cm",
-				value: 1000000
-			}],
-			rewards: [{
-				id: 1910,
-				type: "random",
-				table: 1
-			}]
-		},
-		{
-			x: 5.5d,
-			y: 2.5d,
-			dependencies: [I;1838],
-			id: 1825,
-			tasks: [{
-				id: 1826,
-				type: "item",
-				item: "akashictome:tome"
-			}],
-			rewards: [{
-				id: 1845,
-				type: "item",
-				item: "minecraft:lapis_lazuli",
-				count: 5
-			}]
-		},
-		{
-			title: "The librarian",
-			x: 5.5d,
-			y: 3.5d,
-			dependencies: [I;1825],
-			id: 1827,
-			tasks: [
-				{
-					id: 1828,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "bigreactors:erguide"
-						}
-					}
-				},
-				{
-					id: 1829,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "transport:guide"
-						}
-					}
-				},
-				{
-					id: 1830,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "productivebees:guide"
-						}
-					}
-				},
-				{
-					id: 1831,
-					type: "item",
-					item: "cookingforblockheads:recipe_book"
-				},
-				{
-					id: 1832,
-					type: "item",
-					item: "cookingforblockheads:crafting_book"
-				},
-				{
-					id: 1833,
-					type: "item",
-					item: "ftbquests:book"
-				},
-				{
-					id: 1834,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "engineersdecor:engineersdecor_manual"
-						}
-					}
-				},
-				{
-					id: 1835,
-					type: "item",
-					item: "immersiveengineering:manual"
-				},
-				{
-					id: 1836,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "industrialforegoing:industrial_foregoing"
-						}
-					}
-				},
-				{
-					id: 1837,
-					type: "item",
-					item: "alexsmobs:animal_dictionary"
-				}
-			],
-			rewards: [{
-				id: 1846,
-				type: "item",
-				item: "spareparts:coins/stone_coin"
-			}]
-		},
-		{
-			x: 5.5d,
-			y: 1.5d,
-			dependencies: [I;197],
-			id: 1838,
-			tasks: [{
-				id: 1839,
-				type: "item",
-				item: "minecraft:sugar_cane",
-				count: 64L
-			}],
-			rewards: [{
-				id: 1844,
-				type: "item",
-				item: "minecraft:string",
-				count: 5
-			}]
-		},
-		{
-			x: 6.5d,
-			y: 2.5d,
-			dependencies: [I;1838],
-			id: 1840,
-			tasks: [{
-				id: 1841,
-				type: "item",
-				item: "minecraft:writable_book"
-			}],
-			rewards: [{
-				id: 1848,
-				type: "item",
-				item: "supplementaries:sconce"
-			}]
-		},
-		{
-			x: 6.5d,
-			y: 3.5d,
-			dependencies: [I;1840],
-			id: 1842,
-			tasks: [{
-				id: 1843,
-				type: "item",
-				item: "supplementaries:notice_board"
-			}],
-			rewards: [{
-				id: 1847,
-				type: "item",
-				item: "supplementaries:sign_post_oak"
-			}]
-		},
-		{
 			icon: {
 				id: "minecraft:wooden_pickaxe",
 				Count: true,
@@ -3426,13 +2262,13 @@
 					Damage: 0
 				}
 			},
-			x: -5.5d,
-			y: -0.5d,
-			subtitle: "Ore excavation/Veinminer alternative",
+			x: -9.0d,
+			y: -8.0d,
+			subtitle: "Ore Excavation/Veinminer Alternative",
 			description: [
-				"This mod allows you to harvest multiple blocks at once if you hold “ ` / ~ ” key (configurable in Controls, change FTB Ultimine key). ",
+				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key). ",
 				"",
-				"- Render white lines around blocks that will be mined.",
+				"- Renders white lines around blocks that will be mined.",
 				"- You can also use hoe on grass in similar way to till multiple blocks at once",
 				"- Harvest crops by right-clicking on them",
 				"",
@@ -3451,6 +2287,107 @@
 				id: 1909,
 				type: "checkmark",
 				title: "FTB Ultimine"
+			}],
+			rewards: [{
+				id: 3979,
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "Quest Types and Rewards",
+			icon: "minecraft:writable_book",
+			x: -9.0d,
+			y: -4.5d,
+			description: [
+				"Quests come in a number of different types in this pack.",
+				"",
+				"You can have quests like the previous quest for simply traveling to a destination or by traveling a certain number of blocks.",
+				"",
+				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens.",
+				"",
+				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :]).",
+				"",
+				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above to get torch to get you some light to get going."
+			],
+			dependencies: [I;279],
+			size: 2.0d,
+			id: 3976,
+			tasks: [{
+				id: 3977,
+				type: "checkmark",
+				title: "Quest Types",
+				icon: "minecraft:writable_book"
+			}],
+			rewards: [{
+				id: 3978,
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "What is out there?",
+			x: 7.0714285714285765d,
+			y: 3.553571428571452d,
+			shape: "gear",
+			description: [
+				"Unlocks Adventure Line",
+				"Open Ocean and Forest Exploration Line",
+				"",
+				"At least now I know what direction I am going, or do I?"
+			],
+			dependencies: [I;224],
+			size: 2.0d,
+			id: 3982,
+			tasks: [{
+				id: 3983,
+				type: "item",
+				item: "minecraft:compass"
+			}]
+		},
+		{
+			title: "Going Deep",
+			x: 10.07142857142857d,
+			y: 3.553571428571452d,
+			shape: "gear",
+			description: [
+				"Start of Nether and End Quest",
+				"",
+				"Time for that big purple doorway to Heaven! Wait it is pretty warm near this thing, oh well."
+			],
+			dependencies: [I;
+				142,
+				99
+			],
+			size: 2.0d,
+			id: 3986,
+			tasks: [{
+				id: 3987,
+				type: "item",
+				item: "minecraft:obsidian"
+			}]
+		},
+		{
+			title: "What could this Bee?",
+			x: -4.75d,
+			y: 2.107142857142861d,
+			shape: "gear",
+			description: [
+				"Starts Bee Productive Chapter",
+				"",
+				'If I could just make some kind of cage to trap, I mean "transport", one of those big bumbling things.'
+			],
+			dependencies: [I;18],
+			size: 2.0d,
+			id: 3988,
+			tasks: [{
+				id: 3989,
+				type: "item",
+				item: {
+					id: "productivebees:bee_cage",
+					Count: true,
+					tag: {}
+				}
 			}]
 		}
 	]

@@ -1,14 +1,14 @@
 {
 	id: 43,
 	filename: "becoming_an_engineer",
-	order_index: 4,
+	order_index: 6,
 	title: "Becoming an Engineer",
 	icon: "engineersdecor:sign_decor",
 	default_quest_shape: "hexagon",
 	quests: [
 		{
-			x: -7.0d,
-			y: -1.5d,
+			x: -10.5d,
+			y: 9.5d,
 			dependencies: [I;260],
 			id: 253,
 			tasks: [
@@ -37,8 +37,9 @@
 			]
 		},
 		{
-			x: -8.0d,
-			y: -1.5d,
+			x: -12.0d,
+			y: 11.0d,
+			dependencies: [I;4003],
 			id: 260,
 			tasks: [{
 				id: 261,
@@ -53,8 +54,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 0.5d,
+			x: -10.5d,
+			y: 11.5d,
 			dependencies: [I;260],
 			id: 262,
 			tasks: [{
@@ -70,8 +71,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 1.5d,
+			x: -9.0d,
+			y: 11.5d,
 			dependencies: [I;262],
 			id: 264,
 			tasks: [{
@@ -95,9 +96,9 @@
 			]
 		},
 		{
-			x: -7.0d,
-			y: -2.5d,
-			dependencies: [I;260],
+			x: -6.0d,
+			y: 1.5d,
+			dependencies: [I;559],
 			id: 266,
 			tasks: [{
 				id: 267,
@@ -113,8 +114,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: -3.5d,
+			x: -12.5d,
+			y: 9.5d,
 			dependencies: [I;260],
 			id: 268,
 			tasks: [{
@@ -130,8 +131,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: -4.5d,
+			x: -12.5d,
+			y: 8.0d,
 			dependencies: [I;268],
 			id: 270,
 			tasks: [
@@ -155,8 +156,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: -1.5d,
+			x: -5.5d,
+			y: 0.0d,
 			description: [""],
 			dependencies: [I;559],
 			id: 273,
@@ -181,8 +182,8 @@
 			]
 		},
 		{
-			x: -2.5d,
-			y: -0.5d,
+			x: -11.0d,
+			y: 8.0d,
 			description: [
 				"It is used to generate Redstone Flux (RF) when connected to the front of a Kinetic Dynamo.",
 				"",
@@ -191,7 +192,7 @@
 				"",
 				"Up to three water wheels may be placed against one another. Connected water wheels will output power to the same dynamo."
 			],
-			dependencies: [I;273],
+			dependencies: [I;253],
 			id: 275,
 			tasks: [{
 				id: 276,
@@ -205,8 +206,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: -1.5d,
+			x: -4.0d,
+			y: 0.0d,
 			description: [
 				"It is used to generate Redstone Flux (RF) when connected to a Kinetic Dynamo.",
 				"",
@@ -226,15 +227,15 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 0.5d,
+			x: -10.0d,
+			y: 8.0d,
 			description: [
 				"It generates Redstone Flux (RF) through the difference in temperature between blocks/liquids adjacent to it. It does not have an internal energy buffer;",
 				"",
 				"The two liquids/blocks used should be opposite of each other; having one liquid be on the east of the generator and another liquid being on the north of the generator (for example) will NOT allow it to work.",
 				"Having two sets of opposites will work and increase production. A third set of blocks/liquids can be used if the player has a viable way to extract the energy without using a block face; consequently, this would bring the max production to 93 RF/t."
 			],
-			dependencies: [I;559],
+			dependencies: [I;253],
 			id: 496,
 			tasks: [{
 				id: 497,
@@ -249,13 +250,9 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: -0.5d,
-			dependencies: [I;
-				496,
-				277,
-				275
-			],
+			x: -2.0d,
+			y: 0.0d,
+			dependencies: [I;277],
 			dependency_requirement: "one_completed",
 			id: 498,
 			tasks: [{
@@ -278,8 +275,8 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: 0.5d,
+			x: -2.5d,
+			y: 1.5d,
 			dependencies: [I;498],
 			id: 500,
 			tasks: [{
@@ -294,8 +291,8 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: 0.5d,
+			x: -3.5d,
+			y: 1.5d,
 			dependencies: [I;500],
 			id: 502,
 			tasks: [{
@@ -318,8 +315,8 @@
 			]
 		},
 		{
-			x: -1.0d,
-			y: -2.5d,
+			x: -3.0d,
+			y: -2.0d,
 			dependencies: [I;498],
 			id: 504,
 			tasks: [{
@@ -348,8 +345,8 @@
 			]
 		},
 		{
-			x: -1.0d,
-			y: -4.5d,
+			x: -3.0d,
+			y: -4.0d,
 			dependencies: [I;504],
 			id: 506,
 			tasks: [
@@ -373,8 +370,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -4.5d,
+			x: -2.0d,
+			y: -4.0d,
 			dependencies: [I;506],
 			id: 509,
 			tasks: [{
@@ -399,8 +396,8 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: -3.5d,
+			x: -2.0d,
+			y: -3.0d,
 			dependencies: [I;504],
 			id: 511,
 			tasks: [
@@ -431,7 +428,7 @@
 		},
 		{
 			x: -6.0d,
-			y: -0.5d,
+			y: -1.5d,
 			dependencies: [I;559],
 			id: 513,
 			tasks: [
@@ -467,8 +464,8 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: -2.5d,
+			x: -2.0d,
+			y: -2.0d,
 			dependencies: [I;504],
 			id: 517,
 			tasks: [{
@@ -489,8 +486,8 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: -2.5d,
+			x: -1.0d,
+			y: -2.0d,
 			dependencies: [I;517],
 			id: 519,
 			tasks: [{
@@ -514,8 +511,8 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: -1.5d,
+			x: -1.5d,
+			y: -1.0d,
 			dependencies: [I;498],
 			id: 521,
 			tasks: [{
@@ -525,8 +522,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: -0.5d,
+			x: 1.5d,
+			y: 0.0d,
 			dependencies: [I;498],
 			id: 524,
 			tasks: [{
@@ -555,8 +552,8 @@
 			]
 		},
 		{
-			x: 3.0d,
-			y: -4.5d,
+			x: 0.5d,
+			y: -4.0d,
 			dependencies: [I;529],
 			id: 526,
 			tasks: [
@@ -579,8 +576,8 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: -2.5d,
+			x: 0.5d,
+			y: -2.0d,
 			dependencies: [I;524],
 			id: 529,
 			tasks: [{
@@ -615,8 +612,8 @@
 			]
 		},
 		{
-			x: 4.0d,
-			y: -1.5d,
+			x: 2.5d,
+			y: -1.0d,
 			dependencies: [I;524],
 			id: 531,
 			tasks: [{
@@ -643,8 +640,8 @@
 			]
 		},
 		{
-			x: 7.0d,
-			y: -0.5d,
+			x: 4.5d,
+			y: 0.0d,
 			dependencies: [I;524],
 			id: 533,
 			tasks: [{
@@ -673,8 +670,8 @@
 			]
 		},
 		{
-			x: 7.0d,
-			y: -2.5d,
+			x: 3.5d,
+			y: -2.0d,
 			dependencies: [I;533],
 			id: 535,
 			tasks: [{
@@ -710,8 +707,8 @@
 			]
 		},
 		{
-			x: 7.0d,
-			y: -4.5d,
+			x: 3.5d,
+			y: -4.0d,
 			dependencies: [I;535],
 			id: 537,
 			tasks: [{
@@ -736,8 +733,8 @@
 			]
 		},
 		{
-			x: 8.0d,
-			y: -1.5d,
+			x: 5.5d,
+			y: -1.0d,
 			dependencies: [I;533],
 			id: 541,
 			tasks: [{
@@ -752,9 +749,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 0.5d,
-			dependencies: [I;524],
+			x: -1.5d,
+			y: 1.5d,
+			dependencies: [I;498],
 			id: 543,
 			tasks: [{
 				id: 544,
@@ -769,8 +766,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 2.5d,
+			x: -8.0d,
+			y: 5.0d,
 			dependencies: [I;557],
 			id: 545,
 			tasks: [{
@@ -793,9 +790,12 @@
 			]
 		},
 		{
-			x: 3.0d,
-			y: 2.5d,
-			dependencies: [I;545],
+			x: -8.0d,
+			y: 6.5d,
+			dependencies: [I;
+				557,
+				253
+			],
 			id: 547,
 			tasks: [{
 				id: 548,
@@ -816,7 +816,7 @@
 			]
 		},
 		{
-			x: -6.0d,
+			x: -12.0d,
 			y: 3.5d,
 			dependencies: [I;557],
 			id: 549,
@@ -847,8 +847,8 @@
 			]
 		},
 		{
-			x: 6.0d,
-			y: 4.5d,
+			x: 8.142857142857267d,
+			y: 6.366666666666667d,
 			dependencies: [I;619],
 			id: 551,
 			tasks: [{
@@ -872,8 +872,8 @@
 			]
 		},
 		{
-			x: -4.0d,
-			y: 0.5d,
+			x: -8.0d,
+			y: 1.5d,
 			dependencies: [I;580],
 			id: 553,
 			tasks: [{
@@ -901,8 +901,8 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: 2.5d,
+			x: -10.0d,
+			y: 5.0d,
 			dependencies: [I;580],
 			id: 557,
 			tasks: [{
@@ -919,9 +919,9 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -1.5d,
-			dependencies: [I;253],
+			x: -7.5d,
+			y: 0.0d,
+			dependencies: [I;816],
 			id: 559,
 			tasks: [
 				{
@@ -956,8 +956,8 @@
 			]
 		},
 		{
-			x: -1.0d,
-			y: 3.5d,
+			x: -6.0d,
+			y: 11.0d,
 			description: [
 				"It is used to detect and analyze Mineral Deposits that can be extracted by an Excavator.",
 				"",
@@ -968,7 +968,7 @@
 				"",
 				"Hovering over the Core Sample Drill will show the chunk boundaries that it scans, in orange."
 			],
-			dependencies: [I;545],
+			dependencies: [I;4007],
 			id: 564,
 			tasks: [
 				{
@@ -995,8 +995,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 1.5d,
+			x: -12.0d,
+			y: 6.5d,
 			dependencies: [I;557],
 			id: 566,
 			tasks: [{
@@ -1023,8 +1023,8 @@
 			]
 		},
 		{
-			x: -3.0d,
-			y: 1.5d,
+			x: -13.5d,
+			y: 6.5d,
 			dependencies: [I;566],
 			id: 568,
 			tasks: [{
@@ -1047,9 +1047,9 @@
 			]
 		},
 		{
-			x: -6.0d,
-			y: 2.5d,
-			dependencies: [I;557],
+			x: -12.0d,
+			y: 1.5d,
+			dependencies: [I;580],
 			id: 570,
 			tasks: [{
 				id: 571,
@@ -1077,8 +1077,8 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: 3.5d,
+			x: -12.0d,
+			y: 5.0d,
 			description: [
 				"It is used to grow crops placed in it.",
 				"",
@@ -1115,8 +1115,8 @@
 			]
 		},
 		{
-			x: 8.0d,
-			y: 4.5d,
+			x: 8.142857142857267d,
+			y: 3.1952380952380963d,
 			dependencies: [I;619],
 			id: 574,
 			tasks: [{
@@ -1132,8 +1132,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -2.5d,
+			x: -8.5d,
+			y: -1.5d,
 			dependencies: [I;559],
 			id: 576,
 			tasks: [{
@@ -1158,9 +1158,9 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: 0.5d,
-			dependencies: [I;559],
+			x: -10.0d,
+			y: 2.0d,
+			dependencies: [I;816],
 			id: 580,
 			tasks: [{
 				id: 581,
@@ -1174,8 +1174,8 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: -4.5d,
+			x: 1.5d,
+			y: -4.0d,
 			dependencies: [I;526],
 			id: 582,
 			tasks: [{
@@ -1199,8 +1199,8 @@
 			]
 		},
 		{
-			x: 8.0d,
-			y: -4.5d,
+			x: 4.5d,
+			y: -4.0d,
 			dependencies: [I;537],
 			id: 584,
 			tasks: [{
@@ -1215,9 +1215,9 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: 1.5d,
-			dependencies: [I;557],
+			x: -11.0d,
+			y: 1.0d,
+			dependencies: [I;580],
 			id: 586,
 			tasks: [{
 				id: 587,
@@ -1242,8 +1242,8 @@
 		{
 			title: "Excavator",
 			icon: "immersiveengineering:excavator",
-			x: 1.0d,
-			y: 3.5d,
+			x: -2.0285714285713325d,
+			y: 10.880952380952401d,
 			shape: "square",
 			description: [
 				'The Excavator is made of two parts. The "Wheel" is the center part, and is formed by right-clicking with an Engineer\'s Hammer on the the hidden Block of Steel. The "Engine" is the other part, and is formed by right-clicking the Engineer\'s Hammer on',
@@ -1263,9 +1263,9 @@
 			],
 			dependencies: [I;
 				564,
-				547,
 				623
 			],
+			size: 2.0d,
 			id: 589,
 			tasks: [
 				{
@@ -1320,8 +1320,8 @@
 			]
 		},
 		{
-			x: -6.0d,
-			y: 4.5d,
+			x: -13.5d,
+			y: 3.5d,
 			dependencies: [I;549],
 			id: 591,
 			tasks: [{
@@ -1337,8 +1337,8 @@
 			}]
 		},
 		{
-			x: 6.0d,
-			y: 1.5d,
+			x: 0.34285714285726243d,
+			y: 3.2238095238095283d,
 			dependencies: [I;611],
 			id: 593,
 			tasks: [{
@@ -1375,8 +1375,8 @@
 			]
 		},
 		{
-			x: 6.0d,
-			y: 3.5d,
+			x: 0.34285714285726243d,
+			y: 6.395238095238099d,
 			dependencies: [I;611],
 			id: 595,
 			tasks: [{
@@ -1408,8 +1408,8 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: -3.5d,
+			x: -9.5d,
+			y: -2.5d,
 			dependencies: [I;576],
 			id: 597,
 			tasks: [{
@@ -1424,8 +1424,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -4.5d,
+			x: -11.0d,
+			y: -3.0d,
 			dependencies: [I;597],
 			id: 599,
 			tasks: [{
@@ -1454,8 +1454,8 @@
 			]
 		},
 		{
-			x: -4.0d,
-			y: -4.5d,
+			x: -10.0d,
+			y: -4.0d,
 			dependencies: [I;597],
 			id: 601,
 			tasks: [{
@@ -1478,7 +1478,7 @@
 			]
 		},
 		{
-			x: -4.0d,
+			x: -8.5d,
 			y: -3.5d,
 			dependencies: [I;576],
 			id: 603,
@@ -1495,8 +1495,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: -3.5d,
+			x: -10.5d,
+			y: -1.5d,
 			dependencies: [I;576],
 			id: 605,
 			tasks: [{
@@ -1521,8 +1521,8 @@
 		{
 			title: "Industrial Fermenter",
 			icon: "immersiveengineering:fermenter",
-			x: 4.5d,
-			y: 1.5d,
+			x: -3.1999999999998963d,
+			y: 6.652380952380973d,
 			shape: "square",
 			description: [
 				"Used to make Ethanol.",
@@ -1535,7 +1535,8 @@
 				"- Melon - 80 mB",
 				"- Potato - 80 mB"
 			],
-			dependencies: [I;547],
+			dependencies: [I;4009],
+			size: 1.5d,
 			id: 607,
 			tasks: [{
 				id: 1142,
@@ -1560,8 +1561,8 @@
 		{
 			title: "Industrial Squeezer",
 			icon: "immersiveengineering:squeezer",
-			x: 4.5d,
-			y: 3.5d,
+			x: -3.0857142857141824d,
+			y: 3.2238095238095354d,
 			shape: "square",
 			description: [
 				"It is used to make Plant Oil or HOP Graphite Dust",
@@ -1576,7 +1577,8 @@
 				"- Seeds - 80 mB",
 				"- Industrial Hemp Seeds - 120 mB"
 			],
-			dependencies: [I;547],
+			dependencies: [I;4009],
+			size: 1.5d,
 			id: 609,
 			tasks: [
 				{
@@ -1608,8 +1610,8 @@
 		{
 			title: "Refinery",
 			icon: "immersiveengineering:refinery",
-			x: 6.0d,
-			y: 2.5d,
+			x: 0.3428571428572482d,
+			y: 4.82380952380953d,
 			shape: "square",
 			description: [
 				"It is used to make Biodiesel.",
@@ -1625,6 +1627,7 @@
 				607,
 				609
 			],
+			size: 1.5d,
 			id: 611,
 			tasks: [{
 				id: 627,
@@ -1641,8 +1644,8 @@
 		{
 			title: "Diesel Generator",
 			icon: "immersiveengineering:diesel_generator",
-			x: 7.0d,
-			y: 2.5d,
+			x: 2.2285714285715343d,
+			y: 4.82380952380953d,
 			shape: "square",
 			description: [
 				"The Diesel Generator is a 3x5x3 multi-block added by Immersive Engineering. It is used to create Redstone Flux (RF) from Biodiesel and Fuel.",
@@ -1661,6 +1664,7 @@
 				"Also note that the Refinery produces enough Biodiesel at maximum capacity to supply two Diesel Generators."
 			],
 			dependencies: [I;611],
+			size: 1.5d,
 			id: 613,
 			tasks: [
 				{
@@ -1727,9 +1731,9 @@
 		{
 			title: "Arc Furnace",
 			icon: "immersiveengineering:arc_furnace",
-			x: 8.0d,
-			y: 2.5d,
-			shape: "square",
+			x: 2.257142857142952d,
+			y: 2.0523809523809575d,
+			shape: "gear",
 			description: [
 				"It is used to quickly smelt Ores, Grit and create Steel and other alloys, as well as to recycle tools and armor. After building the structure, right-click the Cauldron with an Engineer's Hammer to complete it.",
 				"",
@@ -1750,6 +1754,7 @@
 				""
 			],
 			dependencies: [I;613],
+			size: 2.0d,
 			id: 615,
 			tasks: [
 				{
@@ -1849,10 +1854,11 @@
 		{
 			title: "Pumpjack",
 			icon: "immersivepetroleum:pumpjack",
-			x: 7.0d,
-			y: 3.5d,
+			x: 5.68571428571439d,
+			y: 4.82380952380953d,
 			shape: "square",
 			dependencies: [I;613],
+			size: 1.5d,
 			id: 617,
 			tasks: [{
 				id: 1218,
@@ -1883,10 +1889,11 @@
 		{
 			title: "Distillation tower",
 			icon: "immersivepetroleum:distillationtower",
-			x: 7.0d,
-			y: 4.5d,
+			x: 8.114285714285813d,
+			y: 4.795238095238105d,
 			shape: "square",
 			dependencies: [I;617],
+			size: 1.5d,
 			id: 619,
 			tasks: [
 				{
@@ -1929,8 +1936,8 @@
 		{
 			title: "Crusher",
 			icon: "immersiveengineering:crusher",
-			x: -1.0d,
-			y: 1.5d,
+			x: -2.9714285714284685d,
+			y: 4.909523809523826d,
 			shape: "square",
 			description: [
 				"It is used for crushing Ores into Grit (Dusts), which is more efficient than normal smelting.",
@@ -1949,7 +1956,8 @@
 				"",
 				"The multi-block's processes can be halted via Redstone through the \"control panel\", the front-rightmost-center block."
 			],
-			dependencies: [I;545],
+			dependencies: [I;4009],
+			size: 1.5d,
 			id: 621,
 			tasks: [
 				{
@@ -2003,8 +2011,8 @@
 		{
 			title: "Metal Press",
 			icon: "immersiveengineering:metal_press",
-			x: 1.0d,
-			y: 4.5d,
+			x: -4.9714285714284685d,
+			y: 7.138095238095261d,
 			shape: "square",
 			description: [
 				"It is used to create Plates and Rods.",
@@ -2018,10 +2026,8 @@
 				"",
 				"The Metal Press requires a Mold in order to function. Right-clicking (or as of version 0.7.4, throwing) a Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right-clicking with an Engineer's Hammer."
 			],
-			dependencies: [I;
-				547,
-				628
-			],
+			dependencies: [I;4009],
+			size: 1.5d,
 			id: 623,
 			tasks: [
 				{
@@ -2061,10 +2067,11 @@
 		{
 			title: "Sawmill",
 			icon: "immersiveengineering:sawmill",
-			x: 3.0d,
-			y: 4.5d,
+			x: -4.9714285714284685d,
+			y: 2.9095238095238187d,
 			shape: "square",
-			dependencies: [I;547],
+			dependencies: [I;4009],
+			size: 1.5d,
 			id: 625,
 			tasks: [
 				{
@@ -2123,9 +2130,9 @@
 			]
 		},
 		{
-			x: -4.0d,
-			y: 4.5d,
-			dependencies: [I;557],
+			x: -5.0d,
+			y: 9.5d,
+			dependencies: [I;623],
 			id: 628,
 			tasks: [
 				{
@@ -2164,8 +2171,8 @@
 			]
 		},
 		{
-			x: -6.0d,
-			y: 0.5d,
+			x: -9.0d,
+			y: 1.0d,
 			dependencies: [I;580],
 			id: 710,
 			tasks: [{
@@ -2188,7 +2195,7 @@
 			]
 		},
 		{
-			x: -4.0d,
+			x: -7.0d,
 			y: -2.5d,
 			dependencies: [I;559],
 			id: 712,
@@ -2225,6 +2232,126 @@
 					item: "spareparts:coins/stone_coin"
 				}
 			]
+		},
+		{
+			title: "Treated Wood Planks",
+			x: -10.0d,
+			y: 0.0d,
+			description: ["By treating wood with creasote oil they will become fireproof."],
+			dependencies: [I;3993],
+			id: 816,
+			tasks: [{
+				id: 817,
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal",
+				count: 64L
+			}],
+			rewards: [
+				{
+					id: 821,
+					type: "item",
+					item: "ironchest:wood_to_iron_chest_upgrade"
+				},
+				{
+					id: 822,
+					type: "item",
+					item: "immersiveengineering:crate"
+				},
+				{
+					id: 974,
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: 1112,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Coke Oven",
+			icon: "immersiveengineering:cokebrick",
+			disable_toast: true,
+			x: -15.0d,
+			y: 0.0d,
+			shape: "gear",
+			size: 3.0d,
+			id: 3993,
+			tasks: [
+				{
+					id: 3995,
+					type: "item",
+					item: "immersiveengineering:cokebrick",
+					count: 27L
+				},
+				{
+					id: 3997,
+					type: "item",
+					item: "immersiveengineering:creosote_bucket"
+				},
+				{
+					id: 3998,
+					type: "item",
+					item: "immersiveengineering:coke"
+				}
+			]
+		},
+		{
+			title: "Magma Blocks",
+			x: -13.5d,
+			y: 12.0d,
+			shape: "gear",
+			size: 1.5d,
+			id: 4003,
+			tasks: [{
+				id: 4004,
+				type: "item",
+				item: "minecraft:magma_block",
+				count: 9L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 3.5d,
+			dependencies: [I;557],
+			id: 4005,
+			tasks: [{
+				id: 4006,
+				type: "item",
+				item: "immersiveengineering:rs_engineering"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 9.5d,
+			dependencies: [I;253],
+			id: 4007,
+			tasks: [{
+				id: 4008,
+				type: "item",
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+		},
+		{
+			title: "Project Me Like One of Those French Girls",
+			x: -5.0d,
+			y: 5.0d,
+			shape: "octagon",
+			dependencies: [I;
+				4007,
+				547,
+				545,
+				4005
+			],
+			dependency_requirement: "one_completed",
+			size: 2.0d,
+			id: 4009,
+			tasks: [{
+				id: 4010,
+				type: "item",
+				item: "immersivepetroleum:projector"
+			}]
 		}
 	]
 }

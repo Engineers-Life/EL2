@@ -1,14 +1,15 @@
 {
 	id: 194,
 	filename: "farmers_delight",
-	order_index: 2,
+	order_index: 4,
 	title: "Farmer's Delight",
 	icon: "simplefarming:grapes",
 	default_quest_shape: "rsquare",
 	quests: [
 		{
-			x: -0.5d,
-			y: 0.0d,
+			x: 5.5d,
+			y: -1.0d,
+			dependencies: [I;3991],
 			id: 441,
 			tasks: [{
 				id: 442,
@@ -29,8 +30,8 @@
 			]
 		},
 		{
-			x: -1.0d,
-			y: 1.0d,
+			x: 7.5d,
+			y: -4.5d,
 			dependencies: [I;441],
 			id: 443,
 			tasks: [{
@@ -45,8 +46,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 1.0d,
+			x: 9.0d,
+			y: -4.5d,
 			dependencies: [I;443],
 			id: 445,
 			tasks: [{
@@ -61,8 +62,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 0.0d,
+			x: 7.5d,
+			y: -3.5d,
 			dependencies: [I;441],
 			id: 447,
 			tasks: [{
@@ -77,8 +78,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 0.0d,
+			x: 9.0d,
+			y: -3.5d,
 			dependencies: [I;447],
 			id: 449,
 			tasks: [{
@@ -93,8 +94,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -1.5d,
+			x: 7.5d,
+			y: -2.5d,
 			dependencies: [I;441],
 			id: 451,
 			tasks: [{
@@ -109,7 +110,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: 9.0d,
 			y: -2.5d,
 			dependencies: [I;451],
 			id: 453,
@@ -126,8 +127,8 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: 0.0d,
+			x: 7.5d,
+			y: 1.5d,
 			dependencies: [I;
 				475,
 				441
@@ -145,8 +146,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 1.0d,
+			x: 9.0d,
+			y: 1.5d,
 			dependencies: [I;455],
 			id: 457,
 			tasks: [{
@@ -161,7 +162,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: 7.5d,
 			y: -1.5d,
 			dependencies: [I;441],
 			id: 459,
@@ -177,8 +178,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: -2.5d,
+			x: 9.0d,
+			y: -1.5d,
 			dependencies: [I;459],
 			id: 461,
 			tasks: [{
@@ -193,8 +194,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 1.0d,
+			x: 5.5d,
+			y: -4.5d,
 			dependencies: [I;441],
 			id: 465,
 			tasks: [{
@@ -209,8 +210,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -1.5d,
+			x: 7.5d,
+			y: -0.5d,
 			dependencies: [I;441],
 			id: 467,
 			tasks: [{
@@ -225,8 +226,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -2.5d,
+			x: 9.0d,
+			y: -0.5d,
 			dependencies: [I;467],
 			id: 469,
 			tasks: [{
@@ -241,8 +242,9 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: -1.5d,
+			title: "Potato",
+			x: 7.5d,
+			y: 0.5d,
 			dependencies: [I;441],
 			id: 471,
 			tasks: [{
@@ -257,8 +259,8 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: -2.5d,
+			x: 9.0d,
+			y: 0.5d,
 			dependencies: [I;471],
 			id: 473,
 			tasks: [{
@@ -273,8 +275,9 @@
 			}]
 		},
 		{
-			x: 2.0d,
-			y: 0.0d,
+			x: 5.5d,
+			y: 1.5d,
+			dependencies: [I;3991],
 			id: 475,
 			tasks: [
 				{
@@ -296,8 +299,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: 1.0d,
+			x: 1.5d,
+			y: -1.5d,
+			dependencies: [I;3991],
 			id: 478,
 			tasks: [{
 				id: 479,
@@ -317,8 +321,8 @@
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 1.0d,
+			x: 1.5d,
+			y: -3.0d,
 			dependencies: [I;478],
 			id: 480,
 			tasks: [{
@@ -333,8 +337,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 0.0d,
+			x: 1.5d,
+			y: -4.5d,
 			dependencies: [I;480],
 			id: 718,
 			tasks: [{
@@ -350,8 +354,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 1.0d,
+			x: -0.5d,
+			y: -4.5d,
 			dependencies: [I;480],
 			id: 720,
 			tasks: [
@@ -391,8 +395,8 @@
 			]
 		},
 		{
-			x: 4.0d,
-			y: -1.0d,
+			x: 3.5d,
+			y: -4.5d,
 			dependencies: [I;480],
 			id: 724,
 			tasks: [{
@@ -407,8 +411,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: -1.0d,
+			x: 2.5d,
+			y: -6.0d,
 			dependencies: [I;
 				724,
 				718
@@ -439,8 +443,8 @@
 			]
 		},
 		{
-			x: 6.5d,
-			y: 1.0d,
+			x: 0.5d,
+			y: -6.0d,
 			dependencies: [I;
 				720,
 				718
@@ -482,8 +486,8 @@
 			]
 		},
 		{
-			x: 3.0d,
-			y: -1.0d,
+			x: 3.5d,
+			y: -1.5d,
 			dependencies: [I;478],
 			id: 732,
 			tasks: [
@@ -1433,6 +1437,409 @@
 				id: 1685,
 				type: "item",
 				item: "pamhc2trees:pinenut_sapling"
+			}]
+		},
+		{
+			title: "Potato, Potatoe",
+			x: -0.5d,
+			y: -1.5d,
+			description: ["Should be able to nab some of these to get you started from a village."],
+			dependencies: [I;
+				195,
+				197
+			],
+			id: 205,
+			tasks: [{
+				id: 206,
+				type: "item",
+				item: "minecraft:potato",
+				count: 64L
+			}],
+			rewards: [
+				{
+					id: 392,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 831,
+					type: "item",
+					item: "minecraft:cake"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			description: ["You should be able to get some of these seeds by breaking grass."],
+			dependencies: [I;3991],
+			id: 199,
+			tasks: [{
+				id: 200,
+				type: "item",
+				item: "immersiveengineering:seed"
+			}],
+			rewards: [
+				{
+					id: 375,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 839,
+					type: "item",
+					item: "simplefarming:candy"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			description: ["You will come across a lot of these from grass."],
+			dependencies: [I;
+				195,
+				3991
+			],
+			id: 197,
+			tasks: [{
+				id: 198,
+				type: "item",
+				item: "minecraft:wheat_seeds"
+			}],
+			rewards: [
+				{
+					id: 376,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 830,
+					type: "item",
+					item: "pamhc2foodcore:pumpkinbreaditem"
+				}
+			]
+		},
+		{
+			title: "Wheatabix",
+			x: -2.0d,
+			y: -3.0d,
+			description: ["Get to growing!"],
+			dependencies: [I;197],
+			id: 201,
+			tasks: [{
+				id: 202,
+				type: "item",
+				item: "minecraft:wheat",
+				count: 64L
+			}],
+			rewards: [
+				{
+					id: 361,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:furrowing"
+							}]
+						}
+					}
+				},
+				{
+					id: 362,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:weeding"
+							}]
+						}
+					}
+				},
+				{
+					id: 811,
+					type: "item",
+					item: "minecraft:paper",
+					count: 3
+				},
+				{
+					id: 845,
+					type: "item",
+					item: "pamhc2foodcore:pumpkinbreaditem"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -4.5d,
+			description: [
+				"Will automate the feeding of animals depending on the feed inserted.",
+				"",
+				"-Can be used to automate animal breeding to a degree.",
+				""
+			],
+			dependencies: [I;201],
+			id: 203,
+			tasks: [{
+				id: 204,
+				type: "item",
+				item: "quark:feeding_trough"
+			}],
+			rewards: [
+				{
+					id: 306,
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 16
+				},
+				{
+					id: 335,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "ensorcellation:gourmand"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -2.0d,
+			description: ["Cook up some Cactus!"],
+			dependencies: [I;197],
+			id: 209,
+			tasks: [{
+				id: 210,
+				type: "item",
+				item: "quark:cactus_paste"
+			}],
+			rewards: [
+				{
+					id: 293,
+					type: "item",
+					item: "minecraft:green_dye",
+					count: 16
+				},
+				{
+					id: 832,
+					type: "item",
+					item: "simplefarming:fruit_salad"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -3.0d,
+			description: ["Give your base some flair."],
+			dependencies: [I;209],
+			id: 211,
+			tasks: [{
+				id: 212,
+				type: "item",
+				item: "quark:midori_block"
+			}],
+			rewards: [{
+				id: 322,
+				type: "item",
+				item: "minecraft:flower_pot"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -1.0d,
+			description: ["Will display the first page of a book and quill or a map."],
+			dependencies: [I;1840],
+			id: 1842,
+			tasks: [{
+				id: 1843,
+				type: "item",
+				item: "supplementaries:notice_board"
+			}],
+			rewards: [{
+				id: 1847,
+				type: "item",
+				item: "supplementaries:sign_post_oak"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -0.5d,
+			description: ["A chicken uses some squid juice to mark on some flat sticks surrounded by the skin of a cow."],
+			dependencies: [I;1838],
+			id: 1840,
+			tasks: [{
+				id: 1841,
+				type: "item",
+				item: "minecraft:writable_book"
+			}],
+			rewards: [{
+				id: 1848,
+				type: "item",
+				item: "supplementaries:sconce"
+			}]
+		},
+		{
+			title: "The Librarian",
+			x: -7.0d,
+			y: 1.5d,
+			description: ["Collect all those books! Put them into the Akashic Tome for safe keeping."],
+			dependencies: [I;1825],
+			id: 1827,
+			tasks: [
+				{
+					id: 1828,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+				},
+				{
+					id: 1829,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "transport:guide"
+						}
+					}
+				},
+				{
+					id: 1830,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+				},
+				{
+					id: 1831,
+					type: "item",
+					item: "cookingforblockheads:recipe_book"
+				},
+				{
+					id: 1832,
+					type: "item",
+					item: "cookingforblockheads:crafting_book"
+				},
+				{
+					id: 1833,
+					type: "item",
+					item: "ftbquests:book"
+				},
+				{
+					id: 1834,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					}
+				},
+				{
+					id: 1835,
+					type: "item",
+					item: "immersiveengineering:manual"
+				},
+				{
+					id: 1836,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				},
+				{
+					id: 1837,
+					type: "item",
+					item: "alexsmobs:animal_dictionary"
+				}
+			],
+			rewards: [{
+				id: 1846,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 1.5d,
+			description: ["Combine all those mod books you have in to a single book!"],
+			dependencies: [I;1838],
+			id: 1825,
+			tasks: [{
+				id: 1826,
+				type: "item",
+				item: "akashictome:tome"
+			}],
+			rewards: [{
+				id: 1845,
+				type: "item",
+				item: "minecraft:lapis_lazuli",
+				count: 5
+			}]
+		},
+		{
+			title: "Sugar or Paper?",
+			x: -4.0d,
+			y: 0.0d,
+			description: ["Let those stalks reach for the sky!"],
+			dependencies: [I;197],
+			id: 1838,
+			tasks: [{
+				id: 1839,
+				type: "item",
+				item: "minecraft:sugar_cane",
+				count: 64L
+			}],
+			rewards: [{
+				id: 1844,
+				type: "item",
+				item: "minecraft:string",
+				count: 5
+			}]
+		},
+		{
+			title: "Outstanding in A Field",
+			disable_toast: true,
+			x: 1.5000000000000142d,
+			y: 0.9226190476190439d,
+			shape: "hexagon",
+			size: 2.0d,
+			id: 3991,
+			tasks: [{
+				id: 3992,
+				type: "item",
+				item: {
+					id: "notreepunching:flint_hoe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

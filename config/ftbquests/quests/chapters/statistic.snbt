@@ -1,7 +1,7 @@
 {
 	id: 742,
 	filename: "statistic",
-	order_index: 11,
+	order_index: 13,
 	title: "Statistics",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",
@@ -262,7 +262,7 @@
 		},
 		{
 			icon: "engineersdecor:sign_exit",
-			x: -0.5d,
+			x: -2.5d,
 			y: -4.0d,
 			id: 776,
 			tasks: [{
@@ -279,7 +279,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -2.5d,
 			y: -3.0d,
 			dependencies: [I;776],
 			id: 778,
@@ -292,7 +292,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -2.5d,
 			y: -2.0d,
 			dependencies: [I;778],
 			id: 780,
@@ -305,7 +305,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -2.5d,
 			y: -1.0d,
 			dependencies: [I;780],
 			id: 782,
@@ -318,7 +318,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -2.5d,
 			y: 0.0d,
 			dependencies: [I;782],
 			id: 784,
@@ -331,7 +331,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.5d,
 			y: -4.0d,
 			id: 786,
 			tasks: [{
@@ -356,7 +356,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.5d,
 			y: -3.0d,
 			id: 790,
 			tasks: [{
@@ -455,7 +455,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.5d,
 			y: -2.0d,
 			id: 1706,
 			tasks: [{
@@ -482,6 +482,23 @@
 				icon: "minecraft:feather",
 				stat: "minecraft:fall_one_cm",
 				value: 1000000
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.0d,
+			id: 1823,
+			tasks: [{
+				id: 1824,
+				type: "stat",
+				icon: "minecraft:dark_oak_boat",
+				stat: "minecraft:boat_one_cm",
+				value: 1000000
+			}],
+			rewards: [{
+				id: 1910,
+				type: "random",
+				table: 1
 			}]
 		}
 	]
