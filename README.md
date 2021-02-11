@@ -1,2 +1,2 @@
 # EL2 Testing Files
-Current Pack Version 0.7
+Current Pack Version 0.8
