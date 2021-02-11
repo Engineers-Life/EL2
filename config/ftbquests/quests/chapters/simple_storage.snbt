@@ -1,0 +1,389 @@
+{
+	id: 282,
+	filename: "simple_storage",
+	order_index: 7,
+	title: "Simple Storage Solutions",
+	icon: "storagenetwork:master",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 8.5d,
+			y: 1.5d,
+			description: ["The root of your Simple Storage Network. You will only need a single root per network."],
+			dependencies: [I;
+				423,
+				4400
+			],
+			id: 417,
+			tasks: [{
+				id: 418,
+				type: "item",
+				item: "storagenetwork:master"
+			}],
+			rewards: [{
+				id: 1193,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 0.5d,
+			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."],
+			dependencies: [I;417],
+			id: 419,
+			tasks: [{
+				id: 420,
+				type: "item",
+				item: "storagenetwork:storage_kabel"
+			}],
+			rewards: [
+				{
+					id: 1196,
+					type: "item",
+					item: "spareparts:coins/copper_coin"
+				},
+				{
+					id: 1202,
+					type: "item",
+					item: "minecraft:emerald"
+				},
+				{
+					id: 2039,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 10.0d,
+			y: 2.5d,
+			description: ["This block allows you to craft with items from a network."],
+			dependencies: [I;417],
+			id: 421,
+			tasks: [{
+				id: 422,
+				type: "item",
+				item: "storagenetwork:request"
+			}],
+			rewards: [
+				{
+					id: 1195,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: 1201,
+					type: "item",
+					item: "minecraft:emerald"
+				}
+			]
+		},
+		{
+			x: 11.0d,
+			y: 1.5d,
+			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."],
+			id: 423,
+			tasks: [{
+				id: 424,
+				type: "item",
+				item: "storagenetwork:kabel"
+			}],
+			rewards: [{
+				id: 1192,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 2.5d,
+			description: ["This block will allow you to see what is stored in a network."],
+			dependencies: [I;417],
+			id: 425,
+			tasks: [{
+				id: 426,
+				type: "item",
+				item: "storagenetwork:inventory"
+			}],
+			rewards: [
+				{
+					id: 1194,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 2038,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_i_random"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -2.5d,
+			description: [
+				"A slightly larger chest, it is kind of rusty.....",
+				"",
+				"9x6 slots (54 total)."
+			],
+			dependencies: [I;163],
+			id: 427,
+			tasks: [{
+				id: 428,
+				type: "item",
+				item: "ironchest:iron_chest"
+			}],
+			rewards: [{
+				id: 1120,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.5d,
+			description: [
+				"Ok this chest is a bit ridiculous....",
+				"",
+				"9x9 slots (81 total)."
+			],
+			dependencies: [I;4393],
+			id: 429,
+			tasks: [{
+				id: 430,
+				type: "item",
+				item: "ironchest:gold_chest"
+			}],
+			rewards: [{
+				id: 1121,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -2.5d,
+			description: [
+				"Oh this is going to be expensive....",
+				"",
+				"12x9 slots (108 total)."
+			],
+			dependencies: [I;429],
+			id: 431,
+			tasks: [{
+				id: 432,
+				type: "item",
+				item: "ironchest:diamond_chest"
+			}],
+			rewards: [{
+				id: 1122,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -2.5d,
+			description: [
+				"A completely blast resistant version of the diamond chest.",
+				"",
+				"12x9 slots (108 total)."
+			],
+			dependencies: [I;4395],
+			id: 433,
+			tasks: [{
+				id: 434,
+				type: "item",
+				item: "ironchest:obsidian_chest"
+			}],
+			rewards: [{
+				id: 1203,
+				type: "item",
+				item: "minecraft:emerald"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: 3.5d,
+			y: -2.5d,
+			shape: "gear",
+			description: [
+				"A bigger chest to store your stuff.",
+				"",
+				"9x5 slots (45 total)."
+			],
+			size: 1.5d,
+			id: 163,
+			tasks: [{
+				id: 164,
+				type: "item",
+				item: "ironchest:copper_chest"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -2.5d,
+			description: [
+				"This seems like it may be a bit expensive to store stuff in.",
+				"",
+				"9x8 slots (72 total)."
+			],
+			dependencies: [I;427],
+			id: 4393,
+			tasks: [{
+				id: 4394,
+				type: "item",
+				item: "ironchest:silver_chest"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -2.5d,
+			description: [
+				"A clear version of diamond chest. (No longer shows internal items.)",
+				"",
+				"12x9 slots (108 total)."
+			],
+			dependencies: [I;431],
+			id: 4395,
+			tasks: [{
+				id: 4396,
+				type: "item",
+				item: "ironchest:crystal_chest"
+			}]
+		},
+		{
+			disable_toast: true,
+			x: 6.0d,
+			y: 1.5d,
+			shape: "gear",
+			size: 1.5d,
+			id: 4400,
+			tasks: [{
+				id: 4401,
+				type: "item",
+				item: "minecraft:nether_star"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 0.5d,
+			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable need be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."],
+			dependencies: [I;417],
+			id: 4402,
+			tasks: [{
+				id: 4403,
+				type: "item",
+				item: "storagenetwork:import_kabel"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.0d,
+			description: [
+				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable need be placed to put into a block, they can be connected by standard network cable to the network.",
+				"Can be right clicked to to set whitelists/blacklists of items for the link."
+			],
+			dependencies: [I;417],
+			id: 4404,
+			tasks: [{
+				id: 4405,
+				type: "item",
+				item: "storagenetwork:export_kabel"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -0.5d,
+			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."],
+			dependencies: [I;419],
+			id: 4406,
+			tasks: [{
+				id: 4407,
+				type: "item",
+				item: "storagenetwork:filter_kabel"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -0.5d,
+			description: ["Acts like a input cable but allows the input to the network to be filtered."],
+			dependencies: [I;4402],
+			id: 4408,
+			tasks: [{
+				id: 4409,
+				type: "item",
+				item: "storagenetwork:import_filter_kabel"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.0d,
+			description: ["This upgrade will upgrade the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."],
+			dependencies: [I;417],
+			id: 4414,
+			tasks: [{
+				id: 4415,
+				type: "item",
+				item: "storagenetwork:speed_upgrade"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.5d,
+			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."],
+			dependencies: [I;4414],
+			id: 4416,
+			tasks: [{
+				id: 4417,
+				type: "item",
+				item: "storagenetwork:stack_upgrade"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 3.0d,
+			description: [
+				"This remote will allow you to see the contents of a network at distance. Can be linked to a network by shift right clicking the root with the remote.",
+				"",
+				"The network will need to be chunk loaded to be seen at distance."
+			],
+			dependencies: [I;417],
+			id: 4418,
+			tasks: [{
+				id: 4419,
+				type: "item",
+				item: "storagenetwork:inventory_remote"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 4.5d,
+			description: [
+				"And upgrade of the storage remote that allows you to craft at a distance from your storage network.",
+				"",
+				"Your network will need to be chunk loaded to remain active at distance."
+			],
+			dependencies: [I;4418],
+			id: 4420,
+			tasks: [{
+				id: 4421,
+				type: "item",
+				item: "storagenetwork:crafting_remote"
+			}]
+		}
+	]
+}

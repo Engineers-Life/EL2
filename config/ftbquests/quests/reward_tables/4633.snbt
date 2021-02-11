@@ -1,0 +1,64 @@
+{
+	id: 4633,
+	title: "Random ingot/material",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:nether_brick"
+		},
+		{
+			item: "minecraft:quartz"
+		},
+		{
+			item: "refinedstorage:quartz_enriched_iron"
+		},
+		{
+			item: "immersiveengineering:ingot_hop_graphite"
+		},
+		{
+			item: "randomite:randomite_ore"
+		},
+		{
+			item: "minecraft:diamond"
+		},
+		{
+			item: "minecraft:redstone"
+		},
+		{
+			item: "minecraft:gold_ingot"
+		},
+		{
+			item: "minecraft:iron_ingot"
+		},
+		{
+			item: "minecraft:coal"
+		},
+		{
+			item: "immersiveengineering:ingot_nickel"
+		},
+		{
+			item: "immersiveengineering:ingot_copper"
+		},
+		{
+			item: "immersiveengineering:ingot_aluminum"
+		},
+		{
+			item: "immersiveengineering:ingot_lead"
+		},
+		{
+			item: "immersiveengineering:ingot_silver"
+		},
+		{
+			item: "immersiveengineering:ingot_steel"
+		},
+		{
+			item: "immersiveengineering:ingot_uranium"
+		},
+		{
+			item: "immersiveengineering:ingot_constantan"
+		},
+		{
+			item: "immersiveengineering:ingot_electrum"
+		}
+	]
+}

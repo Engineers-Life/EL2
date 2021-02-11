@@ -1,0 +1,30 @@
+{
+	id: 4640,
+	filename: "end_exploration",
+	order_index: 15,
+	title: "End Exploration",
+	icon: "minecraft:end_portal_frame",
+	default_quest_shape: "",
+	quests: [{
+		x: -2.5d,
+		y: -1.0d,
+		id: 4641,
+		tasks: [
+			{
+				id: 4642,
+				type: "item",
+				item: "betterendforge:crystal_shards"
+			},
+			{
+				id: 4643,
+				type: "item",
+				item: "betterendforge:ender_shard"
+			}
+		],
+		rewards: [{
+			id: 4644,
+			type: "item",
+			item: "betterendforge:guidebook"
+		}]
+	}]
+}

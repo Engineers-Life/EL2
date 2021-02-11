@@ -1,0 +1,810 @@
+{
+	id: 4077,
+	filename: "culinary_engineering",
+	order_index: 6,
+	title: "Culinary Engineering",
+	icon: "cookingforblockheads:cooking_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Cooking for Engineers",
+			disable_toast: true,
+			x: -11.202380952380935d,
+			y: -4.464285714285712d,
+			shape: "gear",
+			size: 2.0d,
+			id: 4078,
+			tasks: [{
+				id: 4079,
+				type: "item",
+				item: "cookingforblockheads:recipe_book"
+			}]
+		},
+		{
+			x: -9.130952380952365d,
+			y: -4.482142857142858d,
+			shape: "rsquare",
+			description: ["With this book you will be able to make food specifically from in your inventory."],
+			dependencies: [I;4078],
+			id: 4080,
+			tasks: [{
+				id: 4081,
+				type: "item",
+				item: "cookingforblockheads:crafting_book"
+			}]
+		},
+		{
+			x: -7.630952380952365d,
+			y: -4.482142857142858d,
+			shape: "rsquare",
+			description: ["This cooking table is the first step in having a entire functioning and linked kitchen. It will be where you craft your food. "],
+			dependencies: [I;4080],
+			id: 4082,
+			tasks: [{
+				id: 4083,
+				type: "item",
+				item: "cookingforblockheads:cooking_table"
+			}]
+		},
+		{
+			x: -6.130952380952365d,
+			y: -4.482142857142858d,
+			shape: "rsquare",
+			description: ["By having a sink linked into your kitchen (touching other counter blocks and equipment) you will have water supplied freely to all your recipes."],
+			id: 4084,
+			tasks: [{
+				id: 4085,
+				type: "item",
+				item: "cookingforblockheads:sink"
+			}]
+		},
+		{
+			x: -4.630952380952365d,
+			y: -4.482142857142858d,
+			shape: "rsquare",
+			description: ["The oven will allow you to cook any food needed in your recipes, when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."],
+			id: 4086,
+			tasks: [{
+				id: 4087,
+				type: "item",
+				item: "cookingforblockheads:oven"
+			}]
+		},
+		{
+			x: -3.1309523809523654d,
+			y: -4.482142857142858d,
+			description: ["The toaster will convert bread to toast for any recipe needing it."],
+			id: 4088,
+			tasks: [{
+				id: 4089,
+				type: "item",
+				item: "cookingforblockheads:toaster"
+			}]
+		},
+		{
+			x: -1.6309523809523654d,
+			y: -5.982142857142858d,
+			description: [
+				"Provides a constant supply of milk for recipes without manually having to be filled. ",
+				"",
+				"May want to drop an anvil on a cow over a milk jar to see if one actually fits."
+			],
+			dependencies: [I;4092],
+			id: 4090,
+			tasks: [{
+				id: 4091,
+				type: "item",
+				item: "cookingforblockheads:cow_jar"
+			}]
+		},
+		{
+			x: -1.6309523809523654d,
+			y: -4.482142857142858d,
+			description: ["Holds milk to be used in recipes. Must be filled with milk manually."],
+			id: 4092,
+			tasks: [{
+				id: 4093,
+				type: "item",
+				item: "cookingforblockheads:milk_jar"
+			}]
+		},
+		{
+			x: -4.630952380952365d,
+			y: -5.982142857142858d,
+			description: [
+				"The fridge is a decorative storage block that will allow you to store ingredients for recipes.",
+				"Can be double stacked to expand storage space."
+			],
+			id: 4094,
+			tasks: [{
+				id: 4095,
+				type: "item",
+				item: "cookingforblockheads:fridge"
+			}]
+		},
+		{
+			x: -3.1309523809523654d,
+			y: -5.982142857142858d,
+			description: ["Holds tools that will be able to be used in recipes in attached kitchens."],
+			id: 4096,
+			tasks: [{
+				id: 4097,
+				type: "item",
+				item: "cookingforblockheads:tool_rack"
+			}]
+		},
+		{
+			x: -0.1309523809523654d,
+			y: -5.982142857142858d,
+			description: ["Holds and displays spices to be used in the kitchen."],
+			id: 4098,
+			tasks: [{
+				id: 4099,
+				type: "item",
+				item: "cookingforblockheads:spice_rack"
+			}]
+		},
+		{
+			x: -0.1309523809523654d,
+			y: -4.482142857142858d,
+			description: ["Stores and displays fruit for recipes that can be used by the kitchen."],
+			id: 4100,
+			tasks: [{
+				id: 4101,
+				type: "item",
+				item: "cookingforblockheads:fruit_basket"
+			}]
+		},
+		{
+			x: -5.130952380952365d,
+			y: -7.482142857142858d,
+			description: ["A fridge upgrade that will provide all the snow and ice you need for recipes. "],
+			dependencies: [I;4094],
+			id: 4102,
+			tasks: [{
+				id: 4103,
+				type: "item",
+				item: "cookingforblockheads:ice_unit"
+			}]
+		},
+		{
+			x: -4.130952380952365d,
+			y: -7.482142857142858d,
+			description: ["A fridge upgrade that saves the last item in a slot so that item spaces are saved from being replaced."],
+			dependencies: [I;4094],
+			id: 4104,
+			tasks: [{
+				id: 4105,
+				type: "item",
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+		},
+		{
+			x: -4.630952380952365d,
+			y: -2.9821428571428577d,
+			description: ["By applying this upgrade to your oven it will be able to accept RF to cook food, no longer requiring fuel."],
+			dependencies: [I;4086],
+			id: 4106,
+			tasks: [{
+				id: 4107,
+				type: "item",
+				item: "cookingforblockheads:heating_unit"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -6.0d,
+			description: [
+				"A hanging kitchen cabinet to decorate your kitchen and provide some extra storage.",
+				"",
+				"Can be dyed to change their color."
+			],
+			id: 4108,
+			tasks: [{
+				id: 4109,
+				type: "item",
+				item: "cookingforblockheads:cabinet"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -6.0d,
+			description: [
+				"A simple hanging cabinet corner to help around bends while maintaining connection.",
+				"",
+				"Can be dyed to change their color."
+			],
+			id: 4110,
+			tasks: [{
+				id: 4111,
+				type: "item",
+				item: "cookingforblockheads:hanging_corner"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -4.5d,
+			description: [
+				"Kitchen counter allows you to connect multiple pieces of kitchen equipment together as well as provide some storage for ingredients.",
+				"",
+				"Can be dyed to change their color."
+			],
+			id: 4112,
+			tasks: [{
+				id: 4113,
+				type: "item",
+				item: "cookingforblockheads:counter"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.5d,
+			description: [
+				"A simple corner to help counters around bends, maintaining their connection.",
+				"",
+				"Can be dyed to change their color."
+			],
+			id: 4114,
+			tasks: [{
+				id: 4115,
+				type: "item",
+				item: "cookingforblockheads:corner"
+			}]
+		},
+		{
+			x: 3.285714285714292d,
+			y: -5.232142857142847d,
+			description: ['The "classic" kitchen flooring. Can be converted to a number of other colors, check the recipes in JEI. '],
+			id: 4116,
+			tasks: [{
+				id: 4117,
+				type: "item",
+				item: "cookingforblockheads:white_kitchen_floor"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			id: 4118,
+			tasks: [{
+				id: 4119,
+				type: "item",
+				item: "pamhc2foodcore:skilletitem"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -1.5d,
+			id: 4120,
+			tasks: [{
+				id: 4121,
+				type: "item",
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -1.5d,
+			id: 4122,
+			tasks: [{
+				id: 4123,
+				type: "item",
+				item: "pamhc2foodcore:potitem"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -1.5d,
+			id: 4124,
+			tasks: [{
+				id: 4125,
+				type: "item",
+				item: "pamhc2foodcore:rolleritem"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -1.5d,
+			id: 4126,
+			tasks: [{
+				id: 4127,
+				type: "item",
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			id: 4128,
+			tasks: [{
+				id: 4129,
+				type: "item",
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			id: 4130,
+			tasks: [{
+				id: 4131,
+				type: "item",
+				item: "pamhc2foodcore:grinderitem"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			id: 4132,
+			tasks: [{
+				id: 4133,
+				type: "item",
+				item: "pamhc2foodcore:juiceritem"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			id: 4134,
+			tasks: [{
+				id: 4135,
+				type: "item",
+				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+		},
+		{
+			icon: "pamhc2foodextended:cherryjellysandwichitem",
+			x: -4.011904761904766d,
+			y: 0.1904761904761969d,
+			shape: "octagon",
+			description: ["Below are a number of recipes that you can try to make. These may be complex but their benefits and boost may be appealing if you give them a try."],
+			size: 2.0d,
+			id: 4218,
+			tasks: [{
+				id: 4219,
+				type: "checkmark",
+				title: "Recipe Time"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 2.0d,
+			id: 4220,
+			tasks: [{
+				id: 4319,
+				type: "item",
+				item: "pamhc2foodextended:garlicbreaditem"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.0d,
+			id: 4223,
+			tasks: [{
+				id: 4354,
+				type: "item",
+				item: "pamhc2foodextended:strawberrysodaitem"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			id: 4225,
+			tasks: [{
+				id: 4350,
+				type: "item",
+				item: "pamhc2foodcore:chocolatepuddingitem"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			id: 4227,
+			tasks: [{
+				id: 4346,
+				type: "item",
+				item: "pamhc2foodextended:garlicmashedpotatoesitem"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.5d,
+			id: 4229,
+			tasks: [{
+				id: 4329,
+				type: "item",
+				item: "pamhc2foodextended:bbqchickenpizzaitem"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			id: 4231,
+			tasks: [{
+				id: 4328,
+				type: "item",
+				item: "pamhc2foodextended:hamandpineapplepizzaitem"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 3.5d,
+			id: 4233,
+			tasks: [{
+				id: 4327,
+				type: "item",
+				item: "pamhc2foodextended:anchovypepperonipizzaitem"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 5.0d,
+			id: 4235,
+			tasks: [{
+				id: 4326,
+				type: "item",
+				item: "pamhc2foodextended:supremepizzaitem"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.5d,
+			id: 4237,
+			tasks: [{
+				id: 4325,
+				type: "item",
+				item: "pamhc2foodextended:meatfeastpizzaitem"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.0d,
+			id: 4239,
+			tasks: [{
+				id: 4340,
+				type: "item",
+				item: "pamhc2foodcore:chocolatecakeitem"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 2.0d,
+			id: 4241,
+			tasks: [{
+				id: 4335,
+				type: "item",
+				item: "pamhc2foodextended:chipsanddipitem"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 2.0d,
+			id: 4243,
+			tasks: [{
+				id: 4331,
+				type: "item",
+				item: "pamhc2foodcore:potatochipsitem"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 2.0d,
+			id: 4245,
+			tasks: [{
+				id: 4324,
+				type: "item",
+				item: "pamhc2foodextended:cornchipsitem"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 3.5d,
+			id: 4247,
+			tasks: [{
+				id: 4311,
+				type: "item",
+				item: "pamhc2foodextended:tacoitem"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 2.0d,
+			id: 4249,
+			tasks: [{
+				id: 4312,
+				type: "item",
+				item: "pamhc2foodextended:chipsandsalsaitem"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 5.0d,
+			id: 4251,
+			tasks: [{
+				id: 4313,
+				type: "item",
+				item: "pamhc2foodextended:enchiladaitem"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 5.0d,
+			id: 4253,
+			tasks: [{
+				id: 4314,
+				type: "item",
+				item: "pamhc2foodextended:fiestacornsaladitem"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 3.5d,
+			id: 4255,
+			tasks: [{
+				id: 4320,
+				type: "item",
+				item: "pamhc2foodextended:quesadillaitem"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 3.5d,
+			id: 4257,
+			tasks: [{
+				id: 4334,
+				type: "item",
+				item: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 6.5d,
+			id: 4259,
+			tasks: [{
+				id: 4338,
+				type: "item",
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.5d,
+			id: 4261,
+			tasks: [{
+				id: 4343,
+				type: "item",
+				item: "pamhc2foodcore:pumpkincheesecakeitem"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 6.5d,
+			id: 4263,
+			tasks: [{
+				id: 4315,
+				type: "item",
+				item: "pamhc2foodextended:spaghettidinneritem"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 6.5d,
+			id: 4265,
+			tasks: [{
+				id: 4357,
+				type: "item",
+				item: "pamhc2foodextended:orangesodaitem"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 6.5d,
+			id: 4267,
+			tasks: [{
+				id: 4345,
+				type: "item",
+				item: "pamhc2foodcore:chickendinneritem"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 6.5d,
+			id: 4269,
+			tasks: [{
+				id: 4349,
+				type: "item",
+				item: "pamhc2foodcore:fruitsaladitem"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.5d,
+			id: 4271,
+			tasks: [{
+				id: 4353,
+				type: "item",
+				item: "pamhc2foodcore:chocolateicecreamitem"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			id: 4273,
+			tasks: [{
+				id: 4330,
+				type: "item",
+				item: "pamhc2foodextended:pizzasliceitem"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.5d,
+			id: 4277,
+			tasks: [{
+				id: 4352,
+				type: "item",
+				item: "pamhc2foodextended:chocolatestrawberryitem"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.5d,
+			id: 4279,
+			tasks: [{
+				id: 4347,
+				type: "item",
+				item: "pamhc2foodcore:mashedpotatoesitem"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 6.5d,
+			id: 4281,
+			tasks: [{
+				id: 4348,
+				type: "item",
+				item: "pamhc2foodextended:chimichangaitem"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 5.0d,
+			id: 4283,
+			tasks: [{
+				id: 4351,
+				type: "item",
+				item: "pamhc2foodcore:chocolatedonutitem"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 5.0d,
+			id: 4285,
+			tasks: [{
+				id: 4344,
+				type: "item",
+				item: "pamhc2foodcore:friedchickenitem"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 6.5d,
+			id: 4287,
+			tasks: [{
+				id: 4322,
+				type: "item",
+				item: "pamhc2foodextended:deluxenachoesitem"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 5.0d,
+			id: 4289,
+			tasks: [{
+				id: 4321,
+				type: "item",
+				item: "pamhc2foodextended:nachoesitem"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 6.5d,
+			id: 4291,
+			tasks: [{
+				id: 4333,
+				type: "item",
+				item: "pamhc2foodextended:cheddarandsourcreampotatochipsitem"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 5.0d,
+			id: 4293,
+			tasks: [{
+				id: 4337,
+				type: "item",
+				item: "pamhc2foodcore:basiccheeseburgeritem"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 5.0d,
+			id: 4295,
+			tasks: [{
+				id: 4332,
+				type: "item",
+				item: "pamhc2foodextended:bbqpotatochipsitem"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 3.5d,
+			id: 4297,
+			tasks: [{
+				id: 4336,
+				type: "item",
+				item: "pamhc2foodcore:basichamburgeritem"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.5d,
+			id: 4299,
+			tasks: [{
+				id: 4341,
+				type: "item",
+				item: "pamhc2foodcore:carrotcakeitem"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 3.5d,
+			id: 4301,
+			tasks: [{
+				id: 4318,
+				type: "item",
+				item: "pamhc2foodextended:spagettiitem"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.0d,
+			id: 4303,
+			tasks: [{
+				id: 4355,
+				type: "item",
+				item: "pamhc2foodextended:rootbeersodaitem"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.5d,
+			id: 4305,
+			tasks: [{
+				id: 4356,
+				type: "item",
+				item: "pamhc2foodextended:colasodaitem"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 5.0d,
+			id: 4307,
+			tasks: [{
+				id: 4316,
+				type: "item",
+				item: "pamhc2foodextended:spagettiandmeatballsitem"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 5.0d,
+			id: 4309,
+			tasks: [{
+				id: 4342,
+				type: "item",
+				item: "pamhc2foodcore:cheesecakeitem"
+			}]
+		}
+	]
+}

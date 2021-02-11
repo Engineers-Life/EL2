@@ -1,0 +1,1013 @@
+{
+	id: 3981,
+	filename: "to_boldly_go",
+	order_index: 3,
+	title: "To Boldly Go!",
+	icon: "minecraft:compass",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 1.0d,
+			y: 0.0d,
+			description: ["Better start digging up some treasure to find one of these puppies."],
+			dependencies: [I;222],
+			id: 228,
+			tasks: [{
+				id: 229,
+				type: "item",
+				item: "minecraft:heart_of_the_sea"
+			}],
+			rewards: [
+				{
+					id: 249,
+					type: "item",
+					item: "quark:prismarine_chest",
+					count: 2
+				},
+				{
+					id: 1104,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			description: ["A fair number of these will be thrown at you in your underwater adventures."],
+			dependencies: [I;222],
+			id: 230,
+			tasks: [{
+				id: 231,
+				type: "item",
+				item: {
+					id: "minecraft:trident",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 255,
+					type: "item",
+					item: "minecraft:prismarine_shard",
+					count: 3
+				},
+				{
+					id: 259,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:loyalty"
+							}]
+						}
+					}
+				},
+				{
+					id: 389,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			description: ["Test your mettle against the Elder Guardian and see how you fair!"],
+			dependencies: [I;222],
+			id: 232,
+			tasks: [
+				{
+					id: 233,
+					type: "item",
+					item: "quark:elder_sea_lantern"
+				},
+				{
+					id: 234,
+					type: "item",
+					item: "quark:elder_prismarine"
+				}
+			],
+			rewards: [
+				{
+					id: 256,
+					type: "item",
+					item: "minecraft:prismarine_crystals",
+					count: 4
+				},
+				{
+					id: 257,
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: true,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				},
+				{
+					id: 334,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				},
+				{
+					id: 1477,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Boat",
+			x: 3.0d,
+			y: 0.0d,
+			description: ["Should help you get across those large bodies of water with ease."],
+			dependencies: [I;226],
+			id: 222,
+			tasks: [{
+				id: 223,
+				type: "item",
+				title: "Boat",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 258,
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: true,
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+				},
+				{
+					id: 377,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 840,
+					type: "item",
+					item: "pamhc2foodcore:hotchocolateitem"
+				},
+				{
+					id: 1127,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			description: [
+				"You can use your Totem Of Undying from anywhere in your inventory.",
+				"Better start exploring the woodlands for mansions or protecting villages if you want this life saving backup."
+			],
+			dependencies: [I;226],
+			id: 1057,
+			tasks: [{
+				id: 1058,
+				type: "item",
+				item: "minecraft:totem_of_undying"
+			}],
+			rewards: [
+				{
+					id: 1059,
+					type: "item",
+					item: "minecraft:emerald",
+					random_bonus: 2
+				},
+				{
+					id: 1060,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1110,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			description: [
+				"Time to get out there and start exploring the map.",
+				"You may need many of these but they will really help you not get lost."
+			],
+			dependencies: [I;
+				224,
+				3984
+			],
+			id: 226,
+			tasks: [{
+				id: 227,
+				type: "item",
+				item: "minecraft:map"
+			}],
+			rewards: [
+				{
+					id: 302,
+					type: "item",
+					item: "minecraft:light_gray_dye",
+					count: 16
+				},
+				{
+					id: 333,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:frost_walker"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: 0.0d,
+			description: ['If I sprinkle some of this "magic" dust on one of those eyes from a teleporting tall guys they seem to fly off in a direction. I should follow to see where they head.'],
+			dependencies: [I;124],
+			id: 147,
+			tasks: [{
+				id: 148,
+				type: "item",
+				item: "minecraft:ender_eye"
+			}],
+			rewards: [
+				{
+					id: 240,
+					type: "item",
+					item: "quark:crimson_chest",
+					count: 2
+				},
+				{
+					id: 346,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "ensorcellation:reach"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Is this actually the End?",
+			x: 19.5107142857143d,
+			y: 0.030952380952385283d,
+			shape: "rsquare",
+			description: ["A big portal in an old dungeon. What could go wrong jumping in?"],
+			dependencies: [I;147],
+			size: 1.5d,
+			id: 126,
+			tasks: [{
+				id: 127,
+				type: "dimension",
+				dimension: "minecraft:end"
+			}],
+			rewards: [{
+				id: 345,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:projectile_protection"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 22.25d,
+			y: 0.0d,
+			description: ["Ok well I really didn't expect that down here....."],
+			dependencies: [I;126],
+			id: 138,
+			tasks: [{
+				id: 139,
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 250,
+					type: "item",
+					item: "quark:purpur_chest",
+					count: 2
+				},
+				{
+					id: 351,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "ensorcellation:magic_edge"
+							}]
+						}
+					}
+				},
+				{
+					id: 367,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "ensorcellation:leech"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 22.25d,
+			y: 1.5d,
+			dependencies: [I;138],
+			id: 251,
+			tasks: [{
+				id: 252,
+				type: "item",
+				item: "quark:duskbound_block"
+			}],
+			rewards: [
+				{
+					id: 352,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				},
+				{
+					id: 1108,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 22.25d,
+			y: -1.5d,
+			description: [
+				"Hey I can fly around pretty good with these.",
+				"Probably should bring a good number of ender pearls with me though to get one though."
+			],
+			dependencies: [I;138],
+			id: 140,
+			tasks: [{
+				id: 141,
+				type: "item",
+				item: {
+					id: "minecraft:elytra",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 353,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:weeding"
+							}]
+						}
+					}
+				},
+				{
+					id: 354,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:phalanx"
+							}]
+						}
+					}
+				},
+				{
+					id: 357,
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			title: "Going Deep",
+			disable_toast: true,
+			x: 12.5d,
+			y: -4.0d,
+			shape: "hexagon",
+			size: 2.0d,
+			id: 117,
+			tasks: [{
+				id: 118,
+				type: "item",
+				item: "minecraft:obsidian"
+			}]
+		},
+		{
+			x: 14.5d,
+			y: -4.0d,
+			description: ["Magic? Pah!"],
+			dependencies: [I;117],
+			id: 108,
+			tasks: [{
+				id: 109,
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}],
+			rewards: [
+				{
+					id: 309,
+					type: "item",
+					item: "minecraft:blue_dye",
+					count: 16
+				},
+				{
+					id: 340,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				},
+				{
+					id: 341,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 815,
+					type: "item",
+					item: "minecraft:paper",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "See you in Hell...",
+			x: 12.559523809523824d,
+			y: 0.0d,
+			shape: "rsquare",
+			description: ["There is a whole new land of mystery down here."],
+			dependencies: [I;
+				142,
+				117
+			],
+			size: 1.5d,
+			id: 128,
+			tasks: [{
+				id: 129,
+				type: "dimension",
+				title: "Visit Nether Dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [
+				{
+					id: 343,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:power"
+							}]
+						}
+					}
+				},
+				{
+					id: 1106,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			dependencies: [I;3999],
+			id: 215,
+			tasks: [{
+				id: 216,
+				type: "item",
+				item: "quark:magma_bricks"
+			}],
+			rewards: [{
+				id: 221,
+				type: "item",
+				item: "quark:nether_brick_chest",
+				count: 2
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 0.0d,
+			description: ["It isn't \"magic\", it is \"chemistry\". ;)"],
+			dependencies: [I;128],
+			id: 124,
+			tasks: [
+				{
+					id: 125,
+					type: "item",
+					item: "minecraft:brewing_stand"
+				},
+				{
+					id: 146,
+					type: "item",
+					item: "minecraft:blaze_powder"
+				}
+			],
+			rewards: [{
+				id: 239,
+				type: "item",
+				item: "quark:warped_chest",
+				count: 2
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.5d,
+			description: ["Some kind of ancient metal it seems, could use potentially. I wonder how strong it is?"],
+			dependencies: [I;128],
+			id: 149,
+			tasks: [{
+				id: 150,
+				type: "item",
+				item: "minecraft:ancient_debris"
+			}],
+			rewards: [{
+				id: 347,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s,
+							id: "ensorcellation:damage_villager"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Wither Skeleton Trio",
+			x: 12.559523809523824d,
+			y: 1.5d,
+			description: ["Killed a trio of black skeletons that sapped my strength when they hit me."],
+			dependencies: [I;128],
+			id: 130,
+			tasks: [{
+				id: 131,
+				type: "item",
+				item: "minecraft:wither_skeleton_skull",
+				count: 3L
+			}],
+			rewards: [
+				{
+					id: 305,
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 16
+				},
+				{
+					id: 350,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:vorpal"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 14.5d,
+			y: 1.5d,
+			description: ["Hey a free source of light, quite decorative and usefull as well."],
+			dependencies: [I;128],
+			id: 241,
+			tasks: [{
+				id: 242,
+				type: "item",
+				item: "minecraft:glowstone"
+			}],
+			rewards: [{
+				id: 297,
+				type: "item",
+				item: "minecraft:purple_dye",
+				count: 16
+			}]
+		},
+		{
+			x: 14.5d,
+			y: 3.0d,
+			description: ["I bet I can take some glowstone and make it a bit more industrial looking."],
+			dependencies: [I;241],
+			id: 243,
+			tasks: [
+				{
+					id: 244,
+					type: "item",
+					item: "simplylight:illuminant_panel"
+				},
+				{
+					id: 245,
+					type: "item",
+					item: "simplylight:wall_lamp"
+				},
+				{
+					id: 246,
+					type: "item",
+					item: "simplylight:edge_light_top"
+				}
+			],
+			rewards: [
+				{
+					id: 348,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "minecraft:quick_charge"
+							}]
+						}
+					}
+				},
+				{
+					id: 1107,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Wither Buddy",
+			x: 12.559523809523824d,
+			y: 3.0d,
+			description: ["I should make an example out of those skeletons and make an effigy on a T of soul sand. That should teach them!"],
+			dependencies: [I;130],
+			id: 132,
+			tasks: [{
+				id: 133,
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 1L
+			}],
+			rewards: [{
+				id: 364,
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: true,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s,
+							id: "farmersdelight:backstabbing"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 3.0d,
+			description: ["Seems like the ancient metal smelts down quite well."],
+			dependencies: [I;149],
+			id: 151,
+			tasks: [{
+				id: 152,
+				type: "item",
+				item: "minecraft:netherite_ingot"
+			}],
+			rewards: [{
+				id: 349,
+				type: "item",
+				item: {
+					id: "minecraft:splash_potion",
+					Count: true,
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 4.5d,
+			description: ["This may be the best pickaxe I have ever seen!"],
+			dependencies: [I;151],
+			id: 153,
+			tasks: [{
+				id: 154,
+				type: "item",
+				item: {
+					id: "minecraft:netherite_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 365,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:soulbound"
+							}]
+						}
+					}
+				},
+				{
+					id: 973,
+					type: "item",
+					item: "randomite:randomite_ore"
+				}
+			]
+		},
+		{
+			x: 12.559523809523824d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Did that Wither just drop a..... star?"],
+			dependencies: [I;132],
+			size: 1.5d,
+			id: 134,
+			tasks: [{
+				id: 135,
+				type: "item",
+				item: "minecraft:nether_star"
+			}],
+			rewards: [{
+				id: 358,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 12.559523809523824d,
+			y: 6.0d,
+			description: ["I bet this star could give me a big beam of light. Could also have some other benefits if I put it up on some blocks of metal like some kind of antenna."],
+			dependencies: [I;134],
+			id: 136,
+			tasks: [{
+				id: 137,
+				type: "item",
+				item: "minecraft:beacon"
+			}],
+			rewards: [
+				{
+					id: 355,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:displacement"
+							}]
+						}
+					}
+				},
+				{
+					id: 356,
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: 368,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:flame"
+							}]
+						}
+					}
+				},
+				{
+					id: 972,
+					type: "item",
+					item: "minecraft:emerald"
+				}
+			]
+		},
+		{
+			title: "What is out there?",
+			disable_toast: true,
+			x: 3.0d,
+			y: 4.0d,
+			shape: "hexagon",
+			size: 2.0d,
+			id: 3984,
+			tasks: [{
+				id: 3985,
+				type: "item",
+				item: "minecraft:compass"
+			}]
+		},
+		{
+			title: "Nether Hot Stuff",
+			x: 10.0d,
+			y: -0.010119047619042476d,
+			shape: "gear",
+			description: ["May want to look into collecting some of these for some future hot prospects."],
+			dependencies: [I;128],
+			size: 1.5d,
+			id: 3999,
+			tasks: [
+				{
+					id: 4000,
+					type: "item",
+					item: "minecraft:magma_block",
+					count: 9L
+				},
+				{
+					id: 4458,
+					type: "item",
+					item: "minecraft:nether_brick",
+					count: 36L
+				}
+			]
+		},
+		{
+			title: "Scuba Steve",
+			x: 4.0d,
+			y: -1.5d,
+			description: [
+				"Getting yourself a set of this gear will give you a big advantage underwater.",
+				"You too can be a part of the SCUBA SQUAD!"
+			],
+			dependencies: [I;222],
+			id: 4020,
+			tasks: [
+				{
+					id: 4021,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4022,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4023,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4024,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 4025,
+				type: "item",
+				item: "pamhc2foodcore:fishsticksitem",
+				count: 10,
+				random_bonus: 5
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			dependencies: [I;128],
+			id: 4454,
+			tasks: [{
+				id: 4455,
+				type: "item",
+				item: "minecraft:quartz"
+			}]
+		},
+		{
+			title: "Magic Dust",
+			x: 8.25d,
+			y: -1.5d,
+			shape: "gear",
+			description: ["This silicon may be the magic to some tech I need...."],
+			dependencies: [I;4454],
+			size: 1.5d,
+			id: 4456,
+			tasks: [{
+				id: 4457,
+				type: "item",
+				item: "refinedstorage:silicon"
+			}]
+		}
+	]
+}
