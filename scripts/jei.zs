@@ -23,7 +23,7 @@ mods.jei.JEI.addInfo(<item:supplementaries:clock_block>, ["Right click on the bl
 
 mods.jei.JEI.addInfo(<item:supplementaries:bellows>, ["When powered, will blow entities or items in front of it in the direction it is facing."]);
 
-mods.jei.JEI.addInfo(<item:supplementaries:cog_block>, ["Transmits redstone power, just like redstone dust, but connects on all sides.","This making vertical redstone easier and looks cooler too.]);
+mods.jei.JEI.addInfo(<item:supplementaries:cog_block>, ["Transmits redstone power, just like redstone dust, but connects on all sides.","This making vertical redstone easier and looks cooler too."]);
 
 mods.jei.JEI.addInfo(<item:supplementaries:safe>, ["Extremely hard block that functions as a chest. Retains inventory when broken."]);
 
