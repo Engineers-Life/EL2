@@ -1,6 +1,5 @@
 {
-	id: "00000000000005CB",
-	order_index: 4,
+	id: 1483,
 	title: "Quark Basic Stones",
 	loot_size: 1,
 	rewards: [

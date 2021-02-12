@@ -1,6 +1,5 @@
 {
-	id: "000000000000054B",
-	order_index: 1,
+	id: 1355,
 	title: "Random ingot/material",
 	loot_size: 1,
 	rewards: [

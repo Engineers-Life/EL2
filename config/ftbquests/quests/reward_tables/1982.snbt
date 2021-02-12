@@ -1,6 +1,5 @@
 {
-	id: "00000000000007BE",
-	order_index: 7,
+	id: 1982,
 	title: "Tier II Random",
 	loot_size: 1,
 	rewards: [
@@ -10,7 +9,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 2s,
@@ -31,7 +30,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 1s,
@@ -43,7 +42,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 1s,
@@ -55,7 +54,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 3s,
@@ -67,7 +66,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "quark:danger_sight"
 				}
@@ -76,7 +75,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "minecraft:long_swiftness"
 				}
@@ -85,7 +84,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "minecraft:long_fire_resistance"
 				}
@@ -94,7 +93,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "minecraft:strength"
 				}
@@ -117,7 +116,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 2s,
@@ -143,7 +142,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 1s,
@@ -199,7 +198,7 @@
 			monster: 0
 		},
 		color: 16777215,
-		glow: 1b,
+		glow: true,
 		string_id: "tier_ii_random"
 	}
 }

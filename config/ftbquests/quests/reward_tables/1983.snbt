@@ -1,13 +1,12 @@
 {
-	id: "00000000000007BF",
-	order_index: 8,
+	id: 1983,
 	title: "Tier III Random",
 	loot_size: 1,
 	rewards: [
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 1s,
@@ -19,7 +18,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 4s,
@@ -46,7 +45,7 @@
 		{
 			item: {
 				id: "quark:ancient_tome",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 4s,
@@ -58,7 +57,7 @@
 		{
 			item: {
 				id: "quark:ancient_tome",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 3s,
@@ -73,7 +72,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "alexsmobs:lava_vision"
 				}
@@ -82,7 +81,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "alexsmobs:speed_iii"
 				}
@@ -91,7 +90,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "alexsmobs:soulsteal"
 				}
@@ -100,7 +99,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "minecraft:strong_strength"
 				}
@@ -109,7 +108,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "minecraft:strong_regeneration"
 				}
@@ -118,7 +117,7 @@
 		{
 			item: {
 				id: "minecraft:potion",
-				Count: 1b,
+				Count: true,
 				tag: {
 					Potion: "minecraft:strong_healing"
 				}
@@ -151,7 +150,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 1s,
@@ -163,7 +162,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 5s,
@@ -175,7 +174,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 4s,
@@ -187,7 +186,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: 1b,
+				Count: true,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 1s,
@@ -223,7 +222,7 @@
 			monster: 0
 		},
 		color: 16777215,
-		glow: 1b,
+		glow: true,
 		string_id: "tier_iii_random"
 	}
 }

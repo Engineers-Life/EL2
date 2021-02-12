@@ -1,6 +1,5 @@
 {
-	id: "000000000000057F",
-	order_index: 3,
+	id: 1407,
 	title: "Mob Drops",
 	loot_size: 1,
 	rewards: [
@@ -63,7 +62,7 @@
 			monster: 0
 		},
 		color: 16777215,
-		glow: 1b,
+		glow: true,
 		string_id: "mob_drops"
 	}
 }
