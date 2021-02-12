@@ -46,3 +46,21 @@ craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_
 [<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>],
 [<item:minecraft:iron_ingot>, <item:immersiveengineering:rs_engineering>, <item:minecraft:iron_ingot>],
 [<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>]], null);
+
+<recipetype:industrialforegoing:dissolution_chamber>.removeRecipe(<item:industrialforegoing:machine_frame_simple>);
+<recipetype:industrialforegoing:dissolution_chamber>.addJSONRecipe("machine_frame_simple", {
+    input: [
+        { tag: "forge:plastic" },
+        { item: "industrialforegoing:machine_frame_pity" },
+        { tag: "forge:plastic" },
+        { item: <item:minecraft:nether_brick>.registryName },
+        { item: <item:minecraft:nether_brick>.registryName },
+        { tag: "forge:ingots/steel" },
+        { item: "titanium:gold_gear" },
+        { tag: "forge:ingots/steel" } ],
+    inputFluid: "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+    processingTime: 300,
+    output: {
+        item: <item:industrialforegoing:machine_frame_simple>.registryName,
+        count:1 },
+    outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}" } );
