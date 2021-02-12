@@ -715,8 +715,7 @@
 			}],
 			rewards: [{
 				id: 4789,
-				type: "item",
-				item: "pamhc2foodextended:cactusfruitjuiceitem"
+				type: "item"
 			}]
 		},
 		{
@@ -810,8 +809,7 @@
 			}],
 			rewards: [{
 				id: 4790,
-				type: "item",
-				item: "pamhc2foodextended:elderberryjuiceitem"
+				type: "item"
 			}]
 		},
 		{

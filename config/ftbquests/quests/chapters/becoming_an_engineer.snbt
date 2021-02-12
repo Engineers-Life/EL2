@@ -3204,7 +3204,6 @@
 				{
 					id: 4882,
 					type: "item",
-					item: "pamhc2foodextended:fishtacoitem",
 					count: 2
 				},
 				{
