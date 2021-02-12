@@ -1,18 +1,18 @@
 {
 	id: 282,
 	filename: "simple_storage",
-	order_index: 6,
+	order_index: 7,
 	title: "Simple Storage Solutions",
 	icon: "storagenetwork:master",
 	default_quest_shape: "",
 	quests: [
 		{
-			x: 7.5d,
+			x: 8.5d,
 			y: 1.5d,
 			description: ["The root of your Simple Storage Network. You will only need a single root per network."],
 			dependencies: [I;
-				4400,
-				4679
+				423,
+				4400
 			],
 			id: 417,
 			tasks: [{
@@ -27,7 +27,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 7.5d,
 			y: 0.5d,
 			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."],
 			dependencies: [I;417],
@@ -62,7 +62,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 10.0d,
 			y: 2.5d,
 			description: ["This block allows you to craft with items from a network."],
 			dependencies: [I;417],
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			x: 12.0d,
+			x: 11.0d,
 			y: 1.5d,
 			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."],
 			id: 423,
@@ -102,7 +102,7 @@
 			}]
 		},
 		{
-			x: 6.0d,
+			x: 7.0d,
 			y: 2.5d,
 			description: ["This block will allow you to see what is stored in a network."],
 			dependencies: [I;417],
@@ -267,7 +267,7 @@
 		},
 		{
 			disable_toast: true,
-			x: 5.0d,
+			x: 6.0d,
 			y: 1.5d,
 			shape: "gear",
 			size: 1.5d,
@@ -279,7 +279,7 @@
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 9.5d,
 			y: 0.5d,
 			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable need be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."],
 			dependencies: [I;417],
@@ -291,7 +291,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 8.5d,
 			y: 0.0d,
 			description: [
 				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable need be placed to put into a block, they can be connected by standard network cable to the network.",
@@ -306,7 +306,7 @@
 			}]
 		},
 		{
-			x: 6.0d,
+			x: 7.0d,
 			y: -0.5d,
 			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."],
 			dependencies: [I;419],
@@ -318,7 +318,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 10.0d,
 			y: -0.5d,
 			description: ["Acts like a input cable but allows the input to the network to be filtered."],
 			dependencies: [I;4402],
@@ -330,7 +330,7 @@
 			}]
 		},
 		{
-			x: 7.0d,
+			x: 8.0d,
 			y: 3.0d,
 			description: ["This upgrade will upgrade the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."],
 			dependencies: [I;417],
@@ -342,7 +342,7 @@
 			}]
 		},
 		{
-			x: 7.0d,
+			x: 8.0d,
 			y: 4.5d,
 			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."],
 			dependencies: [I;4414],
@@ -354,7 +354,7 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 9.0d,
 			y: 3.0d,
 			description: [
 				"This remote will allow you to see the contents of a network at distance. Can be linked to a network by shift right clicking the root with the remote.",
@@ -370,7 +370,7 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 9.0d,
 			y: 4.5d,
 			description: [
 				"And upgrade of the storage remote that allows you to craft at a distance from your storage network.",
@@ -383,24 +383,6 @@
 				id: 4421,
 				type: "item",
 				item: "storagenetwork:crafting_remote"
-			}]
-		},
-		{
-			x: 10.0d,
-			y: 1.5d,
-			description: ["The Network Guid Book will be your guide to Simple Storage Network machines and mechanics."],
-			dependencies: [I;423],
-			id: 4679,
-			tasks: [{
-				id: 4680,
-				type: "item",
-				item: {
-					id: "patchouli:guide_book",
-					Count: true,
-					tag: {
-						"patchouli:book": "storagenetwork:network_book"
-					}
-				}
 			}]
 		}
 	]

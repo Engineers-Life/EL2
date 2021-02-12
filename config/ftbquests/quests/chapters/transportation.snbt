@@ -1,7 +1,7 @@
 {
 	id: 1855,
 	filename: "transportation",
-	order_index: 8,
+	order_index: 9,
 	title: "Transportation",
 	icon: "minecraft:powered_rail",
 	default_quest_shape: "rsquare",
@@ -86,7 +86,7 @@
 			y: -2.5d,
 			description: [
 				"The module configurator will allow you to modules to modular minecarts and boats.",
-				"Placing a modular vehicle in the central slot in the gui will allow modules to be added to it. Available spaces will then be presented, showing installed modules or available spaces."
+				"Placing a modular vehicle in the central slot in the gui will allow modules to be added to it. Available spaces can be seen by hovering over the lower bar of slots."
 			],
 			dependencies: [I;1858],
 			id: 1862,

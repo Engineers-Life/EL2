@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "first_steps",
-	order_index: 1,
+	order_index: 2,
 	title: "First Steps",
 	icon: {
 		id: "notreepunching:flint_axe",
@@ -1449,7 +1449,7 @@
 		{
 			title: "Just Enough Items",
 			x: -7.5d,
-			y: -7.0d,
+			y: -5.5d,
 			subtitle: "In-game item and recipe browser",
 			description: [
 				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)",
@@ -1513,7 +1513,7 @@
 			title: "EL2 Text Guide",
 			icon: "itemfilters:tag",
 			x: -9.5d,
-			y: -7.0d,
+			y: -6.0d,
 			description: [
 				"You can a find a link to the Google Drive text guide directly on the EL2 curseforge project page.",
 				"",

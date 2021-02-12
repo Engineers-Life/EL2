@@ -1,7 +1,7 @@
 {
 	id: 4077,
 	filename: "culinary_engineering",
-	order_index: 5,
+	order_index: 6,
 	title: "Culinary Engineering",
 	icon: "cookingforblockheads:cooking_table",
 	default_quest_shape: "",

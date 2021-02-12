@@ -1,6 +1,6 @@
 {
 	version: 9,
-	last_id: 4680,
+	last_id: 4660,
 	title: "Engineer's Life 2",
 	default_reward_team: false,
 	default_consume_items: false,
