@@ -1,7 +1,7 @@
 {
 	id: 1775,
 	filename: "peaceful_atom",
-	order_index: 12,
+	order_index: 11,
 	title: "Peaceful Atom",
 	icon: "bigreactors:basic_reactorfuelrod",
 	default_quest_shape: "octagon",
@@ -517,7 +517,7 @@
 			rewards: [{
 				id: 2046,
 				type: "item",
-				item: "pamhc2foodextended:lemonjuiceitem"
+				item: "pamhc2foodcore:melonjuiceitem"
 			}]
 		},
 		{
@@ -539,7 +539,7 @@
 			rewards: [{
 				id: 2047,
 				type: "item",
-				item: "simplefarming:candy_cane"
+				item: "pamhc2foodcore:sweetberryjuiceitem"
 			}]
 		},
 		{
@@ -564,6 +564,12 @@
 				id: 4462,
 				type: "checkmark",
 				title: "Criticality"
+			}],
+			rewards: [{
+				id: 4788,
+				type: "item",
+				item: "minecraft:tnt",
+				count: 8
 			}]
 		},
 		{
@@ -577,6 +583,11 @@
 				id: 4467,
 				type: "checkmark",
 				title: "Easy Reactor"
+			}],
+			rewards: [{
+				id: 4786,
+				type: "item",
+				item: "pamhc2foodcore:applejuiceitem"
 			}]
 		},
 		{
@@ -660,6 +671,12 @@
 				id: 4483,
 				type: "checkmark",
 				title: "Research"
+			}],
+			rewards: [{
+				id: 4787,
+				type: "item",
+				item: "minecraft:book",
+				count: 16
 			}]
 		},
 		{
@@ -695,6 +712,11 @@
 				id: 4539,
 				type: "checkmark",
 				title: "Basic Turbine"
+			}],
+			rewards: [{
+				id: 4789,
+				type: "item",
+				item: "pamhc2foodextended:cactusfruitjuiceitem"
 			}]
 		},
 		{
@@ -785,6 +807,11 @@
 				id: 4559,
 				type: "checkmark",
 				title: "Advanced Turbine"
+			}],
+			rewards: [{
+				id: 4790,
+				type: "item",
+				item: "pamhc2foodextended:elderberryjuiceitem"
 			}]
 		},
 		{

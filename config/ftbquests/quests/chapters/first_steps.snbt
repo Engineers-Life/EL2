@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "first_steps",
-	order_index: 2,
+	order_index: 1,
 	title: "First Steps",
 	icon: {
 		id: "notreepunching:flint_axe",
@@ -418,7 +418,7 @@
 			title: "Chest",
 			icon: "minecraft:chest",
 			x: 3.0d,
-			y: -5.5d,
+			y: -6.0d,
 			description: ["Store all that junk you know you are carrying!"],
 			dependencies: [I;48],
 			id: 46,
@@ -483,7 +483,7 @@
 				}
 			},
 			x: 1.5d,
-			y: -2.5d,
+			y: -3.0d,
 			description: ["A weaker pair of shears, that you can also use to make wooden plates from Planks."],
 			dependencies: [I;48],
 			id: 50,
@@ -521,8 +521,8 @@
 		},
 		{
 			title: "Wooden Armor",
-			x: 2.5d,
-			y: -2.5d,
+			x: 3.0d,
+			y: -3.0d,
 			description: ["Wooden Armor can be made from wooden plates. It will at least give you a small amount of protection."],
 			dependencies: [I;50],
 			id: 52,
@@ -725,7 +725,7 @@
 		{
 			title: "Storage Drawer",
 			x: 4.5d,
-			y: -4.0d,
+			y: -4.5d,
 			description: ["These storage drawers will allow you to store multiple stacks of items in a single block in a sorted manner."],
 			dependencies: [I;46],
 			id: 71,
@@ -762,7 +762,7 @@
 		},
 		{
 			x: 3.0d,
-			y: -4.0d,
+			y: -4.5d,
 			description: [
 				"This backpack will allow you to have some extra inventory space.",
 				"Once equipped, use the backpack keybind to open the backpack inventory. (check your controls menu for the specific key)"
@@ -802,7 +802,7 @@
 		{
 			title: "Bed",
 			x: 3.0d,
-			y: -7.0d,
+			y: -7.5d,
 			description: ["A place to kick off your boots and get some Zzzzz's."],
 			dependencies: [I;46],
 			id: 84,
@@ -1351,7 +1351,7 @@
 		},
 		{
 			x: 1.5d,
-			y: -5.5d,
+			y: -6.0d,
 			description: ["Will automatically drop items directly below it."],
 			dependencies: [I;46],
 			id: 119,
@@ -1360,16 +1360,23 @@
 				type: "item",
 				item: "quark:chute"
 			}],
-			rewards: [{
-				id: 319,
-				type: "item",
-				item: "minecraft:honey_bottle"
-			}]
+			rewards: [
+				{
+					id: 319,
+					type: "item",
+					item: "minecraft:honey_bottle"
+				},
+				{
+					id: 4926,
+					type: "item",
+					item: "spareparts:coins/wooden_coin"
+				}
+			]
 		},
 		{
 			title: "Windows",
 			x: 4.5d,
-			y: -8.5d,
+			y: -9.0d,
 			description: ["Add some flair to those holes in your walls to see all the baddies through."],
 			dependencies: [I;84],
 			id: 121,
@@ -1449,7 +1456,7 @@
 		{
 			title: "Just Enough Items",
 			x: -7.5d,
-			y: -5.5d,
+			y: -7.0d,
 			subtitle: "In-game item and recipe browser",
 			description: [
 				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)",
@@ -1513,7 +1520,7 @@
 			title: "EL2 Text Guide",
 			icon: "itemfilters:tag",
 			x: -9.5d,
-			y: -6.0d,
+			y: -7.0d,
 			description: [
 				"You can a find a link to the Google Drive text guide directly on the EL2 curseforge project page.",
 				"",
@@ -1819,7 +1826,7 @@
 		},
 		{
 			x: 4.5d,
-			y: -7.0d,
+			y: -7.5d,
 			description: ["A nice decorative table."],
 			dependencies: [I;84],
 			id: 184,
@@ -1845,7 +1852,7 @@
 		{
 			title: "Cupboards and Cabinets",
 			x: 4.5d,
-			y: -5.5d,
+			y: -6.0d,
 			description: ["Some slightly more decorative storage."],
 			dependencies: [I;46],
 			id: 188,
@@ -1877,7 +1884,7 @@
 		{
 			title: "Bookshelves",
 			x: 1.5d,
-			y: -8.5d,
+			y: -9.0d,
 			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."],
 			dependencies: [I;84],
 			id: 190,
@@ -2019,7 +2026,7 @@
 		{
 			title: "Candle",
 			x: 3.0d,
-			y: -8.5d,
+			y: -9.0d,
 			description: ["Better than a torch right?"],
 			dependencies: [I;84],
 			id: 235,
@@ -2043,7 +2050,7 @@
 		},
 		{
 			x: 3.0d,
-			y: -10.0d,
+			y: -10.5d,
 			description: ["A artistic not-torch."],
 			dependencies: [I;235],
 			id: 237,
@@ -2177,13 +2184,14 @@
 			rewards: [{
 				id: 1056,
 				type: "item",
-				item: "minecraft:bricks"
+				item: "minecraft:bricks",
+				count: 12
 			}]
 		},
 		{
 			title: "Alternate Sleeping Arrangements",
 			x: 1.5d,
-			y: -7.0d,
+			y: -7.5d,
 			description: [
 				"Comforts adds sleeping bags and hammocks.",
 				"",
@@ -2384,15 +2392,28 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: 4014,
-				type: "xp_levels",
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: 4014,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 4929,
+					type: "item",
+					item: {
+						id: "quark:forgotten_hat",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		},
 		{
 			x: 0.0d,
-			y: -8.5d,
+			y: -9.0d,
 			description: ["Combine all those mod books you have in to a single book!"],
 			dependencies: [I;190],
 			id: 1825,
@@ -2411,7 +2432,7 @@
 		{
 			title: "The Librarian",
 			x: 1.5d,
-			y: -10.0d,
+			y: -10.5d,
 			description: ["Collect all those books! Put them into the Akashic Tome for safe keeping."],
 			dependencies: [I;190],
 			id: 1827,
@@ -2495,12 +2516,28 @@
 					id: 1837,
 					type: "item",
 					item: "alexsmobs:animal_dictionary"
+				},
+				{
+					id: 4927,
+					type: "item",
+					item: "solpotato:food_book"
+				},
+				{
+					id: 4928,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
+					}
 				}
 			],
 			rewards: [{
 				id: 1846,
 				type: "item",
-				item: "spareparts:coins/stone_coin"
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{

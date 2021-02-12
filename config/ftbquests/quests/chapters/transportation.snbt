@@ -1,7 +1,7 @@
 {
 	id: 1855,
 	filename: "transportation",
-	order_index: 9,
+	order_index: 8,
 	title: "Transportation",
 	icon: "minecraft:powered_rail",
 	default_quest_shape: "rsquare",
@@ -86,7 +86,7 @@
 			y: -2.5d,
 			description: [
 				"The module configurator will allow you to modules to modular minecarts and boats.",
-				"Placing a modular vehicle in the central slot in the gui will allow modules to be added to it. Available spaces can be seen by hovering over the lower bar of slots."
+				"Placing a modular vehicle in the central slot in the gui will allow modules to be added to it. Available spaces will then be presented, showing installed modules or available spaces."
 			],
 			dependencies: [I;1858],
 			id: 1862,
@@ -356,17 +356,6 @@
 				id: 1885,
 				type: "item",
 				item: "minecraft:rail"
-			}],
-			rewards: [{
-				id: 2074,
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: true,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
 			}]
 		},
 		{
@@ -452,6 +441,11 @@
 				type: "stat",
 				stat: "minecraft:minecart_one_cm",
 				value: 5000000
+			}],
+			rewards: [{
+				id: 4831,
+				type: "random",
+				table: 1
 			}]
 		}
 	]

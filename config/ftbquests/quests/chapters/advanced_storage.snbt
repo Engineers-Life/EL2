@@ -1,7 +1,7 @@
 {
 	id: 283,
 	filename: "advanced_storage",
-	order_index: 11,
+	order_index: 10,
 	title: "Advanced Storage",
 	icon: "refinedstorage:controller",
 	default_quest_shape: "square",
@@ -17,33 +17,7 @@
 				id: 634,
 				type: "item",
 				item: "refinedstorage:quartz_enriched_iron"
-			}],
-			rewards: [
-				{
-					id: 1387,
-					type: "item",
-					item: "minecraft:redstone",
-					random_bonus: 4
-				},
-				{
-					id: 1388,
-					type: "item",
-					item: "minecraft:gold_ingot",
-					random_bonus: 3
-				},
-				{
-					id: 1389,
-					type: "item",
-					item: "minecraft:iron_ingot",
-					count: 2,
-					random_bonus: 3
-				},
-				{
-					id: 1390,
-					type: "random",
-					table: 0
-				}
-			]
+			}]
 		},
 		{
 			disable_toast: true,
@@ -56,19 +30,7 @@
 				id: 636,
 				type: "item",
 				item: "refinedstorage:silicon"
-			}],
-			rewards: [
-				{
-					id: 1385,
-					type: "item",
-					item: "minecraft:redstone"
-				},
-				{
-					id: 1391,
-					type: "item",
-					item: "minecraft:gold_ingot"
-				}
-			]
+			}]
 		},
 		{
 			x: 5.5d,
@@ -882,6 +844,17 @@
 				id: 4439,
 				type: "item",
 				item: "refinedstorage:detector"
+			}],
+			rewards: [{
+				id: 4802,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "quark_basic_stones"
+					}
+				}
 			}]
 		},
 		{
@@ -897,7 +870,19 @@
 				id: 4441,
 				type: "item",
 				item: "refinedstorage:constructor"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4798,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				},
+				{
+					id: 4799,
+					type: "item",
+					item: "minecraft:diamond"
+				}
+			]
 		},
 		{
 			x: 11.5d,
@@ -909,7 +894,19 @@
 				id: 4443,
 				type: "item",
 				item: "refinedstorage:destructor"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4800,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				},
+				{
+					id: 4801,
+					type: "item",
+					item: "minecraft:iron_ingot"
+				}
+			]
 		},
 		{
 			x: 16.5d,
@@ -921,6 +918,17 @@
 				id: 4447,
 				type: "item",
 				item: "refinedstorage:crafting_upgrade"
+			}],
+			rewards: [{
+				id: 4806,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "deco_blocks_set_2"
+					}
+				}
 			}]
 		},
 		{
@@ -933,6 +941,17 @@
 				id: 4449,
 				type: "item",
 				item: "refinedstorage:regulator_upgrade"
+			}],
+			rewards: [{
+				id: 4805,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
 			}]
 		},
 		{
@@ -945,6 +964,13 @@
 				id: 4451,
 				type: "item",
 				item: "refinedstorage:fortune_1_upgrade"
+			}],
+			rewards: [{
+				id: 4804,
+				type: "item",
+				item: "minecraft:gold_ingot",
+				count: 2,
+				random_bonus: 2
 			}]
 		},
 		{
@@ -957,6 +983,12 @@
 				id: 4453,
 				type: "item",
 				item: "refinedstorage:silk_touch_upgrade"
+			}],
+			rewards: [{
+				id: 4803,
+				type: "item",
+				item: "minecraft:iron_ingot",
+				random_bonus: 3
 			}]
 		}
 	]

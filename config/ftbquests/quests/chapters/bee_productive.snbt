@@ -1,7 +1,7 @@
 {
 	id: 1912,
 	filename: "bee_productive",
-	order_index: 5,
+	order_index: 4,
 	title: "Bee Productive",
 	icon: "minecraft:honeycomb",
 	default_quest_shape: "hexagon",
@@ -267,6 +267,11 @@
 					Count: true,
 					tag: {}
 				}
+			}],
+			rewards: [{
+				id: 4894,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
@@ -280,12 +285,19 @@
 				type: "item",
 				item: "minecraft:beehive"
 			}],
-			rewards: [{
-				id: 1956,
-				type: "item",
-				item: "randomite:randomite_ore",
-				count: 2
-			}]
+			rewards: [
+				{
+					id: 1956,
+					type: "item",
+					item: "randomite:randomite_ore",
+					count: 2
+				},
+				{
+					id: 4895,
+					type: "item",
+					item: "spareparts:coins/wooden_coin"
+				}
+			]
 		},
 		{
 			x: 3.5d,

@@ -1,7 +1,7 @@
 {
 	id: 1243,
 	filename: "industrial_foregoing",
-	order_index: 10,
+	order_index: 9,
 	title: "Industrial Foregoing",
 	icon: "industrialforegoing:block_breaker",
 	default_quest_shape: "square",
@@ -336,27 +336,16 @@
 			}]
 		},
 		{
+			disable_toast: true,
 			x: 3.5d,
 			y: -1.5d,
 			shape: "gear",
-			description: [""],
 			size: 1.5d,
 			id: 1556,
 			tasks: [{
 				id: 1557,
 				type: "item",
 				item: "industrialforegoing:machine_frame_pity"
-			}],
-			rewards: [{
-				id: 2018,
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: true,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
 			}]
 		},
 		{
@@ -554,6 +543,11 @@
 						"patchouli:book": "industrialforegoing:industrial_foregoing"
 					}
 				}
+			}],
+			rewards: [{
+				id: 4814,
+				type: "item",
+				item: "pamhc2foodcore:cookiesandmilkitem"
 			}]
 		},
 		{
@@ -566,6 +560,11 @@
 				id: 4575,
 				type: "item",
 				item: "industrialforegoing:hydroponic_bed"
+			}],
+			rewards: [{
+				id: 4821,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -578,6 +577,11 @@
 				id: 4577,
 				type: "item",
 				item: "industrialforegoing:marine_fisher"
+			}],
+			rewards: [{
+				id: 4815,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -590,6 +594,11 @@
 				id: 4579,
 				type: "item",
 				item: "industrialforegoing:mob_detector"
+			}],
+			rewards: [{
+				id: 4820,
+				type: "random",
+				table: 3
 			}]
 		},
 		{
@@ -602,6 +611,11 @@
 				id: 4581,
 				type: "item",
 				item: "industrialforegoing:laser_drill"
+			}],
+			rewards: [{
+				id: 4816,
+				type: "choice",
+				table: 7
 			}]
 		},
 		{
@@ -614,6 +628,11 @@
 				id: 4583,
 				type: "item",
 				item: "industrialforegoing:ore_laser_base"
+			}],
+			rewards: [{
+				id: 4817,
+				type: "choice",
+				table: 7
 			}]
 		},
 		{
@@ -626,6 +645,11 @@
 				id: 4585,
 				type: "item",
 				item: "industrialforegoing:fluid_laser_base"
+			}],
+			rewards: [{
+				id: 4819,
+				type: "choice",
+				table: 7
 			}]
 		},
 		{
@@ -638,6 +662,11 @@
 				id: 4589,
 				type: "item",
 				item: "industrialforegoing:enchantment_extractor"
+			}],
+			rewards: [{
+				id: 4827,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -650,6 +679,11 @@
 				id: 4591,
 				type: "item",
 				item: "industrialforegoing:enchantment_applicator"
+			}],
+			rewards: [{
+				id: 4828,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -662,6 +696,11 @@
 				id: 4594,
 				type: "item",
 				item: "industrialforegoing:block_breaker"
+			}],
+			rewards: [{
+				id: 4824,
+				type: "random",
+				table: 1
 			}]
 		},
 		{
@@ -674,19 +713,39 @@
 				id: 4596,
 				type: "item",
 				item: "industrialforegoing:block_placer"
+			}],
+			rewards: [{
+				id: 4825,
+				type: "random",
+				table: 4
 			}]
 		},
 		{
 			x: 4.0d,
 			y: 1.0d,
-			description: ["Can mix dye colors into into different colors."],
+			description: [
+				"Can mix dye colors into into different colors.",
+				"Try mixing up the two random dyes you will get from this quest."
+			],
 			dependencies: [I;1556],
 			id: 4599,
 			tasks: [{
 				id: 4600,
 				type: "item",
 				item: "industrialforegoing:dye_mixer"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4810,
+					type: "random",
+					table: 0
+				},
+				{
+					id: 4811,
+					type: "random",
+					table: 0
+				}
+			]
 		},
 		{
 			x: 13.5d,
@@ -698,6 +757,11 @@
 				id: 4602,
 				type: "item",
 				item: "industrialforegoing:material_stonework_factory"
+			}],
+			rewards: [{
+				id: 4830,
+				type: "random",
+				table: 1
 			}]
 		},
 		{
@@ -710,6 +774,11 @@
 				id: 4604,
 				type: "item",
 				item: "industrialforegoing:stasis_chamber"
+			}],
+			rewards: [{
+				id: 4829,
+				type: "random",
+				table: 1
 			}]
 		},
 		{
@@ -722,6 +791,17 @@
 				id: 4606,
 				type: "item",
 				item: "industrialforegoing:mechanical_dirt"
+			}],
+			rewards: [{
+				id: 4813,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "mob_drops"
+					}
+				}
 			}]
 		},
 		{
@@ -734,6 +814,11 @@
 				id: 4608,
 				type: "item",
 				item: "industrialforegoing:fluid_placer"
+			}],
+			rewards: [{
+				id: 4826,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
@@ -746,6 +831,11 @@
 				id: 4610,
 				type: "item",
 				item: "industrialforegoing:fluid_collector"
+			}],
+			rewards: [{
+				id: 4822,
+				type: "choice",
+				table: 1
 			}]
 		},
 		{
@@ -758,6 +848,12 @@
 				id: 4612,
 				type: "item",
 				item: "industrialforegoing:water_condensator"
+			}],
+			rewards: [{
+				id: 4812,
+				type: "item",
+				item: "minecraft:bucket",
+				count: 2
 			}]
 		}
 	]

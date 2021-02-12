@@ -1,7 +1,7 @@
 {
 	id: 739,
 	filename: "mining_progression",
-	order_index: 1,
+	order_index: 13,
 	title: "Skills Progression",
 	default_quest_shape: "",
 	quests: [
@@ -78,6 +78,11 @@
 					id: 1040,
 					type: "xp_levels",
 					xp_levels: 5
+				},
+				{
+					id: 4698,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
 				}
 			]
 		},
@@ -100,18 +105,11 @@
 				skill: "mining",
 				requiredLevel: 40.0d
 			}],
-			rewards: [
-				{
-					id: 1043,
-					type: "xp_levels",
-					xp_levels: 20
-				},
-				{
-					id: 1102,
-					type: "item",
-					item: "spareparts:coins/diamond_coin"
-				}
-			]
+			rewards: [{
+				id: 1102,
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
+			}]
 		},
 		{
 			title: "Reach Mining Level 60",
@@ -141,7 +139,7 @@
 				{
 					id: 1099,
 					type: "item",
-					item: "spareparts:coins/diamond_coin"
+					item: "spareparts:coins/ancient_coin"
 				}
 			]
 		},
@@ -277,18 +275,11 @@
 				skill: "combat",
 				requiredLevel: 40.0d
 			}],
-			rewards: [
-				{
-					id: 1046,
-					type: "xp_levels",
-					xp_levels: 20
-				},
-				{
-					id: 1101,
-					type: "item",
-					item: "spareparts:coins/diamond_coin"
-				}
-			]
+			rewards: [{
+				id: 1101,
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
+			}]
 		},
 		{
 			title: "Reach combat level 60",
@@ -318,7 +309,7 @@
 				{
 					id: 1100,
 					type: "item",
-					item: "spareparts:coins/diamond_coin"
+					item: "spareparts:coins/ancient_coin"
 				}
 			]
 		},
@@ -373,11 +364,24 @@
 				skill: "woodcutting",
 				requiredLevel: 10.0d
 			}],
-			rewards: [{
-				id: 1481,
-				type: "item",
-				item: "spareparts:coins/stone_coin"
-			}]
+			rewards: [
+				{
+					id: 1481,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: 4712,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 4713,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				}
+			]
 		},
 		{
 			title: "Reach Woodcutting Level 15",
@@ -518,7 +522,30 @@
 				},
 				skill: "woodcutting",
 				requiredLevel: 3.0d
-			}]
+			}],
+			rewards: [
+				{
+					id: 4706,
+					type: "item",
+					item: {
+						id: "minecraft:stone_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4707,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 4708,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
 		},
 		{
 			title: "Reach Endurance Level 5",
@@ -693,6 +720,17 @@
 				},
 				skill: "endurance",
 				requiredLevel: 28.0d
+			}],
+			rewards: [{
+				id: 4704,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
 			}]
 		},
 		{
@@ -713,6 +751,17 @@
 				},
 				skill: "endurance",
 				requiredLevel: 70.0d
+			}],
+			rewards: [{
+				id: 4705,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
 			}]
 		},
 		{
@@ -733,6 +782,11 @@
 				},
 				skill: "mining",
 				requiredLevel: 43.0d
+			}],
+			rewards: [{
+				id: 4735,
+				type: "xp_levels",
+				xp_levels: 15
 			}]
 		},
 		{
@@ -753,6 +807,11 @@
 				},
 				skill: "mining",
 				requiredLevel: 50.0d
+			}],
+			rewards: [{
+				id: 4737,
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
 			}]
 		},
 		{
@@ -773,6 +832,11 @@
 				},
 				skill: "combat",
 				requiredLevel: 45.0d
+			}],
+			rewards: [{
+				id: 4736,
+				type: "xp_levels",
+				xp_levels: 15
 			}]
 		},
 		{
@@ -793,6 +857,11 @@
 				},
 				skill: "combat",
 				requiredLevel: 50.0d
+			}],
+			rewards: [{
+				id: 4738,
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
 			}]
 		},
 		{
@@ -820,6 +889,17 @@
 				},
 				skill: "woodcutting",
 				requiredLevel: 43.0d
+			}],
+			rewards: [{
+				id: 4733,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "shingles_blocks"
+					}
+				}
 			}]
 		},
 		{
@@ -840,6 +920,17 @@
 				},
 				skill: "woodcutting",
 				requiredLevel: 50.0d
+			}],
+			rewards: [{
+				id: 4732,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
 			}]
 		},
 		{
@@ -860,6 +951,11 @@
 				},
 				skill: "mining",
 				requiredLevel: 30.0d
+			}],
+			rewards: [{
+				id: 4716,
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -880,6 +976,11 @@
 				},
 				skill: "combat",
 				requiredLevel: 30.0d
+			}],
+			rewards: [{
+				id: 4717,
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -900,6 +1001,11 @@
 				},
 				skill: "woodcutting",
 				requiredLevel: 30.0d
+			}],
+			rewards: [{
+				id: 4718,
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -920,7 +1026,30 @@
 				},
 				skill: "excavation",
 				requiredLevel: 3.0d
-			}]
+			}],
+			rewards: [
+				{
+					id: 4709,
+					type: "item",
+					item: {
+						id: "minecraft:stone_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4710,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: 4711,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
 		},
 		{
 			title: "Unlock Excavation Level 10",
@@ -940,7 +1069,25 @@
 				},
 				skill: "excavation",
 				requiredLevel: 10.0d
-			}]
+			}],
+			rewards: [
+				{
+					id: 4699,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: 4700,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 4701,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				}
+			]
 		},
 		{
 			title: "Unlock Excavation Level 15",
@@ -960,6 +1107,17 @@
 				},
 				skill: "excavation",
 				requiredLevel: 15.0d
+			}],
+			rewards: [{
+				id: 4714,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "quark_basic_stones"
+					}
+				}
 			}]
 		},
 		{
@@ -980,6 +1138,11 @@
 				},
 				skill: "excavation",
 				requiredLevel: 30.0d
+			}],
+			rewards: [{
+				id: 4719,
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -1000,6 +1163,17 @@
 				},
 				skill: "excavation",
 				requiredLevel: 40.0d
+			}],
+			rewards: [{
+				id: 4715,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
 			}]
 		},
 		{
@@ -1020,6 +1194,17 @@
 				},
 				skill: "excavation",
 				requiredLevel: 43.0d
+			}],
+			rewards: [{
+				id: 4734,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "quark_basic_stones"
+					}
+				}
 			}]
 		},
 		{
@@ -1040,6 +1225,17 @@
 				},
 				skill: "excavation",
 				requiredLevel: 50.0d
+			}],
+			rewards: [{
+				id: 4731,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
 			}]
 		},
 		{
@@ -1060,6 +1256,17 @@
 				},
 				skill: "excavation",
 				requiredLevel: 60.0d
+			}],
+			rewards: [{
+				id: 4730,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
 			}]
 		},
 		{
@@ -1081,6 +1288,17 @@
 				},
 				skill: "endurance",
 				requiredLevel: 15.0d
+			}],
+			rewards: [{
+				id: 4703,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
 			}]
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	id: 282,
 	filename: "simple_storage",
-	order_index: 7,
+	order_index: 6,
 	title: "Simple Storage Solutions",
 	icon: "storagenetwork:master",
 	default_quest_shape: "",
@@ -11,8 +11,8 @@
 			y: 1.5d,
 			description: ["The root of your Simple Storage Network. You will only need a single root per network."],
 			dependencies: [I;
-				423,
-				4400
+				4400,
+				4679
 			],
 			id: 417,
 			tasks: [{
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			x: 11.0d,
+			x: 13.0d,
 			y: 1.5d,
 			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."],
 			id: 423,
@@ -247,6 +247,11 @@
 				id: 4394,
 				type: "item",
 				item: "ironchest:silver_chest"
+			}],
+			rewards: [{
+				id: 4833,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -263,6 +268,11 @@
 				id: 4396,
 				type: "item",
 				item: "ironchest:crystal_chest"
+			}],
+			rewards: [{
+				id: 4834,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -288,6 +298,11 @@
 				id: 4403,
 				type: "item",
 				item: "storagenetwork:import_kabel"
+			}],
+			rewards: [{
+				id: 4841,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -303,6 +318,11 @@
 				id: 4405,
 				type: "item",
 				item: "storagenetwork:export_kabel"
+			}],
+			rewards: [{
+				id: 4842,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -315,6 +335,11 @@
 				id: 4407,
 				type: "item",
 				item: "storagenetwork:filter_kabel"
+			}],
+			rewards: [{
+				id: 4844,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
@@ -327,6 +352,11 @@
 				id: 4409,
 				type: "item",
 				item: "storagenetwork:import_filter_kabel"
+			}],
+			rewards: [{
+				id: 4843,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
@@ -339,6 +369,11 @@
 				id: 4415,
 				type: "item",
 				item: "storagenetwork:speed_upgrade"
+			}],
+			rewards: [{
+				id: 4839,
+				type: "random",
+				table: 0
 			}]
 		},
 		{
@@ -351,6 +386,11 @@
 				id: 4417,
 				type: "item",
 				item: "storagenetwork:stack_upgrade"
+			}],
+			rewards: [{
+				id: 4840,
+				type: "random",
+				table: 4
 			}]
 		},
 		{
@@ -367,6 +407,11 @@
 				id: 4419,
 				type: "item",
 				item: "storagenetwork:inventory_remote"
+			}],
+			rewards: [{
+				id: 4837,
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -383,6 +428,34 @@
 				id: 4421,
 				type: "item",
 				item: "storagenetwork:crafting_remote"
+			}],
+			rewards: [{
+				id: 4838,
+				type: "item",
+				item: "spareparts:coins/golden_coin"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 1.5d,
+			description: ["The Network Guid Book will be your guide to Simple Storage Network machines and mechanics."],
+			dependencies: [I;423],
+			id: 4679,
+			tasks: [{
+				id: 4680,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+			}],
+			rewards: [{
+				id: 4836,
+				type: "item",
+				item: "pamhc2foodcore:cookiesandmilkitem"
 			}]
 		}
 	]

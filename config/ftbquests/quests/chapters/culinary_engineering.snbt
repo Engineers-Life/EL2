@@ -1,7 +1,7 @@
 {
 	id: 4077,
 	filename: "culinary_engineering",
-	order_index: 6,
+	order_index: 5,
 	title: "Culinary Engineering",
 	icon: "cookingforblockheads:cooking_table",
 	default_quest_shape: "",
@@ -9,8 +9,8 @@
 		{
 			title: "Cooking for Engineers",
 			disable_toast: true,
-			x: -11.202380952380935d,
-			y: -4.464285714285712d,
+			x: -10.994047619047606d,
+			y: -5.282738095238095d,
 			shape: "gear",
 			size: 2.0d,
 			id: 4078,
@@ -21,8 +21,8 @@
 			}]
 		},
 		{
-			x: -9.130952380952365d,
-			y: -4.482142857142858d,
+			x: -8.922619047619037d,
+			y: -5.300595238095241d,
 			shape: "rsquare",
 			description: ["With this book you will be able to make food specifically from in your inventory."],
 			dependencies: [I;4078],
@@ -31,11 +31,16 @@
 				id: 4081,
 				type: "item",
 				item: "cookingforblockheads:crafting_book"
+			}],
+			rewards: [{
+				id: 4845,
+				type: "item",
+				item: "pamhc2foodcore:cookiesandmilkitem"
 			}]
 		},
 		{
-			x: -7.630952380952365d,
-			y: -4.482142857142858d,
+			x: -7.422619047619037d,
+			y: -5.300595238095241d,
 			shape: "rsquare",
 			description: ["This cooking table is the first step in having a entire functioning and linked kitchen. It will be where you craft your food. "],
 			dependencies: [I;4080],
@@ -44,11 +49,17 @@
 				id: 4083,
 				type: "item",
 				item: "cookingforblockheads:cooking_table"
+			}],
+			rewards: [{
+				id: 4846,
+				type: "item",
+				item: "minecraft:white_terracotta",
+				count: 16
 			}]
 		},
 		{
-			x: -6.130952380952365d,
-			y: -4.482142857142858d,
+			x: -6.089285714285694d,
+			y: -5.276785714285722d,
 			shape: "rsquare",
 			description: ["By having a sink linked into your kitchen (touching other counter blocks and equipment) you will have water supplied freely to all your recipes."],
 			id: 4084,
@@ -56,6 +67,12 @@
 				id: 4085,
 				type: "item",
 				item: "cookingforblockheads:sink"
+			}],
+			rewards: [{
+				id: 4847,
+				type: "item",
+				item: "pamhc2foodcore:saltitem",
+				count: 8
 			}]
 		},
 		{
@@ -68,6 +85,11 @@
 				id: 4087,
 				type: "item",
 				item: "cookingforblockheads:oven"
+			}],
+			rewards: [{
+				id: 4848,
+				type: "random",
+				table: 0
 			}]
 		},
 		{
@@ -79,6 +101,12 @@
 				id: 4089,
 				type: "item",
 				item: "cookingforblockheads:toaster"
+			}],
+			rewards: [{
+				id: 4853,
+				type: "item",
+				item: "minecraft:bread",
+				count: 4
 			}]
 		},
 		{
@@ -95,6 +123,11 @@
 				id: 4091,
 				type: "item",
 				item: "cookingforblockheads:cow_jar"
+			}],
+			rewards: [{
+				id: 4856,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -106,6 +139,11 @@
 				id: 4093,
 				type: "item",
 				item: "cookingforblockheads:milk_jar"
+			}],
+			rewards: [{
+				id: 4855,
+				type: "item",
+				item: "minecraft:bucket"
 			}]
 		},
 		{
@@ -120,6 +158,11 @@
 				id: 4095,
 				type: "item",
 				item: "cookingforblockheads:fridge"
+			}],
+			rewards: [{
+				id: 4849,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
@@ -131,6 +174,11 @@
 				id: 4097,
 				type: "item",
 				item: "cookingforblockheads:tool_rack"
+			}],
+			rewards: [{
+				id: 4854,
+				type: "random",
+				table: 3
 			}]
 		},
 		{
@@ -153,7 +201,21 @@
 				id: 4101,
 				type: "item",
 				item: "cookingforblockheads:fruit_basket"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4857,
+					type: "item",
+					item: "minecraft:apple",
+					count: 4
+				},
+				{
+					id: 4858,
+					type: "item",
+					item: "minecraft:sweet_berries",
+					count: 4
+				}
+			]
 		},
 		{
 			x: -5.130952380952365d,
@@ -165,6 +227,11 @@
 				id: 4103,
 				type: "item",
 				item: "cookingforblockheads:ice_unit"
+			}],
+			rewards: [{
+				id: 4851,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -177,6 +244,11 @@
 				id: 4105,
 				type: "item",
 				item: "cookingforblockheads:preservation_chamber"
+			}],
+			rewards: [{
+				id: 4852,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -189,6 +261,11 @@
 				id: 4107,
 				type: "item",
 				item: "cookingforblockheads:heating_unit"
+			}],
+			rewards: [{
+				id: 4850,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -204,6 +281,11 @@
 				id: 4109,
 				type: "item",
 				item: "cookingforblockheads:cabinet"
+			}],
+			rewards: [{
+				id: 4859,
+				type: "random",
+				table: 0
 			}]
 		},
 		{
@@ -219,6 +301,11 @@
 				id: 4111,
 				type: "item",
 				item: "cookingforblockheads:hanging_corner"
+			}],
+			rewards: [{
+				id: 4860,
+				type: "random",
+				table: 0
 			}]
 		},
 		{
@@ -234,6 +321,11 @@
 				id: 4113,
 				type: "item",
 				item: "cookingforblockheads:counter"
+			}],
+			rewards: [{
+				id: 4862,
+				type: "random",
+				table: 0
 			}]
 		},
 		{
@@ -249,6 +341,11 @@
 				id: 4115,
 				type: "item",
 				item: "cookingforblockheads:corner"
+			}],
+			rewards: [{
+				id: 4861,
+				type: "random",
+				table: 0
 			}]
 		},
 		{
@@ -260,6 +357,11 @@
 				id: 4117,
 				type: "item",
 				item: "cookingforblockheads:white_kitchen_floor"
+			}],
+			rewards: [{
+				id: 4863,
+				type: "random",
+				table: 6
 			}]
 		},
 		{

@@ -1,7 +1,7 @@
 {
 	id: 3981,
 	filename: "to_boldly_go",
-	order_index: 3,
+	order_index: 2,
 	title: "To Boldly Go!",
 	icon: "minecraft:compass",
 	default_quest_shape: "",
@@ -917,6 +917,18 @@
 					item: "minecraft:nether_brick",
 					count: 36L
 				}
+			],
+			rewards: [
+				{
+					id: 4930,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 4931,
+					type: "random",
+					table: 4
+				}
 			]
 		},
 		{
@@ -986,12 +998,18 @@
 		{
 			x: 10.5d,
 			y: -1.5d,
+			description: ["This quartz grows pretty crazy down here. Seems like it may be refinable. "],
 			dependencies: [I;128],
 			id: 4454,
 			tasks: [{
 				id: 4455,
 				type: "item",
 				item: "minecraft:quartz"
+			}],
+			rewards: [{
+				id: 4932,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
@@ -1007,7 +1025,21 @@
 				id: 4457,
 				type: "item",
 				item: "refinedstorage:silicon"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4795,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 2
+				},
+				{
+					id: 4796,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					random_bonus: 2
+				}
+			]
 		}
 	]
 }

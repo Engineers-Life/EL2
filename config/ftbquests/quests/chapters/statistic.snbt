@@ -48,6 +48,11 @@
 				icon: "minecraft:skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 1
+			}],
+			rewards: [{
+				id: 4755,
+				type: "item",
+				item: "simplefarming:peanut_butter_cookie"
 			}]
 		},
 		{
@@ -61,6 +66,17 @@
 				title: "Kill 100 Mobs",
 				stat: "minecraft:mob_kills",
 				value: 100
+			}],
+			rewards: [{
+				id: 4747,
+				type: "item",
+				item: {
+					id: "minecraft:iron_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -85,7 +101,7 @@
 			rewards: [{
 				id: 1097,
 				type: "item",
-				item: "spareparts:coins/diamond_coin"
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -119,6 +135,17 @@
 				icon: "minecraft:skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 30
+			}],
+			rewards: [{
+				id: 4756,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "mob_drops"
+					}
+				}
 			}]
 		},
 		{
@@ -182,6 +209,17 @@
 				},
 				stat: "minecraft:walk_one_cm",
 				value: 1500000
+			}],
+			rewards: [{
+				id: 4754,
+				type: "item",
+				item: {
+					id: "alexsmobs:roadrunner_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -201,7 +239,33 @@
 				},
 				stat: "minecraft:walk_one_cm",
 				value: 3500000
-			}]
+			}],
+			rewards: [
+				{
+					id: 4752,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: true,
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					},
+					random_bonus: 1
+				},
+				{
+					id: 4753,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: true,
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					},
+					random_bonus: 2
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -289,6 +353,11 @@
 				icon: "engineersdecor:sign_exit",
 				stat: "minecraft:leave_game",
 				value: 10
+			}],
+			rewards: [{
+				id: 4740,
+				type: "item",
+				item: "simplefarming:pancakes"
 			}]
 		},
 		{
@@ -302,6 +371,11 @@
 				icon: "engineersdecor:sign_exit",
 				stat: "minecraft:leave_game",
 				value: 50
+			}],
+			rewards: [{
+				id: 4741,
+				type: "item",
+				item: "pamhc2foodcore:cookiesandmilkitem"
 			}]
 		},
 		{
@@ -315,6 +389,11 @@
 				icon: "engineersdecor:sign_exit",
 				stat: "minecraft:leave_game",
 				value: 100
+			}],
+			rewards: [{
+				id: 4743,
+				type: "item",
+				item: "minecraft:golden_carrot"
 			}]
 		},
 		{
@@ -328,6 +407,17 @@
 				icon: "engineersdecor:sign_exit",
 				stat: "minecraft:leave_game",
 				value: 250
+			}],
+			rewards: [{
+				id: 4744,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
 			}]
 		},
 		{
@@ -341,7 +431,21 @@
 				icon: "minecraft:cake",
 				stat: "minecraft:eat_cake_slice",
 				value: 152
-			}]
+			}],
+			rewards: [
+				{
+					id: 4782,
+					type: "item",
+					item: "veggie_way:cooked_carrot",
+					count: 16
+				},
+				{
+					id: 4783,
+					type: "item",
+					item: "minecraft:baked_potato",
+					count: 16
+				}
+			]
 		},
 		{
 			x: -1.5d,
@@ -353,6 +457,11 @@
 				icon: "minecraft:sticky_piston",
 				stat: "minecraft:jump",
 				value: 1000
+			}],
+			rewards: [{
+				id: 4759,
+				type: "item",
+				item: "minecraft:feather"
 			}]
 		},
 		{
@@ -366,6 +475,17 @@
 				icon: "minecraft:pufferfish",
 				stat: "minecraft:fish_caught",
 				value: 376
+			}],
+			rewards: [{
+				id: 4785,
+				type: "item",
+				item: {
+					id: "minecraft:fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -380,6 +500,18 @@
 				icon: "minecraft:wither_skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 50
+			}],
+			rewards: [{
+				id: 4757,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "mob_drops"
+					}
+				},
+				random_bonus: 1
 			}]
 		},
 		{
@@ -394,6 +526,23 @@
 				icon: "minecraft:wither_skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 200
+			}],
+			rewards: [{
+				id: 4762,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 2,
+							Items: []
+						}
+					},
+					id: "immersiveengineering:shield",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -414,6 +563,11 @@
 				},
 				stat: "minecraft:mob_kills",
 				value: 500
+			}],
+			rewards: [{
+				id: 4748,
+				type: "item",
+				item: "spareparts:coins/monster_coin"
 			}]
 		},
 		{
@@ -434,6 +588,11 @@
 				},
 				stat: "minecraft:mob_kills",
 				value: 1000
+			}],
+			rewards: [{
+				id: 4746,
+				type: "item",
+				item: "spareparts:coins/monster_coin"
 			}]
 		},
 		{
@@ -453,6 +612,23 @@
 				},
 				stat: "minecraft:damage_blocked_by_shield",
 				value: 100000
+			}],
+			rewards: [{
+				id: 4766,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 2,
+							Items: []
+						}
+					},
+					id: "immersiveengineering:shield",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -472,6 +648,12 @@
 				},
 				stat: "minecraft:pig_one_cm",
 				value: 1000000
+			}],
+			rewards: [{
+				id: 4768,
+				type: "item",
+				item: "minecraft:porkchop",
+				count: 64
 			}]
 		},
 		{
@@ -485,6 +667,12 @@
 				icon: "minecraft:feather",
 				stat: "minecraft:fall_one_cm",
 				value: 1000000
+			}],
+			rewards: [{
+				id: 4765,
+				type: "item",
+				item: "minecraft:egg",
+				count: 16
 			}]
 		},
 		{
@@ -523,6 +711,16 @@
 				},
 				stat: "minecraft:aviate_one_cm",
 				value: 1000000
+			}],
+			rewards: [{
+				id: 4767,
+				type: "item",
+				item: {
+					id: "immersiveengineering:balloon",
+					Count: true,
+					tag: {}
+				},
+				count: 4
 			}]
 		},
 		{
@@ -537,6 +735,11 @@
 				icon: "minecraft:saddle",
 				stat: "minecraft:horse_one_cm",
 				value: 1000000
+			}],
+			rewards: [{
+				id: 4769,
+				type: "item",
+				item: "minecraft:diamond_horse_armor"
 			}]
 		},
 		{
@@ -550,6 +753,12 @@
 				icon: "minecraft:warped_fungus",
 				stat: "minecraft:strider_one_cm",
 				value: 1000000
+			}],
+			rewards: [{
+				id: 4784,
+				type: "item",
+				item: "minecraft:magma_block",
+				count: 10
 			}]
 		},
 		{
@@ -583,6 +792,17 @@
 				icon: "engineersdecor:sign_exit",
 				stat: "minecraft:leave_game",
 				value: 500
+			}],
+			rewards: [{
+				id: 4745,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
 			}]
 		},
 		{
@@ -604,6 +824,17 @@
 				},
 				stat: "minecraft:mob_kills",
 				value: 10000
+			}],
+			rewards: [{
+				id: 4749,
+				type: "item",
+				item: {
+					id: "minecraft:wooden_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -619,7 +850,53 @@
 				icon: "minecraft:creeper_head",
 				stat: "minecraft:deaths",
 				value: 500
-			}]
+			}],
+			rewards: [
+				{
+					id: 4869,
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_faraday_head",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4870,
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_faraday_chest",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4871,
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_faraday_legs",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4872,
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_faraday_feet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -638,6 +915,11 @@
 				},
 				stat: "minecraft:walk_one_cm",
 				value: 30000000
+			}],
+			rewards: [{
+				id: 4750,
+				type: "item",
+				item: "spareparts:coins/ancient_coin"
 			}]
 		},
 		{
@@ -651,6 +933,17 @@
 				icon: "minecraft:piston",
 				stat: "minecraft:jump",
 				value: 10000
+			}],
+			rewards: [{
+				id: 4760,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "tier_i_random"
+					}
+				}
 			}]
 		},
 		{
@@ -665,6 +958,17 @@
 				icon: "supplementaries:piston_launcher",
 				stat: "minecraft:jump",
 				value: 100000
+			}],
+			rewards: [{
+				id: 4761,
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: true,
+					tag: {
+						type: "shingles_blocks"
+					}
+				}
 			}]
 		},
 		{
@@ -678,6 +982,12 @@
 				icon: "minecraft:slime_block",
 				stat: "minecraft:jump",
 				value: 500000
+			}],
+			rewards: [{
+				id: 4763,
+				type: "item",
+				item: "minecraft:slime_block",
+				count: 16
 			}]
 		},
 		{
@@ -691,6 +1001,11 @@
 				icon: "immersiveengineering:cushion",
 				stat: "minecraft:jump",
 				value: 1000000
+			}],
+			rewards: [{
+				id: 4764,
+				type: "item",
+				item: "supplementaries:piston_launcher"
 			}]
 		},
 		{
@@ -704,6 +1019,17 @@
 				icon: "quark:bottled_cloud",
 				stat: "minecraft:jump",
 				value: 10000000
+			}],
+			rewards: [{
+				id: 4758,
+				type: "item",
+				item: {
+					id: "minecraft:elytra",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		},
 		{
@@ -717,6 +1043,12 @@
 				icon: "minecraft:bell",
 				stat: "minecraft:talked_to_villager",
 				value: 1000
+			}],
+			rewards: [{
+				id: 4781,
+				type: "item",
+				item: "simplefarming:wine",
+				count: 16
 			}]
 		},
 		{
@@ -730,6 +1062,11 @@
 				icon: "minecraft:egg",
 				stat: "minecraft:animals_bred",
 				value: 1000
+			}],
+			rewards: [{
+				id: 4780,
+				type: "item",
+				item: "embellishcraft:red_crimson_fancy_bed"
 			}]
 		}
 	]
