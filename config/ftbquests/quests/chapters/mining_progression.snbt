@@ -1,7 +1,7 @@
 {
 	id: 739,
 	filename: "mining_progression",
-	order_index: 1,
+	order_index: 13,
 	title: "Skills Progression",
 	default_quest_shape: "",
 	quests: [
