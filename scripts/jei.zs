@@ -1,19 +1,13 @@
-//mods.jei.JEI.hideItem(<item:industrialforegoing:infinity_drill>);
-//mods.jei.JEI.addInfo(, ["_", "_", "_"]);
 
-//mods.jei.JEI.hideItem(<item:farmersdelight:flint_knife>);
-//craftingTable.removeRecipe(<item:farmersdelight:flint_knife>);
+// Supplimentaries
 
-//add info template: mods.jei.JEI.addInfo(<>, [""]);
+mods.jei.JEI.addInfo(<item:supplementaries:planter>, ["Used for growing crops without a water source block.", "Now you can grow them even in the nether and you won't have to worry about animals trampling your crops!"]);
 
-//Supplimentaries
-mods.jei.JEI.addInfo(<item:supplementaries:planter>, ["Used for growing crops without the need of a water source block.", "Now you can grow them even in the nether and you won't have to worry about animals trampling your crops!"]);
+mods.jei.JEI.addInfo(<item:supplementaries:faucet>, ["When turned on, it starts spilling on the ground the inventory of up to two blocks behind it. If you place it in front of a water block (cauldron, water/waterlogged), it will start dripping water particles.", "You can use it to pour liquids to and from jars. Since it can extract items from the side of a block it enables some sort of automation not possible with vanilla.", "It will also interact with other blocks like hives and concrete powder. Its water color will depend on what's behind it."]);
 
-mods.jei.JEI.addInfo(<item:supplementaries:faucet>, ["when turned on it starts spilling on the ground the inventory of up to two blocks behind it. If you place it in front of a water block (cauldron, water/waterlogged), it will start dripping water particles.", "You can use it to pour liquids to and from jars. Since it can extract items from the side of a block it enables some sort of automation not possible with vanilla.", "It will also interact with other blocks like hives and concrete powder. Its water color will depend on what's behind it."]);
+mods.jei.JEI.addInfo(<item:supplementaries:jar>, ["Stores 4 buckets or 12 bottles of any vanilla liquids (like honey, milk, lava, potions, soups, dragon beath or xp) as well as fireflies. It functions as a shulker box for liquids or a rudimentary tank. You can now also store cookies and fish! Not compatible with the forge fluid system or with other fluid mods, meant to complement vanilla only."]);
 
-mods.jei.JEI.addInfo(<item:supplementaries:jar>, ["can store 4 buckets or 12 bottles of any vanilla liquids (like honey, milk, lava, potions, soups, dragon beath or xp) as well as fireflies. It basically functions as a shulker box for liquids or a rudimentary tank. You can now also store cookies and fish! Not compatible with the forge fluid system or with other fluid mods, meant to complement vanilla only."]);
-
-mods.jei.JEI.addInfo(<item:supplementaries:wind_vane>, ["Gives off a variable strenght redstone signal depending on the weather. The worse the weather, the stronger the signal."]);
+mods.jei.JEI.addInfo(<item:supplementaries:wind_vane>, ["Emits a redstone signal, depending on the weather. The worse the weather, the stronger the signal."]);
 
 mods.jei.JEI.addInfo(<item:supplementaries:pedestal>, ["Place an item on top to have it displayed. Stacking multiple pedestals will turn them into a pillar."]);
 
@@ -29,13 +23,14 @@ mods.jei.JEI.addInfo(<item:supplementaries:clock_block>, ["Right click on the bl
 
 mods.jei.JEI.addInfo(<item:supplementaries:bellows>, ["When powered, will blow entities or items in front of it in the direction it is facing."]);
 
-mods.jei.JEI.addInfo(<item:supplementaries:cog_block>, ["Delivers power up to 16 blocks away. Power can be taken from any side of the block."]);
+mods.jei.JEI.addInfo(<item:supplementaries:cog_block>, ["Transmits redstone power, just like redstone dust, but connects on all sides.","This making vertical redstone easier and looks cooler too.]);
 
 mods.jei.JEI.addInfo(<item:supplementaries:safe>, ["Extremely hard block that functions as a chest. Retains inventory when broken."]);
 
 mods.jei.JEI.addInfo(<item:supplementaries:hourglass>, ["Place sand in it and it will provide a redstone signal until the sand runs out. Flip and repeat."]);
 
-//No Tree Punching
+// No Tree Punching
+
 mods.jei.JEI.addInfo(<item:notreepunching:flint_shard>, ["Used for making early game tools" , "Once you have obtained flint, you can left click against stone of any kind to attempt to break it into shards."]);
 
 mods.jei.JEI.addInfo(<item:notreepunching:clay_tool>, ["Use this tool on blocks of clay placed in the world to obtain items that can be smelted into useful tools. To progress to other items, continue to right click with the tool."]);
@@ -54,16 +49,36 @@ mods.jei.JEI.addInfo(<item:notreepunching:ceramic_bucket>, ["A ceramic bucket to
 
 mods.jei.JEI.addInfo(<item:minecraft:campfire>, ["To start a campfire you need fire starter. Throw (Q) the following items on the ground, in the space where you want to create the campfire:", "- One wooden fuel item (any log or plank)", "- Three pieces of kindling (sticks, saplings, leaves, or string). Then, right click and hold the fire starter pointing at the pile of items. Smoke particles will appear, and after a short while, a campfire will appear and the items will be consumed."]);
 
+// Big Reactors
+
 mods.jei.JEI.hideItem(<item:bigreactors:reinforced_reactorpowertapfe_passive>);
 craftingTable.removeRecipe(<item:bigreactors:reinforced_reactorpowertapfe_passive>);
 
 mods.jei.JEI.hideItem(<item:bigreactors:reinforced_reactorpowertapfe_active>);
 craftingTable.removeRecipe(<item:bigreactors:reinforced_reactorpowertapfe_active>);
 
+// Industrial Foregoing
 
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_crimed");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_culinary");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_death");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_disenchantment");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_ender");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_explosive");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_frosty");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_furnace");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_halitosis");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_magma");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_meatallurgic");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_netherstar");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_pink");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_potion");
+mods.jei.JEI.hideCategory("industrialforegoing:mycelial_slimey");
 
+// EXAMPLES:
 
+// mods.jei.JEI.addInfo(<item:supplementaries:bellows>, ["line one", "line two", "line three"]);
+// mods.jei.JEI.hideItem(<item:industrialforegoing:infinity_drill>);
+// mods.jei.JEI.hideItem(<item:farmersdelight:flint_knife>);
 
-
-
-
+// craftingTable.removeRecipe(<item:farmersdelight:flint_knife>);
