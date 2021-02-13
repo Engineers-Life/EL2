@@ -695,6 +695,11 @@
 						"patchouli:book": "bigreactors:erguide"
 					}
 				}
+			}],
+			rewards: [{
+				id: 5340,
+				type: "item",
+				item: "pamhc2foodcore:cookiesandmilkitem"
 			}]
 		},
 		{
@@ -714,8 +719,10 @@
 				title: "Basic Turbine"
 			}],
 			rewards: [{
-				id: 4789,
-				type: "item"
+				id: 5337,
+				type: "item",
+				item: "immersiveengineering:fluid_pipe",
+				count: 16
 			}]
 		},
 		{
@@ -808,8 +815,9 @@
 				title: "Advanced Turbine"
 			}],
 			rewards: [{
-				id: 4790,
-				type: "item"
+				id: 5338,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{

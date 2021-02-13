@@ -23,17 +23,24 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: 2078,
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: true,
-					tag: {
-						type: "tier_i_random"
+			rewards: [
+				{
+					id: 2078,
+					type: "item",
+					item: {
+						id: "ftbquests:lootcrate",
+						Count: true,
+						tag: {
+							type: "tier_i_random"
+						}
 					}
+				},
+				{
+					id: 5341,
+					type: "item",
+					item: "pamhc2foodcore:cookiesandmilkitem"
 				}
-			}]
+			]
 		},
 		{
 			x: -3.5d,

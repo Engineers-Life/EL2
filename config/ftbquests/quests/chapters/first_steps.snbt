@@ -2573,25 +2573,27 @@
 			]
 		},
 		{
-			x: 3.5d,
+			x: 3.0d,
 			y: 1.0d,
 			description: [
-				"The greater the variety of foods you've eaten, the higher your diversity score is.",
+				"The Food Book gives you information about your diet diversity score.",
+				"-Lists all the foods that you have eaten in the past that are currently contributing to your diversity.",
+				"-Gives your current diversity score.",
+				"-Describes the benefits you are currently experiencing.",
 				"",
-				"You will receive variable benefits depending on how diverse your current diet is. ",
-				"",
-				"You will have to maintain that level of diversity to keep those benefits. This is to encourage automation of a variety of food production systems, rather than encouraging the player to eat each food once.",
-				"",
-				"Note that this means your diversity score is constantly and dynamically changing depending on what your current and past diet looks like. ",
-				"Thus, you can have a lot of benefits after eating a bunch of different foods, but if you go back to eating only bread, you will gradually lose all of your benefits. ",
-				"To get higher diversity scores, you need to keep including more and more different types of foods in your diet."
+				"Can be bound to a key in keybinds so you do not need to carry the book."
 			],
-			dependencies: [I;4655],
+			dependencies: [I;195],
 			id: 4647,
 			tasks: [{
 				id: 4648,
 				type: "item",
 				item: "solpotato:food_book"
+			}],
+			rewards: [{
+				id: 5336,
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -2599,8 +2601,8 @@
 			y: 1.0d,
 			subtitle: "5 slots",
 			description: [
-				"Allows you to store food.",
-				"Shift-right click to open their inventory."
+				"The lunchbag allows you to store food to be fed on while maxing diversity gain.",
+				"Shift-right click to open its inventory, allowing you to load it with food. Then, when you are hungry, right clicking with the lunchbag in your hand will feed you with the best food to maximize your diversity."
 			],
 			dependencies: [I;4647],
 			id: 4649,
@@ -2623,6 +2625,7 @@
 			x: 6.5d,
 			y: 1.0d,
 			subtitle: "9 slots",
+			description: ["The Lunchbox acts as a lunchbag but with a expanded food carrying storage."],
 			dependencies: [I;
 				69,
 				4649
@@ -2647,6 +2650,7 @@
 			x: 6.5d,
 			y: 2.5d,
 			subtitle: "14 slots",
+			description: ["The Golden Lunchbox is a expanded lunchbox."],
 			dependencies: [I;4651],
 			id: 4653,
 			tasks: [{
@@ -2665,27 +2669,16 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 1.0d,
-			dependencies: [I;195],
-			id: 4655,
-			tasks: [{
-				id: 4656,
-				type: "item",
-				item: "minecraft:wheat_seeds"
-			}]
-		},
-		{
 			icon: "minecraft:barrier",
 			x: -9.5d,
 			y: -2.0d,
 			description: [
-				"There are couple of new mechanics the description of which you will find following this quest guide.",
-				"You can always come bach here to read them again.",
+				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest.",
+				"You can always come back here to read them again.",
 				"",
-				"- variable benefits for greater variety of foods you've eaten",
-				"- unlock the ability to use advanced items when leveling your stats(mining, combat, endurance, etc..)",
-				"- harvesting of multiple identical blocks at once"
+				"- Gain variable benefits for eating a greater variety of foods.",
+				"- Level up your abilities to use advanced items by gaining experience in skills (mining, combat, endurance, etc.)",
+				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
 			],
 			dependencies: [I;3976],
 			id: 4657,
@@ -2699,15 +2692,15 @@
 			x: -7.5d,
 			y: -1.0d,
 			description: [
-				"The greater the variety of foods you've eaten, the higher your diversity score is.",
+				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods.",
 				"",
-				"You will receive variable benefits depending on how diverse your current diet is. ",
+				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past. ",
 				"",
-				"You will have to maintain that level of diversity to keep those benefits. This is to encourage automation of a variety of food production systems, rather than encouraging the player to eat each food once.",
+				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition).",
 				"",
-				"Note that this means your diversity score is constantly and dynamically changing depending on what your current and past diet looks like. ",
-				"Thus, you can have a lot of benefits after eating a bunch of different foods, but if you go back to eating only bread, you will gradually lose all of your benefits. ",
-				"To get higher diversity scores, you need to keep including more and more different types of foods in your diet.",
+				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. ",
+				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits. ",
+				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet.",
 				""
 			],
 			dependencies: [I;4657],
@@ -2717,6 +2710,11 @@
 				type: "checkmark",
 				title: "Spice Of Life",
 				icon: "minecraft:potato"
+			}],
+			rewards: [{
+				id: 5335,
+				type: "item",
+				item: "minecraft:baked_potato"
 			}]
 		}
 	]

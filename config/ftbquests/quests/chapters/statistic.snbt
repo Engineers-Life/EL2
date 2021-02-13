@@ -778,6 +778,12 @@
 				},
 				stat: "minecraft:walk_under_water_one_cm",
 				value: 100000
+			}],
+			rewards: [{
+				id: 5339,
+				type: "item",
+				item: "minecraft:sea_pickle",
+				count: 16
 			}]
 		},
 		{

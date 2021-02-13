@@ -1094,18 +1094,11 @@
 				type: "item",
 				item: "immersiveengineering:conveyor_basic"
 			}],
-			rewards: [
-				{
-					id: 1152,
-					type: "item",
-					item: "spareparts:coins/copper_coin"
-				},
-				{
-					id: 1286,
-					type: "item",
-					item: "pamhc2foodcore:fishandchipsitem"
-				}
-			]
+			rewards: [{
+				id: 1152,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
 		},
 		{
 			x: -13.5d,
@@ -3200,18 +3193,11 @@
 					item: "immersiveengineering:conveyor_extract"
 				}
 			],
-			rewards: [
-				{
-					id: 4882,
-					type: "item",
-					count: 2
-				},
-				{
-					id: 4883,
-					type: "xp_levels",
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: 4883,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
 		},
 		{
 			title: "Covered Conveyors",
