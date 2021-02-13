@@ -17,16 +17,6 @@ craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_dust",   <item:bigreactors:graphite_dust>,      [],                        100, 100*512, [<item:bigreactors:graphite_ingot>]);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_quartz", <item:immersiveengineering:coal_coke>, [<item:minecraft:quartz>], 400, 400*512, [<item:bigreactors:graphite_ingot>],<item:immersiveengineering:slag>);
 
-// removing grit recipes
-
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_nickel");
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_lead");
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_silver");
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_uranium");
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_aluminum");
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_iron");
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_gold");
-craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_copper");
 
 // 2 ingots - 1 plate recipes
 
