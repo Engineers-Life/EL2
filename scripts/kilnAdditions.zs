@@ -3,15 +3,19 @@ import crafttweaker.api.registries.IRecipeManager;
 
 //Custom Charm Kiln Recipes
 	
-	<recipetype:firing>.addJSONRecipe("Clay_Bricks_to_Bricks", {ingredient:{item:<item:notreepunching:clay_brick>.registryName},result:<item:minecraft:brick>.registryName,experience:0.35 as float, cookingtime:100});
-	<recipetype:firing>.addJSONRecipe("Clay_Blocks_to_Terracotta", {ingredient:{item:<item:minecraft:clay>.registryName},result:<item:minecraft:terracotta>.registryName,experience:0.35 as float, cookingtime:100});
-	<recipetype:firing>.addJSONRecipe("Clay_Large_Vessel_to_Ceramic_Large_Vessel", {ingredient:{item:<item:notreepunching:clay_large_vessel>.registryName},result:<item:notreepunching:ceramic_large_vessel>.registryName,experience:0.35 as float, cookingtime:100});
-	<recipetype:firing>.addJSONRecipe("Clay_Small_Vessel_to_Ceramic_Small_Vessel", {ingredient:{item:<item:notreepunching:clay_small_vessel>.registryName},result:<item:notreepunching:ceramic_small_vessel>.registryName,experience:0.35 as float, cookingtime:100});
-	<recipetype:firing>.addJSONRecipe("Clay_Bucket_to_Ceramic_Bucket", {ingredient:{item:<item:notreepunching:clay_bucket>.registryName},result:<item:notreepunching:ceramic_bucket>.registryName,experience:0.35 as float, cookingtime:100});
-	<recipetype:firing>.addJSONRecipe("Clay_Flower_Pot_to_Flower_pot", {ingredient:{item:<item:notreepunching:clay_flower_pot>.registryName},result:<item:minecraft:flower_pot>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("clay_bricks_to_bricks", {ingredient:{item:<item:notreepunching:clay_brick>.registryName},result:<item:minecraft:brick>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("clay_blocks_to_terracotta", {ingredient:{item:<item:minecraft:clay>.registryName},result:<item:minecraft:terracotta>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("clay_large_vessel_to_ceramic_large_vessel", {ingredient:{item:<item:notreepunching:clay_large_vessel>.registryName},result:<item:notreepunching:ceramic_large_vessel>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("clay_small_vessel_to_ceramic_small_vessel", {ingredient:{item:<item:notreepunching:clay_small_vessel>.registryName},result:<item:notreepunching:ceramic_small_vessel>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("clay_bucket_to_ceramic_bucket", {ingredient:{item:<item:notreepunching:clay_bucket>.registryName},result:<item:notreepunching:ceramic_bucket>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("clay_flower_pot_to_flower_pot", {ingredient:{item:<item:notreepunching:clay_flower_pot>.registryName},result:<item:minecraft:flower_pot>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("gold_ore_to_ingot", {ingredient:{item:<item:minecraft:gold_ore>.registryName},result:<item:minecraft:gold_ingot>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("gold_nether_ore_to_ingot", {ingredient:{item:<item:minecraft:nether_gold_ore>.registryName},result:<item:minecraft:gold_ingot>.registryName,experience:0.35 as float, cookingtime:100});
+	<recipetype:firing>.addJSONRecipe("gold_grit_to_ingot", {ingredient:{item:<item:immersiveengineering:dust_gold>.registryName},result:<item:minecraft:gold_ingot>.registryName,experience:0.35 as float, cookingtime:100});
 	
 //Remove duplicate kiln & furnace recipes from furnace
-furnace.removeRecipe(<item:minecraft:nether_brick>, <item:minecraft:netherrack>);
+	furnace.removeRecipe(<item:minecraft:gold_ingot>);
+	furnace.removeRecipe(<item:minecraft:nether_brick>, <item:minecraft:netherrack>);
 	furnace.removeRecipe(<item:minecraft:smooth_sandstone>, <item:minecraft:sandstone>);
 	furnace.removeRecipe(<item:minecraft:smooth_red_sandstone>, <item:minecraft:red_sandstone>);
 	furnace.removeRecipe(<item:minecraft:glass>, <item:minecraft:sand>);
