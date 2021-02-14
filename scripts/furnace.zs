@@ -11,8 +11,9 @@ furnace.removeRecipe(<item:bigreactors:graphite_ingot>);
 
 // Blast Furnace
 
+val clay_plate = <item:spareparts:plates/fired_clay>;
 craftingTable.removeRecipe(<item:minecraft:blast_furnace>);
 craftingTable.addShaped("blast_furnace", <item:minecraft:blast_furnace>, [
-    [<item:immersiveengineering:hempcrete>,<item:immersiveengineering:hempcrete>,<item:immersiveengineering:hempcrete>],
-    [<item:immersiveengineering:hempcrete>,<item:minecraft:furnace>,<item:immersiveengineering:hempcrete>],
+    [clay_plate,clay_plate,clay_plate],
+    [clay_plate,<item:minecraft:furnace>,clay_plate],
     [<item:minecraft:smooth_stone>,<item:minecraft:smooth_stone>,<item:minecraft:smooth_stone>]]);
