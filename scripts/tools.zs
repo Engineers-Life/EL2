@@ -183,7 +183,7 @@ craftingTable.addShaped("iron_hopper", <item:minecraft:hopper>, [
 craftingTable.removeRecipe(<item:notreepunching:clay_tool>);
 craftingTable.addShapedMirrored("clay_tool", <item:notreepunching:clay_tool>, [
 [air, air, stick], 
-[air, stick, <item:minecraft:iron_ingot>], 
+[air, stick, <item:minecraft:smooth_stone_slab>], 
 [stick, air, air]]);
 
 // EXAMPLES:
