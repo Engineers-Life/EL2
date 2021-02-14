@@ -345,7 +345,7 @@
 			}]
 		},
 		{
-			x: 7.0d,
+			x: 11.5d,
 			y: -2.5d,
 			description: ["Will light up all those dark places so you don't have to place torches everywhere."],
 			dependencies: [I;69],
@@ -385,7 +385,7 @@
 		},
 		{
 			title: "Furnace",
-			x: 4.5d,
+			x: 3.0d,
 			y: -1.5d,
 			description: ["Time to cook up some ore and get those ingots!"],
 			dependencies: [I;14],
@@ -586,8 +586,8 @@
 			]
 		},
 		{
-			x: 18.0d,
-			y: -1.5d,
+			x: 22.0d,
+			y: -3.0d,
 			description: [
 				"Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or flint",
 				"axe, and the yield produced is doubled when using a saw from a flint tool."
@@ -620,8 +620,8 @@
 			]
 		},
 		{
-			x: 16.0d,
-			y: -3.5d,
+			x: 4.5d,
+			y: -1.5d,
 			description: [
 				"In order to create pottery, you'll need blocks of clay and a clay tool, which is crafted from some sticks. Simply right click the clay block with the clay tool and it will become worked clay.",
 				"",
@@ -632,7 +632,7 @@
 				"",
 				"The vanilla crafting recipe for the flower pot has been removed, instead it must be created using the above pottery mechanics. It's functionality is unchanged."
 			],
-			dependencies: [I;88],
+			dependencies: [I;44],
 			id: 61,
 			tasks: [{
 				id: 62,
@@ -661,8 +661,8 @@
 		},
 		{
 			title: "Brick me up!",
-			x: 20.0d,
-			y: -6.0d,
+			x: 6.0d,
+			y: -1.5d,
 			description: ["Can be cooked at a campfire or in the Kiln."],
 			dependencies: [I;61],
 			id: 66,
@@ -693,10 +693,10 @@
 			]
 		},
 		{
-			x: 8.5d,
+			x: 13.0d,
 			y: -1.5d,
 			description: ["You are going to need a lot of this stuff."],
-			dependencies: [I;44],
+			dependencies: [I;5346],
 			id: 69,
 			tasks: [{
 				id: 70,
@@ -833,7 +833,7 @@
 			]
 		},
 		{
-			x: 12.5d,
+			x: 17.0d,
 			y: -1.4523809523809703d,
 			description: ["I feel like this is the start of the whole reason that you are here."],
 			dependencies: [I;69],
@@ -863,7 +863,7 @@
 			]
 		},
 		{
-			x: 16.0d,
+			x: 20.5d,
 			y: -1.5d,
 			description: ["Clang! Clang! Clang! I can make so much with this!"],
 			dependencies: [I;86],
@@ -887,8 +887,8 @@
 			]
 		},
 		{
-			x: 16.0d,
-			y: 0.5d,
+			x: 20.5d,
+			y: -3.5d,
 			description: ["Mine me up some ore!"],
 			dependencies: [I;88],
 			id: 90,
@@ -934,15 +934,15 @@
 		{
 			title: "Coke Oven",
 			icon: "immersiveengineering:cokebrick",
-			x: 23.5d,
-			y: -6.0d,
+			x: 25.5d,
+			y: -1.5d,
 			shape: "gear",
 			description: [
 				"Place the Coke Brick in a 3x3x3 block and right clicking with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil.",
 				"",
 				"This opens up so many engineering possibilities!"
 			],
-			dependencies: [I;66],
+			dependencies: [I;88],
 			size: 3.0d,
 			id: 92,
 			tasks: [
@@ -996,7 +996,7 @@
 			]
 		},
 		{
-			x: 17.5d,
+			x: 22.0d,
 			y: 0.0d,
 			description: [
 				"Mattocks are advanced tools, and can be made from iron, gold or diamond. They function both as axes and shovels with regards to the blocks they can break, and have the right click functionality of axes, shovels, and hoes, being able to strip wood,",
@@ -1047,8 +1047,8 @@
 			]
 		},
 		{
-			x: 16.0d,
-			y: 3.5d,
+			x: 20.5d,
+			y: -5.5d,
 			description: ["Watch out for lava when digging for these!"],
 			dependencies: [I;90],
 			id: 97,
@@ -1091,8 +1091,8 @@
 			]
 		},
 		{
-			x: 13.5d,
-			y: 3.5d,
+			x: 22.0d,
+			y: -5.5d,
 			description: ["This will really dig some stuff."],
 			dependencies: [I;97],
 			id: 99,
@@ -1123,8 +1123,8 @@
 			}]
 		},
 		{
-			x: 13.5d,
-			y: 5.5d,
+			x: 21.5d,
+			y: -6.5d,
 			description: ["How did I pound these diamonds into a blade? Who cares."],
 			dependencies: [I;97],
 			id: 101,
@@ -1175,8 +1175,8 @@
 		},
 		{
 			title: "Diamond Armor",
-			x: 16.0d,
-			y: 5.5d,
+			x: 20.5d,
+			y: -7.0d,
 			description: ["The most sparkling suit of armor you will ever get to wear."],
 			dependencies: [I;97],
 			id: 103,
@@ -1263,7 +1263,7 @@
 		},
 		{
 			title: "Iron Armor",
-			x: 14.5d,
+			x: 19.0d,
 			y: 0.0d,
 			description: ["A good improvement, even though you will look a bit like the Silver Surfer."],
 			dependencies: [I;88],
@@ -1333,8 +1333,8 @@
 			]
 		},
 		{
-			x: 17.5d,
-			y: -3.0d,
+			x: 20.5d,
+			y: 0.5d,
 			description: ["Man I can carry so many liquids in this bucket!"],
 			dependencies: [I;88],
 			id: 115,
@@ -1400,8 +1400,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 0.0d,
+			x: 14.5d,
+			y: -0.5d,
 			description: ["SPARKS! SPARKS! SPARKS!"],
 			dependencies: [I;69],
 			id: 142,
@@ -1424,7 +1424,7 @@
 			}]
 		},
 		{
-			x: 10.0d,
+			x: 14.5d,
 			y: -2.5d,
 			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."],
 			dependencies: [I;69],
@@ -1541,7 +1541,7 @@
 			}]
 		},
 		{
-			x: 12.5d,
+			x: 17.0d,
 			y: 0.0d,
 			description: ["Hope you had fun getting this, you will need about a million more."],
 			dependencies: [I;86],
@@ -1567,8 +1567,8 @@
 			]
 		},
 		{
-			x: 11.0d,
-			y: -6.0d,
+			x: 15.0d,
+			y: -4.5d,
 			description: [
 				"Will allow you to passively collect resources when placed in a 1 deep block of water.",
 				"If the water is flowing into the strainer you will get better efficiency."
@@ -1601,8 +1601,8 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: -6.0d,
+			x: 13.0d,
+			y: -4.5d,
 			description: ["Creates worms and fertilizer by composting fruit and vegetables. "],
 			dependencies: [I;166],
 			id: 168,
@@ -1626,8 +1626,8 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: -7.5d,
+			x: 13.0d,
+			y: -6.0d,
 			description: ["Collects fish and junk but requires bait to operate. Higher densities give longer usage and different item probabilites."],
 			dependencies: [I;
 				166,
@@ -1660,8 +1660,8 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: -7.5d,
+			x: 15.0d,
+			y: -6.0d,
 			description: ["Can collect items such as stone, sticks, clay, and planks. Has higher levels of density for longer usage and different item probabilities."],
 			dependencies: [I;166],
 			id: 174,
@@ -1692,8 +1692,8 @@
 		},
 		{
 			title: "Worms",
-			x: 14.0d,
-			y: -6.0d,
+			x: 11.0d,
+			y: -4.5d,
 			description: ["Wiggle Worm"],
 			dependencies: [I;168],
 			id: 176,
@@ -1719,8 +1719,8 @@
 			}]
 		},
 		{
-			x: 16.0d,
-			y: -6.0d,
+			x: 9.5d,
+			y: -3.5d,
 			description: ["This will decrease the usage of bait in the strainer."],
 			dependencies: [I;
 				176,
@@ -1761,7 +1761,7 @@
 			]
 		},
 		{
-			x: 14.5d,
+			x: 19.0d,
 			y: -3.0d,
 			description: [
 				"Some basic automation, though you will need to start expanding to more soon.",
@@ -1790,8 +1790,8 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: -3.0d,
+			x: 19.0d,
+			y: -5.0d,
 			description: ["A highly customizable hopper that allows you to change the stack size, drop delay, and a customizable collection range up to 9x9. Can be placed upside down and keeps inventory when broken. Redstone controllable."],
 			dependencies: [I;180],
 			id: 182,
@@ -1962,8 +1962,8 @@
 			]
 		},
 		{
-			x: 20.0d,
-			y: -8.0d,
+			x: 6.0d,
+			y: -3.0d,
 			description: ["Some nice brick blocks to get your some nice engineering building style."],
 			dependencies: [I;66],
 			id: 217,
@@ -1999,7 +1999,7 @@
 			]
 		},
 		{
-			x: 8.5d,
+			x: 13.0d,
 			y: 0.0d,
 			description: ["You are going to have to go deep!"],
 			dependencies: [I;69],
@@ -2074,8 +2074,8 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: 0.5d,
+			x: 14.5d,
+			y: 1.0d,
 			description: ["This lantern will be activated when you send it a redstone signal. Could be an interesting signal light."],
 			dependencies: [I;224],
 			id: 247,
@@ -2124,13 +2124,10 @@
 			}]
 		},
 		{
-			x: 20.0d,
-			y: -4.0d,
+			x: 20.5d,
+			y: 2.5d,
 			description: ["Can grow crops anywhere without water!"],
-			dependencies: [I;
-				115,
-				66
-			],
+			dependencies: [I;115],
 			id: 285,
 			tasks: [{
 				id: 286,
@@ -2171,9 +2168,9 @@
 			}]
 		},
 		{
-			x: 18.0d,
-			y: -6.0d,
-			description: ["The kiln is used for faster smelting of clay and sand."],
+			x: 7.5d,
+			y: -1.5d,
+			description: ["The kiln is used for faster smelting of clay and sand based items."],
 			dependencies: [I;66],
 			id: 1053,
 			tasks: [{
@@ -2221,7 +2218,7 @@
 		},
 		{
 			title: "Platformer",
-			x: 8.5d,
+			x: 13.0d,
 			y: -3.0d,
 			description: ["Will allow you to create some scaffolding with interesting and unique textures."],
 			dependencies: [I;69],
@@ -2317,8 +2314,8 @@
 		},
 		{
 			title: "What is out there?",
-			x: 8.5d,
-			y: 3.55d,
+			x: 13.0d,
+			y: 3.5500000000000007d,
 			shape: "gear",
 			description: ["At least now I know what direction I am going, or do I?"],
 			dependencies: [I;224],
@@ -2344,16 +2341,11 @@
 			]
 		},
 		{
-			title: "Going Deep",
-			x: 10.5d,
-			y: 3.553571428571452d,
-			shape: "gear",
-			description: ["Time for that big purple doorway to Heaven! Wait it is pretty warm near this thing, oh well."],
-			dependencies: [I;
-				142,
-				99
-			],
-			size: 2.0d,
+			title: "Volcanic Glass",
+			x: 24.0d,
+			y: -5.5d,
+			description: ["This obsidian is some serious tough material."],
+			dependencies: [I;99],
 			id: 3986,
 			tasks: [{
 				id: 3987,
@@ -2541,7 +2533,7 @@
 			}]
 		},
 		{
-			x: 12.5d,
+			x: 17.0d,
 			y: 1.5d,
 			shape: "gear",
 			description: ["This chest kind of makes everything metallic. I wonder how much storage space I am going to need?"],
@@ -2573,7 +2565,7 @@
 			]
 		},
 		{
-			x: 3.0d,
+			x: 4.0d,
 			y: 1.0d,
 			description: [
 				"The Food Book gives you information about your diet diversity score.",
@@ -2597,8 +2589,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 1.0d,
+			x: 7.5d,
+			y: 2.0d,
 			subtitle: "5 slots",
 			description: [
 				"The lunchbag allows you to store food to be fed on while maxing diversity gain.",
@@ -2622,8 +2614,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 1.0d,
+			x: 11.0d,
+			y: 2.0d,
 			subtitle: "9 slots",
 			description: ["The Lunchbox acts as a lunchbag but with a expanded food carrying storage."],
 			dependencies: [I;
@@ -2647,8 +2639,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 2.5d,
+			x: 11.0d,
+			y: 3.5d,
 			subtitle: "14 slots",
 			description: ["The Golden Lunchbox is a expanded lunchbox."],
 			dependencies: [I;4651],
@@ -2715,6 +2707,199 @@
 				id: 5335,
 				type: "item",
 				item: "minecraft:baked_potato"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			description: ["The Blast Furnace will allow you to start processing ores into ingots."],
+			dependencies: [I;5350],
+			id: 5346,
+			tasks: [{
+				id: 5347,
+				type: "item",
+				item: "minecraft:blast_furnace"
+			}]
+		},
+		{
+			x: 6.750000000000007d,
+			y: -0.18928571428571672d,
+			description: ["You can get a Raw Clay Plate by working a Clay Brick with the Clay Tool."],
+			dependencies: [I;61],
+			id: 5348,
+			tasks: [{
+				id: 5354,
+				type: "item",
+				item: "spareparts:plates/raw_clay"
+			}],
+			rewards: [
+				{
+					id: 5368,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 5369,
+					type: "item",
+					item: "terraincognita:berry_sorbet"
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: -1.5d,
+			description: ["Cooking the Raw Clay Plate in the Kiln will open up the possibilities of some higher heat processing furnaces."],
+			dependencies: [I;
+				1053,
+				5348
+			],
+			id: 5350,
+			tasks: [{
+				id: 5351,
+				type: "item",
+				item: "spareparts:plates/fired_clay"
+			}],
+			rewards: [
+				{
+					id: 5370,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5371,
+					type: "item",
+					item: "simplefarming:chili"
+				}
+			]
+		},
+		{
+			x: 24.0d,
+			y: -7.0d,
+			description: ["Magic? Pah!"],
+			dependencies: [I;3986],
+			id: 108,
+			tasks: [{
+				id: 109,
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}],
+			rewards: [
+				{
+					id: 309,
+					type: "item",
+					item: "minecraft:blue_dye",
+					count: 16
+				},
+				{
+					id: 340,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				},
+				{
+					id: 341,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 815,
+					type: "item",
+					item: "minecraft:paper",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "See you in Hell....",
+			icon: "minecraft:netherrack",
+			x: 8.380952380952372d,
+			y: 0.4892857142857281d,
+			shape: "gear",
+			description: [
+				"These pools deep underground keep drawing me towards them. Maybe I should take a little dip in one....",
+				"",
+				"*Be prepared for an adventure, you may be there for a while. The previous quest is a hint at what you may want to bring with you.*"
+			],
+			dependencies: [I;5363],
+			size: 2.0d,
+			id: 5355,
+			tasks: [{
+				id: 5356,
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [
+				{
+					id: 5366,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:power"
+							}]
+						}
+					}
+				},
+				{
+					id: 5367,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: -9.5d,
+			y: -0.5d,
+			description: [
+				"Gone are the days of crafting obsidian doorways to the Nether. ",
+				"",
+				"Yung's Better Portals has changed the way that you will navigate to/from the Nether. Adventure deep underground to find Nether Rifts, pockets of the Nether that have risen into the Overworld, containing portal pools.",
+				"By jumping into the portal, you will be one-way transported to the top of the Nether. From there you will need to adventure to find a Monolith, an altar containing a Reclaimer. It will be able to be transport you back to the Overworld."
+			],
+			dependencies: [I;4657],
+			id: 5357,
+			tasks: [{
+				id: 5358,
+				type: "checkmark",
+				title: "Yung's Better Portals",
+				icon: "minecraft:nether_gold_ore"
+			}]
+		},
+		{
+			title: "Great Wealth",
+			x: 10.5d,
+			y: 0.5d,
+			description: ["I feel like I should start collecting up some wealth to use in future travel."],
+			dependencies: [I;5346],
+			id: 5363,
+			tasks: [{
+				id: 5364,
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 3L
+			}],
+			rewards: [{
+				id: 5365,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: true,
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				},
+				count: 2
 			}]
 		}
 	]

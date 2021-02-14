@@ -5,26 +5,179 @@
 	title: "End Exploration",
 	icon: "minecraft:end_portal_frame",
 	default_quest_shape: "",
-	quests: [{
-		x: -2.5d,
-		y: -1.0d,
-		id: 4641,
-		tasks: [
-			{
-				id: 4642,
+	quests: [
+		{
+			x: -2.5d,
+			y: -1.0d,
+			id: 4641,
+			tasks: [
+				{
+					id: 4642,
+					type: "item",
+					item: "betterendforge:crystal_shards"
+				},
+				{
+					id: 4643,
+					type: "item",
+					item: "betterendforge:ender_shard"
+				}
+			],
+			rewards: [{
+				id: 4644,
 				type: "item",
-				item: "betterendforge:crystal_shards"
-			},
-			{
-				id: 4643,
+				item: "betterendforge:guidebook"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -1.0d,
+			description: ["Ok well I really didn't expect that down here....."],
+			dependencies: [I;5352],
+			id: 138,
+			tasks: [{
+				id: 139,
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 250,
+					type: "item",
+					item: "quark:purpur_chest",
+					count: 2
+				},
+				{
+					id: 351,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "ensorcellation:magic_edge"
+							}]
+						}
+					}
+				},
+				{
+					id: 367,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "ensorcellation:leech"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: -2.5d,
+			description: [
+				"Hey I can fly around pretty good with these.",
+				"Probably should bring a good number of ender pearls with me though to get one though."
+			],
+			dependencies: [I;138],
+			id: 140,
+			tasks: [{
+				id: 141,
 				type: "item",
-				item: "betterendforge:ender_shard"
-			}
-		],
-		rewards: [{
-			id: 4644,
-			type: "item",
-			item: "betterendforge:guidebook"
-		}]
-	}]
+				item: {
+					id: "minecraft:elytra",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 353,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:weeding"
+							}]
+						}
+					}
+				},
+				{
+					id: 354,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:phalanx"
+							}]
+						}
+					}
+				},
+				{
+					id: 357,
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: 0.5d,
+			dependencies: [I;138],
+			id: 251,
+			tasks: [{
+				id: 252,
+				type: "item",
+				item: "quark:duskbound_block"
+			}],
+			rewards: [
+				{
+					id: 352,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				},
+				{
+					id: 1108,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			icon: "minecraft:end_portal_frame",
+			disable_toast: true,
+			x: -10.0d,
+			y: -1.0d,
+			shape: "gear",
+			size: 2.0d,
+			id: 5352,
+			tasks: [{
+				id: 5353,
+				type: "dimension",
+				dimension: "minecraft:end"
+			}]
+		}
+	]
 }

@@ -290,12 +290,13 @@
 		},
 		{
 			title: "Is this actually the End?",
+			icon: "minecraft:end_portal_frame",
 			x: 19.5107142857143d,
 			y: 0.030952380952385283d,
-			shape: "rsquare",
+			shape: "gear",
 			description: ["A big portal in an old dungeon. What could go wrong jumping in?"],
 			dependencies: [I;147],
-			size: 1.5d,
+			size: 2.0d,
 			id: 126,
 			tasks: [{
 				id: 127,
@@ -318,240 +319,21 @@
 			}]
 		},
 		{
-			x: 22.25d,
-			y: 0.0d,
-			description: ["Ok well I really didn't expect that down here....."],
-			dependencies: [I;126],
-			id: 138,
-			tasks: [{
-				id: 139,
-				type: "kill",
-				entity: "minecraft:ender_dragon",
-				value: 1L
-			}],
-			rewards: [
-				{
-					id: 250,
-					type: "item",
-					item: "quark:purpur_chest",
-					count: 2
-				},
-				{
-					id: 351,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "ensorcellation:magic_edge"
-							}]
-						}
-					}
-				},
-				{
-					id: 367,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "ensorcellation:leech"
-							}]
-						}
-					}
-				}
-			]
-		},
-		{
-			x: 22.25d,
-			y: 1.5d,
-			dependencies: [I;138],
-			id: 251,
-			tasks: [{
-				id: 252,
-				type: "item",
-				item: "quark:duskbound_block"
-			}],
-			rewards: [
-				{
-					id: 352,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "minecraft:looting"
-							}]
-						}
-					}
-				},
-				{
-					id: 1108,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			x: 22.25d,
-			y: -1.5d,
-			description: [
-				"Hey I can fly around pretty good with these.",
-				"Probably should bring a good number of ender pearls with me though to get one though."
-			],
-			dependencies: [I;138],
-			id: 140,
-			tasks: [{
-				id: 141,
-				type: "item",
-				item: {
-					id: "minecraft:elytra",
-					Count: true,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [
-				{
-					id: 353,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:weeding"
-							}]
-						}
-					}
-				},
-				{
-					id: 354,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "ensorcellation:phalanx"
-							}]
-						}
-					}
-				},
-				{
-					id: 357,
-					type: "xp_levels",
-					xp_levels: 10
-				}
-			]
-		},
-		{
-			title: "Going Deep",
-			disable_toast: true,
-			x: 12.5d,
-			y: -4.0d,
-			shape: "hexagon",
-			size: 2.0d,
-			id: 117,
-			tasks: [{
-				id: 118,
-				type: "item",
-				item: "minecraft:obsidian"
-			}]
-		},
-		{
-			x: 14.5d,
-			y: -4.0d,
-			description: ["Magic? Pah!"],
-			dependencies: [I;117],
-			id: 108,
-			tasks: [{
-				id: 109,
-				type: "item",
-				item: "minecraft:enchanting_table"
-			}],
-			rewards: [
-				{
-					id: 309,
-					type: "item",
-					item: "minecraft:blue_dye",
-					count: 16
-				},
-				{
-					id: 340,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s,
-								id: "minecraft:fire_protection"
-							}]
-						}
-					}
-				},
-				{
-					id: 341,
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: 815,
-					type: "item",
-					item: "minecraft:paper",
-					count: 5
-				}
-			]
-		},
-		{
 			title: "See you in Hell...",
+			icon: "minecraft:netherrack",
+			disable_toast: true,
 			x: 12.559523809523824d,
 			y: 0.0d,
-			shape: "rsquare",
+			shape: "gear",
 			description: ["There is a whole new land of mystery down here."],
-			dependencies: [I;
-				142,
-				117
-			],
-			size: 1.5d,
+			size: 2.0d,
 			id: 128,
 			tasks: [{
 				id: 129,
 				type: "dimension",
 				title: "Visit Nether Dimension",
 				dimension: "minecraft:the_nether"
-			}],
-			rewards: [
-				{
-					id: 343,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "minecraft:power"
-							}]
-						}
-					}
-				},
-				{
-					id: 1106,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
+			}]
 		},
 		{
 			x: 8.0d,
@@ -886,7 +668,7 @@
 			disable_toast: true,
 			x: 3.0d,
 			y: 4.0d,
-			shape: "hexagon",
+			shape: "gear",
 			size: 2.0d,
 			id: 3984,
 			tasks: [{
@@ -1040,6 +822,40 @@
 					random_bonus: 2
 				}
 			]
+		},
+		{
+			x: 11.5d,
+			y: -3.0d,
+			description: ["The Reclaimer is your portal out of the Nether. Found in Monoliths around the Nether, the Reclaimers can be activated by having a block of gold touching 4 sides of the block. When activated, the beam will change to gold and lift and transport you to the Overworld."],
+			dependencies: [I;128],
+			id: 5372,
+			tasks: [{
+				id: 5373,
+				type: "item",
+				item: "betterportals:reclaimer"
+			}],
+			rewards: [{
+				id: 5376,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -3.0d,
+			description: ["The portal pools in Nether Rifts can be picked up and moved by bucket. A new portal can then be placed anywhere of your choosing, as long as it is deep underground."],
+			dependencies: [I;128],
+			id: 5374,
+			tasks: [{
+				id: 5375,
+				type: "item",
+				item: "betterportals:portal_fluid_bucket"
+			}],
+			rewards: [{
+				id: 5377,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
 		}
 	]
 }
