@@ -30,6 +30,7 @@ for fromTypeWrapper in fromType.getAllRecipes() {
         }
     }
 }
+fromType.removeAll();
 
 craftingTable.removeRecipe(<item:woodenutilities:wood_cutter>);
 mods.jei.JEI.hideItem(<item:woodenutilities:wood_cutter>);
