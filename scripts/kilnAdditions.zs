@@ -14,7 +14,6 @@ import crafttweaker.api.registries.IRecipeManager;
 	<recipetype:firing>.addJSONRecipe("gold_grit_to_ingot", {ingredient:{item:<item:immersiveengineering:dust_gold>.registryName},result:<item:minecraft:gold_ingot>.registryName,experience:0.35 as float, cookingtime:100});
 	
 //Remove duplicate kiln & furnace recipes from furnace
-	furnace.removeRecipe(<item:minecraft:gold_ingot>);
 	furnace.removeRecipe(<item:minecraft:nether_brick>, <item:minecraft:netherrack>);
 	furnace.removeRecipe(<item:minecraft:smooth_sandstone>, <item:minecraft:sandstone>);
 	furnace.removeRecipe(<item:minecraft:smooth_red_sandstone>, <item:minecraft:red_sandstone>);
