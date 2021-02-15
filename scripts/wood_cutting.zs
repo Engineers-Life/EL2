@@ -1,6 +1,9 @@
 
 println("BEGIN wood_cutting");
 
+// transer all recipes from woodenutilities:woodcutter to Charm's minecraft:woodcutter
+// exclude recipes that already exist
+
 val fromType = <recipetype:woodenutilities:woodcutter>;
 val toType = <recipetype:minecraft:woodcutting>;
 val recipeSuffix = "woodcutter";
