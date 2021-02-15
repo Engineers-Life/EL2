@@ -7,29 +7,7 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: -2.5d,
-			y: -1.0d,
-			id: 4641,
-			tasks: [
-				{
-					id: 4642,
-					type: "item",
-					item: "betterendforge:crystal_shards"
-				},
-				{
-					id: 4643,
-					type: "item",
-					item: "betterendforge:ender_shard"
-				}
-			],
-			rewards: [{
-				id: 4644,
-				type: "item",
-				item: "betterendforge:guidebook"
-			}]
-		},
-		{
-			x: -7.0d,
+			x: -6.5d,
 			y: -1.0d,
 			description: ["Ok well I really didn't expect that down here....."],
 			dependencies: [I;5352],
@@ -78,13 +56,13 @@
 			]
 		},
 		{
-			x: -7.0d,
-			y: -2.5d,
+			x: -3.5d,
+			y: -4.5d,
 			description: [
 				"Hey I can fly around pretty good with these.",
 				"Probably should bring a good number of ender pearls with me though to get one though."
 			],
-			dependencies: [I;138],
+			dependencies: [I;5428],
 			id: 140,
 			tasks: [{
 				id: 141,
@@ -134,9 +112,9 @@
 			]
 		},
 		{
-			x: -7.0d,
-			y: 0.5d,
-			dependencies: [I;138],
+			x: -3.0d,
+			y: 2.5d,
+			dependencies: [I;5438],
 			id: 251,
 			tasks: [{
 				id: 252,
@@ -166,6 +144,7 @@
 			]
 		},
 		{
+			title: "Is this the End?",
 			icon: "minecraft:end_portal_frame",
 			disable_toast: true,
 			x: -10.0d,
@@ -178,6 +157,687 @@
 				type: "dimension",
 				dimension: "minecraft:end"
 			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.0d,
+			dependencies: [I;138],
+			id: 5428,
+			tasks: [{
+				id: 5429,
+				type: "checkmark",
+				title: "End Explorer"
+			}]
+		},
+		{
+			title: "Foggy Mushroom Land",
+			icon: "betterendforge:mossy_glowshroom_fur",
+			x: -4.0d,
+			y: -3.0d,
+			description: ["Flower-filled land covered with giant bioluminescencent glowshroom trees."],
+			dependencies: [I;5428],
+			id: 5430,
+			tasks: [{
+				id: 5431,
+				type: "biome",
+				icon: "betterendforge:mossy_glowshroom_fur",
+				biome: "betterendforge:foggy_mushroomland"
+			}]
+		},
+		{
+			icon: "betterendforge:twisted_umbrella_moss_tall",
+			x: -3.0d,
+			y: -3.0d,
+			description: ["Thick forest of hanging vines, Umbrella tress, and jellyshrooms."],
+			dependencies: [I;5428],
+			id: 5432,
+			tasks: [{
+				id: 5433,
+				type: "biome",
+				title: "Umbrella Jungle",
+				icon: "betterendforge:twisted_umbrella_moss_tall",
+				biome: "betterendforge:umbrella_jungle"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			description: ["Large stars of ice and snow that exist between ender islands."],
+			dependencies: [I;5428],
+			id: 5434,
+			tasks: [{
+				id: 5435,
+				type: "biome",
+				title: "Ice Starfield",
+				icon: "betterendforge:ancient_emerald_ice",
+				biome: "betterendforge:ice_starfield"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.5d,
+			description: ["A layered mountainous land of various ender rocks."],
+			dependencies: [I;5428],
+			id: 5436,
+			tasks: [{
+				id: 5437,
+				type: "biome",
+				title: "Painted Mountains",
+				icon: "betterendforge:violecite",
+				biome: "betterendforge:painted_mountains"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.0d,
+			description: ["A forest of Chorus plants and Pythadendron trees."],
+			dependencies: [I;5428],
+			id: 5438,
+			tasks: [{
+				id: 5439,
+				type: "biome",
+				title: "Chorus Forest",
+				icon: "betterendforge:chorus_nylium",
+				biome: "betterendforge:chorus_forest"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			description: ["A land filled with various stacks of of sulfur vents that contain their own water based ecosystems. Are worth a dive into."],
+			dependencies: [I;5428],
+			id: 5440,
+			tasks: [{
+				id: 5441,
+				type: "biome",
+				title: "Sulpher Springs",
+				icon: "betterendforge:hydrothermal_vent",
+				biome: "betterendforge:sulphur_springs"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			description: ["A vibrant orange land with think ground cover and large Helix trees."],
+			dependencies: [I;5428],
+			id: 5442,
+			tasks: [{
+				id: 5443,
+				type: "biome",
+				title: "Amber Land",
+				icon: "betterendforge:amber_grass",
+				biome: "betterendforge:amber_land"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."],
+			dependencies: [I;5428],
+			id: 5444,
+			tasks: [{
+				id: 5445,
+				type: "biome",
+				title: "Crystal Mountains",
+				icon: "betterendforge:aurora_crystal",
+				biome: "betterendforge:crystal_mountains"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -2.5d,
+			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be more like a grassland than a lake."],
+			dependencies: [I;5428],
+			id: 5446,
+			tasks: [{
+				id: 5447,
+				type: "biome",
+				title: "Megalake Grove",
+				icon: "betterendforge:umbrella_moss_tall",
+				biome: "betterendforge:megalake_grove"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			description: ["End stone spires covered in pink Tenanea trees and vines."],
+			dependencies: [I;5428],
+			id: 5448,
+			tasks: [{
+				id: 5449,
+				type: "biome",
+				title: "Blossoming Spires",
+				icon: "betterendforge:tenanea_sapling",
+				biome: "betterendforge:blossoming_spires"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -2.0d,
+			description: ["Dark forest of Dragon trees and shadow plants."],
+			dependencies: [I;5428],
+			id: 5450,
+			tasks: [{
+				id: 5451,
+				type: "biome",
+				title: "Shadow Forest",
+				icon: "betterendforge:shadow_grass",
+				biome: "betterendforge:shadow_forest"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 0.0d,
+			description: ["Deep lakes in the nether filled with End Lotus flowers."],
+			dependencies: [I;5428],
+			id: 5452,
+			tasks: [{
+				id: 5453,
+				type: "biome",
+				title: "Megalake",
+				icon: "betterendforge:end_lily_leaf",
+				biome: "betterendforge:megalake"
+			}]
+		},
+		{
+			x: 1.5755102040816524d,
+			y: -1.7581632653061234d,
+			description: ["From mining Aurora Crystal."],
+			dependencies: [I;5444],
+			id: 5454,
+			tasks: [{
+				id: 5455,
+				type: "item",
+				item: "betterendforge:crystal_shards"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 1.0d,
+			description: ["A desolate, dusty region with not much signifigance beyond a large Enderman population."],
+			dependencies: [I;5428],
+			id: 5456,
+			tasks: [{
+				id: 5457,
+				type: "biome",
+				title: "Dust Wasteland",
+				icon: "minecraft:end_stone",
+				biome: "betterendforge:dust_wasteland"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.0d,
+			description: ["Explains portal restart ritual and infusions. "],
+			dependencies: [I;
+				5454,
+				5460
+			],
+			id: 5458,
+			tasks: [{
+				id: 5459,
+				type: "item",
+				item: "betterendforge:guidebook"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.0d,
+			description: ["Can be made by using a Netherite Smith Hammer on an Ender Pearl in an Anvil."],
+			id: 5460,
+			tasks: [{
+				id: 5461,
+				type: "item",
+				item: "betterendforge:ender_dust"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.5d,
+			description: ["Comes from Ender Ore, rare ore deep in ender islands."],
+			dependencies: [I;5464],
+			id: 5462,
+			tasks: [{
+				id: 5463,
+				type: "item",
+				item: "betterendforge:ender_shard"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -2.0d,
+			description: ["Infusion rituals and setup described in manual."],
+			dependencies: [I;5458],
+			id: 5464,
+			tasks: [{
+				id: 5465,
+				type: "item",
+				item: "betterendforge:infusion_pedestal"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.5d,
+			description: ["Comes from Amber ore. Gives raw amber, 2x2 in crafting table to make gem."],
+			dependencies: [I;5464],
+			id: 5466,
+			tasks: [{
+				id: 5467,
+				type: "item",
+				item: "betterendforge:amber_gem"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -0.5d,
+			description: ["Able to create unique alloys."],
+			dependencies: [I;5428],
+			id: 5468,
+			tasks: [{
+				id: 5469,
+				type: "item",
+				item: "betterendforge:end_stone_smelter"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -1.5d,
+			description: ["Infused Terminite Armor"],
+			dependencies: [I;5466],
+			id: 5470,
+			tasks: [
+				{
+					id: 5471,
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5472,
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5473,
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5474,
+					type: "item",
+					item: {
+						id: "betterendforge:crystalite_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: -2.5d,
+			description: ["Used to re-activate portals, infusions, and to make a respawn obelisk."],
+			dependencies: [I;5462],
+			id: 5475,
+			tasks: [{
+				id: 5476,
+				type: "item",
+				item: "betterendforge:eternal_crystal"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			description: ["Alloy of Iron and Ender Dust."],
+			dependencies: [I;
+				5460,
+				5468
+			],
+			id: 5477,
+			tasks: [{
+				id: 5478,
+				type: "item",
+				item: "betterendforge:terminite_ingot"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			description: ["Alloy of Netherite and Terminite."],
+			dependencies: [I;5477],
+			id: 5479,
+			tasks: [{
+				id: 5480,
+				type: "item",
+				item: "betterendforge:aeternium_ingot"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;5477],
+			id: 5481,
+			tasks: [
+				{
+					id: 5482,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5483,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5484,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5485,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			description: ["From combining Terminite Armor with Aeternium ingots in Smithing Table."],
+			dependencies: [I;
+				5481,
+				5479
+			],
+			id: 5486,
+			tasks: [
+				{
+					id: 5487,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5488,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5489,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5490,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			description: ["Terminite Tools"],
+			dependencies: [I;5477],
+			id: 5491,
+			tasks: [
+				{
+					id: 5492,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5493,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5494,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5495,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_hoe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5496,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5497,
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_hammer",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			description: ["Smithed in anvil with Smith Hammer and Aeternium ingots."],
+			dependencies: [I;5479],
+			id: 5498,
+			tasks: [
+				{
+					id: 5499,
+					type: "item",
+					item: "betterendforge:aeternium_sword_handle"
+				},
+				{
+					id: 5500,
+					type: "item",
+					item: "betterendforge:aeternium_sword_blade"
+				},
+				{
+					id: 5501,
+					type: "item",
+					item: "betterendforge:aeternium_hammer_head"
+				},
+				{
+					id: 5502,
+					type: "item",
+					item: "betterendforge:aeternium_hoe_head"
+				},
+				{
+					id: 5503,
+					type: "item",
+					item: "betterendforge:aeternium_axe_head"
+				},
+				{
+					id: 5504,
+					type: "item",
+					item: "betterendforge:aeternium_pickaxe_head"
+				},
+				{
+					id: 5505,
+					type: "item",
+					item: "betterendforge:aeternium_shovel_head"
+				},
+				{
+					id: 5506,
+					type: "item",
+					item: "betterendforge:leather_wrapped_stick",
+					count: 5L
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 1.5d,
+			description: ["Completed Tools"],
+			dependencies: [I;5498],
+			id: 5507,
+			tasks: [
+				{
+					id: 5508,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5509,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5510,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5511,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5512,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_hoe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5513,
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_hammer",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 	]
 }

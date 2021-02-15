@@ -1719,7 +1719,7 @@
 			}]
 		},
 		{
-			x: 9.5d,
+			x: 9.0d,
 			y: -3.5d,
 			description: ["This will decrease the usage of bait in the strainer."],
 			dependencies: [I;
@@ -2677,7 +2677,7 @@
 			tasks: [{
 				id: 4658,
 				type: "checkmark",
-				title: "New mechanics"
+				title: "New Mechanics"
 			}]
 		},
 		{
@@ -2724,7 +2724,7 @@
 		{
 			x: 6.750000000000007d,
 			y: -0.18928571428571672d,
-			description: ["You can get a Raw Clay Plate by working a Clay Brick with the Clay Tool."],
+			description: ["You can get a Raw Clay Plate by working a Clay Brick with a Roller."],
 			dependencies: [I;61],
 			id: 5348,
 			tasks: [{
@@ -2874,13 +2874,21 @@
 				type: "checkmark",
 				title: "Yung's Better Portals",
 				icon: "minecraft:nether_gold_ore"
+			}],
+			rewards: [{
+				id: 5378,
+				type: "command",
+				title: "Forbidden Travel",
+				icon: "minecraft:book",
+				command: "/give @p written_book{pages: ['{\"text\":\"It has long been foretold that traveling deep into the portals is a fatal endeavor and it has been spoken that only a few have returned back to this world. They have spoken of needing great wealth in order repair the portal to be transported back to the above world.\"}', '{\"text\":\"You may consider bringing some gilded blocks with you on your journey through portals to ensure a safe journey home.\"}'],title:\"Forbidden Travel\",author:\"Unknown Traveller\",generation:3}",
+				player_command: false
 			}]
 		},
 		{
 			title: "Great Wealth",
 			x: 10.5d,
 			y: 0.5d,
-			description: ["I feel like I should start collecting up some wealth to use in future travel."],
+			description: ["I feel like I should start collecting up some wealth to use in future travel and trade."],
 			dependencies: [I;5346],
 			id: 5363,
 			tasks: [{
