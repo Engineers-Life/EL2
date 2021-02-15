@@ -14,6 +14,7 @@ import crafttweaker.api.registries.IRecipeManager;
 	<recipetype:firing>.addJSONRecipe("gold_grit_to_ingot", {ingredient:{item:<item:immersiveengineering:dust_gold>.registryName},result:<item:minecraft:gold_ingot>.registryName,experience:0.35 as float, cookingtime:100});
 	
 //Remove duplicate kiln & furnace recipes from furnace
+
 	furnace.removeRecipe(<item:minecraft:nether_brick>, <item:minecraft:netherrack>);
 	furnace.removeRecipe(<item:minecraft:smooth_sandstone>, <item:minecraft:sandstone>);
 	furnace.removeRecipe(<item:minecraft:smooth_red_sandstone>, <item:minecraft:red_sandstone>);
@@ -41,8 +42,6 @@ import crafttweaker.api.registries.IRecipeManager;
 	furnace.removeRecipe(<item:minecraft:flower_pot>, <item:notreepunching:clay_flower_pot>);
 	furnace.removeRecipe(<item:notreepunching:ceramic_bucket>, <item:notreepunching:clay_bucket>);
 	
-//	These 2 aren't working for some reason	
-	furnace.removeRecipe(<item:notreepunching:ceramic_large_vessel>, <item:notreepunching:clay_large_vessel>);
-	furnace.removeRecipe(<item:notreepunching:ceramic_small_vessel>, <item:notreepunching:clay_small_vessel>);
-	
-
+	// remove by recipe name because of item tags messing with remove by output
+	furnace.removeByName("notreepunching:smelting/large_vessel");
+	furnace.removeByName("notreepunching:smelting/small_vessel");
