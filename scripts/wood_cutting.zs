@@ -1,0 +1,37 @@
+
+println("BEGIN wood_cutting");
+
+val fromType = <recipetype:woodenutilities:woodcutter>;
+val toType = <recipetype:minecraft:woodcutting>;
+val recipeSuffix = "woodcutter";
+
+for fromTypeWrapper in fromType.getAllRecipes() {
+    val ingredientsList = fromTypeWrapper.ingredients;
+    val output = fromTypeWrapper.output;
+    val toTypeRecipes = toType.getRecipesByOutput(output);
+    println("Evaluating recipe that outputs: "+output.displayName);
+    for fromTypeIngredient in ingredientsList {
+        for fromTypeItem in fromTypeIngredient.items {
+            println("Evaluating recipe that converts "+fromTypeItem.displayName+" into "+output.displayName);
+            var existingRecipe = false;
+            for toTypeWrapper in toTypeRecipes {
+                for toTypeIngredient in toTypeWrapper.ingredients {
+                    for toTypeItem in toTypeIngredient.items {
+                        existingRecipe = existingRecipe || (toTypeItem.matches(fromTypeItem));
+                    }
+                }
+            }
+            if (!existingRecipe) {
+                println("Couldn\'t find that converts "+fromTypeItem.displayName+" into "+output.displayName+", adding it.");
+
+                toType.addJSONRecipe(recipeSuffix+"."+output.translationKey, {ingredient:{item:fromTypeItem.registryName},result:output.registryName,count:1 as int});
+
+            }
+        }
+    }
+}
+
+craftingTable.removeRecipe(<item:woodenutilities:wood_cutter>);
+mods.jei.JEI.hideItem(<item:woodenutilities:wood_cutter>);
+
+println("END wood_cutting");
