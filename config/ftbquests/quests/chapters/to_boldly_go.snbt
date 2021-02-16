@@ -1,7 +1,7 @@
 {
 	id: 3981,
 	filename: "to_boldly_go",
-	order_index: 2,
+	order_index: 5,
 	title: "To Boldly Go!",
 	icon: "minecraft:compass",
 	default_quest_shape: "",
@@ -845,8 +845,8 @@
 			}]
 		},
 		{
-			x: 19.5d,
-			y: -2.5d,
+			x: 18.5d,
+			y: -2.0d,
 			description: ["The portal pools in Nether Rifts can be picked up and moved by bucket. A new portal can then be placed anywhere of your choosing, as long as it is deep underground."],
 			dependencies: [I;128],
 			id: 5374,
@@ -864,7 +864,11 @@
 		{
 			x: 5.0d,
 			y: 1.5d,
-			description: ["You may want to set up some defenses for some villages, raiders are becoming more common as of late."],
+			description: [
+				"You may want to set up some defenses for some villages, raiders are becoming more common as of late.",
+				"",
+				"You can create new guards by giving villagers with no job a sword. This will create a guard whose inventory can be openned and they can be given gear."
+			],
 			dependencies: [I;226],
 			id: 5379,
 			tasks: [{
@@ -1171,8 +1175,8 @@
 			}]
 		},
 		{
-			x: 18.5d,
-			y: -3.0d,
+			x: 19.5d,
+			y: -2.5d,
 			description: ["Striders are a great way of getting around the Nether. They will allow you to quickly cross large lava pools with ease. You must first saddle them to ride them so you can lure them over to you with some Warped Fungus on a Stick. They can travel across land, albeit slowly, but are much better accustomed to sliding across lava."],
 			dependencies: [I;128],
 			id: 5420,
@@ -1197,6 +1201,341 @@
 				},
 				{
 					id: 5423,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 18.5d,
+			y: -3.5d,
+			description: ["This Teleporter will transport you to the Mining Dimension, a world of caves where you can mine resources out of the Overworld."],
+			dependencies: [I;5374],
+			id: 5570,
+			tasks: [{
+				id: 5571,
+				type: "item",
+				item: "mining_dimension:teleporter"
+			}],
+			rewards: [{
+				id: 5670,
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			disable_toast: true,
+			x: 11.0d,
+			y: 6.5d,
+			shape: "gear",
+			id: 5636,
+			tasks: [{
+				id: 5637,
+				type: "item",
+				item: "aquaculture:neptunes_bounty"
+			}]
+		},
+		{
+			x: 10.43392857142858d,
+			y: 4.690476190476197d,
+			description: ["Gives you better vision underwater."],
+			dependencies: [I;5636],
+			id: 5638,
+			tasks: [{
+				id: 5639,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5680,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5690,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 11.57678571428572d,
+			y: 4.714285714285715d,
+			description: ["Allows you to breath underwater."],
+			dependencies: [I;5636],
+			id: 5640,
+			tasks: [{
+				id: 5641,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5671,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5681,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 12.5d,
+			y: 5.5d,
+			description: ["Slows sinking when underwater."],
+			dependencies: [I;5636],
+			id: 5642,
+			tasks: [{
+				id: 5643,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5672,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5682,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: 5.5d,
+			description: ["Makes you swim faster."],
+			dependencies: [I;5636],
+			id: 5644,
+			tasks: [{
+				id: 5645,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5679,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5689,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 10.43392857142858d,
+			y: 8.285714285714285d,
+			description: ["No penalty for mining underwater."],
+			dependencies: [I;5636],
+			id: 5646,
+			tasks: [{
+				id: 5647,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5676,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5686,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: 7.5d,
+			description: ["No penalty for diging underwater."],
+			dependencies: [I;5636],
+			id: 5648,
+			tasks: [{
+				id: 5649,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5677,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5687,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 12.5d,
+			y: 7.5d,
+			description: ["Does increased damage underwater."],
+			dependencies: [I;5636],
+			id: 5650,
+			tasks: [{
+				id: 5651,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5674,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5684,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: 6.5d,
+			description: ["Tilled land with this hoe is always hydrated."],
+			dependencies: [I;5636],
+			id: 5652,
+			tasks: [{
+				id: 5653,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_hoe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5673,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5683,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 11.552976190476201d,
+			y: 8.285714285714285d,
+			description: ["Does more damage udnerwater."],
+			dependencies: [I;5636],
+			id: 5654,
+			tasks: [{
+				id: 5655,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5675,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5685,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: 6.5d,
+			description: ["Allows you to shoot arrows underwater."],
+			dependencies: [I;5636],
+			id: 5656,
+			tasks: [{
+				id: 5657,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_bow",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5678,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5688,
 					type: "xp_levels",
 					xp_levels: 5
 				}

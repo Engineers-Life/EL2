@@ -1,7 +1,7 @@
 {
 	id: 742,
 	filename: "statistic",
-	order_index: 14,
+	order_index: 15,
 	title: "Statistics",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",

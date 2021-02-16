@@ -1,7 +1,7 @@
 {
 	id: 282,
 	filename: "simple_storage",
-	order_index: 6,
+	order_index: 7,
 	title: "Simple Storage Solutions",
 	icon: "storagenetwork:master",
 	default_quest_shape: "",

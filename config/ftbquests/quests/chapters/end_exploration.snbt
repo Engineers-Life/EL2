@@ -1,7 +1,7 @@
 {
 	id: 4640,
 	filename: "end_exploration",
-	order_index: 15,
+	order_index: 6,
 	title: "End Exploration",
 	icon: "minecraft:end_portal_frame",
 	default_quest_shape: "",
@@ -57,7 +57,7 @@
 		},
 		{
 			x: -3.5d,
-			y: -4.5d,
+			y: -4.0d,
 			description: [
 				"Hey I can fly around pretty good with these.",
 				"Probably should bring a good number of ender pearls with me though to get one though."
@@ -112,38 +112,6 @@
 			]
 		},
 		{
-			x: -3.0d,
-			y: 2.5d,
-			dependencies: [I;5438],
-			id: 251,
-			tasks: [{
-				id: 252,
-				type: "item",
-				item: "quark:duskbound_block"
-			}],
-			rewards: [
-				{
-					id: 352,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s,
-								id: "minecraft:looting"
-							}]
-						}
-					}
-				},
-				{
-					id: 1108,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
 			title: "Is this the End?",
 			icon: "minecraft:end_portal_frame",
 			disable_toast: true,
@@ -159,6 +127,7 @@
 			}]
 		},
 		{
+			icon: "minecraft:ender_eye",
 			x: -3.5d,
 			y: -1.0d,
 			dependencies: [I;138],
@@ -342,14 +311,26 @@
 		{
 			x: 1.5755102040816524d,
 			y: -1.7581632653061234d,
-			description: ["From mining Aurora Crystal."],
+			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."],
 			dependencies: [I;5444],
 			id: 5454,
 			tasks: [{
 				id: 5455,
 				type: "item",
 				item: "betterendforge:crystal_shards"
-			}]
+			}],
+			rewards: [
+				{
+					id: 5521,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5522,
+					type: "loot",
+					table: 1
+				}
+			]
 		},
 		{
 			x: -4.0d,
@@ -368,7 +349,7 @@
 		{
 			x: 3.0d,
 			y: -2.0d,
-			description: ["Explains portal restart ritual and infusions. "],
+			description: ["The End for Dummies explains portal restart rituals and infusions. "],
 			dependencies: [I;
 				5454,
 				5460
@@ -378,7 +359,19 @@
 				id: 5459,
 				type: "item",
 				item: "betterendforge:guidebook"
-			}]
+			}],
+			rewards: [
+				{
+					id: 5523,
+					type: "loot",
+					table: 8
+				},
+				{
+					id: 5524,
+					type: "item",
+					item: "pamhc2foodcore:cookiesandmilkitem"
+				}
+			]
 		},
 		{
 			x: 3.0d,
@@ -389,11 +382,16 @@
 				id: 5461,
 				type: "item",
 				item: "betterendforge:ender_dust"
+			}],
+			rewards: [{
+				id: 5525,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
 			x: 6.0d,
-			y: -2.5d,
+			y: -3.5d,
 			description: ["Comes from Ender Ore, rare ore deep in ender islands."],
 			dependencies: [I;5464],
 			id: 5462,
@@ -401,30 +399,69 @@
 				id: 5463,
 				type: "item",
 				item: "betterendforge:ender_shard"
-			}]
+			}],
+			rewards: [
+				{
+					id: 5529,
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: 5530,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s,
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
 		},
 		{
 			x: 4.5d,
 			y: -2.0d,
-			description: ["Infusion rituals and setup described in manual."],
+			description: ["Infusion rituals and pedestal setup described in The End for Dummies."],
 			dependencies: [I;5458],
 			id: 5464,
 			tasks: [{
 				id: 5465,
 				type: "item",
 				item: "betterendforge:infusion_pedestal"
+			}],
+			rewards: [{
+				id: 5528,
+				type: "choice",
+				table: 8
 			}]
 		},
 		{
+			title: "Amber",
 			x: 6.0d,
-			y: -1.5d,
-			description: ["Comes from Amber ore. Gives raw amber, 2x2 in crafting table to make gem."],
+			y: -2.0d,
+			description: ["Comes from Amber ore. Gives raw amber, placing 2x2 in crafting table to make a gem."],
 			dependencies: [I;5464],
 			id: 5466,
-			tasks: [{
-				id: 5467,
-				type: "item",
-				item: "betterendforge:amber_gem"
+			tasks: [
+				{
+					id: 5467,
+					type: "item",
+					item: "betterendforge:amber_gem"
+				},
+				{
+					id: 5548,
+					type: "item",
+					item: "betterendforge:raw_amber"
+				}
+			],
+			rewards: [{
+				id: 5535,
+				type: "random",
+				table: 6
 			}]
 		},
 		{
@@ -437,11 +474,17 @@
 				id: 5469,
 				type: "item",
 				item: "betterendforge:end_stone_smelter"
+			}],
+			rewards: [{
+				id: 5520,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
+			title: "Crystalite Armor",
 			x: 7.5d,
-			y: -1.5d,
+			y: -2.0d,
 			description: ["Infused Terminite Armor"],
 			dependencies: [I;5466],
 			id: 5470,
@@ -490,24 +533,48 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: 5534,
+					type: "choice",
+					table: 7
+				},
+				{
+					id: 5536,
+					type: "xp_levels",
+					xp_levels: 15
+				}
 			]
 		},
 		{
 			x: 7.5d,
-			y: -2.5d,
-			description: ["Used to re-activate portals, infusions, and to make a respawn obelisk."],
+			y: -3.5d,
+			description: ["Used to re-activate portals, in infusions, and to make a respawn obelisk."],
 			dependencies: [I;5462],
 			id: 5475,
 			tasks: [{
 				id: 5476,
 				type: "item",
 				item: "betterendforge:eternal_crystal"
-			}]
+			}],
+			rewards: [
+				{
+					id: 5531,
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: 5532,
+					type: "choice",
+					table: 8
+				}
+			]
 		},
 		{
 			x: 3.0d,
 			y: 0.0d,
-			description: ["Alloy of Iron and Ender Dust."],
+			description: ["Alloy of Iron and Ender Dust made in a End Stone Smelter."],
 			dependencies: [I;
 				5460,
 				5468
@@ -517,23 +584,35 @@
 				id: 5478,
 				type: "item",
 				item: "betterendforge:terminite_ingot"
+			}],
+			rewards: [{
+				id: 5526,
+				type: "random",
+				table: 7
 			}]
 		},
 		{
 			x: 4.5d,
 			y: 0.0d,
-			description: ["Alloy of Netherite and Terminite."],
+			description: ["Alloy of Netherite and Terminite made in a End Stone Smelter."],
 			dependencies: [I;5477],
 			id: 5479,
 			tasks: [{
 				id: 5480,
 				type: "item",
 				item: "betterendforge:aeternium_ingot"
+			}],
+			rewards: [{
+				id: 5527,
+				type: "random",
+				table: 8
 			}]
 		},
 		{
+			title: "Terminite Armor",
 			x: 3.0d,
 			y: 1.5d,
+			description: ["A whole set of End-alloy armor."],
 			dependencies: [I;5477],
 			id: 5481,
 			tasks: [
@@ -581,12 +660,29 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: 5537,
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: 5540,
+					type: "random",
+					table: 7
+				}
 			]
 		},
 		{
+			title: "Aeternium Armor",
 			x: 4.5d,
 			y: 1.5d,
-			description: ["From combining Terminite Armor with Aeternium ingots in Smithing Table."],
+			description: [
+				"From combining Terminite Armor with Aeternium ingots in Smithing Table.",
+				"",
+				"One of the highest tiers of armor."
+			],
 			dependencies: [I;
 				5481,
 				5479
@@ -637,12 +733,25 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: 5538,
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: 5539,
+					type: "choice",
+					table: 8
+				}
 			]
 		},
 		{
+			title: "Terminite Tools",
 			x: 1.5d,
 			y: 1.5d,
-			description: ["Terminite Tools"],
+			description: ["A handly Terminite tool set."],
 			dependencies: [I;5477],
 			id: 5491,
 			tasks: [
@@ -712,12 +821,25 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: 5541,
+					type: "random",
+					table: 6
+				},
+				{
+					id: 5542,
+					type: "xp_levels",
+					xp_levels: 5
+				}
 			]
 		},
 		{
+			title: "Aeternium Tool Parts",
 			x: 6.0d,
 			y: 1.5d,
-			description: ["Smithed in anvil with Smith Hammer and Aeternium ingots."],
+			description: ["Smithed in an anvil with a Smith Hammer and Aeternium ingots."],
 			dependencies: [I;5479],
 			id: 5498,
 			tasks: [
@@ -762,12 +884,25 @@
 					item: "betterendforge:leather_wrapped_stick",
 					count: 5L
 				}
+			],
+			rewards: [
+				{
+					id: 5543,
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: 5544,
+					type: "choice",
+					table: 7
+				}
 			]
 		},
 		{
+			title: "Aeternium Tools",
 			x: 7.5d,
 			y: 1.5d,
-			description: ["Completed Tools"],
+			description: ["A set of some of the most durable tools in the game."],
 			dependencies: [I;5498],
 			id: 5507,
 			tasks: [
@@ -837,7 +972,41 @@
 						}
 					}
 				}
+			],
+			rewards: [
+				{
+					id: 5545,
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: 5546,
+					type: "random",
+					table: 1
+				},
+				{
+					id: 5547,
+					type: "random",
+					table: 1
+				}
 			]
+		},
+		{
+			x: -3.5d,
+			y: 2.0d,
+			description: ["A unique light source that can only be found in end cities."],
+			dependencies: [I;5428],
+			id: 5549,
+			tasks: [{
+				id: 5550,
+				type: "item",
+				item: "minecraft:end_rod"
+			}],
+			rewards: [{
+				id: 5551,
+				type: "random",
+				table: 2
+			}]
 		}
 	]
 }

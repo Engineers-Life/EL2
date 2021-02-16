@@ -834,7 +834,7 @@
 		},
 		{
 			x: 17.0d,
-			y: -1.4523809523809703d,
+			y: -1.5d,
 			description: ["I feel like this is the start of the whole reason that you are here."],
 			dependencies: [I;69],
 			id: 86,
@@ -1376,9 +1376,13 @@
 		{
 			title: "Windows",
 			x: 4.5d,
-			y: -9.0d,
-			description: ["Add some flair to those holes in your walls to see all the baddies through."],
-			dependencies: [I;84],
+			y: -10.5d,
+			description: [
+				"Add some flair to those holes in your walls to see all the baddies through.",
+				"",
+				"By placing these window pieces around a log/plank/stone (check JEI for exact recipes) you can create decorative windows of the style of the center block."
+			],
+			dependencies: [I;5552],
 			id: 121,
 			tasks: [
 				{
@@ -2074,8 +2078,8 @@
 			]
 		},
 		{
-			x: 14.5d,
-			y: 1.0d,
+			x: 11.5d,
+			y: -0.5d,
 			description: ["This lantern will be activated when you send it a redstone signal. Could be an interesting signal light."],
 			dependencies: [I;224],
 			id: 247,
@@ -2315,7 +2319,7 @@
 		{
 			title: "What is out there?",
 			x: 13.0d,
-			y: 3.5500000000000007d,
+			y: 2.0d,
 			shape: "gear",
 			description: ["At least now I know what direction I am going, or do I?"],
 			dependencies: [I;224],
@@ -2589,8 +2593,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 2.0d,
+			x: 13.0d,
+			y: 4.0d,
 			subtitle: "5 slots",
 			description: [
 				"The lunchbag allows you to store food to be fed on while maxing diversity gain.",
@@ -2611,11 +2615,16 @@
 					id: "solpotato:lunchbag",
 					Count: true
 				}
+			}],
+			rewards: [{
+				id: 5572,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
-			x: 11.0d,
-			y: 2.0d,
+			x: 15.5d,
+			y: 2.5d,
 			subtitle: "9 slots",
 			description: ["The Lunchbox acts as a lunchbag but with a expanded food carrying storage."],
 			dependencies: [I;
@@ -2636,11 +2645,16 @@
 					id: "solpotato:lunchbox",
 					Count: true
 				}
+			}],
+			rewards: [{
+				id: 5573,
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
-			x: 11.0d,
-			y: 3.5d,
+			x: 15.5d,
+			y: 4.0d,
 			subtitle: "14 slots",
 			description: ["The Golden Lunchbox is a expanded lunchbox."],
 			dependencies: [I;4651],
@@ -2658,6 +2672,11 @@
 					id: "solpotato:golden_lunchbox",
 					Count: true
 				}
+			}],
+			rewards: [{
+				id: 5574,
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2908,6 +2927,144 @@
 					}
 				},
 				count: 2
+			}]
+		},
+		{
+			x: 25.5d,
+			y: -5.5d,
+			description: [
+				"Waystones allow you set points that you can fast travel to across a map. By placing the Waystone down, giving it a name, and right clicking to activate it you will be able to travel to it from any other activated Waystone.",
+				"",
+				"Waystones may also be found randomly throughout the world."
+			],
+			dependencies: [I;3986],
+			id: 5514,
+			tasks: [{
+				id: 5515,
+				type: "item",
+				item: "waystones:waystone"
+			}],
+			rewards: [
+				{
+					id: 5516,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5517,
+					type: "loot",
+					table: 7
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -9.0d,
+			dependencies: [I;84],
+			id: 5552,
+			tasks: [{
+				id: 5553,
+				type: "checkmark",
+				title: "Macaw's Mods"
+			}]
+		},
+		{
+			title: "Bridges",
+			x: 6.0d,
+			y: -10.5d,
+			description: ["Macaw's Bridges can be made of a wide variety of materials (check JEI for all the different materials). They come in standard bridges, rope bridges, and rail bridges. The need not be wood, and can be metal or stone."],
+			dependencies: [I;5552],
+			id: 5554,
+			tasks: [
+				{
+					id: 5555,
+					type: "item",
+					item: "mcwbridges:oak_log_bridge_middle"
+				},
+				{
+					id: 5556,
+					type: "item",
+					item: "mcwbridges:oak_log_bridge_end"
+				},
+				{
+					id: 5557,
+					type: "item",
+					item: "mcwbridges:rope_oak_bridge"
+				},
+				{
+					id: 5558,
+					type: "item",
+					item: "mcwbridges:rope_oak_bridge_end"
+				},
+				{
+					id: 5559,
+					type: "item",
+					item: "mcwbridges:oak_rail_bridge"
+				}
+			],
+			rewards: [{
+				id: 5564,
+				type: "item",
+				item: "minecraft:green_dye",
+				count: 16
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -9.0d,
+			description: ["Macaw's Doors adds a large number of doors that you can use to decorate your base. Instead of having you craft a ton of doors that you won't use, here are just a few that you can use now for a basic house, but make sure to remember this mod to get some fancy doors later in your playthrough."],
+			dependencies: [I;5552],
+			id: 5560,
+			tasks: [
+				{
+					id: 5561,
+					type: "item",
+					item: "mcwdoors:oak_barn_glass_door"
+				},
+				{
+					id: 5562,
+					type: "item",
+					item: "mcwdoors:oak_cottage_door"
+				}
+			],
+			rewards: [{
+				id: 5565,
+				type: "item",
+				item: "minecraft:red_dye",
+				count: 16
+			}]
+		},
+		{
+			title: "Floormats",
+			x: 10.5d,
+			y: 2.5d,
+			description: [
+				"Floormats will provide you with a unique method of sending redstone signals in your base. They follow vanilla pressure plate mechanics relatively, wooden plates can be triggered by items, mobs, and players, and stone plates can only be triggered by mobs and players. What the mod introduces though, is metal plates that can only be activated by players.",
+				"The mod also introduces gold pressure plates that will only be activated by the placing player, (a sort of security to activation). These plates are expanded into gilded versions of wooden plates that will act the same.",
+				"Connections can be managed by right clicking with a stick to break and reconnect connections between mats. By using a ender pearl on any two mats they will be linked, right clicking twice will remove the link.",
+				"Floormats come in a variety of materials which can be found in JEI."
+			],
+			dependencies: [I;
+				5363,
+				224
+			],
+			id: 5566,
+			tasks: [
+				{
+					id: 5567,
+					type: "item",
+					item: "floormats:oak_floormat_item"
+				},
+				{
+					id: 5568,
+					type: "item",
+					item: "floormats:gilded/gilded_oak_floormat_item"
+				}
+			],
+			rewards: [{
+				id: 5569,
+				type: "random",
+				table: 6
 			}]
 		}
 	]

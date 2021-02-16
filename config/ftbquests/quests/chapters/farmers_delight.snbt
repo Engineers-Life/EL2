@@ -1,14 +1,14 @@
 {
 	id: 194,
 	filename: "farmers_delight",
-	order_index: 3,
+	order_index: 2,
 	title: "Farmer's Delight",
 	icon: "simplefarming:grapes",
 	default_quest_shape: "rsquare",
 	quests: [
 		{
-			x: 1.0d,
-			y: -1.0d,
+			x: 0.0d,
+			y: -2.5d,
 			description: [
 				"This will allow you to start creating a number of drinks. By right clicking on this with a variety of grown products the process can begin.",
 				"The brewing barrel will bubble while working, but when this stops right clicking with an empty glass bottle will give you your new treat.",
@@ -35,8 +35,8 @@
 			]
 		},
 		{
-			x: 3.5d,
-			y: -4.0d,
+			x: 2.5d,
+			y: -7.0d,
 			dependencies: [I;441],
 			id: 443,
 			tasks: [{
@@ -51,8 +51,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: -4.0d,
+			x: 4.0d,
+			y: -7.0d,
 			dependencies: [I;443],
 			id: 445,
 			tasks: [{
@@ -67,8 +67,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -3.0d,
+			x: 2.5d,
+			y: -6.0d,
 			dependencies: [I;441],
 			id: 447,
 			tasks: [{
@@ -83,8 +83,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: -3.0d,
+			x: 4.0d,
+			y: -6.0d,
 			dependencies: [I;447],
 			id: 449,
 			tasks: [{
@@ -99,8 +99,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -2.0d,
+			x: 2.5d,
+			y: -5.0d,
 			dependencies: [I;441],
 			id: 451,
 			tasks: [{
@@ -115,8 +115,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: -2.0d,
+			x: 4.0d,
+			y: -5.0d,
 			dependencies: [I;451],
 			id: 453,
 			tasks: [{
@@ -132,8 +132,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 2.0d,
+			x: 2.5d,
+			y: -1.0d,
 			dependencies: [I;
 				475,
 				441
@@ -151,8 +151,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 2.0d,
+			x: 4.0d,
+			y: -1.0d,
 			dependencies: [I;455],
 			id: 457,
 			tasks: [{
@@ -167,8 +167,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -1.0d,
+			x: 2.5d,
+			y: -4.0d,
 			dependencies: [I;441],
 			id: 459,
 			tasks: [{
@@ -183,8 +183,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: -1.0d,
+			x: 4.0d,
+			y: -4.0d,
 			dependencies: [I;459],
 			id: 461,
 			tasks: [{
@@ -199,8 +199,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: -5.0d,
+			x: 4.0d,
+			y: -8.0d,
 			dependencies: [I;4074],
 			id: 465,
 			tasks: [{
@@ -215,8 +215,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 0.0d,
+			x: 2.5d,
+			y: -3.0d,
 			dependencies: [I;441],
 			id: 467,
 			tasks: [{
@@ -231,8 +231,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 0.0d,
+			x: 4.0d,
+			y: -3.0d,
 			dependencies: [I;467],
 			id: 469,
 			tasks: [{
@@ -248,8 +248,8 @@
 		},
 		{
 			title: "Potato",
-			x: 3.5d,
-			y: 1.0d,
+			x: 2.5d,
+			y: -2.0d,
 			dependencies: [I;441],
 			id: 471,
 			tasks: [{
@@ -264,8 +264,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 1.0d,
+			x: 4.0d,
+			y: -2.0d,
 			dependencies: [I;471],
 			id: 473,
 			tasks: [{
@@ -283,7 +283,7 @@
 			title: "Grape Grower",
 			icon: "simplefarming:grape_seeds",
 			x: 0.0d,
-			y: 1.0d,
+			y: -1.0d,
 			description: ["Grapes will grow into a small bush that must then have a fence piece attached to the upper bush piece to grow grapes."],
 			dependencies: [I;3991],
 			id: 475,
@@ -314,7 +314,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -4.0d,
 			y: -1.5d,
 			description: ["Use this on sand to get some drying agent or on grass for an assortment of seeds."],
 			dependencies: [I;3991],
@@ -337,7 +337,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -4.0d,
 			y: -3.0d,
 			description: ["Used to dry materials down for further production."],
 			dependencies: [I;478],
@@ -354,7 +354,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -4.0d,
 			y: -4.5d,
 			description: ["It's powdered sugar.... really...."],
 			dependencies: [I;480],
@@ -373,7 +373,7 @@
 		},
 		{
 			title: "Powder Only Diet",
-			x: -5.0d,
+			x: -6.0d,
 			y: -4.5d,
 			description: ["Just throw drying agent on everything."],
 			dependencies: [I;480],
@@ -415,7 +415,7 @@
 			]
 		},
 		{
-			x: -1.0d,
+			x: -2.0d,
 			y: -4.5d,
 			description: ["Don't inhale this stuff, your head may explode."],
 			dependencies: [I;480],
@@ -432,7 +432,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -3.0d,
 			y: -7.5d,
 			description: ["Energy, in block form!"],
 			dependencies: [I;4028],
@@ -462,7 +462,7 @@
 			]
 		},
 		{
-			x: -4.0d,
+			x: -5.0d,
 			y: -7.5d,
 			description: ["Who would have thought of powder in so many things?"],
 			dependencies: [I;4026],
@@ -503,7 +503,7 @@
 			]
 		},
 		{
-			x: -1.5d,
+			x: -2.5d,
 			y: -1.5d,
 			dependencies: [I;478],
 			id: 732,
@@ -534,7 +534,7 @@
 			]
 		},
 		{
-			x: -3.0d,
+			x: -4.0d,
 			y: 4.5d,
 			description: ["Will prevent crops from being trampled in a 10 block radius."],
 			id: 861,
@@ -558,7 +558,7 @@
 			]
 		},
 		{
-			x: -5.0d,
+			x: -6.0d,
 			y: 3.0d,
 			id: 884,
 			tasks: [{
@@ -573,7 +573,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -5.0d,
 			y: 3.0d,
 			id: 886,
 			tasks: [{
@@ -588,7 +588,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -4.0d,
 			y: 3.0d,
 			id: 888,
 			tasks: [{
@@ -603,7 +603,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -3.0d,
 			y: 3.0d,
 			id: 890,
 			tasks: [{
@@ -618,7 +618,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: -2.0d,
 			y: 3.0d,
 			id: 892,
 			tasks: [{
@@ -633,7 +633,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -1.0d,
 			y: 3.0d,
 			id: 894,
 			tasks: [{
@@ -648,7 +648,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.0d,
 			y: 3.0d,
 			id: 896,
 			tasks: [{
@@ -663,7 +663,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 1.0d,
 			y: 3.0d,
 			id: 898,
 			tasks: [{
@@ -678,7 +678,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -7.0d,
 			y: 3.0d,
 			id: 900,
 			tasks: [{
@@ -693,7 +693,7 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -8.0d,
 			y: 3.0d,
 			id: 902,
 			tasks: [{
@@ -708,7 +708,7 @@
 			}]
 		},
 		{
-			x: -8.0d,
+			x: -9.0d,
 			y: 3.0d,
 			id: 904,
 			tasks: [{
@@ -723,7 +723,7 @@
 			}]
 		},
 		{
-			x: -8.0d,
+			x: -9.0d,
 			y: 4.0d,
 			id: 906,
 			tasks: [{
@@ -738,7 +738,7 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -8.0d,
 			y: 4.0d,
 			id: 908,
 			tasks: [{
@@ -753,7 +753,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -7.0d,
 			y: 4.0d,
 			id: 910,
 			tasks: [{
@@ -768,7 +768,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -3.0d,
 			y: 6.0d,
 			id: 912,
 			tasks: [{
@@ -783,7 +783,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -4.0d,
 			y: 6.0d,
 			id: 914,
 			tasks: [{
@@ -798,7 +798,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 1.0d,
 			y: 6.0d,
 			id: 916,
 			tasks: [{
@@ -813,7 +813,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: -2.0d,
 			y: 6.0d,
 			id: 918,
 			tasks: [{
@@ -828,7 +828,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -1.0d,
 			y: 6.0d,
 			id: 920,
 			tasks: [{
@@ -843,7 +843,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -1.0d,
 			y: 4.0d,
 			id: 922,
 			tasks: [{
@@ -858,7 +858,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.0d,
 			y: 4.0d,
 			id: 924,
 			tasks: [{
@@ -873,7 +873,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 1.0d,
 			y: 4.0d,
 			id: 926,
 			tasks: [{
@@ -888,7 +888,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 1.0d,
 			y: 5.0d,
 			id: 928,
 			tasks: [{
@@ -903,7 +903,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.0d,
 			y: 5.0d,
 			id: 930,
 			tasks: [{
@@ -918,7 +918,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -1.0d,
 			y: 5.0d,
 			id: 932,
 			tasks: [{
@@ -933,7 +933,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -5.0d,
 			y: 6.0d,
 			id: 934,
 			tasks: [{
@@ -948,7 +948,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.0d,
 			y: 6.0d,
 			id: 936,
 			tasks: [{
@@ -963,7 +963,7 @@
 			}]
 		},
 		{
-			x: -5.0d,
+			x: -6.0d,
 			y: 6.0d,
 			id: 938,
 			tasks: [{
@@ -978,7 +978,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -7.0d,
 			y: 6.0d,
 			id: 940,
 			tasks: [{
@@ -993,7 +993,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -7.0d,
 			y: 5.0d,
 			id: 942,
 			tasks: [{
@@ -1008,7 +1008,7 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -8.0d,
 			y: 6.0d,
 			id: 944,
 			tasks: [{
@@ -1023,7 +1023,7 @@
 			}]
 		},
 		{
-			x: -8.0d,
+			x: -9.0d,
 			y: 6.0d,
 			id: 946,
 			tasks: [{
@@ -1038,7 +1038,7 @@
 			}]
 		},
 		{
-			x: -8.0d,
+			x: -9.0d,
 			y: 5.0d,
 			id: 948,
 			tasks: [{
@@ -1053,7 +1053,7 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -8.0d,
 			y: 5.0d,
 			id: 950,
 			tasks: [{
@@ -1069,7 +1069,7 @@
 		},
 		{
 			title: "Potato, Potatoe",
-			x: -9.5d,
+			x: -10.5d,
 			y: 1.0d,
 			description: ["Should be able to nab some of these to get you started from a village."],
 			dependencies: [I;
@@ -1097,7 +1097,7 @@
 			]
 		},
 		{
-			x: -6.0d,
+			x: -8.0d,
 			y: 1.0d,
 			description: ["You should be able to get some of these seeds by breaking grass."],
 			dependencies: [I;3991],
@@ -1121,7 +1121,7 @@
 			]
 		},
 		{
-			x: -9.5d,
+			x: -10.5d,
 			y: -2.0d,
 			description: ["You will come across a lot of these from grass."],
 			dependencies: [I;
@@ -1149,7 +1149,7 @@
 		},
 		{
 			title: "Wheatabix",
-			x: -11.0d,
+			x: -12.0d,
 			y: -2.0d,
 			description: ["Get to growing!"],
 			dependencies: [I;197],
@@ -1203,7 +1203,7 @@
 			]
 		},
 		{
-			x: -9.5d,
+			x: -10.5d,
 			y: -8.0d,
 			description: [
 				"Will automate the feeding of animals depending on the feed inserted.",
@@ -1241,7 +1241,7 @@
 			]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: 3.0d,
 			description: ["Cook up some Cactus!"],
 			dependencies: [I;4034],
@@ -1266,7 +1266,7 @@
 			]
 		},
 		{
-			x: -12.5d,
+			x: -13.5d,
 			y: 3.0d,
 			description: ["Give your base some flair."],
 			dependencies: [I;209],
@@ -1283,7 +1283,7 @@
 			}]
 		},
 		{
-			x: -15.5d,
+			x: -16.5d,
 			y: -8.0d,
 			description: ["Will display the first page of a book and quill or a map."],
 			dependencies: [I;1840],
@@ -1300,7 +1300,7 @@
 			}]
 		},
 		{
-			x: -14.0d,
+			x: -15.0d,
 			y: -8.0d,
 			description: ["A chicken uses some squid juice to mark on some flat sticks surrounded by the skin of a cow."],
 			dependencies: [I;4068],
@@ -1318,7 +1318,7 @@
 		},
 		{
 			title: "Sugar or Paper?",
-			x: -9.5d,
+			x: -10.5d,
 			y: -5.0d,
 			description: ["Let those stalks reach for the sky!"],
 			dependencies: [I;4032],
@@ -1346,7 +1346,7 @@
 		{
 			title: "Outstanding in A Field",
 			disable_toast: true,
-			x: -3.0d,
+			x: -4.0d,
 			y: 1.0416666666666643d,
 			shape: "hexagon",
 			size: 2.0d,
@@ -1364,7 +1364,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -5.0d,
 			y: -6.0d,
 			description: ["The best of everything all in a single powder! It is a bit dry though...."],
 			dependencies: [I;
@@ -1384,7 +1384,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -3.0d,
 			y: -6.0d,
 			description: ["PURE ENERGY!"],
 			dependencies: [I;
@@ -1406,8 +1406,8 @@
 		{
 			title: "Basic Farming",
 			icon: "minecraft:farmland",
-			x: -7.0d,
-			y: -1.0d,
+			x: -8.0d,
+			y: -2.5d,
 			description: [
 				"The following are your basic crops that will always be handy when you are hungry.",
 				"",
@@ -1422,7 +1422,7 @@
 		},
 		{
 			title: "Cacti",
-			x: -9.5d,
+			x: -10.5d,
 			y: 2.0d,
 			description: ["Desert adventure time."],
 			dependencies: [I;4032],
@@ -1441,7 +1441,7 @@
 		},
 		{
 			title: "Sugar",
-			x: -11.0d,
+			x: -12.0d,
 			y: -5.0d,
 			dependencies: [I;1838],
 			id: 4036,
@@ -1458,7 +1458,7 @@
 			}]
 		},
 		{
-			x: -9.5d,
+			x: -10.5d,
 			y: -1.0d,
 			description: ["I am supposed to beat a root?"],
 			dependencies: [I;4032],
@@ -1475,7 +1475,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: -1.0d,
 			dependencies: [I;4038],
 			id: 4040,
@@ -1492,7 +1492,7 @@
 			}]
 		},
 		{
-			x: -12.5d,
+			x: -13.5d,
 			y: 2.0d,
 			dependencies: [I;4044],
 			id: 4042,
@@ -1508,7 +1508,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: 2.0d,
 			dependencies: [I;4034],
 			id: 4044,
@@ -1524,7 +1524,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: -6.0d,
 			description: ["Man I will be able to write so much stuff on this."],
 			dependencies: [I;1838],
@@ -1543,7 +1543,7 @@
 		},
 		{
 			title: "Carrots",
-			x: -9.5d,
+			x: -10.5d,
 			y: 0.0d,
 			description: ["Should be able to find a few of these in villages as well."],
 			dependencies: [I;4032],
@@ -1561,7 +1561,7 @@
 			}]
 		},
 		{
-			x: -9.5d,
+			x: -10.5d,
 			y: -3.0d,
 			description: ["Have to eat some melons to make some melons."],
 			dependencies: [I;4032],
@@ -1578,7 +1578,7 @@
 			}]
 		},
 		{
-			x: -9.5d,
+			x: -10.5d,
 			y: -4.0d,
 			description: ["You don't have jack on me Mr. Pumpkin!"],
 			dependencies: [I;4032],
@@ -1596,7 +1596,7 @@
 		},
 		{
 			title: "Hell Wart",
-			x: -9.5d,
+			x: -10.5d,
 			y: -6.0d,
 			description: ["Nether fortress mold."],
 			dependencies: [I;4032],
@@ -1615,7 +1615,7 @@
 		},
 		{
 			title: "Sweet Berries",
-			x: -9.5d,
+			x: -10.5d,
 			y: -7.0d,
 			description: ["You are going to have to travel to the great white north to find some of these delicous berries."],
 			dependencies: [I;4032],
@@ -1633,7 +1633,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: -3.0d,
 			dependencies: [I;4050],
 			id: 4058,
@@ -1650,7 +1650,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: -4.0d,
 			dependencies: [I;4052],
 			id: 4060,
@@ -1666,7 +1666,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: 1.0d,
 			dependencies: [I;205],
 			id: 4062,
@@ -1683,7 +1683,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: 0.0d,
 			dependencies: [I;4048],
 			id: 4064,
@@ -1700,7 +1700,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: -8.0d,
 			description: ["The skin of the innocent..... oh boy that sounds bad....."],
 			dependencies: [I;203],
@@ -1717,7 +1717,7 @@
 			}]
 		},
 		{
-			x: -12.5d,
+			x: -13.5d,
 			y: -7.0d,
 			description: ["Bound and binded."],
 			dependencies: [I;
@@ -1737,7 +1737,7 @@
 			}]
 		},
 		{
-			x: -12.5d,
+			x: -13.5d,
 			y: -1.0d,
 			dependencies: [I;4040],
 			id: 4070,
@@ -1754,7 +1754,7 @@
 			}]
 		},
 		{
-			x: -12.5d,
+			x: -13.5d,
 			y: -2.0d,
 			dependencies: [I;201],
 			id: 4072,
@@ -1771,8 +1771,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -5.0d,
+			x: 2.5d,
+			y: -8.0d,
 			dependencies: [I;441],
 			id: 4074,
 			tasks: [{
@@ -1788,7 +1788,7 @@
 		},
 		{
 			title: "Cooking for Engineers",
-			x: -14.0d,
+			x: -15.0d,
 			y: -6.0d,
 			shape: "gear",
 			description: ["I mean cooking couldn't be as complex as making a machine to make energy....."],
@@ -1807,7 +1807,7 @@
 			}]
 		},
 		{
-			x: -9.5d,
+			x: -10.5d,
 			y: 3.0d,
 			dependencies: [I;4032],
 			id: 4436,
@@ -1823,7 +1823,7 @@
 			}]
 		},
 		{
-			x: -4.5d,
+			x: -5.5d,
 			y: -1.5d,
 			dependencies: [I;478],
 			id: 4614,
@@ -1854,7 +1854,7 @@
 			]
 		},
 		{
-			x: -9.5d,
+			x: -10.5d,
 			y: -9.0d,
 			description: ["This nest will collect up all those chicken eggs for you into a single place."],
 			id: 4645,
@@ -1878,7 +1878,7 @@
 			]
 		},
 		{
-			x: -11.0d,
+			x: -12.0d,
 			y: -9.0d,
 			description: ["Eggs o'plenty!"],
 			dependencies: [I;4645],
@@ -1894,6 +1894,622 @@
 				type: "xp_levels",
 				xp_levels: 1
 			}]
+		},
+		{
+			x: -4.0d,
+			y: 7.0d,
+			description: ["The Market will give allow you to purchase seeds and saplings with emeralds."],
+			id: 5518,
+			tasks: [{
+				id: 5519,
+				type: "item",
+				item: "farmingforblockheads:market"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			description: ["Time to get fishing!"],
+			dependencies: [I;3991],
+			id: 5595,
+			tasks: [{
+				id: 5596,
+				type: "item",
+				item: {
+					id: "minecraft:fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5691,
+					type: "item",
+					item: "simplefarming:fish_fillet"
+				},
+				{
+					id: 5714,
+					type: "item",
+					item: "spareparts:coins/wooden_coin"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			description: ["My own custom designed fishing rod. Can be customized with special tackle and bait."],
+			dependencies: [I;5595],
+			id: 5597,
+			tasks: [{
+				id: 5598,
+				type: "item",
+				item: {
+					id: "aquaculture:iron_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5707,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 2
+				},
+				{
+					id: 5708,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			description: ["When you are the best fisherman around."],
+			dependencies: [I;5597],
+			id: 5599,
+			tasks: [{
+				id: 5600,
+				type: "item",
+				item: {
+					id: "aquaculture:gold_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 5706,
+				type: "random",
+				table: 6
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 1.0d,
+			description: ["When you just want to blind the fish."],
+			dependencies: [I;5599],
+			id: 5601,
+			tasks: [{
+				id: 5602,
+				type: "item",
+				item: {
+					id: "aquaculture:diamond_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5704,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5705,
+					type: "item",
+					item: {
+						id: "aquaculture:worm",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					count: 10
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 1.0d,
+			description: ["The best fishing rod around. Neptune's personal rod. Increases bite rate of fish."],
+			dependencies: [I;5601],
+			id: 5603,
+			tasks: [{
+				id: 5604,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5701,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5702,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5711,
+					type: "item",
+					item: "spareparts:coins/iron_coin"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 4.5d,
+			description: ["Is placed on the ground with a rightclick. From there, you can access it's inventory where you can apply tackle to fishing rods on the right. The box also has storage slots to hold bait and tackle. To pickup the box again simply shift rightclick it."],
+			dependencies: [I;5597],
+			id: 5605,
+			tasks: [{
+				id: 5606,
+				type: "item",
+				item: "aquaculture:tackle_box"
+			}],
+			rewards: [
+				{
+					id: 5718,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5719,
+					type: "random",
+					table: 5
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			description: ["The worm box works like the composter (load with vegetables or fruit) but it produces worms to use as bait."],
+			dependencies: [I;5597],
+			id: 5607,
+			tasks: [{
+				id: 5608,
+				type: "item",
+				item: "aquaculture:worm_farm"
+			}],
+			rewards: [{
+				id: 5710,
+				type: "item",
+				item: "vanillafoodpantry:kebab_fish",
+				random_bonus: 2
+			}]
+		},
+		{
+			title: "Bait",
+			x: 2.5d,
+			y: 5.0d,
+			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leaches and minnows that you catch by fishing."],
+			dependencies: [I;5607],
+			id: 5609,
+			tasks: [{
+				id: 5610,
+				type: "item",
+				item: {
+					id: "aquaculture:worm",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5716,
+					type: "item",
+					item: {
+						id: "aquaculture:minnow",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 5717,
+					type: "item",
+					item: {
+						id: "aquaculture:leech",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			shape: "gear",
+			description: ["I caught a chest..... wonder if it is anything valuable?"],
+			dependencies: [I;5597],
+			size: 1.5d,
+			id: 5611,
+			tasks: [{
+				id: 5612,
+				type: "item",
+				item: "aquaculture:neptunes_bounty"
+			}],
+			rewards: [{
+				id: 5709,
+				type: "random",
+				table: 8
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.0d,
+			description: ["Can be dyed like leather and allows you to customize your fishing rod."],
+			dependencies: [I;5605],
+			id: 5616,
+			tasks: [{
+				id: 5617,
+				type: "item",
+				item: "aquaculture:bobber"
+			}],
+			rewards: [{
+				id: 5729,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 6.0d,
+			description: ["Can be dyed like leather and can be used to customize your fishing rod."],
+			dependencies: [I;5605],
+			id: 5618,
+			tasks: [{
+				id: 5619,
+				type: "item",
+				item: "aquaculture:fishing_line"
+			}],
+			rewards: [{
+				id: 5728,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.0d,
+			description: ["Incurs a 20% chance to not use durability when applied to a rod."],
+			dependencies: [I;5605],
+			id: 5620,
+			tasks: [{
+				id: 5621,
+				type: "item",
+				item: "aquaculture:iron_hook"
+			}],
+			rewards: [{
+				id: 5720,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.0d,
+			description: ["Increases a rods luck when applied."],
+			dependencies: [I;5605],
+			id: 5622,
+			tasks: [{
+				id: 5623,
+				type: "item",
+				item: "aquaculture:gold_hook"
+			}],
+			rewards: [{
+				id: 5721,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			description: ["Incurs a 50% chance to not use durability when applied to a rod."],
+			dependencies: [I;5605],
+			id: 5624,
+			tasks: [{
+				id: 5625,
+				type: "item",
+				item: "aquaculture:diamond_hook"
+			}],
+			rewards: [{
+				id: 5722,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.5d,
+			description: ["Allows a rod to cast further when applied."],
+			dependencies: [I;5605],
+			id: 5626,
+			tasks: [{
+				id: 5627,
+				type: "item",
+				item: "aquaculture:light_hook"
+			}],
+			rewards: [{
+				id: 5723,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.5d,
+			description: ["Allows a chance to catch two things at once when applied."],
+			dependencies: [I;5605],
+			id: 5628,
+			tasks: [{
+				id: 5629,
+				type: "item",
+				item: "aquaculture:double_hook"
+			}],
+			rewards: [{
+				id: 5724,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 5.5d,
+			description: ["Increases the amount of time allowed to reel in a fish when applied to a rod."],
+			dependencies: [I;5605],
+			id: 5630,
+			tasks: [{
+				id: 5631,
+				type: "item",
+				item: "aquaculture:redstone_hook"
+			}],
+			rewards: [{
+				id: 5725,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 6.0d,
+			description: ["Plays a note when a fish is about to bite when applied to a rod."],
+			dependencies: [I;5605],
+			id: 5632,
+			tasks: [{
+				id: 5633,
+				type: "item",
+				item: "aquaculture:note_hook"
+			}],
+			rewards: [{
+				id: 5726,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 6.0d,
+			description: ["Incurs a 50% chance to not use durability when applied to a rod, as well as increase the rods luck."],
+			dependencies: [I;5605],
+			id: 5634,
+			tasks: [{
+				id: 5635,
+				type: "item",
+				item: "aquaculture:nether_star_hook"
+			}],
+			rewards: [{
+				id: 5727,
+				type: "random",
+				table: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			description: [
+				"Fillet of fish sure sounds a lot better than eating a whole fish, scales and all.",
+				"",
+				"Pretty much a sharp stick."
+			],
+			dependencies: [I;5595],
+			id: 5658,
+			tasks: [{
+				id: 5659,
+				type: "item",
+				item: {
+					id: "aquaculture:wooden_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5692,
+					type: "item",
+					item: "minecraft:string",
+					random_bonus: 2
+				},
+				{
+					id: 5693,
+					type: "random",
+					table: 0
+				},
+				{
+					id: 5713,
+					type: "item",
+					item: "spareparts:coins/wooden_coin"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			description: ["Should be better than cutting open a fish with a sharp stick."],
+			dependencies: [I;5658],
+			id: 5660,
+			tasks: [{
+				id: 5661,
+				type: "item",
+				item: {
+					id: "aquaculture:stone_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5694,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 5695,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			description: ["My first professional fillet knife."],
+			dependencies: [I;5660],
+			id: 5662,
+			tasks: [{
+				id: 5663,
+				type: "item",
+				item: {
+					id: "aquaculture:iron_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 5715,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.0d,
+			description: ["My worst purchased knife."],
+			dependencies: [I;5662],
+			id: 5664,
+			tasks: [{
+				id: 5665,
+				type: "item",
+				item: {
+					id: "aquaculture:gold_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 5696,
+				type: "random",
+				table: 7
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 0.0d,
+			description: ["This knife should never dull."],
+			dependencies: [I;5664],
+			id: 5666,
+			tasks: [{
+				id: 5667,
+				type: "item",
+				item: {
+					id: "aquaculture:diamond_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5697,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5698,
+					type: "random",
+					table: 7
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 0.0d,
+			description: ["A fillet knife imbuded with the power of Neptune. It will never break and gives additional fillets per fish."],
+			dependencies: [I;5666],
+			id: 5668,
+			tasks: [{
+				id: 5669,
+				type: "item",
+				item: "aquaculture:neptunium_fillet_knife"
+			}],
+			rewards: [
+				{
+					id: 5699,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5700,
+					type: "random",
+					table: 7
+				},
+				{
+					id: 5712,
+					type: "item",
+					item: "spareparts:coins/iron_coin"
+				}
+			]
 		}
 	]
 }

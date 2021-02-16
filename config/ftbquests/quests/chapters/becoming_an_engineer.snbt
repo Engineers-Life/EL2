@@ -1,7 +1,7 @@
 {
 	id: 43,
 	filename: "becoming_an_engineer",
-	order_index: 7,
+	order_index: 8,
 	title: "Becoming an Engineer",
 	icon: "engineersdecor:sign_decor",
 	default_quest_shape: "hexagon",
@@ -830,8 +830,8 @@
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 0.5d,
+			x: 0.22538265306125282d,
+			y: -0.11003401360545695d,
 			description: ["This station will charge devices placed within."],
 			dependencies: [I;498],
 			id: 543,
@@ -3282,6 +3282,179 @@
 				id: 4807,
 				type: "loot",
 				table: 6
+			}]
+		},
+		{
+			x: 0.5213010204082025d,
+			y: 1.0353741496598516d,
+			description: [
+				"The Building Gadget is a helpful tool that will allow you to make a number of basic shapes out of blocks to speed up building.",
+				"",
+				"Shift rightclick will set the block type to be used by the tool. The shape to be built can then be changed in the settings menu."
+			],
+			dependencies: [I;5584],
+			id: 5576,
+			tasks: [{
+				id: 5577,
+				type: "item",
+				item: {
+					id: "buildinggadgets:gadget_building",
+					Count: true,
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer",
+							state: {
+								Name: "minecraft:air"
+							},
+							data: {}
+						}
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5586,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5594,
+					type: "random",
+					table: 7
+				}
+			]
+		},
+		{
+			x: 1.5213010204082025d,
+			y: 2.0353741496598516d,
+			description: [
+				"The Copy Paste Gadget will allow you to copy an area and paste a identical area of blocks, if you have them in your inventory.",
+				"",
+				"Rightclick a block to set the first edge of the area. Then, shift rightclick to set the far edge of the area you want copied. Then flip the mode of the gadget, can be changed through the setting menu, and right click to paste the area, if you have the blocks."
+			],
+			dependencies: [I;5584],
+			id: 5578,
+			tasks: [{
+				id: 5579,
+				type: "item",
+				item: {
+					id: "buildinggadgets:gadget_copy_paste",
+					Count: true,
+					tag: {
+						mode: false,
+						template_id: [I;
+							1220613381,
+							-1411758366,
+							-1912656866,
+							962630870
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5589,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5593,
+					type: "random",
+					table: 7
+				}
+			]
+		},
+		{
+			x: 2.5213010204082025d,
+			y: 1.0353741496598516d,
+			description: [
+				"The Exchange Gadget will replace blocks with other blocks.",
+				"",
+				"Shift rightclick a block to set it as the block type to use as the replacement. Then by having the blocks in your inventory you can replace other blocks with it in a number of patterns."
+			],
+			dependencies: [I;5584],
+			id: 5580,
+			tasks: [{
+				id: 5581,
+				type: "item",
+				item: {
+					id: "buildinggadgets:gadget_exchanging",
+					Count: true,
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer",
+							state: {
+								Name: "minecraft:air"
+							},
+							data: {}
+						}
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5588,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5592,
+					type: "random",
+					table: 7
+				}
+			]
+		},
+		{
+			x: 1.5213010204082025d,
+			y: 0.03537414965985164d,
+			description: [
+				"The Destruction Gadget allows you to void a large area.",
+				"*THIS DESTROYS BLOCKS, YOU WILL NOT GET THEM*"
+			],
+			dependencies: [I;5584],
+			id: 5582,
+			tasks: [{
+				id: 5583,
+				type: "item",
+				item: {
+					id: "buildinggadgets:gadget_destruction",
+					Count: true,
+					tag: {
+						overlay: true,
+						fuzzy: true
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 5587,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 5591,
+					type: "random",
+					table: 7
+				}
+			]
+		},
+		{
+			icon: "buildinggadgets:template_manager",
+			x: 1.5213010204082025d,
+			y: 1.0353741496598516d,
+			description: [
+				"Building Gadgets gives you a number of tools that will help you in building structures for use.",
+				"",
+				"Check your keybinds to make sure that you can access all the keys needed for the tools to work. Settings may be the most imporant.",
+				"",
+				"*Check out the Template Manager if you want to move copies of areas in/out of game*"
+			],
+			dependencies: [I;543],
+			id: 5584,
+			tasks: [{
+				id: 5585,
+				type: "checkmark",
+				title: "Building Gadgets"
 			}]
 		}
 	]
