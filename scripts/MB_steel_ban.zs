@@ -41,3 +41,7 @@ craftingTable.removeRecipe(<item:mapperbase:iron_rod>);
 
 mods.jei.JEI.hideItem(<item:mapperbase:iron_plate>);
 craftingTable.removeRecipe(<item:mapperbase:iron_plate>);
+
+<recipetype:transport:rail_workers_bench>.removeRecipe(<item:transport:steam_locomotive>);
+<recipetype:transport:rail_workers_bench>.addJSONRecipe("steam_loco", {ingredient:{item:<item:immersiveengineering:storage_steel>.registryName},result:<item:transport:steam_locomotive>.registryName});
+mods.jei.JEI.hideItem(<item:mapperbase:steel_block>);
