@@ -3051,14 +3051,28 @@
 			id: 5566,
 			tasks: [
 				{
-					id: 5567,
+					id: 5730,
 					type: "item",
-					item: "floormats:oak_floormat_item"
+					title: "Wooden Floormat",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "floormats:wooden_floormats"
+						}
+					}
 				},
 				{
-					id: 5568,
+					id: 5731,
 					type: "item",
-					item: "floormats:gilded/gilded_oak_floormat_item"
+					title: "Gilded Wood Floormat",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "floormats:gilded_wood_floormats"
+						}
+					}
 				}
 			],
 			rewards: [{
