@@ -1,7 +1,8 @@
 {
-	id: 282,
+	id: "000000000000011A",
+	group: "",
+	order_index: 6,
 	filename: "simple_storage",
-	order_index: 7,
 	title: "Simple Storage Solutions",
 	icon: "storagenetwork:master",
 	default_quest_shape: "",
@@ -10,18 +11,18 @@
 			x: 8.5d,
 			y: 1.5d,
 			description: ["The root of your Simple Storage Network. You will only need a single root per network."],
-			dependencies: [I;
-				4400,
-				4679
+			dependencies: [
+				"0000000000001130",
+				"0000000000001247"
 			],
-			id: 417,
+			id: "00000000000001A1",
 			tasks: [{
-				id: 418,
+				id: "00000000000001A2",
 				type: "item",
 				item: "storagenetwork:master"
 			}],
 			rewards: [{
-				id: 1193,
+				id: "00000000000004A9",
 				type: "xp_levels",
 				xp_levels: 5
 			}]
@@ -30,30 +31,30 @@
 			x: 7.5d,
 			y: 0.5d,
 			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."],
-			dependencies: [I;417],
-			id: 419,
+			dependencies: ["00000000000001A1"],
+			id: "00000000000001A3",
 			tasks: [{
-				id: 420,
+				id: "00000000000001A4",
 				type: "item",
 				item: "storagenetwork:storage_kabel"
 			}],
 			rewards: [
 				{
-					id: 1196,
+					id: "00000000000004AC",
 					type: "item",
 					item: "spareparts:coins/copper_coin"
 				},
 				{
-					id: 1202,
+					id: "00000000000004B2",
 					type: "item",
 					item: "minecraft:emerald"
 				},
 				{
-					id: 2039,
+					id: "00000000000007F7",
 					type: "item",
 					item: {
 						id: "ftbquests:lootcrate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							type: "tier_ii_random"
 						}
@@ -65,21 +66,21 @@
 			x: 10.0d,
 			y: 2.5d,
 			description: ["This block allows you to craft with items from a network."],
-			dependencies: [I;417],
-			id: 421,
+			dependencies: ["00000000000001A1"],
+			id: "00000000000001A5",
 			tasks: [{
-				id: 422,
+				id: "00000000000001A6",
 				type: "item",
 				item: "storagenetwork:request"
 			}],
 			rewards: [
 				{
-					id: 1195,
+					id: "00000000000004AB",
 					type: "item",
 					item: "spareparts:coins/stone_coin"
 				},
 				{
-					id: 1201,
+					id: "00000000000004B1",
 					type: "item",
 					item: "minecraft:emerald"
 				}
@@ -89,14 +90,14 @@
 			x: 13.0d,
 			y: 1.5d,
 			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."],
-			id: 423,
+			id: "00000000000001A7",
 			tasks: [{
-				id: 424,
+				id: "00000000000001A8",
 				type: "item",
 				item: "storagenetwork:kabel"
 			}],
 			rewards: [{
-				id: 1192,
+				id: "00000000000004A8",
 				type: "xp_levels",
 				xp_levels: 5
 			}]
@@ -105,25 +106,25 @@
 			x: 7.0d,
 			y: 2.5d,
 			description: ["This block will allow you to see what is stored in a network."],
-			dependencies: [I;417],
-			id: 425,
+			dependencies: ["00000000000001A1"],
+			id: "00000000000001A9",
 			tasks: [{
-				id: 426,
+				id: "00000000000001AA",
 				type: "item",
 				item: "storagenetwork:inventory"
 			}],
 			rewards: [
 				{
-					id: 1194,
+					id: "00000000000004AA",
 					type: "xp_levels",
 					xp_levels: 5
 				},
 				{
-					id: 2038,
+					id: "00000000000007F6",
 					type: "item",
 					item: {
 						id: "ftbquests:lootcrate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							type: "tier_i_random"
 						}
@@ -139,15 +140,15 @@
 				"",
 				"9x6 slots (54 total)."
 			],
-			dependencies: [I;163],
-			id: 427,
+			dependencies: ["00000000000000A3"],
+			id: "00000000000001AB",
 			tasks: [{
-				id: 428,
+				id: "00000000000001AC",
 				type: "item",
 				item: "ironchest:iron_chest"
 			}],
 			rewards: [{
-				id: 1120,
+				id: "0000000000000460",
 				type: "item",
 				item: "spareparts:coins/stone_coin"
 			}]
@@ -160,15 +161,15 @@
 				"",
 				"9x9 slots (81 total)."
 			],
-			dependencies: [I;4393],
-			id: 429,
+			dependencies: ["0000000000001129"],
+			id: "00000000000001AD",
 			tasks: [{
-				id: 430,
+				id: "00000000000001AE",
 				type: "item",
 				item: "ironchest:gold_chest"
 			}],
 			rewards: [{
-				id: 1121,
+				id: "0000000000000461",
 				type: "item",
 				item: "spareparts:coins/stone_coin"
 			}]
@@ -181,15 +182,15 @@
 				"",
 				"12x9 slots (108 total)."
 			],
-			dependencies: [I;429],
-			id: 431,
+			dependencies: ["00000000000001AD"],
+			id: "00000000000001AF",
 			tasks: [{
-				id: 432,
+				id: "00000000000001B0",
 				type: "item",
 				item: "ironchest:diamond_chest"
 			}],
 			rewards: [{
-				id: 1122,
+				id: "0000000000000462",
 				type: "item",
 				item: "spareparts:coins/stone_coin"
 			}]
@@ -202,15 +203,15 @@
 				"",
 				"12x9 slots (108 total)."
 			],
-			dependencies: [I;4395],
-			id: 433,
+			dependencies: ["000000000000112B"],
+			id: "00000000000001B1",
 			tasks: [{
-				id: 434,
+				id: "00000000000001B2",
 				type: "item",
 				item: "ironchest:obsidian_chest"
 			}],
 			rewards: [{
-				id: 1203,
+				id: "00000000000004B3",
 				type: "item",
 				item: "minecraft:emerald"
 			}]
@@ -226,9 +227,9 @@
 				"9x5 slots (45 total)."
 			],
 			size: 1.5d,
-			id: 163,
+			id: "00000000000000A3",
 			tasks: [{
-				id: 164,
+				id: "00000000000000A4",
 				type: "item",
 				item: "ironchest:copper_chest"
 			}]
@@ -241,15 +242,15 @@
 				"",
 				"9x8 slots (72 total)."
 			],
-			dependencies: [I;427],
-			id: 4393,
+			dependencies: ["00000000000001AB"],
+			id: "0000000000001129",
 			tasks: [{
-				id: 4394,
+				id: "000000000000112A",
 				type: "item",
 				item: "ironchest:silver_chest"
 			}],
 			rewards: [{
-				id: 4833,
+				id: "00000000000012E1",
 				type: "item",
 				item: "spareparts:coins/stone_coin"
 			}]
@@ -262,15 +263,15 @@
 				"",
 				"12x9 slots (108 total)."
 			],
-			dependencies: [I;431],
-			id: 4395,
+			dependencies: ["00000000000001AF"],
+			id: "000000000000112B",
 			tasks: [{
-				id: 4396,
+				id: "000000000000112C",
 				type: "item",
 				item: "ironchest:crystal_chest"
 			}],
 			rewards: [{
-				id: 4834,
+				id: "00000000000012E2",
 				type: "item",
 				item: "spareparts:coins/stone_coin"
 			}]
@@ -281,9 +282,9 @@
 			y: 1.5d,
 			shape: "gear",
 			size: 1.5d,
-			id: 4400,
+			id: "0000000000001130",
 			tasks: [{
-				id: 4401,
+				id: "0000000000001131",
 				type: "item",
 				item: "minecraft:nether_star"
 			}]
@@ -292,15 +293,15 @@
 			x: 9.5d,
 			y: 0.5d,
 			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable need be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."],
-			dependencies: [I;417],
-			id: 4402,
+			dependencies: ["00000000000001A1"],
+			id: "0000000000001132",
 			tasks: [{
-				id: 4403,
+				id: "0000000000001133",
 				type: "item",
 				item: "storagenetwork:import_kabel"
 			}],
 			rewards: [{
-				id: 4841,
+				id: "00000000000012E9",
 				type: "item",
 				item: "spareparts:coins/copper_coin"
 			}]
@@ -312,15 +313,15 @@
 				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable need be placed to put into a block, they can be connected by standard network cable to the network.",
 				"Can be right clicked to to set whitelists/blacklists of items for the link."
 			],
-			dependencies: [I;417],
-			id: 4404,
+			dependencies: ["00000000000001A1"],
+			id: "0000000000001134",
 			tasks: [{
-				id: 4405,
+				id: "0000000000001135",
 				type: "item",
 				item: "storagenetwork:export_kabel"
 			}],
 			rewards: [{
-				id: 4842,
+				id: "00000000000012EA",
 				type: "item",
 				item: "spareparts:coins/copper_coin"
 			}]
@@ -329,68 +330,68 @@
 			x: 7.0d,
 			y: -0.5d,
 			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."],
-			dependencies: [I;419],
-			id: 4406,
+			dependencies: ["00000000000001A3"],
+			id: "0000000000001136",
 			tasks: [{
-				id: 4407,
+				id: "0000000000001137",
 				type: "item",
 				item: "storagenetwork:filter_kabel"
 			}],
 			rewards: [{
-				id: 4844,
+				id: "00000000000012EC",
 				type: "random",
-				table: 6
+				table_id: 1980L
 			}]
 		},
 		{
 			x: 10.0d,
 			y: -0.5d,
 			description: ["Acts like a input cable but allows the input to the network to be filtered."],
-			dependencies: [I;4402],
-			id: 4408,
+			dependencies: ["0000000000001132"],
+			id: "0000000000001138",
 			tasks: [{
-				id: 4409,
+				id: "0000000000001139",
 				type: "item",
 				item: "storagenetwork:import_filter_kabel"
 			}],
 			rewards: [{
-				id: 4843,
+				id: "00000000000012EB",
 				type: "random",
-				table: 6
+				table_id: 1980L
 			}]
 		},
 		{
 			x: 8.0d,
 			y: 3.0d,
 			description: ["This upgrade will upgrade the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."],
-			dependencies: [I;417],
-			id: 4414,
+			dependencies: ["00000000000001A1"],
+			id: "000000000000113E",
 			tasks: [{
-				id: 4415,
+				id: "000000000000113F",
 				type: "item",
 				item: "storagenetwork:speed_upgrade"
 			}],
 			rewards: [{
-				id: 4839,
+				id: "00000000000012E7",
 				type: "random",
-				table: 0
+				table_id: 1332L
 			}]
 		},
 		{
 			x: 8.0d,
 			y: 4.5d,
 			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."],
-			dependencies: [I;4414],
-			id: 4416,
+			dependencies: ["000000000000113E"],
+			id: "0000000000001140",
 			tasks: [{
-				id: 4417,
+				id: "0000000000001141",
 				type: "item",
 				item: "storagenetwork:stack_upgrade"
 			}],
 			rewards: [{
-				id: 4840,
+				id: "00000000000012E8",
 				type: "random",
-				table: 4
+				table_id: 1483L
 			}]
 		},
 		{
@@ -401,15 +402,15 @@
 				"",
 				"The network will need to be chunk loaded to be seen at distance."
 			],
-			dependencies: [I;417],
-			id: 4418,
+			dependencies: ["00000000000001A1"],
+			id: "0000000000001142",
 			tasks: [{
-				id: 4419,
+				id: "0000000000001143",
 				type: "item",
 				item: "storagenetwork:inventory_remote"
 			}],
 			rewards: [{
-				id: 4837,
+				id: "00000000000012E5",
 				type: "item",
 				item: "spareparts:coins/iron_coin"
 			}]
@@ -422,15 +423,15 @@
 				"",
 				"Your network will need to be chunk loaded to remain active at distance."
 			],
-			dependencies: [I;4418],
-			id: 4420,
+			dependencies: ["0000000000001142"],
+			id: "0000000000001144",
 			tasks: [{
-				id: 4421,
+				id: "0000000000001145",
 				type: "item",
 				item: "storagenetwork:crafting_remote"
 			}],
 			rewards: [{
-				id: 4838,
+				id: "00000000000012E6",
 				type: "item",
 				item: "spareparts:coins/golden_coin"
 			}]
@@ -439,21 +440,21 @@
 			x: 11.0d,
 			y: 1.5d,
 			description: ["The Network Guid Book will be your guide to Simple Storage Network machines and mechanics."],
-			dependencies: [I;423],
-			id: 4679,
+			dependencies: ["00000000000001A7"],
+			id: "0000000000001247",
 			tasks: [{
-				id: 4680,
+				id: "0000000000001248",
 				type: "item",
 				item: {
 					id: "patchouli:guide_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						"patchouli:book": "storagenetwork:network_book"
 					}
 				}
 			}],
 			rewards: [{
-				id: 4836,
+				id: "00000000000012E4",
 				type: "item",
 				item: "pamhc2foodcore:cookiesandmilkitem"
 			}]

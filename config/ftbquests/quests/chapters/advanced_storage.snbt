@@ -1,7 +1,8 @@
 {
-	id: 283,
+	id: "000000000000011B",
+	group: "",
+	order_index: 10,
 	filename: "advanced_storage",
-	order_index: 11,
 	title: "Advanced Storage",
 	icon: "refinedstorage:controller",
 	default_quest_shape: "square",
@@ -12,9 +13,9 @@
 			y: -1.0d,
 			shape: "gear",
 			size: 2.0d,
-			id: 633,
+			id: "0000000000000279",
 			tasks: [{
-				id: 634,
+				id: "000000000000027A",
 				type: "item",
 				item: "refinedstorage:quartz_enriched_iron"
 			}]
@@ -25,9 +26,9 @@
 			y: -1.0d,
 			shape: "gear",
 			size: 1.5d,
-			id: 635,
+			id: "000000000000027B",
 			tasks: [{
-				id: 636,
+				id: "000000000000027C",
 				type: "item",
 				item: "refinedstorage:silicon"
 			}]
@@ -39,27 +40,27 @@
 				"The Controller is the functional heart of your Refined Storage System. Only a single controller is needed per network and is where RF is accepted to power the system.",
 				"Can be colored by right clicking with a dye or by placing the controller with the dye in a crafting table. This can be done from a number of machines from this mod (Check JEI for all variations)."
 			],
-			dependencies: [I;
-				635,
-				633,
-				649
+			dependencies: [
+				"000000000000027B",
+				"0000000000000279",
+				"0000000000000289"
 			],
-			id: 637,
+			id: "000000000000027D",
 			tasks: [{
-				id: 638,
+				id: "000000000000027E",
 				type: "item",
 				item: "refinedstorage:controller"
 			}],
 			rewards: [
 				{
-					id: 1189,
+					id: "00000000000004A5",
 					type: "item",
 					item: "spareparts:coins/iron_coin"
 				},
 				{
-					id: 1386,
+					id: "000000000000056A",
 					type: "random",
-					table: 1
+					table_id: 1355L
 				}
 			]
 		},
@@ -70,38 +71,38 @@
 				"The Grid will allow you to access the storage inventory of your network. Here you can see the items and fluids stored in your system.",
 				"The search function acts the same as in JEI."
 			],
-			dependencies: [I;637],
-			id: 639,
+			dependencies: ["000000000000027D"],
+			id: "000000000000027F",
 			tasks: [{
-				id: 640,
+				id: "0000000000000280",
 				type: "item",
 				item: "refinedstorage:grid"
 			}],
 			rewards: [{
-				id: 1362,
+				id: "0000000000000552",
 				type: "choice",
-				table: 0
+				table_id: 1332L
 			}]
 		},
 		{
 			x: 4.0d,
 			y: 2.5d,
 			description: ["The Crafting Grid acts the same as a standard grid but allows you to craft directly from the network. Crafting ingredients are pulled directly from the network as needed for recipes. Works in conjunction with JEI."],
-			dependencies: [I;639],
-			id: 641,
+			dependencies: ["000000000000027F"],
+			id: "0000000000000281",
 			tasks: [{
-				id: 642,
+				id: "0000000000000282",
 				type: "item",
 				item: "refinedstorage:crafting_grid"
 			}],
 			rewards: [
 				{
-					id: 1361,
+					id: "0000000000000551",
 					type: "random",
-					table: 0
+					table_id: 1332L
 				},
 				{
-					id: 1395,
+					id: "0000000000000573",
 					type: "item",
 					item: "minecraft:iron_ingot",
 					count: 2
@@ -114,31 +115,31 @@
 			shape: "gear",
 			description: ["Processor binding is the glue behind all your Refined Storage processor chips."],
 			size: 1.5d,
-			id: 643,
+			id: "0000000000000283",
 			tasks: [{
-				id: 644,
+				id: "0000000000000284",
 				type: "item",
 				item: "refinedstorage:processor_binding"
 			}],
 			rewards: [{
-				id: 1333,
+				id: "0000000000000535",
 				type: "random",
-				table: 0
+				table_id: 1332L
 			}]
 		},
 		{
 			x: 2.5d,
 			y: -0.5d,
 			description: ["The most basic processor chip."],
-			dependencies: [I;643],
-			id: 645,
+			dependencies: ["0000000000000283"],
+			id: "0000000000000285",
 			tasks: [{
-				id: 646,
+				id: "0000000000000286",
 				type: "item",
 				item: "refinedstorage:basic_processor"
 			}],
 			rewards: [{
-				id: 1197,
+				id: "00000000000004AD",
 				type: "item",
 				item: "spareparts:coins/copper_coin"
 			}]
@@ -147,15 +148,15 @@
 			x: 2.5d,
 			y: 2.5d,
 			description: ["A mid-tier processor chip."],
-			dependencies: [I;643],
-			id: 647,
+			dependencies: ["0000000000000283"],
+			id: "0000000000000287",
 			tasks: [{
-				id: 648,
+				id: "0000000000000288",
 				type: "item",
 				item: "refinedstorage:improved_processor"
 			}],
 			rewards: [{
-				id: 1199,
+				id: "00000000000004AF",
 				type: "item",
 				item: "spareparts:coins/golden_coin"
 			}]
@@ -164,15 +165,15 @@
 			x: 2.5d,
 			y: 1.0d,
 			description: ["The most advanced processor chip to make."],
-			dependencies: [I;643],
-			id: 649,
+			dependencies: ["0000000000000283"],
+			id: "0000000000000289",
 			tasks: [{
-				id: 650,
+				id: "000000000000028A",
 				type: "item",
 				item: "refinedstorage:advanced_processor"
 			}],
 			rewards: [{
-				id: 1200,
+				id: "00000000000004B0",
 				type: "item",
 				item: "spareparts:coins/diamond_coin"
 			}]
@@ -181,23 +182,23 @@
 			x: 4.0d,
 			y: -3.0d,
 			description: ["A storage disk that can hold 4,000 items."],
-			dependencies: [I;708],
-			id: 651,
+			dependencies: ["00000000000002C4"],
+			id: "000000000000028B",
 			tasks: [{
-				id: 652,
+				id: "000000000000028C",
 				type: "item",
 				item: "refinedstorage:4k_storage_disk"
 			}],
 			rewards: [
 				{
-					id: 1338,
+					id: "000000000000053A",
 					type: "item",
 					item: "minecraft:iron_ingot",
 					count: 2,
 					random_bonus: 3
 				},
 				{
-					id: 1339,
+					id: "000000000000053B",
 					type: "item",
 					item: "randomite:randomite_ore",
 					random_bonus: 1
@@ -208,23 +209,23 @@
 			x: 3.5d,
 			y: -4.0d,
 			description: ["A storage disk that can hold 16,000 items."],
-			dependencies: [I;708],
-			id: 655,
+			dependencies: ["00000000000002C4"],
+			id: "000000000000028F",
 			tasks: [{
-				id: 656,
+				id: "0000000000000290",
 				type: "item",
 				item: "refinedstorage:16k_storage_disk"
 			}],
 			rewards: [
 				{
-					id: 1341,
+					id: "000000000000053D",
 					type: "item",
 					item: "minecraft:gold_ingot",
 					count: 2,
 					random_bonus: 4
 				},
 				{
-					id: 1342,
+					id: "000000000000053E",
 					type: "item",
 					item: "minecraft:redstone",
 					count: 2,
@@ -236,15 +237,15 @@
 			x: 6.990476190476194d,
 			y: -3.0d,
 			description: ["A storage disk that can hold 256,000 mB (256 buckets) of liquid."],
-			dependencies: [I;708],
-			id: 657,
+			dependencies: ["00000000000002C4"],
+			id: "0000000000000291",
 			tasks: [{
-				id: 658,
+				id: "0000000000000292",
 				type: "item",
 				item: "refinedstorage:256k_fluid_storage_disk"
 			}],
 			rewards: [{
-				id: 1337,
+				id: "0000000000000539",
 				type: "item",
 				item: "minecraft:iron_ingot",
 				count: 2,
@@ -255,23 +256,23 @@
 			x: 7.490476190476194d,
 			y: -4.0d,
 			description: ["A storage disk that can hold 1,024,000 mB (1,024 buckets) of liquid."],
-			dependencies: [I;708],
-			id: 659,
+			dependencies: ["00000000000002C4"],
+			id: "0000000000000293",
 			tasks: [{
-				id: 660,
+				id: "0000000000000294",
 				type: "item",
 				item: "refinedstorage:1024k_fluid_storage_disk"
 			}],
 			rewards: [
 				{
-					id: 1340,
+					id: "000000000000053C",
 					type: "item",
 					item: "minecraft:gold_ingot",
 					count: 2,
 					random_bonus: 3
 				},
 				{
-					id: 1343,
+					id: "000000000000053F",
 					type: "item",
 					item: "minecraft:redstone",
 					count: 2,
@@ -283,15 +284,15 @@
 			x: 6.990476190476194d,
 			y: -5.0d,
 			description: ["A storage disk that can hold 4,096,000 mB (4,096 buckets) of liquid. The largest liquid storage drive available."],
-			dependencies: [I;708],
-			id: 661,
+			dependencies: ["00000000000002C4"],
+			id: "0000000000000295",
 			tasks: [{
-				id: 662,
+				id: "0000000000000296",
 				type: "item",
 				item: "refinedstorage:4096k_fluid_storage_disk"
 			}],
 			rewards: [{
-				id: 1334,
+				id: "0000000000000536",
 				type: "item",
 				item: "spareparts:valuable_shard"
 			}]
@@ -300,15 +301,15 @@
 			x: 4.0d,
 			y: -5.0d,
 			description: ["A storage disk that can hold 64,000 items. The largest item storage disk available."],
-			dependencies: [I;708],
-			id: 663,
+			dependencies: ["00000000000002C4"],
+			id: "0000000000000297",
 			tasks: [{
-				id: 664,
+				id: "0000000000000298",
 				type: "item",
 				item: "refinedstorage:64k_storage_disk"
 			}],
 			rewards: [{
-				id: 1331,
+				id: "0000000000000533",
 				type: "item",
 				item: "spareparts:valuable_shard"
 			}]
@@ -317,21 +318,21 @@
 			x: 10.0d,
 			y: 1.0d,
 			description: ["Cables allow you to connect your network across distance. They are not always necessary, network machines placed next to each other are natively linked."],
-			dependencies: [I;637],
-			id: 665,
+			dependencies: ["000000000000027D"],
+			id: "0000000000000299",
 			tasks: [{
-				id: 666,
+				id: "000000000000029A",
 				type: "item",
 				item: "refinedstorage:cable"
 			}],
 			rewards: [
 				{
-					id: 1377,
+					id: "0000000000000561",
 					type: "item",
 					item: "minecraft:redstone"
 				},
 				{
-					id: 1378,
+					id: "0000000000000562",
 					type: "item",
 					item: "minecraft:gold_ingot"
 				}
@@ -341,21 +342,21 @@
 			x: 8.5d,
 			y: -0.5d,
 			description: ["The Exporter will export items or fluids FROM your network and INSERT them into a machine or inventory it is connected to."],
-			dependencies: [I;665],
-			id: 667,
+			dependencies: ["0000000000000299"],
+			id: "000000000000029B",
 			tasks: [{
-				id: 668,
+				id: "000000000000029C",
 				type: "item",
 				item: "refinedstorage:exporter"
 			}],
 			rewards: [
 				{
-					id: 1379,
+					id: "0000000000000563",
 					type: "item",
 					item: "minecraft:redstone"
 				},
 				{
-					id: 1380,
+					id: "0000000000000564",
 					type: "item",
 					item: "minecraft:gold_ingot"
 				}
@@ -365,19 +366,19 @@
 			x: 10.0d,
 			y: -0.5d,
 			description: ["The Importer will import items or fluids INTO your network FROM a inventory or machine. "],
-			dependencies: [I;665],
-			id: 669,
+			dependencies: ["0000000000000299"],
+			id: "000000000000029D",
 			tasks: [{
-				id: 670,
+				id: "000000000000029E",
 				type: "item",
 				item: "refinedstorage:importer"
 			}],
 			rewards: [{
-				id: 2040,
+				id: "00000000000007F8",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "tier_i_random"
 					}
@@ -392,19 +393,19 @@
 				"",
 				"For example a chest or a fluid tank."
 			],
-			dependencies: [I;665],
-			id: 671,
+			dependencies: ["0000000000000299"],
+			id: "000000000000029F",
 			tasks: [{
-				id: 672,
+				id: "00000000000002A0",
 				type: "item",
 				item: "refinedstorage:external_storage"
 			}],
 			rewards: [{
-				id: 2041,
+				id: "00000000000007F9",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "tier_ii_random"
 					}
@@ -415,17 +416,17 @@
 			x: 12.5d,
 			y: 1.0d,
 			description: ["The Storage Monitor shows the current amount of a fluid or item in your network. The item is set by shift right clicking the block and setting the item."],
-			dependencies: [I;665],
-			id: 673,
+			dependencies: ["0000000000000299"],
+			id: "00000000000002A1",
 			tasks: [{
-				id: 674,
+				id: "00000000000002A2",
 				type: "item",
 				item: "refinedstorage:storage_monitor"
 			}],
 			rewards: [{
-				id: 1528,
+				id: "00000000000005F8",
 				type: "random",
-				table: 2
+				table_id: 1396L
 			}]
 		},
 		{
@@ -435,30 +436,30 @@
 				"A portable grid that can use a storage disk outside of a network. Can be placed and used (sneak right click to place) or used directly from an inventory.",
 				"Must be charged in a charging block."
 			],
-			dependencies: [I;639],
-			id: 675,
+			dependencies: ["000000000000027F"],
+			id: "00000000000002A3",
 			tasks: [{
-				id: 676,
+				id: "00000000000002A4",
 				type: "item",
 				item: {
 					id: "refinedstorage:portable_grid",
-					Count: true,
+					Count: 1b,
 					tag: {}
 				}
 			}],
 			rewards: [
 				{
-					id: 1394,
+					id: "0000000000000572",
 					type: "item",
 					item: "minecraft:redstone",
 					random_bonus: 5
 				},
 				{
-					id: 2044,
+					id: "00000000000007FC",
 					type: "item",
 					item: {
 						id: "ftbquests:lootcrate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							type: "tier_iii_random"
 						}
@@ -470,19 +471,19 @@
 			x: 4.0d,
 			y: 5.5d,
 			description: ["The Fluid Grid allows you to view the fluids in your storage network as well as add and remove them. If you have a bucket in your inventory when clicking a fluid it will be filled with the liquid, otherwise the network will be searched for a bucket."],
-			dependencies: [I;639],
-			id: 677,
+			dependencies: ["000000000000027F"],
+			id: "00000000000002A5",
 			tasks: [{
-				id: 678,
+				id: "00000000000002A6",
 				type: "item",
 				item: "refinedstorage:fluid_grid"
 			}],
 			rewards: [{
-				id: 2045,
+				id: "00000000000007FD",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "tier_i_random"
 					}
@@ -496,19 +497,19 @@
 				"The Pattern Grid allows the creation of patterns for use in crafters. Will need to be loaded with blank patterns for use.",
 				"By placing the items needed for a recipe in the crafting grid, and pressing the arrow on the right, with a pattern loaded above, will set the pattern to that recipe."
 			],
-			dependencies: [I;639],
-			id: 679,
+			dependencies: ["000000000000027F"],
+			id: "00000000000002A7",
 			tasks: [{
-				id: 680,
+				id: "00000000000002A8",
 				type: "item",
 				item: "refinedstorage:pattern_grid"
 			}],
 			rewards: [{
-				id: 2042,
+				id: "00000000000007FA",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "tier_i_random"
 					}
@@ -519,36 +520,36 @@
 			x: 8.5d,
 			y: 4.0d,
 			description: ["The Crafter Manager shows all crafting patterns loaded into a network."],
-			dependencies: [I;683],
-			id: 681,
+			dependencies: ["00000000000002AB"],
+			id: "00000000000002A9",
 			tasks: [{
-				id: 682,
+				id: "00000000000002AA",
 				type: "item",
 				item: "refinedstorage:crafter_manager"
 			}],
 			rewards: [{
-				id: 1365,
+				id: "0000000000000555",
 				type: "choice",
-				table: 0
+				table_id: 1332L
 			}]
 		},
 		{
 			x: 7.0d,
 			y: 5.5d,
 			description: ["The Crafter can craft recipes with patterns. After loading with a pattern the item will show up as requestable at grids. "],
-			dependencies: [I;679],
-			id: 683,
+			dependencies: ["00000000000002A7"],
+			id: "00000000000002AB",
 			tasks: [{
-				id: 684,
+				id: "00000000000002AC",
 				type: "item",
 				item: "refinedstorage:crafter"
 			}],
 			rewards: [{
-				id: 2043,
+				id: "00000000000007FB",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "tier_ii_random"
 					}
@@ -559,32 +560,32 @@
 			x: 7.0d,
 			y: 2.5d,
 			description: ["An empty pattern for use in the Pattern Grid."],
-			dependencies: [I;679],
-			id: 685,
+			dependencies: ["00000000000002A7"],
+			id: "00000000000002AD",
 			tasks: [{
-				id: 686,
+				id: "00000000000002AE",
 				type: "item",
 				item: "refinedstorage:pattern"
 			}],
 			rewards: [{
-				id: 1354,
+				id: "000000000000054A",
 				type: "random",
-				table: 0
+				table_id: 1332L
 			}]
 		},
 		{
 			x: 5.5d,
 			y: -6.0d,
 			description: ["A security card can be linked to a player by right clicking with the card in hand."],
-			dependencies: [I;708],
-			id: 687,
+			dependencies: ["00000000000002C4"],
+			id: "00000000000002AF",
 			tasks: [{
-				id: 688,
+				id: "00000000000002B0",
 				type: "item",
 				item: "refinedstorage:security_card"
 			}],
 			rewards: [{
-				id: 1335,
+				id: "0000000000000537",
 				type: "item",
 				item: "randomite:randomite_ore",
 				random_bonus: 3
@@ -594,15 +595,15 @@
 			x: 5.5d,
 			y: -7.5d,
 			description: ["By inserting a Security Card into the Security Manager, a players permissions can be set for a linked network. An unlinked security card will set permissions for all people without a set clearance."],
-			dependencies: [I;687],
-			id: 689,
+			dependencies: ["00000000000002AF"],
+			id: "00000000000002B1",
 			tasks: [{
-				id: 690,
+				id: "00000000000002B2",
 				type: "item",
 				item: "refinedstorage:security_manager"
 			}],
 			rewards: [{
-				id: 1336,
+				id: "0000000000000538",
 				type: "item",
 				item: "minecraft:gold_ingot",
 				count: 2,
@@ -613,23 +614,23 @@
 			x: 15.0d,
 			y: 1.0d,
 			description: ["This basic item is the basis of every upgrade card. Every upgrade card will increase the power draw of the device."],
-			dependencies: [I;673],
-			id: 691,
+			dependencies: ["00000000000002A1"],
+			id: "00000000000002B3",
 			tasks: [{
-				id: 692,
+				id: "00000000000002B4",
 				type: "item",
 				item: "refinedstorage:upgrade"
 			}],
 			rewards: [
 				{
-					id: 1344,
+					id: "0000000000000540",
 					type: "item",
 					item: "minecraft:iron_ingot",
 					count: 2,
 					random_bonus: 4
 				},
 				{
-					id: 1345,
+					id: "0000000000000541",
 					type: "item",
 					item: "minecraft:gold_ingot",
 					count: 2
@@ -640,15 +641,15 @@
 			x: 15.0d,
 			y: 2.5d,
 			description: ["The stack upgrade will allow items to be moved a stack at a time instead of singularly."],
-			dependencies: [I;691],
-			id: 693,
+			dependencies: ["00000000000002B3"],
+			id: "00000000000002B5",
 			tasks: [{
-				id: 694,
+				id: "00000000000002B6",
 				type: "item",
 				item: "refinedstorage:stack_upgrade"
 			}],
 			rewards: [{
-				id: 1347,
+				id: "0000000000000543",
 				type: "item",
 				item: "minecraft:gold_ingot",
 				count: 2,
@@ -659,15 +660,15 @@
 			x: 15.0d,
 			y: -0.5d,
 			description: ["The Speed Upgrade will increase the speed of the network device it is inserted in to."],
-			dependencies: [I;691],
-			id: 695,
+			dependencies: ["00000000000002B3"],
+			id: "00000000000002B7",
 			tasks: [{
-				id: 696,
+				id: "00000000000002B8",
 				type: "item",
 				item: "refinedstorage:speed_upgrade"
 			}],
 			rewards: [{
-				id: 1346,
+				id: "0000000000000542",
 				type: "item",
 				item: "minecraft:redstone",
 				count: 2,
@@ -678,21 +679,21 @@
 			x: 5.5d,
 			y: 7.0d,
 			description: ["The Wireless Transmitter is used to wirelessly network items in a network. Has a standard range of 16 blocks but can be upgraded with range upgrades."],
-			dependencies: [I;639],
-			id: 697,
+			dependencies: ["000000000000027F"],
+			id: "00000000000002B9",
 			tasks: [{
-				id: 698,
+				id: "00000000000002BA",
 				type: "item",
 				item: "refinedstorage:wireless_transmitter"
 			}],
 			rewards: [
 				{
-					id: 1382,
+					id: "0000000000000566",
 					type: "item",
 					item: "minecraft:redstone"
 				},
 				{
-					id: 1383,
+					id: "0000000000000567",
 					type: "item",
 					item: "minecraft:gold_ingot"
 				}
@@ -702,21 +703,21 @@
 			x: 4.0d,
 			y: 7.0d,
 			description: ["A range upgrade for the Wireless Transmitter. Will increase power draw."],
-			dependencies: [I;697],
-			id: 699,
+			dependencies: ["00000000000002B9"],
+			id: "00000000000002BB",
 			tasks: [{
-				id: 700,
+				id: "00000000000002BC",
 				type: "item",
 				item: "refinedstorage:range_upgrade"
 			}],
 			rewards: [
 				{
-					id: 1381,
+					id: "0000000000000565",
 					type: "item",
 					item: "minecraft:gold_ingot"
 				},
 				{
-					id: 1384,
+					id: "0000000000000568",
 					type: "item",
 					item: "minecraft:redstone"
 				}
@@ -726,21 +727,21 @@
 			x: 4.5d,
 			y: 8.5d,
 			description: ["A wireless version of the fluid grid to access your network on the move. Must be charged to work and must be within range of a wireless transmitter."],
-			dependencies: [I;697],
-			id: 701,
+			dependencies: ["00000000000002B9"],
+			id: "00000000000002BD",
 			tasks: [{
-				id: 702,
+				id: "00000000000002BE",
 				type: "item",
 				item: "refinedstorage:wireless_fluid_grid"
 			}],
 			rewards: [
 				{
-					id: 1349,
+					id: "0000000000000545",
 					type: "item",
 					item: "spareparts:coins/iron_coin"
 				},
 				{
-					id: 1353,
+					id: "0000000000000549",
 					type: "item",
 					item: "minecraft:gold_ingot",
 					count: 2
@@ -751,21 +752,21 @@
 			x: 6.5d,
 			y: 8.5d,
 			description: ["A wireless version of the crafting grid to craft on the move. Must be charged to work and be within range of a wireless transmitter."],
-			dependencies: [I;697],
-			id: 703,
+			dependencies: ["00000000000002B9"],
+			id: "00000000000002BF",
 			tasks: [{
-				id: 704,
+				id: "00000000000002C0",
 				type: "item",
 				item: "refinedstorage:wireless_crafting_monitor"
 			}],
 			rewards: [
 				{
-					id: 1350,
+					id: "0000000000000546",
 					type: "item",
 					item: "spareparts:coins/golden_coin"
 				},
 				{
-					id: 1351,
+					id: "0000000000000547",
 					type: "item",
 					item: "minecraft:diamond",
 					random_bonus: 1
@@ -777,28 +778,28 @@
 			x: 7.0d,
 			y: 7.0d,
 			description: ["Allows wireless connection of a network. The controller of a system must stay chunkloaded to work."],
-			dependencies: [I;697],
-			id: 705,
+			dependencies: ["00000000000002B9"],
+			id: "00000000000002C1",
 			tasks: [
 				{
-					id: 706,
+					id: "00000000000002C2",
 					type: "item",
 					item: "refinedstorage:network_transmitter"
 				},
 				{
-					id: 707,
+					id: "00000000000002C3",
 					type: "item",
 					item: "refinedstorage:network_receiver"
 				}
 			],
 			rewards: [
 				{
-					id: 1348,
+					id: "0000000000000544",
 					type: "item",
 					item: "spareparts:coins/golden_coin"
 				},
 				{
-					id: 1352,
+					id: "0000000000000548",
 					type: "item",
 					item: "spareparts:valuable_shard"
 				}
@@ -812,22 +813,22 @@
 				"",
 				"As an alternative, storage blocks can be made of the respective storage sizes but the size of a standard block."
 			],
-			dependencies: [I;637],
-			id: 708,
+			dependencies: ["000000000000027D"],
+			id: "00000000000002C4",
 			tasks: [{
-				id: 709,
+				id: "00000000000002C5",
 				type: "item",
 				item: "refinedstorage:disk_drive"
 			}],
 			rewards: [
 				{
-					id: 1392,
+					id: "0000000000000570",
 					type: "item",
 					item: "minecraft:gold_ingot",
 					random_bonus: 3
 				},
 				{
-					id: 1393,
+					id: "0000000000000571",
 					type: "item",
 					item: "minecraft:redstone",
 					random_bonus: 3
@@ -838,19 +839,19 @@
 			x: 8.5d,
 			y: 2.5d,
 			description: ["The Detector will emit a redstone signal if an item or fluid reaches a certain amount in your network. Liquid amounts given in mB."],
-			dependencies: [I;665],
-			id: 4438,
+			dependencies: ["0000000000000299"],
+			id: "0000000000001156",
 			tasks: [{
-				id: 4439,
+				id: "0000000000001157",
 				type: "item",
 				item: "refinedstorage:detector"
 			}],
 			rewards: [{
-				id: 4802,
+				id: "00000000000012C2",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "quark_basic_stones"
 					}
@@ -864,21 +865,21 @@
 				"A constructor can place blocks into the world from the network. It can also drop items into the world.",
 				"A stack upgrade will drop stacks of items."
 			],
-			dependencies: [I;665],
-			id: 4440,
+			dependencies: ["0000000000000299"],
+			id: "0000000000001158",
 			tasks: [{
-				id: 4441,
+				id: "0000000000001159",
 				type: "item",
 				item: "refinedstorage:constructor"
 			}],
 			rewards: [
 				{
-					id: 4798,
+					id: "00000000000012BE",
 					type: "item",
 					item: "minecraft:gold_ingot"
 				},
 				{
-					id: 4799,
+					id: "00000000000012BF",
 					type: "item",
 					item: "minecraft:diamond"
 				}
@@ -888,21 +889,21 @@
 			x: 11.5d,
 			y: 2.5d,
 			description: ["The Destructor breaks items in the world and puts them in the network. It can also pick up items in the world that are in front of it."],
-			dependencies: [I;665],
-			id: 4442,
+			dependencies: ["0000000000000299"],
+			id: "000000000000115A",
 			tasks: [{
-				id: 4443,
+				id: "000000000000115B",
 				type: "item",
 				item: "refinedstorage:destructor"
 			}],
 			rewards: [
 				{
-					id: 4800,
+					id: "00000000000012C0",
 					type: "item",
 					item: "minecraft:gold_ingot"
 				},
 				{
-					id: 4801,
+					id: "00000000000012C1",
 					type: "item",
 					item: "minecraft:iron_ingot"
 				}
@@ -912,19 +913,19 @@
 			x: 16.5d,
 			y: 2.5d,
 			description: ["The Crafting Upgrade will allow the scheduling of a crafting task when the machine is busy."],
-			dependencies: [I;691],
-			id: 4446,
+			dependencies: ["00000000000002B3"],
+			id: "000000000000115E",
 			tasks: [{
-				id: 4447,
+				id: "000000000000115F",
 				type: "item",
 				item: "refinedstorage:crafting_upgrade"
 			}],
 			rewards: [{
-				id: 4806,
+				id: "00000000000012C6",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "deco_blocks_set_2"
 					}
@@ -935,19 +936,19 @@
 			x: 16.5d,
 			y: -0.5d,
 			description: ["The Regulator Upgrade can be inserted into an Exporter to make it leave items in stock on the network. "],
-			dependencies: [I;691],
-			id: 4448,
+			dependencies: ["00000000000002B3"],
+			id: "0000000000001160",
 			tasks: [{
-				id: 4449,
+				id: "0000000000001161",
 				type: "item",
 				item: "refinedstorage:regulator_upgrade"
 			}],
 			rewards: [{
-				id: 4805,
+				id: "00000000000012C5",
 				type: "item",
 				item: {
 					id: "ftbquests:lootcrate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						type: "tier_i_random"
 					}
@@ -958,15 +959,15 @@
 			x: 13.5d,
 			y: -0.5d,
 			description: ["The Fortune Upgrade (which comes in levels of 1, 2, and 3) gives levels of fortune to Destructor tasks."],
-			dependencies: [I;691],
-			id: 4450,
+			dependencies: ["00000000000002B3"],
+			id: "0000000000001162",
 			tasks: [{
-				id: 4451,
+				id: "0000000000001163",
 				type: "item",
 				item: "refinedstorage:fortune_1_upgrade"
 			}],
 			rewards: [{
-				id: 4804,
+				id: "00000000000012C4",
 				type: "item",
 				item: "minecraft:gold_ingot",
 				count: 2,
@@ -977,15 +978,15 @@
 			x: 13.5d,
 			y: 2.5d,
 			description: ["The Silk Touch Upgrade will give Destructor tasks silk touch."],
-			dependencies: [I;691],
-			id: 4452,
+			dependencies: ["00000000000002B3"],
+			id: "0000000000001164",
 			tasks: [{
-				id: 4453,
+				id: "0000000000001165",
 				type: "item",
 				item: "refinedstorage:silk_touch_upgrade"
 			}],
 			rewards: [{
-				id: 4803,
+				id: "00000000000012C3",
 				type: "item",
 				item: "minecraft:iron_ingot",
 				random_bonus: 3

@@ -9,7 +9,7 @@
 	#Range: 0.0 ~ 1.0
 	piglinChance = 0.2
 	#
-	#Odds of withers dropping nether set packs, 0 for 0%, 1 for 100%, default is 50%
+	#Odds of ender dragons dropping end set packs, 0 for 0%, 1 for 100%, default is 100%
 	#Range: 0.0 ~ 1.0
 	dragonChance = 1.0
 	#
@@ -29,9 +29,17 @@
 	#Range: 0.0 ~ 1.0
 	shulkerChance = 0.05
 	#
-	#Maximum amount of packs dropped when a wither drops packs, default is 3
+	#Maximum amount of packs dropped when a dragon drops packs, default is 4
 	#Range: 1 ~ 16
 	dragonMaxPacks = 4
+	#
+	#Odds of withers dropping nether set packs, 0 for 0%, 1 for 100%, default is 50%
+	#Range: 0.0 ~ 1.0
+	witherChance = 0.5
+	#
+	#Maximum amount of packs dropped when a wither drops packs, default is 3
+	#Range: 1 ~ 16
+	witherMaxPacks = 3
 
 [lootTables]
 	#
@@ -111,4 +119,8 @@
 	#Multiplier for challenge points with grade S, 0-10, default is 10
 	#Range: 0.0 ~ 10.0
 	grade5Multiplier = 10.0
+	#
+	#Multiplier for challenge points from aquaculture set, 0-10, default is 1
+	#Range: 0.0 ~ 10.0
+	set6Multiplier = 1.0
 

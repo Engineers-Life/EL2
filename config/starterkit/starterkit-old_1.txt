@@ -31,7 +31,7 @@
 25 : '',
 26 : '{id:"minecraft:wheat_seeds",Count:3b}',
 27 : '',
-28 : '{id:"minecraft:written_book",Count:1b,tag:{pages:['{"text":"Start of the page  1\\n111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111\\nend of the page 1"}','{"text":"start of the page 2\\n\\n123123\\n\\n1231231231231231231\\n\\n\\n\\n\\n\\n\\n\\n\\nend of the page 2"}'],title:"Dusty old book",author:"dreamsx"}}',
+28 : '{id:"minecraft:written_book",Count:1b,tag:{pages:['{"text":"sample text"}','{"text":"page 2"}','{"text":"page 3"}'],title:"Old book",author:"dreamsx",resolved:1b}}',
 29 : '',
 30 : '',
 31 : '',

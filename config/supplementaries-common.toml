@@ -16,6 +16,8 @@
 		cage_allow_all_mobs = false
 		#additional mobs that you'll be able to catch with the added condition that it has to be a baby variant. No need to include the ones already in cage_mobs
 		cage_baby_mobs = ["minecraft:cow", "minecraft:sheep", "minecraft:pig"]
+		#allow all baby mobs to be captured by cages
+		cage_allow_all_babies = false
 
 	[blocks.speaker_block]
 		#maximum range
@@ -67,8 +69,6 @@
 		#jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
-		#any item can work here, ideally you should only put cookies and alike
-		cookies = ["minecraft:cookie", "farmersdelight:honey_cookie", "farmersdelight:sweet_berry_cookie", "farmersdelight:peanut_butter_cookie", "pamhc2crops:beanitem", "pamhc2crops:chickpeaitem", "cookielicious:strawberry_cookie", "cookielicious:vanilla_cookie", "cookielicious:sandwich_cookie", "pamhc2crops:garlicitem", "pamhc2crops:jicamaitem", "pamhc2crops:roastedmushroomitem", "pamhc2crops:bakedwaterchestnutitem", "pamhc2crops:waterchestnutitem", "pamhc2crops:chocolatemuffinitem", "pamhc2crops:donutitem", "pamhc2crops:chocolatedonutitem", "pamhc2crops:jellydonutitem", "pamhc2crops:crackeritem", "pamhc2crops:pretzelitem", "pamhc2crops:chocolatebaritem", "pamhc2crops:chocolaterollitem", "pamhc2crops:chocolatecaramelfudgeitem", "pamhc2crops:smoresitem", "pamhc2crops:trailmixitem", "pamhc2crops:candiedpecansitem", "pamhc2crops:candiedsweetpotatoesitem", "pamhc2crops:candiedwalnutsitem", "pamhc2crops:chocolateorangeitem", "pamhc2crops:chocolatepeanutbaritem", "pamhc2crops:chocolatestrawberryitem", "pamhc2crops:peanutbuttercupitem", "pamhc2crops:pralinesitem", "pamhc2crops:pinenutitem", "pamhc2crops:roastedalmonditem", "pamhc2crops:roastedpinenutitem"]
 
 	[blocks.sack]
 		#penalize the player with slowness effecn when carring too many sacks
@@ -85,6 +85,9 @@
 	[blocks.safe]
 		#makes safes only breakable by their owner or by a player in creative
 		prevent_breaking = false
+		#make safes simpler so they do not require keys:
+		#they will be bound to the first person that opens one and only that person will be able to interact with them
+		simple_safes = false
 
 	[blocks.globe]
 		#how many globe trades to give to the wandering trader. If you have mods that add more trades to him you might want to increase this so it's not as rare
@@ -135,8 +138,6 @@
 	[tweaks.throwable_bricks]
 		#throw bricks at your foes! Might glass blocks
 		enabled = true
-		#additional items that will be able to be thrown (will work with any item). Items tagges as forge/ingots/bricks or nether bricks will be automatically added
-		whitelist = ["biomesoplenty:mud_brick", "byg:yellow_nether_brick", "byg:blue_nether_brick"]
 
 	[tweaks.wall_lantern]
 		#allow wall lanterns placement
@@ -170,6 +171,8 @@
 		#max distance at which a bound flute will allow a pet to teleport
 		#Range: 0 ~ 500
 		bound_distance = 64
+		#additional non tameable entities that you can bind to flutes
+		flute_extra_mobs = ["minecraft:horse", "minecraft:llama", "minecraft:donkey", "minecraft:fox"]
 
 [comment]
 	#This config is synced server side. If you are on a server you'll get its own version

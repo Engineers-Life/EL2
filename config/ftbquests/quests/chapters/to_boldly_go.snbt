@@ -1,7 +1,8 @@
 {
-	id: 3981,
+	id: "0000000000000F8D",
+	group: "",
+	order_index: 4,
 	filename: "to_boldly_go",
-	order_index: 5,
 	title: "To Boldly Go!",
 	icon: "minecraft:compass",
 	default_quest_shape: "",
@@ -13,22 +14,22 @@
 				"Better start digging up some treasure to find one of these puppies.",
 				"You will want to trade with a Village Cartographer to get a treasure map, or explore shipwrecks and ocean ruins."
 			],
-			dependencies: [I;222],
-			id: 228,
+			dependencies: ["00000000000000DE"],
+			id: "00000000000000E4",
 			tasks: [{
-				id: 229,
+				id: "00000000000000E5",
 				type: "item",
 				item: "minecraft:heart_of_the_sea"
 			}],
 			rewards: [
 				{
-					id: 249,
+					id: "00000000000000F9",
 					type: "item",
 					item: "quark:prismarine_chest",
 					count: 2
 				},
 				{
-					id: 1104,
+					id: "0000000000000450",
 					type: "item",
 					item: "spareparts:coins/stone_coin"
 				}
@@ -38,14 +39,14 @@
 			x: 2.0d,
 			y: -1.5d,
 			description: ["A fair number of these will be thrown at you in your underwater adventures."],
-			dependencies: [I;222],
-			id: 230,
+			dependencies: ["00000000000000DE"],
+			id: "00000000000000E6",
 			tasks: [{
-				id: 231,
+				id: "00000000000000E7",
 				type: "item",
 				item: {
 					id: "minecraft:trident",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -53,17 +54,17 @@
 			}],
 			rewards: [
 				{
-					id: 255,
+					id: "00000000000000FF",
 					type: "item",
 					item: "minecraft:prismarine_shard",
 					count: 3
 				},
 				{
-					id: 259,
+					id: "0000000000000103",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 1s,
@@ -73,7 +74,7 @@
 					}
 				},
 				{
-					id: 389,
+					id: "0000000000000185",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -83,44 +84,44 @@
 			x: 8.0d,
 			y: 0.0d,
 			description: ["You defeated the Elder Guardian, enjoy these unique rewards!"],
-			dependencies: [I;5401],
-			id: 232,
+			dependencies: ["0000000000001519"],
+			id: "00000000000000E8",
 			tasks: [
 				{
-					id: 233,
+					id: "00000000000000E9",
 					type: "item",
 					item: "quark:elder_sea_lantern"
 				},
 				{
-					id: 234,
+					id: "00000000000000EA",
 					type: "item",
 					item: "quark:elder_prismarine"
 				}
 			],
 			rewards: [
 				{
-					id: 256,
+					id: "0000000000000100",
 					type: "item",
 					item: "minecraft:prismarine_crystals",
 					count: 4
 				},
 				{
-					id: 257,
+					id: "0000000000000101",
 					type: "item",
 					item: {
 						id: "minecraft:splash_potion",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Potion: "minecraft:strength"
 						}
 					}
 				},
 				{
-					id: 334,
+					id: "000000000000014E",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 3s,
@@ -130,7 +131,7 @@
 					}
 				},
 				{
-					id: 1477,
+					id: "00000000000005C5",
 					type: "item",
 					item: "spareparts:coins/stone_coin"
 				}
@@ -141,15 +142,15 @@
 			x: 3.0d,
 			y: 0.0d,
 			description: ["Should help you get across those large bodies of water with ease."],
-			dependencies: [I;226],
-			id: 222,
+			dependencies: ["00000000000000E2"],
+			id: "00000000000000DE",
 			tasks: [{
-				id: 223,
+				id: "00000000000000DF",
 				type: "item",
 				title: "Boat",
 				item: {
 					id: "itemfilters:tag",
-					Count: true,
+					Count: 1b,
 					tag: {
 						value: "minecraft:boats"
 					}
@@ -157,28 +158,28 @@
 			}],
 			rewards: [
 				{
-					id: 258,
+					id: "0000000000000102",
 					type: "item",
 					item: {
 						id: "minecraft:splash_potion",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Potion: "minecraft:strong_swiftness"
 						}
 					}
 				},
 				{
-					id: 377,
+					id: "0000000000000179",
 					type: "xp_levels",
 					xp_levels: 5
 				},
 				{
-					id: 840,
+					id: "0000000000000348",
 					type: "item",
 					item: "pamhc2foodcore:hotchocolateitem"
 				},
 				{
-					id: 1127,
+					id: "0000000000000467",
 					type: "item",
 					item: "spareparts:coins/stone_coin"
 				}
@@ -192,27 +193,27 @@
 				"Better start exploring the woodlands for mansions or protecting villages if you want this life saving backup.",
 				"You may want to trade for a Explorers Map from a Village Cartographer to try and find a Mansion."
 			],
-			dependencies: [I;226],
-			id: 1057,
+			dependencies: ["00000000000000E2"],
+			id: "0000000000000421",
 			tasks: [{
-				id: 1058,
+				id: "0000000000000422",
 				type: "item",
 				item: "minecraft:totem_of_undying"
 			}],
 			rewards: [
 				{
-					id: 1059,
+					id: "0000000000000423",
 					type: "item",
 					item: "minecraft:emerald",
 					random_bonus: 2
 				},
 				{
-					id: 1060,
+					id: "0000000000000424",
 					type: "xp_levels",
 					xp_levels: 5
 				},
 				{
-					id: 1110,
+					id: "0000000000000456",
 					type: "item",
 					item: "spareparts:coins/stone_coin"
 				}
@@ -225,29 +226,29 @@
 				"Time to get out there and start exploring the map.",
 				"You may need many of these but they will really help you not get lost."
 			],
-			dependencies: [I;
-				224,
-				3984
+			dependencies: [
+				"00000000000000E0",
+				"0000000000000F90"
 			],
-			id: 226,
+			id: "00000000000000E2",
 			tasks: [{
-				id: 227,
+				id: "00000000000000E3",
 				type: "item",
 				item: "minecraft:map"
 			}],
 			rewards: [
 				{
-					id: 302,
+					id: "000000000000012E",
 					type: "item",
 					item: "minecraft:light_gray_dye",
 					count: 16
 				},
 				{
-					id: 333,
+					id: "000000000000014D",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 1s,
@@ -262,26 +263,26 @@
 			x: 23.0d,
 			y: 0.0d,
 			description: ['If I sprinkle some of this "magic" dust on one of those eyes from a teleporting tall guys they seem to fly off in a direction. I should follow to see where they head.'],
-			dependencies: [I;124],
-			id: 147,
+			dependencies: ["000000000000007C"],
+			id: "0000000000000093",
 			tasks: [{
-				id: 148,
+				id: "0000000000000094",
 				type: "item",
 				item: "minecraft:ender_eye"
 			}],
 			rewards: [
 				{
-					id: 240,
+					id: "00000000000000F0",
 					type: "item",
 					item: "quark:crimson_chest",
 					count: 2
 				},
 				{
-					id: 346,
+					id: "000000000000015A",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 2s,
@@ -299,20 +300,20 @@
 			y: 0.030952380952385283d,
 			shape: "gear",
 			description: ["A big portal in an old dungeon. What could go wrong jumping in?"],
-			dependencies: [I;147],
+			dependencies: ["0000000000000093"],
 			size: 2.0d,
-			id: 126,
+			id: "000000000000007E",
 			tasks: [{
-				id: 127,
+				id: "000000000000007F",
 				type: "dimension",
 				dimension: "minecraft:end"
 			}],
 			rewards: [{
-				id: 345,
+				id: "0000000000000159",
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 3s,
@@ -331,9 +332,9 @@
 			shape: "gear",
 			description: ["There is a whole new land of mystery down here."],
 			size: 2.0d,
-			id: 128,
+			id: "0000000000000080",
 			tasks: [{
-				id: 129,
+				id: "0000000000000081",
 				type: "dimension",
 				title: "Visit Nether Dimension",
 				dimension: "minecraft:the_nether"
@@ -342,15 +343,15 @@
 		{
 			x: 18.5d,
 			y: 4.5d,
-			dependencies: [I;3999],
-			id: 215,
+			dependencies: ["0000000000000F9F"],
+			id: "00000000000000D7",
 			tasks: [{
-				id: 216,
+				id: "00000000000000D8",
 				type: "item",
 				item: "quark:magma_bricks"
 			}],
 			rewards: [{
-				id: 221,
+				id: "00000000000000DD",
 				type: "item",
 				item: "quark:nether_brick_chest",
 				count: 2
@@ -360,22 +361,22 @@
 			x: 21.0d,
 			y: 0.0d,
 			description: ["It isn't \"magic\", it is \"chemistry\". ;)"],
-			dependencies: [I;128],
-			id: 124,
+			dependencies: ["0000000000000080"],
+			id: "000000000000007C",
 			tasks: [
 				{
-					id: 125,
+					id: "000000000000007D",
 					type: "item",
 					item: "minecraft:brewing_stand"
 				},
 				{
-					id: 146,
+					id: "0000000000000092",
 					type: "item",
 					item: "minecraft:blaze_powder"
 				}
 			],
 			rewards: [{
-				id: 239,
+				id: "00000000000000EF",
 				type: "item",
 				item: "quark:warped_chest",
 				count: 2
@@ -385,19 +386,19 @@
 			x: 16.5d,
 			y: -1.5d,
 			description: ["Some kind of ancient metal it seems, could use potentially. I wonder how strong it is?"],
-			dependencies: [I;128],
-			id: 149,
+			dependencies: ["0000000000000080"],
+			id: "0000000000000095",
 			tasks: [{
-				id: 150,
+				id: "0000000000000096",
 				type: "item",
 				item: "minecraft:ancient_debris"
 			}],
 			rewards: [{
-				id: 347,
+				id: "000000000000015B",
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 4s,
@@ -412,27 +413,27 @@
 			x: 16.0d,
 			y: 0.0d,
 			description: ["Killed a trio of black skeletons that sapped my strength when they hit me."],
-			dependencies: [I;128],
-			id: 130,
+			dependencies: ["0000000000000080"],
+			id: "0000000000000082",
 			tasks: [{
-				id: 131,
+				id: "0000000000000083",
 				type: "item",
 				item: "minecraft:wither_skeleton_skull",
 				count: 3L
 			}],
 			rewards: [
 				{
-					id: 305,
+					id: "0000000000000131",
 					type: "item",
 					item: "minecraft:black_dye",
 					count: 16
 				},
 				{
-					id: 350,
+					id: "000000000000015E",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 1s,
@@ -447,15 +448,15 @@
 			x: 20.5d,
 			y: 2.0d,
 			description: ["Hey a free source of light, quite decorative and usefull as well."],
-			dependencies: [I;128],
-			id: 241,
+			dependencies: ["0000000000000080"],
+			id: "00000000000000F1",
 			tasks: [{
-				id: 242,
+				id: "00000000000000F2",
 				type: "item",
 				item: "minecraft:glowstone"
 			}],
 			rewards: [{
-				id: 297,
+				id: "0000000000000129",
 				type: "item",
 				item: "minecraft:purple_dye",
 				count: 16
@@ -465,32 +466,32 @@
 			x: 20.5d,
 			y: 3.5d,
 			description: ["I bet I can take some glowstone and make it a bit more industrial looking."],
-			dependencies: [I;241],
-			id: 243,
+			dependencies: ["00000000000000F1"],
+			id: "00000000000000F3",
 			tasks: [
 				{
-					id: 244,
+					id: "00000000000000F4",
 					type: "item",
 					item: "simplylight:illuminant_panel"
 				},
 				{
-					id: 245,
+					id: "00000000000000F5",
 					type: "item",
 					item: "simplylight:wall_lamp"
 				},
 				{
-					id: 246,
+					id: "00000000000000F6",
 					type: "item",
 					item: "simplylight:edge_light_top"
 				}
 			],
 			rewards: [
 				{
-					id: 348,
+					id: "000000000000015C",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 2s,
@@ -500,7 +501,7 @@
 					}
 				},
 				{
-					id: 1107,
+					id: "0000000000000453",
 					type: "item",
 					item: "spareparts:coins/stone_coin"
 				}
@@ -511,20 +512,20 @@
 			x: 14.0d,
 			y: 0.0d,
 			description: ["I should make an example out of those skeletons and make an effigy on a T of soul sand. That should teach them!"],
-			dependencies: [I;130],
-			id: 132,
+			dependencies: ["0000000000000082"],
+			id: "0000000000000084",
 			tasks: [{
-				id: 133,
+				id: "0000000000000085",
 				type: "kill",
 				entity: "minecraft:wither",
 				value: 1L
 			}],
 			rewards: [{
-				id: 364,
+				id: "000000000000016C",
 				type: "item",
 				item: {
 					id: "minecraft:enchanted_book",
-					Count: true,
+					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
 							lvl: 2s,
@@ -538,19 +539,19 @@
 			x: 16.5d,
 			y: -3.5d,
 			description: ["Seems like the ancient metal smelts down quite well."],
-			dependencies: [I;149],
-			id: 151,
+			dependencies: ["0000000000000095"],
+			id: "0000000000000097",
 			tasks: [{
-				id: 152,
+				id: "0000000000000098",
 				type: "item",
 				item: "minecraft:netherite_ingot"
 			}],
 			rewards: [{
-				id: 349,
+				id: "000000000000015D",
 				type: "item",
 				item: {
 					id: "minecraft:splash_potion",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Potion: "minecraft:strong_strength"
 					}
@@ -561,14 +562,14 @@
 			x: 18.0d,
 			y: -5.0d,
 			description: ["This may be the best pickaxe I have ever seen!"],
-			dependencies: [I;151],
-			id: 153,
+			dependencies: ["0000000000000097"],
+			id: "0000000000000099",
 			tasks: [{
-				id: 154,
+				id: "000000000000009A",
 				type: "item",
 				item: {
 					id: "minecraft:netherite_pickaxe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -576,11 +577,11 @@
 			}],
 			rewards: [
 				{
-					id: 365,
+					id: "000000000000016D",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 1s,
@@ -590,7 +591,7 @@
 					}
 				},
 				{
-					id: 973,
+					id: "00000000000003CD",
 					type: "item",
 					item: "randomite:randomite_ore"
 				}
@@ -601,16 +602,16 @@
 			y: 0.0d,
 			shape: "gear",
 			description: ["Did that Wither just drop a..... star?"],
-			dependencies: [I;132],
+			dependencies: ["0000000000000084"],
 			size: 1.5d,
-			id: 134,
+			id: "0000000000000086",
 			tasks: [{
-				id: 135,
+				id: "0000000000000087",
 				type: "item",
 				item: "minecraft:nether_star"
 			}],
 			rewards: [{
-				id: 358,
+				id: "0000000000000166",
 				type: "xp_levels",
 				xp_levels: 5
 			}]
@@ -619,20 +620,20 @@
 			x: 12.0d,
 			y: -1.5d,
 			description: ["I bet this star could give me a big beam of light. Could also have some other benefits if I put it up on some blocks of metal like some kind of antenna."],
-			dependencies: [I;134],
-			id: 136,
+			dependencies: ["0000000000000086"],
+			id: "0000000000000088",
 			tasks: [{
-				id: 137,
+				id: "0000000000000089",
 				type: "item",
 				item: "minecraft:beacon"
 			}],
 			rewards: [
 				{
-					id: 355,
+					id: "0000000000000163",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 1s,
@@ -642,16 +643,16 @@
 					}
 				},
 				{
-					id: 356,
+					id: "0000000000000164",
 					type: "xp_levels",
 					xp_levels: 10
 				},
 				{
-					id: 368,
+					id: "0000000000000170",
 					type: "item",
 					item: {
 						id: "minecraft:enchanted_book",
-						Count: true,
+						Count: 1b,
 						tag: {
 							StoredEnchantments: [{
 								lvl: 1s,
@@ -661,7 +662,7 @@
 					}
 				},
 				{
-					id: 972,
+					id: "00000000000003CC",
 					type: "item",
 					item: "minecraft:emerald"
 				}
@@ -674,9 +675,9 @@
 			y: 4.0d,
 			shape: "gear",
 			size: 2.0d,
-			id: 3984,
+			id: "0000000000000F90",
 			tasks: [{
-				id: 3985,
+				id: "0000000000000F91",
 				type: "item",
 				item: "minecraft:compass"
 			}]
@@ -687,18 +688,18 @@
 			y: 2.5d,
 			shape: "gear",
 			description: ["May want to look into collecting some of these for some future hot prospects."],
-			dependencies: [I;128],
+			dependencies: ["0000000000000080"],
 			size: 1.5d,
-			id: 3999,
+			id: "0000000000000F9F",
 			tasks: [
 				{
-					id: 4000,
+					id: "0000000000000FA0",
 					type: "item",
 					item: "minecraft:magma_block",
 					count: 9L
 				},
 				{
-					id: 4458,
+					id: "000000000000116A",
 					type: "item",
 					item: "minecraft:nether_brick",
 					count: 36L
@@ -706,14 +707,14 @@
 			],
 			rewards: [
 				{
-					id: 4930,
+					id: "0000000000001342",
 					type: "xp_levels",
 					xp_levels: 5
 				},
 				{
-					id: 4931,
+					id: "0000000000001343",
 					type: "random",
-					table: 4
+					table_id: 1483L
 				}
 			]
 		},
@@ -725,48 +726,48 @@
 				"Getting yourself a set of this gear will give you a big advantage underwater.",
 				"You too can be a part of the SCUBA SQUAD!"
 			],
-			dependencies: [I;222],
-			id: 4020,
+			dependencies: ["00000000000000DE"],
+			id: "0000000000000FB4",
 			tasks: [
 				{
-					id: 4021,
+					id: "0000000000000FB5",
 					type: "item",
 					item: {
 						id: "scuba_gear:scuba_helmet",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 4022,
+					id: "0000000000000FB6",
 					type: "item",
 					item: {
 						id: "scuba_gear:scuba_chestplate",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 4023,
+					id: "0000000000000FB7",
 					type: "item",
 					item: {
 						id: "scuba_gear:scuba_leggings",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
 					}
 				},
 				{
-					id: 4024,
+					id: "0000000000000FB8",
 					type: "item",
 					item: {
 						id: "scuba_gear:scuba_boots",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -774,7 +775,7 @@
 				}
 			],
 			rewards: [{
-				id: 4025,
+				id: "0000000000000FB9",
 				type: "item",
 				item: "pamhc2foodcore:fishsticksitem",
 				count: 10,
@@ -785,17 +786,17 @@
 			x: 16.5d,
 			y: 2.0d,
 			description: ["This quartz grows pretty crazy down here. Seems like it may be refinable. "],
-			dependencies: [I;128],
-			id: 4454,
+			dependencies: ["0000000000000080"],
+			id: "0000000000001166",
 			tasks: [{
-				id: 4455,
+				id: "0000000000001167",
 				type: "item",
 				item: "minecraft:quartz"
 			}],
 			rewards: [{
-				id: 4932,
+				id: "0000000000001344",
 				type: "random",
-				table: 6
+				table_id: 1980L
 			}]
 		},
 		{
@@ -804,23 +805,23 @@
 			y: 3.75d,
 			shape: "gear",
 			description: ["This silicon may be the magic to some tech I need...."],
-			dependencies: [I;4454],
+			dependencies: ["0000000000001166"],
 			size: 1.5d,
-			id: 4456,
+			id: "0000000000001168",
 			tasks: [{
-				id: 4457,
+				id: "0000000000001169",
 				type: "item",
 				item: "refinedstorage:silicon"
 			}],
 			rewards: [
 				{
-					id: 4795,
+					id: "00000000000012BB",
 					type: "item",
 					item: "minecraft:iron_ingot",
 					random_bonus: 2
 				},
 				{
-					id: 4796,
+					id: "00000000000012BC",
 					type: "item",
 					item: "minecraft:gold_ingot",
 					random_bonus: 2
@@ -831,15 +832,15 @@
 			x: 17.5d,
 			y: -2.5d,
 			description: ["The Reclaimer is your portal out of the Nether. Found in Monoliths around the Nether, the Reclaimers can be activated by having a block of gold touching 4 sides of the block. When activated, the beam will change to gold and lift and transport you to the Overworld."],
-			dependencies: [I;128],
-			id: 5372,
+			dependencies: ["0000000000000080"],
+			id: "00000000000014FC",
 			tasks: [{
-				id: 5373,
+				id: "00000000000014FD",
 				type: "item",
 				item: "betterportals:reclaimer"
 			}],
 			rewards: [{
-				id: 5376,
+				id: "0000000000001500",
 				type: "item",
 				item: "spareparts:coins/copper_coin"
 			}]
@@ -848,15 +849,15 @@
 			x: 18.5d,
 			y: -2.0d,
 			description: ["The portal pools in Nether Rifts can be picked up and moved by bucket. A new portal can then be placed anywhere of your choosing, as long as it is deep underground."],
-			dependencies: [I;128],
-			id: 5374,
+			dependencies: ["0000000000000080"],
+			id: "00000000000014FE",
 			tasks: [{
-				id: 5375,
+				id: "00000000000014FF",
 				type: "item",
 				item: "betterportals:portal_fluid_bucket"
 			}],
 			rewards: [{
-				id: 5377,
+				id: "0000000000001501",
 				type: "item",
 				item: "spareparts:coins/copper_coin"
 			}]
@@ -869,10 +870,10 @@
 				"",
 				"You can create new guards by giving villagers with no job a sword. This will create a guard whose inventory can be openned and they can be given gear."
 			],
-			dependencies: [I;226],
-			id: 5379,
+			dependencies: ["00000000000000E2"],
+			id: "0000000000001503",
 			tasks: [{
-				id: 5380,
+				id: "0000000000001504",
 				type: "advancement",
 				title: "Hero of the Village",
 				icon: "minecraft:black_banner",
@@ -881,17 +882,17 @@
 			}],
 			rewards: [
 				{
-					id: 5385,
+					id: "0000000000001509",
 					type: "xp_levels",
 					xp_levels: 10
 				},
 				{
-					id: 5386,
+					id: "000000000000150A",
 					type: "item",
 					item: "minecraft:carved_pumpkin"
 				},
 				{
-					id: 5387,
+					id: "000000000000150B",
 					type: "item",
 					item: "minecraft:iron_block",
 					count: 4
@@ -903,23 +904,23 @@
 			x: -0.5d,
 			y: 1.5d,
 			description: ["Use the Totem of Undying to save yourself."],
-			dependencies: [I;1057],
-			id: 5381,
+			dependencies: ["0000000000000421"],
+			id: "0000000000001505",
 			tasks: [{
-				id: 5382,
+				id: "0000000000001506",
 				type: "advancement",
 				advancement: "adventure/totem_of_undying",
 				criterion: ""
 			}],
 			rewards: [
 				{
-					id: 5383,
+					id: "0000000000001507",
 					type: "item",
 					item: "minecraft:gold_block",
 					random_bonus: 2
 				},
 				{
-					id: 5384,
+					id: "0000000000001508",
 					type: "xp_levels",
 					xp_levels: 10
 				}
@@ -932,23 +933,23 @@
 			y: -3.5d,
 			shape: "rsquare",
 			description: ["Travel to every biome in the Overworld!"],
-			dependencies: [I;222],
+			dependencies: ["00000000000000DE"],
 			size: 2.0d,
-			id: 5388,
+			id: "000000000000150C",
 			tasks: [{
-				id: 5389,
+				id: "000000000000150D",
 				type: "advancement",
 				advancement: "adventure/adventuring_time",
 				criterion: ""
 			}],
 			rewards: [
 				{
-					id: 5426,
+					id: "0000000000001532",
 					type: "xp_levels",
 					xp_levels: 20
 				},
 				{
-					id: 5427,
+					id: "0000000000001533",
 					type: "item",
 					item: "minecraft:diamond",
 					count: 6,
@@ -960,15 +961,15 @@
 			x: -0.5d,
 			y: 0.0d,
 			description: ["Nautilus shells are rare items that can be gained from killing Drowned, fishing, or trading with a Wandering trader."],
-			dependencies: [I;228],
-			id: 5390,
+			dependencies: ["00000000000000E4"],
+			id: "000000000000150E",
 			tasks: [{
-				id: 5391,
+				id: "000000000000150F",
 				type: "item",
 				item: "minecraft:nautilus_shell"
 			}],
 			rewards: [{
-				id: 5396,
+				id: "0000000000001514",
 				type: "item",
 				item: "pamhc2foodcore:basicfishsandwichitem",
 				count: 2
@@ -981,25 +982,25 @@
 				"The Conduit is a beacon-like block that is used to give the player underwater abilities such as water breathing, underwater nightvision, and an increase in mining speed. To activate a conduit, an activation frame must be built of 1-3 5x5 hollow squares of prismarine, linked into a cube, with the conduit at the center. The remaining blocks need to be water source blocks. ",
 				"The Conduit will give bonuses at 32 block range with a single square frame, increasing to 96 blocks with 3 square frames."
 			],
-			dependencies: [I;5390],
-			id: 5392,
+			dependencies: ["000000000000150E"],
+			id: "0000000000001510",
 			tasks: [{
-				id: 5393,
+				id: "0000000000001511",
 				type: "item",
 				item: "minecraft:conduit"
 			}],
 			rewards: [
 				{
-					id: 5394,
+					id: "0000000000001512",
 					type: "xp_levels",
 					xp_levels: 10
 				},
 				{
-					id: 5395,
+					id: "0000000000001513",
 					type: "item",
 					item: {
 						id: "minecraft:trident",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -1015,34 +1016,34 @@
 				"It is time to explore an Ocean Monument! You can locate one of these off a map from a Cartographer Villager.",
 				"You may want some water breathing potions or underwater gear before attempting it as you will be spending some time underwater!"
 			],
-			dependencies: [I;222],
-			id: 5397,
+			dependencies: ["00000000000000DE"],
+			id: "0000000000001515",
 			tasks: [
 				{
-					id: 5398,
+					id: "0000000000001516",
 					type: "item",
 					item: "minecraft:sea_lantern"
 				},
 				{
-					id: 5399,
+					id: "0000000000001517",
 					type: "item",
 					item: "minecraft:sponge"
 				}
 			],
 			rewards: [
 				{
-					id: 5405,
+					id: "000000000000151D",
 					type: "item",
 					item: {
 						id: "minecraft:potion",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Potion: "minecraft:water_breathing"
 						}
 					}
 				},
 				{
-					id: 5406,
+					id: "000000000000151E",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1053,26 +1054,26 @@
 			x: 6.5d,
 			y: 0.0d,
 			description: ["You can find Elder Guardians by exploring Ocean Monuments!"],
-			dependencies: [I;5397],
-			id: 5401,
+			dependencies: ["0000000000001515"],
+			id: "0000000000001519",
 			tasks: [{
-				id: 5402,
+				id: "000000000000151A",
 				type: "kill",
 				entity: "minecraft:elder_guardian",
 				value: 1L
 			}],
 			rewards: [
 				{
-					id: 5403,
+					id: "000000000000151B",
 					type: "item",
 					item: "spareparts:coins/iron_coin"
 				},
 				{
-					id: 5404,
+					id: "000000000000151C",
 					type: "item",
 					item: {
 						id: "minecraft:potion",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Potion: "minecraft:water_breathing"
 						}
@@ -1084,7 +1085,7 @@
 			title: "Return the Favor",
 			icon: {
 				id: "mapperbase:steel_sword",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -1092,34 +1093,34 @@
 			x: 6.5d,
 			y: 1.5d,
 			description: ["It is time to return the favor to the pillagers for attacking your villager friends! You may want to hit back at them at their outposts instead of waiting for them to come to you."],
-			dependencies: [I;5379],
-			id: 5407,
+			dependencies: ["0000000000001503"],
+			id: "000000000000151F",
 			tasks: [{
-				id: 5408,
+				id: "0000000000001520",
 				type: "kill",
 				entity: "minecraft:pillager",
 				value: 25L
 			}],
 			rewards: [
 				{
-					id: 5409,
+					id: "0000000000001521",
 					type: "item",
 					item: "immersiveengineering:ingot_steel",
 					count: 6,
 					random_bonus: 2
 				},
 				{
-					id: 5410,
+					id: "0000000000001522",
 					type: "item",
 					item: "vanillafoodpantry:bread_pocket_egg_steak",
 					count: 2
 				},
 				{
-					id: 5411,
+					id: "0000000000001523",
 					type: "item",
 					item: {
 						id: "minecraft:potion",
-						Count: true,
+						Count: 1b,
 						tag: {
 							Potion: "minecraft:long_strength"
 						}
@@ -1132,10 +1133,10 @@
 			x: 20.5d,
 			y: -3.5d,
 			description: ["Who knew Piglins liked music?"],
-			dependencies: [I;5416],
-			id: 5414,
+			dependencies: ["0000000000001528"],
+			id: "0000000000001526",
 			tasks: [{
-				id: 5415,
+				id: "0000000000001527",
 				type: "item",
 				item: "minecraft:music_disc_pigstep"
 			}]
@@ -1144,7 +1145,7 @@
 			title: "Bastion Raid",
 			icon: {
 				id: "minecraft:golden_sword",
-				Count: true,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -1152,10 +1153,10 @@
 			x: 20.5d,
 			y: -1.5d,
 			description: ["The Piglins will not take kindly to you raiding their home."],
-			dependencies: [I;128],
-			id: 5416,
+			dependencies: ["0000000000000080"],
+			id: "0000000000001528",
 			tasks: [{
-				id: 5417,
+				id: "0000000000001529",
 				type: "kill",
 				entity: "minecraft:piglin_brute",
 				value: 5L
@@ -1166,10 +1167,10 @@
 			x: 19.0d,
 			y: -5.0d,
 			description: ["Make sure the Piglins know you mean business."],
-			dependencies: [I;5414],
-			id: 5418,
+			dependencies: ["0000000000001526"],
+			id: "000000000000152A",
 			tasks: [{
-				id: 5419,
+				id: "000000000000152B",
 				type: "item",
 				item: "minecraft:piglin_banner_pattern"
 			}]
@@ -1178,14 +1179,14 @@
 			x: 19.5d,
 			y: -2.5d,
 			description: ["Striders are a great way of getting around the Nether. They will allow you to quickly cross large lava pools with ease. You must first saddle them to ride them so you can lure them over to you with some Warped Fungus on a Stick. They can travel across land, albeit slowly, but are much better accustomed to sliding across lava."],
-			dependencies: [I;128],
-			id: 5420,
+			dependencies: ["0000000000000080"],
+			id: "000000000000152C",
 			tasks: [{
-				id: 5421,
+				id: "000000000000152D",
 				type: "item",
 				item: {
 					id: "minecraft:warped_fungus_on_a_stick",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1193,14 +1194,14 @@
 			}],
 			rewards: [
 				{
-					id: 5422,
+					id: "000000000000152E",
 					type: "item",
 					item: "minecraft:gold_ingot",
 					count: 4,
 					random_bonus: 2
 				},
 				{
-					id: 5423,
+					id: "000000000000152F",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1210,19 +1211,19 @@
 			x: 18.5d,
 			y: -3.5d,
 			description: ["This Teleporter will transport you to the Mining Dimension, a world of caves where you can mine resources out of the Overworld."],
-			dependencies: [I;5374],
-			id: 5570,
+			dependencies: ["00000000000014FE"],
+			id: "00000000000015C2",
 			tasks: [{
-				id: 5571,
+				id: "00000000000015C3",
 				type: "item",
 				item: "mining_dimension:teleporter"
 			}],
 			rewards: [{
-				id: 5670,
+				id: "0000000000001626",
 				type: "item",
 				item: {
 					id: "minecraft:iron_pickaxe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1234,9 +1235,9 @@
 			x: 11.0d,
 			y: 6.5d,
 			shape: "gear",
-			id: 5636,
+			id: "0000000000001604",
 			tasks: [{
-				id: 5637,
+				id: "0000000000001605",
 				type: "item",
 				item: "aquaculture:neptunes_bounty"
 			}]
@@ -1245,14 +1246,14 @@
 			x: 10.43392857142858d,
 			y: 4.690476190476197d,
 			description: ["Gives you better vision underwater."],
-			dependencies: [I;5636],
-			id: 5638,
+			dependencies: ["0000000000001604"],
+			id: "0000000000001606",
 			tasks: [{
-				id: 5639,
+				id: "0000000000001607",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_helmet",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1260,12 +1261,12 @@
 			}],
 			rewards: [
 				{
-					id: 5680,
+					id: "0000000000001630",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5690,
+					id: "000000000000163A",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1275,14 +1276,14 @@
 			x: 11.57678571428572d,
 			y: 4.714285714285715d,
 			description: ["Allows you to breath underwater."],
-			dependencies: [I;5636],
-			id: 5640,
+			dependencies: ["0000000000001604"],
+			id: "0000000000001608",
 			tasks: [{
-				id: 5641,
+				id: "0000000000001609",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_chestplate",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1290,12 +1291,12 @@
 			}],
 			rewards: [
 				{
-					id: 5671,
+					id: "0000000000001627",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5681,
+					id: "0000000000001631",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1305,14 +1306,14 @@
 			x: 12.5d,
 			y: 5.5d,
 			description: ["Slows sinking when underwater."],
-			dependencies: [I;5636],
-			id: 5642,
+			dependencies: ["0000000000001604"],
+			id: "000000000000160A",
 			tasks: [{
-				id: 5643,
+				id: "000000000000160B",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_leggings",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1320,12 +1321,12 @@
 			}],
 			rewards: [
 				{
-					id: 5672,
+					id: "0000000000001628",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5682,
+					id: "0000000000001632",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1335,14 +1336,14 @@
 			x: 9.5d,
 			y: 5.5d,
 			description: ["Makes you swim faster."],
-			dependencies: [I;5636],
-			id: 5644,
+			dependencies: ["0000000000001604"],
+			id: "000000000000160C",
 			tasks: [{
-				id: 5645,
+				id: "000000000000160D",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_boots",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1350,12 +1351,12 @@
 			}],
 			rewards: [
 				{
-					id: 5679,
+					id: "000000000000162F",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5689,
+					id: "0000000000001639",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1365,14 +1366,14 @@
 			x: 10.43392857142858d,
 			y: 8.285714285714285d,
 			description: ["No penalty for mining underwater."],
-			dependencies: [I;5636],
-			id: 5646,
+			dependencies: ["0000000000001604"],
+			id: "000000000000160E",
 			tasks: [{
-				id: 5647,
+				id: "000000000000160F",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_pickaxe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1380,12 +1381,12 @@
 			}],
 			rewards: [
 				{
-					id: 5676,
+					id: "000000000000162C",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5686,
+					id: "0000000000001636",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1395,14 +1396,14 @@
 			x: 9.5d,
 			y: 7.5d,
 			description: ["No penalty for diging underwater."],
-			dependencies: [I;5636],
-			id: 5648,
+			dependencies: ["0000000000001604"],
+			id: "0000000000001610",
 			tasks: [{
-				id: 5649,
+				id: "0000000000001611",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_shovel",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1410,12 +1411,12 @@
 			}],
 			rewards: [
 				{
-					id: 5677,
+					id: "000000000000162D",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5687,
+					id: "0000000000001637",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1425,14 +1426,14 @@
 			x: 12.5d,
 			y: 7.5d,
 			description: ["Does increased damage underwater."],
-			dependencies: [I;5636],
-			id: 5650,
+			dependencies: ["0000000000001604"],
+			id: "0000000000001612",
 			tasks: [{
-				id: 5651,
+				id: "0000000000001613",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_axe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1440,12 +1441,12 @@
 			}],
 			rewards: [
 				{
-					id: 5674,
+					id: "000000000000162A",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5684,
+					id: "0000000000001634",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1455,14 +1456,14 @@
 			x: 13.0d,
 			y: 6.5d,
 			description: ["Tilled land with this hoe is always hydrated."],
-			dependencies: [I;5636],
-			id: 5652,
+			dependencies: ["0000000000001604"],
+			id: "0000000000001614",
 			tasks: [{
-				id: 5653,
+				id: "0000000000001615",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_hoe",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1470,12 +1471,12 @@
 			}],
 			rewards: [
 				{
-					id: 5673,
+					id: "0000000000001629",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5683,
+					id: "0000000000001633",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1485,14 +1486,14 @@
 			x: 11.552976190476201d,
 			y: 8.285714285714285d,
 			description: ["Does more damage udnerwater."],
-			dependencies: [I;5636],
-			id: 5654,
+			dependencies: ["0000000000001604"],
+			id: "0000000000001616",
 			tasks: [{
-				id: 5655,
+				id: "0000000000001617",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_sword",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1500,12 +1501,12 @@
 			}],
 			rewards: [
 				{
-					id: 5675,
+					id: "000000000000162B",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5685,
+					id: "0000000000001635",
 					type: "xp_levels",
 					xp_levels: 5
 				}
@@ -1515,14 +1516,14 @@
 			x: 9.0d,
 			y: 6.5d,
 			description: ["Allows you to shoot arrows underwater."],
-			dependencies: [I;5636],
-			id: 5656,
+			dependencies: ["0000000000001604"],
+			id: "0000000000001618",
 			tasks: [{
-				id: 5657,
+				id: "0000000000001619",
 				type: "item",
 				item: {
 					id: "aquaculture:neptunium_bow",
-					Count: true,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -1530,12 +1531,12 @@
 			}],
 			rewards: [
 				{
-					id: 5678,
+					id: "000000000000162E",
 					type: "random",
-					table: 7
+					table_id: 1982L
 				},
 				{
-					id: 5688,
+					id: "0000000000001638",
 					type: "xp_levels",
 					xp_levels: 5
 				}

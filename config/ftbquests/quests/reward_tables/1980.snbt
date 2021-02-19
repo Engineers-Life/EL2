@@ -1,12 +1,13 @@
 {
-	id: 1980,
+	id: "00000000000007BC",
+	order_index: 6,
 	title: "Tier I Random",
 	loot_size: 1,
 	rewards: [
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: true,
+				Count: 1b,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 5s,
@@ -21,7 +22,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: true,
+				Count: 1b,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 1s,
@@ -33,7 +34,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: true,
+				Count: 1b,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 3s,
@@ -54,7 +55,7 @@
 		{
 			item: {
 				id: "minecraft:enchanted_book",
-				Count: true,
+				Count: 1b,
 				tag: {
 					StoredEnchantments: [{
 						lvl: 4s,
@@ -132,7 +133,7 @@
 			monster: 0
 		},
 		color: 16777215,
-		glow: true,
+		glow: 1b,
 		string_id: "tier_i_random"
 	}
 }

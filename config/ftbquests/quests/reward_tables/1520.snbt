@@ -1,5 +1,6 @@
 {
-	id: 1520,
+	id: "00000000000005F0",
+	order_index: 5,
 	title: "Deco Blocks set #2",
 	loot_size: 1,
 	rewards: [
@@ -95,7 +96,7 @@
 			monster: 0
 		},
 		color: 16777215,
-		glow: true,
+		glow: 1b,
 		string_id: "deco_blocks_set_2"
 	}
 }

@@ -1973,6 +1973,7 @@
 	"Matrix Enchanting" = true
 	Magnets = true
 	Pipes = true
+	Crate = false
 
 	[oddities.totem_of_holding]
 		#
@@ -2077,6 +2078,9 @@
 		#
 		#How long it takes for an item to cross a pipe. Bigger = slower.
 		"Pipe Speed" = 5
+
+	[oddities.crate]
+		"Max Items" = 640
 
 [experimental]
 	"Adjustable Chat" = false
