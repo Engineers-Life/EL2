@@ -29,7 +29,7 @@ craftingTable.addShapedMirrored("stone_axe", <item:minecraft:stone_axe>, [
 
 craftingTable.removeRecipe(<item:minecraft:stone_hoe>);
 craftingTable.addShapedMirrored("stone_hoe", <item:minecraft:stone_hoe>, [
-[tool_stone,tool_stone],[tool_stone,stick],[air,stick]]);
+[tool_stone,tool_stone],[air,stick],[air,stick]]);
 
 // TERMINITE TOOLS
 
@@ -51,7 +51,7 @@ craftingTable.addShapedMirrored("terminite_axe", <item:betterendforge:terminite_
 
 craftingTable.removeRecipe(<item:betterendforge:terminite_hoe>);
 craftingTable.addShapedMirrored("terminite_hoe", <item:betterendforge:terminite_hoe>, [
-[tool_terminite,tool_terminite],[tool_terminite,stick],[air,stick]]);
+[tool_terminite,tool_terminite],[air,stick],[air,stick]]);
 
 craftingTable.removeRecipe(<item:betterendforge:terminite_hammer>);
 craftingTable.addShaped("terminite_hammer", <item:betterendforge:terminite_hammer>, [
