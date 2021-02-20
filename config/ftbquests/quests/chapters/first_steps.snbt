@@ -2961,6 +2961,10 @@
 		{
 			x: 3.0d,
 			y: -9.0d,
+			description: [
+				"The Macaw's series of mods will provide you with a large number of decorative blocks to stylize you base to your hearts content.",
+				""
+			],
 			dependencies: ["0000000000000054"],
 			id: "00000000000015B0",
 			tasks: [{
