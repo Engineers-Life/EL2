@@ -186,12 +186,6 @@ craftingTable.addShapedMirrored("clay_tool", <item:notreepunching:clay_tool>, [
 [air, stick, <item:minecraft:smooth_stone_slab>], 
 [stick, air, air]]);
 
-craftingTable.removeRecipe(<item:pamhc2foodcore:rolleritem>);
-craftingTable.addShapedMirrored("pam_roller", <item:pamhc2foodcore:rolleritem>, [
-[stick, air, air],
-[air, <tag:items:minecraft:logs>, air],
-[air, air, stick]]);
-
 // EXAMPLES:
 
 //mods.jei.JEI.hideItem(<item:farmersdelight:flint_knife>);
