@@ -74,6 +74,7 @@ mods.jei.JEI.hideCategory("industrialforegoing:mycelial_netherstar");
 mods.jei.JEI.hideCategory("industrialforegoing:mycelial_pink");
 mods.jei.JEI.hideCategory("industrialforegoing:mycelial_potion");
 mods.jei.JEI.hideCategory("industrialforegoing:mycelial_slimey");
+mods.jei.JEI.hideCategory("industrialforegoing:bioreactor");
 
 // EXAMPLES:
 
