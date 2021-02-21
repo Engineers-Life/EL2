@@ -26,6 +26,14 @@ furnace.removeRecipe(<item:bigreactors:yellorium_ingot>);
 furnace.removeRecipe(<item:bigreactors:cyanite_ingot>);
 furnace.removeRecipe(<item:bigreactors:graphite_ingot>);
 
+mods.jei.JEI.hideItem(<item:veggie_way:fried_egg>);
+furnace.removeRecipe(<item:veggie_way:fried_egg>);
+<recipetype:minecraft:smoking>.removeRecipe(<item:veggie_way:fried_egg>);
+mods.jei.JEI.hideItem(<item:simplefarming:cooked_egg>);
+furnace.removeRecipe(<item:simplefarming:cooked_egg>);
+<recipetype:minecraft:campfire_cooking>.removeRecipe(<item:simplefarming:cooked_egg>);
+<recipetype:minecraft:smoking>.removeRecipe(<item:simplefarming:cooked_egg>);
+
 // only use ingredients from mods that you know are in the pack
 val air = <item:minecraft:air>;
 var log = <tag:items:minecraft:logs>;
