@@ -16,10 +16,10 @@ val bricksAreBetter = true; // transfer all missing recipes into modded block
 // Stone Cutting	<recipetype:minecraft:stonecutting>	stoneCutter
 
 // Remove recipes here is to prevent them from being moved into an alternative
-<recipetype:blasting>.removeRecipe(<item:mapperbase:steel_ingot>);
-<recipetype:blasting>.removeRecipe(<item:mapperbase:steel_plate>);
-<recipetype:blasting>.removeRecipe(<item:bigreactors:yellorium_ingot>);
-<recipetype:blasting>.removeRecipe(<item:bigreactors:graphite_ingot>);
+blastFurnace.removeRecipe(<item:mapperbase:steel_ingot>);
+blastFurnace.removeRecipe(<item:mapperbase:steel_plate>);
+blastFurnace.removeRecipe(<item:bigreactors:yellorium_ingot>);
+blastFurnace.removeRecipe(<item:bigreactors:graphite_ingot>);
 furnace.removeRecipe(<item:minecraft:charcoal>);
 furnace.removeRecipe(<item:industrialforegoing:plastic>);
 furnace.removeRecipe(<item:bigreactors:yellorium_ingot>);
@@ -28,11 +28,66 @@ furnace.removeRecipe(<item:bigreactors:graphite_ingot>);
 
 mods.jei.JEI.hideItem(<item:veggie_way:fried_egg>);
 furnace.removeRecipe(<item:veggie_way:fried_egg>);
-<recipetype:minecraft:smoking>.removeRecipe(<item:veggie_way:fried_egg>);
+smoker.removeRecipe(<item:veggie_way:fried_egg>);
 mods.jei.JEI.hideItem(<item:simplefarming:cooked_egg>);
 furnace.removeRecipe(<item:simplefarming:cooked_egg>);
-<recipetype:minecraft:campfire_cooking>.removeRecipe(<item:simplefarming:cooked_egg>);
-<recipetype:minecraft:smoking>.removeRecipe(<item:simplefarming:cooked_egg>);
+campfire.removeRecipe(<item:simplefarming:cooked_egg>);
+smoker.removeRecipe(<item:simplefarming:cooked_egg>);
+
+println("BEGIN furnace.metal_processing");
+
+// remove making dust in crafting table
+for dust in <tag:items:forge:dusts>.getElements() { craftingTable.removeRecipe(dust); }
+
+// remove processing ores in furnace
+for wrapper in furnace.getAllRecipes() {
+    if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>.getElements()) {
+        furnace.removeRecipe(wrapper.output);
+    }
+}
+
+// move melting items into nuggets from furnace into blast furnace
+// only adds recipe to blast furnace if recipe doesn't already exist there
+// iterates every furnace recipe, checks if the output is a nugget
+// if it is a nugget, iterates through all the items that can produce that nugget
+// for each of those, iterates through all the blast furnace recipes that also produce that nugget
+// if any of the blast furnace recipes use the same input as the item being checked, it won't add the recipe
+// because the recipe already exists.  If none of the blast furnace recipes use that item
+// then the item is a quark trowel, because that's the only thing this whole section manages to find
+// but let's keep it, in case mods change, cause this code will catch that.
+for furnaceWrapper in furnace.getAllRecipes() {
+    if (furnaceWrapper.output in <tag:items:forge:nuggets>.getElements()) {
+        val ingredientsList = furnaceWrapper.ingredients;
+        val nugget = furnaceWrapper.output;
+        val blastRecipes = blastFurnace.getRecipesByOutput(nugget);
+        // println("Evaluating furnace recipe that outputs: "+nugget.displayName);
+        for furnaceIngredient in ingredientsList {
+            for furnaceItem in furnaceIngredient.items {
+                // println("Evaluating furnace recipe that converts "+furnaceItem.displayName+" into "+nugget.displayName);
+                var foundInBlastFurnace = false;
+                for blastWrapper in blastRecipes {
+                    for blastIngredient in blastWrapper.ingredients {
+                        for blastItem in blastIngredient.items {
+                            foundInBlastFurnace = foundInBlastFurnace || (blastItem.matches(furnaceItem));
+                        }
+                    }
+                }
+                if (!foundInBlastFurnace) {
+                    //println("Couldn\'t find blast furnace recipe that converts "+furnaceItem.displayName+" into "+nugget.displayName+", adding it.");
+                    blastFurnace.addRecipe("melt."+furnaceItem.translationKey,nugget,furnaceItem,0.1,5*20);
+                }
+            }
+        }
+    }
+}
+// this is part of the above, but pulled out of the loop in case more than one recipe makes the same nugget.
+for furnaceWrapper in furnace.getAllRecipes() {
+    if (furnaceWrapper.output in <tag:items:forge:nuggets>.getElements()) {
+        furnace.removeRecipe(furnaceWrapper.output);
+    }
+}
+
+println("END furnace.metal_processing");
 
 // only use ingredients from mods that you know are in the pack
 val air = <item:minecraft:air>;
@@ -89,7 +144,7 @@ for group, groupData in recipeGroups {      println("Iterating "+group+" recipes
         if loadedMods.isModLoaded(modid) {  //println("* * "+modid+" is loaded.");
             if (modid != "minecraft" && bricksAreBetter && "minecraft" in groupData) { println("* * Bricks are Better.");
                 val vanillaManager = BracketHandlers.getRecipeManager(groupData["minecraft"]);
-                println("MANAGER: "+recipe_type);
+                //println("MANAGER: "+recipe_type);
                 val moddedManager = BracketHandlers.getRecipeManager(recipe_type);
                 for wrapper in vanillaManager.getAllRecipes() {
                     val output = wrapper.output;
@@ -131,7 +186,7 @@ for modid, blockData in blockRecipes {
 }
 
 // remove furnace recipes IF there is another option in that recipeGroup
-if (bricksAreBetter && recipeGroups["Smelting"].size>1) {
+if (bricksAreBetter && recipeGroups["Smelting"].size>1) { // size > 1 only checks if more than minecraft is listed.  It doesn't mean any of the listed mods are present.
     val manager = BracketHandlers.getRecipeManager(recipeGroups["Smelting"]["minecraft"]);
     manager.removeRecipe(<item:minecraft:brick>);
     manager.removeRecipe(<item:notreepunching:ceramic_large_vessel>);
