@@ -64,3 +64,5 @@ craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_
         item: <item:industrialforegoing:machine_frame_simple>.registryName,
         count:1 },
     outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}" } );
+
+craftingTable.addShapeless("redstone_block_to_dust", <item:minecraft:redstone>*9, [<item:minecraft:redstone_block>], null);
