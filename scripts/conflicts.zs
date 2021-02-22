@@ -111,8 +111,7 @@ removeFromListAndHide([craftingTable,stoneCutter],<item:embellishcraft:sandstone
 removeFromListAndHide([craftingTable,stoneCutter],<item:embellishcraft:sandstone_bricks_slab>);
 removeFromListAndHide([craftingTable,stoneCutter],<item:embellishcraft:sandstone_bricks_wall>);
 
-replaceByName("immersiveengineering:crafting/metal_ladder_steel",<item:immersiveengineering:metal_ladder_steel>*3,[[<tag:items:immersiveengineering:scaffolding/steel>],[<item:buildersaddition:iron_ladder_rough>]]);
-replaceByName("immersiveengineering:crafting/metal_ladder_steel",<item:immersiveengineering:metal_ladder_steel>*3,[[<tag:items:immersiveengineering:scaffolding/steel>],[<item:buildersaddition:iron_ladder_rough>]]);
+replaceByName("immersiveengineering:crafting/metal_ladder_steel",<item:immersiveengineering:metal_ladder_steel>*3,[[<tag:items:immersiveengineering:scaffoldings/steel>],[<item:buildersaddition:iron_ladder_rough>]]);
 replaceByName("immersiveengineering:crafting/metal_ladder_alu",<item:immersiveengineering:metal_ladder_alu>*3,[[<tag:items:immersiveengineering:scaffolding/aluminum>],[<item:buildersaddition:iron_ladder>]]);
 removeAndHide(<item:immersiveengineering:metal_ladder_none>);
 removeAndHide(<item:quark:iron_ladder>); // didn't conflict, just redundant
