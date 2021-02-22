@@ -35,26 +35,6 @@
 	{
 		"extraChance": 0.1
 	},
-	"create:copper_ore":
-	{
-		"extraChance": 0.8
-	},
-	"create:zinc_ore":
-	{
-		"extraChance": 0.75
-	},
-	"endreborn:quartz_ore":
-	{
-		"extraChance": 0.9
-	},
-	"endreborn:obsidian_ore":
-	{
-		"extraChance": 0.8
-	},
-	"endreborn:wolframium_ore":
-	{
-		"extraChance": 0.9
-	},
 	"endreborn:end_wolframium_ore":
 	{
 		"extraChance": 1.2
@@ -63,12 +43,4 @@
 	{
 		"extraChance": 0.75
 	},
-	"scalinghealth:heart_crystal_ore":
-	{
-		"extraChance": 0.25
-	},
-	"scalinghealth:power_crystal_ore":
-	{
-		"extraChance": 0.25
-	}
 }
