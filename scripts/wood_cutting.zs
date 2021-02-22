@@ -1,5 +1,7 @@
 
 import crafttweaker.api.BracketHandlers;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.MCItemDefinition;
 
 println("BEGIN wood_cutting");
 
@@ -14,6 +16,15 @@ function validName(name as string) as string {
     val rl = BracketHandlers.getResourceLocation(name);
     return rl.namespace+"."+rl.path;
 }
+
+// make mine a double - fix bad recipes
+//    <item:immersiveengineering:treated_scaffold>,
+val doubleOutput = [
+    <item:immersiveengineering:treated_scaffold>,
+    <item:immersiveengineering:slab_treated_wood_horizontal>,
+    <item:immersiveengineering:slab_treated_wood_vertical>,
+    <item:immersiveengineering:slab_treated_wood_packaged>
+    ];
 
 for fromTypeWrapper in fromType.getAllRecipes() {
     val ingredientsList = fromTypeWrapper.ingredients;
@@ -33,13 +44,21 @@ for fromTypeWrapper in fromType.getAllRecipes() {
             }
             if (!existingRecipe) {
                 // println("Couldn\'t find that converts "+fromTypeItem.displayName+" into "+output.displayName+", adding it.");
-                toType.addJSONRecipe(recipePrefix+"."+validName(fromTypeItem.registryName)+".to."+validName(output.registryName), {ingredient:{item:fromTypeItem.registryName},result:output.registryName,count:1 as int});
+                val out = output in doubleOutput ? 2 : 1;
+                toType.addJSONRecipe(recipePrefix+"."+validName(fromTypeItem.registryName)+".to."+validName(output.registryName), {ingredient:{item:fromTypeItem.registryName},result:output.registryName,count:out as int});
 
             }
         }
     }
 }
 fromType.removeAll();
+
+toType.removeRecipe(<item:minecraft:air>);
+val stick = <item:minecraft:stick>;
+for element in <tag:items:minecraft:planks>.getElements() {
+    val name = element.defaultInstance.registryName;
+    toType.addJSONRecipe(recipePrefix+"."+validName(name)+".to.sticks", {ingredient:{item:name},result:stick.registryName,count:2 as int});
+}
 
 craftingTable.removeRecipe(<item:woodenutilities:wood_cutter>);
 mods.jei.JEI.hideItem(<item:woodenutilities:wood_cutter>);
