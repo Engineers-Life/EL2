@@ -1,4 +1,6 @@
 
+import crafttweaker.api.BracketHandlers;
+
 println("BEGIN wood_cutting");
 
 // transer all recipes from woodenutilities:woodcutter to Charm's minecraft:woodcutter
@@ -6,7 +8,12 @@ println("BEGIN wood_cutting");
 
 val fromType = <recipetype:woodenutilities:woodcutter>;
 val toType = <recipetype:minecraft:woodcutting>;
-val recipeSuffix = "woodcutter";
+val recipePrefix = "woodcutter";
+
+function validName(name as string) as string {
+    val rl = BracketHandlers.getResourceLocation(name);
+    return rl.namespace+"."+rl.path;
+}
 
 for fromTypeWrapper in fromType.getAllRecipes() {
     val ingredientsList = fromTypeWrapper.ingredients;
@@ -26,8 +33,7 @@ for fromTypeWrapper in fromType.getAllRecipes() {
             }
             if (!existingRecipe) {
                 // println("Couldn\'t find that converts "+fromTypeItem.displayName+" into "+output.displayName+", adding it.");
-
-                toType.addJSONRecipe(recipeSuffix+"."+output.translationKey, {ingredient:{item:fromTypeItem.registryName},result:output.registryName,count:1 as int});
+                toType.addJSONRecipe(recipePrefix+"."+validName(fromTypeItem.registryName)+".to."+validName(output.registryName), {ingredient:{item:fromTypeItem.registryName},result:output.registryName,count:1 as int});
 
             }
         }
