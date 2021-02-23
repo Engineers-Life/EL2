@@ -37,7 +37,7 @@ smoker.removeRecipe(<item:simplefarming:cooked_egg>);
 println("BEGIN furnace.metal_processing");
 
 // remove making dust in crafting table
-for dust in <tag:items:forge:dusts>.getElements() { craftingTable.removeRecipe(dust); }
+// for dust in <tag:items:forge:dusts>.getElements() { craftingTable.removeRecipe(dust); }
 
 // remove processing ores in furnace
 for wrapper in furnace.getAllRecipes() {
