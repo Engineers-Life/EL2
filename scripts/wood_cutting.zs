@@ -19,12 +19,13 @@ function validName(name as string) as string {
 
 // make mine a double - fix bad recipes
 //    <item:immersiveengineering:treated_scaffold>,
-val doubleOutput = [
-    <item:immersiveengineering:treated_scaffold>,
-    <item:immersiveengineering:slab_treated_wood_horizontal>,
-    <item:immersiveengineering:slab_treated_wood_vertical>,
-    <item:immersiveengineering:slab_treated_wood_packaged>
-    ];
+val changeOutput = {
+    <item:immersiveengineering:treated_scaffold>            : 2,
+    <item:immersiveengineering:slab_treated_wood_horizontal>: 2,
+    <item:immersiveengineering:slab_treated_wood_vertical>  : 2,
+    <item:immersiveengineering:slab_treated_wood_packaged>  : 2,
+    <item:immersiveengineering:stick_treated>               : 2
+    };
 
 fromType.removeRecipe(<item:minecraft:air>);
 toType.removeRecipe(<item:minecraft:air>);
@@ -46,7 +47,7 @@ for fromTypeWrapper in fromType.getAllRecipes() {
             }
             if (!existingRecipe) {
                 // println("Couldn\'t find that converts "+fromTypeItem.displayName+" into "+output.displayName+", adding it.");
-                val out = output in doubleOutput ? 2 : 1;
+                val out = output in changeOutput ? changeOutput[output] : 1;
                 toType.addJSONRecipe(recipePrefix+"."+validName(fromTypeItem.registryName)+".to."+validName(output.registryName), {ingredient:{item:fromTypeItem.registryName},result:output.registryName,count:out as int});
 
             }
