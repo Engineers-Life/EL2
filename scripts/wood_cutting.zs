@@ -26,6 +26,8 @@ val doubleOutput = [
     <item:immersiveengineering:slab_treated_wood_packaged>
     ];
 
+fromType.removeRecipe(<item:minecraft:air>);
+toType.removeRecipe(<item:minecraft:air>);
 for fromTypeWrapper in fromType.getAllRecipes() {
     val ingredientsList = fromTypeWrapper.ingredients;
     val output = fromTypeWrapper.output;
