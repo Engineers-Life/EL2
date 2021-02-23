@@ -5,6 +5,11 @@ import crafttweaker.api.mods.Mods;
 
 val bricksAreBetter = true; // transfer all missing recipes into modded block
 
+function validName(name as string) as string {
+    val rl = BracketHandlers.getResourceLocation(name);
+    return rl.namespace+"."+rl.path;
+}
+
 // Data reminders:
 // Recipe Manager	Bracket Handler	                    Global Variable
 // Blasting	        <recipetype:minecraft:blasting>	    blastFurnace
@@ -164,7 +169,7 @@ for group, groupData in recipeGroups {      println("Iterating "+group+" recipes
                                 }
                             }
                             if (!existingRecipe) {
-                                moddedManager.addJSONRecipe(modid+"."+vanillaItem.translationKey, {ingredient:{item:vanillaItem.registryName},result:output.registryName,experience:xp as float,cookingtime:time as int});
+                                moddedManager.addJSONRecipe(validName(modid)+"."+validName(vanillaItem.registryName), {ingredient:{item:vanillaItem.registryName},result:output.registryName,experience:xp as float,cookingtime:time as int});
                             }
                         }
                     }
