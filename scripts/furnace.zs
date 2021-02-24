@@ -111,7 +111,7 @@ val blast_furnace_block = <item:minecraft:blast_furnace>;
 val recipeGroups = {
     "Smelting" : {
         minecraft : "minecraft:smelting",
-        charm : "minecraft:firing",
+        charm : "charm:firing",
         brickfurnace : "brickfurnace:smelting"
     },
     "Blasting" : {
