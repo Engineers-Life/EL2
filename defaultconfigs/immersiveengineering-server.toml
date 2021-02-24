@@ -507,7 +507,7 @@
 
 	[tools.toolbox]
 		#A whitelist of tools allowed in the toolbox, formatting: [mod id]:[item name]
-		tools = []
+		tools = ["bigreactors:wrench","mcwwindows:hammer"]
 		#A whitelist of foods allowed in the toolbox, formatting: [mod id]:[item name]
 		foods = []
 		#A whitelist of wire-related allowed in the toolbox, formatting: [mod id]:[item name]
