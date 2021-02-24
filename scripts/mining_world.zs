@@ -34,5 +34,9 @@ craftingTable.addShaped("mining_dimension", teleporter, [
 teleporter.addShiftTooltip(long_tip,short_tip);
 
 mods.jei.JEI.addInfo(<item:mining_dimension:teleporter>, [long_tip.formattedText]);
-mods.jei.JEI.addInfo(<item:betterportals:portal_fluid_bucket>, ["Also used in crafting the Mining Dimension Transporter."]);
+val also_used_info = ["Also used in crafting the Mining Dimension Transporter."];
+mods.jei.JEI.addInfo(<item:betterportals:portal_fluid_bucket>,also_used_info);
+for ore in any_ore.getElements() {
+    mods.jei.JEI.addInfo(ore,also_used_info);
+}
 mods.jei.JEI.hideRecipe("minecraft:crafting","crafttweaker:mining_dimension");
