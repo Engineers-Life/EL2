@@ -10,12 +10,12 @@ val used_spareparts = ["coins/wooden_coin","coins/stone_coin","coins/copper_coin
 craftingTable.addShapeless("raw_clay_plate", <item:spareparts:plates/raw_clay>, [<item:pamhc2foodcore:rolleritem>, <item:notreepunching:clay_brick>]);
 
 val kilnOptions = {
-    "charm"         : "minecraft:firing",
+    "charm"         : "charm:firing",
     "brickfurnace"  : "brickfurnace:smelting" };
 
 var foundKiln = false;
 for modid, recipeType in kilnOptions {
-    if loadedMods.isModLoaded(modid) {
+    if (loadedMods.isModLoaded(modid)) {
         foundKiln = true;
         BracketHandlers.getRecipeManager(recipeType).addJSONRecipe("fired_clay_plate", {ingredient:{item:"spareparts:plates/raw_clay"},result:"spareparts:plates/fired_clay",experience:0.2 as float, cookingtime:5*20});
     }
