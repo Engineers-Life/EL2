@@ -9,7 +9,7 @@ println("BEGIN wood_cutting");
 // exclude recipes that already exist
 
 val fromType = <recipetype:woodenutilities:woodcutter>;
-val toType = <recipetype:minecraft:woodcutting>;
+val toType = <recipetype:charm:woodcutting>;
 val recipePrefix = "woodcutter";
 
 function validName(name as string) as string {
