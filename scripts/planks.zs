@@ -8,7 +8,13 @@ var air = <item:minecraft:air>;
 var saws = <tag:items:notreepunching:saws> as MCTag<MCItemDefinition>;
 var axes = <tag:items:minecraft:axes> as MCTag<MCItemDefinition>;
 
+axes.add(<item:minecraft:netherite_axe>);
+axes.add(<item:immersiveengineering:axe_steel>);
 axes.add(<item:notreepunching:flint_axe>);
+axes.add(<item:aquaculture:neptunium_axe>);
+axes.add(<item:betterendforge:terminite_axe>);
+axes.add(<item:betterendforge:aeternium_axe>);
+axes.add(<item:vanillafoodpantry:flint_butcher_axe>);
 
 function validName(name as string) as string {
     val rl = BracketHandlers.getResourceLocation(name);
