@@ -1,55 +1,22 @@
 
-import crafttweaker.api.BracketHandlers;
-import crafttweaker.api.item.IIngredient;
-import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.registries.IRecipeManager;
+println("BEGIN conflicts");
 
 val air = <item:minecraft:air>;
-val stick = <tag:items:forge:rods/wooden>;
+val bar = <item:engineersdecor:metal_bar>;
+val dirt = <item:minecraft:dirt>;
+val fruitLog = <item:simplefarming:fruit_log>;
+val impCable = <item:storagenetwork:import_kabel>;
+val ironBucket = <item:minecraft:bucket>;
+val ironIngot = <tag:items:forge:ingots/iron>;
 val log = <tag:items:minecraft:logs>;
 val planks = <tag:items:minecraft:planks>;
+val stick = <tag:items:forge:rods/wooden>;
 val wooden_slab = <tag:items:minecraft:wooden_slabs>;
-val bar = <item:engineersdecor:metal_bar>;
-val impCable = <item:storagenetwork:import_kabel>;
-val fruitLog = <item:simplefarming:fruit_log>;
-val ironIngot = <tag:items:forge:ingots/iron>;
-val ironBucket = <item:minecraft:bucket>;
-val dirt = <item:minecraft:dirt>;
 
-function removeAndHide(item as IItemStack) as void {
-    craftingTable.removeRecipe(item);
-    mods.jei.JEI.hideItem(item);
-}
-
-function removeFromListAndHide(managerList as IRecipeManager[], item as IItemStack) as void {
-    for manager in managerList { manager.removeRecipe(item); }
-    mods.jei.JEI.hideItem(item);
-}
-
-function SimpleJsonReplaceByName(manager as IRecipeManager, name as string, output as IItemStack, input as IItemStack ) as void {
-    val amount = output.amount;
-    manager.removeByName(name);
-    manager.addJSONRecipe(name, {ingredient:{item:input.registryName},result:output.registryName,count:amount as int});
-    return;
-}
-
-function replaceByName(name as string, output as IItemStack, recipe as IIngredient[][] ) as void {
-    craftingTable.removeByName(name);
-    craftingTable.addShaped(name,output,recipe,null);
-    return;
-}
-
-function replaceByNameMirrored(name as string, output as IItemStack, recipe as IIngredient[][]) as void {
-    craftingTable.removeByName(name);
-    craftingTable.addShapedMirrored(name,output,recipe,null);
-    return;
-}
-
-function replaceByNameShapeless(name as string, output as IItemStack, recipe as IIngredient[] ) as void {
-    craftingTable.removeByName(name);
-    craftingTable.addShapeless(name,output,recipe);
-    return;
-}
+//<recipetype:minecraft:crafting>
+//<recipetype:minecraft:stonecutting>
+//<recipetype:minecraft:woodcutting>
+//<recipetype:industrialforegoing:stonework_generate>
 
 replaceByName("buildersaddition:vertical_slab/reverse/reverse_polished_granite_slab",<item:minecraft:polished_granite>,[[<item:minecraft:polished_granite_slab>,<item:minecraft:polished_granite_slab>]]);
 replaceByName("buildersaddition:vertical_slab/reverse/reverse_polished_andesite_slab",<item:minecraft:polished_andesite>,[[<item:minecraft:polished_andesite_slab>,<item:minecraft:polished_andesite_slab>]]);
@@ -97,7 +64,10 @@ replaceByNameShapeless("buildersaddition:planter",<item:buildersaddition:planter
 replaceByName("vanillafoodpantry:bits/bit_milk_no_measure",<item:vanillafoodpantry:portion_milk>*4,[[<item:pamhc2foodcore:freshmilkitem>]]);
 replaceByName("vanillafoodpantry:bits/bit_water_no_measure",<item:vanillafoodpantry:portion_water>*4,[[<item:pamhc2foodcore:freshwateritem>]]);
 
+<tag:items:forge:rods/all_metal>.remove(<item:buildersaddition:iron_rod>);
+<tag:items:forge:rods/iron>.remove(<item:buildersaddition:iron_rod>);
 removeAndHide(<item:buildersaddition:iron_rod>);
+replaceByName("immersiveengineering:crafting/screwdriver",<item:immersiveengineering:screwdriver>,[[air,<item:immersiveengineering:stick_iron>],[stick,air]]);
 
 replaceByName("simplefarming:vinegar",<item:simplefarming:vinegar>,[[<tag:items:forge:empty_bottles>,<tag:items:forge:vinegar_ingredients>]]);
 replaceByName("simplefarming:jam",<item:simplefarming:jam>,[[<tag:items:forge:fruits>],[<tag:items:forge:empty_bottles>]]);
@@ -118,3 +88,5 @@ removeAndHide(<item:quark:iron_ladder>); // didn't conflict, just redundant
 
 replaceByName("terraincognita:crafting/compat/quark/apple/vertical_slab",<item:terraincognita:apple_vertical_slab>*3,[[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>]]);
 replaceByNameMirrored("quark:building/crafting/shinges/shingles",<item:quark:shingles>*2,[[<item:minecraft:terracotta>,air],[air,<item:minecraft:terracotta>]]);
+
+println("END conflicts");
