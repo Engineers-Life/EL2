@@ -5,11 +5,6 @@ import crafttweaker.api.mods.Mods;
 
 val bricksAreBetter = true; // transfer all missing recipes into modded block
 
-function validName(name as string) as string {
-    val rl = BracketHandlers.getResourceLocation(name);
-    return rl.namespace+"."+rl.path;
-}
-
 // Data reminders:
 // Recipe Manager	Bracket Handler	                    Global Variable
 // Blasting	        <recipetype:minecraft:blasting>	    blastFurnace
