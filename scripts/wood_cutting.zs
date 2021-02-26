@@ -12,11 +12,6 @@ val fromType = <recipetype:woodenutilities:woodcutter>;
 val toType = <recipetype:charm:woodcutting>;
 val recipePrefix = "woodcutter";
 
-function validName(name as string) as string {
-    val rl = BracketHandlers.getResourceLocation(name);
-    return rl.namespace+"."+rl.path;
-}
-
 // make mine a double - fix bad recipes
 //    <item:immersiveengineering:treated_scaffold>,
 val changeOutput = {
