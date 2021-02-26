@@ -1,4 +1,3 @@
-
 println("BEGIN MB_steel_ban.zs");
 
 val air = <item:minecraft:air>;
@@ -26,35 +25,19 @@ for item in [
         <item:mapperbase:steel_rod>,
         <item:mapperbase:steel_shovel>,
         <item:mapperbase:steel_sword> ] {
-    craftingTable.removeRecipe(item);
-    mods.jei.JEI.hideItem(item);
+    removeAndHide(item);
 }
 
-<tag:items:forge:storage_blocks>.remove(<item:mapperbase:steel_block>);
-<tag:items:forge:storage_blocks/steel>.remove(<item:mapperbase:steel_block>);
 blastFurnace.removeRecipe(<item:mapperbase:steel_block>);
-
-craftingTable.removeByName("immersiveengineering:crafting/drillhead_steel");
-craftingTable.addShaped("drillhead_steel", <item:immersiveengineering:drillhead_steel>,
-    [ [air,air,steel_ingot],[steel_ingot,steel_ingot,air],[steel_block,steel_ingot,air] ]);
-
-<tag:items:forge:rods/steel>.remove(<item:mapperbase:steel_rod>);
-<tag:items:forge:rods/all_metal>.remove(<item:mapperbase:steel_rod>);
 blastFurnace.removeRecipe(<item:mapperbase:steel_rod>);
-
-craftingTable.removeByName("immersiveengineering:crafting/steel_scaffolding_standard");
-craftingTable.addShaped("steel_scaffolding_standard", <item:immersiveengineering:steel_scaffolding_standard>*6,
-    [ [steel_ingot,steel_ingot,steel_ingot],[air,steel_rod,air],[steel_rod,air,steel_rod] ]);
-
-<tag:items:forge:plates>.remove(<item:mapperbase:steel_plate>);
-<tag:items:forge:plates/steel>.remove(<item:mapperbase:steel_plate>);
-
 blastFurnace.removeRecipe(<item:mapperbase:steel_nugget>);
 
-<tag:items:forge:rods/all_metal>.remove(<item:mapperbase:iron_rod>);
-<tag:items:forge:rods/iron>.remove(<item:mapperbase:iron_rod>);
+replaceByNameMirrored("immersiveengineering:crafting/drillhead_steel",<item:immersiveengineering:drillhead_steel>,
+    [ [air,air,steel_ingot],[steel_ingot,steel_ingot,air],[steel_block,steel_ingot,air] ]);
 
-<recipetype:transport:rail_workers_bench>.removeRecipe(<item:transport:steam_locomotive>);
-<recipetype:transport:rail_workers_bench>.addJSONRecipe("steam_loco", {ingredient:{item:<item:immersiveengineering:storage_steel>.registryName},result:<item:transport:steam_locomotive>.registryName});
+replaceByName("immersiveengineering:crafting/steel_scaffolding_standard",<item:immersiveengineering:steel_scaffolding_standard>*6,
+    [ [steel_ingot,steel_ingot,steel_ingot],[air,steel_rod,air],[steel_rod,air,steel_rod] ]);
+
+SimpleJsonReplace(<recipetype:transport:rail_workers_bench>,<item:transport:steam_locomotive>,steel_block);
 
 println("END MB_steel_ban.zs");
