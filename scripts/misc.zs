@@ -66,3 +66,21 @@ craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_
     outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}" } );
 
 craftingTable.addShapeless("redstone_block_to_dust", <item:minecraft:redstone>*9, [<item:minecraft:redstone_block>], null);
+
+craftingTable.addShaped("chain_helmet", <item:minecraft:chainmail_helmet>, [
+[<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
+[<item:minecraft:chain>, air, <item:minecraft:chain>]],null);
+
+craftingTable.addShaped("chain_chest", <item:minecraft:chainmail_chestplate>, [
+[<item:minecraft:chain>, air, <item:minecraft:chain>],
+[<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
+[<item:minecraft:chain>,<item:minecraft:chain>,<item:minecraft:chain>]],null);
+
+craftingTable.addShaped("chain_legs", <item:minecraft:chainmail_leggings>, [
+[<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
+[<item:minecraft:chain>,air,<item:minecraft:chain>],
+[<item:minecraft:chain>,air,<item:minecraft:chain>]],null);
+
+craftingTable.addShaped("chain_boots", <item:minecraft:chainmail_boots>, [
+[<item:minecraft:chain>,air,<item:minecraft:chain>],
+[<item:immersiveengineering:plate_iron>,air,<item:immersiveengineering:plate_iron>]],null);
