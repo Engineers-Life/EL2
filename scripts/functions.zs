@@ -12,16 +12,29 @@ function validName(name as string) as string {
     return rl.namespace+"."+rl.path;
 }
 
+function removeAllTagsAndHide(item as IItemStack) as void {
+    for tag in <tagManager:items>.getAllTagsFor(item) {
+        tag.remove(item);
+    }
+    mods.jei.JEI.hideItem(item);
+}
+
 function removeAndHide(item as IItemStack) as void {
     craftingTable.removeRecipe(item);
-    mods.jei.JEI.hideItem(item);
+    removeAllTagsAndHide(item);
 }
 
 function removeFromListAndHide(managerList as IRecipeManager[], item as IItemStack) as void {
     for manager in managerList { manager.removeRecipe(item); }
-    mods.jei.JEI.hideItem(item);
+    removeAllTagsAndHide(item);
 }
 
+function SimpleJsonReplace(manager as IRecipeManager, output as IItemStack, input as IItemStack ) as void {
+    val amount = output.amount;
+    manager.removeRecipe(output);
+    manager.addJSONRecipe(validName(output.registryName), {ingredient:{item:input.registryName},result:output.registryName,count:amount as int});
+    return;
+}
 
 function SimpleJsonReplaceByName(manager as IRecipeManager, name as string, output as IItemStack, input as IItemStack ) as void {
     val amount = output.amount;
@@ -31,7 +44,7 @@ function SimpleJsonReplaceByName(manager as IRecipeManager, name as string, outp
 }
 
 function replaceByName(name as string, output as IItemStack, recipe as IIngredient[][] ) as void {
-    val rl = BracketHandlers.getResourceLocation(name);
+    // val rl = BracketHandlers.getResourceLocation(name);
     craftingTable.removeByName(name);
     craftingTable.addShaped(validName(name),output,recipe,null);
     return;
