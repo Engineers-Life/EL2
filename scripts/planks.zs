@@ -16,11 +16,6 @@ axes.add(<item:betterendforge:terminite_axe>);
 axes.add(<item:betterendforge:aeternium_axe>);
 axes.add(<item:vanillafoodpantry:flint_butcher_axe>);
 
-function validName(name as string) as string {
-    val rl = BracketHandlers.getResourceLocation(name);
-    return rl.namespace+"."+rl.path;
-}
-
 // special logs
 for log in  [<item:simplefarming:fruit_log>,<item:aquaculture:driftwood>] {
     craftingTable.addShaped("axe."+validName(log.registryName), <item:minecraft:oak_planks>*2,
