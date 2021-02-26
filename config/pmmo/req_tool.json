@@ -41,7 +41,7 @@
 	},
 	"minecraft:stone_pickaxe":
 	{
-		"mining": 5
+		"mining": 3
 	},
 	"minecraft:iron_pickaxe":
 	{
@@ -90,10 +90,6 @@
 	{
 		"farming": 15
 	},
-	"minecraft:diamond_hoe":
-	{
-		"farming": 30
-	},
 	"minecraft:golden_pickaxe":
 	{
 		"mining": 30
@@ -105,6 +101,10 @@
 	"minecraft:golden_axe":
 	{
 		"woodcutting": 30
+	},
+	"minecraft:golden_hoe":
+	{
+		"farming": 30
 	},
 	"aquaculture:neptunium_pickaxe":
 	{
@@ -118,10 +118,6 @@
 	{
 		"woodcutting": 30
 	},
-	"minecraft:netherite_hoe":
-	{
-		"farming": 40
-	},
 	"minecraft:diamond_pickaxe":
 	{
 		"mining": 40
@@ -134,6 +130,10 @@
 	{
 		"woodcutting": 40
 	},
+	"minecraft:diamond_hoe":
+	{
+		"farming": 40
+	},
 	"aquaculture:neptunium_hoe":
 	{
 		"farming": 40
@@ -142,7 +142,19 @@
 	{
 		"mining": 45
 	},
-	"minecraft:golden_hoe":
+	"betterendforge:terminite_axe":
+	{
+		"woodcutting": 45
+	},
+	"betterendforge:terminite_shovel":
+	{
+		"excavation": 45
+	},
+	"betterendforge:terminite_hoe":
+	{
+		"farming": 45
+	},
+	"betterendforge:aeternium_hoe":
 	{
 		"farming": 50
 	},
@@ -153,6 +165,10 @@
 	"minecraft:netherite_shovel":
 	{
 		"excavation": 60
+	},
+	"minecraft:netherite_hoe":
+	{
+		"farming": 60
 	},
 	"minecraft:netherite_axe":
 	{
