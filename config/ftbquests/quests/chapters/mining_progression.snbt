@@ -7,9 +7,9 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			title: "Reach Mining Level 5",
-			x: -4.5d,
-			y: -1.0d,
+			title: "Reach Mining Level 3",
+			x: -7.5d,
+			y: 0.0d,
 			id: "0000000000000318",
 			tasks: [{
 				id: "0000000000000319",
@@ -48,9 +48,9 @@
 			]
 		},
 		{
-			title: "Reach Mining Level 12",
-			x: -4.5d,
-			y: 0.0d,
+			title: "Reach Mining Level 10",
+			x: -7.5d,
+			y: 1.0d,
 			id: "000000000000031A",
 			tasks: [{
 				id: "000000000000031B",
@@ -85,8 +85,8 @@
 		},
 		{
 			title: "Reach Mining Level 40",
-			x: -4.5d,
-			y: 3.0d,
+			x: -7.5d,
+			y: 4.0d,
 			id: "000000000000031E",
 			tasks: [{
 				id: "000000000000031F",
@@ -108,8 +108,8 @@
 		},
 		{
 			title: "Reach Mining Level 60",
-			x: -4.5d,
-			y: 6.0d,
+			x: -7.5d,
+			y: 7.0d,
 			id: "0000000000000320",
 			tasks: [{
 				id: "0000000000000321",
@@ -138,8 +138,8 @@
 		},
 		{
 			title: "Reach Mining Level 15",
-			x: -4.5d,
-			y: 1.0d,
+			x: -7.5d,
+			y: 2.0d,
 			id: "0000000000000322",
 			tasks: [{
 				id: "0000000000000323",
@@ -167,9 +167,9 @@
 			]
 		},
 		{
-			title: "Reach Combat Level 5",
-			x: -3.0d,
-			y: -1.0d,
+			title: "Reach Combat Level 3",
+			x: -1.5d,
+			y: 0.0d,
 			id: "00000000000003BA",
 			tasks: [{
 				id: "00000000000003BB",
@@ -209,8 +209,8 @@
 		},
 		{
 			title: "Reach Combat Level 10",
-			x: -3.0d,
-			y: 0.0d,
+			x: -1.5d,
+			y: 1.0d,
 			id: "00000000000003BC",
 			tasks: [{
 				id: "00000000000003BD",
@@ -245,8 +245,8 @@
 		},
 		{
 			title: "Reach Combat Level 40",
-			x: -3.0d,
-			y: 3.0d,
+			x: -1.5d,
+			y: 4.0d,
 			id: "00000000000003BE",
 			tasks: [{
 				id: "00000000000003BF",
@@ -267,9 +267,9 @@
 			}]
 		},
 		{
-			title: "Reach combat level 60",
-			x: -3.0d,
-			y: 6.0d,
+			title: "Reach Combat Level 60",
+			x: -1.5d,
+			y: 7.0d,
 			id: "00000000000003C0",
 			tasks: [{
 				id: "00000000000003C1",
@@ -298,8 +298,8 @@
 		},
 		{
 			title: "Reach Combat Level 20",
-			x: -3.0d,
-			y: 1.0d,
+			x: -1.5d,
+			y: 2.0d,
 			id: "00000000000003CA",
 			tasks: [{
 				id: "00000000000003CB",
@@ -328,8 +328,8 @@
 					Damage: 0
 				}
 			},
-			x: -1.5d,
-			y: 0.0d,
+			x: -3.0d,
+			y: 1.0d,
 			id: "00000000000004F4",
 			tasks: [{
 				id: "00000000000004F5",
@@ -371,8 +371,8 @@
 					Damage: 0
 				}
 			},
-			x: -1.5d,
-			y: 1.0d,
+			x: -3.0d,
+			y: 2.0d,
 			id: "00000000000004F6",
 			tasks: [{
 				id: "00000000000004F7",
@@ -407,8 +407,8 @@
 					Damage: 0
 				}
 			},
-			x: -1.5d,
-			y: 3.0d,
+			x: -3.0d,
+			y: 4.0d,
 			id: "00000000000004F8",
 			tasks: [{
 				id: "00000000000004F9",
@@ -443,8 +443,8 @@
 					Damage: 0
 				}
 			},
-			x: -1.5d,
-			y: 6.0d,
+			x: -3.0d,
+			y: 7.0d,
 			id: "00000000000004FA",
 			tasks: [{
 				id: "00000000000004FB",
@@ -479,8 +479,8 @@
 					Damage: 0
 				}
 			},
-			x: -1.5d,
-			y: -1.0d,
+			x: -3.0d,
+			y: 0.0d,
 			id: "00000000000004FC",
 			tasks: [{
 				id: "00000000000004FD",
@@ -521,7 +521,7 @@
 		{
 			title: "Reach Endurance Level 5",
 			x: 0.0d,
-			y: -1.0d,
+			y: 0.0d,
 			id: "0000000000000696",
 			tasks: [{
 				id: "0000000000000697",
@@ -550,7 +550,7 @@
 		{
 			title: "Reach Endurance Level 10",
 			x: 0.0d,
-			y: 0.0d,
+			y: 1.0d,
 			id: "0000000000000698",
 			tasks: [{
 				id: "0000000000000699",
@@ -579,7 +579,7 @@
 		{
 			title: "Reach Endurance Level 20",
 			x: 0.0d,
-			y: 2.0d,
+			y: 3.0d,
 			id: "000000000000069C",
 			tasks: [{
 				id: "000000000000069D",
@@ -608,7 +608,7 @@
 		{
 			title: "Reach Endurance Level 40",
 			x: 0.0d,
-			y: 4.0d,
+			y: 5.0d,
 			id: "000000000000069E",
 			tasks: [{
 				id: "000000000000069F",
@@ -637,7 +637,7 @@
 		{
 			title: "Reach Endurance Level 60",
 			x: 0.0d,
-			y: 5.0d,
+			y: 6.0d,
 			id: "00000000000006A0",
 			tasks: [{
 				id: "00000000000006A1",
@@ -666,7 +666,7 @@
 		{
 			title: "Reach Endurance Level 28",
 			x: 0.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000830",
 			tasks: [{
 				id: "0000000000000831",
@@ -695,7 +695,7 @@
 		{
 			title: "Reach Endurance Level 70",
 			x: 0.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000000832",
 			tasks: [{
 				id: "0000000000000833",
@@ -723,8 +723,8 @@
 		},
 		{
 			title: "Reach Mining Level 45",
-			x: -4.5d,
-			y: 4.0d,
+			x: -7.5d,
+			y: 5.0d,
 			id: "0000000000000834",
 			tasks: [{
 				id: "0000000000000835",
@@ -746,8 +746,8 @@
 		},
 		{
 			title: "Reach Mining Level 50",
-			x: -4.5d,
-			y: 5.0d,
+			x: -7.5d,
+			y: 6.0d,
 			id: "0000000000000836",
 			tasks: [{
 				id: "0000000000000837",
@@ -769,8 +769,8 @@
 		},
 		{
 			title: "Reach Combat Level 45",
-			x: -3.0d,
-			y: 4.0d,
+			x: -1.5d,
+			y: 5.0d,
 			id: "0000000000000838",
 			tasks: [{
 				id: "0000000000000839",
@@ -792,8 +792,8 @@
 		},
 		{
 			title: "Reach Combat Level 50",
-			x: -3.0d,
-			y: 5.0d,
+			x: -1.5d,
+			y: 6.0d,
 			id: "000000000000083A",
 			tasks: [{
 				id: "000000000000083B",
@@ -814,7 +814,7 @@
 			}]
 		},
 		{
-			title: "Unlock Woodcutting Level 43",
+			title: "Unlock Woodcutting Level 45",
 			icon: {
 				id: "betterendforge:terminite_axe",
 				Count: 1b,
@@ -822,8 +822,8 @@
 					Damage: 0
 				}
 			},
-			x: -1.5d,
-			y: 4.0d,
+			x: -3.0d,
+			y: 5.0d,
 			id: "0000000000001076",
 			tasks: [{
 				id: "0000000000001077",
@@ -851,8 +851,8 @@
 		},
 		{
 			title: "Unlock Woodcutting Level 50",
-			x: -1.5d,
-			y: 5.0d,
+			x: -3.0d,
+			y: 6.0d,
 			id: "0000000000001078",
 			tasks: [{
 				id: "0000000000001079",
@@ -880,8 +880,8 @@
 		},
 		{
 			title: "Unlock Mining Level 30",
-			x: -4.5d,
-			y: 2.0d,
+			x: -7.5d,
+			y: 3.0d,
 			id: "000000000000110A",
 			tasks: [{
 				id: "000000000000110B",
@@ -903,8 +903,8 @@
 		},
 		{
 			title: "Unlock Combat Level 30",
-			x: -3.0d,
-			y: 2.0d,
+			x: -1.5d,
+			y: 3.0d,
 			id: "000000000000110C",
 			tasks: [{
 				id: "000000000000110D",
@@ -926,8 +926,8 @@
 		},
 		{
 			title: "Unlock Woodcutting Level 30",
-			x: -1.5d,
-			y: 2.0d,
+			x: -3.0d,
+			y: 3.0d,
 			id: "000000000000110E",
 			tasks: [{
 				id: "000000000000110F",
@@ -948,9 +948,9 @@
 			}]
 		},
 		{
-			title: "Unlock Excavation level 3",
-			x: -6.0d,
-			y: -1.0d,
+			title: "Unlock Excavation Level 3",
+			x: -9.0d,
+			y: 0.0d,
 			id: "0000000000001114",
 			tasks: [{
 				id: "0000000000001116",
@@ -990,8 +990,8 @@
 		},
 		{
 			title: "Unlock Excavation Level 10",
-			x: -6.0d,
-			y: 0.0d,
+			x: -9.0d,
+			y: 1.0d,
 			id: "0000000000001117",
 			tasks: [{
 				id: "0000000000001118",
@@ -1026,8 +1026,8 @@
 		},
 		{
 			title: "Unlock Excavation Level 15",
-			x: -6.0d,
-			y: 1.0d,
+			x: -9.0d,
+			y: 2.0d,
 			id: "0000000000001119",
 			tasks: [{
 				id: "000000000000111A",
@@ -1055,8 +1055,8 @@
 		},
 		{
 			title: "Unlock Excavation Level 30",
-			x: -6.0d,
-			y: 2.0d,
+			x: -9.0d,
+			y: 3.0d,
 			id: "000000000000111B",
 			tasks: [{
 				id: "000000000000111C",
@@ -1078,8 +1078,8 @@
 		},
 		{
 			title: "Unlock Excavation Level 40",
-			x: -6.0d,
-			y: 3.0d,
+			x: -9.0d,
+			y: 4.0d,
 			id: "000000000000111F",
 			tasks: [{
 				id: "0000000000001120",
@@ -1106,9 +1106,9 @@
 			}]
 		},
 		{
-			title: "Unlock Excavation Level 43",
-			x: -6.0d,
-			y: 4.0d,
+			title: "Unlock Excavation Level 45",
+			x: -9.0d,
+			y: 5.0d,
 			id: "0000000000001121",
 			tasks: [{
 				id: "0000000000001122",
@@ -1136,8 +1136,8 @@
 		},
 		{
 			title: "Unlock Excavation Level 50",
-			x: -6.0d,
-			y: 5.0d,
+			x: -9.0d,
+			y: 6.0d,
 			id: "0000000000001123",
 			tasks: [{
 				id: "0000000000001124",
@@ -1165,8 +1165,8 @@
 		},
 		{
 			title: "Unlock Excavation Level 60",
-			x: -6.0d,
-			y: 6.0d,
+			x: -9.0d,
+			y: 7.0d,
 			id: "0000000000001125",
 			tasks: [{
 				id: "0000000000001126",
@@ -1195,7 +1195,7 @@
 		{
 			title: "Unlock Endurance Level 15",
 			x: 0.0d,
-			y: 1.0d,
+			y: 2.0d,
 			description: ["*Check the Currency Exchange for a set*"],
 			id: "0000000000001146",
 			tasks: [{
@@ -1218,6 +1218,559 @@
 					Count: 1b,
 					tag: {
 						type: "tier_i_random"
+					}
+				}
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_shovel",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -9.0d,
+			y: -1.5d,
+			description: [
+				"Excavation skill is gained by breaking dirt or dirt-based blocks.",
+				"",
+				"Higher levels of excavation give you the ability to dig faster and to find treasure in blocks when digging."
+			],
+			optional: true,
+			id: "5AC9081752E85D51",
+			tasks: [{
+				id: "1E0BD10C0AEDDA2C",
+				type: "checkmark",
+				title: "Excavation"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -7.5d,
+			y: -1.5d,
+			description: [
+				"Mining Skill is gained by breaking rock or rock-based blocks.",
+				"",
+				"Higher levels of mining allow you to mine faster and to drop extra items when mining."
+			],
+			optional: true,
+			id: "5562C277365DF050",
+			tasks: [{
+				id: "27065C11D7892632",
+				type: "checkmark",
+				title: "Mining"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: -1.5d,
+			description: [
+				"Combat skill is gained by hitting mobs to deal damage. You will get less xp if the mob is passive, dies, or is one-shot from full health.",
+				"",
+				"Higher levels of combat increase the amount of damage you can do with melee weapons."
+			],
+			optional: true,
+			id: "71C94DF46703BB3F",
+			tasks: [{
+				id: "4E7CAB038758BA54",
+				type: "checkmark",
+				title: "Combat"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -3.0d,
+			y: -1.5d,
+			description: [
+				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.).",
+				"",
+				"Higher levels of woodcutting allow you to cut wood faster and have the possiblity of dropping extra wood blocks."
+			],
+			optional: true,
+			id: "416E81CE76446066",
+			tasks: [{
+				id: "53F6058FA66F0D87",
+				type: "checkmark",
+				title: "Woodcutting"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_chestplate",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.0d,
+			y: -1.5d,
+			description: [
+				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.).",
+				"",
+				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater."
+			],
+			optional: true,
+			id: "78DB7D7B18894DA4",
+			tasks: [{
+				id: "329A1625CD6214D1",
+				type: "checkmark",
+				title: "Endurance"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_hoe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -6.0d,
+			y: -1.5d,
+			description: [
+				"Farming skill is gained by harvesting plants and by breeding animals.",
+				"",
+				"Higher levels of farming will allow you to harvest more crops from a single plant and to harvest them faster,"
+			],
+			optional: true,
+			id: "128C6C5B6273C0F3",
+			tasks: [{
+				id: "11AA91F96D236C7E",
+				type: "checkmark",
+				title: "Farming"
+			}]
+		},
+		{
+			icon: "mcwwindows:hammer",
+			x: -9.0d,
+			y: -3.0d,
+			description: [
+				"Building skill is gained by placing blocks into the world. The xp you earn is based on the hardness level of the block.",
+				"",
+				"Higher levels of building increases the reach distance that you can place blocks at."
+			],
+			optional: true,
+			id: "6FE308E29F37255A",
+			tasks: [{
+				id: "4BE7647D00B45091",
+				type: "checkmark",
+				title: "Building"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:bow",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 0.0d,
+			y: -3.0d,
+			description: [
+				"Archery skill is gained by shooting mobs with a bow.",
+				"You will get less xp if the mob is passive, but more if the mob is killed, is one-shot, or if the arrow flies over 16 blocks.",
+				"",
+				"Higher levels of archery allows you to do extra damage with bows."
+			],
+			optional: true,
+			id: "261FF95C675A0E98",
+			tasks: [{
+				id: "5CB7A94DEE4ADAD5",
+				type: "checkmark",
+				title: "Archery"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_boots",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.5d,
+			y: -4.0d,
+			description: [
+				"Agility skill is gained by in a number of ways:",
+				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this).",
+				"-Jumping: the higher you jump the more xp you gain (Potions can boost this).",
+				"-Saving fall damage (a chance probability of occuring when taking fall damage).",
+				"",
+				"Higher levels of agility will grant a number of advantages:",
+				"-Faster sprinting",
+				"-Higher sprint and crouch jumps",
+				"-A higher chance to save fall damage"
+			],
+			optional: true,
+			id: "63F8E2CB45B9803D",
+			tasks: [{
+				id: "3C321FB0BBBB71CF",
+				type: "checkmark",
+				title: "Agility"
+			}]
+		},
+		{
+			icon: "minecraft:smithing_table",
+			x: -10.5d,
+			y: -4.0d,
+			description: [
+				"Smithing skill is gained by a number of different methods:",
+				"-Smelting items",
+				"-Repairing items",
+				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)",
+				"",
+				"Higher levels of smithing give a number of good benefits:",
+				"-While smelting ore there is a possibility of getting extra products.",
+				"-When salvaging items, a higher level increases the success rate of salvaging and increases the number of possible salvaging products.",
+				"-Increases the amount repaired when using the anvil and anvils are less likely to break."
+			],
+			optional: true,
+			id: "41F4A32BEA5C4295",
+			tasks: [{
+				id: "3B673FE9BA9A3CC0",
+				type: "checkmark",
+				title: "Smithing"
+			}]
+		},
+		{
+			icon: "minecraft:tropical_fish",
+			x: -3.0d,
+			y: -3.0d,
+			description: [
+				"Swiming skill is gained by going swimming in the lakes, rivers, and oceans.",
+				"",
+				"Higher levels of swimming will grant two advantages, underwater nightvision and the ability to stay underwater longer.",
+				"Underwater Nightvision will unlock at level 25.",
+				"Swimming, and to a lesser extent Endurance, will work together to extend your ability to stay underwater."
+			],
+			optional: true,
+			id: "214CDC923D179E56",
+			tasks: [{
+				id: "5FFBB579483535DF",
+				type: "checkmark",
+				title: "Swimming"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:fishing_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -4.5d,
+			y: -1.5d,
+			description: [
+				"Fishing skill is gained by going out and ... you will never guess ... fishing.",
+				"",
+				"While fishing you will be able to catch special items that have the possibility of being enchanted.",
+				"Higher levels of fishing increase the probability of catching better items with better enchantments."
+			],
+			optional: true,
+			id: "4C18DC09C5FFB372",
+			tasks: [{
+				id: "26DAF84205172A75",
+				type: "checkmark",
+				title: "Fishing"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:elytra",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: -4.0d,
+			description: [
+				"Flying skill is gained by flying around with an Elytra.",
+				"",
+				"There is no bonus for higher levels of this skill."
+			],
+			optional: true,
+			id: "0A0E3A6CA17F84F9",
+			tasks: [{
+				id: "6AA18B31884A0323",
+				type: "checkmark",
+				title: "Flying"
+			}]
+		},
+		{
+			icon: "minecraft:crafting_table",
+			x: -7.5d,
+			y: -4.0d,
+			description: [
+				"Crafting skill is gained by crafting recipes, either in inventory or in a crafting table.",
+				"",
+				"There are no bonuses for higher levels of this skill."
+			],
+			optional: true,
+			id: "7085E4D3E7C51F7B",
+			tasks: [{
+				id: "7AA4F201B206B0D0",
+				type: "checkmark",
+				title: "Crafting"
+			}]
+		},
+		{
+			icon: "cookingforblockheads:oven",
+			x: -4.5d,
+			y: -4.0d,
+			description: [
+				"Cooking skill is gained by cooking food items.",
+				"",
+				"Higher levels of this skill allow for the possibility of extra food being made when cooking food."
+			],
+			optional: true,
+			id: "777FFBDE3AD629F9",
+			tasks: [{
+				id: "15EB7D2E5444C8BB",
+				type: "checkmark",
+				title: "Cooking"
+			}]
+		},
+		{
+			icon: "minecraft:brewing_stand",
+			x: -6.0d,
+			y: -3.0d,
+			description: [
+				"Alchemy skill is gained by brewing potions in the Brewing Stand.",
+				"",
+				"Higher levels of this skill allow for the possibility of extra potions being brewed when brewing a potion."
+			],
+			optional: true,
+			id: "64F9EE8910E19872",
+			tasks: [{
+				id: "3FE9F9324A9A75ED",
+				type: "checkmark",
+				title: "Alchemy"
+			}]
+		},
+		{
+			title: "Reach Farming Level 3",
+			x: -6.0d,
+			y: 0.0d,
+			description: [""],
+			id: "0BC71F6D6515CB64",
+			tasks: [{
+				id: "53633DBC53510BEF",
+				type: "item",
+				item: {
+					id: "minecraft:stone_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Farming Level 10",
+			x: -6.0d,
+			y: 1.0d,
+			id: "733BE33025F7B192",
+			tasks: [{
+				id: "71F9CC116438FF01",
+				type: "item",
+				item: {
+					id: "minecraft:iron_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Farming Level 15",
+			x: -6.0d,
+			y: 2.0d,
+			id: "793E2D0B26C45307",
+			tasks: [{
+				id: "38793DE98A2D0C7D",
+				type: "item",
+				item: {
+					id: "immersiveengineering:hoe_steel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Farming Level 30",
+			x: -6.0d,
+			y: 3.0d,
+			id: "46B9BB8AD4B95DC8",
+			tasks: [{
+				id: "6F45B487441CBE1F",
+				type: "item",
+				item: {
+					id: "minecraft:golden_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Farming Level 40",
+			x: -6.0d,
+			y: 4.0d,
+			id: "60D783768464FF77",
+			tasks: [{
+				id: "49B6A8AC6B023286",
+				type: "item",
+				item: {
+					id: "minecraft:diamond_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Farming Level 45",
+			x: -6.0d,
+			y: 5.0d,
+			id: "50F969FD79124A4E",
+			tasks: [{
+				id: "2C6FB459846E03A3",
+				type: "item",
+				item: {
+					id: "betterendforge:terminite_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Farming Level 50",
+			x: -6.0d,
+			y: 6.0d,
+			id: "56CFDC7E9ED2A441",
+			tasks: [{
+				id: "2DE1590EBA6C5974",
+				type: "item",
+				item: {
+					id: "betterendforge:aeternium_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Farming Level 60",
+			x: -6.0d,
+			y: 7.0d,
+			id: "365D60817E9FE766",
+			tasks: [{
+				id: "25CBC036D570D627",
+				type: "item",
+				item: {
+					id: "minecraft:netherite_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Fishing Level 10",
+			x: -4.5d,
+			y: 0.0d,
+			id: "494141C1DD653E12",
+			tasks: [{
+				id: "4A0C870ACF2BDA66",
+				type: "item",
+				item: {
+					id: "aquaculture:iron_fishing_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Fishing Level 15",
+			x: -4.5d,
+			y: 1.0d,
+			id: "47FB994173546539",
+			tasks: [{
+				id: "168146B1624D328C",
+				type: "item",
+				item: {
+					id: "aquaculture:gold_fishing_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Fishing Level 20",
+			x: -4.5d,
+			y: 2.0d,
+			id: "18E32D1C62081D15",
+			tasks: [{
+				id: "43C5671C1D716063",
+				type: "item",
+				item: {
+					id: "aquaculture:diamond_fishing_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach Fishing Level 30",
+			x: -4.5d,
+			y: 3.0d,
+			id: "53F5A9F790B5ABEB",
+			tasks: [{
+				id: "44197B5595B03203",
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_fishing_rod",
+					Count: 1b,
+					tag: {
+						Damage: 0
 					}
 				}
 			}]
