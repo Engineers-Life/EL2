@@ -1196,7 +1196,6 @@
 			title: "Unlock Endurance Level 15",
 			x: 0.0d,
 			y: 2.0d,
-			description: ["*Check the Currency Exchange for a set*"],
 			id: "0000000000001146",
 			tasks: [{
 				id: "0000000000001147",
