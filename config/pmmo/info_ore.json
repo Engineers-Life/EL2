@@ -39,10 +39,6 @@
 	{
 		"extraChance": 0.5
 	},
-	"minecraft:glowstone":
-	{
-		"extraChance": 0.1
-	},
 	"betterendforge:amber_ore":
 	{
 		"extraChance": 0.5
