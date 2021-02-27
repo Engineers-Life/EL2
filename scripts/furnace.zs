@@ -3,6 +3,8 @@ import crafttweaker.api.BracketHandlers;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.mods.Mods;
 
+println("BEGIN furnace.zs");
+
 val bricksAreBetter = true; // transfer all missing recipes into modded block
 
 // Data reminders:
@@ -36,8 +38,12 @@ smoker.removeRecipe(<item:simplefarming:cooked_egg>);
 
 println("BEGIN furnace.metal_processing");
 
-// remove making dust in crafting table
-// for dust in <tag:items:forge:dusts>.getElements() { craftingTable.removeRecipe(dust); }
+// remove making dust from ores in crafting table
+for wrapper in craftingTable.getRecipesByOutput(<tag:items:forge:dusts>) {
+    if wrapper.ingredients[0].items[0] in <tag:items:forge:ores> {
+        craftingTable.removeByName(wrapper.id);
+    }
+}
 
 // remove processing ores in furnace
 for wrapper in furnace.getAllRecipes() {
@@ -57,11 +63,10 @@ for wrapper in furnace.getAllRecipes() {
 // but let's keep it, in case mods change, cause this code will catch that.
 for furnaceWrapper in furnace.getAllRecipes() {
     if (furnaceWrapper.output in <tag:items:forge:nuggets>.getElements()) {
-        val ingredientsList = furnaceWrapper.ingredients;
         val nugget = furnaceWrapper.output;
         val blastRecipes = blastFurnace.getRecipesByOutput(nugget);
         // println("Evaluating furnace recipe that outputs: "+nugget.displayName);
-        for furnaceIngredient in ingredientsList {
+        for furnaceIngredient in furnaceWrapper.ingredients {
             for furnaceItem in furnaceIngredient.items {
                 // println("Evaluating furnace recipe that converts "+furnaceItem.displayName+" into "+nugget.displayName);
                 var foundInBlastFurnace = false;
@@ -222,3 +227,5 @@ if (bricksAreBetter && recipeGroups["Smelting"].size>1) { // size > 1 only check
 	manager.removeByName("notreepunching:smelting/large_vessel");
 	manager.removeByName("notreepunching:smelting/small_vessel");
 }
+
+println("END furnace.zs");
