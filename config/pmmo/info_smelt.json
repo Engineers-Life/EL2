@@ -462,5 +462,13 @@
 	"immersiveengineering:dust_hop_graphite":
 	{
 		"extraChance": 1.5
+	},
+	"quark:trowel":
+	{
+		"extraChance": 2
+	},
+	"bigreactors:cyanite_dust":
+	{
+		"extraChance": 1.5
 	}
 }
