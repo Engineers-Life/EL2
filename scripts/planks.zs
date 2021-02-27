@@ -11,13 +11,16 @@ val saws = <tag:items:notreepunching:saws> as MCTag<MCItemDefinition>;
 val axes = <tag:items:minecraft:axes> as MCTag<MCItemDefinition>;
 val planks = <tag:items:minecraft:planks>;
 
-axes.add(<item:minecraft:netherite_axe>);
-axes.add(<item:immersiveengineering:axe_steel>);
-axes.add(<item:notreepunching:flint_axe>);
-axes.add(<item:aquaculture:neptunium_axe>);
-axes.add(<item:betterendforge:terminite_axe>);
-axes.add(<item:betterendforge:aeternium_axe>);
-//axes.add(<item:vanillafoodpantry:flint_butcher_axe>);
+for axe in [
+        <item:minecraft:netherite_axe>,
+        <item:immersiveengineering:axe_steel>,
+        <item:notreepunching:flint_axe>,
+        <item:aquaculture:neptunium_axe>,
+        <item:betterendforge:terminite_axe>,
+        <item:betterendforge:aeternium_axe>,
+        <item:vanillafoodpantry:flint_butcher_axe> ] {
+    axes.add(axe);
+}
 
 // special logs
 for log in  [<item:simplefarming:fruit_log>,<item:aquaculture:driftwood>] {
