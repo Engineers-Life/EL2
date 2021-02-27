@@ -472,5 +472,13 @@
 	"embellishcraft:slate_cobblestone":
 	{
 		"smithing": 1
+	},
+	"quark:trowel":
+	{
+		"smithing": 20
+	},
+	"bigreactors:cyanite_dust":
+	{
+		"smithing": 15
 	}
 }
