@@ -361,99 +361,115 @@
 	{
 		"smithing": 25
 	},
-	"minecraft:smooth_quartz"
+	"minecraft:quartz_block":
 	{
 		"smithing": 2.5
 	},
-	"minecraft:cracked_nether_bricks"
+	"minecraft:cracked_nether_bricks":
 	{
-		"smithing": 3
+		"smithing": 1.5
 	},
-	"minecraft:cracked_stone_bricks"
+	"minecraft:cracked_stone_bricks":
 	{
-		"smithing": 3
+		"smithing": 1.5
 	},
-	"minecraft:obsidian"
+	"minecraft:obsidian":
 	{
 		"smithing": 5
 	},
-	"minecraft:granite"
+	"minecraft:granite":
 	{
 		"smithing": 1.5
 	},
-	"minecraft:diorite"
+	"minecraft:diorite":
 	{
 		"smithing": 1.5
 	},
-	"minecraft:cracked_polished_blackstone_bricks"
+	"minecraft:cracked_polished_blackstone_bricks":
 	{
 		"smithing": 3
 	},
-	"minecraft:coal_block"
+	"minecraft:coal_block":
 	{
 		"smithing": 4
 	},
-	"minecraft:glowstone"
+	"minecraft:glowstone":
 	{
 		"smithing": 2
 	},
-	"minecraft:andesite"
+	"minecraft:andesite":
 	{
 		"smithing": 1.5
 	},
-	"embellishcraft:smooth_marble"
+	"embellishcraft:smooth_marble":
 	{
 		"smithing": 1.5
 	},
-	"embellishcraft:gneiss"
+	"embellishcraft:gneiss":
 	{
 		"smithing": 1.5
 	},
-	"embellishcraft:gneiss_cobblestone"
+	"embellishcraft:gneiss_cobblestone":
 	{
 		"smithing": 1
 	},
-	"embellishcraft:larvikite"
+	"embellishcraft:larvikite":
 	{
 		"smithing": 1.5
 	},
-	"embellishcraft:larvikite_cobblestone"
+	"embellishcraft:larvikite_cobblestone":
 	{
 		"smithing": 1
 	},
-	"embellishcraft:marble_cobblestone"
+	"embellishcraft:marble":
 	{
 		"smithing": 1
 	},
-	"embellishcraft:basalt"
+	"embellishcraft:marble_cobblestone":
+	{
+		"smithing": 1
+	},
+	"embellishcraft:basalt":
 	{
 		"smithing": 1.5
 	},
-	"embellishcraft:basalt_cobblestone"
+	"embellishcraft:basalt_cobblestone":
 	{
 		"smithing": 1
 	},
-	"embellishcraft:jade"
+	"embellishcraft:jade":
 	{
 		"smithing": 1.5
 	},
-	"notreepunching:diorite_cobblesone"
+	"embellishcraft:jade_cobblestone":
 	{
 		"smithing": 1
 	},
-	"notreepunching:andesite_cobblesone"
+	"notreepunching:diorite_cobblestone":
 	{
 		"smithing": 1
 	},
-	"notreepunching:granite_cobblesone"
+	"notreepunching:andesite_cobblestone":
 	{
 		"smithing": 1
 	},
-	"quark:soul_sandstone"
+	"notreepunching:granite_cobblestone":
 	{
 		"smithing": 1
 	},
-	"quark:biotite_block"
+	"quark:soul_sandstone":
+	{
+		"smithing": 1
+	},
+	"quark:biotite_block":
+	{
+		"smithing": 1
+	},
+	"embellishcraft:slate":
+	{
+		"smithing": 1.5
+	},
+	"embellishcraft:slate_cobblestone":
 	{
 		"smithing": 1
 	}

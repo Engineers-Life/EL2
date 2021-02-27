@@ -275,43 +275,43 @@
 	{
 		"extraChance": 1.5
 	},
-	"minecraft:smooth_quartz"
+	"minecraft:quartz_block":
 	{
 		"extraChance": 1.0
 	},
-	"minecraft:cracked_nether_bricks"
+	"minecraft:cracked_nether_bricks":
 	{
 		"extraChance": 1.0
 	},
-	"minecraft:cracked_stone_bricks"
+	"minecraft:cracked_stone_bricks":
 	{
 		"extraChance": 1.2
 	},
-	"minecraft:obsidian"
+	"minecraft:obsidian":
 	{
 		"extraChance": 1.2
 	},
-	"minecraft:granite"
+	"minecraft:granite":
 	{
 		"extraChance": 1.0
 	},
-	"minecraft:diorite"
+	"minecraft:diorite":
 	{
 		"extraChance": 1.0
 	},
-	"minecraft:cracked_polished_blackstone_bricks"
+	"minecraft:cracked_polished_blackstone_bricks":
 	{
 		"extraChance": 1.0
 	},
-	"minecraft:coal_block"
+	"minecraft:coal_block":
 	{
 		"extraChance": 1.0
 	},
-	"minecraft:glowstone"
+	"minecraft:glowstone":
 	{
 		"extraChance": 1.0
 	},
-	"minecraft:andesite"
+	"minecraft:andesite":
 	{
 		"extraChance": 1.0
 	},
@@ -319,59 +319,75 @@
 	{
 		"extraChance": 15
 	},
-	"embellishcraft:smooth_marble"
+	"embellishcraft:smooth_marble":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:gneiss"
+	"embellishcraft:gneiss":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:gneiss_cobblestone"
+	"embellishcraft:gneiss_cobblestone":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:larvikite"
+	"embellishcraft:larvikite":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:larvikite_cobblestone"
+	"embellishcraft:larvikite_cobblestone":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:marble_cobblestone"
+	"embellishcraft:marble_cobblestone":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:basalt"
+	"embellishcraft:marble":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:basalt_cobblestone"
+	"embellishcraft:basalt":
 	{
 		"extraChance": 1.0
 	},
-	"embellishcraft:jade"
+	"embellishcraft:basalt_cobblestone":
 	{
 		"extraChance": 1.0
 	},
-	"notreepunching:diorite_cobblesone"
+	"embellishcraft:jade":
 	{
 		"extraChance": 1.0
 	},
-	"notreepunching:andesite_cobblesone"
+	"embellishcraft:jade_cobblestone":
 	{
 		"extraChance": 1.0
 	},
-	"notreepunching:granite_cobblesone"
+	"notreepunching:diorite_cobblestone":
 	{
 		"extraChance": 1.0
 	},
-	"quark:soul_sandstone"
+	"notreepunching:andesite_cobblestone":
 	{
 		"extraChance": 1.0
 	},
-	"quark:biotite_block"
+	"notreepunching:granite_cobblestone":
+	{
+		"extraChance": 1.0
+	},
+	"quark:soul_sandstone":
+	{
+		"extraChance": 1.0
+	},
+	"quark:biotite_block":
+	{
+		"extraChance": 1.0
+	},
+	"embellishcraft:slate":
+	{
+		"extraChance": 1.0
+	},
+	"embellishcraft:slate_cobblestone":
 	{
 		"extraChance": 1.0
 	},
@@ -446,5 +462,5 @@
 	"immersiveengineering:dust_hop_graphite":
 	{
 		"extraChance": 1.5
-	},	
+	}
 }
