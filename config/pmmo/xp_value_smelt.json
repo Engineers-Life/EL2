@@ -211,27 +211,27 @@
 	},
 	"minecraft:white_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:orange_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:magenta_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:light_blue_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:yellow_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:lime_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:pink_terracotta":
 	{
@@ -239,43 +239,43 @@
 	},
 	"minecraft:gray_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:light_gray_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:cyan_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:purple_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:blue_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:brown_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:green_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:red_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:black_terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"minecraft:terracotta":
 	{
-		"smithing": 1.5
+		"smithing": 2.5
 	},
 	"aquaculture:tin_can":
 	{
@@ -360,5 +360,101 @@
 	"immersiveengineering:dust_hop_graphite":
 	{
 		"smithing": 25
+	},
+	"minecraft:smooth_quartz"
+	{
+		"smithing": 2.5
+	},
+	"minecraft:cracked_nether_bricks"
+	{
+		"smithing": 3
+	},
+	"minecraft:cracked_stone_bricks"
+	{
+		"smithing": 3
+	},
+	"minecraft:obsidian"
+	{
+		"smithing": 5
+	},
+	"minecraft:granite"
+	{
+		"smithing": 1.5
+	},
+	"minecraft:diorite"
+	{
+		"smithing": 1.5
+	},
+	"minecraft:cracked_polished_blackstone_bricks"
+	{
+		"smithing": 3
+	},
+	"minecraft:coal_block"
+	{
+		"smithing": 4
+	},
+	"minecraft:glowstone"
+	{
+		"smithing": 2
+	},
+	"minecraft:andesite"
+	{
+		"smithing": 1.5
+	},
+	"embellishcraft:smooth_marble"
+	{
+		"smithing": 1.5
+	},
+	"embellishcraft:gneiss"
+	{
+		"smithing": 1.5
+	},
+	"embellishcraft:gneiss_cobblestone"
+	{
+		"smithing": 1
+	},
+	"embellishcraft:larvikite"
+	{
+		"smithing": 1.5
+	},
+	"embellishcraft:larvikite_cobblestone"
+	{
+		"smithing": 1
+	},
+	"embellishcraft:marble_cobblestone"
+	{
+		"smithing": 1
+	},
+	"embellishcraft:basalt"
+	{
+		"smithing": 1.5
+	},
+	"embellishcraft:basalt_cobblestone"
+	{
+		"smithing": 1
+	},
+	"embellishcraft:jade"
+	{
+		"smithing": 1.5
+	},
+	"notreepunching:diorite_cobblesone"
+	{
+		"smithing": 1
+	},
+	"notreepunching:andesite_cobblesone"
+	{
+		"smithing": 1
+	},
+	"notreepunching:granite_cobblesone"
+	{
+		"smithing": 1
+	},
+	"quark:soul_sandstone"
+	{
+		"smithing": 1
+	},
+	"quark:biotite_block"
+	{
+		"smithing": 1
 	}
 }
