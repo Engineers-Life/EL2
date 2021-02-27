@@ -1,15 +1,15 @@
 {
 	"minecraft:stonecutter":
 	{
-		"crafting": 10
+		"crafting": 5
 	},
 	"minecraft:smoker":
 	{
-		"crafting": 10
+		"crafting": 5
 	},
 	"minecraft:blast_furnace":
 	{
-		"crafting": 10
+		"crafting": 5
 	},
 	"ironchest:iron_to_gold_chest_upgrade":
 	{
