@@ -39,19 +39,19 @@ for wrapper in craftingTable.getRecipesByOutput(<tag:items:minecraft:planks>) {
 }
 
 //planks to sticks
-craftingTable.addShapeless("sticks_axe", <item:minecraft:stick>, 
-[axes.asIIngredient().anyDamage().transformDamage(), <tag:items:minecraft:planks>]);
+craftingTable.addShapedMirrored("sticks_axe", <item:minecraft:stick>, [
+[axes.asIIngredient().anyDamage().transformDamage(), <tag:items:minecraft:planks>]]);
 craftingTable.removeByName("notreepunching:sticks_from_planks_with_flint_axe");
 
-craftingTable.addShapeless("treated_sticks_axe", <item:immersiveengineering:stick_treated>,
-    [axes.asIIngredient().anyDamage().transformDamage(), <tag:items:forge:treated_wood>]);
-craftingTable.addShapeless("treated_sticks_saw", <item:immersiveengineering:stick_treated>*2,
-    [saws.asIIngredient().anyDamage().transformDamage(), <tag:items:forge:treated_wood>]);
+craftingTable.addShapedMirrored("treated_sticks_axe", <item:immersiveengineering:stick_treated>,
+    [[axes.asIIngredient().anyDamage().transformDamage(), <tag:items:forge:treated_wood>]]);
+craftingTable.addShapedMirrored("treated_sticks_saw", <item:immersiveengineering:stick_treated>*2,
+    [[saws.asIIngredient().anyDamage().transformDamage(), <tag:items:forge:treated_wood>]]);
 craftingTable.removeByName("immersiveengineering:crafting/stick_treated");
 
 //logs to sticks
-craftingTable.addShapeless("sticks_log_axe", <item:minecraft:stick>*6, 
-[axes.asIIngredient().anyDamage().transformDamage(), <tag:items:minecraft:logs>]);
+craftingTable.addShapedMirrored("sticks_log_axe", <item:minecraft:stick>*6, [
+[axes.asIIngredient().anyDamage().transformDamage(), <tag:items:minecraft:logs>]]);
 craftingTable.removeByName("notreepunching:sticks_from_logs_with_flint_axe");
 
 // ADD VANILLA AXE RECIPES TO VANILLA LOGS
