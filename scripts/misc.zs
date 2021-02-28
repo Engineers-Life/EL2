@@ -1,22 +1,19 @@
+
+println("BEGIN misc.zs");
+
 var air = <item:minecraft:air>;
 
-mods.jei.JEI.hideItem(<item:productivebees:centrifuge>);
-craftingTable.removeRecipe(<item:productivebees:centrifuge>);
-craftingTable.removeRecipe(<item:productivebees:powered_centrifuge>);
-craftingTable.addShaped("powered_centrifuge", <item:productivebees:powered_centrifuge>, [
-[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>], 
-[<item:minecraft:piston>, <item:minecraft:grindstone>, <item:minecraft:piston>], 
-[<item:minecraft:redstone>, <item:minecraft:iron_ingot>, <item:minecraft:redstone>]], null);
+removeAndHide(<item:productivebees:centrifuge>);
 
-craftingTable.removeRecipe(<item:productivebees:advanced_oak_beehive>);
-craftingTable.addShaped("advanced_oak_beehive", <item:productivebees:advanced_oak_beehive>, [
-[<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>], 
-[<item:minecraft:honeycomb>, <item:minecraft:beehive>, <item:minecraft:honeycomb>], 
-[<item:minecraft:soul_campfire>, <item:minecraft:oak_planks>, <item:minecraft:shears>]], null);
+replaceByName("productivebees:powered_centrifuge/vanilla",<item:productivebees:powered_centrifuge>, [
+    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:piston>, <item:minecraft:grindstone>, <item:minecraft:piston>],
+    [<item:minecraft:redstone>, <item:minecraft:iron_ingot>, <item:minecraft:redstone>] ]);
 
-
-
-
+replaceByName("productivebees:hives/advanced_oak_beehive",<item:productivebees:advanced_oak_beehive>, [
+    [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>],
+    [<item:minecraft:honeycomb>, <item:minecraft:beehive>, <item:minecraft:honeycomb>],
+    [<item:minecraft:soul_campfire>, <item:minecraft:oak_planks>, <item:minecraft:shears>] ]);
 
 //craftingTable.removeRecipe(<item:farmersdelight:stove>);
 //craftingTable.addShaped("stove", <item:farmersdelight:stove>, [
@@ -24,31 +21,26 @@ craftingTable.addShaped("advanced_oak_beehive", <item:productivebees:advanced_oa
 //[<item:minecraft:bricks>, air, <item:minecraft:bricks>], 
 //[<item:minecraft:bricks>, <item:minecraft:furnace>, <item:minecraft:bricks>]], null);
 
-craftingTable.removeRecipe(<item:storagenetwork:master>);
-craftingTable.addShaped("storage_master", <item:storagenetwork:master>, [
-[<item:minecraft:quartz_block>, <item:storagenetwork:kabel>, <item:minecraft:quartz_block>], 
-[<item:storagenetwork:kabel>, <item:minecraft:nether_star>, <item:storagenetwork:kabel>], 
-[<item:minecraft:quartz_block>, <item:storagenetwork:kabel>, <item:minecraft:quartz_block>]], null);
+replaceByName("storagenetwork:master",<item:storagenetwork:master>, [
+    [<item:minecraft:quartz_block>, <item:storagenetwork:kabel>, <item:minecraft:quartz_block>],
+    [<item:storagenetwork:kabel>, <item:minecraft:nether_star>, <item:storagenetwork:kabel>],
+    [<item:minecraft:quartz_block>, <item:storagenetwork:kabel>, <item:minecraft:quartz_block>] ]);
 
-craftingTable.removeRecipe(<item:storagenetwork:storage_kabel>);
-craftingTable.addShaped("storage_cabel", <item:storagenetwork:storage_kabel>*4, [
-[air, <item:storagenetwork:kabel>, air], 
-[<item:storagenetwork:kabel>, <item:minecraft:ender_pearl>, <item:storagenetwork:kabel>], 
-[air, <item:storagenetwork:kabel>, air]], null);
+replaceByName("storagenetwork:storage_kabel",<item:storagenetwork:storage_kabel>*4, [
+    [air, <item:storagenetwork:kabel>, air],
+    [<item:storagenetwork:kabel>, <item:minecraft:ender_pearl>, <item:storagenetwork:kabel>],
+    [air, <item:storagenetwork:kabel>, air] ]);
 
-craftingTable.removeRecipe(<item:transport:rail_workers_bench>);
-craftingTable.addShaped("rail_workers_bench", <item:transport:rail_workers_bench>, [
-[air, <tag:items:minecraft:rails>, air],
-[<item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>]], null);
+replaceByName("transport:rail_workers_bench",<item:transport:rail_workers_bench>, [
+    [air, <tag:items:minecraft:rails>, air],
+    [<item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>] ]);
 
-craftingTable.removeRecipe(<item:industrialforegoing:machine_frame_pity>);
-craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [
-[<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>],
-[<item:minecraft:iron_ingot>, <item:immersiveengineering:rs_engineering>, <item:minecraft:iron_ingot>],
-[<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>]], null);
+replaceByName("industrialforegoing:machine_frame_pity",<item:industrialforegoing:machine_frame_pity>, [
+    [<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>],
+    [<item:minecraft:iron_ingot>, <item:immersiveengineering:rs_engineering>, <item:minecraft:iron_ingot>],
+    [<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>] ]);
 
-<recipetype:industrialforegoing:dissolution_chamber>.removeRecipe(<item:industrialforegoing:machine_frame_simple>);
-<recipetype:industrialforegoing:dissolution_chamber>.addJSONRecipe("machine_frame_simple", {
+replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industrialforegoing:dissolution_chamber/simple_machine_frame", {
     input: [
         { tag: "forge:plastic" },
         { item: "industrialforegoing:machine_frame_pity" },
@@ -62,25 +54,40 @@ craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_
     processingTime: 300,
     output: {
         item: <item:industrialforegoing:machine_frame_simple>.registryName,
-        count:1 },
-    outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}" } );
+        count:1 }
+        // removed this so fluid output matches original recipe in jei instead of stating air
+        // , outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}"
+        } );
 
-craftingTable.addShapeless("redstone_block_to_dust", <item:minecraft:redstone>*9, [<item:minecraft:redstone_block>], null);
+// vanilla recipe still exists, so commented?
+// craftingTable.addShapeless("redstone_block_to_dust", <item:minecraft:redstone>*9, [<item:minecraft:redstone_block>], null);
 
 craftingTable.addShaped("chain_helmet", <item:minecraft:chainmail_helmet>, [
-[<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
-[<item:minecraft:chain>, air, <item:minecraft:chain>]],null);
+    [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
+    [<item:minecraft:chain>, air, <item:minecraft:chain>] ]);
 
 craftingTable.addShaped("chain_chest", <item:minecraft:chainmail_chestplate>, [
-[<item:minecraft:chain>, air, <item:minecraft:chain>],
-[<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
-[<item:minecraft:chain>,<item:minecraft:chain>,<item:minecraft:chain>]],null);
+    [<item:minecraft:chain>, air, <item:minecraft:chain>],
+    [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
+    [<item:minecraft:chain>,<item:minecraft:chain>,<item:minecraft:chain>] ]);
 
 craftingTable.addShaped("chain_legs", <item:minecraft:chainmail_leggings>, [
-[<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
-[<item:minecraft:chain>,air,<item:minecraft:chain>],
-[<item:minecraft:chain>,air,<item:minecraft:chain>]],null);
+    [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
+    [<item:minecraft:chain>,air,<item:minecraft:chain>],
+    [<item:minecraft:chain>,air,<item:minecraft:chain>] ]);
 
 craftingTable.addShaped("chain_boots", <item:minecraft:chainmail_boots>, [
-[<item:minecraft:chain>,air,<item:minecraft:chain>],
-[<item:immersiveengineering:plate_iron>,air,<item:immersiveengineering:plate_iron>]],null);
+    [<item:minecraft:chain>,air,<item:minecraft:chain>],
+    [<item:immersiveengineering:plate_iron>,air,<item:immersiveengineering:plate_iron>] ]);
+
+// make red flint as usable as vanilla flint
+<tag:items:notreepunching:flint_knappable>.add(<item:vanillafoodpantry:red_flint>);
+val stick = <tag:items:forge:rods/wooden>.asIIngredient();
+val flint = <tag:items:forge:flint>.asIIngredient();
+val plank = <tag:items:minecraft:planks>.asIIngredient();
+replaceByName("storagedrawers:one_stack_upgrade",<item:storagedrawers:one_stack_upgrade>,
+    [ [stick,stick,stick],[flint,<item:storagedrawers:upgrade_template>,flint],[stick,stick,stick] ] );
+replaceByName("minecraft:fletching_table",<item:minecraft:fletching_table>,
+    [ [flint,flint],[plank,plank],[plank,plank] ] );
+
+println("END misc.zs");
