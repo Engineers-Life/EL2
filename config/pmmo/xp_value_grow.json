@@ -57,43 +57,43 @@
 	},
 	"simplefarming:apple_sapling":
 	{
-		"farming": 8
+		"farming":25
 	},
 	"simplefarming:apricot_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"simplefarming:banana_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"simplefarming:cherry_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"simplefarming:mango_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"simplefarming:olive_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"simplefarming:orange_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"simplefarming:pear_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"simplefarming:plum_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"terraicognita:apple_sapling":
 	{
-		"farming": 8
+		"farming": 25
 	},
 	"betterendforge:hydralux_sapling":
 	{
@@ -137,7 +137,7 @@
 	},
 	"minecraft:bamboo_sapling":
 	{
-		"farming": 1.2
+		"farming": 2
 	},
 	"minecraft:kelp":
 	{
@@ -163,9 +163,13 @@
 	{
 		"farming": 4
 	},
+	"minecraft:sweet_berries":
+	{
+		"farming": 4
+	},
 	"minecraft:cocoa":
 	{
-		"farming": 17
+		"farming": 15
 	},
 	"minecraft:nether_wart":
 	{
