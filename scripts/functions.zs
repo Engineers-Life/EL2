@@ -1,6 +1,7 @@
 #priority 100
 
 import crafttweaker.api.BracketHandlers;
+import crafttweaker.api.data.IData;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.registries.IRecipeManager;
@@ -29,6 +30,12 @@ function removeFromListAndHide(managerList as IRecipeManager[], item as IItemSta
     removeAllTagsAndHide(item);
 }
 
+function replaceJsonByName(manager as IRecipeManager, name as string, data as IData) as void {
+    manager.removeByName(name);
+    manager.addJSONRecipe(name, data);
+    return;
+}
+
 function SimpleJsonReplace(manager as IRecipeManager, output as IItemStack, input as IItemStack ) as void {
     val amount = output.amount;
     manager.removeRecipe(output);
@@ -44,7 +51,6 @@ function SimpleJsonReplaceByName(manager as IRecipeManager, name as string, outp
 }
 
 function replaceByName(name as string, output as IItemStack, recipe as IIngredient[][] ) as void {
-    // val rl = BracketHandlers.getResourceLocation(name);
     craftingTable.removeByName(name);
     craftingTable.addShaped(validName(name),output,recipe,null);
     return;
