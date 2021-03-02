@@ -3,70 +3,33 @@
 	{
 		"mining": 1
 	},
-	"minecraft:wooden_shovel":
-	{
-		"excavation": 1
-	},
 	"minecraft:wooden_axe":
 	{
 		"woodcutting": 1
+	},
+	"minecraft:wooden_shovel":
+	{
+		"excavation": 1
 	},
 	"minecraft:wooden_hoe":
 	{
 		"farming": 1
 	},
-	"notreepunching:flint_axe":
-	{
-		"woodcutting": 1
-	},
 	"notreepunching:flint_pickaxe":
 	{
 		"mining": 1
 	},	
+	"notreepunching:flint_axe":
+	{
+		"woodcutting": 1
+	},
 	"notreepunching:flint_shovel":
 	{
 		"excavation": 1
 	},
-	"minecraft:stone_shovel":
+	"notreepunching:flint_hoe":
 	{
-		"excavation": 3
-	},
-	"minecraft:stone_axe":
-	{
-		"woodcutting": 3
-	},
-	"minecraft:stone_hoe":
-	{
-		"farming": 3
-	},
-	"minecraft:stone_pickaxe":
-	{
-		"mining": 3
-	},
-	"minecraft:iron_pickaxe":
-	{
-		"mining": 10
-	},
-	"minecraft:iron_shovel":
-	{
-		"excavation": 10
-	},
-	"minecraft:iron_axe":
-	{
-		"woodcutting": 10
-	},
-	"minecraft:iron_hoe":
-	{
-		"farming": 10
-	},
-	"notreepunching:iron_saw":
-	{
-		"woodcutting": 10
-	},	
-	"veggie_way:hand_rake":
-	{
-		"excavation": 5,
-		"farming": 10
+		"farming": 1
 	},
 	"notreepunching:iron_mattock":
 	{
@@ -74,6 +37,51 @@
 		"excavation": 15,
 		"farming": 15
 	},
+	"notreepunching:iron_saw":
+	{
+		"woodcutting": 10
+	},
+	"minecraft:stone_pickaxe":
+	{
+		"mining": 3
+	},
+	"minecraft:stone_axe":
+	{
+		"woodcutting": 3
+	},
+	"minecraft:stone_shovel":
+	{
+		"excavation": 3
+	},
+	"minecraft:stone_hoe":
+	{
+		"farming": 3
+	},
+	"minecraft:iron_pickaxe":
+	{
+		"mining": 10
+	},
+	"minecraft:iron_axe":
+	{
+		"woodcutting": 10
+	},
+	"minecraft:iron_shovel":
+	{
+		"excavation": 10
+	},
+	"minecraft:iron_hoe":
+	{
+		"farming": 10
+	},
+	"veggie_way:hand_rake":
+	{
+		"excavation": 5,
+		"farming": 10
+	},
+	"immersiveengineering:pickaxe_steel":
+	{
+		"mining": 15
+	},	
 	"immersiveengineering:axe_steel":
 	{
 		"woodcutting": 15
@@ -81,10 +89,6 @@
 	"immersiveengineering:shovel_steel":
 	{
 		"excavation": 15
-	},
-	"immersiveengineering:pickaxe_steel":
-	{
-		"mining": 15
 	},
 	"immersiveengineering:hoe_steel":
 	{
@@ -94,47 +98,31 @@
 	{
 		"mining": 30
 	},
-	"minecraft:golden_shovel":
-	{
-		"excavation": 30
-	},
 	"minecraft:golden_axe":
 	{
 		"woodcutting": 30
+	},
+	"minecraft:golden_shovel":
+	{
+		"excavation": 30
 	},
 	"minecraft:golden_hoe":
 	{
 		"farming": 30
 	},
-	"aquaculture:neptunium_pickaxe":
-	{
-		"mining": 30
-	},
-	"aquaculture:neptunium_shovel":
-	{
-		"excavation": 30
-	},
-	"aquaculture:neptunium_axe":
-	{
-		"woodcutting": 30
-	},
 	"minecraft:diamond_pickaxe":
 	{
 		"mining": 40
-	},
-	"minecraft:diamond_shovel":
-	{
-		"excavation": 40
 	},
 	"minecraft:diamond_axe":
 	{
 		"woodcutting": 40
 	},
-	"minecraft:diamond_hoe":
+	"minecraft:diamond_shovel":
 	{
-		"farming": 40
+		"excavation": 40
 	},
-	"aquaculture:neptunium_hoe":
+	"minecraft:diamond_hoe":
 	{
 		"farming": 40
 	},
@@ -154,6 +142,18 @@
 	{
 		"farming": 45
 	},
+	"betterendforge:aeternium_pickaxe":
+	{
+		"mining": 50
+	},
+	"betterendforge:aeternium_axe":
+	{
+		"woodcutting": 50
+	},
+	"betterendforge:aeternium_shovel":
+	{
+		"excavation": 50
+	},
 	"betterendforge:aeternium_hoe":
 	{
 		"farming": 50
@@ -161,6 +161,10 @@
 	"minecraft:netherite_pickaxe":
 	{
 		"mining": 60
+	},
+	"minecraft:netherite_axe":
+	{
+		"woodcutting": 60
 	},
 	"minecraft:netherite_shovel":
 	{
@@ -170,8 +174,20 @@
 	{
 		"farming": 60
 	},
-	"minecraft:netherite_axe":
+	"aquaculture:neptunium_pickaxe":
 	{
-		"woodcutting": 60
+		"mining": 70
+	},
+	"aquaculture:neptunium_axe":
+	{
+		"woodcutting": 70
+	},
+	"aquaculture:neptunium_shovel":
+	{
+		"excavation": 70
+	},
+	"aquaculture:neptunium_hoe":
+	{
+		"farming": 70
 	}
 }

@@ -1,25 +1,13 @@
 {
-	"notreepunching:flint_axe":
-	{
-		"combat": 1
-	},
 	"notreepunching:macuahuitl":
 	{
 		"combat": 3
 	},
+	"notreepunching:flint_axe":
+	{
+		"combat": 1
+	},
 	"notreepunching:flint_knife":
-	{
-		"combat": 1
-	},
-	"minecraft:wooden_pickaxe":
-	{
-		"combat": 1
-	},
-	"minecraft:wooden_shovel":
-	{
-		"combat": 1
-	},
-	"minecraft:wooden_axe":
 	{
 		"combat": 1
 	},
@@ -27,25 +15,13 @@
 	{
 		"combat": 1
 	},
+	"minecraft:wooden_axe":
+	{
+		"combat": 1
+	},
 	"minecraft:stone_sword":
 	{
 		"combat": 3
-	},
-	"aquaculture:neptunium_fillet_knife":
-	{
-		"combat": 5
-	},
-	"minecraft:iron_sword":
-	{
-		"combat": 10
-	},
-	"minecraft:stone_pickaxe":
-	{
-		"combat": 10
-	},
-	"minecraft:stone_shovel":
-	{
-		"combat": 10
 	},
 	"minecraft:stone_axe":
 	{
@@ -55,29 +31,13 @@
 	{
 		"archery": 10
 	},
-	"minecraft:iron_pickaxe":
+	"minecraft:iron_sword":
 	{
-		"combat": 15
-	},
-	"minecraft:iron_shovel":
-	{
-		"combat": 15
+		"combat": 10
 	},
 	"minecraft:iron_axe":
 	{
 		"combat": 15
-	},
-	"immersiveengineering:sword_steel":
-	{
-		"combat": 20
-	},
-	"minecraft:golden_pickaxe":
-	{
-		"combat": 30
-	},
-	"minecraft:golden_shovel":
-	{
-		"combat": 30
 	},
 	"minecraft:golden_sword":
 	{
@@ -87,14 +47,6 @@
 	{
 		"combat": 35
 	},
-	"minecraft:diamond_pickaxe":
-	{
-		"combat": 40
-	},
-	"minecraft:diamond_shovel":
-	{
-		"combat": 40
-	},
 	"minecraft:diamond_sword":
 	{
 		"combat": 40
@@ -102,22 +54,6 @@
 	"minecraft:diamond_axe":
 	{
 		"combat": 45
-	},
-	"betterendforge:terminite_sword":
-	{
-		"combat": 45
-	},
-	"betterendforge:aeternium_sword":
-	{
-		"combat": 50
-	},
-	"minecraft:netherite_pickaxe":
-	{
-		"combat": 60
-	},
-	"minecraft:netherite_shovel":
-	{
-		"combat": 60
 	},
 	"minecraft:netherite_sword":
 	{
@@ -127,12 +63,40 @@
 	{
 		"combat": 65
 	},
+	"immersiveengineering:sword_steel":
+	{
+		"combat": 20
+	},
+	"immersiveengineering:sword_axe":
+	{
+		"combat": 20
+	},
+	"betterendforge:terminite_sword":
+	{
+		"combat": 45
+	},
+	"betterendforge:terminite_axe":
+	{
+		"combat": 45
+	},
+	"betterendforge:aeternium_sword":
+	{
+		"combat": 50
+	},
+	"betterendforge:aeternium_axe":
+	{
+		"combat": 50
+	},
 	"aquaculture:neptunium_sword":
 	{
 		"combat": 70
 	},
 	"aquaculture:neptunium_axe":
 	{
-		"combat": 75
+		"combat": 70
+	},
+	"aquaculture:neptunium_fillet_knife":
+	{
+		"combat": 5
 	}
 }
