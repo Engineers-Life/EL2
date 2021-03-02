@@ -25,7 +25,7 @@
 	},
 	"minecraft:stone_axe":
 	{
-		"combat": 10
+		"combat": 3
 	},
 	"minecraft:crossbow":
 	{
@@ -37,7 +37,7 @@
 	},
 	"minecraft:iron_axe":
 	{
-		"combat": 15
+		"combat": 10
 	},
 	"minecraft:golden_sword":
 	{
@@ -45,7 +45,7 @@
 	},
 	"minecraft:golden_axe":
 	{
-		"combat": 35
+		"combat": 30
 	},
 	"minecraft:diamond_sword":
 	{
@@ -53,7 +53,7 @@
 	},
 	"minecraft:diamond_axe":
 	{
-		"combat": 45
+		"combat": 40
 	},
 	"minecraft:netherite_sword":
 	{
@@ -61,15 +61,15 @@
 	},
 	"minecraft:netherite_axe":
 	{
-		"combat": 65
+		"combat": 60
 	},
 	"immersiveengineering:sword_steel":
 	{
-		"combat": 20
+		"combat": 15
 	},
 	"immersiveengineering:sword_axe":
 	{
-		"combat": 20
+		"combat": 15
 	},
 	"betterendforge:terminite_sword":
 	{
