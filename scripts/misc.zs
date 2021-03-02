@@ -90,4 +90,8 @@ replaceByName("storagedrawers:one_stack_upgrade",<item:storagedrawers:one_stack_
 replaceByName("minecraft:fletching_table",<item:minecraft:fletching_table>,
     [ [flint,flint],[plank,plank],[plank,plank] ] );
 
+// Big Reactors
+removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_passive>);
+removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_active>);
+
 println("END misc.zs");
