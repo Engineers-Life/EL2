@@ -12,29 +12,18 @@
 			y: 0.0d,
 			id: "0000000000000318",
 			tasks: [{
-				id: "0000000000000319",
-				type: "custom",
-				title: "Unlock Stone Pickaxe",
-				icon: {
+				id: "67E1DDF2F4E1E35B",
+				type: "item",
+				item: {
 					id: "minecraft:stone_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
-				{
-					id: "000000000000040E",
-					type: "item",
-					item: {
-						id: "minecraft:stone_pickaxe",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
 				{
 					id: "000000000000041B",
 					type: "xp_levels",
@@ -53,16 +42,16 @@
 			y: 1.0d,
 			id: "000000000000031A",
 			tasks: [{
-				id: "000000000000031B",
-				type: "custom",
-				title: "Unlock Iron Pickaxe",
-				icon: {
+				id: "43EE89C325700259",
+				type: "item",
+				item: {
 					id: "minecraft:iron_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
 				{
@@ -89,16 +78,16 @@
 			y: 4.0d,
 			id: "000000000000031E",
 			tasks: [{
-				id: "000000000000031F",
-				type: "custom",
-				title: "Unlock Diamond Pickaxe",
-				icon: {
+				id: "24D48646CEB56A60",
+				type: "item",
+				item: {
 					id: "minecraft:diamond_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000044E",
@@ -112,16 +101,16 @@
 			y: 7.0d,
 			id: "0000000000000320",
 			tasks: [{
-				id: "0000000000000321",
-				type: "custom",
-				title: "Unlock Netherite Pickaxe",
-				icon: {
+				id: "7D853D83634D976B",
+				type: "item",
+				item: {
 					id: "minecraft:netherite_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
 				{
@@ -142,16 +131,16 @@
 			y: 2.0d,
 			id: "0000000000000322",
 			tasks: [{
-				id: "0000000000000323",
-				type: "custom",
-				title: "Unlock Steel Pickaxe",
-				icon: {
+				id: "29FF994942F89CB1",
+				type: "item",
+				item: {
 					id: "immersiveengineering:pickaxe_steel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
 				{
@@ -172,29 +161,18 @@
 			y: 0.0d,
 			id: "00000000000003BA",
 			tasks: [{
-				id: "00000000000003BB",
-				type: "custom",
-				title: "Unlock Stone Sword",
-				icon: {
+				id: "6FDECFFA578F8FF9",
+				type: "item",
+				item: {
 					id: "minecraft:stone_sword",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
-				{
-					id: "000000000000041A",
-					type: "item",
-					item: {
-						id: "minecraft:stone_sword",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
 				{
 					id: "000000000000041C",
 					type: "xp_levels",
@@ -213,16 +191,16 @@
 			y: 1.0d,
 			id: "00000000000003BC",
 			tasks: [{
-				id: "00000000000003BD",
-				type: "custom",
-				title: "Unlock Iron Sword",
-				icon: {
+				id: "77DB1390DFF56701",
+				type: "item",
+				item: {
 					id: "minecraft:iron_sword",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
 				{
@@ -249,16 +227,16 @@
 			y: 4.0d,
 			id: "00000000000003BE",
 			tasks: [{
-				id: "00000000000003BF",
-				type: "custom",
-				title: "Unlock Diamond Sword",
-				icon: {
+				id: "6F9098098F25C00B",
+				type: "item",
+				item: {
 					id: "minecraft:diamond_sword",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000044D",
@@ -272,16 +250,16 @@
 			y: 7.0d,
 			id: "00000000000003C0",
 			tasks: [{
-				id: "00000000000003C1",
-				type: "custom",
-				title: "Unlock Netherite sword",
-				icon: {
+				id: "0853DFB8ADB344E2",
+				type: "item",
+				item: {
 					id: "minecraft:netherite_sword",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
 				{
@@ -302,16 +280,16 @@
 			y: 2.0d,
 			id: "00000000000003CA",
 			tasks: [{
-				id: "00000000000003CB",
-				type: "custom",
-				title: "Unlock Steel Sword",
-				icon: {
+				id: "50455CF11EC80E7E",
+				type: "item",
+				item: {
 					id: "immersiveengineering:sword_steel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "0000000000000417",
@@ -332,16 +310,16 @@
 			y: 1.0d,
 			id: "00000000000004F4",
 			tasks: [{
-				id: "00000000000004F5",
-				type: "custom",
-				title: "Unlock Iron Axe",
-				icon: {
+				id: "1DA886B3272D5D6F",
+				type: "item",
+				item: {
 					id: "minecraft:iron_axe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
 				{
@@ -375,16 +353,16 @@
 			y: 2.0d,
 			id: "00000000000004F6",
 			tasks: [{
-				id: "00000000000004F7",
-				type: "custom",
-				title: "Unlock Steel Axe",
-				icon: {
+				id: "1FF93D2EDAF5021C",
+				type: "item",
+				item: {
 					id: "immersiveengineering:axe_steel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "0000000000000829",
@@ -411,16 +389,16 @@
 			y: 4.0d,
 			id: "00000000000004F8",
 			tasks: [{
-				id: "00000000000004F9",
-				type: "custom",
-				title: "Unlock Diamond Axe",
-				icon: {
+				id: "0C579B7FC5DF5992",
+				type: "item",
+				item: {
 					id: "minecraft:diamond_axe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "0000000000000828",
@@ -447,16 +425,16 @@
 			y: 7.0d,
 			id: "00000000000004FA",
 			tasks: [{
-				id: "00000000000004FB",
-				type: "custom",
-				title: "Unlock Netherite Axe",
-				icon: {
+				id: "39DC74BE66461660",
+				type: "item",
+				item: {
 					id: "minecraft:netherite_axe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "0000000000000827",
@@ -483,29 +461,18 @@
 			y: 0.0d,
 			id: "00000000000004FC",
 			tasks: [{
-				id: "00000000000004FD",
-				type: "custom",
-				title: "Unlock Stone Axe",
-				icon: {
+				id: "67873CA666B30175",
+				type: "item",
+				item: {
 					id: "minecraft:stone_axe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
-				{
-					id: "0000000000001262",
-					type: "item",
-					item: {
-						id: "minecraft:stone_axe",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
 				{
 					id: "0000000000001263",
 					type: "xp_levels",
@@ -523,18 +490,56 @@
 			x: 0.0d,
 			y: 0.0d,
 			id: "0000000000000696",
-			tasks: [{
-				id: "0000000000000697",
-				type: "custom",
-				title: "Unlock Leather Armor",
-				icon: {
-					id: "minecraft:leather_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "05F146C7CA76FC1C",
+					type: "item",
+					item: {
+						id: "minecraft:leather_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "5D38F21A182AA724",
+					type: "item",
+					item: {
+						id: "minecraft:leather_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "59C0627DF4FEEE20",
+					type: "item",
+					item: {
+						id: "minecraft:leather_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "2DA50535415738B6",
+					type: "item",
+					item: {
+						id: "minecraft:leather_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "000000000000082F",
 				type: "item",
@@ -552,18 +557,56 @@
 			x: 0.0d,
 			y: 1.0d,
 			id: "0000000000000698",
-			tasks: [{
-				id: "0000000000000699",
-				type: "custom",
-				title: "Unlock Iron Armor",
-				icon: {
-					id: "minecraft:iron_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "7E5D2918633CAD58",
+					type: "item",
+					item: {
+						id: "minecraft:iron_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "7B6448DB47674F48",
+					type: "item",
+					item: {
+						id: "minecraft:iron_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "3E0D211E30DE5DBD",
+					type: "item",
+					item: {
+						id: "minecraft:iron_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "1375F16FC05C9746",
+					type: "item",
+					item: {
+						id: "minecraft:iron_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "000000000000082A",
 				type: "item",
@@ -581,18 +624,56 @@
 			x: 0.0d,
 			y: 3.0d,
 			id: "000000000000069C",
-			tasks: [{
-				id: "000000000000069D",
-				type: "custom",
-				title: "Unlock Steel Armor",
-				icon: {
-					id: "immersiveengineering:armor_steel_chest",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "497DD004F3F535B9",
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_steel_head",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "359346A901850370",
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_steel_chest",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "6466466FBE830EF9",
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_steel_legs",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "10821CB2F5211370",
+					type: "item",
+					item: {
+						id: "immersiveengineering:armor_steel_feet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "000000000000082C",
 				type: "item",
@@ -610,18 +691,56 @@
 			x: 0.0d,
 			y: 5.0d,
 			id: "000000000000069E",
-			tasks: [{
-				id: "000000000000069F",
-				type: "custom",
-				title: "Unlock Diamond Armor",
-				icon: {
-					id: "minecraft:diamond_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "1F2ECF1A4870DFD1",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "14CA7A4033A146B1",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "5401E0CEA4DA3112",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "7D72A9477014F775",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "000000000000082D",
 				type: "item",
@@ -639,18 +758,56 @@
 			x: 0.0d,
 			y: 6.0d,
 			id: "00000000000006A0",
-			tasks: [{
-				id: "00000000000006A1",
-				type: "custom",
-				title: "Unlock Netherite Armor",
-				icon: {
-					id: "minecraft:netherite_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "7835ECF334B0D0BB",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "69B510DA076F57FA",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "3584B087483A75E2",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "5B3F7FF02F1B3A11",
+					type: "item",
+					item: {
+						id: "minecraft:netherite_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "000000000000082E",
 				type: "item",
@@ -668,18 +825,56 @@
 			x: 0.0d,
 			y: 4.0d,
 			id: "0000000000000830",
-			tasks: [{
-				id: "0000000000000831",
-				type: "custom",
-				title: "Unlock Terminite Armor",
-				icon: {
-					id: "betterendforge:terminite_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "57AF1E0D9D4A6E3B",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "6C737DDA88B2AD50",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "63420986FEC02B89",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "411BAE9DAD67A4EF",
+					type: "item",
+					item: {
+						id: "betterendforge:terminite_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "0000000000001260",
 				type: "item",
@@ -697,18 +892,56 @@
 			x: 0.0d,
 			y: 7.0d,
 			id: "0000000000000832",
-			tasks: [{
-				id: "0000000000000833",
-				type: "custom",
-				title: "Unlock Aeternium Armor",
-				icon: {
-					id: "betterendforge:aeternium_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "384D8B10C4527055",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "79F7D3F9025E24F7",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "7795CBC8CF826806",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "330281BCC94413E4",
+					type: "item",
+					item: {
+						id: "betterendforge:aeternium_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "0000000000001261",
 				type: "item",
@@ -727,16 +960,16 @@
 			y: 5.0d,
 			id: "0000000000000834",
 			tasks: [{
-				id: "0000000000000835",
-				type: "custom",
-				title: "Unlock Terminite Pickaxe",
-				icon: {
+				id: "46CD6CB0132B3749",
+				type: "item",
+				item: {
 					id: "betterendforge:terminite_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000127F",
@@ -750,16 +983,16 @@
 			y: 6.0d,
 			id: "0000000000000836",
 			tasks: [{
-				id: "0000000000000837",
-				type: "custom",
-				title: "Unlock Aeternium Pickaxe",
-				icon: {
+				id: "3591006951A1C6CF",
+				type: "item",
+				item: {
 					id: "betterendforge:aeternium_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "0000000000001281",
@@ -773,16 +1006,16 @@
 			y: 5.0d,
 			id: "0000000000000838",
 			tasks: [{
-				id: "0000000000000839",
-				type: "custom",
-				title: "Unlock Terminite Sword",
-				icon: {
+				id: "1896452E50F55BC4",
+				type: "item",
+				item: {
 					id: "betterendforge:terminite_sword",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "0000000000001280",
@@ -796,16 +1029,16 @@
 			y: 6.0d,
 			id: "000000000000083A",
 			tasks: [{
-				id: "000000000000083B",
-				type: "custom",
-				title: "Unlock Aeternium Sword",
-				icon: {
+				id: "17CA42379C812B1C",
+				type: "item",
+				item: {
 					id: "betterendforge:aeternium_sword",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "0000000000001282",
@@ -826,16 +1059,16 @@
 			y: 5.0d,
 			id: "0000000000001076",
 			tasks: [{
-				id: "0000000000001077",
-				type: "custom",
-				title: "Unlock Terminite Axe",
-				icon: {
+				id: "657BA3492B90ED49",
+				type: "item",
+				item: {
 					id: "betterendforge:terminite_axe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000127D",
@@ -855,16 +1088,16 @@
 			y: 6.0d,
 			id: "0000000000001078",
 			tasks: [{
-				id: "0000000000001079",
-				type: "custom",
-				title: "Unlock Aeternium Axe",
-				icon: {
+				id: "1E25CA339030A8CA",
+				type: "item",
+				item: {
 					id: "betterendforge:aeternium_axe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000127C",
@@ -884,16 +1117,16 @@
 			y: 3.0d,
 			id: "000000000000110A",
 			tasks: [{
-				id: "000000000000110B",
-				type: "custom",
-				title: "Unlock Gold Pickaxe",
-				icon: {
+				id: "19783962D84C9297",
+				type: "item",
+				item: {
 					id: "minecraft:golden_pickaxe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000126C",
@@ -907,16 +1140,16 @@
 			y: 3.0d,
 			id: "000000000000110C",
 			tasks: [{
-				id: "000000000000110D",
-				type: "custom",
-				title: "Unlock Gold Sword",
-				icon: {
+				id: "6B6F4E423C5868F3",
+				type: "item",
+				item: {
 					id: "minecraft:golden_sword",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000126D",
@@ -930,16 +1163,16 @@
 			y: 3.0d,
 			id: "000000000000110E",
 			tasks: [{
-				id: "000000000000110F",
-				type: "custom",
-				title: "Unlock Gold Axe",
-				icon: {
+				id: "710961146E607553",
+				type: "item",
+				item: {
 					id: "minecraft:golden_axe",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000126E",
@@ -953,29 +1186,18 @@
 			y: 0.0d,
 			id: "0000000000001114",
 			tasks: [{
-				id: "0000000000001116",
-				type: "custom",
-				title: "Unlock Stone Shovel",
-				icon: {
+				id: "561F780134F1C069",
+				type: "item",
+				item: {
 					id: "minecraft:stone_shovel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
-				{
-					id: "0000000000001265",
-					type: "item",
-					item: {
-						id: "minecraft:stone_shovel",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
 				{
 					id: "0000000000001266",
 					type: "item",
@@ -994,16 +1216,16 @@
 			y: 1.0d,
 			id: "0000000000001117",
 			tasks: [{
-				id: "0000000000001118",
-				type: "custom",
-				title: "Unlock Iron Shovel",
-				icon: {
+				id: "02CA51FF2C9AD120",
+				type: "item",
+				item: {
 					id: "minecraft:iron_shovel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [
 				{
@@ -1030,16 +1252,16 @@
 			y: 2.0d,
 			id: "0000000000001119",
 			tasks: [{
-				id: "000000000000111A",
-				type: "custom",
-				title: "Unlock Steel Shovel",
-				icon: {
+				id: "6ECC1BFB711EC46F",
+				type: "item",
+				item: {
 					id: "immersiveengineering:shovel_steel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000126A",
@@ -1059,16 +1281,16 @@
 			y: 3.0d,
 			id: "000000000000111B",
 			tasks: [{
-				id: "000000000000111C",
-				type: "custom",
-				title: "Unlock Gold Shovel",
-				icon: {
+				id: "017A0DCAC067ED5B",
+				type: "item",
+				item: {
 					id: "minecraft:golden_shovel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000126F",
@@ -1082,16 +1304,16 @@
 			y: 4.0d,
 			id: "000000000000111F",
 			tasks: [{
-				id: "0000000000001120",
-				type: "custom",
-				title: "Unlock Diamond Shovel",
-				icon: {
+				id: "4564DDF3B7D4573F",
+				type: "item",
+				item: {
 					id: "minecraft:diamond_shovel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000126B",
@@ -1111,16 +1333,16 @@
 			y: 5.0d,
 			id: "0000000000001121",
 			tasks: [{
-				id: "0000000000001122",
-				type: "custom",
-				title: "Unlock Terminite Shovel",
-				icon: {
+				id: "1885E9235E05FBF0",
+				type: "item",
+				item: {
 					id: "betterendforge:terminite_shovel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000127E",
@@ -1140,16 +1362,16 @@
 			y: 6.0d,
 			id: "0000000000001123",
 			tasks: [{
-				id: "0000000000001124",
-				type: "custom",
-				title: "Unlock Aeternium Shovel",
-				icon: {
+				id: "63A23D6290FD7C25",
+				type: "item",
+				item: {
 					id: "betterendforge:aeternium_shovel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000127B",
@@ -1169,16 +1391,16 @@
 			y: 7.0d,
 			id: "0000000000001125",
 			tasks: [{
-				id: "0000000000001126",
-				type: "custom",
-				title: "Unlock Netherite Shovel",
-				icon: {
+				id: "20A54E3AB22A96E5",
+				type: "item",
+				item: {
 					id: "minecraft:netherite_shovel",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
 			}],
 			rewards: [{
 				id: "000000000000127A",
@@ -1197,18 +1419,56 @@
 			x: 0.0d,
 			y: 2.0d,
 			id: "0000000000001146",
-			tasks: [{
-				id: "0000000000001147",
-				type: "custom",
-				title: "Unlock Chainmail Armor",
-				icon: {
-					id: "minecraft:chainmail_chestplate",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "180214563EC0479C",
+					type: "item",
+					item: {
+						id: "minecraft:chainmail_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "43D2777A95141D31",
+					type: "item",
+					item: {
+						id: "minecraft:chainmail_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "5D7762ECFF9D28D0",
+					type: "item",
+					item: {
+						id: "minecraft:chainmail_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
+				},
+				{
+					id: "41ABD3AC4C746D81",
+					type: "item",
+					item: {
+						id: "minecraft:chainmail_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					only_from_crafting: true
 				}
-			}],
+			],
 			rewards: [{
 				id: "000000000000125F",
 				type: "item",
@@ -1584,8 +1844,21 @@
 					tag: {
 						Damage: 0
 					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [
+				{
+					id: "5DA5FD7E73EB1636",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: "1178DF8F08DEA8D5",
+					type: "xp_levels",
+					xp_levels: 1
 				}
-			}]
+			]
 		},
 		{
 			title: "Reach Farming Level 10",
@@ -1601,8 +1874,27 @@
 					tag: {
 						Damage: 0
 					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [
+				{
+					id: "0DC98ADB30C634C6",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "31365317F66A8354",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: "52D58D087C6883B1",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
 				}
-			}]
+			]
 		},
 		{
 			title: "Reach Farming Level 15",
@@ -1617,6 +1909,18 @@
 					Count: 1b,
 					tag: {
 						Damage: 0
+					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "451E8C7612AED792",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "tier_i_random"
 					}
 				}
 			}]
@@ -1635,7 +1939,13 @@
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "34FFDE914B09A595",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -1652,7 +1962,13 @@
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "736349E671DA4AD7",
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
 			}]
 		},
 		{
@@ -1669,7 +1985,13 @@
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "7784FEB5414846B3",
+				type: "xp_levels",
+				xp_levels: 15
 			}]
 		},
 		{
@@ -1685,6 +2007,18 @@
 					Count: 1b,
 					tag: {
 						Damage: 0
+					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "59B5460945DE1C2E",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "tier_iii_random"
 					}
 				}
 			}]
@@ -1703,13 +2037,25 @@
 					tag: {
 						Damage: 0
 					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "4F3BE70DE7948995",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "tier_iii_random"
+					}
 				}
 			}]
 		},
 		{
 			title: "Reach Fishing Level 10",
 			x: -4.5d,
-			y: 0.0d,
+			y: 1.0d,
 			id: "494141C1DD653E12",
 			tasks: [{
 				id: "4A0C870ACF2BDA66",
@@ -1720,13 +2066,32 @@
 					tag: {
 						Damage: 0
 					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [
+				{
+					id: "0C61182FA33CE9E5",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: "66C35D9C74D756F7",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				},
+				{
+					id: "6449CC12A49C4BDE",
+					type: "xp_levels",
+					xp_levels: 5
 				}
-			}]
+			]
 		},
 		{
 			title: "Reach Fishing Level 15",
 			x: -4.5d,
-			y: 1.0d,
+			y: 3.0d,
 			id: "47FB994173546539",
 			tasks: [{
 				id: "168146B1624D328C",
@@ -1737,13 +2102,19 @@
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "58A523024E5D7EF4",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
 			title: "Reach Fishing Level 20",
 			x: -4.5d,
-			y: 2.0d,
+			y: 4.0d,
 			id: "18E32D1C62081D15",
 			tasks: [{
 				id: "43C5671C1D716063",
@@ -1754,13 +2125,25 @@
 					tag: {
 						Damage: 0
 					}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "6706796BB5E81A83",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "tier_ii_random"
+					}
 				}
 			}]
 		},
 		{
 			title: "Reach Fishing Level 30",
 			x: -4.5d,
-			y: 3.0d,
+			y: 6.0d,
 			id: "53F5A9F790B5ABEB",
 			tasks: [{
 				id: "44197B5595B03203",
@@ -1771,7 +2154,13 @@
 					tag: {
 						Damage: 0
 					}
-				}
+				},
+				only_from_crafting: true
+			}],
+			rewards: [{
+				id: "55722C50EFF14DBD",
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
 			}]
 		}
 	]
