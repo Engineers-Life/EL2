@@ -25,14 +25,18 @@ function removeAndHide(item as IItemStack) as void {
     removeAllTagsAndHide(item);
 }
 
-function removeFromListAndHide(managerList as IRecipeManager[], item as IItemStack) as void {
+function removeFromList(managerList as IRecipeManager[], item as IItemStack) as void {
     for manager in managerList { manager.removeRecipe(item); }
+}
+
+function removeFromListAndHide(managerList as IRecipeManager[], item as IItemStack) as void {
+    removeFromList(managerList,item);
     removeAllTagsAndHide(item);
 }
 
 function replaceJsonByName(manager as IRecipeManager, name as string, data as IData) as void {
     manager.removeByName(name);
-    manager.addJSONRecipe(name, data);
+    manager.addJSONRecipe(validName(name), data);
     return;
 }
 
@@ -65,6 +69,21 @@ function replaceByNameMirrored(name as string, output as IItemStack, recipe as I
 function replaceByNameShapeless(name as string, output as IItemStack, recipe as IIngredient[] ) as void {
     craftingTable.removeByName(name);
     craftingTable.addShapeless(validName(name),output,recipe);
+    return;
+}
+
+function moveTagsFromTo(source as IItemStack, dest as IItemStack) as void {
+    for tag in <tagManager:items>.getAllTagsFor(source) {
+        if !tag.contains(dest) {
+            tag.add(dest);
+        }
+    }
+    return;
+}
+
+function blendTags(item1 as IItemStack, item2 as IItemStack) as void {
+    moveTagsFromTo(item1,item2);
+    moveTagsFromTo(item2,item1);
     return;
 }
 
