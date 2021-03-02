@@ -40,7 +40,7 @@ println("BEGIN furnace.metal_processing");
 
 // remove making dust from ores in crafting table
 for wrapper in craftingTable.getRecipesByOutput(<tag:items:forge:dusts>) {
-    if wrapper.ingredients[0].items[0] in <tag:items:forge:ores> {
+    if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>) {
         craftingTable.removeByName(wrapper.id);
     }
 }
@@ -93,6 +93,41 @@ for furnaceWrapper in furnace.getAllRecipes() {
 }
 
 println("END furnace.metal_processing");
+
+// FOODS
+println("BEGIN furnace.food_processing");
+// tofu wasn't a food item, so fixing before moving foods to smoker.
+removeAndHide(<item:veggie_way:fresh_tofu>);
+removeFromList([blastFurnace,campfire,furnace,smoker],<item:simplefarming:tofu>);
+blendTags(<item:veggie_way:soybean>,<item:simplefarming:soybean>);
+craftingTable.addShapeless("fresh_tofu",<item:simplefarming:tofu>,[<tag:items:forge:buckets/water>,<tag:items:forge:crops/soybean>]);
+furnace.removeRecipe(<item:veggie_way:cooked_tofu>);
+campfire.addRecipe("cooked_tofu_campfire",<item:veggie_way:cooked_tofu>,<item:simplefarming:tofu>, 0.2, 5*20);
+smoker.addRecipe("cooked_tofu_smoker",<item:veggie_way:cooked_tofu>,<item:simplefarming:tofu>, 0.2, 5*20);
+<item:veggie_way:cooked_tofu>.food=<item:simplefarming:tofu>.food;
+// remove food from furnace, moving to smoker if not present.
+for furnaceWrapper in furnace.getAllRecipes() {
+    if (furnaceWrapper.output.food != null) {
+        val smokerRecipes = smoker.getRecipesByOutput(furnaceWrapper.output);
+        for furnaceIngredient in furnaceWrapper.ingredients {
+            for furnaceItem in furnaceIngredient.items {
+                var foundInSmoker = false;
+                for smokerWrapper in smokerRecipes {
+                    for smokerIngredient in smokerWrapper.ingredients {
+                        for smokerItem in smokerIngredient.items {
+                            foundInSmoker = foundInSmoker || (smokerItem.matches(furnaceItem));
+                        }
+                    }
+                }
+                if (!foundInSmoker) {
+                    smoker.addRecipe("food."+furnaceItem.translationKey,furnaceWrapper.output,furnaceItem,0.1,5*20);
+                }
+            }
+        }
+        furnace.removeByName(furnaceWrapper.id.toString());
+    }
+}
+println("END furnace.food_processing");
 
 // only use ingredients from mods that you know are in the pack
 val air = <item:minecraft:air>;
