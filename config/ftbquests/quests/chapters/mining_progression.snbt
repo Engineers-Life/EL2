@@ -1833,7 +1833,6 @@
 			title: "Reach Farming Level 3",
 			x: -6.0d,
 			y: 0.0d,
-			description: [""],
 			id: "0BC71F6D6515CB64",
 			tasks: [{
 				id: "53633DBC53510BEF",
