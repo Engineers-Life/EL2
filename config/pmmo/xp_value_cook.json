@@ -227,6 +227,10 @@
 	{
 		"cooking": 5.0
 	},
+	"vanillafoodpantry:cactus_pad_raw":
+	{
+		"cooking": 2.0
+	},
 	"vanillafoodpantry:sweet_dough_ball":
 	{
 		"cooking": 6.0
