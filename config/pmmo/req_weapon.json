@@ -185,43 +185,43 @@
 	},
 	"betterendforge:aeternium_sword":
 	{
-		"combat": 50
+		"combat": 70
 	},
 	"betterendforge:aeternium_axe":
 	{
-		"combat": 50
+		"combat": 70
 	},
 	"betterendforge:aeternium_pickaxe":
 	{
-		"combat": 50
+		"combat": 70
 	},
 	"betterendforge:aeternium_shovel":
 	{
-		"combat": 50
+		"combat": 70
 	},
 	"betterendforge:aeternium_hoe":
 	{
-		"combat": 50
+		"combat": 70
 	},
 	"aquaculture:neptunium_sword":
 	{
-		"combat": 70
+		"combat": 80
 	},
 	"aquaculture:neptunium_axe":
 	{
-		"combat": 70
+		"combat": 80
 	},
 	"aquaculture:neptunium_pickaxe":
 	{
-		"combat": 70
+		"combat": 80
 	},
 	"aquaculture:neptunium_shovel":
 	{
-		"combat": 70
+		"combat": 80
 	},
 	"aquaculture:neptunium_hoe":
 	{
-		"combat": 70
+		"combat": 80
 	},
 	"aquaculture:neptunium_fillet_knife":
 	{

@@ -142,18 +142,6 @@
 	{
 		"farming": 45
 	},
-	"betterendforge:aeternium_pickaxe":
-	{
-		"mining": 50
-	},
-	"betterendforge:aeternium_axe":
-	{
-		"woodcutting": 50
-	},
-	"betterendforge:aeternium_shovel":
-	{
-		"excavation": 50
-	},
 	"betterendforge:aeternium_hoe":
 	{
 		"farming": 50
@@ -174,20 +162,32 @@
 	{
 		"farming": 60
 	},
-	"aquaculture:neptunium_pickaxe":
+	"betterendforge:aeternium_pickaxe":
 	{
 		"mining": 70
 	},
-	"aquaculture:neptunium_axe":
+	"betterendforge:aeternium_axe":
 	{
 		"woodcutting": 70
 	},
-	"aquaculture:neptunium_shovel":
+	"betterendforge:aeternium_shovel":
 	{
 		"excavation": 70
 	},
+	"aquaculture:neptunium_pickaxe":
+	{
+		"mining": 80
+	},
+	"aquaculture:neptunium_axe":
+	{
+		"woodcutting": 80
+	},
+	"aquaculture:neptunium_shovel":
+	{
+		"excavation": 80
+	},
 	"aquaculture:neptunium_hoe":
 	{
-		"farming": 70
+		"farming": 80
 	}
 }
