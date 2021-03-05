@@ -2036,6 +2036,7 @@
 						id: "immersiveengineering:graphite_electrode",
 						Count: 1b,
 						tag: {
+							graphDmg: 0,
 							Damage: 0
 						}
 					},

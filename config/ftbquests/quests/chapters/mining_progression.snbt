@@ -98,7 +98,7 @@
 		{
 			title: "Reach Mining Level 60",
 			x: -7.5d,
-			y: 7.0d,
+			y: 6.0d,
 			id: "0000000000000320",
 			tasks: [{
 				id: "7D853D83634D976B",
@@ -247,7 +247,7 @@
 		{
 			title: "Reach Combat Level 60",
 			x: -1.5d,
-			y: 7.0d,
+			y: 6.0d,
 			id: "00000000000003C0",
 			tasks: [{
 				id: "0853DFB8ADB344E2",
@@ -422,7 +422,7 @@
 				}
 			},
 			x: -3.0d,
-			y: 7.0d,
+			y: 6.0d,
 			id: "00000000000004FA",
 			tasks: [{
 				id: "39DC74BE66461660",
@@ -821,7 +821,7 @@
 			}]
 		},
 		{
-			title: "Reach Endurance Level 28",
+			title: "Reach Endurance Level 30",
 			x: 0.0d,
 			y: 4.0d,
 			id: "0000000000000830",
@@ -978,9 +978,9 @@
 			}]
 		},
 		{
-			title: "Reach Mining Level 50",
+			title: "Reach Mining Level 70",
 			x: -7.5d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000000836",
 			tasks: [{
 				id: "3591006951A1C6CF",
@@ -1024,9 +1024,9 @@
 			}]
 		},
 		{
-			title: "Reach Combat Level 50",
+			title: "Reach Combat Level 70",
 			x: -1.5d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "000000000000083A",
 			tasks: [{
 				id: "17CA42379C812B1C",
@@ -1083,9 +1083,9 @@
 			}]
 		},
 		{
-			title: "Unlock Woodcutting Level 50",
+			title: "Unlock Woodcutting Level 70",
 			x: -3.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000001078",
 			tasks: [{
 				id: "1E25CA339030A8CA",
@@ -1357,9 +1357,9 @@
 			}]
 		},
 		{
-			title: "Unlock Excavation Level 50",
+			title: "Unlock Excavation Level 70",
 			x: -9.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000001123",
 			tasks: [{
 				id: "63A23D6290FD7C25",
@@ -1388,7 +1388,7 @@
 		{
 			title: "Unlock Excavation Level 60",
 			x: -9.0d,
-			y: 7.0d,
+			y: 6.0d,
 			id: "0000000000001125",
 			tasks: [{
 				id: "20A54E3AB22A96E5",
@@ -1994,9 +1994,9 @@
 			}]
 		},
 		{
-			title: "Reach Farming Level 50",
+			title: "Reach Farming Level 70",
 			x: -6.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "56CFDC7E9ED2A441",
 			tasks: [{
 				id: "2DE1590EBA6C5974",
@@ -2025,7 +2025,7 @@
 		{
 			title: "Reach Farming Level 60",
 			x: -6.0d,
-			y: 7.0d,
+			y: 6.0d,
 			id: "365D60817E9FE766",
 			tasks: [{
 				id: "25CBC036D570D627",
