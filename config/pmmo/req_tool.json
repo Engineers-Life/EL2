@@ -80,19 +80,19 @@
 	},
 	"immersiveengineering:pickaxe_steel":
 	{
-		"mining": 15
+		"mining": 20
 	},	
 	"immersiveengineering:axe_steel":
 	{
-		"woodcutting": 15
+		"woodcutting": 20
 	},
 	"immersiveengineering:shovel_steel":
 	{
-		"excavation": 15
+		"excavation": 20
 	},
 	"immersiveengineering:hoe_steel":
 	{
-		"farming": 15
+		"farming": 20
 	},
 	"minecraft:golden_pickaxe":
 	{

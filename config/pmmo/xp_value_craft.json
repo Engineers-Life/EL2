@@ -2659,5 +2659,80 @@
 	{
 		"crafting": 225,
 		"smithing": 200
+	},
+	"betterendforge:crystalite_helmet":
+	{
+		"crafting": 225,
+		"smithing": 200
+	},
+	"betterendforge:crystalite_chestplate":
+	{
+		"crafting": 225,
+		"smithing": 200
+	},
+	"betterendforge:crystalite_leggings":
+	{
+		"crafting": 225,
+		"smithing": 200
+	},
+	"betterendforge:crystalite_boots":
+	{
+		"crafting": 225,
+		"smithing": 200
+	},
+	"notreepunching:iron_knife":
+	{
+		"crafting": 20,
+		"smithing": 10
+	},
+	"notreepunching:gold_knife":
+	{
+		"crafting": 30,
+		"smithing": 20
+	},
+	"notreepunching:diamond_knife":
+	{
+		"crafting": 60,
+		"smithing": 50
+	},
+	"notreepunching:gold_mattock":
+	{
+		"crafting": 100,
+		"smithing": 80
+	},
+	"notreepunching:diamond_mattock":
+	{
+		"crafting": 140,
+		"smithing": 120
+	},
+	"notreepunching:gold_saw":
+	{
+		"crafting": 60,
+		"smithing": 40
+	},
+	"notreepunching:diamond_saw":
+	{
+		"crafting": 100,
+		"smithing": 80
+	},
+	"aquaculture:iron_fishing_rod":
+	{
+		"crafting": 50,
+		"smithing": 20
+	},
+	"aquaculture:gold_fishing_rod":
+	{
+		"crafting": 75,
+		"smithing": 40
+	},
+	"aquaculture:diamond_fishing_rod":
+	{
+		"crafting": 110,
+		"smithing": 80
+	},
+	"aquaculture:neptunium_fishing_rod":
+	{
+		"crafting": 140,
+		"smithing": 100
 	}
 }

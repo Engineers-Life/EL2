@@ -145,23 +145,23 @@
 	},
 	"immersiveengineering:sword_steel":
 	{
-		"combat": 15
+		"combat": 20
 	},
 	"immersiveengineering:axe_steel":
 	{
-		"combat": 15
+		"combat": 20
 	},
 	"immersiveengineering:pickaxe_steel":
 	{
-		"combat": 15
+		"combat": 20
 	},
 	"immersiveengineering:shovel_steel":
 	{
-		"combat": 15
+		"combat": 20
 	},
 	"immersiveengineering:hoe_steel":
 	{
-		"combat": 15
+		"combat": 20
 	},
 	"betterendforge:terminite_sword":
 	{
