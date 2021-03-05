@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			title: "Reach Mining Level 15",
+			title: "Reach Mining Level 20",
 			x: -7.5d,
 			y: 2.0d,
 			id: "0000000000000322",
@@ -341,7 +341,7 @@
 			]
 		},
 		{
-			title: "Reach Woodcutting Level 15",
+			title: "Reach Woodcutting Level 20",
 			icon: {
 				id: "immersiveengineering:axe_steel",
 				Count: 1b,
@@ -1247,7 +1247,7 @@
 			]
 		},
 		{
-			title: "Unlock Excavation Level 15",
+			title: "Unlock Excavation Level 20",
 			x: -9.0d,
 			y: 2.0d,
 			id: "0000000000001119",
@@ -1896,7 +1896,7 @@
 			]
 		},
 		{
-			title: "Reach Farming Level 15",
+			title: "Reach Farming Level 20",
 			x: -6.0d,
 			y: 2.0d,
 			id: "793E2D0B26C45307",
