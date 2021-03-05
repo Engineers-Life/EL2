@@ -1,602 +1,2663 @@
 {
-	"minecraft:netherite_helmet":
+	"alexsmobs:fish_oil":
 	{
-		"crafting": 1000,
-		"smithing": 200
+		"crafting": 10.0
 	},
-	"minecraft:netherite_chestplate":
+	"alexsmobs:sopa_de_macaco":
 	{
-		"crafting": 1600,
-		"smithing": 320
+		"cooking": 8.0
 	},
-	"minecraft:netherite_leggings":
+	"aquaculture:sushi":
 	{
-		"crafting": 1400,
-		"smithing": 280
+		"cooking": 5.0
 	},
-	"minecraft:netherite_boots":
+	"aquaculture:turtle_soup":
 	{
-		"crafting": 800,
-		"smithing": 160
+		"cooking": 12.0
 	},
-	"minecraft:netherite_pickaxe":
+	"betterendforge:shadow_berry_jelly":
 	{
-		"crafting": 600,
-		"smithing": 120
+		"cooking": 10.0
 	},
-	"minecraft:netherite_shovel":
+	"betterendforge:sweet_berry_jelly":
 	{
-		"crafting": 200,
-		"smithing": 40
+		"cooking": 8.0
 	},
-	"minecraft:netherite_hoe":
+	"minecraft:beetroot_soup":
 	{
-		"crafting": 400,
-		"smithing": 80
+		"cooking": 30.0
 	},
-	"minecraft:netherite_axe":
+	"minecraft:bread":
 	{
-		"crafting": 600,
-		"smithing": 120
+		"cooking": 10.0
 	},
-	"minecraft:netherite_sword":
+	"minecraft:cookie":
 	{
-		"crafting": 400,
-		"smithing": 80
+		"cooking": 12.0
 	},
-	"minecraft:diamond_helmet":
+	"minecraft:golden_apple":
 	{
-		"crafting": 300,
-		"smithing": 60
+		"cooking": 50.0
 	},
-	"minecraft:diamond_chestplate":
+	"minecraft:golden_carrot":
 	{
-		"crafting": 480,
-		"smithing": 96
+		"cooking": 60.0
 	},
-	"minecraft:diamond_leggings":
+	"minecraft:honey_bottle":
 	{
-		"crafting": 420,
-		"smithing": 84
+		"cooking": 15.0
 	},
-	"minecraft:diamond_boots":
+	"minecraft:melon_slice":
 	{
-		"crafting": 240,
-		"smithing": 48
+		"cooking": 3.0
 	},
-	"minecraft:diamond_pickaxe":
+	"minecraft:mushroom_stew":
 	{
-		"crafting": 180,
-		"smithing": 36
+		"cooking": 15.0
 	},
-	"minecraft:diamond_shovel":
+	"minecraft:pumpkin_pie":
 	{
-		"crafting": 60,
-		"smithing": 12
+		"cooking": 20.0
 	},
-	"minecraft:diamond_hoe":
+	"minecraft:rabbit_stew":
 	{
-		"crafting": 120,
-		"smithing": 24
+		"cooking": 25.0
 	},
-	"minecraft:diamond_axe":
+	"pamhc2foodcore:applejellyitem":
 	{
-		"crafting": 180,
-		"smithing": 36
+		"cooking": 15.0
 	},
-	"minecraft:diamond_sword":
+	"pamhc2foodcore:applejellytoastitem":
 	{
-		"crafting": 120,
-		"smithing": 24
+		"cooking": 30.0
 	},
-	"minecraft:golden_helmet":
+	"pamhc2foodcore:applejuiceitem":
 	{
-		"crafting": 150,
-		"smithing": 30
+		"cooking": 25.0
 	},
-	"minecraft:golden_chestplate":
+	"pamhc2foodcore:applepieitem":
 	{
-		"crafting": 240,
-		"smithing": 48
+		"cooking": 27.0
 	},
-	"minecraft:golden_leggings":
+	"pamhc2foodcore:applesauceitem":
 	{
-		"crafting": 210,
-		"smithing": 42
+		"cooking": 25.0
 	},
-	"minecraft:golden_boots":
+	"pamhc2foodcore:applesmoothieitem":
 	{
-		"crafting": 120,
-		"smithing": 24
+		"cooking": 35.0
 	},
-	"minecraft:golden_pickaxe":
+	"pamhc2foodcore:appleyogurtitem":
 	{
-		"crafting": 90,
-		"smithing": 18
+		"cooking": 18.0
 	},
-	"minecraft:golden_shovel":
+	"pamhc2foodcore:baconandeggsitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:baconcheeseburgeritem":
+	{
+		"cooking": 68.0
+	},
+	"pamhc2foodcore:bakedvegetablemedlyitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:basiccheeseburgeritem":
+	{
+		"cooking": 48.0
+	},
+	"pamhc2foodcore:basicchickensandwichitem":
+	{
+		"cooking": 30.0
+	},
+	"pamhc2foodcore:basicfishsandwichitem":
+	{
+		"cooking": 30.0
+	},
+	"pamhc2foodcore:basichamburgeritem":
+	{
+		"cooking": 38.0
+	},
+	"pamhc2foodcore:beefjerkyitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:boiledeggitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:butteredbakedpotatoitem":
+	{
+		"cooking": 32.0
+	},
+	"pamhc2foodcore:caramelappleitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:caramelcupcakeitem":
+	{
+		"cooking": 5.0
+	},
+	"pamhc2foodcore:caramelicecreamitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:caramelitem":
+	{
+		"cooking": 10.0
+	},
+	"pamhc2foodcore:caramelmuffinitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:caramelyogurtitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:carrotbreaditem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:carrotcakeitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:carrotcupcakeitem":
+	{
+		"cooking": 5.0
+	},
+	"pamhc2foodcore:carrotmuffinitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:carrotsoupitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:cheesecakeitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:cheeseitem":
+	{
+		"cooking": 10.0
+	},
+	"pamhc2foodcore:chickendinneritem":
+	{
+		"cooking": 58.0
+	},
+	"pamhc2foodcore:chickenjerkyitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:chickennuggetitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:chickenpotpieitem":
+	{
+		"cooking": 25.0
+	},
+	"pamhc2foodcore:chocolatebaconitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:chocolatebaritem":
+	{
+		"cooking": 5.0
+	},
+	"pamhc2foodcore:chocolatecakeitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:chocolatecaramelfudgeitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:chocolatecupcakeitem":
+	{
+		"cooking": 5.0
+	},
+	"pamhc2foodcore:chocolatedonutitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:chocolateicecreamitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:chocolatemuffinitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:chocolatepuddingitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:chocolaterollitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:chocolateyogurtitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:cookiesandmilkitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:cottoncandyitem":
+	{
+		"cooking": 5.0
+	},
+	"pamhc2foodcore:crackeritem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:donutitem":
+	{
+		"cooking": 20.0
+	},
+	"pamhc2foodcore:epicbaconitem":
+	{
+		"cooking": 32.0
+	},
+	"pamhc2foodcore:fishandchipsitem":
+	{
+		"cooking": 32.0
+	},
+	"pamhc2foodcore:fishjerkyitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:fishsticksitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:friedchickenitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:friedeggitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:friesitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:fruitcrumbleitem":
+	{
+		"cooking": 25.0
+	},
+	"pamhc2foodcore:fruitpunchitem":
+	{
+		"cooking": 38.0
+	},
+	"pamhc2foodcore:fruitsaladitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:glazedcarrotsitem":
+	{
+		"cooking": 20.0
+	},
+	"pamhc2foodcore:grilledcheeseitem":
+	{
+		"cooking": 38.0
+	},
+	"pamhc2foodcore:groundbeefitem":
+	{
+		"cooking": 10.0
+	},
+	"pamhc2foodcore:groundchickenitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:groundfishitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:groundmuttonitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:groundporkitem":
+	{
+		"cooking": 10.0
+	},
+	"pamhc2foodcore:groundrabbititem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:gummybearsitem":
+	{
+		"cooking": 10.0
+	},
+	"pamhc2foodcore:hotchocolateitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:hotdogitem":
+	{
+		"cooking": 38.0
+	},
+	"pamhc2foodcore:icecreamitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:jellybeansitem":
+	{
+		"cooking": 10.0
+	},
+	"pamhc2foodcore:jellydonutitem":
+	{
+		"cooking": 30.0
+	},
+	"pamhc2foodcore:macncheeseitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:marshmellowchicksitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:marshmellowsitem":
+	{
+		"cooking": 5.0
+	},
+	"pamhc2foodcore:mashedpotatoesitem":
+	{
+		"cooking": 32.0
+	},
+	"pamhc2foodcore:meatloafitem":
+	{
+		"cooking": 25.0
+	},
+	"pamhc2foodcore:melonjellyitem":
+	{
+		"cooking": 10.0
+	},
+	"pamhc2foodcore:melonjellytoastitem":
+	{
+		"cooking": 25.0
+	},
+	"pamhc2foodcore:melonjuiceitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:melonsmoothieitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:muttonjerkyitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:noodlesoupitem":
+	{
+		"cooking": 25.0
+	},
+	"pamhc2foodcore:p8juiceitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:pickledbeetsitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:porkjerkyitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:potatochipsitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:potatosoupitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:potroastitem":
+	{
+		"cooking": 20.0
+	},
+	"pamhc2foodcore:pumpkinbreaditem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:pumpkincheesecakeitem":
+	{
+		"cooking": 30.0
+	},
+	"pamhc2foodcore:pumpkincupcakeitem":
+	{
+		"cooking": 5.0
+	},
+	"pamhc2foodcore:pumpkinmuffinitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:pumpkinsoupitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:pumpkinyogurtitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:rabbitjerkyitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:scrambledeggitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:smoresitem":
+	{
+		"cooking": 25.0
+	},
+	"pamhc2foodcore:softpretzelitem":
+	{
+		"cooking": 15.0
+	},
+	"pamhc2foodcore:stewitem":
+	{
+		"cooking": 42.0
+	},
+	"pamhc2foodcore:stockitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:sweetberryjellyitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:sweetberryjellytoastitem":
+	{
+		"cooking": 28.0
+	},
+	"pamhc2foodcore:sweetberryjuiceitem":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:sweetberrypieitem":
+	{
+		"cooking": 18.0
+	},
+	"pamhc2foodcore:sweetberrysmoothieitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:sweetberryyogurtitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:toastitem":
+	{
+		"cooking": 12.0
+	},
+	"pamhc2foodcore:trailmixitem":
+	{
+		"cooking": 20.0
+	},
+	"pamhc2foodcore:yogurtitem":
+	{
+		"cooking": 8.0
+	},
+	"quark:golden_frog_leg":
+	{
+		"cooking": 40.0
+	},
+	"quark:root_item":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:apple_pie":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:apricot_pie":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:banana_bread":
+	{
+		"cooking": 18.0
+	},
+	"simplefarming:barley_bread":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:beef_and_broccoli":
+	{
+		"cooking": 35.0
+	},
+	"simplefarming:beef_curry":
+	{
+		"cooking": 45.0
+	},
+	"simplefarming:blackberry_pie":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:blt":
+	{
+		"cooking": 35.0
+	},
+	"simplefarming:blueberry_pie":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:borscht":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:broccoli_cheese_soup":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:caesar_salad":
+	{
+		"cooking": 32.0
+	},
+	"simplefarming:candy":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:candy_cane":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:carrot_soup":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:cassava_cake":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:cheese_slice":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:cheeseburger":
+	{
+		"cooking": 58.0
+	},
+	"simplefarming:cherry_pie":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:chicken_curry":
+	{
+		"cooking": 40.0
+	},
+	"simplefarming:chicken_noodle_soup":
+	{
+		"cooking": 38.0
+	},
+	"simplefarming:chicken_parmesan":
+	{
+		"cooking": 42.0
+	},
+	"simplefarming:chicory_gratin":
+	{
+		"cooking": 28.0
+	},
+	"simplefarming:chili":
+	{
+		"cooking": 38.0
+	},
+	"simplefarming:chocolate":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:corn_salad":
+	{
+		"cooking": 28.0
+	},
+	"simplefarming:cornbread":
+	{
+		"cooking": 18.0
+	},
+	"simplefarming:cucumber_soup":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:egg_sandwich":
+	{
+		"cooking": 35.0
+	},
+	"simplefarming:eggplant_parmesan":
+	{
+		"cooking": 40.0
+	},
+	"simplefarming:fish_and_chips":
+	{
+		"cooking": 28.0
+	},
+	"simplefarming:fish_fillet":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:fish_sandwich":
+	{
+		"cooking": 42.0
+	},
+	"simplefarming:fried_rice":
+	{
+		"cooking": 28.0
+	},
+	"simplefarming:fruit_salad":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:golden_habanero":
+	{
+		"cooking": 30.0
+	},
+	"simplefarming:hamburger":
+	{
+		"cooking": 45.0
+	},
+	"simplefarming:hotdog":
+	{
+		"cooking": 28.0
+	},
+	"simplefarming:ice_cream_sundae":
+	{
+		"cooking": 18.0
+	},
+	"simplefarming:italian_beef":
+	{
+		"cooking": 45.0
+	},
+	"simplefarming:jaffa_cake":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:lasagna":
+	{
+		"cooking": 60.0
+	},
+	"simplefarming:mac_and_cheese":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:marshmallow":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:mushroom_barley":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:mutton_curry":
+	{
+		"cooking": 40.0
+	},
+	"simplefarming:oat_bread":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:oatmeal":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:olive_tomato_salad":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:onion_soup":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:pad_thai":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:pancakes":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:pasta":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:pbj":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:pea_soup":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:peanut_butter_cookie":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:peanut_butter_pie":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:pear_pie":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:pickle":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:pickled_beetroot":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:pizza":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:plum_pie":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:popcorn":
+	{
+		"cooking": 2.0
+	},
+	"simplefarming:pork_curry":
+	{
+		"cooking": 45.0
+	},
+	"simplefarming:potato_knish":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:pulled_pork_sandwich":
+	{
+		"cooking": 45.0
+	},
+	"simplefarming:pumpkin_soup":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:quinoa_salad":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:radish_soup":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:raisins":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:raspberry_pie":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:rice_bowl":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:rice_bread":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:rye_bread":
+	{
+		"cooking": 12.0
+	},
+	"simplefarming:salad":
+	{
+		"cooking": 30.0
+	},
+	"simplefarming:sandwich":
+	{
+		"cooking": 40.0
+	},
+	"simplefarming:sausage_barley_soup":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:sorghum_bread":
+	{
+		"cooking": 18.0
+	},
+	"simplefarming:sorghum_porridge":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:spaghetti":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:spinach_mushroom_quiche":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:spinach_quinoa_quiche":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:squash_casserole":
+	{
+		"cooking": 28.0
+	},
+	"simplefarming:squash_soup":
+	{
+		"cooking": 30.0
+	},
+	"simplefarming:squid_ink_pasta":
+	{
+		"cooking": 30.0
+	},
+	"simplefarming:strawberry_pie":
+	{
+		"cooking": 10.0
+	},
+	"simplefarming:stuffed_corn_zucchini":
+	{
+		"cooking": 35.0
+	},
+	"simplefarming:sushi":
+	{
+		"cooking": 20.0
+	},
+	"simplefarming:sweet_potato_quinoa_cakes":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:tofu":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:tofu_scramble":
+	{
+		"cooking": 30.0
+	},
+	"simplefarming:tomato_soup":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:trail_mix":
+	{
+		"cooking": 30.0
+	},
+	"simplefarming:turnip_beetroot_gratin":
+	{
+		"cooking": 25.0
+	},
+	"simplefarming:vegetable_curry":
+	{
+		"cooking": 30.0
+	},
+	"simplefarming:vegetable_medley":
+	{
+		"cooking": 15.0
+	},
+	"simplefarming:veggie_burger":
+	{
+		"cooking": 40.0
+	},
+	"simplefarming:zucchini_bread":
+	{
+		"cooking": 15.0
+	},
+	"terraincognita:berry_sorbet":
+	{
+		"cooking": 12.0
+	},
+	"vanillafoodpantry:acorn_meat_stew":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:acorn_nuts":
+	{
+		"cooking": 12.0
+	},
+	"vanillafoodpantry:allium_bread":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:apple_bread":
+	{
+		"cooking": 35.0
+	},
+	"vanillafoodpantry:appleslices_sunbutter_snack":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:basic_gruel":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:basic_gruel_combo":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:basic_sop":
+	{
+		"cooking": 12.0
+	},
+	"vanillafoodpantry:basic_sop_combo":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:bat_burger":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:bat_cheeseburger":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:beetroot_soup_combo":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:beets_bread":
+	{
+		"cooking": 35.0
+	},
+	"vanillafoodpantry:berries_and_cream":
+	{
+		"cooking": 38.0
+	},
+	"vanillafoodpantry:bottle_fizzy_water":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:bottle_rose_water":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:bottle_swamp_water":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:bottle_syrup_base":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:bottle_tulip_tonic":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:bottle_water":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:bread_pocket_egg_ham":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:bread_pocket_egg_mushroom":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:bread_pocket_egg_spam":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:bread_pocket_egg_steak":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:bread_pocket_fish_salad":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:bread_pocket_roast_veg":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:bucket_sweetened_milk":
+	{
+		"cooking": 40.0
+	},
+	"vanillafoodpantry:buttered_bread":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:cactus_heart":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:cactus_pad_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:cake_slice":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:caramelized_alliums":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:carrot_burger":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:carrot_sunbutter_snack":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:cave_stew":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:cheese_ball":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:cheese_jellyjam_sandwich":
+	{
+		"cooking": 32.0
+	},
+	"vanillafoodpantry:cheese_sandwich":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:chocolate_sunbutter_sandwich":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:cookie_apple":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:cookie_cocoa":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:cookie_klingon":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:cookie_molasses":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:cookie_sugar":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:crafty_preserves_sunbutter_sandwich":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:creamed_spam_eggs_toast":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:creamsoup_beet":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:creamsoup_cactus":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:creamsoup_carrot":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:creamsoup_cheese":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:creamsoup_mushroom":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:creamsoup_potato":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:creamsoup_pumpkin":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:crystalized_honey":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:cyclops_sandwich":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:decker_cheesesteak":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_chicken":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_cuban":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_fish":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_generic":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_kinged":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_mutton":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_steak":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:decker_veggie":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:desert_salad":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:double_fried_egg_sandwich":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:dried_apple_slices":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:dried_mixed_berries":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:fish_chowder":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:fish_sausage":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:fish_sausage_mashwrap":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:fish_sop":
+	{
+		"cooking": 38.0
+	},
+	"vanillafoodpantry:fizzydrink_apple":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_berry_mix":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_chorusfruit":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_cocoa":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_dandy":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_ink":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_klingon":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_melon":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_milk":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_orange":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_poppy":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:fizzydrink_syrup":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:flat_bread_pocket":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:fried_egg_sandwich":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:fried_eggwhite":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:friedegg_sop":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:friedegg_sop_combo":
+	{
+		"cooking": 32.0
+	},
+	"vanillafoodpantry:fries_carrots_raw":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:fries_klingon_raw":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:fries_potatoes_raw":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:fruit_salad":
+	{
+		"cooking": 38.0
+	},
+	"vanillafoodpantry:fudge":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:fungi_purged":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:gelatin_ball":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:gelo_apple":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:gelo_berry_mix":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:gelo_chorusfruit":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:gelo_cocoa":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:gelo_dandy":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:gelo_honey":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:gelo_klingon":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:gelo_melon":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:gelo_midnight":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:gelo_orange":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:gelo_poppy":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:gelo_sugarbomb":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:gelo_ugli":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:golden_beetroots":
+	{
+		"cooking": 50.0
+	},
+	"vanillafoodpantry:golden_fruit_pie":
+	{
+		"cooking": 100.0
+	},
+	"vanillafoodpantry:golden_mixed_berries":
+	{
+		"cooking": 60.0
+	},
+	"vanillafoodpantry:golden_sugar":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:green_mashed_tatoes":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:ham_egg_sandwich":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:ham_hocks_stew":
+	{
+		"cooking": 35.0
+	},
+	"vanillafoodpantry:happy_muffin":
+	{
+		"cooking": 40.0
+	},
+	"vanillafoodpantry:hardened_sugar":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:hocks_raw_salted":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:homemade_butter":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:honey_glazed_melon_bites":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:honey_roasted_acorn_nuts":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:honey_sunbutter_sandwich":
+	{
+		"cooking": 35.0
+	},
+	"vanillafoodpantry:honeycomb_bowl":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:jellyjam_sandwich":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:jerky":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_apple":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_berries":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_cactus":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_cane":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_carrot":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_kelp":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_melon":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:juice_potato":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:kebab_adventure_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:kebab_bear_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:kebab_fish_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:kebab_flatbread_combo":
+	{
+		"cooking": 35.0
+	},
+	"vanillafoodpantry:kebab_fruit_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:kebab_meat_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:kebab_poultry_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:kebab_veggie_raw":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:kelp_prepped":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:mashed_tatoes":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:milkdrink_apple":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:milkdrink_berry_mix":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:milkdrink_cocoa":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:milkdrink_klingon":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:milkdrink_muscle_mix":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:milkdrink_plain":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:milkdrink_pumpkin":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:milkdrink_sweet":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:mixed_berries":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:molasses_glazed_carrots":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:muscle_egg":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:mushroom_stew_combo":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:mysterious_fruit_salad":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:nomads_meal_bar":
+	{
+		"cooking": 65.0
+	},
+	"vanillafoodpantry:nomads_snack_bar":
+	{
+		"cooking": 38.0
+	},
+	"vanillafoodpantry:nugget_beef_jerky":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:nugget_fish_jerky":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:nuggets_beef_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_beef_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_beef_jerky_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_carrots_combo":
+	{
+		"cooking": 38.0
+	},
+	"vanillafoodpantry:nuggets_carrots_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_chicken_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_chicken_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_cooked_pork_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_cooked_pork_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_fish_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_fish_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_fish_jerky_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_mushrooms_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_mushrooms_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_mutton_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_mutton_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_newyorker":
+	{
+		"cooking": 42.0
+	},
+	"vanillafoodpantry:nuggets_pork_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_pork_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_squid_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_squid_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:nuggets_veggies_combo":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:nuggets_veggies_fried_prep":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:pickled_egg":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:pigtail_salted":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:pile_beetroots":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:pile_carrots":
+	{
+		"cooking": 28.0
+	},
+	"vanillafoodpantry:pile_mushrooms":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:pink_mashed_tatoes":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:polar_bear_stew":
+	{
+		"cooking": 35.0
+	},
+	"vanillafoodpantry:portion_beef":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_bread":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:portion_butter":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_chicken":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_cod":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_ham":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_honey":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_horse":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_jerky":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:portion_llama":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_milk":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_milk_vegan":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_mutton":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_pork":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_pufferfish":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_pumpkin":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_rabbit":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_roasted_pumpkin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:portion_roasted_veg":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:portion_salmon":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:portion_spam":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:portion_squid":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:potato_bread":
+	{
+		"cooking": 1.0
+	},
+	"vanillafoodpantry:pufferfish_raw":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:pumpkin_pigtail_stew":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:pumpkin_pigtail_stew_combo":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:ravager_meat_prepped":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:raw_vegetables":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:roast_corn":
+	{
+		"cooking": 12.0
+	},
+	"vanillafoodpantry:roasted_seeds_pumpkin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:roasted_seeds_sunflower":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:salt_pork":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:sanitized_flesh":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:sanitized_flesh_steamed":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:sauteed_alliums_mushrooms":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:snocone":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:snocone_apple":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:snocone_berry":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:snocone_berry_plain":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:snocone_chocolate":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:snocone_chocolate_plain":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:snocone_chorusfruit":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:snocone_chorusfruit_plain":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:snocone_melon":
+	{
+		"cooking": 1.0
+	},
+	"vanillafoodpantry:spam_egg_sandwich":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:special_salad":
+	{
+		"cooking": 68.0
+	},
+	"vanillafoodpantry:squidd_on_a_stick":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:steamed_egg":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:stuffed_potato":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:stuffed_potato_cheese":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_egg":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_fish":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_muscle_egg":
+	{
+		"cooking": 58.0
+	},
+	"vanillafoodpantry:stuffed_potato_pork":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_poultry":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_redmeat":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_shroom":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_spam":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:stuffed_potato_veggie":
+	{
+		"cooking": 45.0
+	},
+	"vanillafoodpantry:sunbutter_appleslices_sandwich":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:taffy_blob":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:teadrink_bushtea":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:teadrink_dandtea":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:teadrink_milky_bushtea":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:teadrink_milky_dandtea":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:teadrink_sprucetips_tea":
+	{
+		"cooking": 15.0
+	},
+	"vanillafoodpantry:veggie_stew":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:veggie_stew_combo":
+	{
+		"cooking": 30.0
+	},
+	"vanillafoodpantry:washed_kelp_niblet":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:wrapped_egg":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:dough_ball":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:sweet_dough_ball":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:uncooked_egg_minibread":
+	{
+		"cooking": 18.0
+	},
+	"vanillafoodpantry:uncooked_meat_minibread":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:uncooked_cheese_minibread":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:uncooked_enriched_bread":
+	{
+		"cooking": 12.0
+	},
+	"vanillafoodpantry:uncooked_molasses_bread":
+	{
+		"cooking": 22.0
+	},
+	"vanillafoodpantry:uncooked_egg_bread":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:uncooked_honey_bread":
+	{
+		"cooking": 12.0
+	},
+	"vanillafoodpantry:uncooked_apple_bread":
+	{
+		"cooking": 22.0
+	},
+	"vanillafoodpantry:uncooked_pumpkin_bread":
+	{
+		"cooking": 22.0
+	},
+	"vanillafoodpantry:uncooked_french_bread":
+	{
+		"cooking": 10.0
+	},
+	"vanillafoodpantry:uncooked_potato_bread":
+	{
+		"cooking": 22.0
+	},
+	"vanillafoodpantry:uncooked_muscle_bread":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:uncooked_klingon_bread":
+	{
+		"cooking": 22.0
+	},
+	"vanillafoodpantry:uncooked_beets_bread":
+	{
+		"cooking": 22.0
+	},
+	"vanillafoodpantry:uncooked_allium_bread":
+	{
+		"cooking": 12.0
+	},
+	"vanillafoodpantry:uncooked_flat_bread":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:uncooked_pumpkin_muffin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:uncooked_cocoa_muffin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:uncooked_carrot_muffin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:uncooked_apple_muffin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:uncooked_honey_muffin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:uncooked_uglifruit_muffin":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:uncooked_apple_pie":
+	{
+		"cooking": 25.0
+	},
+	"vanillafoodpantry:uncooked_enriched_pumpkin_pie":
+	{
+		"cooking": 40.0
+	},
+	"vanillafoodpantry:uncooked_mixed_berry_pie":
+	{
+		"cooking": 38.0
+	},
+	"vanillafoodpantry:uncooked_egg_pie":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:uncooked_egg_pie_mushroom":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:uncooked_egg_pie_chicken":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:uncooked_egg_pie_ham":
+	{
+		"cooking": 20.0
+	},
+	"vanillafoodpantry:uncooked_egg_pie_allium":
+	{
+		"cooking": 38.0
+	},
+	"vanillafoodpantry:uncooked_fish_pie_salmon":
+	{
+		"cooking": 38.0
+	},
+	"veggie_way:apple_pie":
+	{
+		"cooking": 18.0
+	},
+	"veggie_way:cactus_chunk":
+	{
+		"cooking": 3.0
+	},
+	"veggie_way:cactus_soup":
+	{
+		"cooking": 15.0
+	},
+	"veggie_way:carrot_soup":
+	{
+		"cooking": 15.0
+	},
+	"veggie_way:chocolate_bar":
+	{
+		"cooking": 18.0
+	},
+	"veggie_way:energy_bar":
+	{
+		"cooking": 38.0
+	},
+	"veggie_way:energy_drink":
+	{
+		"cooking": 28.0
+	},
+	"veggie_way:melon_chunk":
+	{
+		"cooking": 3.0
+	},
+	"veggie_way:melon_pie":
+	{
+		"cooking": 18.0
+	},
+	"veggie_way:melon_soup":
+	{
+		"cooking": 15.0
+	},
+	"veggie_way:pumpkin_chunk":
+	{
+		"cooking": 3.0
+	},
+	"veggie_way:pumpkin_soup":
+	{
+		"cooking": 15.0
+	},
+	"veggie_way:super_petals":
+	{
+		"cooking": 15.0
+	},
+	"veggie_way:superfood_bar":
+	{
+		"cooking": 38.0
+	},
+	"veggie_way:superfood_shake":
+	{
+		"cooking": 25.0
+	},
+	"veggie_way:superfood_smoothie":
+	{
+		"cooking": 5.0
+	},
+	"veggie_way:sweet_berry_pie":
+	{
+		"cooking": 18.0
+	},
+	"notreepunching:flint_pickaxe":
+	{
+		"crafting": 25,
+		"smithing": 20
+	},	
+	"notreepunching:macuahuitl":
 	{
 		"crafting": 30,
-		"smithing": 6
+		"smithing": 20
 	},
-	"minecraft:golden_hoe":
+	"notreepunching:flint_axe":
 	{
-		"crafting": 60,
-		"smithing": 12
-	},
-	"minecraft:golden_axe":
-	{
-		"crafting": 90,
-		"smithing": 18
-	},
-	"minecraft:golden_sword":
-	{
-		"crafting": 60,
-		"smithing": 12
-	},
-	"minecraft:clock":
-	{
-		"crafting": 125
-	},
-	"minecraft:light_weighted_pressure_plate":
-	{
-		"crafting": 60
-	},
-	"minecraft:iron_helmet":
-	{
-		"crafting": 50,
+		"crafting": 20,
 		"smithing": 10
 	},
-	"minecraft:iron_chestplate":
+	"notreepunching:flint_shovel":
 	{
-		"crafting": 80,
-		"smithing": 16
+		"crafting": 15,
+		"smithing": 10
 	},
-	"minecraft:iron_leggings":
+	"notreepunching:flint_hoe":
 	{
-		"crafting": 70,
-		"smithing": 14
+		"crafting": 20,
+		"smithing": 10
 	},
-	"minecraft:iron_boots":
-	{
-		"crafting": 40,
-		"smithing": 8
-	},
-	"minecraft:iron_pickaxe":
-	{
-		"crafting": 30,
-		"smithing": 6
-	},
-	"minecraft:iron_shovel":
+	"notreepunching:flint_knife":
 	{
 		"crafting": 10,
-		"smithing": 2
-	},
-	"minecraft:iron_hoe":
+		"smithing": 5
+	},	
+	"woodenutilities:wooden_helmet":
 	{
-		"crafting": 20,
-		"smithing": 4
+		"crafting": 25,
+		"smithing": 10
 	},
-	"minecraft:iron_axe":
+	"woodenutilities:wooden_chestplate":
+	{
+		"crafting": 35,
+		"smithing": 25
+	},
+	"woodenutilities:wooden_leggings":
 	{
 		"crafting": 30,
-		"smithing": 6
+		"smithing": 20
 	},
-	"minecraft:iron_sword":
+	"woodenutilities:wooden_boot":
 	{
 		"crafting": 20,
-		"smithing": 4
-	},
-	"minecraft:anvil":
+		"smithing": 10
+	},	
+	"minecraft:stone_pickaxe":
 	{
-		"crafting": 310,
-		"smithing": 62
+		"crafting": 30,
+		"smithing": 15
 	},
-	"minecraft:iron_trapdoor":
+	"minecraft:stone_sword":
 	{
-		"crafting": 40
+		"crafting": 25,
+		"smithing": 15
 	},
-	"minecraft:iron_door":
+	"minecraft:stone_axe":
 	{
-		"crafting": 20
+		"crafting": 20,
+		"smithing": 15
 	},
-	"minecraft:hopper":
+	"minecraft:stone_shovel":
 	{
-		"crafting": 58
+		"crafting": 15,
+		"smithing": 5
 	},
-	"minecraft:compass":
+	"minecraft:stone_hoe":
 	{
-		"crafting": 45
-	},
-	"minecraft:minecart":
-	{
-		"crafting": 50
-	},
-	"minecraft:bucket":
-	{
-		"crafting": 30
-	},
-	"minecraft:cauldron":
-	{
-		"crafting": 70
-	},
-	"minecraft:flint_and_steel":
-	{
-		"crafting": 12
-	},
-	"minecraft:shears":
-	{
-		"crafting": 20
-	},
-	"minecraft:blast_furnace":
-	{
-		"crafting": 61
-	},
-	"minecraft:heavy_weighted_pressure_plate":
-	{
-		"crafting": 20
-	},
+		"crafting": 15,
+		"smithing": 10
+	},	
 	"minecraft:leather_helmet":
 	{
-		"crafting": 75,
+		"crafting": 30,
 		"smithing": 15
 	},
 	"minecraft:leather_chestplate":
 	{
-		"crafting": 120,
-		"smithing": 24
+		"crafting": 45,
+		"smithing": 30
 	},
 	"minecraft:leather_leggings":
 	{
-		"crafting": 105,
-		"smithing": 21
+		"crafting": 40,
+		"smithing": 25
 	},
 	"minecraft:leather_boots":
 	{
-		"crafting": 60,
-		"smithing": 12
+		"crafting": 25,
+		"smithing": 15
 	},
-	"minecraft:turtle_helmet":
+	"minecraft:iron_pickaxe":
 	{
-		"crafting": 100,
+		"crafting": 45,
+		"smithing": 30
+	},
+	"minecraft:iron_sword":
+	{
+		"crafting": 35,
+		"smithing": 25
+	},
+	"minecraft:iron_axe":
+	{
+		"crafting": 35,
+		"smithing": 30
+	},
+	"minecraft:iron_shovel":
+	{
+		"crafting": 25,
+		"smithing": 10
+	},
+	"minecraft:iron_hoe":
+	{
+		"crafting": 30,
+		"smithing": 20
+	},
+	"veggie_way:hand_rake":
+	{
+		"crafting": 15,
+		"smithing": 5
+	},
+	"notreepunching:iron_mattock":
+	{
+		"crafting": 55,
+		"smithing": 40
+	},
+	"notreepunching:iron_saw":
+	{
+		"crafting": 35,
 		"smithing": 20
 	},
 	"minecraft:crossbow":
 	{
-		"crafting": 20,
+		"crafting": 25,
 		"smithing": 10
-	},
-	"minecraft:stone_pickaxe":
+	},	
+	"minecraft:iron_helmet":
 	{
-		"crafting": 15,
-		"smithing": 3
+		"crafting": 50,
+		"smithing": 50
 	},
-	"minecraft:stone_shovel":
+	"minecraft:iron_chestplate":
 	{
-		"crafting": 5,
-		"smithing": 1
+		"crafting": 60,
+		"smithing": 80
 	},
-	"minecraft:stone_hoe":
+	"minecraft:iron_leggings":
 	{
-		"crafting": 10,
-		"smithing": 2
+		"crafting": 50,
+		"smithing": 70
 	},
-	"minecraft:stone_axe":
+	"minecraft:iron_boots":
 	{
-		"crafting": 15,
-		"smithing": 3
-	},
-	"minecraft:stone_sword":
-	{
-		"crafting": 10,
-		"smithing": 2
-	},
-	"minecraft:wooden_pickaxe":
-	{
-		"crafting": 9
-	},
-	"minecraft:wooden_shovel":
-	{
-		"crafting": 3
-	},
-	"minecraft:wooden_hoe":
-	{
-		"crafting": 6
-	},
-	"minecraft:wooden_axe":
-	{
-		"crafting": 9
-	},
-	"minecraft:wooden_sword":
-	{
-		"crafting": 6
-	},
-	"minecraft:beacon":
-	{
-		"crafting": 1000
-	},
-	"minecraft:iron_nugget":
-	{
-		"crafting": 0
-	},
-	"minecraft:iron_ingot":
-	{
-		"crafting": 0
-	},
-	"minecraft:iron_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:gold_nugget":
-	{
-		"crafting": 0
-	},
-	"minecraft:gold_ingot":
-	{
-		"crafting": 0
-	},
-	"minecraft:gold_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:diamond":
-	{
-		"crafting": 0
-	},
-	"minecraft:diamond_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:emerald":
-	{
-		"crafting": 0
-	},
-	"minecraft:emerald_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:coal":
-	{
-		"crafting": 0
-	},
-	"minecraft:coal_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:redstone":
-	{
-		"crafting": 0
-	},
-	"minecraft:redstone_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:lapis":
-	{
-		"crafting": 0
-	},
-	"minecraft:lapis_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:wheat":
-	{
-		"crafting": 0
-	},
-	"minecraft:hay_block":
-	{
-		"crafting": 0
-	},
-	"minecraft:bread":
-	{
-		"cooking": 3.5
-	},
-	"minecraft:beetroot_soup":
-	{
-		"cooking": 22.5
-	},
-	"minecraft:mushroom_stew":
-	{
-		"cooking": 15
-	},
-	"minecraft:rabbit_stew":
-	{
-		"cooking": 35
-	},
-	"minecraft:cake":
-	{
-		"cooking": 45
-	},
-	"minecraft:cookie":
-	{
-		"cooking": 0.75
-	},
-	"minecraft:pumpkin_pie":
-	{
-		"cooking": 27.5
-	},
-	"ironchest:iron_to_gold_chest_upgrade":
-	{
-		"smithing": 30
-	},
-	"ironchest:gold_to_diamond_chest_upgrade":
-	{
+		"crafting": 40,
 		"smithing": 40
 	},
-	"ironchest:copper_to_silver_chest_upgrade":
+	"minecraft:chainmail_helmet":
 	{
-		"smithing": 20
+		"crafting": 75,
+		"smithing": 65
 	},
-	"ironchest:silver_to_gold_chest_upgrade":
+	"minecraft:chainmail_chestplate":
 	{
+		"crafting": 90,
+		"smithing": 100
+	},
+	"minecraft:chainmail_leggings":
+	{
+		"crafting": 80,
+		"smithing": 80
+	},
+	"minecraft:chainmail_boots":
+	{
+		"crafting": 60,
+		"smithing": 50
+	},	
+	"immersiveengineering:pickaxe_steel":
+	{
+		"crafting": 60,
+		"smithing": 45
+	},	
+	"immersiveengineering:sword_steel":
+	{
+		"crafting": 50,
 		"smithing": 30
 	},
-	"ironchest:copper_to_iron_chest_upgrade":
+	"immersiveengineering:axe_steel":
 	{
-		"smithing": 20
+		"crafting": 60,
+		"smithing": 45
 	},
-	"ironchest:diamond_to_crystal_chest_upgrade":
+	"immersiveengineering:shovel_steel":
 	{
+		"crafting": 40,
+		"smithing": 15
+	},
+	"immersiveengineering:hoe_steel":
+	{
+		"crafting": 50,
+		"smithing": 30
+	},	
+	"immersiveengineering:armor_steel_feet":
+	{
+		"crafting": 80,
+		"smithing": 60
+	},
+	"immersiveengineering:armor_steel_head":
+	{
+		"crafting": 85,
+		"smithing": 75
+	},
+	"immersiveengineering:armor_steel_legs":
+	{
+		"crafting": 125,
+		"smithing": 105
+	},
+	"immersiveengineering:armor_steel_chest":
+	{
+		"crafting": 160,
+		"smithing": 145
+	},
+	"minecraft:golden_pickaxe":
+	{
+		"crafting": 90,
+		"smithing": 75
+	},
+	"minecraft:golden_sword":
+	{
+		"crafting": 70,
 		"smithing": 50
 	},
-	"ironchest:wood_to_iron_chest_upgrade":
+	"minecraft:golden_axe":
 	{
-		"smithing": 20
+		"crafting": 80,
+		"smithing": 75
 	},
-	"ironchest:wood_to_copper_chest_upgrade":
+	"minecraft:golden_shovel":
 	{
-		"smithing": 10
+		"crafting": 50,
+		"smithing": 25
 	},
-	"ironchest:diamond_to_obsidian_chest_upgrade":
+	"minecraft:golden_hoe":
 	{
+		"crafting": 60,
 		"smithing": 50
-	},
-	"ironchest:iron_chest":
+	},	
+	"minecraft:golden_helmet":
 	{
-		"smithing": 20
+		"crafting": 130,
+		"smithing": 125
 	},
-	"ironchest:gold_chest":
+	"minecraft:golden_chestplate":
 	{
+		"crafting": 225,
+		"smithing": 200
+	},
+	"minecraft:golden_leggings":
+	{
+		"crafting": 190,
+		"smithing": 175
+	},
+	"minecraft:golden_boots":
+	{
+		"crafting": 120,
+		"smithing": 100
+	},
+	"minecraft:turtle_helmet":
+	{
+		"crafting": 40,
+		"smithing": 25
+	},
+	"minecraft:diamond_pickaxe":
+	{
+		"crafting": 110,
+		"smithing": 90
+	},	
+	"minecraft:diamond_sword":
+	{
+		"crafting": 80,
+		"smithing": 60
+	},
+	"minecraft:diamond_axe":
+	{
+		"crafting": 110,
+		"smithing": 90
+	},
+	"minecraft:diamond_shovel":
+	{
+		"crafting": 50,
 		"smithing": 30
 	},
-	"ironchest:diamond_chest":
+	"minecraft:diamond_hoe":
 	{
-		"smithing": 40
+		"crafting": 75,
+		"smithing": 60
+	},	
+	"minecraft:diamond_helmet":
+	{
+		"crafting": 180,
+		"smithing": 150
 	},
-	"ironchest:copper_chest":
+	"minecraft:diamond_chestplate":
 	{
-		"smithing": 10
+		"crafting": 260,
+		"smithing": 240
 	},
-	"ironchest:silver_chest":
+	"minecraft:diamond_leggings":
 	{
-		"smithing": 20
+		"crafting": 230,
+		"smithing": 210
 	},
-	"ironchest:crystal_chest":
+	"minecraft:diamond_boots":
 	{
-		"smithing": 50
+		"crafting": 140,
+		"smithing": 120
+	},		
+	"betterendforge:terminite_pickaxe":
+	{
+		"crafting": 120,
+		"smithing": 90
 	},
-	"ironchest:obsidian_chest":
+	"betterendforge:terminite_sword":
 	{
-		"smithing": 50
+		"crafting": 90,
+		"smithing": 60
 	},
-	"aquaculture:bobber":
+	"betterendforge:terminite_axe":
 	{
-		"fishing": 20
+		"crafting": 120,
+		"smithing": 90
 	},
-	"aquaculture:neptunium_pickaxe":
+	"betterendforge:terminite_shovel":
 	{
-		"crafting": 600,
+		"crafting": 50,
+		"smithing": 30
+	},
+	"betterendforge:terminite_hoe":
+	{
+		"crafting": 80,
+		"smithing": 60
+	},	
+	"betterendforge:terminite_helmet":
+	{
+		"crafting": 180,
+		"smithing": 150
+	},
+	"betterendforge:terminite_chestplate":
+	{
+		"crafting": 260,
+		"smithing": 240
+	},
+	"betterendforge:terminite_leggings":
+	{
+		"crafting": 230,
+		"smithing": 210
+	},
+	"betterendforge:terminite_boots":
+	{
+		"crafting": 140,
+		"smithing": 120
+	},	
+	"betterendforge:aeternium_pickaxe":
+	{
+		"crafting": 140,
 		"smithing": 120
 	},
-	"aquaculture:neptunium_shovel":
+	"betterendforge:aeternium_sword":
 	{
-		"crafting": 200,
+		"crafting": 100,
+		"smithing": 80
+	},
+	"betterendforge:aeternium_axe":
+	{
+		"crafting": 140,
+		"smithing": 120
+	},
+	"betterendforge:aeternium_shovel":
+	{
+		"crafting": 60,
 		"smithing": 40
 	},
-	"aquaculture:neptunium_hoe":
+	"betterendforge:aeternium_hoe":
 	{
-		"crafting": 400,
+		"crafting": 90,
 		"smithing": 80
+	},
+	"betterendforge:aeternium_helmet":
+	{
+		"crafting": 220,
+		"smithing": 200
+	},
+	"betterendforge:aeternium_chestplate":
+	{
+		"crafting": 350,
+		"smithing": 320
+	},
+	"betterendforge:aeternium_leggings":
+	{
+		"crafting": 300,
+		"smithing": 280
+	},
+	"betterendforge:aeternium_boots":
+	{
+		"crafting": 180,
+		"smithing": 160
+	},
+	"minecraft:netherite_pickaxe":
+	{
+		"crafting": 140,
+		"smithing": 120
+	},	
+	"minecraft:netherite_sword":
+	{
+		"crafting": 100,
+		"smithing": 80
+	},
+	"minecraft:netherite_axe":
+	{
+		"crafting": 140,
+		"smithing": 120
+	},
+	"minecraft:netherite_shovel":
+	{
+		"crafting": 60,
+		"smithing": 40
+	},
+	"minecraft:netherite_hoe":
+	{
+		"crafting": 90,
+		"smithing": 80
+	},	
+	"minecraft:netherite_helmet":
+	{
+		"crafting": 220,
+		"smithing": 200
+	},
+	"minecraft:netherite_chestplate":
+	{
+		"crafting": 350,
+		"smithing": 320
+	},
+	"minecraft:netherite_leggings":
+	{
+		"crafting": 300,
+		"smithing": 280
+	},
+	"minecraft:netherite_boots":
+	{
+		"crafting": 180,
+		"smithing": 160
+	},	
+	"aquaculture:neptunium_pickaxe":
+	{
+		"crafting": 175,
+		"smithing": 150
+	},	
+	"aquaculture:neptunium_sword":
+	{
+		"crafting": 125,
+		"smithing": 100
 	},
 	"aquaculture:neptunium_axe":
 	{
-		"crafting": 600,
-		"smithing": 120
+		"crafting": 175,
+		"smithing": 150
 	},
-	"aquaculture:neptunium_helmet":
+	"aquaculture:neptunium_shovel":
 	{
-		"crafting": 800,
-		"smithing": 200
+		"crafting": 75,
+		"smithing": 50
 	},
-	"aquaculture:neptunium_chestplate":
+	"aquaculture:neptunium_hoe":
 	{
-		"crafting": 1400,
-		"smithing": 320
-	},
-	"aquaculture:neptunium_leggings":
-	{
-		"crafting": 1200,
-		"smithing": 280
-	},
-	"aquaculture:neptunium_boots":
-	{
-		"crafting": 600,
-		"smithing": 160
-	},
-	"aquaculture:neptunium_sword":
-	{
-		"crafting": 500,
-		"smithing": 90
-	},
-	"aquaculture:wooden_fillet_knife":
-	{
-		"crafting": 1
-	},
-	"aquaculture:stone_fillet_knife":
-	{
-		"crafting": 5
-	},
-	"aquaculture:iron_fillet_knife":
-	{
-		"crafting": 10,
-		"smithing": 10
-	},
-	"aquaculture:gold_fillet_knife":
-	{
-		"crafting": 15,
-		"smithing": 10
-	},
-	"aquaculture:diamond_fillet_knife":
-	{
-		"crafting": 20
+		"crafting": 125,
+		"smithing": 100
 	},
 	"aquaculture:neptunium_fillet_knife":
 	{
-		"crafting": 30,
-		"smithing": 10
-	},
-	"aquaculture:turtle_soup":
+		"crafting": 75,
+		"smithing": 50
+	},	
+	"aquaculture:neptunium_helmet":
 	{
-		"cooking": 35
+		"crafting": 270,
+		"smithing": 250
 	},
-	"aquaculture:sushi":
+	"aquaculture:neptunium_chestplate":
 	{
-		"cooking": 15
+		"crafting": 450,
+		"smithing": 400
 	},
-	"aquaculture:iron_hook":
+	"aquaculture:neptunium_leggings":
 	{
-		"fishing": 5
+		"crafting": 370,
+		"smithing": 350
 	},
-	"aquaculture:gold_hook":
+	"aquaculture:neptunium_boots":
 	{
-		"fishing": 5
-	},
-	"aquaculture:diamond_hook":
-	{
-		"fishing": 10
-	},
-	"aquaculture:light_hook":
-	{
-		"fishing": 15
-	},
-	"aquaculture:heavy_hook":
-	{
-		"fishing": 15
-	},
-	"aquaculture:double_hook":
-	{
-		"fishing": 15
-	},
-	"aquaculture:redstone_hook":
-	{
-		"fishing": 15
-	},
-	"aquaculture:note_hook":
-	{
-		"fishing": 15
-	},
-	"aquaculture:nether_star_hook":
-	{
-		"fishing": 20
+		"crafting": 225,
+		"smithing": 200
 	}
 }
