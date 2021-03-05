@@ -1779,7 +1779,7 @@
 			tasks: [{
 				id: "0000000000000FEB",
 				type: "item",
-				item: "minecraft:honey_bottle"
+				item: "minecraft:honeycomb"
 			}],
 			rewards: [{
 				id: "0000000000001320",
