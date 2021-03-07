@@ -1,0 +1,602 @@
+{
+	"minecraft:dark_oak_log":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:dark_oak_wood":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:stripped_dark_oak_log":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:stripped_dark_oak_wood":
+	{
+		"extraChance": 0.75
+	},
+	"decorative_blocks:dark_oak_beam":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:oak_log":
+	{
+		"extraChance": 0.6
+	},
+	"minecraft:oak_wood":
+	{
+		"extraChance": 0.6
+	},
+	"minecraft:stripped_oak_log":
+	{
+		"extraChance": 0.6
+	},
+	"minecraft:stripped_oak_wood":
+	{
+		"extraChance": 0.6
+	},
+	"decorative_blocks:oak_beam":
+	{
+		"extraChance": 0.6
+	},
+	"minecraft:acacia_log":
+	{
+		"extraChance": 0.8
+	},
+	"minecraft:acacia_wood":
+	{
+		"extraChance": 0.8
+	},
+	"minecraft:stripped_acacia_log":
+	{
+		"extraChance": 0.8
+	},
+	"minecraft:stripped_acacia_wood":
+	{
+		"extraChance": 0.8
+	},
+	"decorative_blocks:acacia_beam":
+	{
+		"extraChance": 0.8
+	},
+	"minecraft:birch_log":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:birch_wood":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:stripped_birch_log":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:stripped_birch_wood":
+	{
+		"extraChance": 0.5
+	},
+	"decorative_blocks:birch_beam":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:jungle_log":
+	{
+		"extraChance": 0.7
+	},
+	"minecraft:jungle_wood":
+	{
+		"extraChance": 0.7
+	},
+	"minecraft:stripped_jungle_log":
+	{
+		"extraChance": 0.7
+	},
+	"minecraft:stripped_jungle_wood":
+	{
+		"extraChance": 0.7
+	},
+	"decorative_blocks:jungle_beam":
+	{
+		"extraChance": 0.7
+	},
+	"minecraft:spruce_log":
+	{
+		"extraChance": 0.65
+	},
+	"minecraft:spruce_wood":
+	{
+		"extraChance": 0.65
+	},
+	"minecraft:stripped_spruce_log":
+	{
+		"extraChance": 0.65
+	},
+	"minecraft:stripped_spruce_wood":
+	{
+		"extraChance": 0.65
+	},
+	"decorative_blocks:spruce_beam":
+	{
+		"extraChance": 0.65
+	},
+	"betterendforge:mossy_glowshroom_log":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:mossy_glowshroom_bark":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:mossy_glowshroom_stripped_log":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:mossy_glowshroom_stripped_bark":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:lacugrove_log":
+	{
+		"extraChance": 0.55
+	},
+	"betterendforge:lacugrove_bark":
+	{
+		"extraChance": 0.55
+	},
+	"betterendforge:lacugrove_stripped_log":
+	{
+		"extraChance": 0.55
+	},
+	"betterendforge:lacugrove_stripped_bark":
+	{
+		"extraChance": 0.55
+	},
+	"betterendforge:end_lotus_log":
+	{
+		"extraChance": 0.65
+	},
+	"betterendforge:end_lotus_bark":
+	{
+		"extraChance": 0.65
+	},
+	"betterendforge:end_lotus_stripped_log":
+	{
+		"extraChance": 0.65
+	},
+	"betterendforge:end_lotus_stripped_bark":
+	{
+		"extraChance": 0.65
+	},
+	"betterendforge:pythadendron_log":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:pythadendron_bark":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:pythadendron_stripped_log":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:pythadendron_stripped_bark":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:dragon_tree_log":
+	{
+		"extraChance": 0.9
+	},
+	"betterendforge:dragon_tree_bark":
+	{
+		"extraChance": 0.9
+	},
+	"betterendforge:dragon_tree_stripped_log":
+	{
+		"extraChance": 0.9
+	},
+	"betterendforge:dragon_tree_stripped_bark":
+	{
+		"extraChance": 0.9
+	},
+	"betterendforge:tenanea_log":
+	{
+		"extraChance": 0.8
+	},
+	"betterendforge:tenanea_bark":
+	{
+		"extraChance": 0.8
+	},
+	"betterendforge:tenanea_stripped_log":
+	{
+		"extraChance": 0.8
+	},
+	"betterendforge:tenanea_stripped_bark":
+	{
+		"extraChance": 0.8
+	},
+	"betterendforge:helix_tree_log":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:helix_tree_bark":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:helix_tree_stripped_log":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:helix_tree_stripped_bark":
+	{
+		"extraChance": 0.85
+	},
+	"betterendforge:umbrella_tree_log":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:umbrella_tree_bark":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:umbrella_tree_stripped_log":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:umbrella_tree_stripped_bark":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:jellyshroom_log":
+	{
+		"extraChance": 0.55
+	},
+	"betterendforge:jellyshroom_bark":
+	{
+		"extraChance": 0.55
+	},
+	"betterendforge:jellyshroom_stripped_log":
+	{
+		"extraChance": 0.55
+	},
+	"betterendforge:jellyshroom_stripped_bark":
+	{
+		"extraChance": 0.55
+	},
+	"betterdefaultbiomes:palm_log":
+	{
+		"extraChance": 0.7
+	},
+	"betterdefaultbiomes:palm_wood":
+	{
+		"extraChance": 0.7
+	},
+	"betterdefaultbiomes:palm_log_stripped":
+	{
+		"extraChance": 0.7
+	},
+	"betterdefaultbiomes:palm_wood_stripped":
+	{
+		"extraChance": 0.7
+	},
+	"betterdefaultbiomes:swamp_willow_log":
+	{
+		"extraChance": 0.6
+	},
+	"betterdefaultbiomes:swamp_willow_wood":
+	{
+		"extraChance": 0.6
+	},
+	"betterdefaultbiomes:swamp_willow_log_stripped":
+	{
+		"extraChance": 0.6
+	},
+	"betterdefaultbiomes:swamp_willow_wood_stripped":
+	{
+		"extraChance": 0.6
+	},
+	"terraincognita:apple_log":
+	{
+		"extraChance": 0.5
+	},
+	"terraincognita:stripped_apple_log":
+	{
+		"extraChance": 0.5
+	},
+	"terraincognita:apple_wood":
+	{
+		"extraChance": 0.5
+	},
+	"terraincognita:stripped_apple_wood":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:crimson_stem":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:stripped_crimson_stem":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:crimson_hyphae":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:stripped_crimson_hyphae":
+	{
+		"extraChance": 0.75
+	},
+	"decorative_blocks:crimson_beam":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:warped_stem":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:stripped_warped_stem":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:warped_hyphae":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:stripped_warped_hyphae":
+	{
+		"extraChance": 0.75
+	},
+	"decorative_blocks:warped_beam":
+	{
+		"extraChance": 0.75
+	},
+	"simplefarming:fruit_log":
+	{
+		"extraChance": 0.85
+	},
+	"minecraft:oak_planks":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:spruce_planks":
+	{
+		"extraChance": 0.65
+	},
+	"minecraft:birch_planks":
+	{
+		"extraChance": 0.55
+	},
+	"minecraft:jungle_planks":
+	{
+		"extraChance": 0.75
+	},
+	"minecraft:acacia_planks":
+	{
+		"extraChance": 0.85
+	},
+	"minecraft:dark_oak_planks":
+	{
+		"extraChance": 0.8
+	},
+	"minecraft:crimson_planks":
+	{
+		"extraChance": 0.7
+	},
+	"minecraft:warped_planks":
+	{
+		"extraChance": 0.7
+	},
+	"betterendforge:mossy_glowshroom_planks":
+	{
+		"extraChance": 0.8
+	},
+	"betterendforge:lacugrove_planks":
+	{
+		"extraChance": 0.9
+	},
+	"betterendforge:end_lotus_planks":
+	{
+		"extraChance": 0.6
+	},
+	"betterendforge:pythadendron_planks":
+	{
+		"extraChance": 1.0
+	},
+	"betterendforge:dragon_tree_planks":
+	{
+		"extraChance": 0.4
+	},
+	"betterendforge:tenanea_planks":
+	{
+		"extraChance": 0.6
+	},
+	"betterendforge:helix_tree_planks":
+	{
+		"extraChance": 0.6
+	},
+	"betterendforge:umbrella_tree_planks":
+	{
+		"extraChance": 0.5
+	},
+	"betterendforge:jellyshroom_planks":
+	{
+		"extraChance": 0.8
+	},
+	"betterdefaultbiomes:palm_planks":
+	{
+		"extraChance": 0.55
+	},
+	"betterdefaultbiomes:swamp_willow_planks":
+	{
+		"extraChance": 0.65
+	},
+	"quark:vertical_oak_planks":
+	{
+		"extraChance": 0.55
+	},
+	"quark:vertical_spruce_planks":
+	{
+		"extraChance": 0.75
+	},
+	"quark:vertical_birch_planks":
+	{
+		"extraChance": 0.55
+	},
+	"quark:vertical_jungle_planks":
+	{
+		"extraChance": 0.65
+	},
+	"quark:vertical_acacia_planks":
+	{
+		"extraChance": 0.85
+	},
+	"quark:vertical_dark_oak_planks":
+	{
+		"extraChance": 0.95
+	},
+	"quark:vertical_warped_planks":
+	{
+		"extraChance": 0.65
+	},
+	"quark:vertical_crimson_planks":
+	{
+		"extraChance": 0.65
+	},
+	"quark:black_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:blue_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:brown_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:cyan_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:gray_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:green_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:light_blue_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:light_gray_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:lime_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:magenta_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:orange_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:pink_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:purple_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:red_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:white_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:yellow_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_black_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_blue_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_brown_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_cyan_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_gray_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_green_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_light_blue_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_light_gray_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_lime_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_magenta_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_orange_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_pink_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_purple_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_red_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_white_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"quark:vertical_yellow_stained_planks":
+	{
+		"extraChance": 0.5
+	},
+	"terraincognita:apple_planks":
+	{
+		"extraChance": 0.65
+	},
+	"terraincognita:vertical_apple_planks":
+	{
+		"extraChance": 0.65
+	}
+}

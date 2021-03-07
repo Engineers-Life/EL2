@@ -1,0 +1,230 @@
+{
+	"notreepunching:macuahuitl":
+	{
+		"combat": 3
+	},
+	"notreepunching:flint_axe":
+	{
+		"combat": 1
+	},
+	"notreepunching:flint_pickaxe":
+	{
+		"combat": 1
+	},
+	"notreepunching:flint_hoe":
+	{
+		"combat": 1
+	},
+	"notreepunching:flint_knife":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_sword":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_axe":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_shovel":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_pickaxe":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_hoe":
+	{
+		"combat": 1
+	},
+	"minecraft:stone_sword":
+	{
+		"combat": 3
+	},
+	"minecraft:stone_axe":
+	{
+		"combat": 3
+	},
+	"minecraft:stone_pickaxe":
+	{
+		"combat": 3
+	},
+	"minecraft:stone_shovel":
+	{
+		"combat": 3
+	},
+	"minecraft:stone_hoe":
+	{
+		"combat": 3
+	},
+	"minecraft:crossbow":
+	{
+		"archery": 10
+	},
+	"minecraft:iron_sword":
+	{
+		"combat": 10
+	},
+	"minecraft:iron_axe":
+	{
+		"combat": 10
+	},
+	"minecraft:iron_pickaxe":
+	{
+		"combat": 10
+	},
+	"minecraft:iron_shovel":
+	{
+		"combat": 10
+	},
+	"minecraft:iron_hoe":
+	{
+		"combat": 10
+	},
+	"minecraft:golden_sword":
+	{
+		"combat": 30
+	},
+	"minecraft:golden_axe":
+	{
+		"combat": 30
+	},
+	"minecraft:golden_pickaxe":
+	{
+		"combat": 30
+	},
+	"minecraft:golden_shovel":
+	{
+		"combat": 30
+	},
+	"minecraft:golden_hoe":
+	{
+		"combat": 30
+	},
+	"minecraft:diamond_sword":
+	{
+		"combat": 40
+	},
+	"minecraft:diamond_axe":
+	{
+		"combat": 40
+	},
+	"minecraft:diamond_pickaxe":
+	{
+		"combat": 40
+	},
+	"minecraft:diamond_shovel":
+	{
+		"combat": 40
+	},
+	"minecraft:diamond_hoe":
+	{
+		"combat": 40
+	},
+	"minecraft:netherite_sword":
+	{
+		"combat": 60
+	},
+	"minecraft:netherite_axe":
+	{
+		"combat": 60
+	},
+	"minecraft:netherite_pickaxe":
+	{
+		"combat": 60
+	},
+	"minecraft:netherite_shovel":
+	{
+		"combat": 60
+	},
+	"minecraft:netherite_hoe":
+	{
+		"combat": 60
+	},
+	"immersiveengineering:sword_steel":
+	{
+		"combat": 20
+	},
+	"immersiveengineering:axe_steel":
+	{
+		"combat": 20
+	},
+	"immersiveengineering:pickaxe_steel":
+	{
+		"combat": 20
+	},
+	"immersiveengineering:shovel_steel":
+	{
+		"combat": 20
+	},
+	"immersiveengineering:hoe_steel":
+	{
+		"combat": 20
+	},
+	"betterendforge:terminite_sword":
+	{
+		"combat": 45
+	},
+	"betterendforge:terminite_axe":
+	{
+		"combat": 45
+	},
+	"betterendforge:terminite_pickaxe":
+	{
+		"combat": 45
+	},
+	"betterendforge:terminite_shovel":
+	{
+		"combat": 45
+	},
+	"betterendforge:terminite_hoe":
+	{
+		"combat": 45
+	},
+	"betterendforge:aeternium_sword":
+	{
+		"combat": 70
+	},
+	"betterendforge:aeternium_axe":
+	{
+		"combat": 70
+	},
+	"betterendforge:aeternium_pickaxe":
+	{
+		"combat": 70
+	},
+	"betterendforge:aeternium_shovel":
+	{
+		"combat": 70
+	},
+	"betterendforge:aeternium_hoe":
+	{
+		"combat": 70
+	},
+	"aquaculture:neptunium_sword":
+	{
+		"combat": 80
+	},
+	"aquaculture:neptunium_axe":
+	{
+		"combat": 80
+	},
+	"aquaculture:neptunium_pickaxe":
+	{
+		"combat": 80
+	},
+	"aquaculture:neptunium_shovel":
+	{
+		"combat": 80
+	},
+	"aquaculture:neptunium_hoe":
+	{
+		"combat": 80
+	},
+	"aquaculture:neptunium_fillet_knife":
+	{
+		"combat": 5
+	}
+}

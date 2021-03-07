@@ -1,0 +1,129 @@
+{
+	id: "0000000000000574",
+	order_index: 2,
+	title: "Shingles blocks",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "quark:shingles",
+			count: 64
+		},
+		{
+			item: "quark:pink_shingles",
+			count: 64
+		},
+		{
+			item: "quark:gray_shingles",
+			count: 64
+		},
+		{
+			item: "quark:light_blue_shingles",
+			count: 64
+		},
+		{
+			item: "quark:red_shingles",
+			count: 64
+		},
+		{
+			item: "quark:black_shingles",
+			count: 64
+		},
+		{
+			item: "quark:lime_shingles",
+			count: 64
+		},
+		{
+			item: "quark:green_shingles",
+			count: 64
+		},
+		{
+			item: "quark:blue_shingles",
+			count: 64
+		},
+		{
+			item: "quark:brown_shingles",
+			count: 64
+		},
+		{
+			item: "quark:white_shingles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:basalt_rooftiles",
+			count: 64
+		},
+		{
+			item: "quark:orange_shingles",
+			count: 64
+		},
+		{
+			item: "quark:magenta_shingles",
+			count: 64
+		},
+		{
+			item: "quark:yellow_shingles",
+			count: 64
+		},
+		{
+			item: "engineersdecor:dark_shingle_roof",
+			count: 64
+		},
+		{
+			item: "embellishcraft:granite_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:red_sandstone_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:terracotta_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:red_sandstone_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:sandstone_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:slate_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:marble_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:gneiss_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:jade_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:larvikite_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:andesite_rooftiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:diorite_rooftiles",
+			count: 64
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		string_id: "shingles_blocks"
+	}
+}

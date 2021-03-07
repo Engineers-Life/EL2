@@ -1,0 +1,434 @@
+{
+	"minecraft:oak_sapling":
+	{
+		"farming": 5
+	},
+	"minecraft:birch_sapling":
+	{
+		"farming": 10
+	},
+	"minecraft:spruce_sapling":
+	{
+		"farming": 7
+	},
+	"minecraft:jungle_sapling":
+	{
+		"farming": 12
+	},
+	"minecraft:dark_oak_sapling":
+	{
+		"farming": 8
+	},
+	"minecraft:acacia_sapling":
+	{
+		"farming": 15
+	},
+	"betterdefaultbiomes:palm_sapling":
+	{
+		"farming": 8
+	},
+	"betterdefaultbiomes:swamp_willow_sapling":
+	{
+		"farming": 10
+	},
+	"quark:blue_blossom_sapling":
+	{
+		"farming": 7
+	},
+	"quark:lavender_blossom_sapling":
+	{
+		"farming": 7
+	},
+	"quark:orange_blossom_sapling":
+	{
+		"farming": 7
+	},
+	"quark:pink_blossom_sapling":
+	{
+		"farming": 7
+	},
+	"quark:yellow_blossom_sapling":
+	{
+		"farming": 7
+	},
+	"quark:red_blossom_sapling":
+	{
+		"farming": 7
+	},
+	"simplefarming:apple_sapling":
+	{
+		"farming":25
+	},
+	"simplefarming:apricot_sapling":
+	{
+		"farming": 25
+	},
+	"simplefarming:banana_sapling":
+	{
+		"farming": 25
+	},
+	"simplefarming:cherry_sapling":
+	{
+		"farming": 25
+	},
+	"simplefarming:mango_sapling":
+	{
+		"farming": 25
+	},
+	"simplefarming:olive_sapling":
+	{
+		"farming": 25
+	},
+	"simplefarming:orange_sapling":
+	{
+		"farming": 25
+	},
+	"simplefarming:pear_sapling":
+	{
+		"farming": 25
+	},
+	"simplefarming:plum_sapling":
+	{
+		"farming": 25
+	},
+	"terraicognita:apple_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:hydralux_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:mossy_glowshroom_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:lacugrove_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:pythandendron_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:dragon_tree_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:tenanea_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:helix_tree_sapling":
+	{
+		"farming": 25
+	},
+	"betterendforge:umbrella_tree_sapling":
+	{
+		"farming": 25
+	},
+	"minecraft:sugar_cane":
+	{
+		"farming": 5
+	},
+	"minecraft:cactus":
+	{
+		"farming": 6
+	},
+	"minecraft:bamboo_sapling":
+	{
+		"farming": 2
+	},
+	"minecraft:kelp":
+	{
+		"farming": 2
+	},
+	"minecraft:sea_pickle":
+	{
+		"farming": 4
+	},
+	"minecraft:wheat_seeds":
+	{
+		"farming": 5
+	},
+	"minecraft:beetroot":
+	{
+		"farming": 6
+	},
+	"minecraft:carrot":
+	{
+		"farming": 4
+	},
+	"minecraft:potato":
+	{
+		"farming": 4
+	},
+	"minecraft:sweet_berries":
+	{
+		"farming": 4
+	},
+	"minecraft:cocoa":
+	{
+		"farming": 15
+	},
+	"minecraft:nether_wart":
+	{
+		"farming": 6
+	},
+	"minecraft:pumpkin_seeds":
+	{
+		"farming": 6
+	},
+	"minecraft:melon_seeds":
+	{
+		"farming": 5
+	},
+	"minecraft:beetroot_seeds":
+	{
+		"farming": 4
+	},
+	"immersiveengineering:seed":
+	{
+		"farming": 3
+	},
+	"simplefarming:cumin_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:quinoa_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:sunflower_seeds":
+	{
+		"farming": 3.5
+	},
+	"simplefarming:barley_seeds":
+	{
+		"farming": 5
+	},
+	"simplefarming:broccoli_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:cantaloupe_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:carrot_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:cassava_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:corn_seeds":
+	{
+		"farming": 5
+	},
+	"simplefarming:cotton_seeds":
+	{
+		"farming": 3
+	},
+	"simplefarming:cucumber_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:eggplant_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:honeydew_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:ginger_seeds":
+	{
+		"farming": 3.5
+	},
+	"simplefarming:grape_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:kenaf_seeds":
+	{
+		"farming": 3
+	},
+	"simplefarming:lettuce_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:oat_seeds":
+	{
+		"farming": 5
+	},
+	"simplefarming:onion_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:pea_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:peanut_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:pepper_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:potato_seeds":
+	{
+		"farming": 5
+	},
+	"simplefarming:radish_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:rice_seeds":
+	{
+		"farming": 5
+	},
+	"simplefarming:rye_seeds":
+	{
+		"farming": 5
+	},
+	"simplefarming:sorghum_seeds":
+	{
+		"farming": 5
+	},
+	"simplefarming:soybean_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:spinach_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:squash_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:sweet_potato_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:tomato_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:turnip_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:yam_seeds":
+	{
+		"farming": 4
+	},
+	"simplefarming:zucchini_seeds":
+	{
+		"farming": 4
+	},
+	"veggie_way:quinoa_seeds":
+	{
+		"farming": 4
+	},
+	"veggie_way:soybean_seeds":
+	{
+		"farming": 4
+	},
+	"veggie_way:lentil_seeds":
+	{
+		"farming": 4
+	},
+	"veggie_way:corn_seeds":
+	{
+		"farming": 5
+	},
+	"betterendforge:blue_vine_seed":
+	{
+		"farming": 6
+	},
+	"betterendforge:end_lily_seed":
+	{
+		"farming": 6
+	},
+	"betterendforge:end_lotus_seed":
+	{
+		"farming": 6
+	},
+	"betterendforge:lanceleaf_seed":
+	{
+		"farming": 6
+	},
+	"betterendforge:glowing_pillar_seed":
+	{
+		"farming": 6
+	},
+	"betterendforge:shadow_berry":
+	{
+		"farming": 6
+	},
+	"betterendforge:blossom_berry_seed":
+	{
+		"farming": 6
+	},
+	"betterendforge:bulb_vine_seed":
+	{
+		"farming": 6
+	},
+	"flowerseeds:dandelion_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:poppy_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:orchid_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:allium_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:azure_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:tulip_red_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:tulip_orange_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:tulip_white_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:tulip_pink_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:oxeye_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:cornflower_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:lily_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:witherrose_seed":
+	{
+		"farming": 6
+	}
+}

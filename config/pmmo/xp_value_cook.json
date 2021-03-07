@@ -1,0 +1,522 @@
+{
+	"minecraft:wet_sponge":
+	{
+		"crafting": 15
+	},
+	"minecraft:mutton":
+	{
+		"cooking": 7.5
+	},
+	"minecraft:rabbit":
+	{
+		"cooking": 15
+	},
+	"minecraft:salmon":
+	{
+		"cooking": 8.0
+	},
+	"minecraft:cod":
+	{
+		"cooking": 5
+	},
+	"minecraft:beef":
+	{
+		"cooking": 10
+	},
+	"minecraft:porkchop":
+	{
+		"cooking": 12
+	},
+	"minecraft:chicken":
+	{
+		"cooking": 8
+	},
+	"minecraft:potato":
+	{
+		"cooking": 5
+	},
+	"minecraft:carrot":
+	{
+		"cooking": 5
+	},
+	"minecraft:beetroot":
+	{
+		"cooking": 5
+	},
+	"minecraft:cactus":
+	{
+		"cooking": 8.0
+	},
+	"minecraft:sea_pickle":
+	{
+		"cooking": 8.0
+	},
+	"minecraft:chorus_fruit":
+	{
+		"cooking": 25
+	},
+	"minecraft:kelp":
+	{
+		"cooking": 6
+	},
+	"minecraft:egg":
+	{
+		"cooking": 7.5
+	},
+	"minecraft:red_mushroom":
+	{
+		"cooking": 7.5
+	},
+	"minecraft:brown_mushroom":
+	{
+		"cooking": 7.5
+	},
+	"minecraft:beetroot_seed":
+	{
+		"cooking": 5
+	},
+	"minecraft:melon_seed":
+	{
+		"cooking": 5
+	},
+	"minecraft:pumpkin_seed":
+	{
+		"cooking": 5
+	},
+	"minecraft:wheat_seed":
+	{
+		"cooking": 5
+	},
+	"alexsmobs:lobster_tail":
+	{
+		"cooking": 10
+	},
+	"alexsmobs:moose_ribs":
+	{
+		"cooking": 10
+	},
+	"aquaculture:fish_fillet_raw":
+	{
+		"cooking": 12
+	},
+	"aquaculture:frog_legs_raw":
+	{
+		"cooking": 10
+	},
+	"betterdefaultbiomes:duck":
+	{
+		"cooking": 8.0
+	},
+	"betterdefaultbiomes:frog_leg":
+	{
+		"cooking": 10
+	},
+	"betterendforge:shadow_berry_raw":
+	{
+		"cooking": 6.0
+	},
+	"betterendforge:end_fish_raw":
+	{
+		"cooking": 8.0
+	},
+	"fins:banded_redback_shrimp":
+	{
+		"cooking": 8.0
+	},
+	"fins:bugmeat":
+	{
+		"cooking": 12
+	},
+	"fins:raw_golden_river_ray_wing":
+	{
+		"cooking": 12
+	},
+	"fins:white_bull_crab_claw":
+	{
+		"cooking": 8.0
+	},
+	"pamhc2foodcore:sunflowerseedsitem":
+	{
+		"cooking": 5.0
+	},
+	"quark:crab_leg":
+	{
+		"cooking": 12
+	},
+	"quark:frog_leg":
+	{
+		"cooking": 4.0
+	},
+	"veggie_way:large_bamboo_sheet":
+	{
+		"crafting": 15
+	},
+	"veggie_way:fresh_tofu":
+	{
+		"cooking": 10
+	},
+	"veggie_way:dough":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:grapes":
+	{
+		"cooking": 12
+	},
+	"simplefarming:soybean":
+	{
+		"cooking": 10
+	},
+	"simplefarming:sweet_potato":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:yam":
+	{
+		"cooking": 8.0
+	},
+	"simplefarming:corn_seeds":
+	{
+		"cooking": 4.0
+	},
+	"simplefarming:raw_bacon":
+	{
+		"cooking": 6.0
+	},
+	"simplefarming:raw_chicken_wings":
+	{
+		"cooking": 6.0
+	},
+	"simplefarming:raw_calamari":
+	{
+		"cooking": 6.0
+	},
+	"simplefarming:raw_horse_meat":
+	{
+		"cooking": 12
+	},
+	"simplefarming:raw_sausage":
+	{
+		"cooking": 6.0
+	},
+	"vanillafoodpantry:drying_agent_unprocessed":
+	{
+		"crafting": 2.0
+	},
+	"vanillafoodpantry:drying_agent_unprocessed_ball":
+	{
+		"crafting": 20
+	},
+	"vanillafoodpantry:foodpowder_sunflower_seeds":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:bucket_sweetened_milk":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:hardened_sugar":
+	{
+		"cooking": 4.0
+	},
+	"vanillafoodpantry:hardened_sugar_pantry_block":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:dough_ball":
+	{
+		"cooking": 5.0
+	},
+	"vanillafoodpantry:cactus_pad_raw":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:sweet_dough_ball":
+	{
+		"cooking": 6.0
+	},
+	"vanillafoodpantry:uncooked_egg_minibread":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:uncooked_meat_minibread":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_cheese_minibread":
+	{
+		"cooking": 12
+	},
+	"vanillafoodpantry:uncooked_enriched_bread":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:uncooked_molasses_bread":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:uncooked_egg_bread":
+	{
+		"cooking": 30
+	},
+	"vanillafoodpantry:uncooked_honey_bread":
+	{
+		"cooking": 17
+	},
+	"vanillafoodpantry:uncooked_apple_bread":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:uncooked_pumpkin_bread":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:uncooked_french_bread":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:uncooked_potato_bread":
+	{
+		"cooking": 30
+	},
+	"vanillafoodpantry:uncooked_muscle_bread":
+	{
+		"cooking": 35
+	},
+	"vanillafoodpantry:uncooked_klingon_bread":
+	{
+		"cooking": 30
+	},
+	"vanillafoodpantry:uncooked_beets_bread":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:uncooked_allium_bread":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:uncooked_flat_bread":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:uncooked_pumpkin_muffin":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_cocoa_muffin":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_carrot_muffin":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_apple_muffin":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_honey_muffin":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_uglifruit_muffin":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_apple_pie":
+	{
+		"cooking": 32
+	},
+	"vanillafoodpantry:uncooked_enriched_pumpkin_pie":
+	{
+		"cooking": 60
+	},
+	"vanillafoodpantry:uncooked_mixed_berry_pie":
+	{
+		"cooking": 60
+	},
+	"vanillafoodpantry:uncooked_golden_fruit_pie":
+	{
+		"cooking": 80
+	},
+	"vanillafoodpantry:seedmush":
+	{
+		"crafting": 10
+	},
+	"vanillafoodpantry:wrapped_egg":
+	{
+		"cooking": 8.0
+	},
+	"vanillafoodpantry:uncooked_egg_pie":
+	{
+		"cooking": 40
+	},
+	"vanillafoodpantry:uncooked_egg_pie_mushroom":
+	{
+		"cooking": 40
+	},
+	"vanillafoodpantry:uncooked_egg_pie_chicken":
+	{
+		"cooking": 40
+	},
+	"vanillafoodpantry:uncooked_egg_pie_ham":
+	{
+		"cooking": 40
+	},
+	"vanillafoodpantry:uncooked_egg_pie_allium":
+	{
+		"cooking": 55
+	},
+	"vanillafoodpantry:portion_pumpkin":
+	{
+		"cooking": 2.0
+	},
+	"vanillafoodpantry:raw_vegetables":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:ink_kelp":
+	{
+		"cooking": 1.0
+	},
+	"vanillafoodpantry:pufferfish_raw":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:salt_pork":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:hocks_raw_salted":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:bat_raw":
+	{
+		"cooking": 8
+	},
+	"vanillafoodpantry:llama_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:wolf_raw":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:bear_raw_prepped":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:sanitized_flesh":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:guardian_meat_raw":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:phantom_meat_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:ravager_meat_prepped":
+	{
+		"cooking": 35
+	},
+	"vanillafoodpantry:fries_potato_raw":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:fries_carrot_raw":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:fries_klingon_raw":
+	{
+		"cooking": 10
+	},
+	"vanillafoodpantry:uncooked_fish_pie_salmon":
+	{
+		"cooking": 60
+	},
+	"vanillafoodpantry:kebab_meat_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:kebab_poultry_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:kebab_fish_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:kebab_veggie_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:kebab_fruit_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:kebab_adventure_raw":
+	{
+		"cooking": 15
+	},
+	"vanillafoodpantry:kebab_bear_raw":
+	{
+		"cooking": 20
+	},
+	"vanillafoodpantry:nuggests_chicken_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_beef_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_beef_jerky_prep":
+	{
+		"cooking": 30
+	},
+	"vanillafoodpantry:nuggets_mutton_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_pork_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_fish_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_fish_jerky_prep":
+	{
+		"cooking": 30
+	},
+	"vanillafoodpantry:nuggets_mushroom_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_veggies_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_squid_fried_prep":
+	{
+		"cooking": 25
+	},
+	"vanillafoodpantry:nuggets_cooked_pork_fried_prep":
+	{
+		"cooking": 35
+	},
+	"vanillafoodpantry:nuggets_carrots_fried_prep":
+	{
+		"cooking": 35
+	},
+	"vanillafoodpantry:fish_sausage":
+	{
+		"cooking": 20
+	}
+}

@@ -1,0 +1,5 @@
+
+[coins]
+	#Create coin exchange rate recipes
+	default_coin_recipes = false
+

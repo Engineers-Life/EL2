@@ -1,0 +1,6 @@
+{
+	"minecraft:spawner":
+	{
+		"combat": 5
+	}
+}

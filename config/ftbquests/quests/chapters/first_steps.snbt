@@ -1,0 +1,3087 @@
+{
+	id: "0000000000000002",
+	group: "",
+	order_index: 0,
+	filename: "first_steps",
+	title: "First Steps",
+	icon: {
+		id: "notreepunching:flint_axe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -7.5d,
+			y: -4.5d,
+			description: ["Leaves can be harvested without a tool for sticks (this is a vanilla feature, but will be very important here)."],
+			dependencies: ["0000000000000F88"],
+			id: "0000000000000003",
+			tasks: [{
+				id: "0000000000000004",
+				type: "item",
+				item: "minecraft:stick"
+			}],
+			rewards: [
+				{
+					id: "0000000000000024",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000465",
+					type: "item",
+					item: "minecraft:stick",
+					count: 5
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -4.5d,
+			description: ["Gravel can be mined without a tool, and mining it enables you to aquire flint."],
+			dependencies: ["0000000000000003"],
+			id: "0000000000000005",
+			tasks: [
+				{
+					id: "0000000000000006",
+					type: "item",
+					item: "minecraft:gravel"
+				},
+				{
+					id: "0000000000000007",
+					type: "item",
+					item: "minecraft:flint"
+				}
+			],
+			rewards: [{
+				id: "0000000000000017",
+				type: "item",
+				item: "minecraft:flint",
+				count: 2
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -4.5d,
+			description: [
+				"In order to create flint shards, necessary for flint tools, flint must be knapped. In order to do this, a piece of flint, and a stone type block is required.",
+				"",
+				"Simply right click the flint on the stone - you will hear a tap as you bash the flint on the rock. Keep knapping, and flint will be consumed, with a chance to produce two flint shards."
+			],
+			dependencies: ["0000000000000005"],
+			id: "0000000000000008",
+			tasks: [{
+				id: "0000000000000009",
+				type: "item",
+				item: "notreepunching:flint_shard"
+			}],
+			rewards: [{
+				id: "0000000000000018",
+				type: "item",
+				item: "minecraft:flint",
+				count: 2
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -4.5d,
+			description: [
+				"A Flint Knife can now be crafted, allowing you to harvest plant materials for plant fibers and craft plant string.",
+				"",
+				"Instead of wooden or stone tools, the first tools you will be able to create are flint ones. They generally require flint shards, sticks, and plant string, which can all be obtained without any tools (and the latter with any knife).",
+				"",
+				"- When breaking grass, there is a chance that plant fiber will get produced.",
+				"- You can now break plant type blocks and receive their drops.",
+				"- The knife can be crafted with several plant items to produce plant fiber.",
+				"",
+				"(You do not have to harvest the grass with the flint knife to get plant fibers.)"
+			],
+			dependencies: ["0000000000000008"],
+			id: "000000000000000A",
+			tasks: [{
+				id: "000000000000000B",
+				type: "item",
+				item: {
+					id: "notreepunching:flint_knife",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000001E",
+					type: "item",
+					item: "minecraft:vine"
+				},
+				{
+					id: "000000000000001F",
+					type: "item",
+					item: "minecraft:lilac"
+				},
+				{
+					id: "0000000000000020",
+					type: "item",
+					item: "minecraft:oak_sapling"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -3.0d,
+			description: [
+				"A Flint Axe can enable you to collect wood and build a crafting table.",
+				"",
+				"The Axe is also used to craft planks. Put an axe in the crafting window and a log beneath it.",
+				"To craft a stick, put an axe in the upper left corner and a log on the right."
+			],
+			dependencies: ["0000000000000014"],
+			id: "000000000000000C",
+			tasks: [{
+				id: "000000000000000D",
+				type: "item",
+				item: {
+					id: "notreepunching:flint_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000022",
+					type: "item",
+					item: "minecraft:apple"
+				},
+				{
+					id: "0000000000000023",
+					type: "item",
+					item: "simplefarming:blueberries"
+				}
+			]
+		},
+		{
+			title: "Flint Digging",
+			x: 1.5d,
+			y: -1.5d,
+			description: ["A Flint Pickaxe and Shovel will serve as early game excavation and mining tools."],
+			dependencies: ["0000000000000030"],
+			id: "000000000000000E",
+			tasks: [
+				{
+					id: "000000000000000F",
+					type: "item",
+					item: {
+						id: "notreepunching:flint_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000F96",
+					type: "item",
+					item: {
+						id: "notreepunching:flint_shovel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0000000000000324",
+				type: "item",
+				item: "minecraft:iron_nugget",
+				count: 2,
+				random_bonus: 1
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			description: ["A basic weapon you can create to gain combat skill and protect yourself."],
+			dependencies: ["0000000000000030"],
+			id: "0000000000000010",
+			tasks: [{
+				id: "0000000000000011",
+				type: "item",
+				item: {
+					id: "notreepunching:macuahuitl",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000011C",
+					type: "item",
+					item: "supplementaries:pedestal"
+				},
+				{
+					id: "0000000000000146",
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			description: [
+				"The fire starter is a primitive tool which is used to create a campfire. In order to use:",
+				"",
+				"• Throw (Q) the following items on the ground, in the space where you want to create the campfire:",
+				"  - One wooden fuel item (any log or plank)",
+				"  - Three pieces of kindling (sticks, saplings, leaves, or string)",
+				"",
+				"• Then, right click and hold the fire starter pointing at the pile of items. Smoke particles will appear, and after a short while, a campfire will appear and the items will be consumed.",
+				"",
+				"The fire starter can also be used to relight a campfire, or light fires in the same way: right click and hold the fire starter at the desired location. Smoke particles will appear and after a short while the fire will be started."
+			],
+			dependencies: ["0000000000000030"],
+			id: "0000000000000012",
+			tasks: [{
+				id: "0000000000000013",
+				type: "item",
+				item: {
+					id: "notreepunching:fire_starter",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000021",
+					type: "item",
+					item: "minecraft:beef",
+					count: 3
+				},
+				{
+					id: "0000000000000140",
+					type: "item",
+					item: "minecraft:stick"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -4.5d,
+			description: ["Plant fiber can be crafted into plant string, which is necessary for the creation of other flint tools."],
+			dependencies: ["000000000000000A"],
+			id: "0000000000000014",
+			tasks: [
+				{
+					id: "0000000000000015",
+					type: "item",
+					item: "notreepunching:plant_fiber"
+				},
+				{
+					id: "0000000000000016",
+					type: "item",
+					item: "notreepunching:plant_string"
+				}
+			],
+			rewards: [{
+				id: "000000000000001C",
+				type: "item",
+				item: "notreepunching:plant_string"
+			}]
+		},
+		{
+			title: "Bones",
+			x: -3.0d,
+			y: 1.5d,
+			description: ["Bet you will want to stop these guys from making you a pin cushion."],
+			dependencies: ["0000000000000010"],
+			id: "0000000000000025",
+			tasks: [{
+				id: "0000000000000026",
+				type: "item",
+				item: "minecraft:bone",
+				count: 16L
+			}],
+			rewards: [{
+				id: "000000000000012A",
+				type: "item",
+				item: "minecraft:black_dye",
+				count: 16
+			}]
+		},
+		{
+			title: "Gunpowder",
+			x: -1.5d,
+			y: 1.5d,
+			description: ["Some good old fashioned boom boom dust."],
+			dependencies: ["0000000000000010"],
+			id: "0000000000000027",
+			tasks: [{
+				id: "0000000000000028",
+				type: "item",
+				item: "minecraft:gunpowder",
+				count: 10L
+			}],
+			rewards: [{
+				id: "000000000000012B",
+				type: "item",
+				item: "minecraft:green_dye",
+				count: 16
+			}]
+		},
+		{
+			x: 14.5d,
+			y: -0.5d,
+			description: ["Will light up all those dark places so you don't have to place torches everywhere."],
+			dependencies: ["0000000000000045"],
+			id: "0000000000000029",
+			tasks: [{
+				id: "000000000000002A",
+				type: "item",
+				item: {
+					id: "mining_helmet:mining_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000168",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				},
+				{
+					id: "0000000000000186",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			title: "Furnace",
+			x: 3.0d,
+			y: -1.5d,
+			description: ["Time to cook up some food faster than by the campfire and get some basic materials!"],
+			dependencies: ["000000000000000E"],
+			id: "000000000000002C",
+			tasks: [{
+				id: "000000000000002D",
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [
+				{
+					id: "0000000000000144",
+					type: "item",
+					item: "minecraft:torch",
+					count: 5
+				},
+				{
+					id: "0000000000000145",
+					type: "item",
+					item: "minecraft:charcoal"
+				},
+				{
+					id: "000000000000045E",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Chest",
+			icon: "minecraft:chest",
+			x: 1.5d,
+			y: -6.0d,
+			description: ["Store all that junk you know you are carrying!"],
+			dependencies: ["0000000000000030"],
+			id: "000000000000002E",
+			tasks: [{
+				id: "0000000000000F8C",
+				type: "item",
+				title: "Chest",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000337",
+					type: "item",
+					item: "quark:jungle_chest",
+					count: 2
+				},
+				{
+					id: "0000000000000338",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: "00000000000004A6",
+					type: "item",
+					item: "spareparts:coins/wooden_coin"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -1.5d,
+			description: [
+				"The crafting table will open you up to many new complex recipes. You can bookmark a recipe for faster access to it. Hover over item in JEI or an inventory and press A. You will see the item on the left of your inventory.",
+				"Try it with an Axe because you may need a couple!"
+			],
+			dependencies: ["000000000000000C"],
+			id: "0000000000000030",
+			tasks: [{
+				id: "0000000000000031",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "000000000000013A",
+				type: "item",
+				item: "minecraft:torch",
+				count: 5
+			}]
+		},
+		{
+			icon: {
+				id: "woodenutilities:wooden_shears",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.5d,
+			y: 0.0d,
+			description: ["A weaker pair of shears, that you can also use to make wooden plates from Planks."],
+			dependencies: ["0000000000000030"],
+			id: "0000000000000032",
+			tasks: [
+				{
+					id: "0000000000000033",
+					type: "item",
+					item: {
+						id: "woodenutilities:wooden_shears",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000053",
+					type: "item",
+					title: "Any minecraft:leaves",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "000000000000013C",
+				type: "item",
+				item: "minecraft:tall_grass",
+				count: 5
+			}]
+		},
+		{
+			title: "Wooden Armor",
+			x: 1.5d,
+			y: 1.5d,
+			description: ["Wooden Armor can be made from wooden plates. It will at least give you a small amount of protection."],
+			dependencies: ["0000000000000032"],
+			id: "0000000000000034",
+			tasks: [
+				{
+					id: "0000000000000035",
+					type: "item",
+					item: {
+						id: "woodenutilities:wooden_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000036",
+					type: "item",
+					item: {
+						id: "woodenutilities:wooden_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000037",
+					type: "item",
+					item: {
+						id: "woodenutilities:wooden_boot",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000038",
+					type: "item",
+					item: {
+						id: "woodenutilities:wooden_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000000141",
+					type: "item",
+					item: "minecraft:flint"
+				},
+				{
+					id: "0000000000000349",
+					type: "item",
+					item: "pamhc2foodcore:hotchocolateitem"
+				}
+			]
+		},
+		{
+			x: 21.5d,
+			y: -4.5d,
+			description: [
+				"Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or flint",
+				"axe, and the yield produced is doubled when using a saw from a flint tool."
+			],
+			dependencies: ["0000000000000058"],
+			id: "0000000000000039",
+			tasks: [{
+				id: "000000000000003A",
+				type: "item",
+				item: {
+					id: "notreepunching:iron_saw",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000174",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "000000000000034F",
+					type: "item",
+					item: "minecraft:mutton",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			description: [
+				"In order to create pottery, you'll need blocks of clay and a clay tool, which is crafted from some sticks. Simply right click the clay block with the clay tool and it will become worked clay.",
+				"",
+				"Keep right clicking and the shape will change, becoming smaller and smaller over time. When you've created the shape of the object you want, simply break it with a shovel, and then fire it by placing it in either a furnace or a campfire.",
+				"",
+				"The clay tool is also required in order to create bricks. Simply craft the clay tool with either a clay block or clay ball and you will receive unfired bricks.",
+				"These can be fired in either a campfire or a furnace to receive vanilla bricks.",
+				"",
+				"The vanilla crafting recipe for the flower pot has been removed, instead it must be created using the above pottery mechanics. It's functionality is unchanged."
+			],
+			dependencies: ["000000000000002C"],
+			id: "000000000000003D",
+			tasks: [{
+				id: "000000000000003E",
+				type: "item",
+				item: {
+					id: "notreepunching:clay_tool",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000183",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "000000000000041F",
+					type: "item",
+					item: "minecraft:clay_ball",
+					count: 4
+				}
+			]
+		},
+		{
+			title: "Brick me up!",
+			x: 6.5d,
+			y: 0.0d,
+			description: ["Can be cooked at a campfire or in the Kiln."],
+			dependencies: ["000000000000003D"],
+			id: "0000000000000042",
+			tasks: [
+				{
+					id: "0000000000000043",
+					type: "item",
+					item: "minecraft:brick",
+					count: 32L
+				},
+				{
+					id: "0000000000000044",
+					type: "item",
+					item: "notreepunching:clay_brick"
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000017D",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000344",
+					type: "item",
+					item: "minecraft:cake"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: -1.5d,
+			description: ["You are going to need a lot of this stuff."],
+			dependencies: ["00000000000014E2"],
+			id: "0000000000000045",
+			tasks: [{
+				id: "0000000000000046",
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}],
+			rewards: [
+				{
+					id: "0000000000000175",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000355",
+					type: "item",
+					item: "minecraft:mutton",
+					count: 5
+				},
+				{
+					id: "0000000000000356",
+					type: "item",
+					item: "simplefarming:raw_bacon"
+				}
+			]
+		},
+		{
+			title: "Storage Drawer",
+			x: 1.5d,
+			y: -4.5d,
+			description: ["These storage drawers will allow you to store multiple stacks of items in a single block in a sorted manner."],
+			dependencies: ["000000000000002E"],
+			id: "0000000000000047",
+			tasks: [{
+				id: "0000000000000048",
+				type: "item",
+				title: "Any storagedrawers:drawers",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000139",
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 16
+				},
+				{
+					id: "0000000000000329",
+					type: "item",
+					item: "storagedrawers:oak_full_drawers_2"
+				},
+				{
+					id: "000000000000033A",
+					type: "item",
+					item: "pamhc2foodcore:caramelappleitem"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -6.0d,
+			description: [
+				"This backpack will allow you to have some extra inventory space.",
+				"Once equipped, use the backpack keybind to open the backpack inventory. (check your controls menu for the specific key)"
+			],
+			dependencies: ["000000000000002E"],
+			id: "0000000000000049",
+			tasks: [{
+				id: "000000000000004A",
+				type: "item",
+				item: "backpacked:backpack"
+			}],
+			rewards: [
+				{
+					id: "0000000000000124",
+					type: "item",
+					item: "minecraft:lime_dye",
+					count: 16
+				},
+				{
+					id: "000000000000032A",
+					type: "item",
+					item: "minecraft:book"
+				},
+				{
+					id: "000000000000033B",
+					type: "item",
+					item: "minecraft:beef",
+					count: 5
+				},
+				{
+					id: "000000000000044F",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Bed",
+			x: 1.5d,
+			y: -7.5d,
+			description: ["A place to kick off your boots and get some Zzzzz's."],
+			dependencies: ["000000000000002E"],
+			id: "0000000000000054",
+			tasks: [{
+				id: "0000000000000055",
+				type: "item",
+				title: "Any Bed",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000121",
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 16
+				},
+				{
+					id: "0000000000000350",
+					type: "item",
+					item: "pamhc2foodcore:hotchocolateitem"
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: -1.5d,
+			description: ["I feel like this is the start of the whole reason that you are here."],
+			dependencies: ["0000000000000045"],
+			id: "0000000000000056",
+			tasks: [{
+				id: "0000000000000057",
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000060",
+					type: "item",
+					item: "immersiveengineering:manual"
+				},
+				{
+					id: "000000000000014A",
+					type: "item",
+					item: "minecraft:item_frame"
+				}
+			]
+		},
+		{
+			x: 20.5d,
+			y: -1.5d,
+			description: ["Clang! Clang! Clang! I can make so much with this!"],
+			dependencies: ["0000000000000056"],
+			id: "0000000000000058",
+			tasks: [{
+				id: "0000000000000059",
+				type: "item",
+				item: "immersiveengineering:plate_iron"
+			}],
+			rewards: [
+				{
+					id: "0000000000000176",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000357",
+					type: "item",
+					item: "minecraft:cake"
+				}
+			]
+		},
+		{
+			x: 20.5d,
+			y: -4.5d,
+			description: ["Mine me up some ore!"],
+			dependencies: ["0000000000000058"],
+			id: "000000000000005A",
+			tasks: [{
+				id: "000000000000005B",
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000012C",
+					type: "item",
+					item: "minecraft:magenta_dye",
+					count: 16
+				},
+				{
+					id: "000000000000014C",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				},
+				{
+					id: "000000000000034C",
+					type: "item",
+					item: "simplefarming:broccoli_cheese_soup"
+				}
+			]
+		},
+		{
+			title: "Coke Oven",
+			icon: "immersiveengineering:cokebrick",
+			x: 25.5d,
+			y: -1.5d,
+			shape: "gear",
+			description: [
+				"Place the Coke Brick in a 3x3x3 block and right clicking with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil.",
+				"",
+				"This opens up so many engineering possibilities!"
+			],
+			dependencies: ["0000000000000058"],
+			size: 3.0d,
+			id: "000000000000005C",
+			tasks: [
+				{
+					id: "000000000000005D",
+					type: "item",
+					item: "immersiveengineering:cokebrick",
+					count: 27L
+				},
+				{
+					id: "0000000000000332",
+					type: "item",
+					item: "immersiveengineering:creosote_bucket"
+				},
+				{
+					id: "0000000000000333",
+					type: "item",
+					item: "immersiveengineering:coke"
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000016E",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				},
+				{
+					id: "000000000000017E",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000334",
+					type: "item",
+					item: "minecraft:iron_block"
+				},
+				{
+					id: "0000000000000351",
+					type: "item",
+					item: "pamhc2foodcore:hotchocolateitem"
+				}
+			]
+		},
+		{
+			x: 21.5d,
+			y: 1.5d,
+			description: [
+				"Mattocks are advanced tools, and can be made from iron, gold or diamond. They function both as axes and shovels with regards to the blocks they can break, and have the right click functionality of axes, shovels, and hoes, being able to strip wood,",
+				"till coarse dirt, and create grass paths and farmland.",
+				"",
+				"Note: since both hoes and shovels create different products when right clicking on grass blocks (shovels make paths, hoes make farmland), by sneaking or not sneaking, you can change which one is created (While sneaking, the hoe will function first,",
+				"otherwise the shovel will function first)."
+			],
+			dependencies: ["0000000000000058"],
+			id: "000000000000005E",
+			tasks: [{
+				id: "000000000000005F",
+				type: "item",
+				item: {
+					id: "notreepunching:iron_mattock",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000137",
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 16
+				},
+				{
+					id: "000000000000014B",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s,
+								id: "ensorcellation:tilling"
+							}]
+						}
+					}
+				},
+				{
+					id: "000000000000034B",
+					type: "item",
+					item: "pamhc2foodcore:toastitem"
+				}
+			]
+		},
+		{
+			x: 20.5d,
+			y: -5.5d,
+			description: ["Watch out for lava when digging for these!"],
+			dependencies: ["000000000000005A"],
+			id: "0000000000000061",
+			tasks: [{
+				id: "0000000000000062",
+				type: "item",
+				item: "minecraft:diamond",
+				count: 3L
+			}],
+			rewards: [
+				{
+					id: "000000000000016B",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				},
+				{
+					id: "000000000000017C",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000345",
+					type: "item",
+					item: "minecraft:cake"
+				},
+				{
+					id: "000000000000045F",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 22.0d,
+			y: -5.5d,
+			description: ["This will really dig some stuff."],
+			dependencies: ["0000000000000061"],
+			id: "0000000000000063",
+			tasks: [{
+				id: "0000000000000064",
+				type: "item",
+				item: {
+					id: "minecraft:diamond_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000153",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 21.5d,
+			y: -6.5d,
+			description: ["How did I pound these diamonds into a blade? Who cares."],
+			dependencies: ["0000000000000061"],
+			id: "0000000000000065",
+			tasks: [{
+				id: "0000000000000066",
+				type: "item",
+				item: {
+					id: "minecraft:diamond_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000136",
+					type: "item",
+					item: "minecraft:white_dye",
+					count: 16
+				},
+				{
+					id: "0000000000000147",
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+				},
+				{
+					id: "0000000000000152",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "ensorcellation:damage_ender"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Diamond Armor",
+			x: 20.5d,
+			y: -7.0d,
+			description: ["The most sparkling suit of armor you will ever get to wear."],
+			dependencies: ["0000000000000061"],
+			id: "0000000000000067",
+			tasks: [
+				{
+					id: "0000000000000068",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000069",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000006A",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000006B",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000000148",
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				},
+				{
+					id: "0000000000000149",
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				},
+				{
+					id: "000000000000032E",
+					type: "item",
+					item: "charm:netherite_nugget"
+				},
+				{
+					id: "0000000000000455",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Iron Armor",
+			x: 19.5d,
+			y: -4.5d,
+			description: ["A good improvement, even though you will look a bit like the Silver Surfer."],
+			dependencies: ["0000000000000058"],
+			id: "000000000000006E",
+			tasks: [
+				{
+					id: "000000000000006F",
+					type: "item",
+					item: {
+						id: "minecraft:iron_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000070",
+					type: "item",
+					item: {
+						id: "minecraft:iron_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000071",
+					type: "item",
+					item: {
+						id: "minecraft:iron_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0000000000000072",
+					type: "item",
+					item: {
+						id: "minecraft:iron_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000000173",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000343",
+					type: "item",
+					item: "pamhc2foodcore:hotchocolateitem"
+				},
+				{
+					id: "0000000000000451",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 19.5d,
+			y: 1.5d,
+			description: ["Man I can carry so many liquids in this bucket!"],
+			dependencies: ["0000000000000058"],
+			id: "0000000000000073",
+			tasks: [{
+				id: "0000000000000074",
+				type: "item",
+				item: "minecraft:bucket"
+			}],
+			rewards: [{
+				id: "0000000000000182",
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.0d,
+			description: ["Will automatically drop items directly below it."],
+			dependencies: ["000000000000002E"],
+			id: "0000000000000077",
+			tasks: [{
+				id: "0000000000000078",
+				type: "item",
+				item: "quark:chute"
+			}],
+			rewards: [
+				{
+					id: "000000000000013F",
+					type: "item",
+					item: "minecraft:honey_bottle"
+				},
+				{
+					id: "000000000000133E",
+					type: "item",
+					item: "spareparts:coins/wooden_coin"
+				}
+			]
+		},
+		{
+			title: "Windows",
+			x: 3.0d,
+			y: -10.5d,
+			description: [
+				"Add some flair to those holes in your walls to see all the baddies through.",
+				"",
+				"By placing these window pieces around a log/plank/stone (check JEI for exact recipes) you can create decorative windows of the style of the center block."
+			],
+			dependencies: ["00000000000015B0"],
+			id: "0000000000000079",
+			tasks: [
+				{
+					id: "000000000000007A",
+					type: "item",
+					item: "mcwwindows:window_base"
+				},
+				{
+					id: "000000000000007B",
+					type: "item",
+					item: "mcwwindows:window_centre_bar_base"
+				}
+			],
+			rewards: [{
+				id: "0000000000000122",
+				type: "item",
+				item: "minecraft:brown_dye",
+				count: 16
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -3.0d,
+			description: ["SPARKS! SPARKS! SPARKS!"],
+			dependencies: ["0000000000000045"],
+			id: "000000000000008E",
+			tasks: [{
+				id: "000000000000008F",
+				type: "item",
+				item: {
+					id: "minecraft:flint_and_steel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000018A",
+				type: "item",
+				item: "minecraft:redstone",
+				count: 5
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -3.0d,
+			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."],
+			dependencies: ["0000000000000045"],
+			id: "0000000000000090",
+			tasks: [{
+				id: "0000000000000091",
+				type: "item",
+				item: {
+					id: "quark:trowel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000187",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000327",
+					type: "item",
+					item: "minecraft:gold_nugget"
+				}
+			]
+		},
+		{
+			title: "Just Enough Items",
+			x: -7.5d,
+			y: -7.0d,
+			subtitle: "In-game item and recipe browser",
+			description: [
+				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)",
+				"",
+				'• Hovering over an item and pressing the "R" key (for Recipe) will display that item\'s recipe.',
+				'• Pressing the "U" key (for Use) shows what that item can be used to create through crafting grids. ',
+				'• To search by mod name use the "@" key before search in search box. (e.g. @notreepunch)',
+				"• To select the search box without clicking on it, the player can press Ctrl + F.",
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A.",
+				""
+			],
+			dependencies: ["0000000000000F88"],
+			id: "000000000000009B",
+			tasks: [{
+				id: "000000000000009C",
+				type: "checkmark",
+				title: "Just Enough Items",
+				icon: "itemfilters:not"
+			}],
+			rewards: [{
+				id: "000000000000035C",
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			icon: "itemfilters:item_group",
+			x: -7.5d,
+			y: -3.0d,
+			description: [
+				"Menu access key: P (for more info and stats)",
+				"",
+				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game.",
+				"(You cannot use a Stone or Iron pick right from the beginning - you need to earn the required Mining level first. The same skill requirement applies to armor based on Endurance.)",
+				"",
+				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:",
+				"- Mining: increasing mining speed with each level;",
+				"- Excavation: chance to find treasures while digging;",
+				"- Combat: more damage dealt with weapons;",
+				"",
+				"There also different Xp Modifiers for different skill based on your current biome. As an example: you will get less farming experience in desert biome; or more swimming and fishing in ocean biome.",
+				"",
+				"You can also create or join party with using /pmmo party create/accept/invite/leave command.",
+				"",
+				"If your stat list on the left is disappeared - simply re-enter the game and it should reappear."
+			],
+			dependencies: ["0000000000001231"],
+			id: "000000000000009D",
+			tasks: [{
+				id: "000000000000009E",
+				type: "checkmark",
+				title: "Project MMO"
+			}],
+			rewards: [{
+				id: "000000000000035B",
+				type: "item",
+				item: "minecraft:golden_carrot"
+			}]
+		},
+		{
+			title: "EL2 Text Guide",
+			icon: "itemfilters:tag",
+			x: -9.5d,
+			y: -7.0d,
+			description: [
+				"You can a find a link to the Google Drive text guide directly on the EL2 curseforge project page.",
+				"",
+				"Or manually by typing this into the browser of your choice:",
+				"https://bit.ly/el2-guide"
+			],
+			dependencies: ["0000000000000F88"],
+			id: "000000000000009F",
+			tasks: [{
+				id: "00000000000000A0",
+				type: "checkmark",
+				title: "Text guide and where to find it"
+			}],
+			rewards: [{
+				id: "00000000000003C4",
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 0.0d,
+			description: ["Hope you had fun getting this, you will need about a million more."],
+			dependencies: ["0000000000000056"],
+			id: "00000000000000A1",
+			tasks: [{
+				id: "00000000000000A2",
+				type: "item",
+				item: "immersiveengineering:ingot_copper"
+			}],
+			rewards: [
+				{
+					id: "0000000000000128",
+					type: "item",
+					item: "minecraft:black_dye",
+					count: 16
+				},
+				{
+					id: "0000000000000326",
+					type: "item",
+					item: "minecraft:iron_nugget",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 3.5d,
+			description: [
+				"Will allow you to passively collect resources when placed in a 1 deep block of water.",
+				"If the water is flowing into the strainer you will get better efficiency."
+			],
+			dependencies: ["00000000000000B4"],
+			id: "00000000000000A6",
+			tasks: [{
+				id: "00000000000000A7",
+				type: "item",
+				item: "waterstrainer:strainer_base"
+			}],
+			rewards: [
+				{
+					id: "000000000000012D",
+					type: "item",
+					item: "minecraft:light_blue_dye",
+					count: 16
+				},
+				{
+					id: "000000000000017B",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000342",
+					type: "item",
+					item: "quark:cooked_frog_leg",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: 4.5d,
+			description: ["Creates worms and fertilizer by composting fruit and vegetables. "],
+			dependencies: ["00000000000000A6"],
+			id: "00000000000000A8",
+			tasks: [{
+				id: "00000000000000A9",
+				type: "item",
+				item: "waterstrainer:worm_bin"
+			}],
+			rewards: [
+				{
+					id: "0000000000000133",
+					type: "item",
+					item: "minecraft:blue_dye",
+					count: 16
+				},
+				{
+					id: "0000000000000328",
+					type: "item",
+					item: "minecraft:iron_nugget"
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: 2.5d,
+			description: ["Collects fish and junk but requires bait to operate. Higher densities give longer usage and different item probabilites."],
+			dependencies: [
+				"00000000000000A6",
+				"00000000000000B0"
+			],
+			id: "00000000000000AC",
+			tasks: [{
+				id: "00000000000000AD",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_fisherman",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000011F",
+					type: "item",
+					item: "supplementaries:jar"
+				},
+				{
+					id: "0000000000000143",
+					type: "item",
+					item: "minecraft:torch",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 4.5d,
+			description: ["Can collect items such as stone, sticks, clay, and planks. Has higher levels of density for longer usage and different item probabilities."],
+			dependencies: ["00000000000000A6"],
+			id: "00000000000000AE",
+			tasks: [{
+				id: "00000000000000AF",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000126",
+					type: "item",
+					item: "minecraft:yellow_dye",
+					count: 16
+				},
+				{
+					id: "00000000000005C7",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Worms",
+			x: 10.5d,
+			y: 3.5d,
+			description: ["Wiggle Worm"],
+			dependencies: ["00000000000000A8"],
+			id: "00000000000000B0",
+			tasks: [{
+				id: "00000000000000B1",
+				type: "item",
+				item: "waterstrainer:worm",
+				count: 64L
+			}],
+			rewards: [{
+				id: "0000000000000150",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s,
+							id: "betterdefaultbiomes:spikes"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 3.5d,
+			description: ["This will decrease the usage of bait in the strainer."],
+			dependencies: [
+				"00000000000000B0",
+				"000000000000041D"
+			],
+			id: "00000000000000B2",
+			tasks: [{
+				id: "00000000000000B3",
+				type: "item",
+				item: {
+					id: "waterstrainer:bait_pot",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "00000000000005C6",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: "6788D15614FB9A6B",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:impaling"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 20.5d,
+			y: 3.5d,
+			description: [
+				"Some basic automation, though you will need to start expanding to more soon.",
+				"",
+				"Will connect to whatever inventory you right click it to."
+			],
+			dependencies: ["0000000000000058"],
+			id: "00000000000000B4",
+			tasks: [{
+				id: "00000000000000B5",
+				type: "item",
+				item: "minecraft:hopper"
+			}],
+			rewards: [
+				{
+					id: "000000000000032C",
+					type: "item",
+					item: "minecraft:paper",
+					count: 4
+				},
+				{
+					id: "000000000000032D",
+					type: "item",
+					item: "immersiveengineering:nugget_steel"
+				}
+			]
+		},
+		{
+			x: 21.5d,
+			y: 3.5d,
+			description: ["A highly customizable hopper that allows you to change the stack size, drop delay, and a customizable collection range up to 9x9. Can be placed upside down and keeps inventory when broken. Redstone controllable."],
+			dependencies: ["00000000000000B4"],
+			id: "00000000000000B6",
+			tasks: [{
+				id: "00000000000000B7",
+				type: "item",
+				item: "engineersdecor:factory_hopper"
+			}],
+			rewards: [
+				{
+					id: "0000000000000180",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000181",
+					type: "item",
+					item: "supplementaries:faucet"
+				},
+				{
+					id: "000000000000034E",
+					type: "item",
+					item: "minecraft:beef",
+					count: 5
+				},
+				{
+					id: "0000000000000457",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -7.5d,
+			description: ["A nice decorative table."],
+			dependencies: ["0000000000000054"],
+			id: "00000000000000B8",
+			tasks: [{
+				id: "00000000000000B9",
+				type: "item",
+				item: "buildersaddition:bedside_table_oak"
+			}],
+			rewards: [
+				{
+					id: "000000000000012F",
+					type: "item",
+					item: "minecraft:gray_dye",
+					count: 16
+				},
+				{
+					id: "0000000000000339",
+					type: "item",
+					item: "simplefarming:fish_sandwich"
+				}
+			]
+		},
+		{
+			title: "Cupboards and Cabinets",
+			x: 3.0d,
+			y: -4.5d,
+			description: ["Some slightly more decorative storage."],
+			dependencies: ["000000000000002E"],
+			id: "00000000000000BC",
+			tasks: [
+				{
+					id: "00000000000000BD",
+					type: "item",
+					item: "buildersaddition:cupboard_oak"
+				},
+				{
+					id: "00000000000000C1",
+					type: "item",
+					item: "buildersaddition:cabinet_oak"
+				}
+			],
+			rewards: [
+				{
+					id: "000000000000013E",
+					type: "item",
+					item: "minecraft:armor_stand"
+				},
+				{
+					id: "0000000000000468",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Bookshelves",
+			x: 0.0d,
+			y: -9.0d,
+			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."],
+			dependencies: ["0000000000000054"],
+			id: "00000000000000BE",
+			tasks: [
+				{
+					id: "00000000000000BF",
+					type: "item",
+					item: "buildersaddition:bookshelf_oak"
+				},
+				{
+					id: "00000000000000C0",
+					type: "item",
+					item: "buildersaddition:shelf_oak"
+				}
+			],
+			rewards: [{
+				id: "0000000000000123",
+				type: "item",
+				item: "minecraft:cyan_dye",
+				count: 16
+			}]
+		},
+		{
+			title: "Outstanding in A Field",
+			x: 1.5d,
+			y: -3.0d,
+			shape: "gear",
+			description: ["The flint hoe will allow you to get started with some basic farming."],
+			dependencies: ["0000000000000030"],
+			size: 2.0d,
+			id: "00000000000000C3",
+			tasks: [{
+				id: "00000000000000C4",
+				type: "item",
+				item: {
+					id: "notreepunching:flint_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0000000000000FAD",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Slimeballs",
+			x: -3.0d,
+			y: 0.0d,
+			description: ["Time to go slime hunting!"],
+			dependencies: ["0000000000000010"],
+			id: "00000000000000CF",
+			tasks: [{
+				id: "00000000000000D0",
+				type: "item",
+				item: "minecraft:slime_ball",
+				count: 16L
+			}],
+			rewards: [
+				{
+					id: "0000000000000138",
+					type: "item",
+					item: "minecraft:green_dye",
+					count: 16
+				},
+				{
+					id: "000000000000034A",
+					type: "item",
+					item: "minecraft:chicken",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 1.5d,
+			description: ["Some nice brick blocks to get your some nice engineering building style."],
+			dependencies: ["0000000000000042"],
+			id: "00000000000000D9",
+			tasks: [
+				{
+					id: "00000000000000DB",
+					type: "item",
+					item: "engineersdecor:clinker_brick_block"
+				},
+				{
+					id: "00000000000000DC",
+					type: "item",
+					item: "engineersdecor:clinker_brick_stained_block"
+				}
+			],
+			rewards: [
+				{
+					id: "0000000000000171",
+					type: "item",
+					item: "minecraft:brick",
+					count: 32
+				},
+				{
+					id: "0000000000000172",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000189",
+					type: "item",
+					item: "buildersaddition:cut_bricks_pillar"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 1.5d,
+			description: ["You are going to have to go deep!"],
+			dependencies: ["0000000000000045"],
+			id: "00000000000000E0",
+			tasks: [{
+				id: "00000000000000E1",
+				type: "item",
+				item: "minecraft:redstone"
+			}],
+			rewards: [
+				{
+					id: "0000000000000120",
+					type: "item",
+					item: "minecraft:red_dye",
+					count: 16
+				},
+				{
+					id: "000000000000033D",
+					type: "item",
+					item: "minecraft:beetroot_soup"
+				}
+			]
+		},
+		{
+			title: "Candle",
+			x: 1.5d,
+			y: -9.0d,
+			description: ["Better than a torch right?"],
+			dependencies: ["0000000000000054"],
+			id: "00000000000000EB",
+			tasks: [{
+				id: "00000000000000EC",
+				type: "item",
+				title: "Any quark:candles",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "quark:candles"
+					}
+				}
+			}],
+			rewards: [{
+				id: "000000000000013D",
+				type: "item",
+				item: "minecraft:dark_oak_sign"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -10.5d,
+			description: ["A artistic not-torch."],
+			dependencies: ["00000000000000EB"],
+			id: "00000000000000ED",
+			tasks: [{
+				id: "00000000000000EE",
+				type: "item",
+				item: "quark:paper_lantern"
+			}],
+			rewards: [
+				{
+					id: "0000000000000130",
+					type: "item",
+					item: "minecraft:pink_dye",
+					count: 16
+				},
+				{
+					id: "000000000000033C",
+					type: "item",
+					item: "pamhc2foodcore:toastitem"
+				}
+			]
+		},
+		{
+			x: 13.5d,
+			y: 2.5d,
+			description: ["This lantern will be activated when you send it a redstone signal. Could be an interesting signal light."],
+			dependencies: ["00000000000000E0"],
+			id: "00000000000000F7",
+			tasks: [{
+				id: "00000000000000F8",
+				type: "item",
+				item: "charm:redstone_lantern"
+			}],
+			rewards: [
+				{
+					id: "0000000000000167",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "ensorcellation:pilfering"
+							}]
+						}
+					}
+				},
+				{
+					id: "0000000000000184",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "Hello There!",
+			x: -13.0d,
+			y: -4.5d,
+			description: [
+				"Welcome to the Engineer's Life 2 modpack!",
+				"",
+				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations."
+			],
+			size: 4.0d,
+			id: "0000000000000117",
+			tasks: [{
+				id: "0000000000000118",
+				type: "dimension",
+				dimension: "minecraft:overworld"
+			}]
+		},
+		{
+			x: 19.5d,
+			y: 2.5d,
+			description: ["Can grow crops anywhere without water!"],
+			dependencies: ["0000000000000073"],
+			id: "000000000000011D",
+			tasks: [{
+				id: "000000000000011E",
+				type: "item",
+				item: "supplementaries:planter"
+			}],
+			rewards: [
+				{
+					id: "000000000000017F",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000341",
+					type: "item",
+					item: "simplefarming:tofu_scramble"
+				}
+			]
+		},
+		{
+			icon: "woodenutilities:crafting_slab",
+			x: -3.0d,
+			y: -3.0d,
+			description: ["This quest will complete once you interact with a crafting table 256 times."],
+			dependencies: ["0000000000000030"],
+			id: "00000000000002E9",
+			tasks: [{
+				id: "00000000000002EA",
+				type: "stat",
+				icon: "minecraft:crafting_table",
+				stat: "minecraft:interact_with_crafting_table",
+				value: 256
+			}],
+			rewards: [{
+				id: "0000000000000466",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.0d,
+			description: ["The kiln is used for faster smelting of clay and sand based items."],
+			dependencies: ["0000000000000042"],
+			id: "000000000000041D",
+			tasks: [{
+				id: "000000000000041E",
+				type: "item",
+				item: "charm:kiln"
+			}],
+			rewards: [{
+				id: "0000000000000420",
+				type: "item",
+				item: "minecraft:bricks",
+				count: 12
+			}]
+		},
+		{
+			title: "Alternate Sleeping Arrangements",
+			x: 0.0d,
+			y: -7.5d,
+			description: [
+				"Comforts adds sleeping bags and hammocks.",
+				"",
+				"- Hammocks are the opposite of beds for when you want to skip the day.",
+				"",
+				"- Sleeping bag is like portable bed."
+			],
+			dependencies: ["0000000000000054"],
+			id: "0000000000000425",
+			tasks: [
+				{
+					id: "0000000000000426",
+					type: "item",
+					item: "comforts:sleeping_bag_purple"
+				},
+				{
+					id: "0000000000000427",
+					type: "item",
+					item: "comforts:hammock_brown"
+				}
+			],
+			rewards: [{
+				id: "000000000000045D",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			title: "Platformer",
+			x: 13.0d,
+			y: -3.0d,
+			description: ["Will allow you to create some scaffolding with interesting and unique textures."],
+			dependencies: ["0000000000000045"],
+			id: "00000000000005EC",
+			tasks: [{
+				id: "00000000000005ED",
+				type: "item",
+				item: "platforms:platformer"
+			}],
+			rewards: [
+				{
+					id: "00000000000005EE",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				},
+				{
+					id: "00000000000005EF",
+					type: "item",
+					item: "platforms:wrench"
+				}
+			]
+		},
+		{
+			icon: {
+				id: "minecraft:wooden_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -7.5d,
+			y: -2.0d,
+			subtitle: "Ore Excavation/Veinminer Alternative",
+			description: [
+				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key). ",
+				"",
+				"- Renders white lines around blocks that will be mined.",
+				"- You can also use hoe on grass in similar way to till multiple blocks at once",
+				"- Harvest crops by right-clicking on them",
+				"",
+				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel. ",
+				"- Shapeless: No shape applied. ",
+				"- Small Tunnel: A 1x1 deep tunnel. ",
+				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.) ",
+				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.) ",
+				"- Escape Tunnel: Same as the mining tunnel, but upward. ",
+				"",
+				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+			],
+			dependencies: ["0000000000001231"],
+			id: "0000000000000774",
+			tasks: [{
+				id: "0000000000000775",
+				type: "checkmark",
+				title: "FTB Ultimine"
+			}],
+			rewards: [{
+				id: "0000000000000F8B",
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "Quest Types and Rewards",
+			icon: "minecraft:writable_book",
+			x: -9.5d,
+			y: -4.5d,
+			description: [
+				"Quests come in a number of different types in this pack.",
+				"",
+				"You can have quests like the previous quest for simply traveling to a destination or by traveling a certain number of blocks.",
+				"",
+				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens.",
+				"",
+				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :]).",
+				"",
+				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+			],
+			dependencies: ["0000000000000117"],
+			size: 2.0d,
+			id: "0000000000000F88",
+			tasks: [{
+				id: "0000000000000F89",
+				type: "checkmark",
+				title: "Quest Types",
+				icon: "minecraft:writable_book"
+			}],
+			rewards: [{
+				id: "0000000000000F8A",
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "What is out there?",
+			x: 15.0d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["At least now I know what direction I am going, or do I?"],
+			dependencies: ["00000000000000E0"],
+			size: 2.0d,
+			id: "0000000000000F8E",
+			tasks: [{
+				id: "0000000000000F8F",
+				type: "item",
+				item: "minecraft:compass"
+			}],
+			rewards: [
+				{
+					id: "0000000000000FAF",
+					type: "item",
+					item: "pamhc2foodcore:basicfishsandwichitem",
+					count: 4
+				},
+				{
+					id: "0000000000000FB1",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Volcanic Glass",
+			x: 24.0d,
+			y: -5.5d,
+			description: ["This obsidian is some serious tough material."],
+			dependencies: ["0000000000000063"],
+			id: "0000000000000F92",
+			tasks: [{
+				id: "0000000000000F93",
+				type: "item",
+				item: "minecraft:obsidian"
+			}],
+			rewards: [
+				{
+					id: "0000000000000FB0",
+					type: "item",
+					item: "simplefarming:chili",
+					count: 4
+				},
+				{
+					id: "0000000000000FB2",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "What could this Bee?",
+			x: -5.0d,
+			y: 0.0d,
+			shape: "gear",
+			description: ['If I could just make some kind of cage to trap, I mean "transport", one of those big bumbling things.'],
+			dependencies: ["0000000000000012"],
+			size: 2.0d,
+			id: "0000000000000F94",
+			tasks: [{
+				id: "0000000000000F95",
+				type: "item",
+				item: {
+					id: "productivebees:bee_cage",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000FAE",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000001341",
+					type: "item",
+					item: {
+						id: "quark:forgotten_hat",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -9.0d,
+			description: ["Combine all those mod books you have in to a single book!"],
+			dependencies: ["00000000000000BE"],
+			id: "0000000000000721",
+			tasks: [{
+				id: "0000000000000722",
+				type: "item",
+				item: "akashictome:tome"
+			}],
+			rewards: [{
+				id: "0000000000000735",
+				type: "item",
+				item: "minecraft:lapis_lazuli",
+				count: 5
+			}]
+		},
+		{
+			title: "The Librarian",
+			x: 0.0d,
+			y: -10.5d,
+			description: ["Collect all those books! Put them into the Akashic Tome for safe keeping."],
+			dependencies: ["00000000000000BE"],
+			id: "0000000000000723",
+			tasks: [
+				{
+					id: "0000000000000724",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+				},
+				{
+					id: "0000000000000725",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "transport:guide"
+						}
+					}
+				},
+				{
+					id: "0000000000000726",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+				},
+				{
+					id: "0000000000000727",
+					type: "item",
+					item: "cookingforblockheads:recipe_book"
+				},
+				{
+					id: "0000000000000728",
+					type: "item",
+					item: "cookingforblockheads:crafting_book"
+				},
+				{
+					id: "0000000000000729",
+					type: "item",
+					item: "ftbquests:book"
+				},
+				{
+					id: "000000000000072A",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					}
+				},
+				{
+					id: "000000000000072B",
+					type: "item",
+					item: "immersiveengineering:manual"
+				},
+				{
+					id: "000000000000072C",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				},
+				{
+					id: "000000000000072D",
+					type: "item",
+					item: "alexsmobs:animal_dictionary"
+				},
+				{
+					id: "000000000000133F",
+					type: "item",
+					item: "solpotato:food_book"
+				},
+				{
+					id: "0000000000001340",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0000000000000736",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["This chest kind of makes everything metallic. I wonder how much storage space I am going to need?"],
+			dependencies: ["00000000000000A1"],
+			size: 1.5d,
+			id: "0000000000001127",
+			tasks: [{
+				id: "0000000000001128",
+				type: "item",
+				item: "ironchest:copper_chest"
+			}],
+			rewards: [
+				{
+					id: "000000000000112D",
+					type: "item",
+					item: "ironchest:wood_to_copper_chest_upgrade"
+				},
+				{
+					id: "000000000000112E",
+					type: "item",
+					item: "minecraft:brown_dye",
+					count: 16
+				},
+				{
+					id: "000000000000112F",
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			description: [
+				"The Food Book gives you information about your diet diversity score.",
+				"-Lists all the foods that you have eaten in the past that are currently contributing to your diversity.",
+				"-Gives your current diversity score.",
+				"-Describes the benefits you are currently experiencing.",
+				"",
+				"Can be bound to a key in keybinds so you do not need to carry the book."
+			],
+			dependencies: ["00000000000000C3"],
+			id: "0000000000001227",
+			tasks: [{
+				id: "0000000000001228",
+				type: "item",
+				item: "solpotato:food_book"
+			}],
+			rewards: [{
+				id: "00000000000014D8",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -3.0d,
+			subtitle: "5 slots",
+			description: [
+				"The lunchbag allows you to store food to be fed on while maxing diversity gain.",
+				"Shift-right click to open its inventory, allowing you to load it with food. Then, when you are hungry, right clicking with the lunchbag in your hand will feed you with the best food to maximize your diversity."
+			],
+			dependencies: ["0000000000001227"],
+			id: "0000000000001229",
+			tasks: [{
+				id: "000000000000122A",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 5,
+							Items: []
+						}
+					},
+					id: "solpotato:lunchbag",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "00000000000015C4",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -3.0d,
+			subtitle: "9 slots",
+			description: ["The Lunchbox acts as a lunchbag but with a expanded food carrying storage."],
+			dependencies: [
+				"0000000000000045",
+				"0000000000001229"
+			],
+			id: "000000000000122B",
+			tasks: [{
+				id: "000000000000122C",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 9,
+							Items: []
+						}
+					},
+					id: "solpotato:lunchbox",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "00000000000015C5",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -4.0d,
+			subtitle: "14 slots",
+			description: ["The Golden Lunchbox is a expanded lunchbox."],
+			dependencies: ["000000000000122B"],
+			id: "000000000000122D",
+			tasks: [{
+				id: "000000000000122E",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 14,
+							Items: []
+						}
+					},
+					id: "solpotato:golden_lunchbox",
+					Count: 1b
+				}
+			}],
+			rewards: [{
+				id: "00000000000015C6",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
+			}]
+		},
+		{
+			icon: "minecraft:barrier",
+			x: -9.5d,
+			y: -2.0d,
+			description: [
+				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest.",
+				"You can always come back here to read them again.",
+				"",
+				"- Gain variable benefits for eating a greater variety of foods.",
+				"- Level up your abilities to use advanced items by gaining experience in skills (mining, combat, endurance, etc.)",
+				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
+			],
+			dependencies: ["0000000000000F88"],
+			id: "0000000000001231",
+			tasks: [{
+				id: "0000000000001232",
+				type: "checkmark",
+				title: "New Mechanics"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -1.0d,
+			description: [
+				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods.",
+				"",
+				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past. ",
+				"",
+				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition).",
+				"",
+				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. ",
+				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits. ",
+				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet.",
+				""
+			],
+			dependencies: ["0000000000001231"],
+			id: "0000000000001233",
+			tasks: [{
+				id: "0000000000001234",
+				type: "checkmark",
+				title: "Spice Of Life",
+				icon: "minecraft:potato"
+			}],
+			rewards: [{
+				id: "00000000000014D7",
+				type: "item",
+				item: "minecraft:baked_potato"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			description: ["The Blast Furnace will allow you to start processing ores into ingots."],
+			dependencies: ["00000000000014E6"],
+			id: "00000000000014E2",
+			tasks: [{
+				id: "00000000000014E3",
+				type: "item",
+				item: "minecraft:blast_furnace"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.5d,
+			description: ["You can get a Raw Clay Plate by working a Clay Brick with a Roller."],
+			dependencies: ["000000000000003D"],
+			id: "00000000000014E4",
+			tasks: [{
+				id: "00000000000014EA",
+				type: "item",
+				item: "spareparts:plates/raw_clay"
+			}],
+			rewards: [
+				{
+					id: "00000000000014F8",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "00000000000014F9",
+					type: "item",
+					item: "terraincognita:berry_sorbet"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: -1.5d,
+			description: ["Cooking the Raw Clay Plate in the Kiln will open up the possibilities of some higher heat processing furnaces."],
+			dependencies: [
+				"000000000000041D",
+				"00000000000014E4"
+			],
+			id: "00000000000014E6",
+			tasks: [{
+				id: "00000000000014E7",
+				type: "item",
+				item: "spareparts:plates/fired_clay"
+			}],
+			rewards: [
+				{
+					id: "00000000000014FA",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "00000000000014FB",
+					type: "item",
+					item: "simplefarming:chili"
+				}
+			]
+		},
+		{
+			x: 24.0d,
+			y: -7.0d,
+			description: ["Magic? Pah!"],
+			dependencies: ["0000000000000F92"],
+			id: "000000000000006C",
+			tasks: [{
+				id: "000000000000006D",
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}],
+			rewards: [
+				{
+					id: "0000000000000135",
+					type: "item",
+					item: "minecraft:blue_dye",
+					count: 16
+				},
+				{
+					id: "0000000000000154",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				},
+				{
+					id: "0000000000000155",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "000000000000032F",
+					type: "item",
+					item: "minecraft:paper",
+					count: 5
+				}
+			]
+		},
+		{
+			title: "See you in Hell....",
+			icon: "minecraft:netherrack",
+			x: 12.0d,
+			y: 0.0d,
+			shape: "gear",
+			description: [
+				"These pools deep underground keep drawing me towards them. Maybe I should take a little dip in one....",
+				"",
+				"*Be prepared for an adventure, you may be there for a while. The previous quest is a hint at what you may want to bring with you.*"
+			],
+			dependencies: ["00000000000014F3"],
+			size: 2.0d,
+			id: "00000000000014EB",
+			tasks: [{
+				id: "00000000000014EC",
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [
+				{
+					id: "00000000000014F6",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:power"
+							}]
+						}
+					}
+				},
+				{
+					id: "00000000000014F7",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			x: -9.5d,
+			y: -0.5d,
+			description: [
+				"Gone are the days of crafting obsidian doorways to the Nether. ",
+				"",
+				"Yung's Better Portals has changed the way that you will navigate to/from the Nether. Adventure deep underground to find Nether Rifts, pockets of the Nether that have risen into the Overworld, containing portal pools.",
+				"By jumping into the portal, you will be one-way transported to the top of the Nether. From there you will need to adventure to find a Monolith, an altar containing a Reclaimer. It will be able to be transport you back to the Overworld."
+			],
+			dependencies: ["0000000000001231"],
+			id: "00000000000014ED",
+			tasks: [{
+				id: "00000000000014EE",
+				type: "checkmark",
+				title: "Yung's Better Portals",
+				icon: "minecraft:nether_gold_ore"
+			}],
+			rewards: [{
+				id: "0000000000001502",
+				type: "command",
+				title: "Forbidden Travel",
+				icon: "minecraft:book",
+				command: "/give @p written_book{pages: ['{\"text\":\"It has long been foretold that traveling deep into the portals is a fatal endeavor and it has been spoken that only a few have returned back to this world. They have spoken of needing great wealth in order repair the portal to be transported back to the above world.\"}', '{\"text\":\"You may consider bringing some gilded blocks with you on your journey through portals to ensure a safe journey home.\"}'],title:\"Forbidden Travel\",author:\"Unknown Traveller\",generation:3}",
+				player_command: false
+			}]
+		},
+		{
+			title: "Great Wealth",
+			x: 10.5d,
+			y: 0.0d,
+			description: ["I feel like I should start collecting up some wealth to use in future travel and trade."],
+			dependencies: ["00000000000014E2"],
+			id: "00000000000014F3",
+			tasks: [{
+				id: "00000000000014F4",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 3L
+			}],
+			rewards: [{
+				id: "00000000000014F5",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				},
+				count: 2
+			}]
+		},
+		{
+			x: 25.5d,
+			y: -5.5d,
+			description: [
+				"Waystones allow you set points that you can fast travel to across a map. By placing the Waystone down, giving it a name, and right clicking to activate it you will be able to travel to it from any other activated Waystone.",
+				"",
+				"Waystones may also be found randomly throughout the world."
+			],
+			dependencies: ["0000000000000F92"],
+			id: "000000000000158A",
+			tasks: [{
+				id: "000000000000158B",
+				type: "item",
+				item: "waystones:waystone"
+			}],
+			rewards: [
+				{
+					id: "000000000000158C",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "000000000000158D",
+					type: "loot",
+					table_id: 1982L
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -9.0d,
+			description: ["The Macaw's series of mods will provide you with a large number of decorative blocks to stylize you base to your hearts content."],
+			dependencies: ["0000000000000054"],
+			id: "00000000000015B0",
+			tasks: [{
+				id: "00000000000015B1",
+				type: "checkmark",
+				title: "Macaw's Mods"
+			}]
+		},
+		{
+			title: "Bridges",
+			x: 4.5d,
+			y: -10.5d,
+			description: ["Macaw's Bridges can be made of a wide variety of materials (check JEI for all the different materials). They come in standard bridges, rope bridges, and rail bridges. The need not be wood, and can be metal or stone."],
+			dependencies: ["00000000000015B0"],
+			id: "00000000000015B2",
+			tasks: [
+				{
+					id: "00000000000015B3",
+					type: "item",
+					item: "mcwbridges:oak_log_bridge_middle"
+				},
+				{
+					id: "00000000000015B4",
+					type: "item",
+					item: "mcwbridges:oak_log_bridge_end"
+				},
+				{
+					id: "00000000000015B5",
+					type: "item",
+					item: "mcwbridges:rope_oak_bridge"
+				},
+				{
+					id: "00000000000015B6",
+					type: "item",
+					item: "mcwbridges:rope_oak_bridge_end"
+				},
+				{
+					id: "00000000000015B7",
+					type: "item",
+					item: "mcwbridges:oak_rail_bridge"
+				}
+			],
+			rewards: [{
+				id: "00000000000015BC",
+				type: "item",
+				item: "minecraft:green_dye",
+				count: 16
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -9.0d,
+			description: ["Macaw's Doors adds a large number of doors that you can use to decorate your base. Instead of having you craft a ton of doors that you won't use, here are just a few that you can use now for a basic house, but make sure to remember this mod to get some fancy doors later in your playthrough."],
+			dependencies: ["00000000000015B0"],
+			id: "00000000000015B8",
+			tasks: [
+				{
+					id: "00000000000015B9",
+					type: "item",
+					item: "mcwdoors:oak_barn_glass_door"
+				},
+				{
+					id: "00000000000015BA",
+					type: "item",
+					item: "mcwdoors:oak_cottage_door"
+				}
+			],
+			rewards: [{
+				id: "00000000000015BD",
+				type: "item",
+				item: "minecraft:red_dye",
+				count: 16
+			}]
+		},
+		{
+			title: "Floormats",
+			x: 10.5d,
+			y: 1.5d,
+			description: [
+				"Floormats will provide you with a unique method of sending redstone signals in your base. They follow vanilla pressure plate mechanics relatively, wooden plates can be triggered by items, mobs, and players, and stone plates can only be triggered by mobs and players. What the mod introduces though, is metal plates that can only be activated by players.",
+				"The mod also introduces gold pressure plates that will only be activated by the placing player, (a sort of security to activation). These plates are expanded into gilded versions of wooden plates that will act the same.",
+				"Connections can be managed by right clicking with a stick to break and reconnect connections between mats. By using a ender pearl on any two mats they will be linked, right clicking twice will remove the link.",
+				"Floormats come in a variety of materials which can be found in JEI."
+			],
+			dependencies: [
+				"00000000000014F3",
+				"00000000000000E0"
+			],
+			id: "00000000000015BE",
+			tasks: [
+				{
+					id: "0000000000001662",
+					type: "item",
+					title: "Wooden Floormat",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "floormats:wooden_floormats"
+						}
+					}
+				},
+				{
+					id: "0000000000001663",
+					type: "item",
+					title: "Gilded Wood Floormat",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "floormats:gilded_wood_floormats"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "00000000000015C1",
+				type: "random",
+				table_id: 1980L
+			}]
+		}
+	]
+}
