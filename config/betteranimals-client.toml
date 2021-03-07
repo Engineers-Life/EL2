@@ -1,7 +1,7 @@
 
 [minecraft]
 	replace_dolphin = true
-	replace_bee = true
+	replace_bee = false
 	replace_wolf = true
 	replace_ocelot = true
 	replace_fox = true
