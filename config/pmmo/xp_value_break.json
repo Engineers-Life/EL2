@@ -1045,7 +1045,7 @@
 	},
 	"minecraft:coarse_dirt":
 	{
-		"excavation": 0.1
+		"excavation": 0.4
 	},
 	"minecraft:cobblestone":
 	{
@@ -1133,7 +1133,7 @@
 	},
 	"minecraft:dirt":
 	{
-		"excavation": 0.1
+		"excavation": 0.5
 	},
 	"minecraft:emerald_ore":
 	{
@@ -1169,15 +1169,15 @@
 	},
 	"minecraft:grass":
 	{
-		"excavation": 0.1
+		"excavation": 0.6
 	},
 	"minecraft:grass_block":
 	{
-		"excavation": 0.1
+		"excavation": 0.6
 	},
 	"minecraft:grass_path":
 	{
-		"excavation": 0.1
+		"excavation": 0.6
 	},
 	"minecraft:gravel":
 	{
