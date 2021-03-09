@@ -5,7 +5,18 @@ import stdlib.List;
 
 val any_ore = <tag:items:forge:ores>;
 val randomite = <item:randomite:randomite_ore>;
-any_ore.add(randomite);
+
+for untagged_ore in [
+        <item:vanillafoodpantry:rock_salt_ore>,
+        <item:vanillafoodpantry:rock_salt_ore_nether>,
+        <item:vanillafoodpantry:natron_ore>,
+        <item:vanillafoodpantry:trona_ore>,
+        <item:bigreactors:yellorite_ore>,
+        <item:bigreactors:anglesite_ore>,
+        <item:bigreactors:benitoite_ore>,
+        randomite ] as IItemStack[] {
+    any_ore.add(untagged_ore);    
+}
 
 var uniqueIngredients as function(usualOut as IItemStack, inputs as IItemStack[][]) as IItemStack = (usualOut, inputs) => {
     var oreList = new List<IItemStack>();
