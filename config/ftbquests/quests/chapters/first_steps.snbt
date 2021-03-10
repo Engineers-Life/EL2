@@ -388,7 +388,7 @@
 			title: "Furnace",
 			x: 3.0d,
 			y: -1.5d,
-			description: ["Time to cook up some basic materials!"],
+			description: ["Time to cook up some food faster than by the campfire and get some basic materials!"],
 			dependencies: ["000000000000000E"],
 			id: "000000000000002C",
 			tasks: [{

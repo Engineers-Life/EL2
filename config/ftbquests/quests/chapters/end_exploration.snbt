@@ -58,7 +58,7 @@
 		},
 		{
 			x: -3.5d,
-			y: -4.0d,
+			y: -4.5d,
 			description: [
 				"Hey I can fly around pretty good with these.",
 				"Probably should bring a good number of ender pearls with me though to get one though."
@@ -143,8 +143,8 @@
 			title: "Foggy Mushroom Land",
 			icon: "betterendforge:mossy_glowshroom_fur",
 			x: -4.0d,
-			y: -3.0d,
-			description: ["Flower-filled land covered with giant bioluminescencent glowshroom trees."],
+			y: -3.5d,
+			description: ["Flower-filled land covered with giant bioluminescent glowshroom trees."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001536",
 			tasks: [{
@@ -157,8 +157,8 @@
 		{
 			icon: "betterendforge:twisted_umbrella_moss_tall",
 			x: -3.0d,
-			y: -3.0d,
-			description: ["Thick forest of hanging vines, Umbrella tress, and jellyshrooms."],
+			y: -3.5d,
+			description: ["Thick forest of hanging vines, Umbrella trees, and jellyshrooms."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001538",
 			tasks: [{
@@ -171,7 +171,7 @@
 		},
 		{
 			x: -2.0d,
-			y: -2.5d,
+			y: -3.0d,
 			description: ["Large stars of ice and snow that exist between ender islands."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000153A",
@@ -185,7 +185,7 @@
 		},
 		{
 			x: -5.0d,
-			y: 0.5d,
+			y: 1.0d,
 			description: ["A layered mountainous land of various ender rocks."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000153C",
@@ -199,7 +199,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 1.0d,
+			y: 1.5d,
 			description: ["A forest of Chorus plants and Pythadendron trees."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000153E",
@@ -213,8 +213,8 @@
 		},
 		{
 			x: -2.0d,
-			y: 0.5d,
-			description: ["A land filled with various stacks of of sulfur vents that contain their own water based ecosystems. Are worth a dive into."],
+			y: 1.0d,
+			description: ["A land filled with various stacks of sulfur vents that contain their own water based ecosystems. Are worth a dive into."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001540",
 			tasks: [{
@@ -227,8 +227,8 @@
 		},
 		{
 			x: -1.0d,
-			y: 0.0d,
-			description: ["A vibrant orange land with think ground cover and large Helix trees."],
+			y: 0.5d,
+			description: ["A vibrant orange land with thick ground cover and large Helix trees."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001542",
 			tasks: [{
@@ -240,7 +240,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -0.5d,
 			y: -1.5d,
 			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."],
 			dependencies: ["0000000000001534"],
@@ -255,7 +255,7 @@
 		},
 		{
 			x: -5.0d,
-			y: -2.5d,
+			y: -3.0d,
 			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be more like a grassland than a lake."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001546",
@@ -269,7 +269,7 @@
 		},
 		{
 			x: -1.0d,
-			y: -2.0d,
+			y: -2.5d,
 			description: ["End stone spires covered in pink Tenanea trees and vines."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001548",
@@ -283,7 +283,7 @@
 		},
 		{
 			x: -6.0d,
-			y: -2.0d,
+			y: 0.5d,
 			description: ["Dark forest of Dragon trees and shadow plants."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000154A",
@@ -297,7 +297,7 @@
 		},
 		{
 			x: -6.0d,
-			y: 0.0d,
+			y: -2.5d,
 			description: ["Deep lakes in the nether filled with End Lotus flowers."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000154C",
@@ -310,8 +310,8 @@
 			}]
 		},
 		{
-			x: 1.5755102040816524d,
-			y: -1.7581632653061234d,
+			x: 1.5535714285714448d,
+			y: -1.7321428571428612d,
 			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."],
 			dependencies: ["0000000000001544"],
 			id: "000000000000154E",
@@ -335,8 +335,8 @@
 		},
 		{
 			x: -4.0d,
-			y: 1.0d,
-			description: ["A desolate, dusty region with not much signifigance beyond a large Enderman population."],
+			y: 1.5d,
+			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001550",
 			tasks: [{
@@ -377,7 +377,7 @@
 		{
 			x: 3.0d,
 			y: -1.0d,
-			description: ["Can be made by using a Netherite Smith Hammer on an Ender Pearl in an Anvil."],
+			description: ["Can be made by a number of methods on an anvil, check JEI for specifics."],
 			id: "0000000000001554",
 			tasks: [{
 				id: "0000000000001555",
@@ -426,7 +426,7 @@
 		{
 			x: 4.5d,
 			y: -2.0d,
-			description: ["Infusion rituals and pedestal setup described in The End for Dummies."],
+			description: ["Infusion rituals and pedestal setup are described in The End for Dummies."],
 			dependencies: ["0000000000001552"],
 			id: "0000000000001558",
 			tasks: [{
@@ -444,7 +444,7 @@
 			title: "Amber",
 			x: 6.0d,
 			y: -2.0d,
-			description: ["Comes from Amber ore. Gives raw amber, placing 2x2 in crafting table to make a gem."],
+			description: ["Comes from Amber ore. Gives raw amber, placing 2x2 in a crafting table to make a gem."],
 			dependencies: ["0000000000001558"],
 			id: "000000000000155A",
 			tasks: [
@@ -466,10 +466,9 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -0.5d,
+			x: 1.5d,
+			y: 0.0d,
 			description: ["Able to create unique alloys."],
-			dependencies: ["0000000000001534"],
 			id: "000000000000155C",
 			tasks: [{
 				id: "000000000000155D",
@@ -680,7 +679,7 @@
 			x: 4.5d,
 			y: 1.5d,
 			description: [
-				"From combining Terminite Armor with Aeternium ingots in Smithing Table.",
+				"From combining Terminite Armor with Aeternium ingots in a Smithing Table.",
 				"",
 				"One of the highest tiers of armor."
 			],
@@ -994,7 +993,7 @@
 		},
 		{
 			x: -3.5d,
-			y: 2.0d,
+			y: 2.5d,
 			description: ["A unique light source that can only be found in end cities."],
 			dependencies: ["0000000000001534"],
 			id: "00000000000015AD",
@@ -1007,6 +1006,21 @@
 				id: "00000000000015AF",
 				type: "random",
 				table_id: 1396L
+			}]
+		},
+		{
+			title: "Glowing Grasslands",
+			x: -0.5d,
+			y: -0.5d,
+			description: ["A flat grassland that is extremely grassy and has lumecorn sprouts."],
+			dependencies: ["0000000000001534"],
+			id: "1D616447885B4145",
+			tasks: [{
+				id: "7352E11CF7CFF1EC",
+				type: "biome",
+				title: "Glowing Grasslands",
+				icon: "betterendforge:blooming_cooksonia",
+				biome: "betterendforge:glowing_grasslands"
 			}]
 		}
 	]
