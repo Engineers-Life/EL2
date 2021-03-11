@@ -382,7 +382,7 @@
 		#Range: 1 ~ 10
 		"Max Level" = 2
 		#If TRUE, the Frost Walker Enchantment will also chill Lava into Glossed Magma.
-		"Freeze Lava" = true
+		"Freeze Lava" = false
 		#If TRUE, the Frost Walker Enchantment is replaced with an improved and more configurable version which works on more items, such as Horse Armor.
 		Enable = true
 
