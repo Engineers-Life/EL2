@@ -80,6 +80,10 @@ craftingTable.addShaped("chain_boots", <item:minecraft:chainmail_boots>, [
     [<item:minecraft:chain>,air,<item:minecraft:chain>],
     [<item:immersiveengineering:plate_iron>,air,<item:immersiveengineering:plate_iron>] ]);
 
+craftingTable.removeRecipe(<item:vanillafoodpantry:empty_bottle>);
+craftingTable.addShapeless("vanillafoodpantry:empty_bottle", <item:vanillafoodpantry:empty_bottle>, [<item:minecraft:glass_bottle>]);
+craftingTable.addShapeless("minecraft:glass_bottle", <item:minecraft:glass_bottle>, [<item:vanillafoodpantry:empty_bottle>]);
+
 // make red flint as usable as vanilla flint
 <tag:items:notreepunching:flint_knappable>.add(<item:vanillafoodpantry:red_flint>);
 val stick = <tag:items:forge:rods/wooden>.asIIngredient();
