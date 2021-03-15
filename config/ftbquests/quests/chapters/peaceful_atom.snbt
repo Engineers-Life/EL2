@@ -1,7 +1,7 @@
 {
 	id: "00000000000006EF",
 	group: "",
-	order_index: 11,
+	order_index: 12,
 	filename: "peaceful_atom",
 	title: "Peaceful Atom",
 	icon: "bigreactors:basic_reactorfuelrod",

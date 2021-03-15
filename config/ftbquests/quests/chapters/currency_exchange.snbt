@@ -1,7 +1,7 @@
 {
 	id: "0000000000000459",
 	group: "",
-	order_index: 12,
+	order_index: 13,
 	filename: "currency_exchange",
 	title: "Currency Exchange",
 	icon: "minecraft:emerald",

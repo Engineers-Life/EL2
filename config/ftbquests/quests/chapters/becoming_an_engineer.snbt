@@ -1,7 +1,7 @@
 {
 	id: "000000000000002B",
 	group: "",
-	order_index: 7,
+	order_index: 8,
 	filename: "becoming_an_engineer",
 	title: "Becoming an Engineer",
 	icon: "engineersdecor:sign_decor",

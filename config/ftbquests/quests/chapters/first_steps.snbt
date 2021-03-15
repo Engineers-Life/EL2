@@ -137,7 +137,9 @@
 				"A Flint Axe can enable you to collect wood and build a crafting table.",
 				"",
 				"The Axe is also used to craft planks. Put an axe in the crafting window and a log beneath it.",
-				"To craft a stick, put an axe in the upper left corner and a log on the right."
+				"To craft a stick, put an axe in the upper left corner and a log on the right.",
+				"",
+				"*Note that this can only be done with vanilla and non-Tetra axes currently*"
 			],
 			dependencies: ["0000000000000014"],
 			id: "000000000000000C",
@@ -388,7 +390,7 @@
 			title: "Furnace",
 			x: 3.0d,
 			y: -1.5d,
-			description: ["Time to cook up some food faster than by the campfire and get some basic materials!"],
+			description: ["Time to cook up some basic materials!"],
 			dependencies: ["000000000000000E"],
 			id: "000000000000002C",
 			tasks: [{
@@ -476,8 +478,9 @@
 			}]
 		},
 		{
+			title: "Wooden Shears",
 			icon: {
-				id: "woodenutilities:wooden_shears",
+				id: "woodenshears:wooden_shears",
 				Count: 1b,
 				tag: {
 					Damage: 0
@@ -490,17 +493,6 @@
 			id: "0000000000000032",
 			tasks: [
 				{
-					id: "0000000000000033",
-					type: "item",
-					item: {
-						id: "woodenutilities:wooden_shears",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
 					id: "0000000000000053",
 					type: "item",
 					title: "Any minecraft:leaves",
@@ -509,6 +501,17 @@
 						Count: 1b,
 						tag: {
 							value: "minecraft:leaves"
+						}
+					}
+				},
+				{
+					id: "2D8BA6ADEB4A98B0",
+					type: "item",
+					item: {
+						id: "woodenshears:wooden_shears",
+						Count: 1b,
+						tag: {
+							Damage: 0
 						}
 					}
 				}
@@ -521,74 +524,8 @@
 			}]
 		},
 		{
-			title: "Wooden Armor",
-			x: 1.5d,
-			y: 1.5d,
-			description: ["Wooden Armor can be made from wooden plates. It will at least give you a small amount of protection."],
-			dependencies: ["0000000000000032"],
-			id: "0000000000000034",
-			tasks: [
-				{
-					id: "0000000000000035",
-					type: "item",
-					item: {
-						id: "woodenutilities:wooden_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "0000000000000036",
-					type: "item",
-					item: {
-						id: "woodenutilities:wooden_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "0000000000000037",
-					type: "item",
-					item: {
-						id: "woodenutilities:wooden_boot",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "0000000000000038",
-					type: "item",
-					item: {
-						id: "woodenutilities:wooden_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			],
-			rewards: [
-				{
-					id: "0000000000000141",
-					type: "item",
-					item: "minecraft:flint"
-				},
-				{
-					id: "0000000000000349",
-					type: "item",
-					item: "pamhc2foodcore:hotchocolateitem"
-				}
-			]
-		},
-		{
 			x: 21.5d,
-			y: -4.5d,
+			y: -3.5d,
 			description: [
 				"Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or flint",
 				"axe, and the yield produced is doubled when using a saw from a flint tool."
@@ -889,7 +826,7 @@
 		},
 		{
 			x: 20.5d,
-			y: -4.5d,
+			y: -3.5d,
 			description: ["Mine me up some ore!"],
 			dependencies: ["0000000000000058"],
 			id: "000000000000005A",
@@ -998,7 +935,7 @@
 		},
 		{
 			x: 21.5d,
-			y: 1.5d,
+			y: 0.0d,
 			description: [
 				"Mattocks are advanced tools, and can be made from iron, gold or diamond. They function both as axes and shovels with regards to the blocks they can break, and have the right click functionality of axes, shovels, and hoes, being able to strip wood,",
 				"till coarse dirt, and create grass paths and farmland.",
@@ -1265,7 +1202,7 @@
 		{
 			title: "Iron Armor",
 			x: 19.5d,
-			y: -4.5d,
+			y: -3.5d,
 			description: ["A good improvement, even though you will look a bit like the Silver Surfer."],
 			dependencies: ["0000000000000058"],
 			id: "000000000000006E",
@@ -1335,7 +1272,7 @@
 		},
 		{
 			x: 19.5d,
-			y: 1.5d,
+			y: 0.0d,
 			description: ["Man I can carry so many liquids in this bucket!"],
 			dependencies: ["0000000000000058"],
 			id: "0000000000000073",
@@ -1460,7 +1397,7 @@
 		},
 		{
 			title: "Just Enough Items",
-			x: -7.5d,
+			x: -8.5d,
 			y: -7.0d,
 			subtitle: "In-game item and recipe browser",
 			description: [
@@ -1489,8 +1426,8 @@
 		},
 		{
 			icon: "itemfilters:item_group",
-			x: -7.5d,
-			y: -3.0d,
+			x: -9.5d,
+			y: 1.5d,
 			description: [
 				"Menu access key: P (for more info and stats)",
 				"",
@@ -1509,6 +1446,7 @@
 				"If your stat list on the left is disappeared - simply re-enter the game and it should reappear."
 			],
 			dependencies: ["0000000000001231"],
+			size: 1.25d,
 			id: "000000000000009D",
 			tasks: [{
 				id: "000000000000009E",
@@ -1524,7 +1462,7 @@
 		{
 			title: "EL2 Text Guide",
 			icon: "itemfilters:tag",
-			x: -9.5d,
+			x: -10.5d,
 			y: -7.0d,
 			description: [
 				"You can a find a link to the Google Drive text guide directly on the EL2 curseforge project page.",
@@ -1795,7 +1733,7 @@
 			]
 		},
 		{
-			x: 21.5d,
+			x: 22.0d,
 			y: 3.5d,
 			description: ["A highly customizable hopper that allows you to change the stack size, drop delay, and a customizable collection range up to 9x9. Can be placed upside down and keeps inventory when broken. Redstone controllable."],
 			dependencies: ["00000000000000B4"],
@@ -2130,7 +2068,7 @@
 		},
 		{
 			x: 19.5d,
-			y: 2.5d,
+			y: 1.5d,
 			description: ["Can grow crops anywhere without water!"],
 			dependencies: ["0000000000000073"],
 			id: "000000000000011D",
@@ -2153,7 +2091,7 @@
 			]
 		},
 		{
-			icon: "woodenutilities:crafting_slab",
+			icon: "betterendforge:lacugrove_crafting_table",
 			x: -3.0d,
 			y: -3.0d,
 			description: ["This quest will complete once you interact with a crafting table 256 times."],
@@ -2254,8 +2192,8 @@
 					Damage: 0
 				}
 			},
-			x: -7.5d,
-			y: -2.0d,
+			x: -11.5d,
+			y: -1.5d,
 			subtitle: "Ore Excavation/Veinminer Alternative",
 			description: [
 				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key). ",
@@ -2702,7 +2640,7 @@
 		},
 		{
 			x: -7.5d,
-			y: -1.0d,
+			y: -1.5d,
 			description: [
 				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods.",
 				"",
@@ -2879,8 +2817,8 @@
 			]
 		},
 		{
-			x: -9.5d,
-			y: -0.5d,
+			x: -7.5d,
+			y: -2.5d,
 			description: [
 				"Gone are the days of crafting obsidian doorways to the Nether. ",
 				"",
@@ -3081,6 +3019,444 @@
 				id: "00000000000015C1",
 				type: "random",
 				table_id: 1980L
+			}]
+		},
+		{
+			icon: "minecraft:smithing_table",
+			x: -11.307823129251702d,
+			y: 0.23639455782313945d,
+			description: [
+				"Smithing skill is gained by a number of different methods:",
+				"-Smelting items",
+				"-Repairing items",
+				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)",
+				"",
+				"Higher levels of smithing give a number of good benefits:",
+				"-While smelting ore there is a possibility of getting extra products.",
+				"-When salvaging items, a higher level increases the success rate of salvaging and increases the number of possible salvaging products.",
+				"-Increases the amount repaired when using the anvil and anvils are less likely to break."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "41F4A32BEA5C4295",
+			tasks: [{
+				id: "3B673FE9BA9A3CC0",
+				type: "checkmark",
+				title: "Smithing"
+			}]
+		},
+		{
+			icon: "mcwwindows:hammer",
+			x: -11.0d,
+			y: 1.0d,
+			description: [
+				"Building skill is gained by placing blocks into the world. The xp you earn is based on the hardness level of the block.",
+				"",
+				"Higher levels of building increases the reach distance that you can place blocks at."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "6FE308E29F37255A",
+			tasks: [{
+				id: "4BE7647D00B45091",
+				type: "checkmark",
+				title: "Building"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_shovel",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -8.226190476190482d,
+			y: 3.3588435374149626d,
+			description: [
+				"Excavation skill is gained by breaking dirt or dirt-based blocks.",
+				"",
+				"Higher levels of excavation give you the ability to dig faster and to find treasure in blocks when digging."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "5AC9081752E85D51",
+			tasks: [{
+				id: "1E0BD10C0AEDDA2C",
+				type: "checkmark",
+				title: "Excavation"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -9.0d,
+			y: 3.0d,
+			description: [
+				"Mining Skill is gained by breaking rock or rock-based blocks.",
+				"",
+				"Higher levels of mining allow you to mine faster and to drop extra items when mining."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "5562C277365DF050",
+			tasks: [{
+				id: "27065C11D7892632",
+				type: "checkmark",
+				title: "Mining"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -8.0d,
+			y: 2.0d,
+			description: [
+				"Combat skill is gained by hitting mobs to deal damage. You will get less xp if the mob is passive, dies, or is one-shot from full health.",
+				"",
+				"Higher levels of combat increase the amount of damage you can do with melee weapons."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "71C94DF46703BB3F",
+			tasks: [{
+				id: "4E7CAB038758BA54",
+				type: "checkmark",
+				title: "Combat"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -10.0d,
+			y: 3.0d,
+			description: [
+				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.).",
+				"",
+				"Higher levels of woodcutting allow you to cut wood faster and have the possiblity of dropping extra wood blocks."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "416E81CE76446066",
+			tasks: [{
+				id: "53F6058FA66F0D87",
+				type: "checkmark",
+				title: "Woodcutting"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_chestplate",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -8.0d,
+			y: 1.0d,
+			description: [
+				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.).",
+				"",
+				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "78DB7D7B18894DA4",
+			tasks: [{
+				id: "329A1625CD6214D1",
+				type: "checkmark",
+				title: "Endurance"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_hoe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -10.715986394557824d,
+			y: 3.3588435374149626d,
+			description: [
+				"Farming skill is gained by harvesting plants and by breeding animals.",
+				"",
+				"Higher levels of farming will allow you to harvest more crops from a single plant and to harvest them faster,"
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "128C6C5B6273C0F3",
+			tasks: [{
+				id: "11AA91F96D236C7E",
+				type: "checkmark",
+				title: "Farming"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:bow",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -7.613945578231295d,
+			y: 2.7874149659864003d,
+			description: [
+				"Archery skill is gained by shooting mobs with a bow.",
+				"You will get less xp if the mob is passive, but more if the mob is killed, is one-shot, or if the arrow flies over 16 blocks.",
+				"",
+				"Higher levels of archery allows you to do extra damage with bows."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "261FF95C675A0E98",
+			tasks: [{
+				id: "5CB7A94DEE4ADAD5",
+				type: "checkmark",
+				title: "Archery"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_boots",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -9.0d,
+			y: 0.0d,
+			description: [
+				"Agility skill is gained by in a number of ways:",
+				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this).",
+				"-Jumping: the higher you jump the more xp you gain (Potions can boost this).",
+				"-Saving fall damage (a chance probability of occuring when taking fall damage).",
+				"",
+				"Higher levels of agility will grant a number of advantages:",
+				"-Faster sprinting",
+				"-Higher sprint and crouch jumps",
+				"-A higher chance to save fall damage"
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "63F8E2CB45B9803D",
+			tasks: [{
+				id: "3C321FB0BBBB71CF",
+				type: "checkmark",
+				title: "Agility"
+			}]
+		},
+		{
+			icon: "minecraft:tropical_fish",
+			x: -8.205782312925173d,
+			y: -0.33503401360543705d,
+			description: [
+				"Swiming skill is gained by going swimming in the lakes, rivers, and oceans.",
+				"",
+				"Higher levels of swimming will grant two advantages, underwater nightvision and the ability to stay underwater longer.",
+				"Underwater Nightvision will unlock at level 25.",
+				"Swimming, and to a lesser extent Endurance, will work together to extend your ability to stay underwater."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "214CDC923D179E56",
+			tasks: [{
+				id: "5FFBB579483535DF",
+				type: "checkmark",
+				title: "Swimming"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:fishing_rod",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -11.32823129251701d,
+			y: 2.7670068027210917d,
+			description: [
+				"Fishing skill is gained by going out and ... you will never guess ... fishing.",
+				"",
+				"While fishing you will be able to catch special items that have the possibility of being enchanted.",
+				"Higher levels of fishing increase the probability of catching better items with better enchantments."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "4C18DC09C5FFB372",
+			tasks: [{
+				id: "26DAF84205172A75",
+				type: "checkmark",
+				title: "Fishing"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:elytra",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -7.613945578231295d,
+			y: 0.25680272108844093d,
+			description: [
+				"Flying skill is gained by flying around with an Elytra.",
+				"",
+				"There is no bonus for higher levels of this skill."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "0A0E3A6CA17F84F9",
+			tasks: [{
+				id: "6AA18B31884A0323",
+				type: "checkmark",
+				title: "Flying"
+			}]
+		},
+		{
+			icon: "minecraft:crafting_table",
+			x: -10.715986394557824d,
+			y: -0.37585034013605423d,
+			description: [
+				"Crafting skill is gained by crafting recipes, either in inventory or in a crafting table.",
+				"",
+				"There are no bonuses for higher levels of this skill."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "7085E4D3E7C51F7B",
+			tasks: [{
+				id: "7AA4F201B206B0D0",
+				type: "checkmark",
+				title: "Crafting"
+			}]
+		},
+		{
+			icon: "cookingforblockheads:oven",
+			x: -11.0d,
+			y: 2.0d,
+			description: [
+				"Cooking skill is gained by cooking food items.",
+				"",
+				"Higher levels of this skill allow for the possibility of extra food being made when cooking food."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "777FFBDE3AD629F9",
+			tasks: [{
+				id: "15EB7D2E5444C8BB",
+				type: "checkmark",
+				title: "Cooking"
+			}]
+		},
+		{
+			icon: "minecraft:brewing_stand",
+			x: -10.0d,
+			y: 0.0d,
+			description: [
+				"Alchemy skill is gained by brewing potions in the Brewing Stand.",
+				"",
+				"Higher levels of this skill allow for the possibility of extra potions being brewed when brewing a potion."
+			],
+			dependencies: ["000000000000009D"],
+			optional: true,
+			id: "64F9EE8910E19872",
+			tasks: [{
+				id: "3FE9F9324A9A75ED",
+				type: "checkmark",
+				title: "Alchemy"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			description: ["The Smoker will be you best friend to make sure that you don't starve before you can build a factory!"],
+			dependencies: ["000000000000002C"],
+			id: "0B02FF3BDA40F2B5",
+			tasks: [{
+				id: "3F8E1A69149BFE0D",
+				type: "item",
+				item: "minecraft:smoker"
+			}],
+			rewards: [
+				{
+					id: "47EE85451A083838",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "022E99B3CCC4ED96",
+					type: "item",
+					item: "vanillafoodpantry:kebab_meat_raw"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -4.0d,
+			id: "4C4BF4BB9C6C4243",
+			tasks: [{
+				id: "0659E2829B541F81",
+				type: "item",
+				item: "charm:woodcutter"
+			}]
+		},
+		{
+			title: "Beginner Smith",
+			x: 0.0d,
+			y: 1.0d,
+			shape: "gear",
+			description: ["Time to explore if I can make my own tools!"],
+			dependencies: ["0000000000000030"],
+			size: 1.5d,
+			id: "071AD0BAC595B983",
+			tasks: [{
+				id: "689958FF4F666427",
+				type: "item",
+				item: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "b158b47b-3a56-4ee0-a127-def8262567ed",
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		},
+		{
+			title: "Tetra",
+			x: -11.5d,
+			y: -2.5d,
+			description: ["Describe Tetra."],
+			dependencies: ["0000000000001231"],
+			id: "0E57528AB581F03E",
+			tasks: [{
+				id: "10703633DA79069A",
+				type: "checkmark"
 			}]
 		}
 	]

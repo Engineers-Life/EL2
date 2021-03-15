@@ -1,1639 +1,245 @@
 {
 	id: "00000000000002E3",
 	group: "",
-	order_index: 13,
+	order_index: 3,
 	filename: "mining_progression",
-	title: "Skills Progression",
+	title: "Tools of the Ancients",
+	icon: {
+		id: "tetra:magmatic_cell",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
 	default_quest_shape: "",
 	quests: [
 		{
-			title: "Reach Mining Level 3",
-			x: -7.5d,
-			y: 0.0d,
-			id: "0000000000000318",
-			tasks: [{
-				id: "67E1DDF2F4E1E35B",
-				type: "item",
-				item: {
-					id: "minecraft:stone_pickaxe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "000000000000041B",
-					type: "xp_levels",
-					xp_levels: 1
-				},
-				{
-					id: "0000000000000463",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			title: "Reach Mining Level 10",
-			x: -7.5d,
-			y: 1.0d,
-			id: "000000000000031A",
-			tasks: [{
-				id: "43EE89C325700259",
-				type: "item",
-				item: {
-					id: "minecraft:iron_pickaxe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "000000000000040F",
-					type: "item",
-					item: "minecraft:iron_ingot",
-					random_bonus: 3
-				},
-				{
-					id: "0000000000000410",
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: "000000000000125A",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			title: "Reach Mining Level 40",
-			x: -7.5d,
-			y: 4.0d,
-			id: "000000000000031E",
-			tasks: [{
-				id: "24D48646CEB56A60",
-				type: "item",
-				item: {
-					id: "minecraft:diamond_pickaxe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000044E",
-				type: "item",
-				item: "spareparts:coins/diamond_coin"
-			}]
-		},
-		{
-			title: "Reach Mining Level 60",
-			x: -7.5d,
-			y: 6.0d,
-			id: "0000000000000320",
-			tasks: [{
-				id: "7D853D83634D976B",
-				type: "item",
-				item: {
-					id: "minecraft:netherite_pickaxe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "0000000000000414",
-					type: "xp_levels",
-					xp_levels: 20
-				},
-				{
-					id: "000000000000044B",
-					type: "item",
-					item: "spareparts:coins/ancient_coin"
-				}
-			]
-		},
-		{
-			title: "Reach Mining Level 20",
-			x: -7.5d,
-			y: 2.0d,
-			id: "0000000000000322",
-			tasks: [{
-				id: "29FF994942F89CB1",
-				type: "item",
-				item: {
-					id: "immersiveengineering:pickaxe_steel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "0000000000000411",
-					type: "xp_levels",
-					xp_levels: 10
-				},
-				{
-					id: "0000000000000560",
-					type: "random",
-					table_id: 1355L
-				}
-			]
-		},
-		{
-			title: "Reach Combat Level 3",
-			x: -1.5d,
-			y: 0.0d,
-			id: "00000000000003BA",
-			tasks: [{
-				id: "6FDECFFA578F8FF9",
-				type: "item",
-				item: {
-					id: "minecraft:stone_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "000000000000041C",
-					type: "xp_levels",
-					xp_levels: 1
-				},
-				{
-					id: "0000000000000464",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			title: "Reach Combat Level 10",
-			x: -1.5d,
-			y: 1.0d,
-			id: "00000000000003BC",
-			tasks: [{
-				id: "77DB1390DFF56701",
-				type: "item",
-				item: {
-					id: "minecraft:iron_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "0000000000000418",
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: "0000000000000419",
-					type: "item",
-					item: "minecraft:iron_ingot",
-					random_bonus: 3
-				},
-				{
-					id: "00000000000005C8",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			title: "Reach Combat Level 40",
-			x: -1.5d,
-			y: 4.0d,
-			id: "00000000000003BE",
-			tasks: [{
-				id: "6F9098098F25C00B",
-				type: "item",
-				item: {
-					id: "minecraft:diamond_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000044D",
-				type: "item",
-				item: "spareparts:coins/diamond_coin"
-			}]
-		},
-		{
-			title: "Reach Combat Level 60",
-			x: -1.5d,
-			y: 6.0d,
-			id: "00000000000003C0",
-			tasks: [{
-				id: "0853DFB8ADB344E2",
-				type: "item",
-				item: {
-					id: "minecraft:netherite_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "0000000000000415",
-					type: "xp_levels",
-					xp_levels: 20
-				},
-				{
-					id: "000000000000044C",
-					type: "item",
-					item: "spareparts:coins/ancient_coin"
-				}
-			]
-		},
-		{
-			title: "Reach Combat Level 20",
-			x: -1.5d,
-			y: 2.0d,
-			id: "00000000000003CA",
-			tasks: [{
-				id: "50455CF11EC80E7E",
-				type: "item",
-				item: {
-					id: "immersiveengineering:sword_steel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "0000000000000417",
-				type: "xp_levels",
-				xp_levels: 10
-			}]
-		},
-		{
-			title: "Reach Woodcutting Level 10",
+			title: "Holosphere",
 			icon: {
-				id: "minecraft:iron_axe",
+				id: "tetra:holo",
 				Count: 1b,
 				tag: {
-					Damage: 0
+					"holo/core_material": "frame/dim",
+					"holo/frame": "holo/frame",
+					"holo/core": "holo/core",
+					"holo/frame_material": "core/ancient"
 				}
 			},
-			x: -3.0d,
-			y: 1.0d,
-			id: "00000000000004F4",
+			x: -12.0d,
+			y: -2.0d,
+			dependencies: ["1783F3551BE3CC14"],
+			id: "1BD22FC74CD3DB9A",
 			tasks: [{
-				id: "1DA886B3272D5D6F",
-				type: "item",
-				item: {
-					id: "minecraft:iron_axe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "00000000000005C9",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				},
-				{
-					id: "0000000000001268",
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: "0000000000001269",
-					type: "item",
-					item: "minecraft:iron_ingot",
-					random_bonus: 3
-				}
-			]
-		},
-		{
-			title: "Reach Woodcutting Level 20",
-			icon: {
-				id: "immersiveengineering:axe_steel",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -3.0d,
-			y: 2.0d,
-			id: "00000000000004F6",
-			tasks: [{
-				id: "1FF93D2EDAF5021C",
-				type: "item",
-				item: {
-					id: "immersiveengineering:axe_steel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "0000000000000829",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_ii_random"
-					}
-				}
+				id: "39A96B6EDDF2D8C8",
+				type: "checkmark"
 			}]
 		},
 		{
-			title: "Reach Woodcutting Level 40",
-			icon: {
-				id: "minecraft:diamond_axe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -3.0d,
-			y: 4.0d,
-			id: "00000000000004F8",
-			tasks: [{
-				id: "0C579B7FC5DF5992",
-				type: "item",
-				item: {
-					id: "minecraft:diamond_axe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "0000000000000828",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Woodcutting Level 60",
-			icon: {
-				id: "minecraft:netherite_axe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -3.0d,
-			y: 6.0d,
-			id: "00000000000004FA",
-			tasks: [{
-				id: "39DC74BE66461660",
-				type: "item",
-				item: {
-					id: "minecraft:netherite_axe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "0000000000000827",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Woodcutting Level 3",
-			icon: {
-				id: "minecraft:stone_axe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -3.0d,
-			y: 0.0d,
-			id: "00000000000004FC",
-			tasks: [{
-				id: "67873CA666B30175",
-				type: "item",
-				item: {
-					id: "minecraft:stone_axe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "0000000000001263",
-					type: "xp_levels",
-					xp_levels: 1
-				},
-				{
-					id: "0000000000001264",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
-		},
-		{
-			title: "Reach Endurance Level 5",
-			x: 0.0d,
-			y: 0.0d,
-			id: "0000000000000696",
-			tasks: [
-				{
-					id: "05F146C7CA76FC1C",
-					type: "item",
-					item: {
-						id: "minecraft:leather_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "5D38F21A182AA724",
-					type: "item",
-					item: {
-						id: "minecraft:leather_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "59C0627DF4FEEE20",
-					type: "item",
-					item: {
-						id: "minecraft:leather_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "2DA50535415738B6",
-					type: "item",
-					item: {
-						id: "minecraft:leather_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "000000000000082F",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "mob_drops"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Endurance Level 10",
-			x: 0.0d,
-			y: 1.0d,
-			id: "0000000000000698",
-			tasks: [
-				{
-					id: "7E5D2918633CAD58",
-					type: "item",
-					item: {
-						id: "minecraft:iron_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "7B6448DB47674F48",
-					type: "item",
-					item: {
-						id: "minecraft:iron_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "3E0D211E30DE5DBD",
-					type: "item",
-					item: {
-						id: "minecraft:iron_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "1375F16FC05C9746",
-					type: "item",
-					item: {
-						id: "minecraft:iron_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "000000000000082A",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Endurance Level 20",
-			x: 0.0d,
-			y: 3.0d,
-			id: "000000000000069C",
-			tasks: [
-				{
-					id: "497DD004F3F535B9",
-					type: "item",
-					item: {
-						id: "immersiveengineering:armor_steel_head",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "359346A901850370",
-					type: "item",
-					item: {
-						id: "immersiveengineering:armor_steel_chest",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "6466466FBE830EF9",
-					type: "item",
-					item: {
-						id: "immersiveengineering:armor_steel_legs",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "10821CB2F5211370",
-					type: "item",
-					item: {
-						id: "immersiveengineering:armor_steel_feet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "000000000000082C",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_ii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Endurance Level 40",
-			x: 0.0d,
-			y: 5.0d,
-			id: "000000000000069E",
-			tasks: [
-				{
-					id: "1F2ECF1A4870DFD1",
-					type: "item",
-					item: {
-						id: "minecraft:diamond_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "14CA7A4033A146B1",
-					type: "item",
-					item: {
-						id: "minecraft:diamond_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "5401E0CEA4DA3112",
-					type: "item",
-					item: {
-						id: "minecraft:diamond_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "7D72A9477014F775",
-					type: "item",
-					item: {
-						id: "minecraft:diamond_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "000000000000082D",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Endurance Level 60",
-			x: 0.0d,
-			y: 6.0d,
-			id: "00000000000006A0",
-			tasks: [
-				{
-					id: "7835ECF334B0D0BB",
-					type: "item",
-					item: {
-						id: "minecraft:netherite_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "69B510DA076F57FA",
-					type: "item",
-					item: {
-						id: "minecraft:netherite_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "3584B087483A75E2",
-					type: "item",
-					item: {
-						id: "minecraft:netherite_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "5B3F7FF02F1B3A11",
-					type: "item",
-					item: {
-						id: "minecraft:netherite_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "000000000000082E",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Endurance Level 30",
-			x: 0.0d,
-			y: 4.0d,
-			id: "0000000000000830",
-			tasks: [
-				{
-					id: "57AF1E0D9D4A6E3B",
-					type: "item",
-					item: {
-						id: "betterendforge:terminite_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "6C737DDA88B2AD50",
-					type: "item",
-					item: {
-						id: "betterendforge:terminite_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "63420986FEC02B89",
-					type: "item",
-					item: {
-						id: "betterendforge:terminite_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "411BAE9DAD67A4EF",
-					type: "item",
-					item: {
-						id: "betterendforge:terminite_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "0000000000001260",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_ii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Endurance Level 70",
-			x: 0.0d,
-			y: 7.0d,
-			id: "0000000000000832",
-			tasks: [
-				{
-					id: "384D8B10C4527055",
-					type: "item",
-					item: {
-						id: "betterendforge:aeternium_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "79F7D3F9025E24F7",
-					type: "item",
-					item: {
-						id: "betterendforge:aeternium_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "7795CBC8CF826806",
-					type: "item",
-					item: {
-						id: "betterendforge:aeternium_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "330281BCC94413E4",
-					type: "item",
-					item: {
-						id: "betterendforge:aeternium_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "0000000000001261",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Reach Mining Level 45",
-			x: -7.5d,
-			y: 5.0d,
-			id: "0000000000000834",
-			tasks: [{
-				id: "46CD6CB0132B3749",
-				type: "item",
-				item: {
-					id: "betterendforge:terminite_pickaxe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000127F",
-				type: "xp_levels",
-				xp_levels: 15
-			}]
-		},
-		{
-			title: "Reach Mining Level 70",
-			x: -7.5d,
-			y: 7.0d,
-			id: "0000000000000836",
-			tasks: [{
-				id: "3591006951A1C6CF",
-				type: "item",
-				item: {
-					id: "betterendforge:aeternium_pickaxe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "0000000000001281",
-				type: "item",
-				item: "spareparts:coins/diamond_coin"
-			}]
-		},
-		{
-			title: "Reach Combat Level 45",
-			x: -1.5d,
-			y: 5.0d,
-			id: "0000000000000838",
-			tasks: [{
-				id: "1896452E50F55BC4",
-				type: "item",
-				item: {
-					id: "betterendforge:terminite_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "0000000000001280",
-				type: "xp_levels",
-				xp_levels: 15
-			}]
-		},
-		{
-			title: "Reach Combat Level 70",
-			x: -1.5d,
-			y: 7.0d,
-			id: "000000000000083A",
-			tasks: [{
-				id: "17CA42379C812B1C",
-				type: "item",
-				item: {
-					id: "betterendforge:aeternium_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "0000000000001282",
-				type: "item",
-				item: "spareparts:coins/diamond_coin"
-			}]
-		},
-		{
-			title: "Unlock Woodcutting Level 45",
-			icon: {
-				id: "betterendforge:terminite_axe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -3.0d,
-			y: 5.0d,
-			id: "0000000000001076",
-			tasks: [{
-				id: "657BA3492B90ED49",
-				type: "item",
-				item: {
-					id: "betterendforge:terminite_axe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000127D",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "shingles_blocks"
-					}
-				}
-			}]
-		},
-		{
-			title: "Unlock Woodcutting Level 70",
-			x: -3.0d,
-			y: 7.0d,
-			id: "0000000000001078",
-			tasks: [{
-				id: "1E25CA339030A8CA",
-				type: "item",
-				item: {
-					id: "betterendforge:aeternium_axe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000127C",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Unlock Mining Level 30",
-			x: -7.5d,
-			y: 3.0d,
-			id: "000000000000110A",
-			tasks: [{
-				id: "19783962D84C9297",
-				type: "item",
-				item: {
-					id: "minecraft:golden_pickaxe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000126C",
-				type: "item",
-				item: "spareparts:coins/golden_coin"
-			}]
-		},
-		{
-			title: "Unlock Combat Level 30",
-			x: -1.5d,
-			y: 3.0d,
-			id: "000000000000110C",
-			tasks: [{
-				id: "6B6F4E423C5868F3",
-				type: "item",
-				item: {
-					id: "minecraft:golden_sword",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000126D",
-				type: "item",
-				item: "spareparts:coins/golden_coin"
-			}]
-		},
-		{
-			title: "Unlock Woodcutting Level 30",
-			x: -3.0d,
-			y: 3.0d,
-			id: "000000000000110E",
-			tasks: [{
-				id: "710961146E607553",
-				type: "item",
-				item: {
-					id: "minecraft:golden_axe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000126E",
-				type: "item",
-				item: "spareparts:coins/golden_coin"
-			}]
-		},
-		{
-			title: "Unlock Excavation Level 3",
 			x: -9.0d,
 			y: 0.0d,
-			id: "0000000000001114",
+			dependencies: ["1783F3551BE3CC14"],
+			id: "286C78DD09FE49B1",
 			tasks: [{
-				id: "561F780134F1C069",
-				type: "item",
-				item: {
-					id: "minecraft:stone_shovel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "0000000000001266",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				},
-				{
-					id: "0000000000001267",
-					type: "xp_levels",
-					xp_levels: 1
-				}
-			]
-		},
-		{
-			title: "Unlock Excavation Level 10",
-			x: -9.0d,
-			y: 1.0d,
-			id: "0000000000001117",
-			tasks: [{
-				id: "02CA51FF2C9AD120",
-				type: "item",
-				item: {
-					id: "minecraft:iron_shovel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "000000000000125B",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				},
-				{
-					id: "000000000000125C",
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: "000000000000125D",
-					type: "item",
-					item: "minecraft:iron_ingot",
-					random_bonus: 3
-				}
-			]
-		},
-		{
-			title: "Unlock Excavation Level 20",
-			x: -9.0d,
-			y: 2.0d,
-			id: "0000000000001119",
-			tasks: [{
-				id: "6ECC1BFB711EC46F",
-				type: "item",
-				item: {
-					id: "immersiveengineering:shovel_steel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
+				id: "70824FF98AB4887F",
+				type: "advancement",
+				title: "Workbench",
+				icon: "tetra:basic_workbench",
+				advancement: "tetra:upgrades/workbench",
+				criterion: ""
 			}],
 			rewards: [{
-				id: "000000000000126A",
+				id: "70346034831908C0",
 				type: "item",
 				item: {
-					id: "ftbquests:lootcrate",
+					id: "tetra:modular_double",
 					Count: 1b,
 					tag: {
-						type: "quark_basic_stones"
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "1673719c-a4ab-433a-a614-3265fcf9e9ed",
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
 					}
 				}
 			}]
 		},
 		{
-			title: "Unlock Excavation Level 30",
+			title: "Basic Tinkerer",
+			x: -11.5d,
+			y: 0.0d,
+			id: "1783F3551BE3CC14",
+			tasks: [{
+				id: "51A9570080665A2B",
+				type: "advancement",
+				title: "Wooden Hammer: Tier I",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "eee2b8c9-182d-4092-bf86-140844b84245",
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				},
+				advancement: "tetra:upgrades/root",
+				criterion: ""
+			}]
+		},
+		{
 			x: -9.0d,
-			y: 3.0d,
-			id: "000000000000111B",
+			y: 1.5d,
+			dependencies: ["286C78DD09FE49B1"],
+			id: "591D9D37D588E02A",
 			tasks: [{
-				id: "017A0DCAC067ED5B",
+				id: "2F2893240F74E1A5",
 				type: "item",
-				item: {
-					id: "minecraft:golden_shovel",
+				item: "tetra:rack"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 0.0d,
+			dependencies: ["286C78DD09FE49B1"],
+			id: "15AEB8885DE3D188",
+			tasks: [{
+				id: "07CCD2BE29E638D8",
+				type: "advancement",
+				title: "Stone Hammer: Tier II",
+				icon: {
+					id: "tetra:modular_double",
 					Count: 1b,
 					tag: {
-						Damage: 0
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "46e291d7-aa8d-436e-94e2-2d7468a82f8e",
+						"double/basic_hammer_right_material": "basic_hammer/stone",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/stone"
 					}
 				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000126F",
-				type: "item",
-				item: "spareparts:coins/golden_coin"
+				advancement: "tetra:upgrades/hammer_2",
+				criterion: ""
 			}]
 		},
 		{
-			title: "Unlock Excavation Level 40",
-			x: -9.0d,
-			y: 4.0d,
-			id: "000000000000111F",
+			title: "Iron Hammer: Tier III",
+			x: -5.0d,
+			y: 0.0d,
+			dependencies: ["15AEB8885DE3D188"],
+			id: "026682BD379CF002",
 			tasks: [{
-				id: "4564DDF3B7D4573F",
-				type: "item",
-				item: {
-					id: "minecraft:diamond_shovel",
+				id: "100B881BC0775415",
+				type: "advancement",
+				icon: {
+					id: "tetra:modular_double",
 					Count: 1b,
 					tag: {
-						Damage: 0
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "47b1ee7d-1919-4361-8827-536f09acf1b5",
+						"double/basic_hammer_right_material": "basic_hammer/iron",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/spruce",
+						"double/basic_hammer_left_material": "basic_hammer/iron"
 					}
 				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000126B",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
+				advancement: "tetra:upgrades/hammer_3",
+				criterion: ""
 			}]
 		},
 		{
-			title: "Unlock Excavation Level 45",
-			x: -9.0d,
-			y: 5.0d,
-			id: "0000000000001121",
-			tasks: [{
-				id: "1885E9235E05FBF0",
-				type: "item",
-				item: {
-					id: "betterendforge:terminite_shovel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000127E",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "quark_basic_stones"
-					}
-				}
-			}]
-		},
-		{
-			title: "Unlock Excavation Level 70",
-			x: -9.0d,
-			y: 7.0d,
-			id: "0000000000001123",
-			tasks: [{
-				id: "63A23D6290FD7C25",
-				type: "item",
-				item: {
-					id: "betterendforge:aeternium_shovel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000127B",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Unlock Excavation Level 60",
-			x: -9.0d,
-			y: 6.0d,
-			id: "0000000000001125",
-			tasks: [{
-				id: "20A54E3AB22A96E5",
-				type: "item",
-				item: {
-					id: "minecraft:netherite_shovel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "000000000000127A",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
-			}]
-		},
-		{
-			title: "Unlock Endurance Level 15",
-			x: 0.0d,
-			y: 2.0d,
-			id: "0000000000001146",
-			tasks: [
-				{
-					id: "180214563EC0479C",
-					type: "item",
-					item: {
-						id: "minecraft:chainmail_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "43D2777A95141D31",
-					type: "item",
-					item: {
-						id: "minecraft:chainmail_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "5D7762ECFF9D28D0",
-					type: "item",
-					item: {
-						id: "minecraft:chainmail_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				},
-				{
-					id: "41ABD3AC4C746D81",
-					type: "item",
-					item: {
-						id: "minecraft:chainmail_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					only_from_crafting: true
-				}
-			],
-			rewards: [{
-				id: "000000000000125F",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
-			}]
-		},
-		{
-			icon: {
-				id: "minecraft:iron_shovel",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -9.0d,
-			y: -1.5d,
-			description: [
-				"Excavation skill is gained by breaking dirt or dirt-based blocks.",
-				"",
-				"Higher levels of excavation give you the ability to dig faster and to find treasure in blocks when digging."
-			],
-			optional: true,
-			id: "5AC9081752E85D51",
-			tasks: [{
-				id: "1E0BD10C0AEDDA2C",
-				type: "checkmark",
-				title: "Excavation"
-			}]
-		},
-		{
-			icon: {
-				id: "minecraft:iron_pickaxe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -7.5d,
-			y: -1.5d,
-			description: [
-				"Mining Skill is gained by breaking rock or rock-based blocks.",
-				"",
-				"Higher levels of mining allow you to mine faster and to drop extra items when mining."
-			],
-			optional: true,
-			id: "5562C277365DF050",
-			tasks: [{
-				id: "27065C11D7892632",
-				type: "checkmark",
-				title: "Mining"
-			}]
-		},
-		{
-			icon: {
-				id: "minecraft:iron_sword",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -1.5d,
-			y: -1.5d,
-			description: [
-				"Combat skill is gained by hitting mobs to deal damage. You will get less xp if the mob is passive, dies, or is one-shot from full health.",
-				"",
-				"Higher levels of combat increase the amount of damage you can do with melee weapons."
-			],
-			optional: true,
-			id: "71C94DF46703BB3F",
-			tasks: [{
-				id: "4E7CAB038758BA54",
-				type: "checkmark",
-				title: "Combat"
-			}]
-		},
-		{
-			icon: {
-				id: "minecraft:iron_axe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
 			x: -3.0d,
-			y: -1.5d,
-			description: [
-				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.).",
-				"",
-				"Higher levels of woodcutting allow you to cut wood faster and have the possiblity of dropping extra wood blocks."
-			],
-			optional: true,
-			id: "416E81CE76446066",
+			y: 0.0d,
+			dependencies: ["026682BD379CF002"],
+			id: "1E87BCA90B5A45AA",
 			tasks: [{
-				id: "53F6058FA66F0D87",
-				type: "checkmark",
-				title: "Woodcutting"
+				id: "6D7CC06A7409A8C9",
+				type: "advancement",
+				title: "Blackstone Hammer: Tier IV",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "9224f124-6291-4535-8d13-60ad990b291a",
+						"double/basic_hammer_right_material": "basic_hammer/blackstone",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/spruce",
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					}
+				},
+				advancement: "tetra:upgrades/hammer_4",
+				criterion: ""
 			}]
 		},
 		{
-			icon: {
-				id: "minecraft:iron_chestplate",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: 0.0d,
-			y: -1.5d,
-			description: [
-				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.).",
-				"",
-				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater."
+			x: 5.0d,
+			y: 0.0d,
+			dependencies: [
+				"7385A70C3CA6DD47",
+				"2625EC5BE51DE54D"
 			],
-			optional: true,
-			id: "78DB7D7B18894DA4",
+			id: "4A7379ED5BC0C161",
 			tasks: [{
-				id: "329A1625CD6214D1",
-				type: "checkmark",
-				title: "Endurance"
+				id: "5A49D7E802E0C1AF",
+				type: "advancement",
+				title: "Obsidian Hammer: Tier V",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "28f8b97f-fe03-43f5-9a76-11c05d84e506",
+						"double/basic_hammer_right_material": "basic_hammer/obsidian",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/iron",
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					}
+				},
+				advancement: "tetra:upgrades/hammer_5",
+				criterion: ""
 			}]
 		},
 		{
-			icon: {
-				id: "minecraft:iron_hoe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -6.0d,
-			y: -1.5d,
-			description: [
-				"Farming skill is gained by harvesting plants and by breeding animals.",
-				"",
-				"Higher levels of farming will allow you to harvest more crops from a single plant and to harvest them faster,"
-			],
-			optional: true,
-			id: "128C6C5B6273C0F3",
+			title: "Netherite Hammer: Tier VI",
+			x: 7.0d,
+			y: 0.0d,
+			dependencies: ["4A7379ED5BC0C161"],
+			id: "0611E32BAF6B62D2",
 			tasks: [{
-				id: "11AA91F96D236C7E",
-				type: "checkmark",
-				title: "Farming"
-			}]
-		},
-		{
-			icon: "mcwwindows:hammer",
-			x: -9.0d,
-			y: -3.0d,
-			description: [
-				"Building skill is gained by placing blocks into the world. The xp you earn is based on the hardness level of the block.",
-				"",
-				"Higher levels of building increases the reach distance that you can place blocks at."
-			],
-			optional: true,
-			id: "6FE308E29F37255A",
-			tasks: [{
-				id: "4BE7647D00B45091",
-				type: "checkmark",
-				title: "Building"
+				id: "78E6F062FBCFB56B",
+				type: "advancement",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "a368fab8-7854-455c-96e3-d21de81a8084",
+						"double/basic_hammer_right_material": "basic_hammer/netherite",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/forged_beam",
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+					}
+				},
+				advancement: "tetra:upgrades/hammer_6",
+				criterion: ""
 			}]
 		},
 		{
@@ -1644,522 +250,887 @@
 					Damage: 0
 				}
 			},
-			x: 0.0d,
-			y: -3.0d,
-			description: [
-				"Archery skill is gained by shooting mobs with a bow.",
-				"You will get less xp if the mob is passive, but more if the mob is killed, is one-shot, or if the arrow flies over 16 blocks.",
-				"",
-				"Higher levels of archery allows you to do extra damage with bows."
-			],
-			optional: true,
-			id: "261FF95C675A0E98",
+			x: -11.0d,
+			y: 2.5d,
+			id: "53724A1FE29BFB20",
 			tasks: [{
-				id: "5CB7A94DEE4ADAD5",
+				id: "1E6C491B7268BB41",
 				type: "checkmark",
-				title: "Archery"
+				title: "Bows"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 4.5d,
+			dependencies: ["53724A1FE29BFB20"],
+			id: "17A7564E50233D43",
+			tasks: [{
+				id: "4640BEC498808C8A",
+				type: "checkmark",
+				title: "Standard Bow (Shortbow)",
+				icon: {
+					id: "tetra:modular_bow",
+					Count: 1b,
+					tag: {
+						"bow/stave": "bow/straight_stave",
+						honing_progress: 80,
+						HideFlags: 1,
+						"bow/basic_string_material": "basic_string/string",
+						"bow/string": "bow/basic_string",
+						id: "b1b90660-150e-4b4e-b7c7-fc282b055189",
+						Damage: 0,
+						"bow/straight_stave_material": "straight_stave/dark_oak"
+					}
+				}
+			}]
+		},
+		{
+			title: "Longbow",
+			x: -13.0d,
+			y: 2.5d,
+			dependencies: ["53724A1FE29BFB20"],
+			id: "1F6F9D8EB4E53575",
+			tasks: [{
+				id: "1677B63A058BC7CB",
+				type: "checkmark",
+				icon: {
+					id: "tetra:modular_bow",
+					Count: 1b,
+					tag: {
+						"bow/stave": "bow/long_stave",
+						honing_progress: 80,
+						HideFlags: 1,
+						"bow/long_stave_material": "long_stave/dark_oak",
+						"bow/basic_string_material": "basic_string/string",
+						"bow/string": "bow/basic_string",
+						id: "6da51f3c-887d-4efb-a7db-e48444ab8c1f",
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -12.5d,
+			y: 4.0d,
+			dependencies: ["53724A1FE29BFB20"],
+			id: "6F1588945003CB8F",
+			tasks: [{
+				id: "2827720457787787",
+				type: "checkmark",
+				title: "Recurve Bow",
+				icon: {
+					id: "tetra:modular_bow",
+					Count: 1b,
+					tag: {
+						"bow/stave": "bow/recurve_stave",
+						honing_progress: 112,
+						"bow/recurve_stave_material": "recurve_stave/oak",
+						HideFlags: 1,
+						"bow/basic_string_material": "basic_string/string",
+						"bow/string": "bow/basic_string",
+						id: "e1e8c186-eb12-47fa-9a1b-9b77067897c7",
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Rope Toolbelt",
+			x: -2.0d,
+			y: 2.5d,
+			id: "3A768E3EC544BDE4",
+			tasks: [{
+				id: "62D031FB1459950F",
+				type: "item",
+				item: {
+					id: "tetra:modular_toolbelt",
+					Count: 1b,
+					tag: {
+						"toolbelt/belt_material": "belt/rope",
+						"toolbelt/belt": "toolbelt/belt",
+						"toolbelt/slot1": "toolbelt/strap_slot1",
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
 			}]
 		},
 		{
 			icon: {
-				id: "minecraft:iron_boots",
+				id: "minecraft:shield",
 				Count: 1b,
 				tag: {
 					Damage: 0
 				}
 			},
+			x: 4.5d,
+			y: 2.5d,
+			id: "44875B6FA3D7CE74",
+			tasks: [{
+				id: "0ED6B9ADE6246EDE",
+				type: "checkmark",
+				title: "Shields"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.0d,
+			dependencies: ["44875B6FA3D7CE74"],
+			id: "64074C9DBD0F7C94",
+			tasks: [{
+				id: "4C02B13898EE5D43",
+				type: "checkmark",
+				title: "Tower Shield",
+				icon: {
+					id: "tetra:modular_shield",
+					Count: 1b,
+					tag: {
+						"shield/plate": "shield/tower",
+						honing_progress: 80,
+						HideFlags: 1,
+						"shield/basic_grip_material": "basic_grip/iron",
+						id: "93c75a90-76a4-43a9-aba3-9a441a1af3a0",
+						Damage: 0,
+						"shield/grip": "shield/basic_grip",
+						"shield/tower_material": "tower/spruce"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			dependencies: ["44875B6FA3D7CE74"],
+			id: "514ADF2A6EE7538C",
+			tasks: [{
+				id: "353DC623E009FD22",
+				type: "checkmark",
+				title: "Heater Shield",
+				icon: {
+					id: "tetra:modular_shield",
+					Count: 1b,
+					tag: {
+						"shield/plate": "shield/heater",
+						honing_progress: 80,
+						HideFlags: 1,
+						"shield/basic_grip_material": "basic_grip/iron",
+						id: "6e535e9b-cc9e-4f8c-b32c-4dce43c889db",
+						Damage: 0,
+						"shield/grip": "shield/basic_grip",
+						"shield/heater_material": "heater/dark_oak"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 2.5d,
+			dependencies: ["44875B6FA3D7CE74"],
+			id: "503765686BCC67C1",
+			tasks: [{
+				id: "2127EEEA1E48D017",
+				type: "checkmark",
+				title: "Buckler Shield",
+				icon: {
+					id: "tetra:modular_shield",
+					Count: 1b,
+					tag: {
+						"shield/buckler_material": "buckler/iron",
+						"shield/plate": "shield/buckler",
+						honing_progress: 112,
+						HideFlags: 1,
+						"shield/basic_grip_material": "basic_grip/iron",
+						id: "dfe4846f-4b6e-4b1b-ad37-04b76c53ed12",
+						Damage: 0,
+						"shield/grip": "shield/basic_grip"
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.5d,
+			id: "248343A8203E7CDC",
+			tasks: [{
+				id: "68649133BE4DA733",
+				type: "checkmark",
+				title: "Single Headed Tools"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 4.5d,
+			dependencies: ["248343A8203E7CDC"],
+			id: "745A812FC4D17090",
+			tasks: [{
+				id: "334975D386A7D4B4",
+				type: "checkmark",
+				title: "Shovels",
+				icon: {
+					id: "tetra:modular_single",
+					Count: 1b,
+					tag: {
+						"single/basic_shovel_material": "basic_shovel/stone",
+						honing_progress: 80,
+						HideFlags: 1,
+						"single/handle": "single/basic_handle",
+						"single/head": "single/basic_shovel",
+						id: "ed7749e0-b0b7-4fbd-8b1f-3cae82687c9f",
+						Damage: 0,
+						"single/basic_handle_material": "basic_handle/stick"
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 4.5d,
+			dependencies: ["248343A8203E7CDC"],
+			id: "538F41CD0B583574",
+			tasks: [{
+				id: "19323D16461D5CF0",
+				type: "checkmark",
+				title: "Spears",
+				icon: {
+					id: "tetra:modular_single",
+					Count: 1b,
+					tag: {
+						honing_progress: 80,
+						HideFlags: 1,
+						"single/handle": "single/basic_handle",
+						"single/head": "single/spearhead",
+						id: "ab6fcd15-483c-4e9c-844f-2e011e5d65c6",
+						Damage: 0,
+						"single/basic_handle_material": "basic_handle/stick",
+						"single/spearhead_material": "spearhead/stone"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.5d,
+			id: "7BC94372A9C4E217",
+			tasks: [{
+				id: "0E33DCC80F705D6C",
+				type: "checkmark",
+				title: "Swords"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.5d,
+			dependencies: ["7BC94372A9C4E217"],
+			id: "1D71BA7DA68CF606",
+			tasks: [{
+				id: "3AE18D356E1CBA0F",
+				type: "checkmark",
+				title: "Standard Swords",
+				icon: {
+					id: "tetra:modular_sword",
+					Count: 1b,
+					tag: {
+						"sword/guard": "sword/makeshift_guard",
+						"sword/blade": "sword/basic_blade",
+						"sword/basic_blade_material": "basic_blade/iron",
+						"sword/pommel": "sword/decorative_pommel",
+						honing_progress: 240,
+						"sword/basic_hilt_material": "basic_hilt/stick",
+						HideFlags: 1,
+						"sword/hilt": "sword/basic_hilt",
+						"sword/makeshift_guard_material": "makeshift_guard/oak",
+						id: "ce08a51a-8eab-4163-8f0b-38dd4ae0db51",
+						Damage: 0,
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.5d,
+			dependencies: ["7BC94372A9C4E217"],
+			id: "6551184966D3FB8D",
+			tasks: [{
+				id: "349A70A36866561A",
+				type: "checkmark",
+				title: "Greatswords",
+				icon: {
+					id: "tetra:modular_sword",
+					Count: 1b,
+					tag: {
+						"sword/guard": "sword/makeshift_guard",
+						"sword/blade": "sword/heavy_blade",
+						"sword/pommel": "sword/decorative_pommel",
+						"sword/heavy_blade_material": "heavy_blade/iron",
+						honing_progress: 305,
+						"sword/basic_hilt_material": "basic_hilt/stick",
+						HideFlags: 1,
+						"sword/hilt": "sword/basic_hilt",
+						"sword/makeshift_guard_material": "makeshift_guard/oak",
+						id: "6a5ee9bd-6a6d-44b5-b3cf-d3aa4f108977",
+						Damage: 0,
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
+					}
+				}
+			}]
+		},
+		{
 			x: 1.5d,
-			y: -4.0d,
-			description: [
-				"Agility skill is gained by in a number of ways:",
-				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this).",
-				"-Jumping: the higher you jump the more xp you gain (Potions can boost this).",
-				"-Saving fall damage (a chance probability of occuring when taking fall damage).",
-				"",
-				"Higher levels of agility will grant a number of advantages:",
-				"-Faster sprinting",
-				"-Higher sprint and crouch jumps",
-				"-A higher chance to save fall damage"
-			],
-			optional: true,
-			id: "63F8E2CB45B9803D",
+			y: 4.5d,
+			dependencies: ["7BC94372A9C4E217"],
+			id: "6DFE4E05FBAC9A3C",
 			tasks: [{
-				id: "3C321FB0BBBB71CF",
+				id: "67FBA29F73E5B0A3",
 				type: "checkmark",
-				title: "Agility"
-			}]
-		},
-		{
-			icon: "minecraft:smithing_table",
-			x: -10.5d,
-			y: -4.0d,
-			description: [
-				"Smithing skill is gained by a number of different methods:",
-				"-Smelting items",
-				"-Repairing items",
-				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)",
-				"",
-				"Higher levels of smithing give a number of good benefits:",
-				"-While smelting ore there is a possibility of getting extra products.",
-				"-When salvaging items, a higher level increases the success rate of salvaging and increases the number of possible salvaging products.",
-				"-Increases the amount repaired when using the anvil and anvils are less likely to break."
-			],
-			optional: true,
-			id: "41F4A32BEA5C4295",
-			tasks: [{
-				id: "3B673FE9BA9A3CC0",
-				type: "checkmark",
-				title: "Smithing"
-			}]
-		},
-		{
-			icon: "minecraft:tropical_fish",
-			x: -3.0d,
-			y: -3.0d,
-			description: [
-				"Swiming skill is gained by going swimming in the lakes, rivers, and oceans.",
-				"",
-				"Higher levels of swimming will grant two advantages, underwater nightvision and the ability to stay underwater longer.",
-				"Underwater Nightvision will unlock at level 25.",
-				"Swimming, and to a lesser extent Endurance, will work together to extend your ability to stay underwater."
-			],
-			optional: true,
-			id: "214CDC923D179E56",
-			tasks: [{
-				id: "5FFBB579483535DF",
-				type: "checkmark",
-				title: "Swimming"
-			}]
-		},
-		{
-			icon: {
-				id: "minecraft:fishing_rod",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -4.5d,
-			y: -1.5d,
-			description: [
-				"Fishing skill is gained by going out and ... you will never guess ... fishing.",
-				"",
-				"While fishing you will be able to catch special items that have the possibility of being enchanted.",
-				"Higher levels of fishing increase the probability of catching better items with better enchantments."
-			],
-			optional: true,
-			id: "4C18DC09C5FFB372",
-			tasks: [{
-				id: "26DAF84205172A75",
-				type: "checkmark",
-				title: "Fishing"
-			}]
-		},
-		{
-			icon: {
-				id: "minecraft:elytra",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			},
-			x: -1.5d,
-			y: -4.0d,
-			description: [
-				"Flying skill is gained by flying around with an Elytra.",
-				"",
-				"There is no bonus for higher levels of this skill."
-			],
-			optional: true,
-			id: "0A0E3A6CA17F84F9",
-			tasks: [{
-				id: "6AA18B31884A0323",
-				type: "checkmark",
-				title: "Flying"
-			}]
-		},
-		{
-			icon: "minecraft:crafting_table",
-			x: -7.5d,
-			y: -4.0d,
-			description: [
-				"Crafting skill is gained by crafting recipes, either in inventory or in a crafting table.",
-				"",
-				"There are no bonuses for higher levels of this skill."
-			],
-			optional: true,
-			id: "7085E4D3E7C51F7B",
-			tasks: [{
-				id: "7AA4F201B206B0D0",
-				type: "checkmark",
-				title: "Crafting"
-			}]
-		},
-		{
-			icon: "cookingforblockheads:oven",
-			x: -4.5d,
-			y: -4.0d,
-			description: [
-				"Cooking skill is gained by cooking food items.",
-				"",
-				"Higher levels of this skill allow for the possibility of extra food being made when cooking food."
-			],
-			optional: true,
-			id: "777FFBDE3AD629F9",
-			tasks: [{
-				id: "15EB7D2E5444C8BB",
-				type: "checkmark",
-				title: "Cooking"
-			}]
-		},
-		{
-			icon: "minecraft:brewing_stand",
-			x: -6.0d,
-			y: -3.0d,
-			description: [
-				"Alchemy skill is gained by brewing potions in the Brewing Stand.",
-				"",
-				"Higher levels of this skill allow for the possibility of extra potions being brewed when brewing a potion."
-			],
-			optional: true,
-			id: "64F9EE8910E19872",
-			tasks: [{
-				id: "3FE9F9324A9A75ED",
-				type: "checkmark",
-				title: "Alchemy"
-			}]
-		},
-		{
-			title: "Reach Farming Level 3",
-			x: -6.0d,
-			y: 0.0d,
-			id: "0BC71F6D6515CB64",
-			tasks: [{
-				id: "53633DBC53510BEF",
-				type: "item",
-				item: {
-					id: "minecraft:stone_hoe",
+				title: "Machetes",
+				icon: {
+					id: "tetra:modular_sword",
 					Count: 1b,
 					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "5DA5FD7E73EB1636",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				},
-				{
-					id: "1178DF8F08DEA8D5",
-					type: "xp_levels",
-					xp_levels: 1
-				}
-			]
-		},
-		{
-			title: "Reach Farming Level 10",
-			x: -6.0d,
-			y: 1.0d,
-			id: "733BE33025F7B192",
-			tasks: [{
-				id: "71F9CC116438FF01",
-				type: "item",
-				item: {
-					id: "minecraft:iron_hoe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
-				{
-					id: "0DC98ADB30C634C6",
-					type: "xp_levels",
-					xp_levels: 5
-				},
-				{
-					id: "31365317F66A8354",
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				},
-				{
-					id: "52D58D087C6883B1",
-					type: "item",
-					item: "minecraft:iron_ingot",
-					random_bonus: 3
-				}
-			]
-		},
-		{
-			title: "Reach Farming Level 20",
-			x: -6.0d,
-			y: 2.0d,
-			id: "793E2D0B26C45307",
-			tasks: [{
-				id: "38793DE98A2D0C7D",
-				type: "item",
-				item: {
-					id: "immersiveengineering:hoe_steel",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "451E8C7612AED792",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
+						"sword/guard": "sword/makeshift_guard",
+						"sword/blade": "sword/machete",
+						"sword/pommel": "sword/decorative_pommel",
+						honing_progress: 240,
+						"sword/basic_hilt_material": "basic_hilt/stick",
+						HideFlags: 1,
+						"sword/machete_material": "machete/iron",
+						"sword/hilt": "sword/basic_hilt",
+						"sword/makeshift_guard_material": "makeshift_guard/oak",
+						id: "2f064add-0979-4bad-bcd9-e60560ec324c",
+						Damage: 0,
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
 					}
 				}
 			}]
 		},
 		{
-			title: "Reach Farming Level 30",
-			x: -6.0d,
-			y: 3.0d,
-			id: "46B9BB8AD4B95DC8",
+			x: 2.5d,
+			y: 4.5d,
+			dependencies: ["7BC94372A9C4E217"],
+			id: "024F55CAFFBC4BE7",
 			tasks: [{
-				id: "6F45B487441CBE1F",
-				type: "item",
-				item: {
-					id: "minecraft:golden_hoe",
+				id: "401115F65CA889F4",
+				type: "checkmark",
+				title: "Shortblades",
+				icon: {
+					id: "tetra:modular_sword",
 					Count: 1b,
 					tag: {
-						Damage: 0
+						"sword/guard": "sword/makeshift_guard",
+						"sword/short_blade_material": "short_blade/iron",
+						"sword/blade": "sword/short_blade",
+						"sword/pommel": "sword/decorative_pommel",
+						honing_progress: 240,
+						"sword/basic_hilt_material": "basic_hilt/stick",
+						HideFlags: 1,
+						"sword/hilt": "sword/basic_hilt",
+						"sword/makeshift_guard_material": "makeshift_guard/oak",
+						id: "9c0b008f-05c8-436b-9423-a1631cdb3e1c",
+						Damage: 0,
+						"sword/decorative_pommel_material": "decorative_pommel/oak"
 					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "34FFDE914B09A595",
-				type: "item",
-				item: "spareparts:coins/golden_coin"
+				}
 			}]
 		},
 		{
-			title: "Reach Farming Level 40",
-			x: -6.0d,
-			y: 4.0d,
-			id: "60D783768464FF77",
+			x: -8.0d,
+			y: 3.5d,
+			id: "07137122925727C8",
 			tasks: [{
-				id: "49B6A8AC6B023286",
-				type: "item",
-				item: {
-					id: "minecraft:diamond_hoe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "736349E671DA4AD7",
-				type: "item",
-				item: "spareparts:coins/diamond_coin"
+				id: "4B19CC90A82F9B98",
+				type: "checkmark",
+				title: "Double Headed Tools"
 			}]
 		},
 		{
-			title: "Reach Farming Level 45",
-			x: -6.0d,
+			x: -9.0d,
+			y: 2.5d,
+			dependencies: ["07137122925727C8"],
+			id: "06422AB7B816826E",
+			tasks: [{
+				id: "7DF918F206409FE2",
+				type: "checkmark",
+				title: "Butt",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/butt_right_material": "butt/iron",
+						"double/handle": "double/basic_handle",
+						honing_progress: 365,
+						HideFlags: 1,
+						"double/head_left": "double/basic_pickaxe_left",
+						"double/head_right": "double/butt_right",
+						id: "177715cb-0f87-44f9-9a45-5987dff99160",
+						Damage: 0,
+						"double/basic_pickaxe_left_material": "basic_pickaxe/iron",
+						"double/basic_handle_material": "basic_handle/stick"
+					}
+				}
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 3.5d,
+			dependencies: ["07137122925727C8"],
+			id: "063AE635AD0E0B31",
+			tasks: [{
+				id: "46A09A896FA94ACF",
+				type: "checkmark",
+				title: "Adze",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/butt_right_material": "butt/iron",
+						"double/handle": "double/basic_handle",
+						honing_progress: 365,
+						HideFlags: 1,
+						"double/head_left": "double/adze_left",
+						"double/head_right": "double/butt_right",
+						id: "8b873ac5-f564-4eed-ac83-53f247c30470",
+						Damage: 0,
+						"double/adze_left_material": "adze/iron",
+						"double/basic_handle_material": "basic_handle/stick"
+					}
+				}
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 4.5d,
+			dependencies: ["07137122925727C8"],
+			id: "03FFC76D89BE5D29",
+			tasks: [{
+				id: "0D54BAB92E8D1166",
+				type: "checkmark",
+				title: "Sickle",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/butt_right_material": "butt/iron",
+						"double/handle": "double/basic_handle",
+						honing_progress: 365,
+						HideFlags: 1,
+						"double/head_left": "double/sickle_left",
+						"double/head_right": "double/butt_right",
+						id: "84257015-bd75-4ab7-b7cf-8396967bdfbc",
+						Damage: 0,
+						"double/sickle_left_material": "sickle/iron",
+						"double/basic_handle_material": "basic_handle/stick"
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
 			y: 5.0d,
-			id: "50F969FD79124A4E",
+			dependencies: ["07137122925727C8"],
+			id: "2BFFB238D31D61AB",
 			tasks: [{
-				id: "2C6FB459846E03A3",
-				type: "item",
-				item: {
-					id: "betterendforge:terminite_hoe",
+				id: "30E620C9E6CF2D9D",
+				type: "checkmark",
+				title: "Hoe",
+				icon: {
+					id: "tetra:modular_double",
 					Count: 1b,
 					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "7784FEB5414846B3",
-				type: "xp_levels",
-				xp_levels: 15
-			}]
-		},
-		{
-			title: "Reach Farming Level 70",
-			x: -6.0d,
-			y: 7.0d,
-			id: "56CFDC7E9ED2A441",
-			tasks: [{
-				id: "2DE1590EBA6C5974",
-				type: "item",
-				item: {
-					id: "betterendforge:aeternium_hoe",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "59B5460945DE1C2E",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
+						"double/butt_right_material": "butt/iron",
+						"double/handle": "double/basic_handle",
+						honing_progress: 365,
+						HideFlags: 1,
+						"double/head_left": "double/hoe_left",
+						"double/head_right": "double/butt_right",
+						id: "d8ad6cbe-3e08-4f69-8ba2-58d0bf4b916b",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/hoe_left_material": "hoe/iron"
 					}
 				}
 			}]
 		},
 		{
-			title: "Reach Farming Level 60",
-			x: -6.0d,
-			y: 6.0d,
-			id: "365D60817E9FE766",
+			x: -7.0d,
+			y: 4.5d,
+			dependencies: ["07137122925727C8"],
+			id: "1ADB6E725663B3AB",
 			tasks: [{
-				id: "25CBC036D570D627",
-				type: "item",
-				item: {
-					id: "minecraft:netherite_hoe",
+				id: "6181D9A053C02A1E",
+				type: "checkmark",
+				title: "Claw",
+				icon: {
+					id: "tetra:modular_double",
 					Count: 1b,
 					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "4F3BE70DE7948995",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
+						"double/butt_right_material": "butt/iron",
+						"double/handle": "double/basic_handle",
+						honing_progress: 365,
+						HideFlags: 1,
+						"double/head_left": "double/claw_left",
+						"double/head_right": "double/butt_right",
+						id: "a0d4fbe0-bf9b-4273-b028-be1dbbb32fe3",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/claw_left_material": "claw/iron"
 					}
 				}
 			}]
 		},
 		{
-			title: "Reach Fishing Level 10",
-			x: -4.5d,
-			y: 1.0d,
-			id: "494141C1DD653E12",
+			x: -6.5d,
+			y: 3.5d,
+			dependencies: ["07137122925727C8"],
+			id: "245946FF40FEFEE2",
 			tasks: [{
-				id: "4A0C870ACF2BDA66",
-				type: "item",
-				item: {
-					id: "aquaculture:iron_fishing_rod",
+				id: "3FD3B3255693B2B5",
+				type: "checkmark",
+				title: "Axe",
+				icon: {
+					id: "tetra:modular_double",
 					Count: 1b,
 					tag: {
-						Damage: 0
+						"double/butt_right_material": "butt/iron",
+						"double/handle": "double/basic_handle",
+						honing_progress: 365,
+						"double/basic_axe_left_material": "basic_axe/iron",
+						HideFlags: 1,
+						"double/head_left": "double/basic_axe_left",
+						"double/head_right": "double/butt_right",
+						id: "c6548ad3-9213-45cc-979a-995c38417c35",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick"
 					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [
+				}
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 2.5d,
+			dependencies: ["07137122925727C8"],
+			id: "4032D56BB750AAE8",
+			tasks: [{
+				id: "35DD6B23A15F413A",
+				type: "checkmark",
+				title: "Pickaxe",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						honing_progress: 440,
+						HideFlags: 1,
+						"double/head_left": "double/basic_pickaxe_left",
+						"double/head_right": "double/basic_pickaxe_right",
+						"double/basic_pickaxe_right_material": "basic_pickaxe/iron",
+						id: "6a11ac06-1669-4566-9922-f7a7f263ffba",
+						Damage: 0,
+						"double/basic_pickaxe_left_material": "basic_pickaxe/iron",
+						"double/basic_handle_material": "basic_handle/stick"
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -2.0d,
+			dependencies: ["1783F3551BE3CC14"],
+			id: "1D3EDFD37AFCCB25",
+			tasks: [{
+				id: "591EB5F7A5AFE86C",
+				type: "item",
+				item: "tetra:geode"
+			}]
+		},
+		{
+			title: "Pristine Gems",
+			x: -11.0d,
+			y: -3.5d,
+			dependencies: ["1D3EDFD37AFCCB25"],
+			id: "76621E06F5BDE7BA",
+			tasks: [
 				{
-					id: "0C61182FA33CE9E5",
+					id: "086D470B79FA94F7",
 					type: "item",
-					item: "spareparts:coins/stone_coin"
+					item: "tetra:pristine_diamond"
 				},
 				{
-					id: "66C35D9C74D756F7",
+					id: "2915E8BE298F56E7",
 					type: "item",
-					item: "minecraft:iron_ingot",
-					random_bonus: 3
+					item: "tetra:pristine_emerald"
 				},
 				{
-					id: "6449CC12A49C4BDE",
-					type: "xp_levels",
-					xp_levels: 5
+					id: "3CD7F5DFCF02F929",
+					type: "item",
+					item: "tetra:pristine_lapis"
 				}
 			]
 		},
 		{
-			title: "Reach Fishing Level 15",
-			x: -4.5d,
-			y: 3.0d,
-			id: "47FB994173546539",
+			x: 2.0d,
+			y: -1.0d,
+			dependencies: ["788795772632D09F"],
+			id: "7385A70C3CA6DD47",
 			tasks: [{
-				id: "168146B1624D328C",
+				id: "32687E4576FEE951",
 				type: "item",
-				item: {
-					id: "aquaculture:gold_fishing_rod",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "58A523024E5D7EF4",
-				type: "item",
-				item: "spareparts:coins/golden_coin"
+				item: "tetra:hammer_base"
 			}]
 		},
 		{
-			title: "Reach Fishing Level 20",
-			x: -4.5d,
-			y: 4.0d,
-			id: "18E32D1C62081D15",
+			title: "Thermal Cells and Recharging",
+			x: 2.0d,
+			y: 1.0d,
+			description: [""],
+			dependencies: ["788795772632D09F"],
+			id: "2625EC5BE51DE54D",
 			tasks: [{
-				id: "43C5671C1D716063",
+				id: "56F1322FCCBA6058",
 				type: "item",
 				item: {
-					id: "aquaculture:diamond_fishing_rod",
+					id: "tetra:magmatic_cell",
 					Count: 1b,
 					tag: {
 						Damage: 0
 					}
 				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "6706796BB5E81A83",
+				count: 2L
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -3.5d,
+			dependencies: ["1BD22FC74CD3DB9A"],
+			id: "78A3FD855453B6DE",
+			tasks: [{
+				id: "6974F338B934B569",
+				type: "checkmark",
+				title: "Materials O' Plenty"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: ["788795772632D09F"],
+			id: "7275F30F2B0F74CC",
+			tasks: [{
+				id: "2C366D0AAB61B86A",
+				type: "item",
+				item: "tetra:forged_workbench"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			dependencies: ["1E87BCA90B5A45AA"],
+			id: "788795772632D09F",
+			tasks: [{
+				id: "15FD9A628848693F",
 				type: "item",
 				item: {
-					id: "ftbquests:lootcrate",
+					id: "tetra:holo",
 					Count: 1b,
 					tag: {
-						type: "tier_ii_random"
+						"holo/frame": "holo/frame",
+						honing_progress: 850,
+						"holo/scanner_0_material": "scanner/scanner",
+						HideFlags: 1,
+						"holo/core_material": "frame/dim",
+						"holo/attachment_0": "holo/scanner_0",
+						"holo/core": "holo/core",
+						id: "8bbf7e50-1547-4947-94ac-6b036cce698c",
+						"holo/frame_material": "core/ancient"
 					}
 				}
 			}]
 		},
 		{
-			title: "Reach Fishing Level 30",
-			x: -4.5d,
-			y: 6.0d,
-			id: "53F5A9F790B5ABEB",
+			title: "Integrity Through Bindings?",
+			x: -9.0d,
+			y: -2.0d,
+			description: [""],
+			dependencies: ["286C78DD09FE49B1"],
+			id: "19012C596BCE8C3E",
 			tasks: [{
-				id: "44197B5595B03203",
+				id: "534071A4AD108145",
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Tool Leveling",
+			x: -8.0d,
+			y: -1.5d,
+			description: [""],
+			dependencies: ["286C78DD09FE49B1"],
+			id: "35DC92C0C706A260",
+			tasks: [{
+				id: "5F066599C93393B3",
+				type: "checkmark"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			dependencies: ["286C78DD09FE49B1"],
+			id: "1F06255C02B6AED5",
+			tasks: [{
+				id: "1E25375AB82A5599",
+				type: "checkmark",
+				title: "Tools Not Included"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.5d,
+			dependencies: ["3A768E3EC544BDE4"],
+			id: "12DAA083C8DAA20D",
+			tasks: [{
+				id: "69F12A268CBDCF9C",
+				type: "checkmark",
+				title: "Storage Pouch"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.5d,
+			dependencies: ["3A768E3EC544BDE4"],
+			id: "310CF42911589333",
+			tasks: [{
+				id: "132190E71F50655F",
+				type: "checkmark",
+				title: "Quiver"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 5.0d,
+			dependencies: ["3A768E3EC544BDE4"],
+			id: "455AC472579E7786",
+			tasks: [{
+				id: "438FE539E7FC82AE",
+				type: "checkmark",
+				title: "Belt Strap"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.5d,
+			dependencies: ["3A768E3EC544BDE4"],
+			id: "1492F3C3FB608067",
+			tasks: [{
+				id: "3F34F04A3619CF4C",
+				type: "checkmark",
+				title: "Booster"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 4.5d,
+			dependencies: ["3A768E3EC544BDE4"],
+			id: "1478BE654172DB0E",
+			tasks: [{
+				id: "76B4B318711D2C2C",
+				type: "checkmark",
+				title: "Potion Bag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.5d,
+			dependencies: ["7275F30F2B0F74CC"],
+			id: "4C7D95C00F276FC9",
+			tasks: [{
+				id: "0C7027CD5E562EA0",
 				type: "item",
-				item: {
-					id: "aquaculture:neptunium_fishing_rod",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				},
-				only_from_crafting: true
-			}],
-			rewards: [{
-				id: "55722C50EFF14DBD",
+				item: "tetra:earthpiercer"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			dependencies: ["7275F30F2B0F74CC"],
+			id: "68841C26A41D419B",
+			tasks: [{
+				id: "610C160E650016CC",
 				type: "item",
-				item: "spareparts:coins/diamond_coin"
+				item: "tetra:quick_latch"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.0d,
+			dependencies: ["7275F30F2B0F74CC"],
+			id: "39CFF60D8B06E5A3",
+			tasks: [{
+				id: "53AD6DC33D5943DC",
+				type: "item",
+				item: "tetra:forged_bolt"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			dependencies: ["7275F30F2B0F74CC"],
+			id: "1D90D810E787E7E0",
+			tasks: [{
+				id: "7317165F20A9EAC0",
+				type: "item",
+				item: "tetra:chthonic_extractor"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			dependencies: ["7275F30F2B0F74CC"],
+			id: "08FC281493BD7368",
+			tasks: [{
+				id: "375D45561BB44389",
+				type: "item",
+				item: "tetra:stonecutter"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.0d,
+			dependencies: ["7385A70C3CA6DD47"],
+			id: "3C1D930613F170F9",
+			tasks: [{
+				id: "167E7C8EEB4E6D91",
+				type: "item",
+				item: "tetra:planar_stabilizer"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			dependencies: ["7385A70C3CA6DD47"],
+			id: "6BBB3BDE124D2C16",
+			tasks: [{
+				id: "7E138E0620B1B741",
+				type: "item",
+				item: "tetra:combustion_chamber"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			dependencies: ["7385A70C3CA6DD47"],
+			id: "4D34DB2A28C1B0DA",
+			tasks: [{
+				id: "0EAA6CD71739DE4F",
+				type: "item",
+				item: "tetra:vent_plate"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			dependencies: ["7385A70C3CA6DD47"],
+			id: "591A481681EEA88F",
+			tasks: [{
+				id: "60C32D282A460565",
+				type: "item",
+				item: "tetra:lubricant_dispenser"
 			}]
 		}
 	]
