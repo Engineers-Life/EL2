@@ -59,9 +59,7 @@ replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industri
         // , outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}"
         } );
 
-// vanilla recipe still exists, so commented?
-// craftingTable.addShapeless("redstone_block_to_dust", <item:minecraft:redstone>*9, [<item:minecraft:redstone_block>], null);
-
+// Chainmail Armor
 craftingTable.addShaped("chain_helmet", <item:minecraft:chainmail_helmet>, [
     [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
     [<item:minecraft:chain>, air, <item:minecraft:chain>] ]);
@@ -80,15 +78,24 @@ craftingTable.addShaped("chain_boots", <item:minecraft:chainmail_boots>, [
     [<item:minecraft:chain>,air,<item:minecraft:chain>],
     [<item:immersiveengineering:plate_iron>,air,<item:immersiveengineering:plate_iron>] ]);
 
+// Bottle Switching
 craftingTable.removeRecipe(<item:vanillafoodpantry:empty_bottle>);
 craftingTable.addShapeless("vanillafoodpantry:empty_bottle", <item:vanillafoodpantry:empty_bottle>, [<item:minecraft:glass_bottle>]);
 craftingTable.addShapeless("minecraft:glass_bottle", <item:minecraft:glass_bottle>, [<item:vanillafoodpantry:empty_bottle>]);
 
+// String Mesh conflicted with Tetra Toolbelt (rope)
 craftingTable.removeRecipe(<item:waterstrainer:string_mesh>);
 craftingTable.addShaped("string_mesh", <item:waterstrainer:string_mesh>, [
     [<item:minecraft:string>,air,<item:minecraft:string>],
     [air,<item:minecraft:string>,air],
     [<item:minecraft:string>,air,<item:minecraft:string>] ]);
+
+// Charm Woodcutter
+craftingTable.removeRecipe(<item:charm:woodcutter>);
+craftingTable.addShaped("charm:woodcutter", <item:charm:woodcutter>, [
+    [air,<item:immersiveengineering:plate_iron>,air],
+    [<item:immersiveengineering:plate_iron>,<tag:items:forge:gears/iron>,<item:immersiveengineering:plate_iron>],
+    [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>] ]);
 
 // make red flint as usable as vanilla flint
 <tag:items:notreepunching:flint_knappable>.add(<item:vanillafoodpantry:red_flint>);
