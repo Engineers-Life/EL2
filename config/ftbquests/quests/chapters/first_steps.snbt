@@ -139,7 +139,7 @@
 				"The Axe is also used to craft planks. Put an axe in the crafting window and a log beneath it.",
 				"To craft a stick, put an axe in the upper left corner and a log on the right.",
 				"",
-				"*Note that this can only be done with vanilla and non-Tetra axes currently*"
+				""
 			],
 			dependencies: ["0000000000000014"],
 			id: "000000000000000C",
@@ -488,7 +488,7 @@
 			},
 			x: 1.5d,
 			y: 0.0d,
-			description: ["A weaker pair of shears, that you can also use to make wooden plates from Planks."],
+			description: ["A weaker pair of shears, but still handy early game before you can get standard shears."],
 			dependencies: ["0000000000000030"],
 			id: "0000000000000032",
 			tasks: [
@@ -525,11 +525,8 @@
 		},
 		{
 			x: 21.5d,
-			y: -3.5d,
-			description: [
-				"Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or flint",
-				"axe, and the yield produced is doubled when using a saw from a flint tool."
-			],
+			y: -3.0d,
+			description: ["Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or axe, but the yield produced is doubled when using a saw."],
 			dependencies: ["0000000000000058"],
 			id: "0000000000000039",
 			tasks: [{
@@ -1061,8 +1058,8 @@
 			}]
 		},
 		{
-			x: 21.5d,
-			y: -6.5d,
+			x: 21.0d,
+			y: -7.0d,
 			description: ["How did I pound these diamonds into a blade? Who cares."],
 			dependencies: ["0000000000000061"],
 			id: "0000000000000065",
@@ -1113,7 +1110,7 @@
 		},
 		{
 			title: "Diamond Armor",
-			x: 20.5d,
+			x: 20.0d,
 			y: -7.0d,
 			description: ["The most sparkling suit of armor you will ever get to wear."],
 			dependencies: ["0000000000000061"],
@@ -1202,7 +1199,7 @@
 		{
 			title: "Iron Armor",
 			x: 19.5d,
-			y: -3.5d,
+			y: -3.0d,
 			description: ["A good improvement, even though you will look a bit like the Silver Surfer."],
 			dependencies: ["0000000000000058"],
 			id: "000000000000006E",
@@ -1367,7 +1364,7 @@
 		},
 		{
 			x: 14.0d,
-			y: -3.0d,
+			y: -3.5d,
 			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."],
 			dependencies: ["0000000000000045"],
 			id: "0000000000000090",
@@ -2162,7 +2159,7 @@
 		{
 			title: "Platformer",
 			x: 13.0d,
-			y: -3.0d,
+			y: -3.5d,
 			description: ["Will allow you to create some scaffolding with interesting and unique textures."],
 			dependencies: ["0000000000000045"],
 			id: "00000000000005EC",
@@ -2285,7 +2282,7 @@
 		},
 		{
 			title: "Volcanic Glass",
-			x: 24.0d,
+			x: 23.5d,
 			y: -5.5d,
 			description: ["This obsidian is some serious tough material."],
 			dependencies: ["0000000000000063"],
@@ -2593,7 +2590,7 @@
 		},
 		{
 			x: 12.0d,
-			y: -4.0d,
+			y: -4.5d,
 			subtitle: "14 slots",
 			description: ["The Golden Lunchbox is a expanded lunchbox."],
 			dependencies: ["000000000000122B"],
@@ -2731,7 +2728,7 @@
 			]
 		},
 		{
-			x: 24.0d,
+			x: 23.5d,
 			y: -7.0d,
 			description: ["Magic? Pah!"],
 			dependencies: ["0000000000000F92"],
@@ -2869,7 +2866,7 @@
 			}]
 		},
 		{
-			x: 25.5d,
+			x: 25.0d,
 			y: -5.5d,
 			description: [
 				"Waystones allow you set points that you can fast travel to across a map. By placing the Waystone down, giving it a name, and right clicking to activate it you will be able to travel to it from any other activated Waystone.",
@@ -3410,13 +3407,20 @@
 			]
 		},
 		{
-			x: 6.5d,
-			y: -4.0d,
+			x: 23.0d,
+			y: -3.0d,
+			description: ["The Woodcutter will be your best friend at base when you need to process logs or planks. In addition to providing a full 4 planks per log it give a large number of unique recipes to make wooden items for a lesser number of planks or logs."],
+			dependencies: ["0000000000000039"],
 			id: "4C4BF4BB9C6C4243",
 			tasks: [{
 				id: "0659E2829B541F81",
 				type: "item",
 				item: "charm:woodcutter"
+			}],
+			rewards: [{
+				id: "597294812DB0ECB4",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -3449,9 +3453,28 @@
 		},
 		{
 			title: "Tetra",
+			icon: {
+				id: "tetra:modular_double",
+				Count: 1b,
+				tag: {
+					"double/handle": "double/basic_handle",
+					"double/head_left": "double/basic_hammer_left",
+					"double/head_right": "double/basic_hammer_right",
+					id: "16dd392f-c9cd-4e3f-a691-35ca070cc648",
+					"double/basic_hammer_right_material": "basic_hammer/blackstone",
+					Damage: 0,
+					"double/basic_handle_material": "basic_handle/spruce",
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+				}
+			},
 			x: -11.5d,
 			y: -2.5d,
-			description: ["Describe Tetra."],
+			description: [
+				"Tetra is a modular tool mod that incorporates exploration into its higher level tools.",
+				"",
+				"Tetra will allow you to take your basic vanilla tools and upgrade them in a wide variety of ways that give bonuses to the tools or equipment.",
+				"Once higher level tools are needed exploration will have to be undertaken to gain items for a forge from special dungeons made by an ancient advanced culture in cold biomes."
+			],
 			dependencies: ["0000000000001231"],
 			id: "0E57528AB581F03E",
 			tasks: [{
