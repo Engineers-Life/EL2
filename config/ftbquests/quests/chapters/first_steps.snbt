@@ -137,9 +137,7 @@
 				"A Flint Axe can enable you to collect wood and build a crafting table.",
 				"",
 				"The Axe is also used to craft planks. Put an axe in the crafting window and a log beneath it.",
-				"To craft a stick, put an axe in the upper left corner and a log on the right.",
-				"",
-				""
+				"To craft a stick, put an axe in the upper left corner and a log on the right."
 			],
 			dependencies: ["0000000000000014"],
 			id: "000000000000000C",
