@@ -2189,7 +2189,7 @@
 					Damage: 0
 				}
 			},
-			x: -11.5d,
+			x: -11.0d,
 			y: -1.5d,
 			subtitle: "Ore Excavation/Veinminer Alternative",
 			description: [
@@ -2636,7 +2636,7 @@
 			}]
 		},
 		{
-			x: -7.5d,
+			x: -8.0d,
 			y: -1.5d,
 			description: [
 				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods.",
@@ -2814,7 +2814,7 @@
 			]
 		},
 		{
-			x: -7.5d,
+			x: -8.0d,
 			y: -2.5d,
 			description: [
 				"Gone are the days of crafting obsidian doorways to the Nether. ",
@@ -3467,7 +3467,7 @@
 					"double/basic_hammer_left_material": "basic_hammer/blackstone"
 				}
 			},
-			x: -11.5d,
+			x: -11.0d,
 			y: -2.5d,
 			description: [
 				"Tetra is a modular tool mod that incorporates exploration into its higher level tools.",
@@ -3479,7 +3479,28 @@
 			id: "0E57528AB581F03E",
 			tasks: [{
 				id: "10703633DA79069A",
-				type: "checkmark"
+				type: "checkmark",
+				title: "Tetra"
+			}]
+		},
+		{
+			icon: "engineersdecor:sign_danger",
+			x: -7.0d,
+			y: -2.0d,
+			subtitle: "Ouch, That Hurt..... Where's My Stuff?",
+			description: [
+				"You died. That sucks. Never fear, your stuff won't disappear.",
+				"",
+				"With the Corpse mod, your inventory will remain on a corpse of your character model at the death point until your claim it. Right click your corpse to bring up its inventory and all your goodies back.",
+				"",
+				"After an hour of gametime your corpse will turn into a skeleton. Never fear, it still has your stuff."
+			],
+			dependencies: ["0000000000001231"],
+			id: "250B7AC1DDF4BEA6",
+			tasks: [{
+				id: "43CFD73C8201DDF4",
+				type: "checkmark",
+				title: "Corpse"
 			}]
 		}
 	]
