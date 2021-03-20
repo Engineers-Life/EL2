@@ -2,7 +2,7 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
-  renderorder = background
+  renderorder = foreground
 }
 
 customization {
@@ -18,9 +18,9 @@ customization {
 customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 1
+  x = 11
   action = movebutton
-  y = 2
+  y = 17
 }
 
 customization {
@@ -28,7 +28,7 @@ customization {
   orientation = bottom-centered
   x = -100
   action = movebutton
-  y = -182
+  y = -183
 }
 
 customization {
@@ -40,9 +40,15 @@ customization {
 
 customization {
   identifier = %id=400298%
+  action = setbuttonlabel
+  value = Singleplayer
+}
+
+customization {
+  identifier = %id=400298%
   action = setbuttontexture
   backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal_sp.png
+  backgroundnormal = config/fancymenu/button_normal.png
 }
 
 customization {
@@ -70,14 +76,14 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = bottom-centered
-  x = 6
+  x = 12
   action = movebutton
   y = -62
 }
 
 customization {
   identifier = %id=502382%
-  width = 94
+  width = 88
   action = resizebutton
   height = 20
 }
@@ -86,34 +92,6 @@ customization {
   identifier = %id=502382%
   action = setbuttontexture
   backgroundhovered = config/fancymenu/button_hover_q.png
-  backgroundnormal = config/fancymenu/button_normal.png
-}
-
-customization {
-  identifier = %id=376382%
-  orientation = bottom-centered
-  x = -12
-  action = movebutton
-  y = -62
-}
-
-customization {
-  identifier = %id=376382%
-  width = 16
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = L
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
   backgroundnormal = config/fancymenu/button_normal.png
 }
 
@@ -154,7 +132,7 @@ customization {
 
 customization {
   identifier = %id=400382%
-  width = 86
+  width = 88
   action = resizebutton
   height = 20
 }
@@ -171,6 +149,7 @@ customization {
   name = gears
   x = -153
   width = 158
+  actionid = 33e9668f-f0c1-4eea-b5cd-516e7e4ffe031616137489226
   action = addanimation
   y = 8
   height = 191
@@ -181,6 +160,7 @@ customization {
   buttonaction = openlink
   x = 1
   width = 99
+  actionid = 97742445-c534-4422-a92a-62cf9d7a1b8e1616225203227
   action = addbutton
   y = -128
   backgroundhovered = config/fancymenu/button_hover.png
@@ -195,6 +175,7 @@ customization {
   buttonaction = openlink
   x = -100
   width = 200
+  actionid = f737a8ec-100a-45aa-82ed-c0882f1c4f6e1616225203229
   action = addbutton
   y = -106
   backgroundhovered = config/fancymenu/button_hover.png
@@ -206,14 +187,15 @@ customization {
 
 customization {
   orientation = bottom-centered
-  hoverlabel = powered by Bisecthosting!
   buttonaction = openlink
+  backgroundhovered = config/fancymenu/button_hover.png
+  label = Support the Creator - Rent a Server
+  hoverlabel = Powered by Bisecthosting!
   x = -100
   width = 200
+  actionid = 44c6ff71-17f8-4121-8709-4e7d93f8887d1616225203232
   action = addbutton
   y = -84
-  backgroundhovered = config/fancymenu/button_hover.png
-  label = Support the creator - rent a server
   backgroundnormal = config/fancymenu/button_normal.png
   value = https://bisecthosting.com/xdreamz
   height = 20
@@ -222,24 +204,40 @@ customization {
 customization {
   path = config/fancymenu/logo.png
   orientation = top-centered
-  x = -151
+  x = -148
   width = 303
   action = addtexture
-  y = 0
+  actionid = d57a1e0b-f3c6-4cc6-98ad-34e1af3632621616137489240
+  y = 6
   height = 195
 }
 
 customization {
   orientation = bottom-centered
   buttonaction = openlink
-  x = -58
+  x = -57
   width = 116
+  actionid = c9b50228-0576-47fc-8dbb-510acc29585b1616225203237
   action = addbutton
-  y = -32
+  y = -39
   backgroundhovered = config/fancymenu/vertical_dark_text_hover.png
   label = 
   backgroundnormal = config/fancymenu/vertical_dark_text.png
   value = https://bisecthosting.com/xdreamz
   height = 32
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -10
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = L
 }
 

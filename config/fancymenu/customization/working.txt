@@ -1,0 +1,12 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorkingScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/animations/hex2.png
+  action = texturizebackground
+}
+
