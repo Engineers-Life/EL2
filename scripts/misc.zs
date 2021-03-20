@@ -110,5 +110,14 @@ replaceByName("minecraft:fletching_table",<item:minecraft:fletching_table>,
 // Big Reactors
 removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_passive>);
 removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_active>);
+<tag:blocks:forge:coils/copper>.add(<block:immersiveengineering:coil_lv>);
+<tag:blocks:forge:coils/electrum>.add(<block:immersiveengineering:coil_mv>);
+<tag:blocks:forge:coils/steel>.add(<block:immersiveengineering:coil_hv>);
+
+// Better End Forge
+<tag:blocks:forge:storage_blocks/aeternium>.add(<block:betterendforge:aeternium_block>);
+<tag:blocks:forge:storage_blocks/amber>.add(<block:betterendforge:amber_block>);
+<tag:blocks:forge:storage_blocks/thallasium>.add(<block:betterendforge:thallasium_block>);
+<tag:blocks:forge:storage_blocks/terminite>.add(<block:betterendforge:terminite_block>);
 
 println("END misc.zs");
