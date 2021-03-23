@@ -7,6 +7,8 @@ println("BEGIN furnace.zs");
 
 val bricksAreBetter = true; // transfer all missing recipes into modded block
 
+val REMOVE_FOOD_FROM_FURNACE = false;
+
 // Data reminders:
 // Recipe Manager	Bracket Handler	                    Global Variable
 // Blasting	        <recipetype:minecraft:blasting>	    blastFurnace
@@ -105,7 +107,7 @@ furnace.removeRecipe(<item:veggie_way:cooked_tofu>);
 campfire.addRecipe("cooked_tofu_campfire",<item:veggie_way:cooked_tofu>,<item:simplefarming:tofu>, 0.2, 5*20);
 smoker.addRecipe("cooked_tofu_smoker",<item:veggie_way:cooked_tofu>,<item:simplefarming:tofu>, 0.2, 5*20);
 <item:veggie_way:cooked_tofu>.food=<item:simplefarming:tofu>.food;
-// remove food from furnace, moving to smoker if not present.
+// remove food from furnace (if REMOVE_FOOD_FROM_FURNACE is true), moving to smoker if not present.
 for furnaceWrapper in furnace.getAllRecipes() {
     if (furnaceWrapper.output.food != null) {
         val smokerRecipes = smoker.getRecipesByOutput(furnaceWrapper.output);
@@ -124,7 +126,7 @@ for furnaceWrapper in furnace.getAllRecipes() {
                 }
             }
         }
-        furnace.removeByName(furnaceWrapper.id.toString());
+        if (REMOVE_FOOD_FROM_FURNACE) { furnace.removeByName(furnaceWrapper.id.toString()); }
     }
 }
 println("END furnace.food_processing");
@@ -179,10 +181,10 @@ val blockRecipes = {
         } } as IIngredient[][][string][string];
 
 // move recipes
-for group, groupData in recipeGroups {      println("Iterating "+group+" recipes.");
+for group, groupData in recipeGroups {      //println("Iterating "+group+" recipes.");
     for modid, recipe_type in groupData {   //println("* Iterating recipes for "+modid+".");
         if loadedMods.isModLoaded(modid) {  //println("* * "+modid+" is loaded.");
-            if (modid != "minecraft" && bricksAreBetter && "minecraft" in groupData) { println("* * Bricks are Better.");
+            if (modid != "minecraft" && bricksAreBetter && "minecraft" in groupData) { //println("* * Bricks are Better.");
                 val vanillaManager = BracketHandlers.getRecipeManager(groupData["minecraft"]);
                 //println("MANAGER: "+recipe_type);
                 val moddedManager = BracketHandlers.getRecipeManager(recipe_type);
