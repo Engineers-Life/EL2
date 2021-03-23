@@ -16,7 +16,7 @@ I:defaultguiscale = '-1';
 
 ##[customization]
 
-B:showcustomizationbuttons = 'true';
+B:showcustomizationbuttons = 'false';
 
 
 ##[mainmenu]
