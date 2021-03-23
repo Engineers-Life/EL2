@@ -535,13 +535,23 @@
 			dependencies: ["0000000000000614"],
 			id: "00000000000011DC",
 			tasks: [{
-				id: "00000000000011DD",
+				id: "11D35CD8913AFF88",
 				type: "item",
-				item: {
+				title: "Industrial Foregoing's Manual",
+				icon: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				},
+				item: {
+					id: "itemfilters:strong_nbt",
+					Count: 1b,
+					tag: {
+						value: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
 					}
 				}
 			}],

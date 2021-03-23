@@ -260,7 +260,7 @@
 			]
 		},
 		{
-			x: 23.0d,
+			x: 13.0d,
 			y: 0.0d,
 			description: ['If I sprinkle some of this "magic" dust on one of those eyes from a teleporting tall guys they seem to fly off in a direction. I should follow to see where they head.'],
 			dependencies: ["000000000000007C"],
@@ -296,8 +296,8 @@
 		{
 			title: "Is this actually the End?",
 			icon: "minecraft:end_portal_frame",
-			x: 25.5107142857143d,
-			y: 0.030952380952385283d,
+			x: 11.0d,
+			y: 0.0d,
 			shape: "gear",
 			description: ["A big portal in an old dungeon. What could go wrong jumping in?"],
 			dependencies: ["0000000000000093"],
@@ -327,7 +327,7 @@
 			title: "See you in Hell...",
 			icon: "minecraft:netherrack",
 			disable_toast: true,
-			x: 18.559523809523824d,
+			x: 17.559523809523824d,
 			y: 0.0d,
 			shape: "gear",
 			description: ["There is a whole new land of mystery down here."],
@@ -341,8 +341,8 @@
 			}]
 		},
 		{
-			x: 18.5d,
-			y: 4.5d,
+			x: 16.79107142857145d,
+			y: 3.982142857142854d,
 			dependencies: ["0000000000000F9F"],
 			id: "00000000000000D7",
 			tasks: [{
@@ -358,7 +358,7 @@
 			}]
 		},
 		{
-			x: 21.0d,
+			x: 15.0d,
 			y: 0.0d,
 			description: ["It isn't \"magic\", it is \"chemistry\". ;)"],
 			dependencies: ["0000000000000080"],
@@ -383,7 +383,7 @@
 			}]
 		},
 		{
-			x: 16.5d,
+			x: 15.5d,
 			y: -1.5d,
 			description: ["Some kind of ancient metal it seems, could use potentially. I wonder how strong it is?"],
 			dependencies: ["0000000000000080"],
@@ -410,8 +410,8 @@
 		},
 		{
 			title: "Wither Skeleton Trio",
-			x: 16.0d,
-			y: 0.0d,
+			x: 18.326785714285734d,
+			y: 2.517857142857139d,
 			description: ["Killed a trio of black skeletons that sapped my strength when they hit me."],
 			dependencies: ["0000000000000080"],
 			id: "0000000000000082",
@@ -445,7 +445,7 @@
 			]
 		},
 		{
-			x: 20.5d,
+			x: 19.5d,
 			y: 2.0d,
 			description: ["Hey a free source of light, quite decorative and usefull as well."],
 			dependencies: ["0000000000000080"],
@@ -463,7 +463,7 @@
 			}]
 		},
 		{
-			x: 20.5d,
+			x: 19.5d,
 			y: 3.5d,
 			description: ["I bet I can take some glowstone and make it a bit more industrial looking."],
 			dependencies: ["00000000000000F1"],
@@ -509,8 +509,8 @@
 		},
 		{
 			title: "Wither Buddy",
-			x: 14.0d,
-			y: 0.0d,
+			x: 18.326785714285734d,
+			y: 4.017857142857139d,
 			description: ["I should make an example out of those skeletons and make an effigy on a T of soul sand. That should teach them!"],
 			dependencies: ["0000000000000082"],
 			id: "0000000000000084",
@@ -536,7 +536,7 @@
 			}]
 		},
 		{
-			x: 16.5d,
+			x: 15.5d,
 			y: -3.5d,
 			description: ["Seems like the ancient metal smelts down quite well."],
 			dependencies: ["0000000000000095"],
@@ -559,7 +559,7 @@
 			}]
 		},
 		{
-			x: 18.0d,
+			x: 17.0d,
 			y: -5.0d,
 			description: ["This may be the best pickaxe I have ever seen!"],
 			dependencies: ["0000000000000097"],
@@ -598,8 +598,8 @@
 			]
 		},
 		{
-			x: 12.0d,
-			y: 0.0d,
+			x: 17.5d,
+			y: 5.5d,
 			shape: "gear",
 			description: ["Did that Wither just drop a..... star?"],
 			dependencies: ["0000000000000084"],
@@ -617,8 +617,8 @@
 			}]
 		},
 		{
-			x: 12.0d,
-			y: -1.5d,
+			x: 17.5d,
+			y: 7.5d,
 			description: ["I bet this star could give me a big beam of light. Could also have some other benefits if I put it up on some blocks of metal like some kind of antenna."],
 			dependencies: ["0000000000000086"],
 			id: "0000000000000088",
@@ -684,8 +684,8 @@
 		},
 		{
 			title: "Nether Hot Stuff",
-			x: 18.5d,
-			y: 2.5d,
+			x: 16.79107142857145d,
+			y: 2.482142857142854d,
 			shape: "gear",
 			description: ["May want to look into collecting some of these for some future hot prospects."],
 			dependencies: ["0000000000000080"],
@@ -783,7 +783,7 @@
 			}]
 		},
 		{
-			x: 16.5d,
+			x: 15.5d,
 			y: 2.0d,
 			description: ["This quartz grows pretty crazy down here. Seems like it may be refinable. "],
 			dependencies: ["0000000000000080"],
@@ -801,7 +801,7 @@
 		},
 		{
 			title: "Magic Dust",
-			x: 16.5d,
+			x: 15.5d,
 			y: 3.75d,
 			shape: "gear",
 			description: ["This silicon may be the magic to some tech I need...."],
@@ -829,7 +829,7 @@
 			]
 		},
 		{
-			x: 17.5d,
+			x: 16.5d,
 			y: -2.5d,
 			description: ["The Reclaimer is your portal out of the Nether. Found in Monoliths around the Nether, the Reclaimers can be activated by having a block of gold touching 4 sides of the block. When activated, the beam will change to gold and lift and transport you to the Overworld."],
 			dependencies: ["0000000000000080"],
@@ -846,7 +846,7 @@
 			}]
 		},
 		{
-			x: 18.5d,
+			x: 17.5d,
 			y: -2.0d,
 			description: ["The portal pools in Nether Rifts can be picked up and moved by bucket. A new portal can then be placed anywhere of your choosing, as long as it is deep underground."],
 			dependencies: ["0000000000000080"],
@@ -1130,7 +1130,7 @@
 		},
 		{
 			title: "Pigstep",
-			x: 20.5d,
+			x: 19.5d,
 			y: -3.5d,
 			description: ["Who knew Piglins liked music?"],
 			dependencies: ["0000000000001528"],
@@ -1150,7 +1150,7 @@
 					Damage: 0
 				}
 			},
-			x: 20.5d,
+			x: 19.5d,
 			y: -1.5d,
 			description: ["The Piglins will not take kindly to you raiding their home."],
 			dependencies: ["0000000000000080"],
@@ -1164,7 +1164,7 @@
 		},
 		{
 			title: "Snout Banner",
-			x: 19.0d,
+			x: 18.0d,
 			y: -5.0d,
 			description: ["Make sure the Piglins know you mean business."],
 			dependencies: ["0000000000001526"],
@@ -1176,7 +1176,7 @@
 			}]
 		},
 		{
-			x: 19.5d,
+			x: 18.5d,
 			y: -2.5d,
 			description: ["Striders are a great way of getting around the Nether. They will allow you to quickly cross large lava pools with ease. You must first saddle them to ride them so you can lure them over to you with some Warped Fungus on a Stick. They can travel across land, albeit slowly, but are much better accustomed to sliding across lava."],
 			dependencies: ["0000000000000080"],
@@ -1208,7 +1208,7 @@
 			]
 		},
 		{
-			x: 18.5d,
+			x: 17.5d,
 			y: -3.5d,
 			description: ["This Teleporter will transport you to the Mining Dimension, a world of caves where you can mine resources out of the Overworld."],
 			dependencies: ["00000000000014FE"],
@@ -1232,8 +1232,8 @@
 		},
 		{
 			disable_toast: true,
-			x: 11.0d,
-			y: 6.5d,
+			x: 9.5d,
+			y: 5.809523809523803d,
 			shape: "gear",
 			id: "0000000000001604",
 			tasks: [{
@@ -1243,8 +1243,8 @@
 			}]
 		},
 		{
-			x: 10.43392857142858d,
-			y: 4.690476190476197d,
+			x: 8.93392857142858d,
+			y: 4.0d,
 			description: ["Gives you better vision underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001606",
@@ -1273,8 +1273,8 @@
 			]
 		},
 		{
-			x: 11.57678571428572d,
-			y: 4.714285714285715d,
+			x: 10.07678571428572d,
+			y: 4.023809523809518d,
 			description: ["Allows you to breath underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001608",
@@ -1303,8 +1303,8 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: 5.5d,
+			x: 11.0d,
+			y: 4.809523809523803d,
 			description: ["Slows sinking when underwater."],
 			dependencies: ["0000000000001604"],
 			id: "000000000000160A",
@@ -1333,8 +1333,8 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: 5.5d,
+			x: 8.0d,
+			y: 4.809523809523803d,
 			description: ["Makes you swim faster."],
 			dependencies: ["0000000000001604"],
 			id: "000000000000160C",
@@ -1363,8 +1363,8 @@
 			]
 		},
 		{
-			x: 10.43392857142858d,
-			y: 8.285714285714285d,
+			x: 8.93392857142858d,
+			y: 7.595238095238088d,
 			description: ["No penalty for mining underwater."],
 			dependencies: ["0000000000001604"],
 			id: "000000000000160E",
@@ -1393,8 +1393,8 @@
 			]
 		},
 		{
-			x: 9.5d,
-			y: 7.5d,
+			x: 8.0d,
+			y: 6.809523809523803d,
 			description: ["No penalty for diging underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001610",
@@ -1423,8 +1423,8 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: 7.5d,
+			x: 11.0d,
+			y: 6.809523809523803d,
 			description: ["Does increased damage underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001612",
@@ -1453,8 +1453,8 @@
 			]
 		},
 		{
-			x: 13.0d,
-			y: 6.5d,
+			x: 11.5d,
+			y: 5.809523809523803d,
 			description: ["Tilled land with this hoe is always hydrated."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001614",
@@ -1483,8 +1483,8 @@
 			]
 		},
 		{
-			x: 11.552976190476201d,
-			y: 8.285714285714285d,
+			x: 10.052976190476201d,
+			y: 7.595238095238088d,
 			description: ["Does more damage udnerwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001616",
@@ -1513,8 +1513,8 @@
 			]
 		},
 		{
-			x: 9.0d,
-			y: 6.5d,
+			x: 7.5d,
+			y: 5.809523809523803d,
 			description: ["Allows you to shoot arrows underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001618",
@@ -1541,6 +1541,38 @@
 					xp_levels: 5
 				}
 			]
+		},
+		{
+			icon: "minecraft:grass_block",
+			x: 20.625d,
+			y: 0.0d,
+			description: [
+				"You will need to journey through the nether to find you way back to the surface. A monolith containing a Reclaimer will need to be found and surrounded on 4 sides with a gold block before it will activate and take you home.",
+				"",
+				"Make sure to save some tool strength or make some new ones because taking you back home with only take you back to deep underground. You will still need to travel back to the surface.",
+				"",
+				"Take this Iron Pickaxe incase you are stuck, or just throw it into the nearest lava if you have a great Tetra tool!"
+			],
+			dependencies: ["0000000000000080"],
+			size: 1.25d,
+			id: "023B090D63EF390D",
+			tasks: [{
+				id: "2A0C4CC7C95260B8",
+				type: "dimension",
+				title: "The Long Journey Home",
+				dimension: "minecraft:overworld"
+			}],
+			rewards: [{
+				id: "5830F921DE7F594C",
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

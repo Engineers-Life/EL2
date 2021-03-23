@@ -2370,40 +2370,23 @@
 				{
 					id: "0000000000000724",
 					type: "item",
-					item: {
+					title: "The Extreme Book",
+					icon: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "bigreactors:erguide"
 						}
-					}
-				},
-				{
-					id: "0000000000000725",
-					type: "item",
+					},
 					item: {
-						id: "patchouli:guide_book",
+						id: "itemfilters:strong_nbt",
 						Count: 1b,
 						tag: {
-							"patchouli:book": "transport:guide"
+							value: {
+								"patchouli:book": "bigreactors:erguide"
+							}
 						}
 					}
-				},
-				{
-					id: "0000000000000726",
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"patchouli:book": "productivebees:guide"
-						}
-					}
-				},
-				{
-					id: "0000000000000727",
-					type: "item",
-					item: "cookingforblockheads:recipe_book"
 				},
 				{
 					id: "0000000000000728",
@@ -2416,31 +2399,9 @@
 					item: "ftbquests:book"
 				},
 				{
-					id: "000000000000072A",
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"patchouli:book": "engineersdecor:engineersdecor_manual"
-						}
-					}
-				},
-				{
 					id: "000000000000072B",
 					type: "item",
 					item: "immersiveengineering:manual"
-				},
-				{
-					id: "000000000000072C",
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"patchouli:book": "industrialforegoing:industrial_foregoing"
-						}
-					}
 				},
 				{
 					id: "000000000000072D",
@@ -2455,11 +2416,105 @@
 				{
 					id: "0000000000001340",
 					type: "item",
-					item: {
+					title: "Network Guide Book",
+					icon: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "storagenetwork:network_book"
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								"patchouli:book": "storagenetwork:network_book"
+							}
+						}
+					}
+				},
+				{
+					id: "3DAC8F6E7948DCFE",
+					type: "item",
+					title: "Big Book of Bees",
+					icon: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								"patchouli:book": "productivebees:guide"
+							}
+						}
+					}
+				},
+				{
+					id: "100432F50160DB75",
+					type: "item",
+					title: "Advanced Transport",
+					icon: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "transport:guide"
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								"patchouli:book": "transport:guide"
+							}
+						}
+					}
+				},
+				{
+					id: "0DEA8468D0CCF620",
+					type: "item",
+					title: "Engineer's Decor",
+					icon: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								"patchouli:book": "engineersdecor:engineersdecor_manual"
+							}
+						}
+					}
+				},
+				{
+					id: "5F81754D88EE8964",
+					type: "item",
+					title: "Industrial Foregoing's Manual",
+					icon: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								"patchouli:book": "industrialforegoing:industrial_foregoing"
+							}
 						}
 					}
 				}
@@ -2818,7 +2873,7 @@
 				"Gone are the days of crafting obsidian doorways to the Nether. ",
 				"",
 				"Yung's Better Portals has changed the way that you will navigate to/from the Nether. Adventure deep underground to find Nether Rifts, pockets of the Nether that have risen into the Overworld, containing portal pools.",
-				"By jumping into the portal, you will be one-way transported to the top of the Nether. From there you will need to adventure to find a Monolith, an altar containing a Reclaimer. It will be able to be transport you back to the Overworld."
+				"By jumping into the portal, you will be one-way transported to the top of the Nether. From there you will need to adventure to find a Monolith, an altar containing a Reclaimer. It will be able to transport you back to the Overworld."
 			],
 			dependencies: ["0000000000001231"],
 			id: "00000000000014ED",
@@ -2829,12 +2884,21 @@
 				icon: "minecraft:nether_gold_ore"
 			}],
 			rewards: [{
-				id: "0000000000001502",
-				type: "command",
-				title: "Forbidden Travel",
-				icon: "minecraft:book",
-				command: "/give @p written_book{pages: ['{\"text\":\"It has long been foretold that traveling deep into the portals is a fatal endeavor and it has been spoken that only a few have returned back to this world. They have spoken of needing great wealth in order repair the portal to be transported back to the above world.\"}', '{\"text\":\"You may consider bringing some gilded blocks with you on your journey through portals to ensure a safe journey home.\"}'],title:\"Forbidden Travel\",author:\"Unknown Traveller\",generation:3}",
-				player_command: false
+				id: "2BCCC51B41C23F8D",
+				type: "item",
+				item: {
+					id: "minecraft:written_book",
+					Count: 1b,
+					tag: {
+						generation: 3,
+						pages: [
+							'{"text":"It has long been foretold that traveling deep into the portals is a fatal endeavor and it has been spoken that only a few have returned back to this world. They have spoken of needing great wealth in order repair the portal to be transported back to the above world."}',
+							'{"text":"You may consider bringing some gilded blocks with you on your journey through portals to ensure a safe journey home."}'
+						],
+						title: "Forbidden Travel",
+						author: "Unknown Traveller"
+					}
+				}
 			}]
 		},
 		{
@@ -3479,6 +3543,11 @@
 				id: "10703633DA79069A",
 				type: "checkmark",
 				title: "Tetra"
+			}],
+			rewards: [{
+				id: "56E1C31A20111211",
+				type: "item",
+				item: "minecraft:torch"
 			}]
 		},
 		{
@@ -3499,6 +3568,11 @@
 				id: "43CFD73C8201DDF4",
 				type: "checkmark",
 				title: "Corpse"
+			}],
+			rewards: [{
+				id: "1C2ACAED704EF526",
+				type: "item",
+				item: "minecraft:carrot"
 			}]
 		}
 	]

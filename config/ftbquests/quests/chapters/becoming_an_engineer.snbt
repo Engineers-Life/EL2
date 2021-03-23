@@ -1217,7 +1217,7 @@
 			}]
 		},
 		{
-			x: -8.5d,
+			x: -7.0d,
 			y: -1.5d,
 			description: ["A convient toolbox to carry your tools in, along with some food and other items."],
 			dependencies: ["000000000000022F"],
@@ -1511,10 +1511,10 @@
 			]
 		},
 		{
-			x: -9.5d,
-			y: -2.5d,
+			x: -10.5d,
+			y: -1.5d,
 			description: ["A storage crate is a standard size storage block (27 spaces) that keeps its inventory when broken."],
-			dependencies: ["0000000000000240"],
+			dependencies: ["0000000000000330"],
 			id: "0000000000000255",
 			tasks: [{
 				id: "0000000000000256",
@@ -1528,8 +1528,8 @@
 			}]
 		},
 		{
-			x: -11.0d,
-			y: -3.0d,
+			x: -11.5d,
+			y: -2.5d,
 			description: ["The reinforced storage crate acts the same as the wooden storage crate but it is blast proof."],
 			dependencies: ["0000000000000255"],
 			id: "0000000000000257",
@@ -1559,8 +1559,8 @@
 			]
 		},
 		{
-			x: -9.789285714285661d,
-			y: -4.033928571428564d,
+			x: -10.0d,
+			y: -3.0d,
 			description: ["The labeled crate is a double size storage block that has a slot in its GUI to to display on the front of the crate."],
 			dependencies: ["0000000000000255"],
 			id: "0000000000000259",
@@ -1584,13 +1584,13 @@
 			]
 		},
 		{
-			x: -8.0d,
-			y: -3.0d,
+			x: -9.5d,
+			y: -1.5d,
 			description: [
 				"Can store 12,000 mB (12 buckets) of a liquid for future use. ",
 				'Cannot hold "hot" liquids or gases.'
 			],
-			dependencies: ["0000000000000240"],
+			dependencies: ["0000000000000330"],
 			id: "000000000000025B",
 			tasks: [{
 				id: "0000000000001034",
@@ -1605,8 +1605,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -1.5d,
+			x: -7.5d,
+			y: -2.5d,
 			description: ['A heavy duty "bucket" that can hold 10,000 mB of a liquid (10 buckets).'],
 			dependencies: ["0000000000000240"],
 			id: "000000000000025D",
@@ -2545,10 +2545,10 @@
 		},
 		{
 			title: "Skyhook",
-			x: -7.0d,
-			y: -1.5d,
+			x: -6.5d,
+			y: -2.5d,
 			description: ["The skyhook will allow you to glide along wires or IE rope by right clicking their end connectors."],
-			dependencies: ["000000000000022F"],
+			dependencies: ["0000000000000240"],
 			id: "00000000000002C8",
 			tasks: [
 				{
@@ -2795,13 +2795,23 @@
 					item: "immersiveengineering:manual"
 				},
 				{
-					id: "000000000000120B",
+					id: "0AC97E53608ABE6E",
 					type: "item",
-					item: {
+					title: "Engineer's Decor",
+					icon: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								"patchouli:book": "engineersdecor:engineersdecor_manual"
+							}
 						}
 					}
 				}
@@ -2813,8 +2823,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: -4.5d,
+			x: -8.5d,
+			y: -2.5d,
 			description: ["This barrel also holds 12,000 mB  (12 buckets) of a liquid but it can be a hot or a gas."],
 			dependencies: ["000000000000025B"],
 			id: "0000000000001035",

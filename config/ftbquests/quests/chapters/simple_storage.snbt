@@ -443,13 +443,23 @@
 			dependencies: ["00000000000001A7"],
 			id: "0000000000001247",
 			tasks: [{
-				id: "0000000000001248",
+				id: "38126F8C0BCB7AE7",
 				type: "item",
-				item: {
+				title: "Network Guide Book",
+				icon: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "storagenetwork:network_book"
+					}
+				},
+				item: {
+					id: "itemfilters:strong_nbt",
+					Count: 1b,
+					tag: {
+						value: {
+							"patchouli:book": "storagenetwork:network_book"
+						}
 					}
 				}
 			}],

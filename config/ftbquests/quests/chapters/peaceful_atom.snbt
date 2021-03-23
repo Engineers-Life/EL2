@@ -689,11 +689,21 @@
 			tasks: [{
 				id: "0000000000001187",
 				type: "item",
-				item: {
+				title: "The Extreme Book",
+				icon: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "bigreactors:erguide"
+					}
+				},
+				item: {
+					id: "itemfilters:strong_nbt",
+					Count: 1b,
+					tag: {
+						value: {
+							"patchouli:book": "bigreactors:erguide"
+						}
 					}
 				}
 			}],

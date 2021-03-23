@@ -14,13 +14,23 @@
 			dependencies: ["000000000000078F"],
 			id: "0000000000000779",
 			tasks: [{
-				id: "000000000000077A",
+				id: "1E9E97FB250BEC42",
 				type: "item",
-				item: {
+				title: "Big Book Of Bees",
+				icon: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "productivebees:guide"
+					}
+				},
+				item: {
+					id: "itemfilters:strong_nbt",
+					Count: 1b,
+					tag: {
+						value: {
+							"patchouli:book": "productivebees:guide"
+						}
 					}
 				}
 			}],

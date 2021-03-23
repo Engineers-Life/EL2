@@ -14,13 +14,23 @@
 			dependencies: ["000000000000075C"],
 			id: "0000000000000740",
 			tasks: [{
-				id: "0000000000000741",
+				id: "29993B61EEF1D11D",
 				type: "item",
-				item: {
+				title: "Advanced Transport",
+				icon: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "transport:guide"
+					}
+				},
+				item: {
+					id: "itemfilters:strong_nbt",
+					Count: 1b,
+					tag: {
+						value: {
+							"patchouli:book": "transport:guide"
+						}
 					}
 				}
 			}],
