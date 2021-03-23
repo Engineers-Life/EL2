@@ -8,6 +8,7 @@ println("BEGIN furnace.zs");
 val bricksAreBetter = true; // transfer all missing recipes into modded block
 
 val REMOVE_FOOD_FROM_FURNACE = false;
+val REMOVE_ALL_INGOTS_FROM_FURNACE = false;
 
 // Data reminders:
 // Recipe Manager	Bracket Handler	                    Global Variable
@@ -50,7 +51,8 @@ for wrapper in craftingTable.getRecipesByOutput(<tag:items:forge:dusts>) {
 // remove processing ores in furnace
 for wrapper in furnace.getAllRecipes() {
     if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>.getElements()) {
-        furnace.removeRecipe(wrapper.output);
+        if (REMOVE_ALL_INGOTS_FROM_FURNACE) { furnace.removeRecipe(wrapper.output); }
+        else { furnace.removeByName(wrapper.id); }
     }
 }
 
