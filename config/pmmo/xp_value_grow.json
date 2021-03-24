@@ -430,5 +430,109 @@
 	"flowerseeds:witherrose_seed":
 	{
 		"farming": 6
+	},
+	"flowerseeds:white_dryad_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:artic_poppy_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:forget_me_not_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:globeflower_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:blue_iris_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:purple_iris_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:black_iris_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:fireweed_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:gentian_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:alpine_pink_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:saxifrage_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:edelweiss_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:magenta_snapdragon_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:yellow_snapdragon_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:purple_primrose_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:foxglove_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:wild_garlic_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:marigold_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:blue_lupine_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:red_snapdragon_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:pink_primrose_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:yellow_primrose_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:daffodil_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:yarrow_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:chicory_seed":
+	{
+		"farming": 2
+	},
+	"flowerseeds:dandelion_puff_seed":
+	{
+		"farming": 2
 	}
 }
