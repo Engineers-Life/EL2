@@ -24,6 +24,15 @@ customization {
 }
 
 customization {
+  identifier = %id=604382%
+  seconds = 3.8
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.6
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=400298%
   orientation = bottom-centered
   x = -100
@@ -52,6 +61,15 @@ customization {
 }
 
 customization {
+  identifier = %id=400298%
+  seconds = 3.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.6
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=400322%
   orientation = bottom-centered
   x = -100
@@ -71,6 +89,15 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/button_hover.png
   backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 3.1
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.6
+  action = hidebuttonfor
 }
 
 customization {
@@ -96,6 +123,15 @@ customization {
 }
 
 customization {
+  identifier = %id=502382%
+  seconds = 3.7
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.6
+  action = hidebuttonfor
+}
+
+customization {
   identifier = %id=400346%
   orientation = bottom-centered
   x = -100
@@ -115,6 +151,15 @@ customization {
   action = setbuttontexture
   backgroundhovered = config/fancymenu/button_hover.png
   backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=400346%
+  seconds = 3.2
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.6
+  action = hidebuttonfor
 }
 
 customization {
@@ -145,85 +190,124 @@ customization {
 }
 
 customization {
+  identifier = %id=400382%
+  seconds = 3.6
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.6
+  action = hidebuttonfor
+}
+
+customization {
   orientation = top-centered
+  delayappearanceseconds = 2.0
+  fadein = true
+  fadeinspeed = 1.0
   name = gears
-  x = -153
+  x = -154
   width = 158
   actionid = 33e9668f-f0c1-4eea-b5cd-516e7e4ffe031616137489226
   action = addanimation
-  y = 8
+  y = 7
+  delayappearance = true
+  delayappearanceeverytime = false
   height = 191
 }
 
 customization {
   orientation = bottom-centered
+  delayappearanceseconds = 3.3
   buttonaction = openlink
-  x = 1
-  width = 99
-  actionid = 97742445-c534-4422-a92a-62cf9d7a1b8e1616225203227
-  action = addbutton
-  y = -128
   backgroundhovered = config/fancymenu/button_hover.png
   label = Discord
+  fadein = true
+  fadeinspeed = 0.6
+  x = 1
+  width = 99
+  actionid = acc5f9b1-11e3-4b98-af91-2b96bd01e8071616566054098
+  action = addbutton
+  y = -128
+  delayappearance = true
   backgroundnormal = config/fancymenu/button_normal.png
   value = https://discord.gg/sTm7QKNUEN
+  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
   orientation = bottom-centered
+  delayappearanceseconds = 3.4
   buttonaction = openlink
-  x = -100
-  width = 200
-  actionid = f737a8ec-100a-45aa-82ed-c0882f1c4f6e1616225203229
-  action = addbutton
-  y = -106
   backgroundhovered = config/fancymenu/button_hover.png
   label = Modpack's Progression Guide
+  fadein = true
+  fadeinspeed = 0.6
+  x = -100
+  width = 200
+  actionid = d318c762-0ead-4a06-be81-bf148dfb74751616566054100
+  action = addbutton
+  y = -106
+  delayappearance = true
   backgroundnormal = config/fancymenu/button_normal.png
   value = https://docs.google.com/document/d/1ElYPkXnZbW2bl2eL9kO3SJioGR0tnblWSHVwg-U0s9A/edit?usp=sharing
+  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
   orientation = bottom-centered
+  delayappearanceseconds = 3.5
   buttonaction = openlink
   backgroundhovered = config/fancymenu/button_hover.png
   label = Support the Creator - Rent a Server
   hoverlabel = Powered by Bisecthosting!
+  fadein = true
+  fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 44c6ff71-17f8-4121-8709-4e7d93f8887d1616225203232
+  actionid = 9db1680d-2984-4563-838e-c4c950c8ccdf1616566054103
   action = addbutton
   y = -84
+  delayappearance = true
   backgroundnormal = config/fancymenu/button_normal.png
   value = https://bisecthosting.com/xdreamz
+  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
-  path = config/fancymenu/logo.png
   orientation = top-centered
+  delayappearanceseconds = 2.25
+  path = config/fancymenu/logo.png
+  fadein = true
+  fadeinspeed = 0.75
   x = -148
   width = 303
   action = addtexture
   actionid = d57a1e0b-f3c6-4cc6-98ad-34e1af3632621616137489240
   y = 6
+  delayappearance = true
+  delayappearanceeverytime = false
   height = 195
 }
 
 customization {
   orientation = bottom-centered
+  delayappearanceseconds = 4.0
   buttonaction = openlink
-  x = -57
-  width = 116
-  actionid = c9b50228-0576-47fc-8dbb-510acc29585b1616225203237
-  action = addbutton
-  y = -39
   backgroundhovered = config/fancymenu/vertical_dark_text_hover.png
   label = 
+  fadein = true
+  fadeinspeed = 1.0
+  x = -57
+  width = 116
+  actionid = e1d367e9-9e1c-44b2-acd9-570e3d0049621616566054108
+  action = addbutton
+  y = -39
+  delayappearance = true
   backgroundnormal = config/fancymenu/vertical_dark_text.png
   value = https://bisecthosting.com/xdreamz
+  delayappearanceeverytime = false
   height = 32
 }
 
@@ -239,5 +323,14 @@ customization {
   identifier = %id=376382%
   action = setbuttonlabel
   value = L
+}
+
+customization {
+  identifier = %id=376382%
+  seconds = 3.8
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.6
+  action = hidebuttonfor
 }
 
