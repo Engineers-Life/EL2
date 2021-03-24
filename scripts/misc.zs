@@ -120,4 +120,22 @@ removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_active>);
 <tag:blocks:forge:storage_blocks/thallasium>.add(<block:betterendforge:thallasium_block>);
 <tag:blocks:forge:storage_blocks/terminite>.add(<block:betterendforge:terminite_block>);
 
+//Chunk Loaders
+craftingTable.removeRecipe(<item:chunkloaders:basic_chunk_loader>);
+craftingTable.addShaped("basic_chunk_loader",<item:chunkloaders:basic_chunk_loader>,
+[ [<item:immersiveengineering:plate_steel>,<item:minecraft:obsidian>,<item:immersiveengineering:plate_steel>],
+  [<item:minecraft:obsidian>,<item:betterendforge:ender_block>,<item:minecraft:obsidian>],
+  [<item:immersiveengineering:plate_steel>,<item:minecraft:obsidian>,<item:immersiveengineering:plate_steel>]]);
+  craftingTable.addShapeless("single_to_basic_chunkloader",<item:chunkloaders:basic_chunk_loader>,[<item:chunkloaders:single_chunk_loader>*9]);
+craftingTable.removeRecipe(<item:chunkloaders:advanced_chunk_loader>);
+craftingTable.addShaped("advanced_chunk_loader",<item:chunkloaders:advanced_chunk_loader>,
+[ [<item:minecraft:blaze_powder>,<item:minecraft:gold_block>,<item:minecraft:blaze_powder>],
+  [<item:minecraft:gold_block>,<item:chunkloaders:basic_chunk_loader>,<item:minecraft:gold_block>],
+  [<item:minecraft:blaze_powder>,<item:minecraft:gold_block>,<item:minecraft:blaze_powder>]]);
+craftingTable.removeRecipe(<item:chunkloaders:ultimate_chunk_loader>);
+craftingTable.addShaped("ultimate_chunk_loader",<item:chunkloaders:ultimate_chunk_loader>,
+[ [<item:minecraft:redstone_block>,<item:minecraft:diamond_block>,<item:minecraft:redstone_block>],
+  [<item:minecraft:end_crystal>,<item:chunkloaders:advanced_chunk_loader>,<item:minecraft:end_crystal>],
+  [<item:minecraft:redstone_block>,<item:minecraft:diamond_block>,<item:minecraft:redstone_block>]]);
+
 println("END misc.zs");
