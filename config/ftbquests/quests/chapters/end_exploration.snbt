@@ -122,9 +122,10 @@
 			size: 2.0d,
 			id: "00000000000014E8",
 			tasks: [{
-				id: "00000000000014E9",
+				id: "2407729414FC571F",
 				type: "dimension",
-				dimension: "minecraft:end"
+				title: "Visit the End",
+				dimension: "minecraft:the_end"
 			}]
 		},
 		{

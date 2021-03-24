@@ -304,9 +304,10 @@
 			size: 2.0d,
 			id: "000000000000007E",
 			tasks: [{
-				id: "000000000000007F",
+				id: "58E45CBB57888D47",
 				type: "dimension",
-				dimension: "minecraft:end"
+				title: "Visit the End",
+				dimension: "minecraft:the_end"
 			}],
 			rewards: [{
 				id: "0000000000000159",
@@ -341,8 +342,8 @@
 			}]
 		},
 		{
-			x: 16.79107142857145d,
-			y: 3.982142857142854d,
+			x: 19.5d,
+			y: 4.0d,
 			dependencies: ["0000000000000F9F"],
 			id: "00000000000000D7",
 			tasks: [{
@@ -445,8 +446,8 @@
 			]
 		},
 		{
-			x: 19.5d,
-			y: 2.0d,
+			x: 16.74642857142856d,
+			y: 2.5261904761904717d,
 			description: ["Hey a free source of light, quite decorative and usefull as well."],
 			dependencies: ["0000000000000080"],
 			id: "00000000000000F1",
@@ -463,8 +464,8 @@
 			}]
 		},
 		{
-			x: 19.5d,
-			y: 3.5d,
+			x: 16.74642857142856d,
+			y: 4.026190476190472d,
 			description: ["I bet I can take some glowstone and make it a bit more industrial looking."],
 			dependencies: ["00000000000000F1"],
 			id: "00000000000000F3",
@@ -684,8 +685,8 @@
 		},
 		{
 			title: "Nether Hot Stuff",
-			x: 16.79107142857145d,
-			y: 2.482142857142854d,
+			x: 19.5d,
+			y: 2.0d,
 			shape: "gear",
 			description: ["May want to look into collecting some of these for some future hot prospects."],
 			dependencies: ["0000000000000080"],
