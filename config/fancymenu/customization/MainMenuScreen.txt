@@ -224,7 +224,7 @@ customization {
   fadeinspeed = 0.6
   x = 1
   width = 99
-  actionid = acc5f9b1-11e3-4b98-af91-2b96bd01e8071616566054098
+  actionid = 3a67210f-7283-4711-8f22-59d19f4df00b1616571250392
   action = addbutton
   y = -128
   delayappearance = true
@@ -244,7 +244,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = d318c762-0ead-4a06-be81-bf148dfb74751616566054100
+  actionid = f94fd42c-81be-46cf-8826-c391e90350691616571250396
   action = addbutton
   y = -106
   delayappearance = true
@@ -265,7 +265,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 9db1680d-2984-4563-838e-c4c950c8ccdf1616566054103
+  actionid = e7ef0414-e276-4e71-b634-4cb2411498151616571250398
   action = addbutton
   y = -84
   delayappearance = true
@@ -301,7 +301,7 @@ customization {
   fadeinspeed = 1.0
   x = -57
   width = 116
-  actionid = e1d367e9-9e1c-44b2-acd9-570e3d0049621616566054108
+  actionid = aac7d4bf-9e83-43fa-a5e5-7f821ca567501616571250403
   action = addbutton
   y = -39
   delayappearance = true
