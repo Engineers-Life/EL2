@@ -200,9 +200,9 @@ customization {
 
 customization {
   orientation = top-centered
-  delayappearanceseconds = 2.0
+  delayappearanceseconds = 1.0
   fadein = true
-  fadeinspeed = 1.0
+  fadeinspeed = 0.5
   name = gears
   x = -154
   width = 158
