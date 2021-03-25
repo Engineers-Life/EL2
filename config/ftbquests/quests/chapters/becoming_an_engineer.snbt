@@ -3468,6 +3468,23 @@
 				type: "checkmark",
 				title: "Building Gadgets"
 			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			description: ["By applying sails to your windmill you will increase its efficiency. With this increased efficiency you will get extra power generation."],
+			dependencies: ["0000000000000115"],
+			id: "402B13D217EA14FD",
+			tasks: [{
+				id: "33DD44DF11F054D0",
+				type: "item",
+				item: "immersiveengineering:windmill_sail"
+			}],
+			rewards: [{
+				id: "52B9B4FFAA85A7D5",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
 		}
 	]
 }

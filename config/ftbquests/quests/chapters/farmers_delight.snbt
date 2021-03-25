@@ -536,7 +536,7 @@
 		},
 		{
 			x: -4.0d,
-			y: 4.5d,
+			y: 5.5d,
 			description: ["Will prevent crops from being trampled in a 10 block radius."],
 			id: "000000000000035D",
 			tasks: [{
@@ -560,7 +560,7 @@
 		},
 		{
 			x: -6.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000374",
 			tasks: [{
 				id: "0000000000000375",
@@ -575,7 +575,7 @@
 		},
 		{
 			x: -5.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000376",
 			tasks: [{
 				id: "0000000000000377",
@@ -590,7 +590,7 @@
 		},
 		{
 			x: -4.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000378",
 			tasks: [{
 				id: "0000000000000379",
@@ -605,7 +605,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "000000000000037A",
 			tasks: [{
 				id: "000000000000037B",
@@ -620,7 +620,7 @@
 		},
 		{
 			x: -2.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "000000000000037C",
 			tasks: [{
 				id: "000000000000037D",
@@ -635,7 +635,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "000000000000037E",
 			tasks: [{
 				id: "000000000000037F",
@@ -650,7 +650,7 @@
 		},
 		{
 			x: 0.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000380",
 			tasks: [{
 				id: "0000000000000381",
@@ -665,7 +665,7 @@
 		},
 		{
 			x: 1.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000382",
 			tasks: [{
 				id: "0000000000000383",
@@ -680,7 +680,7 @@
 		},
 		{
 			x: -7.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000384",
 			tasks: [{
 				id: "0000000000000385",
@@ -695,7 +695,7 @@
 		},
 		{
 			x: -8.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000386",
 			tasks: [{
 				id: "0000000000000387",
@@ -710,7 +710,7 @@
 		},
 		{
 			x: -9.0d,
-			y: 3.0d,
+			y: 4.0d,
 			id: "0000000000000388",
 			tasks: [{
 				id: "0000000000000389",
@@ -725,7 +725,7 @@
 		},
 		{
 			x: -9.0d,
-			y: 4.0d,
+			y: 5.0d,
 			id: "000000000000038A",
 			tasks: [{
 				id: "000000000000038B",
@@ -740,7 +740,7 @@
 		},
 		{
 			x: -8.0d,
-			y: 4.0d,
+			y: 5.0d,
 			id: "000000000000038C",
 			tasks: [{
 				id: "000000000000038D",
@@ -755,7 +755,7 @@
 		},
 		{
 			x: -7.0d,
-			y: 4.0d,
+			y: 5.0d,
 			id: "000000000000038E",
 			tasks: [{
 				id: "000000000000038F",
@@ -770,7 +770,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000000390",
 			tasks: [{
 				id: "0000000000000391",
@@ -785,7 +785,7 @@
 		},
 		{
 			x: -4.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000000392",
 			tasks: [{
 				id: "0000000000000393",
@@ -800,7 +800,7 @@
 		},
 		{
 			x: 1.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000000394",
 			tasks: [{
 				id: "0000000000000395",
@@ -815,7 +815,7 @@
 		},
 		{
 			x: -2.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000000396",
 			tasks: [{
 				id: "0000000000000397",
@@ -830,7 +830,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "0000000000000398",
 			tasks: [{
 				id: "0000000000000399",
@@ -845,7 +845,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 4.0d,
+			y: 5.0d,
 			id: "000000000000039A",
 			tasks: [{
 				id: "000000000000039B",
@@ -860,7 +860,7 @@
 		},
 		{
 			x: 0.0d,
-			y: 4.0d,
+			y: 5.0d,
 			id: "000000000000039C",
 			tasks: [{
 				id: "000000000000039D",
@@ -875,7 +875,7 @@
 		},
 		{
 			x: 1.0d,
-			y: 4.0d,
+			y: 5.0d,
 			id: "000000000000039E",
 			tasks: [{
 				id: "000000000000039F",
@@ -890,7 +890,7 @@
 		},
 		{
 			x: 1.0d,
-			y: 5.0d,
+			y: 6.0d,
 			id: "00000000000003A0",
 			tasks: [{
 				id: "00000000000003A1",
@@ -905,7 +905,7 @@
 		},
 		{
 			x: 0.0d,
-			y: 5.0d,
+			y: 6.0d,
 			id: "00000000000003A2",
 			tasks: [{
 				id: "00000000000003A3",
@@ -920,7 +920,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 5.0d,
+			y: 6.0d,
 			id: "00000000000003A4",
 			tasks: [{
 				id: "00000000000003A5",
@@ -935,7 +935,7 @@
 		},
 		{
 			x: -5.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "00000000000003A6",
 			tasks: [{
 				id: "00000000000003A7",
@@ -950,7 +950,7 @@
 		},
 		{
 			x: 0.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "00000000000003A8",
 			tasks: [{
 				id: "00000000000003A9",
@@ -965,7 +965,7 @@
 		},
 		{
 			x: -6.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "00000000000003AA",
 			tasks: [{
 				id: "00000000000003AB",
@@ -980,7 +980,7 @@
 		},
 		{
 			x: -7.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "00000000000003AC",
 			tasks: [{
 				id: "00000000000003AD",
@@ -995,7 +995,7 @@
 		},
 		{
 			x: -7.0d,
-			y: 5.0d,
+			y: 6.0d,
 			id: "00000000000003AE",
 			tasks: [{
 				id: "00000000000003AF",
@@ -1010,7 +1010,7 @@
 		},
 		{
 			x: -8.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "00000000000003B0",
 			tasks: [{
 				id: "00000000000003B1",
@@ -1025,7 +1025,7 @@
 		},
 		{
 			x: -9.0d,
-			y: 6.0d,
+			y: 7.0d,
 			id: "00000000000003B2",
 			tasks: [{
 				id: "00000000000003B3",
@@ -1040,7 +1040,7 @@
 		},
 		{
 			x: -9.0d,
-			y: 5.0d,
+			y: 6.0d,
 			id: "00000000000003B4",
 			tasks: [{
 				id: "00000000000003B5",
@@ -1055,7 +1055,7 @@
 		},
 		{
 			x: -8.0d,
-			y: 5.0d,
+			y: 6.0d,
 			id: "00000000000003B6",
 			tasks: [{
 				id: "00000000000003B7",
@@ -1898,7 +1898,7 @@
 		},
 		{
 			x: -4.0d,
-			y: 7.0d,
+			y: 8.0d,
 			description: ["The Market will give allow you to purchase seeds and saplings with emeralds."],
 			id: "000000000000158E",
 			tasks: [{
@@ -2511,6 +2511,103 @@
 					item: "spareparts:coins/iron_coin"
 				}
 			]
+		},
+		{
+			x: -5.5d,
+			y: 2.0d,
+			description: [
+				"The Season Sensor creates a redstone signal based off the length into the season, between 1 and 15.",
+				"The active tracked season can be changed by right clicking the sensor."
+			],
+			dependencies: ["0000000000000F97"],
+			id: "1FA8252384A46714",
+			tasks: [{
+				id: "5618B6B186697832",
+				type: "item",
+				item: "sereneseasons:season_sensor"
+			}],
+			rewards: [{
+				id: "75E83B100EC18169",
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			description: [
+				"The Calender will display the season of the current biome. A single dot symbolizes the early season, two dots is mid season, and three dots is late season.",
+				"",
+				"Temperate:",
+				"Flower = Spring",
+				"Sun = Summer",
+				"Orange Leaf = Autumn",
+				"Snowflake = Winter",
+				"",
+				"Tropical:",
+				"Rain Drop = Wet",
+				"Orange Grass = Dry"
+			],
+			dependencies: ["0000000000000F97"],
+			id: "283EFDA96D3AD7B1",
+			tasks: [{
+				id: "09B4338E50462B16",
+				type: "item",
+				item: "sereneseasons:calendar"
+			}],
+			rewards: [{
+				id: "2CAFB457B480B0AE",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 3.0d,
+			description: [
+				"Crops are now have seasons associated with when they can grow. To check the seasons where possible hover over the seeds of crop in your inventory.",
+				"",
+				"When crops are attempted to grow out of season #########."
+			],
+			dependencies: ["0000000000000F97"],
+			id: "1F3D83C743601115",
+			tasks: [{
+				id: "544580CFA9B37091",
+				type: "checkmark",
+				title: "Crop Fertility",
+				icon: "waterstrainer:fertilizer"
+			}],
+			rewards: [{
+				id: "091D394CEE6182FD",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			description: [
+				"To grow crops out of season there are a number of ways continue normally.",
+				"",
+				"-Place glass over the crops (within 16 blocks) to allow them to grow. Create some nice greenhouses!",
+				"",
+				"-Have vanilla bees placed around your crops, they will pollinate your crops and keep them growing.",
+				"",
+				"-Grow the crops deep underground (Below Y=48). With this method they cannot have a view of the sky."
+			],
+			dependencies: ["0000000000000F97"],
+			id: "696506F7BDF36FD5",
+			tasks: [{
+				id: "11B5F13CE528BDBB",
+				type: "checkmark",
+				title: "Alternative Growing Techniques",
+				icon: "minecraft:glass"
+			}],
+			rewards: [{
+				id: "379DFB3F870F59BB",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
 		}
 	]
 }

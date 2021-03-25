@@ -1421,8 +1421,8 @@
 		},
 		{
 			icon: "itemfilters:item_group",
-			x: -9.5d,
-			y: 1.5d,
+			x: -9.471768707482994d,
+			y: 2.461564625850329d,
 			description: [
 				"Menu access key: P (for more info and stats)",
 				"",
@@ -2187,8 +2187,8 @@
 					Damage: 0
 				}
 			},
-			x: -11.0d,
-			y: -1.5d,
+			x: -10.5d,
+			y: -0.5d,
 			subtitle: "Ore Excavation/Veinminer Alternative",
 			description: [
 				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key). ",
@@ -2671,7 +2671,7 @@
 		{
 			icon: "minecraft:barrier",
 			x: -9.5d,
-			y: -2.0d,
+			y: -1.5d,
 			description: [
 				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest.",
 				"You can always come back here to read them again.",
@@ -2689,8 +2689,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: -1.5d,
+			x: -8.5d,
+			y: -0.5d,
 			description: [
 				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods.",
 				"",
@@ -2867,7 +2867,7 @@
 			]
 		},
 		{
-			x: -8.0d,
+			x: -8.5d,
 			y: -2.5d,
 			description: [
 				"Gone are the days of crafting obsidian doorways to the Nether. ",
@@ -3082,8 +3082,8 @@
 		},
 		{
 			icon: "minecraft:smithing_table",
-			x: -11.307823129251702d,
-			y: 0.23639455782313945d,
+			x: -11.319047619047602d,
+			y: 1.1999999999999815d,
 			description: [
 				"Smithing skill is gained by a number of different methods:",
 				"-Smelting items",
@@ -3106,8 +3106,8 @@
 		},
 		{
 			icon: "mcwwindows:hammer",
-			x: -11.0d,
-			y: 1.0d,
+			x: -10.971768707482994d,
+			y: 1.961564625850329d,
 			description: [
 				"Building skill is gained by placing blocks into the world. The xp you earn is based on the hardness level of the block.",
 				"",
@@ -3130,8 +3130,8 @@
 					Damage: 0
 				}
 			},
-			x: -8.226190476190482d,
-			y: 3.3588435374149626d,
+			x: -8.197959183673476d,
+			y: 4.3204081632652915d,
 			description: [
 				"Excavation skill is gained by breaking dirt or dirt-based blocks.",
 				"",
@@ -3154,8 +3154,8 @@
 					Damage: 0
 				}
 			},
-			x: -9.0d,
-			y: 3.0d,
+			x: -8.971768707482994d,
+			y: 3.961564625850329d,
 			description: [
 				"Mining Skill is gained by breaking rock or rock-based blocks.",
 				"",
@@ -3178,8 +3178,8 @@
 					Damage: 0
 				}
 			},
-			x: -8.0d,
-			y: 2.0d,
+			x: -7.971768707482994d,
+			y: 2.961564625850329d,
 			description: [
 				"Combat skill is gained by hitting mobs to deal damage. You will get less xp if the mob is passive, dies, or is one-shot from full health.",
 				"",
@@ -3202,8 +3202,8 @@
 					Damage: 0
 				}
 			},
-			x: -10.0d,
-			y: 3.0d,
+			x: -9.971768707482994d,
+			y: 3.961564625850329d,
 			description: [
 				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.).",
 				"",
@@ -3226,8 +3226,8 @@
 					Damage: 0
 				}
 			},
-			x: -8.0d,
-			y: 1.0d,
+			x: -7.971768707482994d,
+			y: 1.961564625850329d,
 			description: [
 				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.).",
 				"",
@@ -3250,8 +3250,8 @@
 					Damage: 0
 				}
 			},
-			x: -10.715986394557824d,
-			y: 3.3588435374149626d,
+			x: -10.687755102040818d,
+			y: 4.3204081632652915d,
 			description: [
 				"Farming skill is gained by harvesting plants and by breeding animals.",
 				"",
@@ -3274,8 +3274,8 @@
 					Damage: 0
 				}
 			},
-			x: -7.613945578231295d,
-			y: 2.7874149659864003d,
+			x: -7.585714285714289d,
+			y: 3.7489795918367292d,
 			description: [
 				"Archery skill is gained by shooting mobs with a bow.",
 				"You will get less xp if the mob is passive, but more if the mob is killed, is one-shot, or if the arrow flies over 16 blocks.",
@@ -3299,8 +3299,8 @@
 					Damage: 0
 				}
 			},
-			x: -9.0d,
-			y: 0.0d,
+			x: -8.971768707482994d,
+			y: 0.961564625850329d,
 			description: [
 				"Agility skill is gained by in a number of ways:",
 				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this).",
@@ -3323,8 +3323,8 @@
 		},
 		{
 			icon: "minecraft:tropical_fish",
-			x: -8.205782312925173d,
-			y: -0.33503401360543705d,
+			x: -8.177551020408167d,
+			y: 0.6265306122448919d,
 			description: [
 				"Swiming skill is gained by going swimming in the lakes, rivers, and oceans.",
 				"",
@@ -3349,8 +3349,8 @@
 					Damage: 0
 				}
 			},
-			x: -11.32823129251701d,
-			y: 2.7670068027210917d,
+			x: -11.300000000000004d,
+			y: 3.7285714285714207d,
 			description: [
 				"Fishing skill is gained by going out and ... you will never guess ... fishing.",
 				"",
@@ -3374,8 +3374,8 @@
 					Damage: 0
 				}
 			},
-			x: -7.613945578231295d,
-			y: 0.25680272108844093d,
+			x: -7.585714285714289d,
+			y: 1.21836734693877d,
 			description: [
 				"Flying skill is gained by flying around with an Elytra.",
 				"",
@@ -3392,8 +3392,8 @@
 		},
 		{
 			icon: "minecraft:crafting_table",
-			x: -10.715986394557824d,
-			y: -0.37585034013605423d,
+			x: -10.761904761904738d,
+			y: 0.5880952380952209d,
 			description: [
 				"Crafting skill is gained by crafting recipes, either in inventory or in a crafting table.",
 				"",
@@ -3410,8 +3410,8 @@
 		},
 		{
 			icon: "cookingforblockheads:oven",
-			x: -11.0d,
-			y: 2.0d,
+			x: -10.971768707482994d,
+			y: 2.961564625850329d,
 			description: [
 				"Cooking skill is gained by cooking food items.",
 				"",
@@ -3428,8 +3428,8 @@
 		},
 		{
 			icon: "minecraft:brewing_stand",
-			x: -10.0d,
-			y: 0.0d,
+			x: -9.971768707482994d,
+			y: 0.961564625850329d,
 			description: [
 				"Alchemy skill is gained by brewing potions in the Brewing Stand.",
 				"",
@@ -3529,7 +3529,7 @@
 					"double/basic_hammer_left_material": "basic_hammer/blackstone"
 				}
 			},
-			x: -11.0d,
+			x: -10.5d,
 			y: -2.5d,
 			description: [
 				"Tetra is a modular tool mod that incorporates exploration into its higher level tools.",
@@ -3552,8 +3552,8 @@
 		},
 		{
 			icon: "engineersdecor:sign_danger",
-			x: -7.0d,
-			y: -2.0d,
+			x: -8.0d,
+			y: -1.5d,
 			subtitle: "Ouch, That Hurt..... Where's My Stuff?",
 			description: [
 				"You died. That sucks. Never fear, your stuff won't disappear.",
@@ -3573,6 +3573,33 @@
 				id: "1C2ACAED704EF526",
 				type: "item",
 				item: "minecraft:carrot"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -1.5d,
+			description: [
+				"Serene Seasons will bring some nice weather variation that you haven't experienced in Minecraft.",
+				"",
+				"Temperate biomes such as plains and forests will transform across four seasons: Spring, Summer, Autumn, and Winter.",
+				"In more tropical biomes such as savannah or deserts will change across two seasons: Wet and Dry.",
+				"",
+				"Across these seasons you will experience changes in the color of the grass and leaves and changes in the amount of rain. There also is the chance of snow in biomes that don't normally experience it.",
+				"",
+				"With its changing seasons farming is affected. For further info on the changes check the farming chapter."
+			],
+			dependencies: ["0000000000001231"],
+			id: "64F4EC4939F2535D",
+			tasks: [{
+				id: "0FEEECF1FF2F87E3",
+				type: "checkmark",
+				title: "Serene Seasons",
+				icon: "sereneseasons:calendar"
+			}],
+			rewards: [{
+				id: "404AD514FAACD717",
+				type: "item",
+				item: "minecraft:bread"
 			}]
 		}
 	]
