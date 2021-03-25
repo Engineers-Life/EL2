@@ -7,6 +7,8 @@ import crafttweaker.api.item.IItemStack;
 // ------------------------
 // Move tags from VFP to SF
 
+println("BEGIN vfp_dupes.zs");
+
 val move_tags_and_hide = {
     <item:vanillafoodpantry:horse_raw>      : <item:simplefarming:raw_horse_meat>,
     <item:vanillafoodpantry:horse_cooked>   : <item:simplefarming:cooked_horse_meat>,
@@ -54,3 +56,15 @@ craftingTable.addShapedMirrored("battered_calamari_with_bottle", <item:vanillafo
     [<item:vanillafoodpantry:foodpowder_batter_mix>,<item:vanillafoodpantry:bottle_water>.transformReplace(<item:vanillafoodpantry:empty_bottle>)] ]);
 
 mods.jei.JEI.hideItem(<item:vanillafoodpantry:squidd_raw>);
+
+removeAndHide(<item:veggie_way:dough>);
+removeAndHide(<item:pamhc2foodcore:doughitem>);
+removeAndHide(<item:vanillafoodpantry:leavening_agent>);
+removeAndHide(<item:vanillafoodpantry:leavening_agent_ball>);
+removeAndHide(<item:vanillafoodpantry:leavening_agent_pantry_block>);
+changeIngredientWithConversion(<item:pamhc2foodcore:doughitem>,<item:vanillafoodpantry:dough_ball>);
+changeIngredientWithConversion(<item:veggie_way:dough>,<item:vanillafoodpantry:dough_ball>);
+replaceByName("vanillafoodpantry:bakery/dough_ball",<item:vanillafoodpantry:dough_ball>*2,[[<tag:items:forge:tool_mixingbowl>,<tag:items:forge:flour>],[<tag:items:forge:water>,<tag:items:forge:salt>]]);
+removeAndHide(<item:vanillafoodpantry:cooked_dough>);
+
+println("END vfp_dupes.zs");
