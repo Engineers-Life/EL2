@@ -11,7 +11,7 @@
 	#1 = Can't grow
 	#2 = Break when trying to grow
 	#Range: 0 ~ 2
-	out_of_season_crop_behavior = 0
+	out_of_season_crop_behavior = 1
 	#Maximum underground Y level out of season crops can be grown below.  Set to -1 to disable feature
 	#Range: > -1
 	underground_fertility_level = 48
