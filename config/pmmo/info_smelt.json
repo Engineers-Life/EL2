@@ -415,54 +415,6 @@
 	{
 		"extraChance": 0.14
 	},
-	"immersiveengineering:dust_copper":
-	{
-		"extraChance": 0.14
-	},
-	"immersiveengineering:dust_aluminum":
-	{
-		"extraChance": 0.12
-	},
-	"immersiveengineering:dust_lead":
-	{
-		"extraChance": 0.10
-	},
-	"immersiveengineering:dust_silver":
-	{
-		"extraChance": 0.11
-	},
-	"immersiveengineering:dust_nickel":
-	{
-		"extraChance": 0.12
-	},
-	"immersiveengineering:dust_uranium":
-	{
-		"extraChance": 0.10
-	},
-	"immersiveengineering:dust_constantan":
-	{
-		"extraChance": 0.11
-	},
-	"immersiveengineering:dust_electrum":
-	{
-		"extraChance": 0.11
-	},
-	"immersiveengineering:dust_steel":
-	{
-		"extraChance": 0.15
-	},
-	"immersiveengineering:dust_gold":
-	{
-		"extraChance": 0.14
-	},
-	"immersiveengineering:dust_iron":
-	{
-		"extraChance": 0.12
-	},
-	"immersiveengineering:dust_hop_graphite":
-	{
-		"extraChance": 0.15
-	},
 	"quark:trowel":
 	{
 		"extraChance": 0.2
