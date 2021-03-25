@@ -16,7 +16,7 @@
 	#Range: 0 ~ 12
 	starting_sub_season = 1
 	#If the season should progress on a server with no players online
-	progress_season_while_offline = true
+	progress_season_while_offline = false
 	#Seasons will only apply to dimensons listed here
 	whitelisted_dimensions = ["minecraft:overworld"]
 
