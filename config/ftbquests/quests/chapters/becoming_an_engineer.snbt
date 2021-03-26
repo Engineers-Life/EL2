@@ -3472,7 +3472,10 @@
 		{
 			x: -2.0d,
 			y: 1.5d,
-			description: ["By applying sails to your windmill you will increase its efficiency. With this increased efficiency you will get extra power generation."],
+			description: [
+				"By applying sails to your windmill you will increase its efficiency. With this increased efficiency you will get extra power generation.",
+				"A sail can be applied by right clicking the center of the windmill you want the sail added to."
+			],
 			dependencies: ["0000000000000115"],
 			id: "402B13D217EA14FD",
 			tasks: [{
@@ -3492,7 +3495,7 @@
 			y: -2.0d,
 			description: [
 				"Take flight! Your very first jetpack. It doesn't hold much charge but help you get around places a bit better.",
-				"This jetpack will float to the ground in hover mode.",
+				"This jetpack will sink to the ground in hover mode.",
 				"",
 				"Check your keybinds to setup the appropriate keys."
 			],

@@ -280,7 +280,7 @@
 			title: "Netherite Hammer: Tier VI",
 			x: 6.0d,
 			y: 0.0d,
-			description: ["A very high level hammer made of the metal of of an ancient society pushed through to the nether."],
+			description: ["A very high level hammer made of the metal of an ancient society pushed into the nether."],
 			dependencies: ["4A7379ED5BC0C161"],
 			id: "0611E32BAF6B62D2",
 			tasks: [{
@@ -343,7 +343,7 @@
 		{
 			x: -11.0d,
 			y: 4.5d,
-			description: ["A strait bow is the standard bow in the game giving average draw time and damage."],
+			description: ["A strait bow is a standard bow giving average draw time and damage."],
 			dependencies: ["53724A1FE29BFB20"],
 			optional: true,
 			id: "17A7564E50233D43",
@@ -646,7 +646,7 @@
 		{
 			x: -4.5d,
 			y: 4.5d,
-			description: ["Spears are a simple basic weapon that can easily be made."],
+			description: ["Spears are a basic weapon that can easily be made."],
 			dependencies: ["248343A8203E7CDC"],
 			optional: true,
 			id: "538F41CD0B583574",
@@ -774,7 +774,7 @@
 		{
 			x: 1.5d,
 			y: 4.5d,
-			description: ["The Machete blade allows the breaking of web and plant in an area."],
+			description: ["The Machete blade allows the breaking of web and plants in an area."],
 			dependencies: ["7BC94372A9C4E217"],
 			optional: true,
 			id: "6DFE4E05FBAC9A3C",
@@ -1006,7 +1006,7 @@
 		{
 			x: -7.0d,
 			y: 4.5d,
-			description: ["The Claw head will allow you to pry open items in Tetra dungeon as well as break wooden items quickly."],
+			description: ["The Claw head will allow you to pry open items in Tetra dungeons as well as break wooden items quickly."],
 			dependencies: ["07137122925727C8"],
 			optional: true,
 			id: "1ADB6E725663B3AB",
@@ -1172,7 +1172,7 @@
 			description: [
 				"The Forge Hammer can be found in Ancient Bases where it can be used to create higher tier gear. A standard workbench or a forged workbench can be used with it.",
 				"",
-				"To activate it must be powered with 2 filled Thermal Cells and prying the sides off and right clicking until smoke comes out."
+				"To activate the hammer it must be powered with 2 filled Thermal Cells, which are inserted by prying the sides off and right clicking until smoke comes out."
 			],
 			dependencies: ["788795772632D09F"],
 			id: "7385A70C3CA6DD47",
@@ -1191,7 +1191,7 @@
 			x: 1.0d,
 			y: 1.0d,
 			description: [
-				"Thermal cells can be found in Ancient Bases as loot.",
+				"Thermal Cells can be found in Ancient Bases as loot.",
 				"",
 				"They can be charged in Transfer Units attached to operating Core Extractor units. The side of the Transfer Unit must be pried off to be able to plug cells in."
 			],
@@ -1265,9 +1265,9 @@
 			x: -2.0d,
 			y: 0.0d,
 			description: [
-				"To progress further and get better hammers you will need to go exploring underground in cold biomes (Mountains, Taiga, etc.) for Ancient Bases. To help locate these bases a holosphere can be upgraded with an Eye of Ender to give it a proximity tracker of bases (they can sometime be seen in the minimap while underground).",
+				"To progress further and get better hammers you will need to go exploring underground in cold biomes (Mountains, Taiga, etc.) for Ancient Bases. To help locate these bases a holosphere can be upgraded with an Eye of Ender to give it a proximity tracker of bases (they can sometimes be seen in the minimap while underground).",
 				"",
-				"While exploring these dungeons it would be good to bring a hammer and claw tool to be able to salvage objects in the bases. When looking at blocks they will sometimes show a hammer or crowbar symbol along with a box where right clicking will do an action. A white icon means the action can happen while red means it will not work and yellow will have a chance to fail. Slavage will give you unique components and materials that you can use."
+				"While exploring these dungeons it would be good to bring a hammer and claw tool to be able to salvage objects in the bases. When looking at blocks they will sometimes show a hammer or crowbar symbol along with a box where right clicking will do an action. A white icon means the action can happen, while red means it will not work, and yellow will have a chance to fail. Salvage will give you unique components and materials that you can use."
 			],
 			dependencies: ["1E87BCA90B5A45AA"],
 			id: "788795772632D09F",
@@ -1289,6 +1289,12 @@
 						"holo/frame_material": "core/ancient"
 					}
 				}
+			}],
+			rewards: [{
+				id: "3C6EE3F671A018EB",
+				type: "item",
+				item: "fins:seafood_soup",
+				count: 2
 			}]
 		},
 		{
