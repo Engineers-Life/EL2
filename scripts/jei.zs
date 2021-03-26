@@ -18,7 +18,7 @@ mods.jei.JEI.addInfo(<item:supplementaries:safe>, ["Extremely hard block that fu
 mods.jei.JEI.addInfo(<item:supplementaries:hourglass>, ["Place sand in it and it will provide a redstone signal until the sand runs out. Flip and repeat."]);
 
 // No Tree Punching
-mods.jei.JEI.addInfo(<item:notreepunching:flint_shard>, ["Used for making early game tools" , "Once you have obtained flint, you can left click against stone of any kind to attempt to break it into shards."]);
+mods.jei.JEI.addInfo(<item:notreepunching:flint_shard>, ["Used for making early game tools." , "Once you have obtained flint, you can right click against stone of any kind to attempt to break it into shards."]);
 mods.jei.JEI.addInfo(<item:notreepunching:clay_tool>, ["Use this tool on blocks of clay placed in the world to obtain items that can be smelted into useful tools. To progress to other items, continue to right click with the tool."]);
 mods.jei.JEI.addInfo(<item:notreepunching:clay_large_vessel>, ["Shape a Clay Block placed in the world with the Clay Tool to obtain this vessel, which can then be smelted into a Ceramic Large Vessel."]);
 mods.jei.JEI.addInfo(<item:notreepunching:ceramic_large_vessel>, ["Can be placed in the world and used similarly to a chest. However it retains it's inventory when picked up."]);
