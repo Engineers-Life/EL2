@@ -80,8 +80,8 @@ craftingTable.addShaped("chain_boots", <item:minecraft:chainmail_boots>, [
 
 // Bottle Switching
 craftingTable.removeRecipe(<item:vanillafoodpantry:empty_bottle>);
-craftingTable.addShapeless("vanillafoodpantry:empty_bottle", <item:vanillafoodpantry:empty_bottle>, [<item:minecraft:glass_bottle>]);
-craftingTable.addShapeless("minecraft:glass_bottle", <item:minecraft:glass_bottle>, [<item:vanillafoodpantry:empty_bottle>]);
+craftingTable.addShapeless("vanillafoodpantry_empty_bottle", <item:vanillafoodpantry:empty_bottle>, [<item:minecraft:glass_bottle>]);
+craftingTable.addShapeless("minecraft_glass_bottle", <item:minecraft:glass_bottle>, [<item:vanillafoodpantry:empty_bottle>]);
 
 // String Mesh conflicted with Tetra Toolbelt (rope)
 craftingTable.removeRecipe(<item:waterstrainer:string_mesh>);
@@ -92,7 +92,7 @@ craftingTable.addShaped("string_mesh", <item:waterstrainer:string_mesh>, [
 
 // Charm Woodcutter
 craftingTable.removeRecipe(<item:charm:woodcutter>);
-craftingTable.addShaped("charm:woodcutter", <item:charm:woodcutter>, [
+craftingTable.addShaped("charm_woodcutter", <item:charm:woodcutter>, [
     [air,<item:immersiveengineering:plate_iron>,air],
     [<item:immersiveengineering:plate_iron>,<tag:items:forge:gears/iron>,<item:immersiveengineering:plate_iron>],
     [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>] ]);
