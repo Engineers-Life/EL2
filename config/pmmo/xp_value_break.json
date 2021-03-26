@@ -1,7 +1,7 @@
 {	
 	"aquaculture:farmland":
 	{
-		"excavation": 0.5
+		"excavation": 5.0
 	},
 	"betterdefaultbiomes:blue_poppy":
 	{
@@ -165,11 +165,11 @@
 	},
 	"betterendforge:amber_moss":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:amber_moss_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:amber_ore":
 	{
@@ -221,11 +221,11 @@
 	},
 	"betterendforge:cave_moss":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:cave_moss_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:charnia_cyan":
 	{
@@ -257,11 +257,11 @@
 	},
 	"betterendforge:chorus_nylium":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:chorus_nylium_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:creeping_moss":
 	{
@@ -273,11 +273,11 @@
 	},
 	"betterendforge:crystal_moss":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:crystal_moss_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:cyan_moss":
 	{
@@ -365,19 +365,19 @@
 	},
 	"betterendforge:end_moss":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:end_moss_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:end_mycelium":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:end_mycelium_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:ender_ore":
 	{
@@ -385,7 +385,7 @@
 	},
 	"betterendforge:endstone_dust":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:flavolite":
 	{
@@ -465,11 +465,11 @@
 	},
 	"betterendforge:jungle_moss":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:jungle_moss_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:jungle_vine":
 	{
@@ -561,7 +561,7 @@
 	},
 	"betterendforge:pink_moss_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:potted_dragon_tree_sapling":
 	{
@@ -629,7 +629,7 @@
 	},
 	"betterendforge:shadow_grass_path":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"betterendforge:shadow_plant":
 	{
@@ -1037,7 +1037,7 @@
 	},
 	"minecraft:clay":
 	{
-		"excavation": 0.5
+		"excavation": 3.0
 	},
 	"minecraft:coal_ore":
 	{
@@ -1045,7 +1045,7 @@
 	},
 	"minecraft:coarse_dirt":
 	{
-		"excavation": 0.4
+		"excavation": 1.0
 	},
 	"minecraft:cobblestone":
 	{
@@ -1069,7 +1069,7 @@
 	},
 	"minecraft:crimson_nylium":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:crimson_planks":
 	{
@@ -1133,7 +1133,7 @@
 	},
 	"minecraft:dirt":
 	{
-		"excavation": 0.5
+		"excavation": 1.0
 	},
 	"minecraft:emerald_ore":
 	{
@@ -1145,7 +1145,7 @@
 	},
 	"minecraft:farmland":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:fern":
 	{
@@ -1169,21 +1169,21 @@
 	},
 	"minecraft:grass":
 	{
-		"excavation": 0.6,
+		"excavation": 1.0,
 		"farming": -0.6
 	},
 	"minecraft:grass_block":
 	{
-		"excavation": 0.6,
+		"excavation": 1.0,
 		"farming": -0.6
 	},
 	"minecraft:grass_path":
 	{
-		"excavation": 0.6
+		"excavation": 1.0
 	},
 	"minecraft:gravel":
 	{
-		"excavation": 0.5
+		"excavation": 2.0
 	},
 	"minecraft:gray_terracotta":
 	{
@@ -1287,7 +1287,7 @@
 	},
 	"minecraft:mycelium":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:nether_bricks":
 	{
@@ -1371,7 +1371,7 @@
 	},
 	"minecraft:podzol":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:poppy":
 	{
@@ -1527,7 +1527,7 @@
 	},
 	"minecraft:red_sand":
 	{
-		"excavation": 0.1
+		"excavation": 0.75
 	},
 	"minecraft:red_sandstone":
 	{
@@ -1555,7 +1555,7 @@
 	},
 	"minecraft:sand":
 	{
-		"excavation": 0.1
+		"excavation": 0.75
 	},
 	"minecraft:sandstone":
 	{
@@ -1587,19 +1587,19 @@
 	},
 	"minecraft:snow":
 	{
-		"excavation": 0.05
+		"excavation": 0.5
 	},
 	"minecraft:snow_block":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:soul_sand":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:soul_soil":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:spawner":
 	{
@@ -1751,7 +1751,7 @@
 	},
 	"minecraft:warped_nylium":
 	{
-		"excavation": 0.1
+		"excavation": 1.0
 	},
 	"minecraft:warped_planks":
 	{
@@ -2495,7 +2495,7 @@
 	},
 	"terraincognita:peat":
 	{
-		"excavation": 0.5
+		"excavation": 1.0
 	},
 	"terraincognita:pink_lotus":
 	{
@@ -2639,7 +2639,7 @@
 	},
 	"terraincognita:tilled_peat":
 	{
-		"excavation": 0.5
+		"excavation": 1.0
 	},
 	"terraincognita:vertical_apple_planks":
 	{
