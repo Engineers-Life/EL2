@@ -547,7 +547,7 @@
 			x: 24.5d,
 			y: -1.5d,
 			description: [
-				" Start by placing down a 5x5 level of Reactor Casings.",
+				"Start by placing down a 5x5 level of Reactor Casings.",
 				"",
 				"The next 3 layers of the reactor will be Reactor Casing at each corner with Reactor Glass as the face edge.",
 				"4 of the Reactor glass pieces on these 3 levels need to be replaced with the Basic Controller, Power Tap, and two Solid Access Ports.",
@@ -556,8 +556,8 @@
 				"",
 				"The final layer of the reactor starts with an outer square of 25 Reactor Casings. Next, place a Reactor Control Rod on the top of each Reactor Fuel Rod Stack. Fill the remaining 4 holes with the remaining Reactor Casings. ",
 				"",
-				"To fully fill the reactor you will need 118 Yellorium Ingots to fill the reactor at the Solid Access Port. To turn on the reactor, select on in the GUI at the Basic Controller. It will make roughly 3175 RF/t.",
-				"This is the largest power creating reactor you can create (5x5x5), larger reactors will require active cooling with a turbine."
+				"To fill the reactor you will need 118 Yellorium Ingots inserted at the Solid Access Port. To turn on the reactor, select on in the GUI at the Basic Controller. It will make roughly 3175 RF/t.",
+				"This is the largest power creating reactor you can build (5x5x5), larger reactors will require active cooling with a turbine."
 			],
 			dependencies: ["0000000000000701"],
 			id: "000000000000116D",
@@ -662,7 +662,7 @@
 			x: 22.0d,
 			y: -3.5d,
 			description: [
-				"Start with a 3x3 layer of Reactor Casings. The next layer will have the Reactor Fuel Rod at the center. The Basic Controller, Power Tap, and Access Port will need to be placed at the center of their own side, with the remaining space filled with Reactor Casings. The final layer will be the Control Rod placed on top of the Fuel Rods in the center and the remaining 8 spaces Reactor Casings.",
+				"Start with a 3x3 layer of Reactor Casings. The next layer will have the Reactor Fuel Rod at the center. The Basic Controller, Power Tap, and Access Port will need to be placed at the center of their own side, with the remaining space filled with Reactor Casings. The final layer will be the Control Rod placed on top of the Fuel Rod in the center and the remaining 8 spaces are Reactor Casings.",
 				"",
 				"This reactor will take 7 Yellorium Ingots to fully fuel. It will only make roughly 180 RF/t."
 			],

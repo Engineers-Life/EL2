@@ -38,7 +38,7 @@
 			y: 1.0d,
 			description: [
 				"The Controller is the functional heart of your Refined Storage System. Only a single controller is needed per network and is where RF is accepted to power the system.",
-				"Can be colored by right clicking with a dye or by placing the controller with the dye in a crafting table. This can be done from a number of machines from this mod (Check JEI for all variations)."
+				"Can be colored by right clicking with a dye or by placing the controller with the dye in a crafting table. This can be done for a number of machines from this mod (Check JEI for all variations)."
 			],
 			dependencies: [
 				"000000000000027B",
@@ -659,7 +659,7 @@
 		{
 			x: 15.0d,
 			y: -0.5d,
-			description: ["The Speed Upgrade will increase the speed of the network device it is inserted in to."],
+			description: ["The Speed Upgrade will increase the speed of the network device it is inserted into."],
 			dependencies: ["00000000000002B3"],
 			id: "00000000000002B7",
 			tasks: [{
@@ -678,7 +678,7 @@
 		{
 			x: 5.5d,
 			y: 7.0d,
-			description: ["The Wireless Transmitter is used to wirelessly network items in a network. Has a standard range of 16 blocks but can be upgraded with range upgrades."],
+			description: ["The Wireless Transmitter is used to wirelessly network items in a network. It can be used to wirelessly access the network with wireless grids and connect parts of the network wirelessly with transmitters. Has a standard range of 16 blocks but can be upgraded with range upgrades."],
 			dependencies: ["000000000000027F"],
 			id: "00000000000002B9",
 			tasks: [{
@@ -755,9 +755,9 @@
 			dependencies: ["00000000000002B9"],
 			id: "00000000000002BF",
 			tasks: [{
-				id: "00000000000002C0",
+				id: "2A784E8BF39D0ED1",
 				type: "item",
-				item: "refinedstorage:wireless_crafting_monitor"
+				item: "refinedstorageaddons:wireless_crafting_grid"
 			}],
 			rewards: [
 				{

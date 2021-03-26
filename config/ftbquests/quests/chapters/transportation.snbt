@@ -56,7 +56,7 @@
 		{
 			x: -3.5d,
 			y: -1.0d,
-			description: ["This bench will be extremely helpful when you want to expand your rail empire. It allows the switching of of rails between types but most importantly allows you to make rail components from iron that quadruples rail production."],
+			description: ["This bench will be extremely helpful when you want to expand your rail empire. It allows the switching of rails between types but most importantly allows you to make rail components from iron that quadruples rail production."],
 			dependencies: ["0000000000000740"],
 			id: "0000000000000742",
 			tasks: [{
@@ -79,7 +79,7 @@
 		{
 			x: 2.0d,
 			y: -1.0d,
-			description: ["The Rail Breaker will allow you to change settings of rails and loaders as well as switch their sides much like wrenches of other mods."],
+			description: ["The Rail Breaker will allow you to change settings of rails and loaders as well as switch their sides much like the wrenches of other mods."],
 			dependencies: ["0000000000000742"],
 			id: "0000000000000744",
 			tasks: [{
@@ -103,7 +103,7 @@
 			x: -1.5d,
 			y: -2.5d,
 			description: [
-				"The module configurator will allow you to modules to modular minecarts and boats.",
+				"The module configurator will allow you to add modules to modular minecarts and boats.",
 				"Placing a modular vehicle in the central slot in the gui will allow modules to be added to it. Available spaces will then be presented, showing installed modules or available spaces."
 			],
 			dependencies: ["0000000000000742"],
@@ -160,7 +160,7 @@
 				"Loaders will both load and offload from modular carts that go across their faces. Faces must be configured to operate with the Rail Breaker.",
 				"Blue is input, Red is output.",
 				"",
-				"Each loader can be be placed into a modular cart in a the module configurator to allow the cart to hold the loaders purpose.",
+				"Each loader can be placed into a modular cart in a the module configurator to allow the cart to hold the loaders purpose.",
 				"Item Loader - Allows the cart to hold 5 stacks of items.",
 				"Fluid Loader - Allows the cart to hold 10 buckets of a fluid.",
 				"Energy Loader - Allows the cart to hold 10k RF.",

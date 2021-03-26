@@ -10,7 +10,7 @@
 		{
 			x: 5.0d,
 			y: 0.5d,
-			description: ["The Fluid Extractor will pull latex from logs placed in front of it. It can work passively, but will work faster with power. The extractor strip the log during the processing and then it consume it entirely."],
+			description: ["The Fluid Extractor will pull latex from logs placed in front of it. It can work passively, but will work faster with power. The extractor strips the log during the processing and then consumes it entirely."],
 			dependencies: ["0000000000000614"],
 			id: "00000000000004DC",
 			tasks: [
@@ -63,7 +63,7 @@
 		{
 			x: 5.0d,
 			y: 3.5d,
-			description: ["Plastic can be made either in the Arc Furnace or Metal Press (with a plate mold) from a piece of Dry Rubber (9 pieces of Tiny Dry Rubber in crafting grid."],
+			description: ["Plastic can be made either in the Arc Furnace or Metal Press (with a plate mold) from a piece of Dry Rubber (9 pieces of Tiny Dry Rubber in a crafting grid)."],
 			dependencies: ["00000000000004DE"],
 			id: "00000000000005C0",
 			tasks: [{
@@ -632,7 +632,7 @@
 		{
 			x: 11.5d,
 			y: -3.0d,
-			description: ["The Ore Laser Base will convert work from a Laser Drill to ores. Can be modified with lens to change the ore probabilities."],
+			description: ["The Ore Laser Base will convert work from a Laser Drill to ores. Can be modified with lenses to change the ore probabilities."],
 			dependencies: ["0000000000000618"],
 			id: "00000000000011E6",
 			tasks: [{

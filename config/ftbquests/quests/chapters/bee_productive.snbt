@@ -138,7 +138,7 @@
 			description: [
 				"Allows you to locate a nest of the block type you right click on.",
 				"",
-				"i.e. Right click on a copper ore block to locate a copper bee hive."
+				"i.e. Right click on a oak log block to locate a oak nest."
 			],
 			dependencies: ["000000000000078F"],
 			id: "0000000000000785",

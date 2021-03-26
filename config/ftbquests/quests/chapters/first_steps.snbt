@@ -3296,7 +3296,7 @@
 			x: -8.971768707482994d,
 			y: 0.961564625850329d,
 			description: [
-				"Agility skill is gained by in a number of ways:",
+				"Agility skill is gained in a number of ways:",
 				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this).",
 				"-Jumping: the higher you jump the more xp you gain (Potions can boost this).",
 				"-Saving fall damage (a chance probability of occuring when taking fall damage).",
@@ -3320,7 +3320,7 @@
 			x: -8.177551020408167d,
 			y: 0.6265306122448919d,
 			description: [
-				"Swiming skill is gained by going swimming in the lakes, rivers, and oceans.",
+				"Swimming skill is gained by going swimming in the lakes, rivers, and oceans.",
 				"",
 				"Higher levels of swimming will grant two advantages, underwater nightvision and the ability to stay underwater longer.",
 				"Underwater Nightvision will unlock at level 25.",
