@@ -38,6 +38,7 @@ mods.jei.JEI.hideItem(<item:simplefarming:cooked_egg>);
 furnace.removeRecipe(<item:simplefarming:cooked_egg>);
 campfire.removeRecipe(<item:simplefarming:cooked_egg>);
 smoker.removeRecipe(<item:simplefarming:cooked_egg>);
+<recipetype:charm:firing>.removeByName("charm:kilns/brick");
 
 println("BEGIN furnace.metal_processing");
 
