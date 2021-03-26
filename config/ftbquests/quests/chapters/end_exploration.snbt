@@ -61,7 +61,7 @@
 			y: -4.5d,
 			description: [
 				"Hey I can fly around pretty good with these.",
-				"Probably should bring a good number of ender pearls with me though to get one though."
+				"Probably should bring a good number of ender pearls with me though to get one."
 			],
 			dependencies: ["0000000000001534"],
 			id: "000000000000008C",
@@ -227,8 +227,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 0.5d,
+			x: -1.1285714285714334d,
+			y: 0.3571428571428612d,
 			description: ["A vibrant orange land with thick ground cover and large Helix trees."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001542",
@@ -269,8 +269,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: -2.5d,
+			x: -1.1571428571428513d,
+			y: -2.328571428571429d,
 			description: ["End stone spires covered in pink Tenanea trees and vines."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001548",
@@ -283,8 +283,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: 0.5d,
+			x: -6.0142857142857125d,
+			y: 0.24285714285714732d,
 			description: ["Dark forest of Dragon trees and shadow plants."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000154A",
@@ -297,8 +297,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: -2.5d,
+			x: -5.9857142857142875d,
+			y: -2.299999999999997d,
 			description: ["Deep lakes in the nether filled with End Lotus flowers."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000154C",

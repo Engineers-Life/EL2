@@ -200,7 +200,7 @@
 		{
 			x: 1.5d,
 			y: 0.0d,
-			description: ["Can be attached to Advanced Bee Hives to expand their housing from 3 to 5 bees."],
+			description: ["Can be attached to the top of Advanced Bee Hives to expand their housing from 3 to 5 bees."],
 			dependencies: ["0000000000000787"],
 			id: "0000000000000789",
 			tasks: [{
@@ -427,7 +427,7 @@
 			x: 1.5d,
 			y: -4.0d,
 			description: [
-				"A nice filling combo of liquid honey and some honey comb.",
+				"A nice combo of liquid honey and some honey comb.",
 				"",
 				"Will calm angry bees and make baby bees grow faster."
 			],

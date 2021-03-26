@@ -462,7 +462,9 @@
 			shape: "octagon",
 			description: [
 				"Surrounding the above Kitchen item quests are a number of recipes that you can try to make. These may be complex but their benefits and boost may be appealing if you give them a try. Trying out a good number of these food will help you get benefits from SOL: Potato Edition.",
-				"*You may need to zoom out quite a bit to see all the quests*"
+				"*You may need to zoom out quite a bit to see all the quests*",
+				"",
+				"Feel no need to complete a lot of these quests as they do not provide rewards, but are here to give you ideas on what to cook to keep your diet diverse."
 			],
 			size: 2.0d,
 			id: "000000000000107A",

@@ -67,7 +67,7 @@
 			x: -4.5d,
 			y: 11.5d,
 			description: [
-				"By steel casing some blast brick, you are able to better contain the heat of your furnace. This results in it being faster at making steel.",
+				"By steel casing some blast brick, you are able to better contain the heat of your furnace.",
 				"",
 				"A 3x3x3 block of reinforced blast bricks with a hopper placed on the top center block. By right clicking with an Engineer's Hammer on a face of the the 3x3x3 block will form the furnace."
 			],
@@ -99,7 +99,7 @@
 				"The blast furnace preheater will enhance your steel production even further. Each Reinforced Blast Furnace can have up to 2 preheaters.",
 				"",
 				"Each blast furnace preheater consumes 32 RF/t.",
-				"A single preheater will double the Improved Blast Furnace speed, while a two preheaters will triple its speed."
+				"A single preheater will double the Improved Blast Furnace speed, while two preheaters will triple its speed."
 			],
 			dependencies: ["0000000000000106"],
 			id: "0000000000000108",
@@ -420,7 +420,7 @@
 		{
 			x: -0.5d,
 			y: -5.0d,
-			description: ["Allows you to run cables over your head to keep from getting shocked."],
+			description: ["Allows you to run cables over your head to keep you from getting shocked."],
 			dependencies: ["00000000000001FA"],
 			id: "00000000000001FD",
 			tasks: [{
@@ -449,7 +449,7 @@
 			y: -4.0d,
 			description: [
 				"The breaker switch allows you to manually cut the flow of LV/MV wires across it. Not insulated enough for HV.",
-				"The redstone switch is insulated enough to handle both all wires (LV-HV) across it. To operate its breaking method a redstone signal must be provided."
+				"The redstone switch is insulated enough to handle all wires (LV-HV) across it. To operate its breaking method a redstone signal must be provided."
 			],
 			dependencies: ["00000000000001F8"],
 			id: "00000000000001FF",
@@ -1003,7 +1003,7 @@
 			x: -7.5d,
 			y: 0.0d,
 			description: [
-				"A few more Engineer's tools to suppliment the Engineer's Hammer.",
+				"A few more Engineer's tools to supplement the Engineer's Hammer.",
 				"",
 				"Wire Cutters - These will allow you to craft wire out of plates and allow you to break all wire connections to a point by right clicking a block.",
 				"Screwdriver - Allows you to invert the redstone control of a block."
@@ -1048,7 +1048,7 @@
 			y: 9.5d,
 			description: [
 				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein locations and multiple samples of the same vein increase the vein information.",
-				"Samples can overlap, so samples may contain informaation from multiple veins.",
+				"Samples can overlap, so samples may contain information from multiple veins.",
 				"Next, it is good to bring a Core Sample Drill into a prospected area to get more accurate data on a vein. Make sure to bring a power source (a capacitor would do nicely) along with you to power the drill.",
 				"The sample it will provide gives detailed vein information at that location. Veins are no longer chunk based.",
 				"",
@@ -1219,7 +1219,7 @@
 		{
 			x: -7.0d,
 			y: -1.5d,
-			description: ["A convient toolbox to carry your tools in, along with some food and other items."],
+			description: ["A convenient toolbox to carry your tools in, along with some food and other items."],
 			dependencies: ["000000000000022F"],
 			id: "0000000000000240",
 			tasks: [{
@@ -1336,7 +1336,7 @@
 			y: 9.5d,
 			shape: "square",
 			description: [
-				'The Excavator is made of two parts. The "Wheel" is the center part, and is formed by right-clicking with an Engineer\'s Hammer on the the hidden Block of Steel. The "Engine" is the other part, and is formed by right-clicking the Engineer\'s Hammer on',
+				'The Excavator is made of two parts. The "Wheel" is the center part, and is formed by right-clicking with an Engineer\'s Hammer on the the Block of Steel. The "Engine" is the other part, and is formed by right-clicking the Engineer\'s Hammer on',
 				"the Heavy Engineering Block in the center of the back side.",
 				"",
 				"The Excavator does not have a GUI and requires 4,096 RF/t to operate. Energy should be introduced through at least one of the 3 back power plugs of the engine.",
@@ -1715,7 +1715,7 @@
 			description: [
 				"The Industrial Squeezer is used to make Plant Oil or HOP Graphite Dust",
 				"",
-				"After it is fully arranged, right-click on the central Wooden Barrel from between the light engineering blocks and the redstone engineering blocks with an Engineer's Hammer to complete the multiblock structure.",
+				"After it is fully arranged, right-click on the central Wooden Barrel from between the light engineering block and the redstone engineering block with an Engineer's Hammer to complete the multiblock structure.",
 				"",
 				"Putting a seed in one of the left-hand slots will start the process. 800 Redstone Flux (RF) is consumed per use. After about a second, the seed will be converted to Plant Oil.",
 				"",
@@ -1882,9 +1882,9 @@
 			description: [
 				"The Diesel Generator is a 3x5x3 multi-block generator used to create RF from Biodiesel and Fuel.",
 				"",
-				"After it is fully arranged (with the help of projector hopefully), the player must right-click the top-center block of the front side (which should be a Generator Block) with an Engineer's Hammer, then the multi-block is complete.",
+				"After it is fully arranged (hopefully with the help of a projector), the player must right-click the top-center block of the front side (which should be a Generator Block) with an Engineer's Hammer, then the multi-block is complete.",
 				"",
-				"The Diesel Generator does not have a GUI. Fuel is inserted in the bottom corner blocks. RF is output through the top of the three frontmost blocks with a orange dot.",
+				"The Diesel Generator does not have a GUI. Fuel is inserted in the bottom corner blocks. RF is output through the top of the three frontmost blocks with an orange dot.",
 				"The multi-block's processes can be halted via Redstone through the \"control panel\", the center block of the right-side.",
 				"",
 				"The Diesel Generator has an internal fluid buffer of 24000mB for fuel. The generator does not have an internal energy buffer. It will automatically shut off if it cannot export power.",
@@ -2334,7 +2334,7 @@
 				"",
 				"The Metal Press has no GUI. RF is input through the top block of the press. Items are input and output through the built-in Conveyor Belts. An extra Conveyor Belt or Hopper should be built leading into the Metal Press to properly automate the Press.",
 				"",
-				"The Metal Press requires a Mold in order to function. Right-clicking the Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right-clicking with an Engineer's Hammer."
+				"The Metal Press requires a Mold in order to function. Right-clicking the Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right-clicking with an empty hand."
 			],
 			dependencies: ["0000000000000FA9"],
 			size: 1.5d,
@@ -2779,8 +2779,8 @@
 		},
 		{
 			title: "Engineer's Manuals",
-			x: -12.5d,
-			y: -1.5d,
+			x: -13.5d,
+			y: -2.5d,
 			description: [
 				"Great sources of knowledge in your coming adventures in industry and automation.",
 				"",
@@ -2825,7 +2825,7 @@
 		{
 			x: -8.5d,
 			y: -2.5d,
-			description: ["This barrel also holds 12,000 mB  (12 buckets) of a liquid but it can be a hot or a gas."],
+			description: ["This barrel also holds 12,000 mB  (12 buckets) of a liquid but it can be hot or a gas."],
 			dependencies: ["000000000000025B"],
 			id: "0000000000001035",
 			tasks: [{
@@ -2851,7 +2851,7 @@
 		{
 			x: -2.5d,
 			y: -4.0d,
-			description: ["Trasfers the same amount of power as the standard LV cable but it won't shock you."],
+			description: ["Transfers the same amount of power as the standard LV cable but it won't shock you."],
 			dependencies: ["00000000000001F8"],
 			id: "0000000000001039",
 			tasks: [{
@@ -3484,6 +3484,74 @@
 				id: "52B9B4FFAA85A7D5",
 				type: "item",
 				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			title: "Probably Won't Explode",
+			x: 1.5d,
+			y: -2.0d,
+			description: [
+				"Take flight! Your very first jetpack. It doesn't hold much charge but help you get around places a bit better.",
+				"This jetpack will float to the ground in hover mode.",
+				"",
+				"Check your keybinds to setup the appropriate keys."
+			],
+			dependencies: ["00000000000001F2"],
+			id: "45E9FB7929DCFB5A",
+			tasks: [{
+				id: "6506595F35A18732",
+				type: "item",
+				item: "simplyjetpacks:jetpack_ie1"
+			}],
+			rewards: [{
+				id: "20F5B6FBAEDEEB38",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:feather_falling"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Jump Jets",
+			x: 6.0d,
+			y: -2.0d,
+			description: ["An upgraded jetpack that will hold quite a bit more energy. This pack allows you to fly faster than the basic model and you will fall slightly slower in hover but at the cost of higher energy usage."],
+			dependencies: ["000000000000020C"],
+			id: "154AA33D4D33E9AE",
+			tasks: [{
+				id: "4C50A77B7C603995",
+				type: "item",
+				item: "simplyjetpacks:jetpack_ie2"
+			}],
+			rewards: [{
+				id: "6FBB304586D8C8E3",
+				type: "random",
+				table_id: 1982L
+			}]
+		},
+		{
+			title: "Rocketman",
+			x: 10.5d,
+			y: -2.0d,
+			description: ["The highest form of jetpack available. With this pack you can fly very fast through the air, very slowly fall in hover, and have access to the emergency hover mode that will turn on if you fall far enough to cause damage (will neglect the fall damage by turning on and catching you)."],
+			dependencies: ["0000000000000215"],
+			id: "4052E9B759601AB6",
+			tasks: [{
+				id: "3D65025FB0300950",
+				type: "item",
+				item: "simplyjetpacks:jetpack_ie3"
+			}],
+			rewards: [{
+				id: "0C3CC90646E431DF",
+				type: "random",
+				table_id: 1983L
 			}]
 		}
 	]

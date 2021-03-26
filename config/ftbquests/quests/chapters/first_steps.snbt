@@ -388,7 +388,7 @@
 			title: "Furnace",
 			x: 3.0d,
 			y: -1.5d,
-			description: ["Time to cook up some basic materials!"],
+			description: ["Time to cook up some food and basic materials!"],
 			dependencies: ["000000000000000E"],
 			id: "000000000000002C",
 			tasks: [{
@@ -871,7 +871,7 @@
 			y: -1.5d,
 			shape: "gear",
 			description: [
-				"Place the Coke Brick in a 3x3x3 block and right clicking with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil.",
+				"Place the Coke Brick in a 3x3x3 block and right-click with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil.",
 				"",
 				"This opens up so many engineering possibilities!"
 			],
@@ -1361,8 +1361,8 @@
 			}]
 		},
 		{
-			x: 14.0d,
-			y: -3.5d,
+			x: 14.5d,
+			y: -4.0d,
 			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."],
 			dependencies: ["0000000000000045"],
 			id: "0000000000000090",
@@ -1399,7 +1399,7 @@
 				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)",
 				"",
 				'• Hovering over an item and pressing the "R" key (for Recipe) will display that item\'s recipe.',
-				'• Pressing the "U" key (for Use) shows what that item can be used to create through crafting grids. ',
+				'• Pressing the "U" key (for Use) shows what that item can be used to create through crafting grids and machines. ',
 				'• To search by mod name use the "@" key before search in search box. (e.g. @notreepunch)',
 				"• To select the search box without clicking on it, the player can press Ctrl + F.",
 				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A.",
@@ -1427,7 +1427,6 @@
 				"Menu access key: P (for more info and stats)",
 				"",
 				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game.",
-				"(You cannot use a Stone or Iron pick right from the beginning - you need to earn the required Mining level first. The same skill requirement applies to armor based on Endurance.)",
 				"",
 				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:",
 				"- Mining: increasing mining speed with each level;",
@@ -1902,7 +1901,7 @@
 		{
 			x: 6.5d,
 			y: 1.5d,
-			description: ["Some nice brick blocks to get your some nice engineering building style."],
+			description: ["Some nice brick blocks to get yourself some nice engineering building style."],
 			dependencies: ["0000000000000042"],
 			id: "00000000000000D9",
 			tasks: [
@@ -1989,7 +1988,7 @@
 		{
 			x: 1.5d,
 			y: -10.5d,
-			description: ["A artistic not-torch."],
+			description: ["An artistic not-torch."],
 			dependencies: ["00000000000000EB"],
 			id: "00000000000000ED",
 			tasks: [{
@@ -2089,7 +2088,11 @@
 			icon: "betterendforge:lacugrove_crafting_table",
 			x: -3.0d,
 			y: -3.0d,
-			description: ["This quest will complete once you interact with a crafting table 256 times."],
+			description: [
+				"This quest will complete once you interact with a crafting table 256 times.",
+				"",
+				"*This will only be with the vanilla crafting table*"
+			],
 			dependencies: ["0000000000000030"],
 			id: "00000000000002E9",
 			tasks: [{
@@ -2128,26 +2131,17 @@
 			x: 0.0d,
 			y: -7.5d,
 			description: [
-				"Comforts adds sleeping bags and hammocks.",
+				"Comforts adds new sleeping methods.",
 				"",
-				"- Hammocks are the opposite of beds for when you want to skip the day.",
-				"",
-				"- Sleeping bag is like portable bed."
+				"The Sleeping bag is portable bed for when you are travelling."
 			],
 			dependencies: ["0000000000000054"],
 			id: "0000000000000425",
-			tasks: [
-				{
-					id: "0000000000000426",
-					type: "item",
-					item: "comforts:sleeping_bag_purple"
-				},
-				{
-					id: "0000000000000427",
-					type: "item",
-					item: "comforts:hammock_brown"
-				}
-			],
+			tasks: [{
+				id: "0000000000000426",
+				type: "item",
+				item: "comforts:sleeping_bag_purple"
+			}],
 			rewards: [{
 				id: "000000000000045D",
 				type: "item",
@@ -2156,8 +2150,8 @@
 		},
 		{
 			title: "Platformer",
-			x: 13.0d,
-			y: -3.5d,
+			x: 12.5d,
+			y: -4.0d,
 			description: ["Will allow you to create some scaffolding with interesting and unique textures."],
 			dependencies: ["0000000000000045"],
 			id: "00000000000005EC",
@@ -2282,7 +2276,7 @@
 			title: "Volcanic Glass",
 			x: 23.5d,
 			y: -5.5d,
-			description: ["This obsidian is some serious tough material."],
+			description: ["This obsidian is some seriously tough material."],
 			dependencies: ["0000000000000063"],
 			id: "0000000000000F92",
 			tasks: [{
@@ -2363,7 +2357,7 @@
 			title: "The Librarian",
 			x: 0.0d,
 			y: -10.5d,
-			description: ["Collect all those books! Put them into the Akashic Tome for safe keeping."],
+			description: ["Collect all those books! Some of these manuals can be combined in the Akashic Tome for safe keeping."],
 			dependencies: ["00000000000000BE"],
 			id: "0000000000000723",
 			tasks: [
@@ -2615,7 +2609,7 @@
 			x: 12.0d,
 			y: -3.0d,
 			subtitle: "9 slots",
-			description: ["The Lunchbox acts as a lunchbag but with a expanded food carrying storage."],
+			description: ["The Lunchbox acts as a lunchbag but with an expanded food carrying storage."],
 			dependencies: [
 				"0000000000000045",
 				"0000000000001229"
@@ -2642,10 +2636,10 @@
 			}]
 		},
 		{
-			x: 12.0d,
+			x: 11.0d,
 			y: -4.5d,
 			subtitle: "14 slots",
-			description: ["The Golden Lunchbox is a expanded lunchbox."],
+			description: ["The Golden Lunchbox is an expanded lunchbox."],
 			dependencies: ["000000000000122B"],
 			id: "000000000000122D",
 			tasks: [{
@@ -2677,7 +2671,7 @@
 				"You can always come back here to read them again.",
 				"",
 				"- Gain variable benefits for eating a greater variety of foods.",
-				"- Level up your abilities to use advanced items by gaining experience in skills (mining, combat, endurance, etc.)",
+				"- Level up your abilities by gaining experience in skills (mining, combat, endurance, etc.)",
 				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
 			],
 			dependencies: ["0000000000000F88"],
@@ -2958,7 +2952,7 @@
 		{
 			x: 3.0d,
 			y: -9.0d,
-			description: ["The Macaw's series of mods will provide you with a large number of decorative blocks to stylize you base to your hearts content."],
+			description: ["The Macaw's series of mods will provide you with a large number of decorative blocks to stylize your base to your heart's content."],
 			dependencies: ["0000000000000054"],
 			id: "00000000000015B0",
 			tasks: [{
@@ -3447,7 +3441,7 @@
 		{
 			x: 3.0d,
 			y: 0.0d,
-			description: ["The Smoker will be you best friend to make sure that you don't starve before you can build a factory!"],
+			description: ["The Smoker will be you best friend to make sure that you don't starve before you can build a factory! It will cook food twice as fast as the standard furnace."],
 			dependencies: ["000000000000002C"],
 			id: "0B02FF3BDA40F2B5",
 			tasks: [{
@@ -3579,10 +3573,10 @@
 			x: -11.0d,
 			y: -1.5d,
 			description: [
-				"Serene Seasons will bring some nice weather variation that you haven't experienced in Minecraft.",
+				"Serene Seasons will bring some nice weather variation to your Minecraft experience.",
 				"",
 				"Temperate biomes such as plains and forests will transform across four seasons: Spring, Summer, Autumn, and Winter.",
-				"In more tropical biomes such as savannah or deserts will change across two seasons: Wet and Dry.",
+				"In more tropical biomes such as savannah or deserts change will occur across two seasons: Wet and Dry.",
 				"",
 				"Across these seasons you will experience changes in the color of the grass and leaves and changes in the amount of rain. There also is the chance of snow in biomes that don't normally experience it.",
 				"",
@@ -3600,6 +3594,36 @@
 				id: "404AD514FAACD717",
 				type: "item",
 				item: "minecraft:bread"
+			}]
+		},
+		{
+			title: "Laying out in the Sun",
+			x: 13.5d,
+			y: -3.5d,
+			description: [
+				"Comforts adds another new form of bed as well, the Hammock. The Hammock allows you to sleep and pass the daytime.",
+				"",
+				"To setup a hammock you must have two block posts setup 4 blocks apart (4 blocks of open space between the two posts). Place a rope and nail on each post on the same level and then right click a nail with the hammock cloth to setup the hammock."
+			],
+			dependencies: ["0000000000000045"],
+			id: "6AF240A80BEB072A",
+			tasks: [
+				{
+					id: "31637257B967B487",
+					type: "item",
+					item: "comforts:hammock_orange"
+				},
+				{
+					id: "062EDEECD980DD81",
+					type: "item",
+					item: "comforts:rope_and_nail",
+					count: 2L
+				}
+			],
+			rewards: [{
+				id: "3C2F0C2100888620",
+				type: "random",
+				table_id: 1407L
 			}]
 		}
 	]

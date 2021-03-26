@@ -191,7 +191,7 @@
 			description: [
 				"You can use your Totem Of Undying from anywhere in your inventory.",
 				"Better start exploring the woodlands for mansions or protecting villages if you want this life saving backup.",
-				"You may want to trade for a Explorers Map from a Village Cartographer to try and find a Mansion."
+				"You may want to trade for a Explorer's Map from a Village Cartographer to try and find a Mansion."
 			],
 			dependencies: ["00000000000000E2"],
 			id: "0000000000000421",
@@ -262,7 +262,7 @@
 		{
 			x: 13.0d,
 			y: 0.0d,
-			description: ['If I sprinkle some of this "magic" dust on one of those eyes from a teleporting tall guys they seem to fly off in a direction. I should follow to see where they head.'],
+			description: ['If I sprinkle some of this "magic" dust on one of those eyes from those teleporting tall guys they seem to fly off in a direction. I should follow to see where they head.'],
 			dependencies: ["000000000000007C"],
 			id: "0000000000000093",
 			tasks: [{
@@ -299,7 +299,7 @@
 			x: 11.0d,
 			y: 0.0d,
 			shape: "gear",
-			description: ["A big portal in an old dungeon. What could go wrong jumping in?"],
+			description: ["A big portal in an old dungeon. What could go wrong by jumping in?"],
 			dependencies: ["0000000000000093"],
 			size: 2.0d,
 			id: "000000000000007E",
@@ -448,7 +448,7 @@
 		{
 			x: 16.74642857142856d,
 			y: 2.5261904761904717d,
-			description: ["Hey a free source of light, quite decorative and usefull as well."],
+			description: ["Hey a free source of light, quite decorative and useful as well."],
 			dependencies: ["0000000000000080"],
 			id: "00000000000000F1",
 			tasks: [{
@@ -539,7 +539,7 @@
 		{
 			x: 15.5d,
 			y: -3.5d,
-			description: ["Seems like the ancient metal smelts down quite well."],
+			description: ["Seems like the ancient metal combines well with gold."],
 			dependencies: ["0000000000000095"],
 			id: "0000000000000097",
 			tasks: [{
@@ -869,7 +869,7 @@
 			description: [
 				"You may want to set up some defenses for some villages, raiders are becoming more common as of late.",
 				"",
-				"You can create new guards by giving villagers with no job a sword. This will create a guard whose inventory can be openned and they can be given gear."
+				"You can create new guards by giving villagers with no job a sword. This will create a guard whose inventory can be opened and they can be given gear."
 			],
 			dependencies: ["00000000000000E2"],
 			id: "0000000000001503",
@@ -1276,7 +1276,7 @@
 		{
 			x: 10.07678571428572d,
 			y: 4.023809523809518d,
-			description: ["Allows you to breath underwater."],
+			description: ["Allows you to breathe underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001608",
 			tasks: [{
@@ -1396,7 +1396,7 @@
 		{
 			x: 8.0d,
 			y: 6.809523809523803d,
-			description: ["No penalty for diging underwater."],
+			description: ["No penalty for digging underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001610",
 			tasks: [{
@@ -1486,7 +1486,7 @@
 		{
 			x: 10.052976190476201d,
 			y: 7.595238095238088d,
-			description: ["Does more damage udnerwater."],
+			description: ["Does increased damage underwater."],
 			dependencies: ["0000000000001604"],
 			id: "0000000000001616",
 			tasks: [{

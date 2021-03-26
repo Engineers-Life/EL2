@@ -8,7 +8,7 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: 8.5d,
+			x: 7.5d,
 			y: 1.5d,
 			description: ["The root of your Simple Storage Network. You will only need a single root per network."],
 			dependencies: [
@@ -28,7 +28,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 6.5d,
 			y: 0.5d,
 			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."],
 			dependencies: ["00000000000001A1"],
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			x: 10.0d,
+			x: 9.0d,
 			y: 2.5d,
 			description: ["This block allows you to craft with items from a network."],
 			dependencies: ["00000000000001A1"],
@@ -87,7 +87,7 @@
 			]
 		},
 		{
-			x: 13.0d,
+			x: 12.0d,
 			y: 1.5d,
 			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."],
 			id: "00000000000001A7",
@@ -103,7 +103,7 @@
 			}]
 		},
 		{
-			x: 7.0d,
+			x: 6.0d,
 			y: 2.5d,
 			description: ["This block will allow you to see what is stored in a network."],
 			dependencies: ["00000000000001A1"],
@@ -133,8 +133,8 @@
 			]
 		},
 		{
-			x: 5.5d,
-			y: -2.5d,
+			x: 2.5d,
+			y: -0.5d,
 			description: [
 				"A slightly larger chest, it is kind of rusty.....",
 				"",
@@ -154,8 +154,8 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: -2.5d,
+			x: 2.5d,
+			y: 2.5d,
 			description: [
 				"Ok this chest is a bit ridiculous....",
 				"",
@@ -175,8 +175,8 @@
 			}]
 		},
 		{
-			x: 10.0d,
-			y: -2.5d,
+			x: 2.5d,
+			y: 4.0d,
 			description: [
 				"Oh this is going to be expensive....",
 				"",
@@ -196,14 +196,14 @@
 			}]
 		},
 		{
-			x: 13.0d,
-			y: -2.5d,
+			x: 3.0d,
+			y: 5.5d,
 			description: [
 				"A completely blast resistant version of the diamond chest.",
 				"",
 				"12x9 slots (108 total)."
 			],
-			dependencies: ["000000000000112B"],
+			dependencies: ["00000000000001AF"],
 			id: "00000000000001B1",
 			tasks: [{
 				id: "00000000000001B2",
@@ -218,8 +218,8 @@
 		},
 		{
 			disable_toast: true,
-			x: 3.5d,
-			y: -2.5d,
+			x: 2.5d,
+			y: -2.0d,
 			shape: "gear",
 			description: [
 				"A bigger chest to store your stuff.",
@@ -235,8 +235,8 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: -2.5d,
+			x: 2.5d,
+			y: 1.0d,
 			description: [
 				"This seems like it may be a bit expensive to store stuff in.",
 				"",
@@ -256,8 +256,8 @@
 			}]
 		},
 		{
-			x: 11.5d,
-			y: -2.5d,
+			x: 2.0d,
+			y: 5.5d,
 			description: [
 				"A clear version of diamond chest. (No longer shows internal items.)",
 				"",
@@ -278,7 +278,7 @@
 		},
 		{
 			disable_toast: true,
-			x: 6.0d,
+			x: 5.0d,
 			y: 1.5d,
 			shape: "gear",
 			size: 1.5d,
@@ -290,9 +290,9 @@
 			}]
 		},
 		{
-			x: 9.5d,
+			x: 8.5d,
 			y: 0.5d,
-			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable need be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."],
+			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable needs to be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."],
 			dependencies: ["00000000000001A1"],
 			id: "0000000000001132",
 			tasks: [{
@@ -307,11 +307,11 @@
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 7.5d,
 			y: 0.0d,
 			description: [
-				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable need be placed to put into a block, they can be connected by standard network cable to the network.",
-				"Can be right clicked to to set whitelists/blacklists of items for the link."
+				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable needs to be placed to put into a block, they can be connected by standard network cable to the network.",
+				"Can be right clicked to set whitelists/blacklists of items for the link."
 			],
 			dependencies: ["00000000000001A1"],
 			id: "0000000000001134",
@@ -327,7 +327,7 @@
 			}]
 		},
 		{
-			x: 7.0d,
+			x: 6.0d,
 			y: -0.5d,
 			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."],
 			dependencies: ["00000000000001A3"],
@@ -344,9 +344,9 @@
 			}]
 		},
 		{
-			x: 10.0d,
+			x: 9.0d,
 			y: -0.5d,
-			description: ["Acts like a input cable but allows the input to the network to be filtered."],
+			description: ["Acts like an input cable but allows the input to the network to be filtered."],
 			dependencies: ["0000000000001132"],
 			id: "0000000000001138",
 			tasks: [{
@@ -361,9 +361,9 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 7.0d,
 			y: 3.0d,
-			description: ["This upgrade will upgrade the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."],
+			description: ["This upgrade will improve the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."],
 			dependencies: ["00000000000001A1"],
 			id: "000000000000113E",
 			tasks: [{
@@ -378,7 +378,7 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 7.0d,
 			y: 4.5d,
 			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."],
 			dependencies: ["000000000000113E"],
@@ -395,12 +395,12 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 8.0d,
 			y: 3.0d,
 			description: [
-				"This remote will allow you to see the contents of a network at distance. Can be linked to a network by shift right clicking the root with the remote.",
+				"This remote will allow you to see the contents of a network at a distance. Can be linked to a network by shift right clicking the root with the remote.",
 				"",
-				"The network will need to be chunk loaded to be seen at distance."
+				"The network will need to be chunk loaded to be seen at a distance."
 			],
 			dependencies: ["00000000000001A1"],
 			id: "0000000000001142",
@@ -416,12 +416,12 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 8.0d,
 			y: 4.5d,
 			description: [
-				"And upgrade of the storage remote that allows you to craft at a distance from your storage network.",
+				"An upgrade of the storage remote that allows you to craft at a distance from your storage network.",
 				"",
-				"Your network will need to be chunk loaded to remain active at distance."
+				"Your network will need to be chunk loaded to remain active at a distance."
 			],
 			dependencies: ["0000000000001142"],
 			id: "0000000000001144",
@@ -437,9 +437,9 @@
 			}]
 		},
 		{
-			x: 11.0d,
+			x: 10.0d,
 			y: 1.5d,
-			description: ["The Network Guid Book will be your guide to Simple Storage Network machines and mechanics."],
+			description: ["The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."],
 			dependencies: ["00000000000001A7"],
 			id: "0000000000001247",
 			tasks: [{

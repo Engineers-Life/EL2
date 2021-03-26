@@ -2109,7 +2109,7 @@
 			title: "Bait",
 			x: 2.5d,
 			y: 5.0d,
-			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leaches and minnows that you catch by fishing."],
+			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leeches and minnows that you catch by fishing."],
 			dependencies: ["00000000000015E7"],
 			id: "00000000000015E9",
 			tasks: [{
@@ -2170,7 +2170,7 @@
 		{
 			x: 3.5d,
 			y: 6.0d,
-			description: ["Can be dyed like leather and allows you to customize your fishing rod."],
+			description: ["Can be dyed like leather and can be used to customize your fishing rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015F0",
 			tasks: [{
@@ -2221,7 +2221,7 @@
 		{
 			x: 6.5d,
 			y: 2.0d,
-			description: ["Increases a rods luck when applied."],
+			description: ["Increases a rods luck when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015F6",
 			tasks: [{
@@ -2255,7 +2255,7 @@
 		{
 			x: 8.0d,
 			y: 3.5d,
-			description: ["Allows a rod to cast further when applied."],
+			description: ["Allows a rod to cast further when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015FA",
 			tasks: [{
@@ -2272,7 +2272,7 @@
 		{
 			x: 8.0d,
 			y: 4.5d,
-			description: ["Allows a chance to catch two things at once when applied."],
+			description: ["Allows a chance to catch two things at once when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015FC",
 			tasks: [{
