@@ -80,11 +80,11 @@
 	#Range: 0.0 ~ 10.0
 	shinyMultiplier = 1.25
 	#
-	#Multiplier for challenge points from base set, 0-10, default is .8
+	#Multiplier for challenge points from base set, 0-10, default is 1
 	#Range: 0.0 ~ 10.0
 	set1Multiplier = 0.8
 	#
-	#Multiplier for challenge points from nether set, 0-10, default is 1
+	#Multiplier for challenge points from nether set, 0-10, default is 1.2
 	#Range: 0.0 ~ 10.0
 	set2Multiplier = 1.0
 	#
@@ -96,7 +96,7 @@
 	#Range: 0.0 ~ 10.0
 	set4Multiplier = 2.0
 	#
-	#Multiplier for challenge points from create set, 0-10, default is 1.4
+	#Multiplier for challenge points from create set, 0-10, default is 1
 	#Range: 0.0 ~ 10.0
 	set5Multiplier = 1.399999976158142
 	#
@@ -120,7 +120,7 @@
 	#Range: 0.0 ~ 10.0
 	grade5Multiplier = 10.0
 	#
-	#Multiplier for challenge points from aquaculture set, 0-10, default is 1
+	#Multiplier for challenge points from fd set, 0-10, default is 1
 	#Range: 0.0 ~ 10.0
 	set6Multiplier = 1.0
 
