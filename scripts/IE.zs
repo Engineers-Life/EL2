@@ -2,6 +2,7 @@
 // METAL PRESS
 
 <recipetype:immersiveengineering:metal_press>.addRecipe("plastic_from_dryrubber_in_press", <item:industrialforegoing:dryrubber>, <item:immersiveengineering:mold_plate>, 2400, <item:industrialforegoing:plastic>);
+<recipetype:immersiveengineering:metal_press>.addRecipe("clay_brick_from_clay_block_in_press", <item:minecraft:clay>, <item:immersiveengineering:mold_unpacking>, 2400, <item:notreepunching:clay_brick>*4);
 
 // ARC FURNACE
 craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
@@ -14,6 +15,10 @@ craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_dust",   <item:bigreactors:graphite_dust>,      [],                        100, 100*512, [<item:bigreactors:graphite_ingot>]);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_quartz", <item:immersiveengineering:coal_coke>, [<item:minecraft:quartz>], 400, 400*512, [<item:bigreactors:graphite_ingot>],<item:immersiveengineering:slag>);
+
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("brick_from_clay_brick",   <item:notreepunching:clay_brick>,      [],                        100, 100*512, [<item:minecraft:brick>]);
+
+// RANDOM STUFF (extreme reactors)
 furnace.removeRecipe(<item:bigreactors:graphite_block>);
 blastFurnace.removeRecipe(<item:bigreactors:graphite_block>);
 
@@ -38,13 +43,11 @@ craftingTable.addShaped("plate_gold", <item:immersiveengineering:plate_gold>, [
 [<item:minecraft:gold_ingot>]]);
 
 craftingTable.removeRecipe(<item:immersiveengineering:plate_electrum>);
-craftingTable.removeRecipe(<item:immersiveengineering:plate_electrum>);
 craftingTable.addShaped("plate_electrum", <item:immersiveengineering:plate_electrum>, [
 [<item:immersiveengineering:hammer>.anyDamage().transformDamage()], 
 [<item:immersiveengineering:ingot_electrum>], 
 [<item:immersiveengineering:ingot_electrum>]]);
 
-craftingTable.removeRecipe(<item:immersiveengineering:plate_uranium>);
 craftingTable.removeRecipe(<item:immersiveengineering:plate_uranium>);
 craftingTable.addShaped("plate_uranium", <item:immersiveengineering:plate_uranium>, [
 [<item:immersiveengineering:hammer>.anyDamage().transformDamage()], 
@@ -52,13 +55,11 @@ craftingTable.addShaped("plate_uranium", <item:immersiveengineering:plate_uraniu
 [<item:immersiveengineering:ingot_uranium>]]);
 
 craftingTable.removeRecipe(<item:immersiveengineering:plate_copper>);
-craftingTable.removeRecipe(<item:immersiveengineering:plate_copper>);
 craftingTable.addShaped("plate_copper", <item:immersiveengineering:plate_copper>, [
 [<item:immersiveengineering:hammer>.anyDamage().transformDamage()], 
 [<item:immersiveengineering:ingot_copper>], 
 [<item:immersiveengineering:ingot_copper>]]);
 
-craftingTable.removeRecipe(<item:immersiveengineering:plate_nickel>);
 craftingTable.removeRecipe(<item:immersiveengineering:plate_nickel>);
 craftingTable.addShaped("plate_nickel", <item:immersiveengineering:plate_nickel>, [
 [<item:immersiveengineering:hammer>.anyDamage().transformDamage()], 
@@ -66,13 +67,11 @@ craftingTable.addShaped("plate_nickel", <item:immersiveengineering:plate_nickel>
 [<item:immersiveengineering:ingot_nickel>]]);
 
 craftingTable.removeRecipe(<item:immersiveengineering:plate_lead>);
-craftingTable.removeRecipe(<item:immersiveengineering:plate_lead>);
 craftingTable.addShaped("plate_lead", <item:immersiveengineering:plate_lead>, [
 [<item:immersiveengineering:hammer>.anyDamage().transformDamage()], 
 [<item:immersiveengineering:ingot_lead>], 
 [<item:immersiveengineering:ingot_lead>]]);
 
-craftingTable.removeRecipe(<item:immersiveengineering:plate_constantan>);
 craftingTable.removeRecipe(<item:immersiveengineering:plate_constantan>);
 craftingTable.addShaped("plate_constantan", <item:immersiveengineering:plate_constantan>, [
 [<item:immersiveengineering:hammer>.anyDamage().transformDamage()], 
