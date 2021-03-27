@@ -28,6 +28,8 @@ mods.jei.JEI.addInfo(<item:notreepunching:clay_bucket>, ["Shape a Clay Block pla
 mods.jei.JEI.addInfo(<item:notreepunching:ceramic_bucket>, ["A ceramic bucket to use early game until iron is found. Cannot stack empty buckets"]);
 mods.jei.JEI.addInfo(<item:minecraft:campfire>, ["To start a campfire you need fire starter. Throw (Q) the following items on the ground, in the space where you want to create the campfire:", "- One wooden fuel item (any log or plank)", "- Three pieces of kindling (sticks, saplings, leaves, or string). Then, right click and hold the fire starter pointing at the pile of items. Smoke particles will appear, and after a short while, a campfire will appear and the items will be consumed."]);
 
+mods.jei.JEI.addInfo(<item:minecraft:firework_rocket>, ["Fireworks are still enabled, though their recipes are not shown in JEI due to their complex nature.","A single piece of paper can be combined with up to 3 gunpowder (to change flight duration) and up to 5 firework stars. Shapeless recipe."]);
+
 <item:backpacker:rucksack>.addShiftTooltip("You can access it with keybinding ('B' by default)");
 
 // Industrial Foregoing
