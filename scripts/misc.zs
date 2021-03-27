@@ -138,4 +138,9 @@ craftingTable.addShaped("ultimate_chunk_loader",<item:chunkloaders:ultimate_chun
   [<item:minecraft:end_crystal>,<item:chunkloaders:advanced_chunk_loader>,<item:minecraft:end_crystal>],
   [<item:minecraft:redstone_block>,<item:minecraft:diamond_block>,<item:minecraft:redstone_block>]]);
 
+//Storage Block Breakdown
+craftingTable.addShapeless("enriched_iron_storage_breakdown",<item:refinedstorage:quartz_enriched_iron>*9,[<item:refinedstorage:quartz_enriched_iron_block>]);
+craftingTable.addShapeless("biotite_storage_breakdown",<item:quark:biotite>*4,[<item:quark:biotite_block>]);
+craftingTable.addShapeless("neterwart_storage_breakdwon",<item:minecraft:nether_wart>*4,[<item:minecraft:nether_wart_block>]);
+
 println("END misc.zs");
