@@ -56,6 +56,8 @@
 		rope_arrow = true
 		pulley_block = true
 		fodder = true
+		bomb = true
+		magma_cream_block = true
 
 #all these don't actually disable blocks anymore, they just remove their recipe and remove them from the creative tabs(like all other mods do)
 #to access server configuration go into /saves/serverconfigs

@@ -51,8 +51,6 @@
 
 #Mob Tweaks
 ["mob tweaks"]
-	#Enabling this allows tamed pets to pick up weapons (which do actually work but don't render)
-	enablePetWeaponry = true
 	#Enable custom nametags on challenger mobs
 	challengerMobsNames = true
 	#Randomly spawns more difficult (but more lootworthy) enemies.
@@ -71,7 +69,7 @@
 	challengerMobsLoot = ["minecraft:gold_ingot", "minecraft:gold_nugget*15", "minecraft:diamond", "minecraft:emerald", "minecraft:ghast_tear", "minecraft:ender_pearl", "minecraft:emerald", "minecraft:experience_bottle"]
 	#Allows chicken feathers to be plucked w/ shears
 	enableFeatherPlucking = true
-	#Allows you to R-Click your tamed pets with horse armor
+	#Allows you to gear up tamed pets any armor and/or weapon. Doesn't render, but DOES work!
 	enablePetArmory = true
 	#The lowest Y-level which mobs will be prevented from spawning
 	#Range: 1 ~ 255
@@ -79,6 +77,8 @@
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
 	#Allowed Values: DISABLED, OWNER, ALL
 	disablePetFriendlyFire = "OWNER"
+	#If enabled, all bees will always be half the size they are in Vanilla. Does not affect breeding or hitboxes
+	enableSmallBees = true
 
 #Item Tweaks
 ["item tweaks"]

@@ -12,7 +12,7 @@
 	[blocks.cage]
 		#catchable mobs
 		cage_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "minecraft:rabbit", "minecraft:cat", "minecraft:chicken", "minecraft:bat", "iceandfire:pixie", "minecraft:fox", "minecraft:ocelot", "alexsmobs:roadrunner", "alexsmobs:hummingbird", "alexsmobs:crimson_mosquito", "alexsmobs:rattlesnake", "alexsmobs:lobster", "alexsmobs:capuchin_monkey", "alexsmobs:warped_toad", "mysticalworld:beetle", "mysticalworld:frog", "mysticalworld:silver_fox", "mysticalworld:sprout", "mysticalworld:endermini", "mysticalworld:lava_cat", "mysticalworld:owl", "mysticalworld:silkworm", "mysticalworld:hell_sprout", "quark:toretoise", "quark:crab", "quark:foxhound", "quark:stoneling", "quark:frog", "rats:rat", "rats:piper", "rats:plague_doctor", "rats:black_death", "rats:plague_cloud", "rats:plague_beast", "rats:rat_king", "rats:demon_rat", "rats:ratlantean_spirit", "rats:ratlantean_automation", "rats:feral_ratlantean", "rats:neo_ratlantean", "rats:pirat", "rats:ghost_pirat", "rats:dutchrat", "rats:ratfish", "rats:ratlantean_ratbot", "rats:rat_baron", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "autumnity:snail", "buzzierbees:honey_slime", "betteranimalsplus:lammergeier", "betteranimalsplus:songbird", "betteranimalsplus:pheasant", "betteranimalsplus:squirrel", "betteranimalsplus:badger", "betteranimalsplus:turkey", "exoticbirds:roadrunner", "exoticbirds:hummingbird", "exoticbirds:woodpecker", "exoticbirds:kingfisher", "exoticbirds:toucan", "exoticbirds:macaw", "exoticbirds:magpie", "exoticbirds:kiwi", "exoticbirds:owl", "exoticbirds:gouldianfinch", "exoticbirds:gull", "exoticbirds:pigeon", "exoticbirds:penguin", "exoticbirds:duck", "exoticbirds:booby", "exoticbirds:cardinal", "exoticbirds:bluejay", "exoticbirds:robin", "exoticbirds:kookaburra", "exoticbirds:budgerigar", "exoticbirds:cockatoo", "swampexpansion:slabfish"]
-		#allow all mobs to be captured by cages
+		#allow all entities to be captured by cages and jars. Not meant for survival
 		cage_allow_all_mobs = false
 		#additional mobs that you'll be able to catch with the added condition that it has to be a baby variant. No need to include the ones already in cage_mobs
 		cage_baby_mobs = ["minecraft:cow", "minecraft:sheep", "minecraft:pig"]
@@ -114,6 +114,13 @@
 		#Whitelisted mods. All biomes from said mods will be able to spawn fireflies. Use the one above for more control
 		mod_whitelist = []
 
+	[spawns.structures]
+		#enable experimental road sign structures. This will likely change in the nar future
+		experimental_road_signs = true
+		#the higher this number is the less sign posts you'll find
+		#Range: 1 ~ 2000
+		rarity = 80
+
 #entities parameters
 [entities]
 
@@ -134,7 +141,7 @@
 [tweaks]
 
 	[tweaks.throwable_bricks]
-		#throw bricks at your foes! Might glass blocks
+		#throw bricks at your foes! Might break glass blocks
 		enabled = true
 
 	[tweaks.wall_lantern]
@@ -175,8 +182,4 @@
 	[items.rope_arrow]
 		#If you really don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
 		rope_arrow_override = "supplementaries:rope"
-
-[comment]
-	#This config is synced server side. If you are on a server you'll get its own version
-	comment = true
 
