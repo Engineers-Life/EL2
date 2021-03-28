@@ -2,7 +2,7 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
-  renderorder = foreground
+  renderorder = background
 }
 
 customization {
@@ -224,7 +224,7 @@ customization {
   fadeinspeed = 0.6
   x = 1
   width = 99
-  actionid = 3a67210f-7283-4711-8f22-59d19f4df00b1616571250392
+  actionid = 1c8f8704-6dde-46a7-9aab-8ef527fb90b01616875735505
   action = addbutton
   y = -128
   delayappearance = true
@@ -244,7 +244,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = f94fd42c-81be-46cf-8826-c391e90350691616571250396
+  actionid = 4f6cbbb4-c331-4779-b8b2-84df1616e9351616875735509
   action = addbutton
   y = -106
   delayappearance = true
@@ -265,7 +265,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = e7ef0414-e276-4e71-b634-4cb2411498151616571250398
+  actionid = 5be67ca9-5c62-4fbb-952d-fbfcf62fc94c1616875735512
   action = addbutton
   y = -84
   delayappearance = true
@@ -301,7 +301,7 @@ customization {
   fadeinspeed = 1.0
   x = -57
   width = 116
-  actionid = aac7d4bf-9e83-43fa-a5e5-7f821ca567501616571250403
+  actionid = 21285a37-cd76-4d4a-a22e-19e0a9049bde1616875735517
   action = addbutton
   y = -39
   delayappearance = true

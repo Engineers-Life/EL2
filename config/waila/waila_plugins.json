@@ -45,7 +45,6 @@
     "armor_points": true,
     "frame_contents": true,
     "horse_speed": true,
-    "villager_type": true,
     "breeding_cooldown": true
   },
   "jade": {
@@ -55,11 +54,11 @@
     "chicken_egg": true,
     "horse_stat": true,
     "brewing_stand": true,
-    "misc_entity": true,
     "note_block": true,
     "inventory": true,
     "beehive": true,
     "player_head": true,
+    "effective_tool": true,
     "harvest_tool": true,
     "hide_mod_name": false,
     "armor_stand": true,
@@ -75,6 +74,7 @@
     "command_block": true,
     "mob_growth": true,
     "painting": true,
+    "harvest_tool_new_line": false,
     "trapped_chest": true
   },
   "waila": {
@@ -82,9 +82,6 @@
     "show_states": false,
     "show_entity_hp": true,
     "show_entities": true
-  },
-  "fruittrees": {
-    "bee": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

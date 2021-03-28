@@ -3,3 +3,19 @@
 	#Create coin exchange rate recipes
 	default_coin_recipes = false
 
+[corinthian]
+	#Create default corinthian recipes
+	default_corinthian_recipes = true
+
+[easter_egg_01]
+	#Do you like easter eggs? (#G)
+	easter_egg_01 = true
+
+[easter_egg_02]
+	#Do you like easter eggs? (#K)
+	easter_egg_02 = true
+
+[easter_egg_03]
+	#Do you like easter eggs? (#S)
+	easter_egg_03 = ["DENY", "remove all entries to disable", "change DENY to ALLOW to invert list", "the default list denies nothing, so everything is enabled", "list entries should be resource locations"]
+

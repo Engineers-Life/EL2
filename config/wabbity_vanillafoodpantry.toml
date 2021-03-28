@@ -146,6 +146,8 @@ version = 2
 	#Set to the max number of seconds the effect given by a mysterious fruit salad should last. Note this value may be ignored if the given effect is an instant effect (like Healing). Limited to a range of 15s to 480s (or 8min).
 	#Range: 15 ~ 480
 	mystery_effects_duration_secs = 180
+	#Use to define granular per-type defaults of the general 'prefer_singleuse' option provided that option has not been set to 'true' or 'false' specifically.
+	singleuse = ["bread=false", "dessert_pies=*DEFAULT*", "stuffed_potatoes=*DEFAULT*", "stews=*DEFAULT*"]
 
 [produce]
 	#Set to true to enable (un)crafting of 9 mushrooms from standard mushroom blocks. If enabled you can increase storage size of mushrooms per slot and unlock all the mushroomy goodness of giant mushrooms! Disabled by default.
@@ -160,6 +162,8 @@ version = 2
 	include_raftugli_drops = true
 	#Set to false to stop spruce tip drops when you break spruce leaves. Enabled by default.
 	include_spruce_tip_drops = true
+	#Set to false to stop bamboo shoot drops when you break bamboo saplings with a cutter. Enabled by default.
+	include_bamboo_shoots_drops = true
 
 [misc]
 	#Set to false to disable decker sandwich ingredient (name) tooltips. If enabled you will see the name of each food item that went into your decker sandwich. Overrides the general 'show_doc_tooltips' option. Enabled by default.

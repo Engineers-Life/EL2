@@ -49,8 +49,8 @@
 	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 16, your level is 50, and you have 64 charge, you can vein (50 / 320) * 320 = 50 hardness worth of ground, which is 100 Dirt)
 	#Range: 0.01 ~ 10000.0
 	levelsPerHardnessExcavation = 320.0
-	#Boost in veining ability dependant on your tool's speed (5 is fairly balanced, raising this number makes tools more powerful while veining)
-	#Range: 1.0E-9 ~ 1.0E9
+	#How much hunger should be exhausted per block veined?
+	#Range: 0.0 ~ 20.0
 	exhaustionPerBlock = 0.2
 	#Should a succesful sleep recharge every player currently in that world Vein Charge?
 	sleepRechargesAllPlayersVeinCharge = true
@@ -81,6 +81,9 @@
 	levelsPerHardnessWoodcutting = 160.0
 	#Should blocks broken by veining damage your tool?
 	damageToolWhileVeining = true
+	#Boost in veining ability dependant on your tool's speed (5 is fairly balanced, raising this number makes tools more powerful while veining)
+	#Range: 1.0E-9 ~ 1.0E9
+	toolSpeedVeinScale = 5.0
 
 ["Mob Scaling"]
 	#What is the maximum amount an aggressive mob's speed will be boosted?
