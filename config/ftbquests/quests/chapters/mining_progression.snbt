@@ -28,7 +28,7 @@
 			x: -9.0d,
 			y: -1.0d,
 			description: [
-				"The Holosphere is given to the player with the first workbench that is created (though it also can be crafted again later if lost). The left menu (CRFT) is currently the only one available.",
+				"The Holosphere is given to the player with the first hammer that is created (though it also can be crafted again later if lost). The left menu (CRFT) is currently the only one available.",
 				"",
 				"In the holosphere you will be able to check all the materials and their statistics as components. It is very useful in planning out your next tool upgrade."
 			],
@@ -52,7 +52,7 @@
 				"",
 				"This block is created by right clicking a Crafting Table with the Wooden Hammer you just created.",
 				"",
-				"By right clicking the workbench it will open a menu where a item (which types can be seen below in the branching quests) can then be placed and modified."
+				"By right clicking the workbench it will open a menu where an item (which types can be seen below in the branching quests) can then be placed and modified."
 			],
 			dependencies: ["1783F3551BE3CC14"],
 			id: "286C78DD09FE49B1",
@@ -87,11 +87,13 @@
 			title: "Wooden Hammer: Tier I",
 			x: -12.0d,
 			y: 0.0d,
+			shape: "gear",
 			description: [
 				"The Wooden Hammer will be your first tool on your smithing journey.",
 				"",
 				"Check the advancements tabs to gather greater info on the mod outside of these quests."
 			],
+			size: 1.5d,
 			id: "1783F3551BE3CC14",
 			tasks: [{
 				id: "51A9570080665A2B",
@@ -702,7 +704,7 @@
 		{
 			x: 0.5d,
 			y: 3.5d,
-			description: ["This just your standard sword blade with no extra frills."],
+			description: ["This is just your standard sword blade with no extra frills."],
 			dependencies: ["7BC94372A9C4E217"],
 			optional: true,
 			id: "1D71BA7DA68CF606",
@@ -1131,7 +1133,7 @@
 			title: "Pristine Gems",
 			x: -11.0d,
 			y: -2.5d,
-			description: ["Pristine gems provide better versions of the benefits of the standard version of their gem, usually at a decrease in its durability gain, though with Pristine Diamond it is an overall increase in benefits."],
+			description: ["Pristine gems provide better versions of the benefits than the standard version of their gem, usually at a decrease in its durability gain, though with Pristine Diamond it is an overall increase in benefits."],
 			dependencies: ["1D3EDFD37AFCCB25"],
 			id: "76621E06F5BDE7BA",
 			tasks: [
@@ -1301,7 +1303,7 @@
 			title: "Integrity Through Bindings?",
 			x: -10.0d,
 			y: 1.5d,
-			description: ["Integrity is a item statistic that determines if it can be upgraded or not. Certain upgrades, such as bindings and handles, will increase the integrity of a tool allowing it to be upgraded further."],
+			description: ["Integrity is an item statistic that determines if it can be upgraded or not. Certain upgrades, such as bindings and handles, will increase the integrity of a tool allowing it to be upgraded further."],
 			dependencies: ["286C78DD09FE49B1"],
 			id: "19012C596BCE8C3E",
 			tasks: [{
@@ -1325,7 +1327,7 @@
 				"",
 				"Settling occurs per tool part with use. When a part becomes settled it will grant bonuses to the tool such as increased integrity, though if you remove the part you will lose the bonus. There are some upgrades that never settle so don't expect everything to.",
 				"",
-				"Finally, Honing also occurs with progressive further use of a tool with stable parts. Certain parts will become honed with use (can be checked by holding shift and hovering over the tool) where they will be able to have additional unique upgrades applied to them at a workbench. This is to encourage you to keep using and upgrading your tools. You will lose the Honing of a part by removing it so be careful and plan your upgrades."
+				"Finally, Honing also occurs with further use of a tool with stable parts. Certain parts will become honed with use (can be checked by holding shift and hovering over the tool) where they will be able to have additional unique upgrades applied to them at a workbench. This is to encourage you to keep using and upgrading your tools. You will lose the Honing of a part by removing it so be careful and plan your upgrades."
 			],
 			dependencies: ["286C78DD09FE49B1"],
 			id: "35DC92C0C706A260",

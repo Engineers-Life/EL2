@@ -2133,7 +2133,7 @@
 			description: [
 				"Comforts adds new sleeping methods.",
 				"",
-				"The Sleeping bag is portable bed for when you are travelling."
+				"The Sleeping bag is a portable bed for when you are travelling."
 			],
 			dependencies: ["0000000000000054"],
 			id: "0000000000000425",

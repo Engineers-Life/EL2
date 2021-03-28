@@ -1550,7 +1550,7 @@
 			description: [
 				"You will need to journey through the nether to find you way back to the surface. A monolith containing a Reclaimer will need to be found and surrounded on 4 sides with a gold block before it will activate and take you home.",
 				"",
-				"Make sure to save some tool strength or make some new ones because taking you back home with only take you back to deep underground. You will still need to travel back to the surface.",
+				"Make sure to save some tool strength or make some new ones because taking you back home will only take you back to deep underground. You will still need to travel back to the surface.",
 				"",
 				"Take this Iron Pickaxe incase you are stuck, or just throw it into the nearest lava if you have a great Tetra tool!"
 			],

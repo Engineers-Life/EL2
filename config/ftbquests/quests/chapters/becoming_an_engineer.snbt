@@ -3481,7 +3481,8 @@
 			tasks: [{
 				id: "33DD44DF11F054D0",
 				type: "item",
-				item: "immersiveengineering:windmill_sail"
+				item: "immersiveengineering:windmill_sail",
+				count: 8L
 			}],
 			rewards: [{
 				id: "52B9B4FFAA85A7D5",
@@ -3494,7 +3495,7 @@
 			x: 1.5d,
 			y: -2.0d,
 			description: [
-				"Take flight! Your very first jetpack. It doesn't hold much charge but help you get around places a bit better.",
+				"Take flight! Your very first jetpack. It doesn't hold much charge but will help you get around places a bit better.",
 				"This jetpack will sink to the ground in hover mode.",
 				"",
 				"Check your keybinds to setup the appropriate keys."
@@ -3525,7 +3526,7 @@
 			title: "Jump Jets",
 			x: 6.0d,
 			y: -2.0d,
-			description: ["An upgraded jetpack that will hold quite a bit more energy. This pack allows you to fly faster than the basic model and you will fall slightly slower in hover but at the cost of higher energy usage."],
+			description: ["An upgraded jetpack that will hold quite a bit more energy. This pack allows you to fly faster than the basic model and you will fall slightly slower in hover mode but at the cost of higher energy usage."],
 			dependencies: ["000000000000020C"],
 			id: "154AA33D4D33E9AE",
 			tasks: [{
@@ -3543,7 +3544,7 @@
 			title: "Rocketman",
 			x: 10.5d,
 			y: -2.0d,
-			description: ["The highest form of jetpack available. With this pack you can fly very fast through the air, very slowly fall in hover, and have access to the emergency hover mode that will turn on if you fall far enough to cause damage (will neglect the fall damage by turning on and catching you)."],
+			description: ["The highest form of jetpack available. With this pack you can fly very fast through the air, very slowly fall in hover mode, and have access to the emergency hover mode that will turn on if you fall far enough to cause damage (will neglect the fall damage by turning on and catching you)."],
 			dependencies: ["0000000000000215"],
 			id: "4052E9B759601AB6",
 			tasks: [{

@@ -2536,7 +2536,7 @@
 			x: -2.5d,
 			y: 2.0d,
 			description: [
-				"The Calender will display the season of the current biome. A single dot symbolizes the early season, two dots is mid season, and three dots is late season.",
+				"The Calendar will display the season of the current biome. A single dot symbolizes the early season, two dots is mid season, and three dots is late season.",
 				"",
 				"Temperate:",
 				"Flower = Spring",
@@ -2565,7 +2565,7 @@
 			x: -4.5d,
 			y: 3.0d,
 			description: [
-				"Crops are now have seasons associated with when they can grow. To check the seasons where possible hover over the seeds of crop in your inventory.",
+				"Crops now have seasons associated with when they can grow. To check the seasons where possible hover over the seeds of crop in your inventory.",
 				"",
 				"When crops are attempted to grow out of season they simply will not grow. They will not be allowed to grow with bonemeal but can be grown with alternative farming methods (quest to the right of this one)."
 			],
