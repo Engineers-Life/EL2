@@ -224,7 +224,7 @@ customization {
   fadeinspeed = 0.6
   x = 1
   width = 99
-  actionid = 1c8f8704-6dde-46a7-9aab-8ef527fb90b01616875735505
+  actionid = 4e29a6f1-c731-46ee-ba4c-c1b88f8869501616924836437
   action = addbutton
   y = -128
   delayappearance = true
@@ -244,7 +244,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 4f6cbbb4-c331-4779-b8b2-84df1616e9351616875735509
+  actionid = 89e2ab7f-b548-4405-b9ba-7feecdec12a81616924836442
   action = addbutton
   y = -106
   delayappearance = true
@@ -265,7 +265,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 5be67ca9-5c62-4fbb-952d-fbfcf62fc94c1616875735512
+  actionid = bd2d6a89-ba54-4257-a041-21655e2d046d1616924836444
   action = addbutton
   y = -84
   delayappearance = true
@@ -301,7 +301,7 @@ customization {
   fadeinspeed = 1.0
   x = -57
   width = 116
-  actionid = 21285a37-cd76-4d4a-a22e-19e0a9049bde1616875735517
+  actionid = 7863d333-806f-41c7-a8c7-2d1d3855ab331616924836450
   action = addbutton
   y = -39
   delayappearance = true
@@ -332,5 +332,10 @@ customization {
   fadein = true
   fadeinspeed = 0.6
   action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
 }
 
