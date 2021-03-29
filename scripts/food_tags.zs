@@ -96,3 +96,5 @@ val bone_tags = [
 for tag in bone_tags {
     tag.add(<item:aquaculture:fish_bones>);
 }
+
+<tag:items:forge:dough>.add(<item:vanillafoodpantry:dough_ball>);
