@@ -1,5 +1,5 @@
 #Enable "advanced" zoom, which requires you to push a button, and use the scroll wheel to zoom in/out
-EnableAdvancedZoom = false
+EnableAdvancedZoom = true
 
 #Simple zoom settings (used if advanced zoom is disabled
 [SimpleZoom]
