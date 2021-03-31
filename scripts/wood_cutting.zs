@@ -599,7 +599,7 @@ for output, inputList in cutting_recipes {
     }
 }
 
-// toType.removeRecipe(air);
+toType.removeRecipe(air);
 
 val stick = <item:minecraft:stick>;
 for element in <tag:items:minecraft:planks>.getElements() {
