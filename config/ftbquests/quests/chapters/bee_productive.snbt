@@ -10,7 +10,11 @@
 		{
 			x: -6.5d,
 			y: 2.0d,
-			description: ["Will help you with all the info about the Productive Bees mod."],
+			description: [
+				"Will help you with all the info about the Productive Bees mod.",
+				"",
+				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+			],
 			dependencies: ["000000000000078F"],
 			id: "0000000000000779",
 			tasks: [{

@@ -46,8 +46,8 @@
 				Count: 1b,
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s,
-						id: "randomenchants:transposition"
+						lvl: 2s,
+						id: "ensorcellation:displacement"
 					}]
 				}
 			}

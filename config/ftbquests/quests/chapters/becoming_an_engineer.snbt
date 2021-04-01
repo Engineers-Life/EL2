@@ -2784,7 +2784,9 @@
 			description: [
 				"Great sources of knowledge in your coming adventures in industry and automation.",
 				"",
-				"For any Immersive Engineering multiblock structure you can check the manual for a breakdown on how to build the structure and its full function."
+				"For any Immersive Engineering multiblock structure you can check the manual for a breakdown on how to build the structure and its full function.",
+				"",
+				"*You will have to search for the Engineer's Decor manual recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
 			],
 			dependencies: ["0000000000000F99"],
 			id: "0000000000001031",

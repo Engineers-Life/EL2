@@ -531,7 +531,11 @@
 		{
 			x: 0.5d,
 			y: -1.5d,
-			description: ["The Industrial Foregoing Manual will give larger descriptions of its machines."],
+			description: [
+				"The Industrial Foregoing Manual will give larger descriptions of its machines.",
+				"",
+				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+			],
 			dependencies: ["0000000000000614"],
 			id: "00000000000011DC",
 			tasks: [{

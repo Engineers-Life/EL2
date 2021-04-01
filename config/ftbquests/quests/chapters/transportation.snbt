@@ -10,7 +10,11 @@
 		{
 			x: -5.5d,
 			y: -1.0d,
-			description: ["This manual will explain the mechanics and machines of Transport."],
+			description: [
+				"This manual will explain the mechanics and machines of Transport.",
+				"",
+				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+			],
 			dependencies: ["000000000000075C"],
 			id: "0000000000000740",
 			tasks: [{
