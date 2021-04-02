@@ -417,7 +417,6 @@
 		},
 		{
 			title: "Chest",
-			icon: "minecraft:chest",
 			x: 1.5d,
 			y: -6.0d,
 			description: ["Store all that junk you know you are carrying!"],
@@ -2138,9 +2137,76 @@
 			dependencies: ["0000000000000054"],
 			id: "0000000000000425",
 			tasks: [{
-				id: "0000000000000426",
+				id: "4412C916972860C1",
 				type: "item",
-				item: "comforts:sleeping_bag_purple"
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "comforts:sleeping_bag_orange",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_magenta",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_light_blue",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_yellow",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_lime",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_pink",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_gray",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_light_gray",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_cyan",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_purple",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_blue",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_brown",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_green",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_red",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_black",
+								Count: 1b
+							}
+						]
+					}
+				}
 			}],
 			rewards: [{
 				id: "000000000000045D",
@@ -3609,15 +3675,82 @@
 			id: "6AF240A80BEB072A",
 			tasks: [
 				{
-					id: "31637257B967B487",
-					type: "item",
-					item: "comforts:hammock_orange"
-				},
-				{
 					id: "062EDEECD980DD81",
 					type: "item",
 					item: "comforts:rope_and_nail",
 					count: 2L
+				},
+				{
+					id: "7C2A91AC3CF5ECFA",
+					type: "item",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "comforts:hammock_orange",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_magenta",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_light_blue",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_yellow",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_lime",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_pink",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_gray",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_light_gray",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_cyan",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_purple",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_blue",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_brown",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_green",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_red",
+									Count: 1b
+								},
+								{
+									id: "comforts:hammock_black",
+									Count: 1b
+								}
+							]
+						}
+					}
 				}
 			],
 			rewards: [{
