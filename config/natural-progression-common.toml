@@ -10,7 +10,7 @@
 	#Setting this to true prevents the ability to craft wooden tools. This is totally unrealistic anyways.
 	removeWoodenToolRecipes = true
 	#Setting this to true prevents the ability to craft stone tools. This is totally unrealistic anyways.
-	removeStoneToolRecipes = true
+	removeStoneToolRecipes = false
 	#Setting this to true will make ground blocks (e.g. sand, dirt, gravel) harder to break without the correct tool.
 	makeGroundBlocksHarder = true
 	#Setting this to true will allow you to replace pebbles like tall grass (more convenient for building, but loses the block forever
