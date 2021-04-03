@@ -2,6 +2,7 @@
 import crafttweaker.api.BracketHandlers;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.mods.Mods;
+import stdlib.List;
 
 println("BEGIN furnace.zs");
 
@@ -43,10 +44,14 @@ smoker.removeRecipe(<item:simplefarming:cooked_egg>);
 println("BEGIN furnace.metal_processing");
 
 // remove making dust from ores in crafting table
+var removeList = new List<string>();
 for wrapper in craftingTable.getRecipesByOutput(<tag:items:forge:dusts>) {
     if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>) {
-        craftingTable.removeByName(wrapper.id);
+        removeList.add(wrapper.id);
     }
+}
+for recipeName in removeList {
+    craftingTable.removeByName(recipeName);
 }
 
 // remove processing ores in furnace
@@ -225,7 +230,7 @@ for modid, blockData in blockRecipes {
         for block_id, recipe in blockData {
             val item = BracketHandlers.getItem(block_id);
             craftingTable.removeRecipe(item);
-            craftingTable.addShaped(block_id, item, recipe);
+            craftingTable.addShaped(validName(block_id), item, recipe);
         }
     }
 }
