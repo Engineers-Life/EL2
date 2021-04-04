@@ -269,8 +269,8 @@ if (bricksAreBetter && recipeGroups["Smelting"].size>1) { // size > 1 only check
 	manager.removeRecipe(<item:minecraft:blue_glazed_terracotta>);
 	manager.removeRecipe(<item:minecraft:flower_pot>);
 	manager.removeRecipe(<item:notreepunching:ceramic_bucket>);
-	manager.removeByName("notreepunching:smelting/large_vessel");
-	manager.removeByName("notreepunching:smelting/small_vessel");
+	//manager.removeByName("notreepunching:smelting/large_vessel");
+	//manager.removeByName("notreepunching:smelting/small_vessel");
 }
 
 println("END furnace.zs");
