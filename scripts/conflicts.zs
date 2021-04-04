@@ -35,7 +35,7 @@ replaceByName("embellishcraft:andesite_paving",<item:embellishcraft:andesite_pav
 replaceByName("pamhc2foodcore:tool_roller",<item:pamhc2foodcore:rolleritem>,[[air,air,stick],[air,log,air],[stick,air,air]]);
 
 var rsb = <item:quark:red_sandstone_bricks>;
-replaceByName("embllishcraft:red_sandstone_paving_stones",<item:embellishcraft:red_sandstone_paving_stones>*4,[[air,rsb,air],[rsb,air,rsb],[air,rsb,air]]);
+replaceByName("embellishcraft:red_sandstone_paving_stones",<item:embellishcraft:red_sandstone_paving_stones>*4,[[air,rsb,air],[rsb,air,rsb],[air,rsb,air]]);
 removeAndHide(<item:embellishcraft:red_sandstone_bricks>);
 replaceByName("embellishcraft:red_sandstone_large_bricks",<item:embellishcraft:red_sandstone_large_bricks>*4,[[rsb,rsb],[rsb,rsb]]);
 
@@ -82,11 +82,11 @@ removeFromListAndHide([craftingTable,stoneCutter],<item:embellishcraft:sandstone
 removeFromListAndHide([craftingTable,stoneCutter],<item:embellishcraft:sandstone_bricks_wall>);
 
 replaceByName("immersiveengineering:crafting/metal_ladder_steel",<item:immersiveengineering:metal_ladder_steel>*3,[[<tag:items:immersiveengineering:scaffoldings/steel>],[<item:buildersaddition:iron_ladder_rough>]]);
-replaceByName("immersiveengineering:crafting/metal_ladder_alu",<item:immersiveengineering:metal_ladder_alu>*3,[[<tag:items:immersiveengineering:scaffolding/aluminum>],[<item:buildersaddition:iron_ladder>]]);
+replaceByName("immersiveengineering:crafting/metal_ladder_alu",<item:immersiveengineering:metal_ladder_alu>*3,[[<tag:items:immersiveengineering:scaffoldings/aluminum>],[<item:buildersaddition:iron_ladder>]]);
 removeAndHide(<item:immersiveengineering:metal_ladder_none>);
 removeAndHide(<item:quark:iron_ladder>); // didn't conflict, just redundant
 
-replaceByName("terraincognita:crafting/compat/quark/apple/vertical_slab",<item:terraincognita:apple_vertical_slab>*3,[[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>]]);
+replaceByName("terraincognita:crafting/compat/quark/apple/vertical_slabs",<item:terraincognita:apple_vertical_slab>*3,[[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>]]);
 replaceByNameMirrored("quark:building/crafting/shinges/shingles",<item:quark:shingles>*2,[[<item:minecraft:terracotta>,air],[air,<item:minecraft:terracotta>]]);
 
 println("END conflicts");
