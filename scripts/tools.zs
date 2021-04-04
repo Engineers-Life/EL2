@@ -31,8 +31,8 @@ craftingTable.removeRecipe(<item:minecraft:stone_hoe>);
 craftingTable.addShapedMirrored("stone_hoe", <item:minecraft:stone_hoe>, [
 [tool_stone,tool_stone],[air,stick],[air,stick]]);
 
-// TERMINITE TOOLS
-
+// TERMINITE TOOLS - no longer needed as they no longer follow vanilla recipes.
+/*
 craftingTable.removeRecipe(<item:betterendforge:terminite_sword>);
 craftingTable.addShaped("terminite_sword", <item:betterendforge:terminite_sword>, [
 [tool_terminite],[tool_terminite],[stick]]);
@@ -56,6 +56,7 @@ craftingTable.addShapedMirrored("terminite_hoe", <item:betterendforge:terminite_
 craftingTable.removeRecipe(<item:betterendforge:terminite_hammer>);
 craftingTable.addShaped("terminite_hammer", <item:betterendforge:terminite_hammer>, [
 [tool_terminite,air,tool_terminite],[tool_terminite,stick,tool_terminite],[air,stick,air]]);
+*/
 
 // STEEL PLATES
 
