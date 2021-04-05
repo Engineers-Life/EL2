@@ -87,6 +87,6 @@ removeAndHide(<item:immersiveengineering:metal_ladder_none>);
 removeAndHide(<item:quark:iron_ladder>); // didn't conflict, just redundant
 
 replaceByName("terraincognita:crafting/compat/quark/apple/vertical_slabs",<item:terraincognita:apple_vertical_slab>*3,[[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>]]);
-replaceByNameMirrored("quark:building/crafting/shinges/shingles",<item:quark:shingles>*2,[[<item:minecraft:terracotta>,air],[air,<item:minecraft:terracotta>]]);
+replaceByNameMirrored("quark:building/crafting/shingles/shingles",<item:quark:shingles>*2,[[<item:minecraft:terracotta>,air],[air,<item:minecraft:terracotta>]]);
 
 println("END conflicts");
