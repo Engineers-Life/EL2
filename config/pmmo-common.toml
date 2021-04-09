@@ -131,7 +131,7 @@
 	#Should mob kill req be enabled? false means no requirements
 	killReqEnabled = true
 	#Should biome requirements be enabled? false means no requirements
-	biomeReqEnabled = true
+	biomeReqEnabled = false
 	#Should logs be enabled? false means no extra chance
 	logEnabled = true
 	#Should Enchantment Use requirements be enabled? false means no requirements
@@ -153,7 +153,7 @@
 	#Should plants be enabled? false means no extra chance
 	plantEnabled = true
 	#Should biome negative effects be enabled? false means no negative effects
-	negativeBiomeEffectEnabled = true
+	negativeBiomeEffectEnabled = false
 	#Should Enchantment Use requirements automatically scale according to previous values, provided they exist? example: level1Req = 5 agility, level2Req = 10 farming - Level 4 enchantment would require level 10 agility, and level 20 farming (highestSpecifiedLevelReqs / highestSpecifiedLevel * enchantLevel)
 	enchantUseReqAutoScaleEnabled = true
 	#Should biome positive effects be enabled? false means no positive effects
@@ -216,7 +216,7 @@
 [Multipliers]
 	#How much xp everyone gains on Peaceful Difficulty (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
-	peacefulMultiplier = 1.5
+	peacefulMultiplier = 1.0
 	#How much xp you get in biomes you do not meet the requirements for (1 = Full xp, 0.5 = Half xp)
 	#Range: 0.0 ~ 1.0
 	biomePenaltyMultiplier = 0.8
