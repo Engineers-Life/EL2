@@ -143,4 +143,9 @@ craftingTable.addShapeless("enriched_iron_storage_breakdown",<item:refinedstorag
 craftingTable.addShapeless("biotite_storage_breakdown",<item:quark:biotite>*4,[<item:quark:biotite_block>]);
 craftingTable.addShapeless("neterwart_storage_breakdwon",<item:minecraft:nether_wart>*4,[<item:minecraft:nether_wart_block>]);
 
+// flint saw
+craftingTable.removeRecipe(<item:natural-progression:basic_saw>);
+craftingTable.addShaped("flint_saw",<item:natural-progression:basic_saw>,
+    [ [stick,stick,stick],[<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>]]) ;
+
 println("END misc.zs");
