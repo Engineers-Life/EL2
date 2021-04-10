@@ -2,7 +2,7 @@
 #Client Configuration Settings
 [client_configs]
 	#Enable a recurring heartbeat sound when health drops below a threshold
-	enableLowHealthSound = true
+	enableLowHealthSound = false
 	#The volume at which to play the low health sound (if enabled)
 	#Range: 0.0 ~ 1.0
 	lowHealthSoundVolume = 0.5
