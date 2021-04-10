@@ -14,14 +14,18 @@ println("BEGIN planks.zs");
 
 <tag:items:forge:modaxe>.add(<item:tetra:modular_double>); //add modular double to custom tag for recipes
 
-//Remove Natural Progression hatchet and iron saw
+//Remove Natural Progression hatchet and iron saw and add tag to basic saw
 removeAndHide(<item:natural-progression:flint_hatchet>);
 removeAndHide(<item:natural-progression:improved_saw>);
 craftingTable.removeByRegex('.*axe.stripped_.*');
-craftingTable.removeByRegex('.*saw.stripped_.*');
+craftingTable.removeByRegex('.*saw.*stripped_.*');
+
+//Create Saw tag
+<tag:items:forge:saws>.add(<tag:items:notreepunching:saws>);
+<tag:items:forge:saws>.add(<item:natural-progression:basic_saw>);
 
 val air = <item:minecraft:air>;
-val saws = <tag:items:notreepunching:saws> as MCTag<MCItemDefinition>;
+val saws = <tag:items:forge:saws> as MCTag<MCItemDefinition>;
 val axes = <tag:items:minecraft:axes> as MCTag<MCItemDefinition>;
 val mod_axe = <tag:items:forge:modaxe> as MCTag<MCItemDefinition>;
 val planks = <tag:items:minecraft:planks>;
@@ -106,6 +110,9 @@ craftingTable.addShaped("treated_sticks_axe", <item:immersiveengineering:stick_t
     [all_axes.anyDamage().transformDamage(), <tag:items:forge:treated_wood>] ], ifAxe);
 craftingTable.addShapedMirrored("treated_sticks_saw", <item:immersiveengineering:stick_treated>*2, [
     [saws.asIIngredient().anyDamage().transformDamage(), <tag:items:forge:treated_wood>] ]);
+craftingTable.removeByRegex('notreepunching:sticks.*_saw');
+craftingTable.addShapedMirrored("sticks_basic_saw", <item:minecraft:stick>*8, [
+    [saws.asIIngredient().anyDamage().transformDamage(), <tag:items:minecraft:logs>] ]);
 
 //logs to sticks
 craftingTable.removeByName("notreepunching:sticks_from_logs_with_flint_axe");
