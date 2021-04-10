@@ -8,16 +8,18 @@
 	default_quest_shape: "",
 	quests: [
 		{
+			icon: "minecraft:dragon_head",
 			x: -6.5d,
 			y: -1.0d,
 			description: ["Ok well I really didn't expect that down here....."],
 			dependencies: ["00000000000014E8"],
 			id: "000000000000008A",
 			tasks: [{
-				id: "000000000000008B",
-				type: "kill",
-				entity: "minecraft:ender_dragon",
-				value: 1L
+				id: "6245EFB7592B4C3B",
+				type: "advancement",
+				icon: "minecraft:dragon_head",
+				advancement: "minecraft:end/kill_dragon",
+				criterion: ""
 			}],
 			rewards: [
 				{
@@ -344,8 +346,8 @@
 				id: "0000000000001551",
 				type: "biome",
 				title: "Dust Wasteland",
-				icon: "minecraft:end_stone",
-				biome: "betterendforge:dust_wasteland"
+				icon: "betterendforge:endstone_dust",
+				biome: "betterendforge:dust_wastelands"
 			}]
 		},
 		{
