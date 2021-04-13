@@ -16,7 +16,7 @@
 	swamp_mucker_spawn_weight = 1
 	#Spawn weight of Mudhorses
 	#Range: 1 ~ 1000
-	mudhorse_spawn_weight = 1000
+	mudhorse_spawn_weight = 5
 
 ["Mountain Creature Spawn Weight"]
 	#Spawn weight of Siderol Whiskered Snails
