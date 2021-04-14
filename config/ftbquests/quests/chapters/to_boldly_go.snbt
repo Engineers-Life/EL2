@@ -12,7 +12,9 @@
 			y: 0.0d,
 			description: [
 				"Better start digging up some treasure to find one of these puppies.",
-				"You will want to trade with a Village Cartographer to get a treasure map, or explore shipwrecks and ocean ruins."
+				"You will want to trade with a Village Cartographer to get a treasure map, or explore shipwrecks and ocean ruins.",
+				"",
+				"Also, note that you can salvage Hearts of the Sea from Tridents using PMMO salvage."
 			],
 			dependencies: ["00000000000000DE"],
 			id: "00000000000000E4",

@@ -223,7 +223,7 @@
 			tasks: [{
 				id: "0000000000001541",
 				type: "biome",
-				title: "Sulfur Springs",
+				title: "Sulpher Springs",
 				icon: "betterendforge:hydrothermal_vent",
 				biome: "betterendforge:sulphur_springs"
 			}]
