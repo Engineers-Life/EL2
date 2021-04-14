@@ -2629,5 +2629,17 @@
 			"xpPerItem": 0.35,
 			"levelReq": 3
 		}
+	},
+	"minecraft:trident":
+	{
+		"minecraft:heart_of_the_sea":
+		{
+			"salvageMax": 1,
+			"baseChance": 20,
+			"chancePerLevel": 1.5,
+			"maxChance": 60,
+			"xpPerItem": 0.35,
+			"levelReq": 10
+		}
 	}
 }
