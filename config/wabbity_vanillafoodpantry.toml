@@ -4,6 +4,8 @@ version = 2
 [general]
 	#[INTERNAL] Development workflow enabled. Do NOT enable in regular environment.
 	debug_mode = false
+	#Set to false to distribute VFP items and blocks to vanilla tabs in creative views (VFP table is removed). Enabled by default.
+	use_custom_tab = true
 	#Set to true to force all the basic recipes to use a mod-specific element to ensure no collisions with other mod recipes. Off by default; requires restart if changed.
 	super_compatibility_mode = false
 	#Set to false to turn off documentation tooltips (status tips not affected). Enabled by default.
@@ -68,7 +70,7 @@ version = 2
 	include_guardian_drops = true
 	#Set to false to disable mod drops from killing zombies of all kinds. VFP adds tainted souls for use with Felis Life Essence in potion brewing. Enabled by default.
 	include_zombie_drops = true
-	#Set to false to disable mod drops from killing phantoms. VFP adds phantom meat and other items used in potion brewing. Enabled by default.
+	#Set to true to enable mod drops from killing phantoms. VFP adds phantom meat and other items used in potion brewing. Disabled by default.
 	include_phantom_drops = false
 	#Set to false to disable mod drops from killing ravager beasts. VFP adds ravager meat, bones, and other items used in potion brewing. Enabled by default.
 	include_ravager_drops = true
@@ -98,20 +100,14 @@ version = 2
 	modded_trading_allowed = "*DEFAULT*"
 	#Set to "false" to disable direct integration with advanced survival mods like 'Survive'. Use this option if you want full control over all aspects of VFP's integration with your survival framework and environment.
 	modded_survival = "*DEFAULT*"
-	#[DISABLED] Set to "false" to disable computation of nutrition notes COMPLETELY. Nutrition notes is a feature that helps integrate VFP foods with other mods automatically. Turning off does not remove notes already added to existing items. Requires restart if changed.
+	#Set to "false" to disable computation of nutrition notes COMPLETELY. Nutrition notes is a feature that helps integrate VFP foods with other mods automatically. Turning off does not remove notes already added to existing items. Requires restart if changed.
 	calc_nutrition_notes = "*DEFAULT*"
-	#[DISABLED] Set to "false" to disable tooltips for nutrition notes. This setting does NOT affect the calculation or use of notes, just whether or not you see this information. Ignored if the nutrition notes feature is disabled. Requires restart if changed.
+	#Set to "false" to disable tooltips for nutrition notes. This setting does NOT affect the calculation or use of notes, just whether or not you see this information. Ignored if the nutrition notes feature is disabled. Requires restart if changed.
 	show_nutrition_notes = "*DEFAULT*"
-	#[DISABLED] Set to true to have VFP check nutrition notes for items on player-pickup from the world. This is a supplement to crafting, smelting, etc. when you want to assign notes to uncrafted items. Disabled by default.
+	#[ADVANCED] Set to true to have VFP check nutrition notes for items on player-pickup from the world. This is a supplement to crafting, smelting, etc. when you want to assign notes to uncrafted items. Disabled by default.
 	add_nutrition_notes_on_pickup = false
 	#Set to false to disable builtin reheating and chilling recipes. You can still provide hot/cold foods via loot tables, trading, and shops (modded). This option does NOT alter any bonus effects from consuming such foods. Enabled by default; requires restart if changed.
 	hotcold_food_crafting = true
-	#Set to "false" to disable the various 'Well Fed' and other combat-useful buffs related to consuming certain items (only affects VFP). Leave as '*DEFAULT*' to inherit the top-level Carrots library value.
-	fighting_food = "*DEFAULT*"
-	#Set to "false" to disable ability to convert certain foods to charcoal-like fuel (only affects VFP). Leave as '*DEFAULT*' to inherit the top-level Carrots library value.
-	food_charcoal = "*DEFAULT*"
-	#Set false to use the pre-1.16 restricted set of foods for My-Way Deckers rather than allowing most foods provided 1 bread and 1 protein item also included. Enabled by default.
-	any_food_in_myway_decker = true
 
 	[integration.vanilla]
 		#Set to false to disable upsizing of wool drops from sheep-- VFP will no longer ensure at least 3 wool blocks are dropped per kill. Ignored if strict vanilla progression or general drops upsizing option disabled.
@@ -152,9 +148,6 @@ version = 2
 	mystery_effects_duration_secs = 180
 	#Use to define granular per-type defaults of the general 'prefer_singleuse' option provided that option has not been set to 'true' or 'false' specifically.
 	singleuse = ["bread=false", "dessert_pies=*DEFAULT*", "stuffed_potatoes=*DEFAULT*", "stews=*DEFAULT*"]
-	#Set to the max food points any multi-use item, like My-Way and King-Me deckers, can have. Note there can be additional size-restrictions depending on the food being crafted. Has no affect on existing items.
-	#Range: 4 ~ 288
-	max_foodpts_per_multiuse = 288
 
 [produce]
 	#Set to true to enable (un)crafting of 9 mushrooms from standard mushroom blocks. If enabled you can increase storage size of mushrooms per slot and unlock all the mushroomy goodness of giant mushrooms! Disabled by default.

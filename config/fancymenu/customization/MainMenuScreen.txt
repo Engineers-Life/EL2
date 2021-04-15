@@ -215,22 +215,6 @@ customization {
 }
 
 customization {
-  orientation = top-centered
-  delayappearanceseconds = 2.25
-  path = config/fancymenu/logo.png
-  fadein = true
-  fadeinspeed = 0.75
-  x = -148
-  width = 303
-  action = addtexture
-  actionid = d57a1e0b-f3c6-4cc6-98ad-34e1af3632621616137489240
-  y = 6
-  delayappearance = true
-  delayappearanceeverytime = false
-  height = 195
-}
-
-customization {
   orientation = bottom-centered
   delayappearanceseconds = 3.3
   buttonaction = openlink
@@ -240,7 +224,7 @@ customization {
   fadeinspeed = 0.6
   x = 1
   width = 99
-  actionid = cac04197-f40e-4ad9-a0b4-04d7d494b16d1618426282663
+  actionid = 4e29a6f1-c731-46ee-ba4c-c1b88f8869501616924836437
   action = addbutton
   y = -128
   delayappearance = true
@@ -260,7 +244,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 73d661e7-a4a6-4036-9fcc-062d60ef81011618426282687
+  actionid = 89e2ab7f-b548-4405-b9ba-7feecdec12a81616924836442
   action = addbutton
   y = -106
   delayappearance = true
@@ -281,7 +265,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 106a13a9-dd52-4c1c-9403-ec9679d772621618426282708
+  actionid = bd2d6a89-ba54-4257-a041-21655e2d046d1616924836444
   action = addbutton
   y = -84
   delayappearance = true
@@ -292,6 +276,22 @@ customization {
 }
 
 customization {
+  orientation = top-centered
+  delayappearanceseconds = 2.25
+  path = config/fancymenu/logo.png
+  fadein = true
+  fadeinspeed = 0.75
+  x = -148
+  width = 303
+  action = addtexture
+  actionid = d57a1e0b-f3c6-4cc6-98ad-34e1af3632621616137489240
+  y = 6
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 195
+}
+
+customization {
   orientation = bottom-centered
   delayappearanceseconds = 4.0
   buttonaction = openlink
@@ -299,16 +299,16 @@ customization {
   label = 
   fadein = true
   fadeinspeed = 1.0
-  x = -100
-  width = 98
-  actionid = 5320ba93-68ad-4f9f-b0ce-20ab17e2a88c1618426282747
+  x = -57
+  width = 116
+  actionid = 7863d333-806f-41c7-a8c7-2d1d3855ab331616924836450
   action = addbutton
-  y = -40
+  y = -39
   delayappearance = true
   backgroundnormal = config/fancymenu/vertical_dark_text.png
   value = https://bisecthosting.com/xdreamz
   delayappearanceeverytime = false
-  height = 35
+  height = 32
 }
 
 customization {
@@ -327,13 +327,6 @@ customization {
 
 customization {
   identifier = %id=376382%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal.png
-}
-
-customization {
-  identifier = %id=376382%
   seconds = 3.8
   onlyfirsttime = true
   fadein = true
@@ -342,22 +335,7 @@ customization {
 }
 
 customization {
-  orientation = bottom-centered
-  delayappearanceseconds = 4.0
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu/button_patreon_h.png
-  label = 
-  fadein = true
-  fadeinspeed = 1.0
-  x = 2
-  width = 98
-  actionid = 3356928e-1018-4403-bbce-3cc40637b0f71618426282767
-  action = addbutton
-  y = -40
-  delayappearance = true
-  backgroundnormal = config/fancymenu/button_patreon.png
-  value = https://www.patreon.com/Dreams01
-  delayappearanceeverytime = false
-  height = 36
+  identifier = %id=376346%
+  action = hidebutton
 }
 
