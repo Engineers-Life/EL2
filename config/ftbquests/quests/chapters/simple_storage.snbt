@@ -11,10 +11,7 @@
 			x: 7.5d,
 			y: 1.5d,
 			description: ["The root of your Simple Storage Network. You will only need a single root per network."],
-			dependencies: [
-				"0000000000001130",
-				"0000000000001247"
-			],
+			dependencies: ["0000000000001247"],
 			id: "00000000000001A1",
 			tasks: [{
 				id: "00000000000001A2",
@@ -87,7 +84,7 @@
 			]
 		},
 		{
-			x: 12.0d,
+			x: 4.0d,
 			y: 1.5d,
 			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."],
 			id: "00000000000001A7",
@@ -277,19 +274,6 @@
 			}]
 		},
 		{
-			disable_toast: true,
-			x: 5.0d,
-			y: 1.5d,
-			shape: "gear",
-			size: 1.5d,
-			id: "0000000000001130",
-			tasks: [{
-				id: "0000000000001131",
-				type: "item",
-				item: "minecraft:nether_star"
-			}]
-		},
-		{
 			x: 8.5d,
 			y: 0.5d,
 			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable needs to be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."],
@@ -437,7 +421,7 @@
 			}]
 		},
 		{
-			x: 10.0d,
+			x: 5.5d,
 			y: 1.5d,
 			description: [
 				"The Network Guide Book will be your guide to Simple Storage Network machines and mechanics.",
