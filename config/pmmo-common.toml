@@ -35,7 +35,7 @@
 	maxPartyXpBonus = 15.0
 
 ["Vein Mining"]
-	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 32, your level is 50, and you have 64 charge, you can vein (50 / 160 ) * 320 = 100 hardness worth of blocks, which is 2.0 Obsidian, or 33.3 Coal Ore)
+	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 32, your level is 50, and you have 64 charge, you can vein (50 / 160) * 320 = 100 hardness worth of blocks, which is 2.0 Obsidian, or 33.3 Coal Ore)
 	#Range: 0.01 ~ 10000.0
 	levelsPerHardnessMining = 160.0
 	#Should veining wood material blocks start from the highest block?
@@ -46,13 +46,15 @@
 	#What is the lowest hardness for each block veined? (Crops have 0 hardness, this makes crops not infinitely veined)
 	#Range: 0.0 ~ 10000.0
 	minVeinHardness = 0.5
-	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 16, your level is 50, and you have 64 charge, you can vein (50 / 320 ) * 320 = 50 hardness worth of ground, which is 100 Dirt)
+	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 16, your level is 50, and you have 64 charge, you can vein (50 / 320) * 320 = 50 hardness worth of ground, which is 100 Dirt)
 	#Range: 0.01 ~ 10000.0
 	levelsPerHardnessExcavation = 320.0
 	#How much hunger should be exhausted per block veined?
 	#Range: 0.0 ~ 20.0
 	exhaustionPerBlock = 0.2
-	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 80, your level is 50, and you have 320 charge, you can vein (50 / 80 ) * 320 = 200 hardness worth of Crafting Related (Such as wool, carpet, bed) blocks, which depends on how hard they are)
+	#Should a succesful sleep recharge every player currently in that world Vein Charge?
+	sleepRechargesAllPlayersVeinCharge = true
+	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 80, your level is 50, and you have 320 charge, you can vein (50 / 80) * 320 = 200 hardness worth of Crafting Related (Such as wool, carpet, bed) blocks, which depends on how hard they are)
 	#Range: 0.1 ~ 10000.0
 	levelsPerHardnessCrafting = 160.0
 	#Is vein mining allowed? true = on, false = off
@@ -74,7 +76,7 @@
 	veinSpeed = 1
 	#Should players be allowed to vein blocks that they did not place?
 	veiningOtherPlayerBlocksAllowed = false
-	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 32, your level is 50, and you have 64 charge, you can vein (50 / 160 ) * 320 = 100 hardness worth of logs, which is 50 Logs)
+	#Every how many levels does 1 charge become worth +1 hardness? (If this is set to 32, your level is 50, and you have 64 charge, you can vein (50 / 160) * 320 = 100 hardness worth of logs, which is 50 Logs)
 	#Range: 0.01 ~ 10000.0
 	levelsPerHardnessWoodcutting = 160.0
 	#Should blocks broken by veining damage your tool?
@@ -82,12 +84,6 @@
 	#Boost in veining ability dependant on your tool's speed (5 is fairly balanced, raising this number makes tools more powerful while veining)
 	#Range: 1.0E-9 ~ 1.0E9
 	toolSpeedVeinScale = 5.0
-	#How many blocks should be highlighted while holding the Vein key
-	#Range: 0 ~ 10000
-	maxVeinDisplay = 250
-	#How much vein is restored for each player when the day is skipped by sleeping in bed?
-	#Range: 0.0 ~ 1.0
-	sleepVeinRestorePercent = 0.8477
 
 ["Mob Scaling"]
 	#What is the maximum amount an aggressive mob's speed will be boosted?
@@ -178,8 +174,6 @@
 	placeReqEnabled = true
 	#When a Wear requirement is not met, should the item be dropped?
 	strictReqWear = false
-	#Should Tinkers mod Materials requirements be enabled? false means no requirements
-	tinkersMaterialsReqEnabled = true
 
 [Levels]
 	#What is the global max level
@@ -400,20 +394,14 @@
 	#How much endurance you gain per level (1 = 1% per level)
 	#Range: 0.0 ~ 100.0
 	endurancePerLevel = 0.25
-	#How many half hearts regenerate per minute at level 0 Endurance (at 1, and at level 0 Endurance, you regenerate half a heart every 60 seconds, 0 means no base regeneration)
-	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBase = 1.0
-	#Addition per level to hpRegenPerMinuteBase (if set to 0.01, every 100 Endurance levels, you regen 1 more half heart per 60 seconds, 0 means no extra regeneration)
-	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBoostPerLevel = 0.02
 
 [Combat]
-	#How much percentage bonus damage do you get per Combat level in Melee?
-	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelMelee = 0.005
 	#How much extra damage can you get from the Combat skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMelee = 100.0
+	maxExtraDamageBoostMelee = 100.0
+	#Per how many levels you gain 1 Extra Damage from Combat
+	#Range: 1.0 ~ 1.0E9
+	levelsPerDamageMelee = 20.0
 
 [Smithing]
 	#Should PMMO anvil handling be enabled? (xp rewards for repair, and also Enchantment handling) (some mod items break, if you experience lost enchantments, set this to false)
@@ -593,20 +581,20 @@
 	outputAllAutoValuesToLog = false
 
 [Archery]
-	#How much percentage bonus damage do you get per Archery level in Archery?
-	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelArchery = 0.005
+	#Per how many levels you gain 1 Extra Damage from Archery
+	#Range: 1.0 ~ 1.0E9
+	levelsPerDamageArchery = 20.0
 	#How much extra damage can you get from the Archery skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostArchery = 100.0
+	maxExtraDamageBoostArchery = 100.0
 
 [Magic]
-	#How much percentage bonus damage do you get per Magic level in Magic?
-	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelMagic = 0.005
 	#How much extra damage can you get from the Magic skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMagic = 100.0
+	maxExtraDamageBoostMagic = 100.0
+	#Per how many levels you gain 1 Extra Damage from Magic
+	#Range: 1.0 ~ 1.0E9
+	levelsPerDamageMagic = 20.0
 
 ["Anti Cheese"]
 	#Should player xp rates be reduced while they afk?
