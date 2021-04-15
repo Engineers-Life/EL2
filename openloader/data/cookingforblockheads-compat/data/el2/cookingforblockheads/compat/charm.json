@@ -1,4 +1,7 @@
 { "modid": "charm",
+  "foods": {
+    "GENERAL": [ ],
+    "INGREDIENTS": [ "charm:sugar_block" ] },
   "kitchenItemProviders": [
     "charm:oak_barrel",
     "charm:spruce_barrel",
