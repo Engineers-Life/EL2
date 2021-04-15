@@ -23,7 +23,7 @@ replaceByName("productivebees:hives/advanced_oak_beehive",<item:productivebees:a
 
 replaceByName("storagenetwork:master",<item:storagenetwork:master>, [
     [<item:minecraft:quartz_block>, <item:storagenetwork:kabel>, <item:minecraft:quartz_block>],
-    [<item:storagenetwork:kabel>, <item:minecraft:nether_star>, <item:storagenetwork:kabel>],
+    [<item:storagenetwork:kabel>, <item:industrialforegoing:machine_frame_simple>, <item:storagenetwork:kabel>],
     [<item:minecraft:quartz_block>, <item:storagenetwork:kabel>, <item:minecraft:quartz_block>] ]);
 
 replaceByName("storagenetwork:storage_kabel",<item:storagenetwork:storage_kabel>*4, [
