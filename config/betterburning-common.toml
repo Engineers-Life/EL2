@@ -20,4 +20,6 @@
 	#How much fire damage should flint and steel do?
 	#Range: > 0
 	flintAndSteelFireDamage = 3
+	#Should the fire/burning HUD overlay be hidden if the player has fire immunity?
+	hideFireOverlayWhenImmune = true
 
