@@ -107,22 +107,6 @@
 		"combat": 1,
 		"endurance": 1
 	},
-	"minecraft:diamond_helmet":
-	{
-		"magic": 2.5
-	},
-	"minecraft:diamond_chestplate":
-	{
-		"magic": 2.5
-	},
-	"minecraft:diamond_leggings":
-	{
-		"magic": 2.5
-	},
-	"minecraft:diamond_boots":
-	{
-		"magic": 2.5
-	},
 	"minecraft:leather_helmet":
 	{
 		"agility": 2.5,
@@ -180,7 +164,6 @@
 		"combat": 10,
 		"endurance": 10,
 		"archery": 10,
-		"magic": 10,
 		"flying": 20
 	},
 	"betterendforge:aeternium_helmet":
