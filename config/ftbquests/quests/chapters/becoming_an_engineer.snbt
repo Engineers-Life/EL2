@@ -1971,7 +1971,7 @@
 				"",
 				"The top three slots in the GUI are for Graphite Electrodes. Each must be manually filled for the Arc Furnace to function.",
 				"",
-				"The Arc Furnace will start its processes when it has all three Graphite Electrodes, enough RF, and the inputs. Each operation will reduce the integrity of each Graphite Electrode by 0.21%. This means that an Arc Furnace can perform 477 operations before its Electrodes must be replaced."
+				"The Arc Furnace will start its processes when it has all three Graphite Electrodes, enough RF, and the inputs. The integrity of each Graphite Electrode decreases with time of use and must be replaced over time."
 			],
 			dependencies: ["0000000000000265"],
 			size: 1.5d,
