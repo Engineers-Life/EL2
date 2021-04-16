@@ -503,7 +503,7 @@
 		#A whitelist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]
 		whitelist = []
 		#A blacklist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]. Whitelist has priority over this
-		blacklist = ["embers:ashen_cloak_chest", "ic2:batpack", "ic2:cf_pack", "ic2:energy_pack", "ic2:jetpack", "ic2:jetpack_electric", "ic2:lappack"]
+		blacklist = ["embers:ashen_cloak_chest", "ic2:batpack", "ic2:cf_pack", "ic2:energy_pack", "ic2:jetpack", "ic2:jetpack_electric", "ic2:lappack", "simplyjetpacks:jetpack_creative", "simplyjetpacks:jetpack_creative_armored", "simplyjetpacks:jetpack_ie1", "simplyjetpacks:jetpack_ie1_armored", "simplyjetpacks:jetpack_ie2", "simplyjetpacks:jetpack_ie2_armored", "simplyjetpacks:jetpack_ie3", "simplyjetpacks:jetpack_ie3_armored"]
 
 	[tools.toolbox]
 		#A whitelist of tools allowed in the toolbox, formatting: [mod id]:[item name]
