@@ -25,5 +25,5 @@
 	#enable overriding quark's override. Chicken must be enabled as well.
 	enablequarkoverridechicken = true
 	#enable overriding quark's override. Bee must be enabled as well. This will not have the LGBT bee textures, as there are too many for us to make right now.
-	enablequarkoverridebee = true
+	enablequarkoverridebee = false
 
