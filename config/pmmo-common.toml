@@ -191,7 +191,7 @@
 	#worn items xp boost enabled? false = off
 	wornItemXpBoostEnabled = true
 	#Should config from default_data.json be loaded? false means only data.json is loaded
-	loadDefaultConfig = true
+	loadDefaultConfig = false
 	#When a Tool requirement is not met, should the player be stopped from breaking with it completely?
 	strictReqTool = false
 	#When a Kill requirement is not met, should the player be stopped from dealing any damage?
@@ -299,10 +299,10 @@
 	xpDropOpacityPerTime = 5.0
 	#How opaque (visible) can the xp drop get?
 	#Range: 0.0 ~ 255.0
-	xpDropMaxOpacity = 0.0
+	xpDropMaxOpacity = 200.0
 	#At what age do xp drops start to decay?
 	#Range: 0.0 ~ 5000.0
-	xpDropDecayAge = 0.0
+	xpDropDecayAge = 350.0
 	#What is the minimum amount xp grows a set amount of time? (Default 0.2, increase to speed up growth)
 	#Range: 0.01 ~ 100.0
 	minXpGrow = 1.0
@@ -311,7 +311,7 @@
 	#If Off, The skills list at the top left corner will no longer appear (You still have the GUI to show you all of your skills info)
 	showSkillsListAtCorner = true
 	#If Off, xp drops will no longer appear
-	showXpDrops = false
+	showXpDrops = true
 	#If Off, xp drops will no longer stack with each other
 	stackXpDrops = true
 	#Should the Xp Bar always be on? false = only appears while holding Show GUI or when you gain xp
@@ -323,7 +323,7 @@
 	#When a screenshot is taken upon levelling up, should the skills list turn on automatically to be included in the screenshot?
 	lvlUpScreenshotShowSkills = false
 	#Should Xp Drops make the Xp Bar pop up?
-	xpDropsShowXpBar = false
+	xpDropsShowXpBar = true
 	#Should you be notified by what new features you have access to on level ups?
 	showLevelUpUnlocks = true
 	#Should World Xp Drops appear when xp is gained?
