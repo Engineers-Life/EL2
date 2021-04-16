@@ -2,9 +2,29 @@
 println("BEGIN misc.zs");
 
 var air = <item:minecraft:air>;
+var cobblestone = <item:minecraft:cobblestone>;
+
+craftingTable.addShaped("larvikite_cobblestone", <item:embellishcraft:larvikite_cobblestone> * 8, [
+    [cobblestone,cobblestone,cobblestone],
+    [cobblestone, <item:minecraft:blue_dye>, cobblestone], 
+	[cobblestone, cobblestone, cobblestone]]);
+	
+craftingTable.addShaped("jade_cobblestone", <item:embellishcraft:jade_cobblestone> * 8, [
+    [cobblestone,cobblestone,cobblestone],
+    [cobblestone, <item:minecraft:green_dye>, cobblestone], 
+	[cobblestone, cobblestone, cobblestone]]);
+	
+craftingTable.addShaped("gneiss_cobblestone", <item:embellishcraft:gneiss_cobblestone> * 8, [
+    [cobblestone,cobblestone,cobblestone],
+    [cobblestone, <item:minecraft:white_dye>, cobblestone], 
+	[cobblestone, cobblestone, cobblestone]]);
+	
+craftingTable.addShaped("basalt_cobblestone", <item:embellishcraft:basalt_cobblestone> * 8, [
+    [cobblestone,cobblestone,cobblestone],
+    [cobblestone, <item:minecraft:black_dye>, cobblestone], 
+	[cobblestone, cobblestone, cobblestone]]);
 
 removeAndHide(<item:productivebees:centrifuge>);
-
 replaceByName("productivebees:powered_centrifuge/vanilla",<item:productivebees:powered_centrifuge>, [
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
     [<item:minecraft:piston>, <item:minecraft:grindstone>, <item:minecraft:piston>],
