@@ -86,18 +86,46 @@ craftingTable.removeByName("aquaculture:planks_from_driftwood");
 craftingTable.removeByName("notreepunching:oak_planks_with_flint_axe");
 craftingTable.removeByName("minecraft:oak_planks");
 
+val vanilla_needs_fixing = {
+//  omit oak since it is covered in the miscellaneous logs
+    "minecraft:spruce_planks"   :   ( <item:minecraft:spruce_log>
+                                    | <item:minecraft:stripped_spruce_log>
+                                    | <item:minecraft:spruce_wood>
+                                    | <item:minecraft:stripped_spruce_wood>),
+    "minecraft:birch_planks"    :   ( <item:minecraft:birch_log>
+                                    | <item:minecraft:stripped_birch_log>
+                                    | <item:minecraft:birch_wood>
+                                    | <item:minecraft:stripped_birch_wood>),
+    "minecraft:jungle_planks"   :   ( <item:minecraft:jungle_log>
+                                    | <item:minecraft:stripped_jungle_log>
+                                    | <item:minecraft:jungle_wood>
+                                    | <item:minecraft:stripped_jungle_wood>),
+    "minecraft:acacia_planks"   :   ( <item:minecraft:acacia_log>
+                                    | <item:minecraft:stripped_acacia_log>
+                                    | <item:minecraft:acacia_wood>
+                                    | <item:minecraft:stripped_acacia_wood>),
+    "minecraft:dark_oak_planks" :   ( <item:minecraft:dark_oak_log>
+                                    | <item:minecraft:stripped_dark_oak_log>
+                                    | <item:minecraft:dark_oak_wood>
+                                    | <item:minecraft:stripped_dark_oak_wood>)
+} as IngredientList[string];
+
 // every log to plank changed to axe/saw recipes.
 for wrapper in craftingTable.getRecipesByOutput(planks) {
     val ingredientsList = wrapper.ingredients;
+    var ingredients = ingredientsList[0];
     if (    (wrapper.output.amount == 4)
-        &&  (ingredientsList[0].items[0] in <tag:items:minecraft:logs>)
-        &&  (!(ingredientsList[0].items[0] in <tag:items:minecraft:oak_logs>)) ) {
+        &&  (ingredients.items[0] in <tag:items:minecraft:logs>)
+        &&  (!(ingredients.items[0] in <tag:items:minecraft:oak_logs>)) ) {
+        if wrapper.output.registryName.toString() in vanilla_needs_fixing {
+            ingredients = vanilla_needs_fixing[wrapper.output.registryName.toString()];
+        }
         craftingTable.removeByName(wrapper.id);
         val recipeName = validName(wrapper.id);
         craftingTable.addShaped("axe.every."+recipeName, wrapper.output*2,
-            [ [all_axes.anyDamage().transformDamage()], [ingredientsList[0]] ], ifAxe);
+            [ [all_axes.anyDamage().transformDamage()], [ingredients] ], ifAxe);
         craftingTable.addShaped("saw.every."+recipeName, wrapper.output,
-            [ [saws.asIIngredient().anyDamage().transformDamage()], [ingredientsList[0]] ]);    }
+            [ [saws.asIIngredient().anyDamage().transformDamage()], [ingredients] ]);    }
 }
 
 //planks to sticks
