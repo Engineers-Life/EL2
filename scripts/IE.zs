@@ -21,6 +21,7 @@ craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 // RANDOM STUFF (extreme reactors)
 furnace.removeRecipe(<item:bigreactors:graphite_block>);
 blastFurnace.removeRecipe(<item:bigreactors:graphite_block>);
+<tag:items:natural-progression:override_pickaxes>.add(<item:immersiveengineering:buzzsaw>);
 
 // 2 ingots - 1 plate recipes
 
