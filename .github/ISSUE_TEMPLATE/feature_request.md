@@ -2,7 +2,7 @@
 name: Suggestion
 about: Suggest an idea for the Modpack
 title: ''
-labels: ''
+labels: suggestion
 assignees: ''
 
 ---
