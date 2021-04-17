@@ -88,27 +88,14 @@ craftingTable.removeByName("minecraft:oak_planks");
 
 val vanilla_needs_fixing = {
 //  omit oak since it is covered in the miscellaneous logs
-    "minecraft:spruce_planks"   :   ( <item:minecraft:spruce_log>
-                                    | <item:minecraft:stripped_spruce_log>
-                                    | <item:minecraft:spruce_wood>
-                                    | <item:minecraft:stripped_spruce_wood>),
-    "minecraft:birch_planks"    :   ( <item:minecraft:birch_log>
-                                    | <item:minecraft:stripped_birch_log>
-                                    | <item:minecraft:birch_wood>
-                                    | <item:minecraft:stripped_birch_wood>),
-    "minecraft:jungle_planks"   :   ( <item:minecraft:jungle_log>
-                                    | <item:minecraft:stripped_jungle_log>
-                                    | <item:minecraft:jungle_wood>
-                                    | <item:minecraft:stripped_jungle_wood>),
-    "minecraft:acacia_planks"   :   ( <item:minecraft:acacia_log>
-                                    | <item:minecraft:stripped_acacia_log>
-                                    | <item:minecraft:acacia_wood>
-                                    | <item:minecraft:stripped_acacia_wood>),
-    "minecraft:dark_oak_planks" :   ( <item:minecraft:dark_oak_log>
-                                    | <item:minecraft:stripped_dark_oak_log>
-                                    | <item:minecraft:dark_oak_wood>
-                                    | <item:minecraft:stripped_dark_oak_wood>)
-} as IngredientList[string];
+    "minecraft:spruce_planks"   :   <tag:items:minecraft:spruce_logs>.asIIngredient(),
+    "minecraft:birch_planks"    :   <tag:items:minecraft:birch_logs>.asIIngredient(),
+    "minecraft:jungle_planks"   :   <tag:items:minecraft:jungle_logs>.asIIngredient(),
+    "minecraft:acacia_planks"   :   <tag:items:minecraft:acacia_logs>.asIIngredient(),
+    "minecraft:dark_oak_planks" :   <tag:items:minecraft:dark_oak_logs>.asIIngredient(),
+    "minecraft:crimson_planks"  :   <tag:items:minecraft:crimson_stems>.asIIngredient(),
+    "minecraft:warped_planks"   :   <tag:items:minecraft:warped_stems>.asIIngredient()
+} as IIngredient[string];
 
 // every log to plank changed to axe/saw recipes.
 for wrapper in craftingTable.getRecipesByOutput(planks) {
