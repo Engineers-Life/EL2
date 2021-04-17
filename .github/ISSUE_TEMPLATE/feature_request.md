@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest an idea for the Modpack
 title: ''
 labels: ''
 assignees: ''
