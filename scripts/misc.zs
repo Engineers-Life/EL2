@@ -1,3 +1,4 @@
+import crafttweaker.api.item.IIngredient;
 
 println("BEGIN misc.zs");
 
@@ -30,10 +31,8 @@ replaceByName("productivebees:powered_centrifuge/vanilla",<item:productivebees:p
     [<item:minecraft:piston>, <item:minecraft:grindstone>, <item:minecraft:piston>],
     [<item:minecraft:redstone>, <item:minecraft:iron_ingot>, <item:minecraft:redstone>] ]);
 
-replaceByName("productivebees:hives/advanced_oak_beehive",<item:productivebees:advanced_oak_beehive>, [
-    [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>],
-    [<item:minecraft:honeycomb>, <item:minecraft:beehive>, <item:minecraft:honeycomb>],
-    [<item:minecraft:soul_campfire>, <item:minecraft:oak_planks>, <item:minecraft:shears>] ]);
+// replace all crafting uses of the campfire with soul_campfire
+changeIngredient(<item:minecraft:campfire>,<item:minecraft:soul_campfire>);
 
 //craftingTable.removeRecipe(<item:farmersdelight:stove>);
 //craftingTable.addShaped("stove", <item:farmersdelight:stove>, [
