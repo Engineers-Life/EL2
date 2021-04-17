@@ -8,6 +8,7 @@ assignees: ''
 ---
 
 Modpack Version: #### (Latest is not a version number)
+
 Optifine Installed: Yes/No
 
 **Describe the bug**
