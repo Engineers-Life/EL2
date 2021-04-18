@@ -1169,8 +1169,7 @@
 	},
 	"minecraft:grass":
 	{
-		"excavation": 1.0,
-		"farming": -0.6
+		"farming": 0.2
 	},
 	"minecraft:grass_block":
 	{
