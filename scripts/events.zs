@@ -23,6 +23,7 @@ CTEventManager.register<crafttweaker.api.event.block.MCBlockBreakEvent>(event=>{
         }});
 */
 
+/*
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCRightClickBlockEvent>(event=>{
         val state = event.entity.getWorld().getBlockState(event.blockPos);
         if (    (state.commandString.startsWith('<blockstate:buildersaddition:cupboard_'))
@@ -35,5 +36,6 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCRightCli
             }
             // event.entity.getWorld().destroyBlock(event.blockPos,true,event.player);
         }});
+*/
 
 println("END events.zs");
