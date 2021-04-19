@@ -39,6 +39,7 @@ for axe in [
         <item:betterendforge:terminite_axe>,
         <item:betterendforge:aeternium_axe>,
         <item:betterendforge:thallasium_axe>,
+        <item:buddycards:buddysteel_axe>,
         <item:vanillafoodpantry:flint_butcher_axe> ] {
     axes.add(axe);
 }
