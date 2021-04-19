@@ -38,6 +38,7 @@ for axe in [
         <item:aquaculture:neptunium_axe>,
         <item:betterendforge:terminite_axe>,
         <item:betterendforge:aeternium_axe>,
+        <item:betterendforge:thallasium_axe>,
         <item:vanillafoodpantry:flint_butcher_axe> ] {
     axes.add(axe);
 }
