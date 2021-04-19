@@ -278,7 +278,7 @@
 	veinBarOffsetX = 0.5
 	#GUI bar position Y (Height, 0 is top, 1 is bottom (1 is probably invisible due to clipping) )
 	#Range: 0.0 ~ 1.0
-	veinBarOffsetY = 0.65
+	veinBarOffsetY = 0.5
 	#GUI Xp drops position X (Width)
 	#Range: 0.0 ~ 1.0
 	xpDropOffsetX = 0.4
