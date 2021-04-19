@@ -25,13 +25,13 @@
 		hudTextColor = 16777215
 		#HUD Position
 		#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, LEFT, RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-		hudTextPosition = "TOP_LEFT"
+		hudTextPosition = "BOTTOM_RIGHT"
 		#HUD Position X Offset
 		#Range: > -2147483648
 		hudXOffset = 0
 		#HUD Position Y Offset
 		#Range: > -2147483648
-		hudYOffset = 0
+		hudYOffset = -10
 		#HUD Scale
 		#Range: 1 ~ 100
 		hudScale = 1
