@@ -187,6 +187,109 @@ craftingTable.addShapedMirrored("clay_tool", <item:notreepunching:clay_tool>, [
 [air, stick, <item:minecraft:smooth_stone_slab>], 
 [stick, air, air]]);
 
+// TAG TOOLS/ARMOR MISSING TAGS
+for pickaxe in [
+        <item:notreepunching:flint_pickaxe>,
+        <item:buddycards:buddysteel_pickaxe>,
+        <item:aquaculture:neptunium_pickaxe>,
+        <item:betterendforge:aeternium_pickaxe>,
+        <item:betterendforge:thallasium_pickaxe>,
+        <item:betterendforge:terminite_pickaxe>,
+        <item:natural-progression:bone_pickaxe>,
+        <item:immersiveengineering:pickaxe_steel> ] {
+    <tag:items:forge:tools/pickaxes>.add(pickaxe);
+}
+
+for shovel in [
+        <item:notreepunching:flint_shovel>,
+        <item:buddycards:buddysteel_shovel>,
+        <item:aquaculture:neptunium_shovel>,
+        <item:betterendforge:aeternium_shovel>,
+        <item:betterendforge:thallasium_shovel>,
+        <item:betterendforge:terminite_shovel>,
+        <item:immersiveengineering:shovel_steel> ] {
+    <tag:items:forge:tools/shovels>.add(shovel);
+}
+
+for sword in [
+        <item:notreepunching:macuahuitl>,
+        <item:buddycards:buddysteel_sword>,
+        <item:aquaculture:neptunium_sword>,
+        <item:betterendforge:aeternium_sword>,
+        <item:betterendforge:thallasium_sword>,
+        <item:betterendforge:terminite_sword>,
+        <item:immersiveengineering:sword_steel> ] {
+    <tag:items:forge:weapons/swords>.add(sword);
+}
+
+for hoe in [
+        <item:notreepunching:flint_hoe>,
+        <item:buddycards:buddysteel_hoe>,
+        <item:aquaculture:neptunium_hoe>,
+        <item:betterendforge:aeternium_hoe>,
+        <item:betterendforge:thallasium_hoe>,
+        <item:betterendforge:terminite_hoe>,
+        <item:immersiveengineering:hoe_steel> ] {
+    <tag:items:forge:tools/hoes>.add(hoe);
+}
+
+for chest in [
+        <item:scuba_gear:scuba_chestplate>,
+        <item:buddycards:buddysteel_chestplate>,
+        <item:aquaculture:neptunium_chestplate>,
+        <item:betterendforge:aeternium_chestplate>,
+        <item:betterendforge:thallasium_chestplate>,
+        <item:betterendforge:terminite_chestplate>,
+        <item:betterendforge:crystalite_chestplate>,
+        <item:immersiveengineering:armor_faraday_chest>,
+        <item:immersiveengineering:armor_steel_chest> ] {
+    <tag:items:forge:armor/chestplates>.add(chest);
+    <tag:items:forge:armor>.add(chest);
+}
+
+for helm in [
+        <item:scuba_gear:scuba_helmet>,
+        <item:mining_helmet:mining_helmet>,
+        <item:buddycards:buddysteel_helmet>,
+        <item:aquaculture:neptunium_helmet>,
+        <item:betterendforge:aeternium_helmet>,
+        <item:betterendforge:thallasium_helmet>,
+        <item:betterendforge:terminite_helmet>,
+        <item:betterendforge:crystalite_helmet>,
+        <item:immersiveengineering:armor_faraday_head>,
+        <item:immersiveengineering:armor_steel_head> ] {
+    <tag:items:forge:armor/helmets>.add(helm);
+    <tag:items:forge:armor>.add(helm);
+}
+
+for legs in [
+        <item:scuba_gear:scuba_leggings>,
+        <item:buddycards:buddysteel_leggings>,
+        <item:aquaculture:neptunium_leggings>,
+        <item:betterendforge:aeternium_leggings>,
+        <item:betterendforge:thallasium_leggings>,
+        <item:betterendforge:terminite_leggings>,
+        <item:betterendforge:crystalite_leggings>,
+        <item:immersiveengineering:armor_faraday_legs>,
+        <item:immersiveengineering:armor_steel_legs> ] {
+    <tag:items:forge:armor/leggings>.add(legs);
+    <tag:items:forge:armor>.add(legs);
+}
+
+for boot in [
+        <item:scuba_gear:scuba_boots>,
+        <item:buddycards:buddysteel_boots>,
+        <item:aquaculture:neptunium_boots>,
+        <item:betterendforge:aeternium_boots>,
+        <item:betterendforge:thallasium_boots>,
+        <item:betterendforge:terminite_boots>,
+        <item:betterendforge:crystalite_boots>,
+        <item:immersiveengineering:armor_faraday_feet>,
+        <item:immersiveengineering:armor_steel_feet> ] {
+    <tag:items:forge:armor/boots>.add(boot);
+    <tag:items:forge:armor>.add(boot);
+}
+
 // EXAMPLES:
 
 //mods.jei.JEI.hideItem(<item:farmersdelight:flint_knife>);
