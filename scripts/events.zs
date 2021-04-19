@@ -1,18 +1,20 @@
 
 //import crafttweaker.api.blocks.MCBlockState;
+//import crafttweaker.api.commands.custom.MCCommand;
 //import crafttweaker.api.event.MCEvent;
 //import crafttweaker.api.event.block.MCBlockBreakEvent;
 //import crafttweaker.api.event.block.MCBlockEvent;
+//import crafttweaker.api.event.entity.MCEntityEvent;
 //import crafttweaker.api.event.entity.player.MCPlayerEvent;
 //import crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent;
 //import crafttweaker.api.event.entity.player.interact.MCRightClickBlockEvent;
-import crafttweaker.api.events.CTEventManager;
 //import crafttweaker.api.util.BlockPos;
 //import crafttweaker.api.world.MCWorld;
-//import crafttweaker.api.event.entity.MCEntityEvent;
-//import crafttweaker.api.commands.custom.MCCommand;
-import crafttweaker.api.util.text.MCTextComponent;
+import crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent;
+import crafttweaker.api.events.CTEventManager;
 import crafttweaker.api.util.text.MCStyle;
+import crafttweaker.api.util.text.MCTextComponent;
+import crafttweaker.api.item.IItemStack;
 
 println("BEGIN events.zs");
 
@@ -34,8 +36,33 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCRightCli
             if (state.getPropertyValue("half").startsWith("upper")) {
                 event.player.sendMessage(("If you pick up the top half of a cupboard, it will not be able to placed back down. Use the " as MCTextComponent).setStyle(lowlight).appendSibling(("/carryon clear" as MCTextComponent).setStyle(highlight)).appendSibling((" command to clear your hands. The cupboard will be voided." as MCTextComponent).setStyle(lowlight)));
             }
-            // event.entity.getWorld().destroyBlock(event.blockPos,true,event.player);
+            // event.eentity.getWorld().destroyBlock(event.blockPos,true,event.player);
         }});
 */
+
+// break woodcutter if an axe interacts with it, since it says an axe is the proper tool but axes won't work on it.
+CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent>(event=>{
+        if (!event.itemStack.empty) {
+            val state = event.entity.getWorld().getBlockState(event.blockPos);
+            val data = event.itemStack.getOrCreate.asMap();
+            println(state.commandString);
+            if (state.commandString.startsWith('<blockstate:charm:woodcutter')) {
+                if (    (event.itemStack in <tag:items:minecraft:axes>)
+                    ||  (   (event.itemStack.registryName.toString() == "tetra:modular_double")
+                        &&  (   (   ("double/basic_axe_left_material" in data)
+                                ||  ("double/basic_axe_right_material" in data)
+                                ||  ("double/adze_left_material" in data)
+                                ||  ("double/adze_right_material" in data) )
+                            &&  (!  (   ("double/basic_nevermind_left_material" in data)
+                                    ||  ("double/basic_nevermind_right_material" in data) ) ) ) ) )
+                {
+                    event.entity.getWorld().destroyBlock(event.blockPos,true,event.player);
+                    val italic = new MCStyle().setItalic(true);
+                    val not_italic = new MCStyle().setItalic(false);
+                    event.player.sendMessage((("Hey, watch it with that "+event.itemStack.displayName+"!") as MCTextComponent).setStyle(italic));
+                }
+            }
+        }
+    });
 
 println("END events.zs");
