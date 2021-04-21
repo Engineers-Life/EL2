@@ -18,6 +18,10 @@ craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("brick_from_clay_brick",   <item:notreepunching:clay_brick>,      [],                        100, 100*512, [<item:minecraft:brick>]);
 
+// SQUEEZER
+<recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking", <item:minecraft:glass_bottle>, 12800, <item:quark:clear_shard>*12);
+<recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking_essence", <item:minecraft:experience_bottle>, 12800, <fluid:industrialforegoing:essence> * 250, <item:quark:clear_shard>*12);
+
 // RANDOM STUFF (extreme reactors)
 furnace.removeRecipe(<item:bigreactors:graphite_block>);
 blastFurnace.removeRecipe(<item:bigreactors:graphite_block>);
