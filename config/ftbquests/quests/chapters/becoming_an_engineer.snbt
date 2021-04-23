@@ -2170,7 +2170,7 @@
 			]
 		},
 		{
-			title: "Distillation tower",
+			title: "Distillation Tower",
 			icon: "immersivepetroleum:distillationtower",
 			x: 12.970833333333402d,
 			y: 5.280357142857149d,
@@ -2221,7 +2221,7 @@
 				{
 					id: "0000000000001072",
 					type: "item",
-					item: "immersiveengineering:slab_steel_scaffolding_standard",
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top",
 					count: 30L
 				},
 				{
