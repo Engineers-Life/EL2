@@ -15,7 +15,8 @@ val wooden_sword_nests = {
     <item:productivebees:gravel_nest>       : <item:minecraft:gravel>,
     <item:productivebees:sugar_cane_nest>   : <item:minecraft:sugar_cane>,
     <item:productivebees:spruce_wood_nest>  : <item:minecraft:spruce_log>,
-    <item:productivebees:glowstone_nest>    : <item:minecraft:glowstone>
+    <item:productivebees:glowstone_nest>    : <item:minecraft:glowstone>,
+    <item:productivebees:bumble_bee_nest>   : <item:minecraft:grass_block>
 } as IItemStack[IItemStack];
  
 for nest, block in wooden_sword_nests {
