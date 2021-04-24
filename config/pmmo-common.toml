@@ -272,7 +272,7 @@
 	barOffsetX = 0.4
 	#GUI bar position Y (Height, 0 is top, 1 is bottom (1 is probably invisible due to clipping) )
 	#Range: 0.0 ~ 1.0
-	barOffsetY = 0.0
+	barOffsetY = 0.005
 	#GUI bar position X (Width)
 	#Range: 0.0 ~ 1.0
 	veinBarOffsetX = 0.5
@@ -284,7 +284,7 @@
 	xpDropOffsetX = 0.4
 	#GUI Xp drops position Y (Height, 0 is top, 1 is bottom (1 is probably invisible due to clipping) )
 	#Range: 0.0 ~ 1.0
-	xpDropOffsetY = 0.0
+	xpDropOffsetY = 0.005
 	#GUI Skills List position X (Width)
 	#Range: 0.0 ~ 1.0
 	skillListOffsetX = 0.0
