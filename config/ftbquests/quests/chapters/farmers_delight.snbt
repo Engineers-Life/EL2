@@ -317,7 +317,7 @@
 		{
 			x: -4.0d,
 			y: -1.5d,
-			description: ["Use this on sand to get some drying agent or on grass for an assortment of seeds."],
+			description: ["Break some sand blocks with this to get some drying agent or break grass blocks for an assortment of seeds."],
 			dependencies: ["0000000000000F97"],
 			id: "00000000000001DE",
 			tasks: [{
