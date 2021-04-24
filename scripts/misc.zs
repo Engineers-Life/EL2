@@ -165,7 +165,7 @@ craftingTable.addShapeless("neterwart_storage_breakdwon",<item:minecraft:nether_
 // flint saw
 craftingTable.removeRecipe(<item:natural-progression:basic_saw>);
 craftingTable.addShaped("flint_saw",<item:natural-progression:basic_saw>,
-    [ [stick,stick,stick],[<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>]]) ;
+    [ [stick,stick,stick],[<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>]]);
 
 // mob imprisonment tool
 craftingTable.removeRecipe(<item:industrialforegoing:mob_imprisonment_tool>);
@@ -173,5 +173,5 @@ craftingTable.addShaped("mob_imprisonment_tool",<item:industrialforegoing:mob_im
  [[air,<item:industrialforegoing:plastic>,air],
  [<item:industrialforegoing:plastic>,<item:betterportals:portal_fluid_bucket>,<item:industrialforegoing:plastic>],
  [air,<item:industrialforegoing:plastic>,air]]);
- 
+
 println("END misc.zs");
