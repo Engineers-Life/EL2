@@ -170,7 +170,7 @@
 
 	#A collection of Industrial Foregoing tools
 	[modules.tools]
-		enabled = false
+		enabled = true
 
 		[modules.tools.infinity_trident]
 			enabled = false
@@ -182,7 +182,7 @@
 			enabled = false
 
 		[modules.tools.mob_imprisonment_tool]
-			enabled = false
+			enabled = true
 
 		[modules.tools.mob_essence_tool]
 			enabled = false
@@ -218,7 +218,7 @@
 			enabled = true
 
 		[modules.resource_production.resourceful_furnace]
-			enabled = true
+			enabled = false
 
 		[modules.resource_production.ore_laser_base]
 			enabled = true
@@ -227,7 +227,7 @@
 			enabled = true
 
 		[modules.resource_production.spores_recreator]
-			enabled = true
+			enabled = false
 
 		[modules.resource_production.potion_brewer]
 			enabled = true
@@ -264,7 +264,7 @@
 			enabled = true
 
 		[modules.misc.infinity_charger]
-			enabled = true
+			enabled = false
 
 		[modules.misc.enchantment_sorter]
 			enabled = true
