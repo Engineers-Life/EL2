@@ -178,9 +178,16 @@
 			dependencies: ["0000000000000791"],
 			id: "0000000000000787",
 			tasks: [{
-				id: "0000000000000788",
+				id: "3D43AED01828F90C",
 				type: "item",
-				item: "productivebees:advanced_oak_beehive"
+				title: "Advanced Beehive",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -208,9 +215,16 @@
 			dependencies: ["0000000000000787"],
 			id: "0000000000000789",
 			tasks: [{
-				id: "000000000000078A",
+				id: "63D31D44E13AD23F",
 				type: "item",
-				item: "productivebees:expansion_box_oak"
+				title: "Expansion Box",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
 			}],
 			rewards: [{
 				id: "00000000000007AA",
