@@ -218,7 +218,7 @@
 			enabled = true
 
 		[modules.resource_production.resourceful_furnace]
-			enabled = false
+			enabled = true
 
 		[modules.resource_production.ore_laser_base]
 			enabled = true
