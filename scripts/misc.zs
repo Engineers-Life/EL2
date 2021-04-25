@@ -5,6 +5,10 @@ println("BEGIN misc.zs");
 var air = <item:minecraft:air>;
 var cobblestone = <item:minecraft:cobblestone>;
 
+removeAndHide(<item:constructionwand:infinity_wand>);
+removeAndHide(<item:constructionwand:core_angel>);
+removeAndHide(<item:constructionwand:core_destruction>);
+
 craftingTable.addShaped("larvikite_cobblestone", <item:embellishcraft:larvikite_cobblestone> * 8, [
     [cobblestone,cobblestone,cobblestone],
     [cobblestone, <item:minecraft:blue_dye>, cobblestone], 

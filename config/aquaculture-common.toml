@@ -7,6 +7,10 @@
 	"Should Aquaculture fish be able to be used to breed cats & ocelots?" = true
 	"Enable debug mode? (Enables additional logging)" = false
 
+	["basic options"."Amount of Message In A Bottle messages"]
+		#Range: 0 ~ 255
+		" Used to add additional custom messages" = 29
+
 ["neptunium options"]
 	"Enable recipes for Neptunium items?" = true
 	"Enable recipes for Neptunium armor?" = true
