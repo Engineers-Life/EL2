@@ -2625,7 +2625,7 @@
 			]
 		},
 		{
-			x: 3.0d,
+			x: 4.5d,
 			y: -3.0d,
 			description: [
 				"The Food Book gives you information about your diet diversity score.",
@@ -2649,7 +2649,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 8.5d,
 			y: -3.0d,
 			subtitle: "5 slots",
 			description: [
