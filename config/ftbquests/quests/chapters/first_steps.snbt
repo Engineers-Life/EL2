@@ -3833,7 +3833,7 @@
 			title: "Roofs",
 			x: 8.0d,
 			y: -4.5d,
-			description: ["Much like Macaw's doors I won't bore you by requiring you to making a ton of roove blocks that you won't use, these are just a taste of the blocks that Macaw's Roofs provides. You can create a wide range of roof blocks with this mod of ranging slopes and types to give the rooves of your buildings plenty of character."],
+			description: ["Much like Macaw's doors I won't bore you by requiring you to making a ton of roof blocks that you won't use, these are just a taste of the blocks that Macaw's Roofs provides. You can create a wide range of roof blocks with this mod of ranging slopes and types to give the roofs of your buildings plenty of character."],
 			dependencies: ["00000000000015B0"],
 			id: "3801AD77916ACD55",
 			tasks: [
