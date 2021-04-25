@@ -3,23 +3,23 @@ Current Pack Version 1.01a
 
 Added Mods:
 
-Macaw's Roofs
+-Macaw's Roofs
 
-Macaw's Trapdoors
+-Macaw's Trapdoors
 
-Macaw's Fences and Walls
+-Macaw's Fences and Walls
 
-Macaw's Paintings
+-Macaw's Paintings
 
-Framed Blocks
+-Framed Blocks
 
-Build Guide
+-Build Guide
 
-CraftPresence
+-CraftPresence
 
-Better Strongholds
+-Better Strongholds
 
-Construction Wand
+-Construction Wand
 
 Removed Mods:
 
