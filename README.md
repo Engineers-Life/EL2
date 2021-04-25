@@ -15,6 +15,10 @@ Framed Blocks
 
 Build Guide
 
+CraftPresence
+
+Better Strongholds
+
 Construction Wand
 
 Removed Mods:
