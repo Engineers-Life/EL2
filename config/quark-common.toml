@@ -21,6 +21,8 @@
 	"Use Fast Worldgen" = false
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
+	#Allowed values: (0,)
+	"Advancement Visibility Depth" = 2
 
 [categories]
 	Automation = true
@@ -461,9 +463,6 @@
 		"Torches Burn" = true
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
-
-	[tweaks.note_block_mob_sounds]
-		"Enable Vocaloid" = true
 
 [world]
 	"Big Dungeon" = true

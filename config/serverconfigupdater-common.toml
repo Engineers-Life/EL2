@@ -1,5 +1,4 @@
 
-
 ["Add New Version"]
 	#Version Number. VersionNumbers are simple Integers. Use a number larger than the last version.
 	#Range: > 0
@@ -16,5 +15,4 @@
 ["Version History"]
 	#Editing these values will not affect any worlds that are already on that version.
 	history = "1=notreepunching;2=notreepunching,immersiveengineering;"
-
 

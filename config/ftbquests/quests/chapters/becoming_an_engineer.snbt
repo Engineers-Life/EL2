@@ -1709,8 +1709,8 @@
 		{
 			title: "Industrial Squeezer",
 			icon: "immersiveengineering:squeezer",
-			x: 1.944047619047609d,
-			y: 3.3869047619047805d,
+			x: 2.0d,
+			y: 3.5d,
 			shape: "square",
 			description: [
 				"The Industrial Squeezer is used to make Plant Oil or HOP Graphite Dust",
@@ -2256,7 +2256,7 @@
 			title: "Crusher",
 			icon: "immersiveengineering:crusher",
 			x: 2.0154761904761784d,
-			y: 5.494047619047635d,
+			y: 6.0d,
 			shape: "square",
 			description: [
 				"The Crusher is used to crush Ores into Grit (Dust), which is more efficient than normal smelting.",
@@ -2707,7 +2707,7 @@
 		{
 			title: "Just like the Movies",
 			x: -0.3636904761905626d,
-			y: 5.5d,
+			y: 6.0d,
 			shape: "octagon",
 			description: [
 				"The projector will be a critical item when you go to build multiblock machines.",
