@@ -469,6 +469,60 @@
 					item: "minecraft:rose_bush"
 				}
 			]
+		},
+		{
+			x: 3.5d,
+			y: -4.0d,
+			id: "57B87CA0308E61F8",
+			tasks: [{
+				id: "72B3D3B44DD4099E",
+				type: "advancement",
+				title: "BubbleBee Rodeo",
+				icon: "minecraft:saddle",
+				advancement: "husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider",
+				criterion: ""
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -4.5d,
+			id: "1DAE9F288B2928B1",
+			tasks: [{
+				id: "19DD8080D4CB03DE",
+				type: "item",
+				title: "Big Book of Bees",
+				icon: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				},
+				item: {
+					id: "itemfilters:and",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "patchouli:guide_book",
+								Count: 1b,
+								tag: {
+									"patchouli:book": "productivebees:guide"
+								}
+							},
+							{
+								id: "itemfilters:strong_nbt",
+								Count: 1b,
+								tag: {
+									value: {
+										"patchouli:book": "productivebees:guide"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
 		}
 	]
 }

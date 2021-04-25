@@ -600,7 +600,7 @@
 		},
 		{
 			title: "Brick me up!",
-			x: 6.5d,
+			x: 5.5d,
 			y: 0.0d,
 			description: ["Can be cooked at a campfire or in the Kiln."],
 			dependencies: ["000000000000003D"],
@@ -664,7 +664,7 @@
 		{
 			title: "Storage Drawer",
 			x: 1.5d,
-			y: -4.5d,
+			y: -7.5d,
 			description: ["These storage drawers will allow you to store multiple stacks of items in a single block in a sorted manner."],
 			dependencies: ["000000000000002E"],
 			id: "0000000000000047",
@@ -700,7 +700,7 @@
 			]
 		},
 		{
-			x: 3.0d,
+			x: 0.0d,
 			y: -6.0d,
 			description: [
 				"This backpack will allow you to have some extra inventory space.",
@@ -740,8 +740,8 @@
 		},
 		{
 			title: "Bed",
-			x: 1.5d,
-			y: -7.5d,
+			x: 5.5d,
+			y: -6.0d,
 			description: ["A place to kick off your boots and get some Zzzzz's."],
 			dependencies: ["000000000000002E"],
 			id: "0000000000000054",
@@ -1289,8 +1289,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -6.0d,
+			x: 1.5d,
+			y: -4.5d,
 			description: ["Will automatically drop items directly below it."],
 			dependencies: ["000000000000002E"],
 			id: "0000000000000077",
@@ -1314,8 +1314,8 @@
 		},
 		{
 			title: "Windows",
-			x: 3.0d,
-			y: -10.5d,
+			x: 9.0d,
+			y: -5.0d,
 			description: [
 				"Add some flair to those holes in your walls to see all the baddies through.",
 				"",
@@ -1662,7 +1662,7 @@
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 7.5d,
 			y: 3.5d,
 			description: ["This will decrease the usage of bait in the strainer."],
 			dependencies: [
@@ -1768,8 +1768,8 @@
 			]
 		},
 		{
-			x: 3.0d,
-			y: -7.5d,
+			x: 6.5d,
+			y: -4.5d,
 			description: ["A nice decorative table."],
 			dependencies: ["0000000000000054"],
 			id: "00000000000000B8",
@@ -1794,8 +1794,8 @@
 		},
 		{
 			title: "Cupboards and Cabinets",
-			x: 3.0d,
-			y: -4.5d,
+			x: 0.0d,
+			y: -7.5d,
 			description: ["Some slightly more decorative storage."],
 			dependencies: ["000000000000002E"],
 			id: "00000000000000BC",
@@ -1826,8 +1826,8 @@
 		},
 		{
 			title: "Bookshelves",
-			x: 0.0d,
-			y: -9.0d,
+			x: 4.5d,
+			y: -7.5d,
 			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."],
 			dependencies: ["0000000000000054"],
 			id: "00000000000000BE",
@@ -1968,8 +1968,8 @@
 		},
 		{
 			title: "Candle",
-			x: 1.5d,
-			y: -9.0d,
+			x: 6.5d,
+			y: -7.5d,
 			description: ["Better than a torch right?"],
 			dependencies: ["0000000000000054"],
 			id: "00000000000000EB",
@@ -1992,8 +1992,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -10.5d,
+			x: 7.0d,
+			y: -9.0d,
 			description: ["An artistic not-torch."],
 			dependencies: ["00000000000000EB"],
 			id: "00000000000000ED",
@@ -2115,7 +2115,7 @@
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 7.5d,
 			y: 0.0d,
 			description: ["The kiln is used for faster smelting of clay and sand based items."],
 			dependencies: ["0000000000000042"],
@@ -2134,8 +2134,8 @@
 		},
 		{
 			title: "Alternate Sleeping Arrangements",
-			x: 0.0d,
-			y: -7.5d,
+			x: 4.5d,
+			y: -4.5d,
 			description: [
 				"Comforts adds new sleeping methods.",
 				"",
@@ -2254,8 +2254,8 @@
 					Damage: 0
 				}
 			},
-			x: -10.5d,
-			y: -0.5d,
+			x: -10.146258503401363d,
+			y: -0.5074829931972715d,
 			subtitle: "Ore Excavation/Veinminer Alternative",
 			description: [
 				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key). ",
@@ -2409,7 +2409,7 @@
 			]
 		},
 		{
-			x: -1.5d,
+			x: 3.5d,
 			y: -9.0d,
 			description: ["Combine all those mod books you have in to a single book!"],
 			dependencies: ["00000000000000BE"],
@@ -2428,8 +2428,8 @@
 		},
 		{
 			title: "The Librarian",
-			x: 0.0d,
-			y: -10.5d,
+			x: 5.5d,
+			y: -9.0d,
 			description: ["Collect all those books! Some of these manuals can be combined in the Akashic Tome for safe keeping."],
 			dependencies: ["00000000000000BE"],
 			id: "0000000000000723",
@@ -2756,8 +2756,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -0.5d,
+			x: -8.0d,
+			y: -1.0d,
 			description: [
 				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods.",
 				"",
@@ -2934,8 +2934,8 @@
 			]
 		},
 		{
-			x: -8.5d,
-			y: -2.5d,
+			x: -8.81292517006802d,
+			y: -2.5421768707482926d,
 			description: [
 				"Gone are the days of crafting obsidian doorways to the Nether. ",
 				"",
@@ -3023,8 +3023,8 @@
 			]
 		},
 		{
-			x: 3.0d,
-			y: -9.0d,
+			x: 8.0d,
+			y: -6.0d,
 			description: ["The Macaw's series of mods will provide you with a large number of decorative blocks to stylize your base to your heart's content."],
 			dependencies: ["0000000000000054"],
 			id: "00000000000015B0",
@@ -3036,8 +3036,8 @@
 		},
 		{
 			title: "Bridges",
-			x: 4.5d,
-			y: -10.5d,
+			x: 9.0d,
+			y: -7.0d,
 			description: ["Macaw's Bridges can be made of a wide variety of materials (check JEI for all the different materials). They come in standard bridges, rope bridges, and rail bridges. The need not be wood, and can be metal or stone."],
 			dependencies: ["00000000000015B0"],
 			id: "00000000000015B2",
@@ -3076,9 +3076,10 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: -9.0d,
-			description: ["Macaw's Doors adds a large number of doors that you can use to decorate your base. Instead of having you craft a ton of doors that you won't use, here are just a few that you can use now for a basic house, but make sure to remember this mod to get some fancy doors later in your playthrough."],
+			title: "Doors and Trapdoors",
+			x: 9.5d,
+			y: -6.0d,
+			description: ["Macaw's Doors and Macaw's Trapdoors adds a large number of doors and trapdoors that you can use to decorate your base. Instead of having you craft a ton of doors that you won't use here are just a few that you can use now for a basic house, but make sure to remember this mod to get some fancy doors later in your playthrough."],
 			dependencies: ["00000000000015B0"],
 			id: "00000000000015B8",
 			tasks: [
@@ -3091,6 +3092,16 @@
 					id: "00000000000015BA",
 					type: "item",
 					item: "mcwdoors:oak_cottage_door"
+				},
+				{
+					id: "41EA821FA787F5B6",
+					type: "item",
+					item: "mcwtrpdoors:oak_cottage_trapdoor"
+				},
+				{
+					id: "06764B169D8378F7",
+					type: "item",
+					item: "mcwtrpdoors:oak_barn_trapdoor"
 				}
 			],
 			rewards: [{
@@ -3298,7 +3309,9 @@
 			description: [
 				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.).",
 				"",
-				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater."
+				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater.",
+				"",
+				"Endurance will also contribute a healing effect across time, with higher levels healing more hearts for every passive time frame."
 			],
 			dependencies: ["000000000000009D"],
 			optional: true,
@@ -3597,8 +3610,8 @@
 					"double/basic_hammer_left_material": "basic_hammer/blackstone"
 				}
 			},
-			x: -10.5d,
-			y: -2.5d,
+			x: -10.146258503401363d,
+			y: -2.48707482993197d,
 			description: [
 				"Tetra is a modular tool mod that incorporates exploration into its higher level tools.",
 				"",
@@ -3621,7 +3634,7 @@
 		{
 			icon: "engineersdecor:sign_danger",
 			x: -8.0d,
-			y: -1.5d,
+			y: -2.0d,
 			subtitle: "Ouch, That Hurt..... Where's My Stuff?",
 			description: [
 				"You died. That sucks. Never fear, your stuff won't disappear.",
@@ -3645,7 +3658,7 @@
 		},
 		{
 			x: -11.0d,
-			y: -1.5d,
+			y: -2.0d,
 			description: [
 				"Serene Seasons will bring some nice weather variation to your Minecraft experience.",
 				"",
@@ -3786,6 +3799,154 @@
 			}],
 			rewards: [{
 				id: "67632FB5A47F5710",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
+			}]
+		},
+		{
+			title: "Fences",
+			x: 8.0d,
+			y: -7.5d,
+			description: ["Macaw's Fences will give you a variety of new fence types to divide up and protect your lands. These fences are just a taste, check JEI for the full range of types."],
+			dependencies: ["00000000000015B0"],
+			id: "1AAE806CAFD92B94",
+			tasks: [
+				{
+					id: "1F45A8035F305BF3",
+					type: "item",
+					item: "mcwfences:oak_horse_fence"
+				},
+				{
+					id: "16C0CB69DD40C62B",
+					type: "item",
+					item: "mcwfences:oak_picket_fence"
+				}
+			],
+			rewards: [{
+				id: "777F112C1F32C1E7",
+				type: "item",
+				item: "minecraft:cyan_dye",
+				count: 16
+			}]
+		},
+		{
+			title: "Roofs",
+			x: 8.0d,
+			y: -4.5d,
+			description: ["Much like Macaw's doors I won't bore you by requiring you to making a ton of roove blocks that you won't use, these are just a taste of the blocks that Macaw's Roofs provides. You can create a wide range of roof blocks with this mod of ranging slopes and types to give the rooves of your buildings plenty of character."],
+			dependencies: ["00000000000015B0"],
+			id: "3801AD77916ACD55",
+			tasks: [
+				{
+					id: "391873D1BB66BEA3",
+					type: "item",
+					item: "mcwroofs:oak_planks_roof"
+				},
+				{
+					id: "334198A62185FA38",
+					type: "item",
+					item: "mcwroofs:oak_planks_top_roof"
+				},
+				{
+					id: "7A4862FFF73574EE",
+					type: "item",
+					item: "mcwroofs:oak_planks_lower_roof"
+				}
+			],
+			rewards: [{
+				id: "314D0EBD420D77AF",
+				type: "item",
+				item: "minecraft:pink_dye",
+				count: 16
+			}]
+		},
+		{
+			title: "Construction Wands",
+			icon: {
+				id: "constructionwand:iron_wand",
+				Count: 1b,
+				tag: {
+					wand_options: {},
+					Damage: 0
+				}
+			},
+			x: 3.0d,
+			y: -7.5d,
+			description: ["Construction Wands will help your early game building by giving a method of placing a large number of blocks at once. It's GUI can be opened to change its settings by holding a wand and right clicking empty space while holding the sneak key and ctrl."],
+			dependencies: ["000000000000002E"],
+			id: "6EA56F51FEC13BDA",
+			tasks: [{
+				id: "606D4FB67C627089",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "2DCC78D608A45CF0",
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "Build Guide",
+			icon: "framedblocks:framed_cube",
+			x: -11.0d,
+			y: -1.0d,
+			description: ["Build Guide will help help you in your builds by giving you ghost layouts of common shapes to guide your building. Pressing B will bring up its menu, I would recommend changing this so it doesn't conflict with the backpack key, where you can change the shape being projected, central location, and color of the projection."],
+			dependencies: ["0000000000001231"],
+			id: "2357496A56CBD37B",
+			tasks: [{
+				id: "5B8BCC3AA4087377",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "59B05A44FB8F2BF7",
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "YUNG's Better Strongholds",
+			x: -8.789115646258495d,
+			y: -0.5183673469387742d,
+			description: ["Strongholds are no longer boring end game structures that you trek through just to get to the End. With Better Strongholds, the Stronghold structure becomes much more complex, integrating over 15 different rooms into a complex labyrinth that is worthy of an end game adventure! Integrating traps and secrets you'll want to journey to find one even if you don't want to travel to the End."],
+			dependencies: ["0000000000001231"],
+			id: "50790559047F8EA1",
+			tasks: [{
+				id: "25FE715EC287D858",
+				type: "item",
+				item: "minecraft:end_portal_frame"
+			}],
+			rewards: [{
+				id: "7D6629A9426E5832",
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			title: "Framed Blocks",
+			x: 3.0d,
+			y: -4.5d,
+			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking the frame block with a block of your choosing, which is held until the frame block is broken."],
+			dependencies: ["000000000000002E"],
+			id: "6F510EBAAC8338AD",
+			tasks: [
+				{
+					id: "264F20181C6F733C",
+					type: "item",
+					item: "framedblocks:framed_cube"
+				},
+				{
+					id: "5E9BC3259FCAFC53",
+					type: "item",
+					item: "framedblocks:framed_slope"
+				},
+				{
+					id: "40414E5293169D9A",
+					type: "item",
+					item: "framedblocks:framed_stairs"
+				}
+			],
+			rewards: [{
+				id: "16AAC284BEAA79B5",
 				type: "item",
 				item: "spareparts:coins/wooden_coin"
 			}]
