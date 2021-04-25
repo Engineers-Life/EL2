@@ -174,4 +174,7 @@ craftingTable.addShaped("mob_imprisonment_tool",<item:industrialforegoing:mob_im
  [<item:industrialforegoing:plastic>,<item:betterportals:portal_fluid_bucket>,<item:industrialforegoing:plastic>],
  [air,<item:industrialforegoing:plastic>,air]]);
 
+//dragon egg recipe for servers
+craftingTable.addShapeless("inactive_dragon_egg_from_dragon_head",<item:productivebees:inactive_dragon_egg>,[<item:minecraft:dragon_head>]);
+
 println("END misc.zs");
