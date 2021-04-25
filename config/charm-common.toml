@@ -350,7 +350,7 @@
 	#If true, cows may spawn with different textures. This is disabled if Quark is present.
 	"Variant cows" = true
 	#If true, sheep face and 'shorn' textures match their wool color. This is disabled if Quark is present.
-	"Variant sheep" = true
+	"Variant sheep" = false
 	#Some animal textures are disabled if Quark is present. Set true to force enable them.
 	Override = false
 
