@@ -187,6 +187,11 @@ craftingTable.addShapedMirrored("clay_tool", <item:notreepunching:clay_tool>, [
 [air, stick, <item:minecraft:smooth_stone_slab>], 
 [stick, air, air]]);
 
+craftingTable.removeRecipe(<item:woodenshears:wooden_shears>);
+craftingTable.addShaped("wooden_shears", <item:woodenshears:wooden_shears>, [
+[stick, <item:notreepunching:flint_shard>], 
+[<tag:items:forge:string>, stick]]);
+
 // TAG TOOLS/ARMOR MISSING TAGS
 for pickaxe in [
         <item:notreepunching:flint_pickaxe>,
