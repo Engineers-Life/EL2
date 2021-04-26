@@ -1,5 +1,5 @@
 # EL2 Dev
-Current Pack Version 1.02
+Current Pack Version 1.02a
 
 Added Mods:
 
