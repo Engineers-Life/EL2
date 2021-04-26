@@ -3905,15 +3905,15 @@
 		},
 		{
 			title: "YUNG's Better Strongholds",
+			icon: "minecraft:end_portal_frame",
 			x: -8.789115646258495d,
 			y: -0.5183673469387742d,
 			description: ["Strongholds are no longer boring end game structures that you trek through just to get to the End. With Better Strongholds, the Stronghold structure becomes much more complex, integrating over 15 different rooms into a complex labyrinth that is worthy of an end game adventure! Integrating traps and secrets you'll want to journey to find one even if you don't want to travel to the End."],
 			dependencies: ["0000000000001231"],
 			id: "50790559047F8EA1",
 			tasks: [{
-				id: "25FE715EC287D858",
-				type: "item",
-				item: "minecraft:end_portal_frame"
+				id: "6E306093D733508B",
+				type: "checkmark"
 			}],
 			rewards: [{
 				id: "7D6629A9426E5832",
@@ -3925,7 +3925,7 @@
 			title: "Framed Blocks",
 			x: 3.0d,
 			y: -4.5d,
-			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking the frame block with a block of your choosing, which is held until the frame block is broken."],
+			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking them with a block of your choosing, which is held until the block is broken."],
 			dependencies: ["000000000000002E"],
 			id: "6F510EBAAC8338AD",
 			tasks: [

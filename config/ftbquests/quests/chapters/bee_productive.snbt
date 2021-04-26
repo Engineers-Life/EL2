@@ -469,19 +469,6 @@
 					item: "minecraft:rose_bush"
 				}
 			]
-		},
-		{
-			x: 3.5d,
-			y: -4.0d,
-			id: "57B87CA0308E61F8",
-			tasks: [{
-				id: "72B3D3B44DD4099E",
-				type: "advancement",
-				title: "BubbleBee Rodeo",
-				icon: "minecraft:saddle",
-				advancement: "husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider",
-				criterion: ""
-			}]
 		}
 	]
 }

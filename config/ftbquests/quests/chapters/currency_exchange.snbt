@@ -9,7 +9,7 @@
 	default_quest_shape: "square",
 	quests: [
 		{
-			title: "Bricks",
+			title: "64x Bricks",
 			icon: "minecraft:bricks",
 			disable_toast: true,
 			x: -4.0d,
@@ -59,7 +59,7 @@
 			}]
 		},
 		{
-			title: "Mob drop",
+			title: "Random Mob Drop",
 			icon: "minecraft:slime_ball",
 			disable_toast: true,
 			x: -3.0d,
@@ -80,7 +80,7 @@
 			}]
 		},
 		{
-			title: "Random Mob drop",
+			title: "Random Mob Drop",
 			icon: "minecraft:bone",
 			disable_toast: true,
 			x: -4.0d,
@@ -238,7 +238,7 @@
 			}]
 		},
 		{
-			title: "Random ingot/material",
+			title: "Random Ingot/Material",
 			icon: "minecraft:iron_ingot",
 			disable_toast: true,
 			x: -4.0d,
@@ -258,7 +258,7 @@
 			}]
 		},
 		{
-			title: "Ingot/material choice",
+			title: "Ingot/Material Choice",
 			icon: "minecraft:gold_ingot",
 			disable_toast: true,
 			x: -3.0d,
@@ -279,7 +279,7 @@
 			}]
 		},
 		{
-			title: "Randomite ore",
+			title: "Randomite Ore",
 			icon: "randomite:randomite_ore",
 			disable_toast: true,
 			x: -2.0d,
@@ -299,11 +299,12 @@
 			}]
 		},
 		{
-			title: "Gold ring",
+			title: "Gold Ring",
 			icon: "curios:ring",
 			disable_toast: true,
 			x: -4.0d,
 			y: 6.5d,
+			description: ["This ring will boost your speed and increase your armor."],
 			id: "00000000000005A2",
 			tasks: [{
 				id: "00000000000005A3",
@@ -314,26 +315,6 @@
 			}],
 			rewards: [{
 				id: "00000000000005AE",
-				type: "item",
-				item: "curios:ring"
-			}]
-		},
-		{
-			title: "Gold ring",
-			icon: "curios:ring",
-			disable_toast: true,
-			x: -3.0d,
-			y: 6.5d,
-			id: "00000000000005A4",
-			tasks: [{
-				id: "00000000000005A5",
-				type: "item",
-				disable_toast: true,
-				item: "spareparts:coins/diamond_coin",
-				consume_items: true
-			}],
-			rewards: [{
-				id: "00000000000005AF",
 				type: "item",
 				item: "curios:ring"
 			}]
@@ -350,6 +331,7 @@
 			disable_toast: true,
 			x: -4.0d,
 			y: 10.5d,
+			description: ["This crown will give you nightvision but it will slowly decay due to its power."],
 			id: "00000000000005A6",
 			tasks: [{
 				id: "00000000000005A7",
@@ -374,8 +356,9 @@
 			title: "Knuckles",
 			icon: "curios:knuckles",
 			disable_toast: true,
-			x: -2.0d,
+			x: -3.0d,
 			y: 6.5d,
+			description: ["These knuckles will boost your attack damage."],
 			id: "00000000000005AA",
 			tasks: [{
 				id: "00000000000005AB",
@@ -396,6 +379,7 @@
 			disable_toast: true,
 			x: -3.0d,
 			y: 10.5d,
+			description: ["This necklace will grant you regeneration of health."],
 			id: "00000000000005AC",
 			tasks: [{
 				id: "00000000000005AD",
@@ -411,6 +395,7 @@
 			}]
 		},
 		{
+			title: "Chainmail Chestplate",
 			icon: {
 				id: "minecraft:chainmail_chestplate",
 				Count: 1b,
@@ -443,6 +428,7 @@
 			}]
 		},
 		{
+			title: "Chainmail Helmet",
 			icon: {
 				id: "minecraft:chainmail_helmet",
 				Count: 1b,
@@ -475,6 +461,7 @@
 			}]
 		},
 		{
+			title: "Chainmail Leggings",
 			icon: {
 				id: "minecraft:chainmail_leggings",
 				Count: 1b,
@@ -507,6 +494,7 @@
 			}]
 		},
 		{
+			title: "Chainmail Boots",
 			icon: {
 				id: "minecraft:chainmail_boots",
 				Count: 1b,
@@ -539,6 +527,7 @@
 			}]
 		},
 		{
+			title: "64x Granite",
 			icon: {
 				id: "minecraft:granite",
 				Count: 64b
@@ -562,6 +551,7 @@
 			}]
 		},
 		{
+			title: "64x Diorite",
 			icon: {
 				id: "minecraft:diorite",
 				Count: 64b
@@ -585,6 +575,7 @@
 			}]
 		},
 		{
+			title: "64x Andesite",
 			icon: {
 				id: "minecraft:andesite",
 				Count: 64b
@@ -608,6 +599,7 @@
 			}]
 		},
 		{
+			title: "64x Red Sand",
 			icon: {
 				id: "minecraft:red_sand",
 				Count: 64b
@@ -631,6 +623,7 @@
 			}]
 		},
 		{
+			title: "64x Gravel",
 			icon: {
 				id: "minecraft:gravel",
 				Count: 64b
@@ -654,6 +647,7 @@
 			}]
 		},
 		{
+			title: "64x Sand",
 			icon: {
 				id: "minecraft:sand",
 				Count: 64b
@@ -677,6 +671,7 @@
 			}]
 		},
 		{
+			title: "64x Cobblestone",
 			icon: {
 				id: "minecraft:cobblestone",
 				Count: 64b
@@ -700,6 +695,7 @@
 			}]
 		},
 		{
+			title: "Random Stone",
 			icon: {
 				id: "quark:jasper",
 				Count: 64b
@@ -722,6 +718,7 @@
 			}]
 		},
 		{
+			title: "Random Stone",
 			icon: "quark:polished_jasper",
 			disable_toast: true,
 			x: -2.0d,
@@ -741,6 +738,7 @@
 			}]
 		},
 		{
+			title: "Waystone",
 			icon: "waystones:waystone",
 			disable_toast: true,
 			x: -4.0d,
@@ -760,6 +758,7 @@
 			}]
 		},
 		{
+			title: "Random Stone",
 			icon: {
 				id: "embellishcraft:larvikite",
 				Count: 64b
@@ -782,6 +781,7 @@
 			}]
 		},
 		{
+			title: "Random Stone",
 			icon: {
 				id: "embellishcraft:larvikite",
 				Count: 64b
@@ -804,6 +804,7 @@
 			}]
 		},
 		{
+			title: "Potion of Strength",
 			icon: {
 				id: "minecraft:potion",
 				Count: 1b,
@@ -835,6 +836,7 @@
 			}]
 		},
 		{
+			title: "Potion of Fire Resistance",
 			icon: {
 				id: "minecraft:potion",
 				Count: 1b,
@@ -866,6 +868,7 @@
 			}]
 		},
 		{
+			title: "Potion of Swiftness",
 			icon: {
 				id: "minecraft:potion",
 				Count: 1b,
@@ -897,6 +900,7 @@
 			}]
 		},
 		{
+			title: "Potion of Water Breathing",
 			icon: {
 				id: "minecraft:potion",
 				Count: 1b,
@@ -928,6 +932,7 @@
 			}]
 		},
 		{
+			title: "64x Clay",
 			icon: {
 				id: "minecraft:clay",
 				Count: 64b
@@ -951,6 +956,7 @@
 			}]
 		},
 		{
+			title: "32x Clay",
 			icon: {
 				id: "minecraft:clay",
 				Count: 64b
@@ -974,6 +980,7 @@
 			}]
 		},
 		{
+			title: "Potion of Regeneration",
 			icon: {
 				id: "minecraft:potion",
 				Count: 1b,
@@ -1005,6 +1012,7 @@
 			}]
 		},
 		{
+			title: "Lure III",
 			icon: {
 				id: "quark:ancient_tome",
 				Count: 1b,
@@ -1042,6 +1050,7 @@
 			}]
 		},
 		{
+			title: "Potion of Luck",
 			icon: {
 				id: "minecraft:potion",
 				Count: 1b,
@@ -1073,6 +1082,7 @@
 			}]
 		},
 		{
+			title: "Potion of Slow Falling",
 			icon: {
 				id: "minecraft:potion",
 				Count: 1b,
@@ -1104,6 +1114,7 @@
 			}]
 		},
 		{
+			title: "Depth Strider III",
 			icon: {
 				id: "minecraft:enchanted_book",
 				Count: 1b,
@@ -1141,6 +1152,7 @@
 			}]
 		},
 		{
+			title: "Luck of the Sea III",
 			icon: {
 				id: "quark:ancient_tome",
 				Count: 1b,
@@ -1178,6 +1190,7 @@
 			}]
 		},
 		{
+			title: "Sharpness V",
 			icon: {
 				id: "minecraft:enchanted_book",
 				Count: 1b,
@@ -1189,7 +1202,7 @@
 				}
 			},
 			disable_toast: true,
-			x: -1.0d,
+			x: -2.0d,
 			y: 6.5d,
 			id: "00000000000006D4",
 			tasks: [{
@@ -1215,6 +1228,7 @@
 			}]
 		},
 		{
+			title: "Angler's Bounty II",
 			icon: {
 				id: "minecraft:enchanted_book",
 				Count: 1b,
@@ -1252,6 +1266,7 @@
 			}]
 		},
 		{
+			title: "Bulwark",
 			icon: {
 				id: "minecraft:enchanted_book",
 				Count: 1b,
@@ -1289,6 +1304,7 @@
 			}]
 		},
 		{
+			title: "Phalanx II",
 			icon: {
 				id: "minecraft:enchanted_book",
 				Count: 1b,
@@ -1326,6 +1342,7 @@
 			}]
 		},
 		{
+			title: "Cake",
 			icon: "minecraft:cake",
 			disable_toast: true,
 			x: 3.0d,
@@ -1345,6 +1362,7 @@
 			}]
 		},
 		{
+			title: "32x Potato",
 			icon: {
 				id: "minecraft:potato",
 				Count: 64b
@@ -1368,6 +1386,7 @@
 			}]
 		},
 		{
+			title: "30 XP Levels",
 			icon: "minecraft:experience_bottle",
 			disable_toast: true,
 			x: 0.0d,
@@ -1387,6 +1406,7 @@
 			}]
 		},
 		{
+			title: "Random Dye",
 			icon: "minecraft:yellow_dye",
 			disable_toast: true,
 			x: 5.0d,
@@ -1406,6 +1426,7 @@
 			}]
 		},
 		{
+			title: "Coal Ore",
 			icon: "minecraft:coal_ore",
 			disable_toast: true,
 			x: 6.0d,
