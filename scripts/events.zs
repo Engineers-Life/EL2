@@ -23,8 +23,10 @@ CTEventManager.register<crafttweaker.api.event.block.MCBlockBreakEvent>(event=>{
         if event.state.hasTileEntity && event.state.commandString.startsWith('<blockstate:engineersdecor:') {
             event.world.destroyBlock(event.pos,true,event.player);
         }});
-*/
+*//*
 
+
+*/
 /*
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCRightClickBlockEvent>(event=>{
         val state = event.entity.getWorld().getBlockState(event.blockPos);
@@ -43,19 +45,18 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCRightCli
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent>(event=>{
         if (!event.itemStack.empty) {
             val state = event.entity.getWorld().getBlockState(event.blockPos);
-            val item = event.itemStack.asImmutable();
-            val data = item.getOrCreate.asMap();
+            var item = event.itemStack;
             println(state.commandString);
             if (state.commandString.startsWith('<blockstate:charm:woodcutter')) {
-                if (    (item in <tag:items:minecraft:axes>)
-                    ||  (   (item.registryName.toString() == "tetra:modular_double")
-                        &&  (   (   ("double/basic_axe_left_material" in data)
-                                ||  ("double/basic_axe_right_material" in data)
-                                ||  ("double/adze_left_material" in data)
-                                ||  ("double/adze_right_material" in data) )
-                            &&  (!  (   ("double/basic_nevermind_left_material" in data)
-                                    ||  ("double/basic_nevermind_right_material" in data) ) ) ) ) )
-                {
+                val isAxe = item in <tag:items:minecraft:axes>;
+                if (item.registryName.toString() == "tetra:modular_double") {
+                    val data = item.getOrCreate.asMap();
+                    isAxe = (   ("double/basic_axe_left_material" in data)
+                            ||  ("double/basic_axe_right_material" in data)
+                            ||  ("double/adze_left_material" in data)
+                            ||  ("double/adze_right_material" in data) );
+                }
+                if (isAxe) {
                     event.entity.getWorld().destroyBlock(event.blockPos,true,event.player);
                     val italic = new MCStyle().setItalic(true);
                     val not_italic = new MCStyle().setItalic(false);
