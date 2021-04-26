@@ -6,6 +6,22 @@ craftingTable.removeByRegex("buildersaddition:.*_vertical_slab");
 craftingTable.removeByRegex("buildersaddition:vertical_slab/reverse/reverse_.*_both");
 stoneCutter.removeByRegex("buildersaddition:.*_vertical_slab_stonecutter");
 
+//tag wood slabs as planks that were missing the tag
+for slab in [
+        <item:quark:acacia_vertical_slab>,
+        <item:quark:birch_vertical_slab>,
+        <item:quark:dark_oak_vertical_slab>,
+        <item:quark:jungle_vertical_slab>,
+        <item:quark:oak_vertical_slab>,
+        <item:quark:spruce_vertical_slab>,
+        <item:quark:crimson_vertical_slab>,
+        <item:quark:warped_vertical_slab>,
+        <item:terraincognita:apple_vertical_slab>,
+        <item:terraincognita:hazel_vertical_slab>
+            ] {
+    <tag:items:quark:planks_vertical_slab>.add(slab);            
+}
+
 // vertical slabs are in recipes through the use of the quark tag
 val tag = <tag:items:quark:planks_vertical_slab>;
 for definition in tag.getElements() {
