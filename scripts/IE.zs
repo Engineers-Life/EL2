@@ -17,6 +17,7 @@ craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_quartz", <item:immersiveengineering:coal_coke>, [<item:minecraft:quartz>], 400, 400*512, [<item:bigreactors:graphite_ingot>],<item:immersiveengineering:slag>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("brick_from_clay_brick",   <item:notreepunching:clay_brick>,      [],                        100, 100*512, [<item:minecraft:brick>]);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("glass_bulk", <item:minecraft:sand>*16, [<item:immersiveengineering:dust_lead>], 100, 100*512, [<item:minecraft:glass>*16]);
 
 // SQUEEZER
 <recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking", <item:minecraft:glass_bottle>, 12800, <item:quark:clear_shard>*12);
