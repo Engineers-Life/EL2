@@ -40,15 +40,15 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCRightCli
         }});
 */
 
-// break woodcutter if an axe interacts with it, since it says an axe is the proper tool but axes won't work on it.
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent>(event=>{
         if (!event.itemStack.empty) {
             val state = event.entity.getWorld().getBlockState(event.blockPos);
-            val data = event.itemStack.getOrCreate.asMap();
+            val item = event.itemStack.asImmutable();
+            val data = item.getOrCreate.asMap();
             println(state.commandString);
             if (state.commandString.startsWith('<blockstate:charm:woodcutter')) {
-                if (    (event.itemStack in <tag:items:minecraft:axes>)
-                    ||  (   (event.itemStack.registryName.toString() == "tetra:modular_double")
+                if (    (item in <tag:items:minecraft:axes>)
+                    ||  (   (item.registryName.toString() == "tetra:modular_double")
                         &&  (   (   ("double/basic_axe_left_material" in data)
                                 ||  ("double/basic_axe_right_material" in data)
                                 ||  ("double/adze_left_material" in data)
@@ -59,7 +59,7 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCPlayerIn
                     event.entity.getWorld().destroyBlock(event.blockPos,true,event.player);
                     val italic = new MCStyle().setItalic(true);
                     val not_italic = new MCStyle().setItalic(false);
-                    event.player.sendMessage((("Hey, watch it with that "+event.itemStack.displayName+"!") as MCTextComponent).setStyle(italic));
+                    event.player.sendMessage((("Hey, watch it with that "+item.displayName+"!") as MCTextComponent).setStyle(italic));
                 }
             }
         }
