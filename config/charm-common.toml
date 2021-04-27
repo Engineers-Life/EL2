@@ -346,7 +346,7 @@
 	#Approximately 1 in X chance of a mob spawning as a rare variant.
 	"Rarity of rare variants" = 1000
 	#If true, squids may spawn with different textures.
-	"Variant squids" = true
+	"Variant squids" = false
 	#If true, cows may spawn with different textures. This is disabled if Quark is present.
 	"Variant cows" = true
 	#If true, sheep face and 'shorn' textures match their wool color. This is disabled if Quark is present.
