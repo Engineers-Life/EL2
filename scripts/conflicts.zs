@@ -89,4 +89,11 @@ removeAndHide(<item:quark:iron_ladder>); // didn't conflict, just redundant
 replaceByName("terraincognita:compat/quark/apple/vertical_slabs",<item:terraincognita:apple_vertical_slab>*3,[[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>],[<item:terraincognita:apple_slab>]]);
 replaceByNameMirrored("quark:building/crafting/shingles/shingles",<item:quark:shingles>*2,[[<item:minecraft:terracotta>,air],[air,<item:minecraft:terracotta>]]);
 
+replaceByNameShapeless("simplefarming:pink_dye",<item:minecraft:pink_dye>,[<item:simplefarming:cactus_fruit>]);
+replaceByNameShapeless("simplefarming:blue_dye",<item:minecraft:blue_dye>,[<item:simplefarming:blueberries>]);
+craftingTable.removeByName("simplefarming:red_dye1");
+craftingTable.removeByName("simplefarming:red_dye2");
+craftingTable.addShapeless(validName("simplefarming:red_dye"),<item:minecraft:red_dye>,[<item:simplefarming:raspberries>|<item:simplefarming:strawberries>|<item:minecraft:sweet_berries>]);
+replaceByNameShapeless("simplefarming:black_dye",<item:minecraft:black_dye>,[<item:simplefarming:blackberries>]);
+
 println("END conflicts");
