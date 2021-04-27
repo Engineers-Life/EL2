@@ -25,8 +25,8 @@ craftingTable.addShaped("arc_furnace_sand", <item:engineersdecor:dense_grit_sand
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("glass_bulk", <item:engineersdecor:dense_grit_sand_block>,[], 100, 100*512, [<item:minecraft:glass>],<item:immersiveengineering:nugget_lead>);
 
 // SQUEEZER
-<recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking", <item:minecraft:glass_bottle>, 12800, <item:quark:clear_shard>*12);
-<recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking_essence", <item:minecraft:experience_bottle>, 12800, <fluid:industrialforegoing:essence> * 250, <item:quark:clear_shard>*12);
+<recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking", <item:minecraft:glass_bottle>, 12800, <item:quark:clear_shard>*4);
+<recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking_essence", <item:minecraft:experience_bottle>, 12800, <fluid:industrialforegoing:essence> * 250, <item:quark:clear_shard>*4);
 
 // RANDOM STUFF (extreme reactors)
 furnace.removeRecipe(<item:bigreactors:graphite_block>);
