@@ -78,7 +78,7 @@
 	#Allowed Values: DISABLED, OWNER, ALL
 	disablePetFriendlyFire = "OWNER"
 	#If enabled, all bees will always be half the size they are in Vanilla. Does not affect breeding or hitboxes
-	enableSmallBees = true
+	enableSmallBees = false
 
 #Item Tweaks
 ["item tweaks"]
