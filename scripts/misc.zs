@@ -82,6 +82,14 @@ replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industri
         // , outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}"
         } );
 
+replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industrialforegoing:dissolution_chamber/xp_bottles", {
+    input: [ { tag: "forge:empty_bottles" } ],
+    inputFluid: "{FluidName:\"industrialforegoing:essence\",Amount:250}",
+    processingTime: 300,
+    output: {
+        item: <item:minecraft:experience_bottle>.registryName,
+        count:1 } } );
+
 // Chainmail Armor
 craftingTable.addShaped("chain_helmet", <item:minecraft:chainmail_helmet>, [
     [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
