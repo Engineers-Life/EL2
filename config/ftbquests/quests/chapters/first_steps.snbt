@@ -2146,6 +2146,7 @@
 			tasks: [{
 				id: "4412C916972860C1",
 				type: "item",
+				title: "Sleeping Bag",
 				item: {
 					id: "itemfilters:or",
 					Count: 1b,
@@ -3704,6 +3705,7 @@
 				{
 					id: "7C2A91AC3CF5ECFA",
 					type: "item",
+					title: "Hammock",
 					item: {
 						id: "itemfilters:or",
 						Count: 1b,
