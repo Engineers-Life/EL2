@@ -8,7 +8,7 @@
 craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("quartz_enriched_iron", <item:minecraft:iron_ingot>, [<item:minecraft:quartz>*2], 400, 400*512, [<item:refinedstorage:quartz_enriched_iron>],<item:immersiveengineering:slag>);
 
-<recipetype:immersiveengineering:arc_furnace>.addRecipe("plastic_from_dryrubber_in_arc", <item:industrialforegoing:dryrubber>, [], 100, 100*512, [<item:industrialforegoing:plastic>],<item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("plastic_from_dryrubber_in_arc", <item:industrialforegoing:dryrubber>, [], 100, 100*512, [<item:industrialforegoing:plastic>]);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("yellorium_ingot_from_dust", <item:bigreactors:yellorium_dust>, [<item:minecraft:quartz>], 100, 100*512, [<item:bigreactors:yellorium_ingot>],<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("yellorium_ingot_from_ore",  <item:bigreactors:yellorite_ore>,  [<item:minecraft:quartz>], 200, 200*512, [<item:bigreactors:yellorium_ingot>*2],<item:immersiveengineering:slag>);
@@ -17,6 +17,7 @@ craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_quartz", <item:immersiveengineering:coal_coke>, [<item:minecraft:quartz>], 400, 400*512, [<item:bigreactors:graphite_ingot>],<item:immersiveengineering:slag>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("brick_from_clay_brick",   <item:notreepunching:clay_brick>,      [],                        100, 100*512, [<item:minecraft:brick>]);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("nether_brick_from_netherrack",   <item:minecraft:netherrack>,      [],                        100, 100*512, [<item:minecraft:nether_brick>]);
 
 // Sand to Glass Arc Furnace
 craftingTable.removeRecipe(<item:engineersdecor:dense_grit_sand_block>);
