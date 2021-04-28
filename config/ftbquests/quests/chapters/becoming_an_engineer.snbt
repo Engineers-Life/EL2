@@ -2742,31 +2742,53 @@
 			title: "Engineer's Blueprints",
 			x: -9.0d,
 			y: 7.5d,
-			description: ["These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench."],
+			description: [
+				"These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench.",
+				"",
+				"*You will need to search for the recipes to these blueprints in JEI. We do know about the popup error, there is nothing we can do about it currently.*"
+			],
 			dependencies: ["000000000000022D"],
 			id: "000000000000102E",
 			tasks: [
 				{
-					id: "000000000000102F",
+					id: "42C2339BC1432CA5",
 					type: "item",
-					title: "Components Blueprint",
+					title: "Engineer's Blueprint: Molds",
+					icon: {
+						id: "immersiveengineering:blueprint",
+						Count: 1b,
+						tag: {
+							blueprint: "molds"
+						}
+					},
 					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								blueprint: "molds"
+							}
+						}
+					}
+				},
+				{
+					id: "2906A374198217F4",
+					type: "item",
+					title: "Engineer's Blueprints: Components",
+					icon: {
 						id: "immersiveengineering:blueprint",
 						Count: 1b,
 						tag: {
 							blueprint: "components"
 						}
-					}
-				},
-				{
-					id: "0000000000001030",
-					type: "item",
-					title: "Molds Blueprint",
+					},
 					item: {
-						id: "immersiveengineering:blueprint",
+						id: "itemfilters:strong_nbt",
 						Count: 1b,
 						tag: {
-							blueprint: "molds"
+							value: {
+								blueprint: "components"
+							}
 						}
 					}
 				}
