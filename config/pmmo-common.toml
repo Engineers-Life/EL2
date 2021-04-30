@@ -390,7 +390,7 @@
 	breedingXpEnabled = true
 	#How much xp should be awarded in Farming for growing crops? (Json Overrides this) (Set to 0 to disable default xp)
 	#Range: 0.0 ~ 1000000.0
-	defaultBreedingXp = 15.0
+	defaultBreedingXp = 1.0
 
 [Agility]
 	#Maximum chance to save each point of fall damage (100 = no fall damage)
@@ -563,7 +563,7 @@
 	#Do players get xp for taming animals?
 	tamingXpEnabled = true
 	#Do players get xp for growing Plants? (Different from Harvest xp)
-	growingXpEnabledXpEnabled = false
+	growingXpEnabledXpEnabled = true
 	#How much xp should be awarded in Taming for Taming an animal? (Json Overrides this) (Set to 0 to disable default xp)
 	#Range: 0.0 ~ 1000000.0
 	defaultTamingXp = 0.0
