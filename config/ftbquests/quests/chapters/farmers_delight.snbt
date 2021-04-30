@@ -1794,7 +1794,7 @@
 			shape: "gear",
 			description: ["I mean cooking couldn't be as complex as making a machine to make energy....."],
 			dependencies: ["0000000000000FE4"],
-			size: 2.0d,
+			size: 1.5d,
 			id: "0000000000001074",
 			tasks: [{
 				id: "0000000000001075",

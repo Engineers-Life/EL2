@@ -182,7 +182,13 @@
 				id: "000000000000058B",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/golden_coin"
+				item: "spareparts:coins/golden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "624B2341E52A594A",
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
@@ -749,7 +755,8 @@
 				type: "item",
 				disable_toast: true,
 				item: "spareparts:coins/golden_coin",
-				count: 2L
+				count: 2L,
+				consume_items: true
 			}],
 			rewards: [{
 				id: "00000000000005EB",
