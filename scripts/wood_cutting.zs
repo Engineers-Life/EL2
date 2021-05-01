@@ -1,11 +1,27 @@
+#priority 0
 
 import crafttweaker.api.BracketHandlers;
+import crafttweaker.api.data.IData;
+import crafttweaker.api.data.INumberData;
+import crafttweaker.api.data.IntData;
+import crafttweaker.api.data.MapData;
+import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.MCItemDefinition;
+import crafttweaker.api.registries.IRecipeManager;
+import crafttweaker.api.tag.MCTag;
+import crafttweaker.api.tag.TagManager;
+import stdlib.List;
 
 println("BEGIN wood_cutting");
 
-val toType = <recipetype:charm:woodcutting>;
+// will divide recipe total cost by this amount and still be craftable.
+// For example, a chest is made from the equivalent of two logs worth of wood, but at discount level 2, it will allow it to be crafted for 1 log.
+// Will only discount cost if needed to be craftable.  A discount level of 8 won't turn it into a chest costing 1 plank since it will only reduce the cost to be 1 wood.
+// Items that can't discount down to 1 plank but cost less than a log will round up to costing 1 log.
+val discountLevel = 2.0;
+
+val cutter = <recipetype:charm:woodcutting>;
 val air = <item:minecraft:air>;
 val treated_stick = <item:immersiveengineering:stick_treated>;
 
@@ -18,8 +34,294 @@ craftingTable.addShaped("treated_wood_ladder_from_sticks",   <item:engineersdeco
     [treated_stick,treated_stick,treated_stick],
     [treated_stick,air,treated_stick] ]);
 
-val cutting_recipes = {
+cutter.removeAll();
+val stick = <item:minecraft:stick>;
+//cutter.addJSONRecipe("sticks.from.planks", {ingredient:{tag:"minecraft:planks"},result:stick.registryName,count:2 as int});
 
+//var costOfWood = new List<int[IItemStack]>();
+//var costOfWood = new List<int[IItemStack]>();
+//new MapData(map as IData[string]) as MapData
+var costOfWood = new MapData();
+var typeOfWood = new MapData();
+
+var specialTypes = ["any","treated","UNKNOWN"];
+
+// these may be needed since they don't follow normal recipes (due to axe-based recipes).
+costOfWood.put("minecraft:stick",1.0 as double);
+typeOfWood.put("minecraft:stick","any");
+costOfWood.put("immersiveengineering:stick_treated",1.0 as double);
+typeOfWood.put("immersiveengineering:stick_treated","treated");
+costOfWood.put("immersiveengineering:treated_wood_horizontal",2.0 as double);
+typeOfWood.put("immersiveengineering:treated_wood_horizontal","treated");
+
+// attempt to deduce what types of logs make what type of plank
+// logType should end up with plank keys ("minecraft:oak_planks") and IIngredient values (list of oak log types)
+var logTypes = new MapData();
+var logTypeByTag = new MapData();
+for planks in <tag:items:minecraft:planks>.getElements() {
+    for wrapper in craftingTable.getRecipesByOutput(planks.getDefaultInstance()) {
+        if (wrapper.output.amount == 4) {
+            val ingredientsList = wrapper.ingredients;
+            var outputKey = wrapper.output.registryName.toString();
+            var ingredient = (ingredientsList.length<2) ? ingredientsList[0] :  ingredientsList[1];
+            // var ingredient = ( (ingredientsList[0].items[0] in <tag:items:minecraft:logs>) || (ingredientsList.length<2) || (!(ingredientsList[0].items[0] in <tag:items:notreepunching:saws>)) ) ? ingredientsList[0] : ingredientsList[1];
+            if ( ingredient.items[0] in <tag:items:minecraft:logs>) {
+                if outputKey == "minecraft:oak_planks" {
+                    logTypes.put(outputKey,"minecraft:oak_logs"); // because some weird non-oak logs also make oak planks
+                    logTypeByTag.put(outputKey,"true");
+                } else {
+
+                    var foundTag = false;
+                    println("TAG SEARCH: start "+wrapper.id.toString());
+                    for possibleTag in <tagManager:items>.getAllTagsFor(ingredient.items[0]) {
+                        println("TAG SEARCH: "+possibleTag.getElements().length+","+ingredient.items.length);
+
+                        if (possibleTag.getElements().length == ingredient.items.length) { // leap of faith
+                            foundTag = true;
+                            //println("TAG SEARCH: Found a tag.  Assuming "+possibleTag.id.toString()+" is the tag for "+outputKey);
+                            logTypes.put(outputKey,possibleTag.id.toString());
+                            logTypeByTag.put(outputKey,"true");
+                        }
+                    }
+                    if !foundTag {
+                        println("TAG SEARCH: Couldn't find the tag for "+outputKey);
+                        //println("TAG SEARCH: Using "+ingredient.commandString);
+                        logTypes.put(outputKey,ingredient.commandString);
+                        logTypeByTag.put(outputKey,"false");
+                    }
+                }
+
+                costOfWood.put(outputKey,2.0 as double);
+                typeOfWood.put(outputKey,outputKey);
+                for item in ingredient.items {
+                    costOfWood.put(item.registryName.toString(),8.0 as double);
+                    typeOfWood.put(item.registryName.toString(),outputKey);
+                }
+            }
+        }
+    }
+}
+
+var foundNewWood = true;
+var howManyFound = 0 as int;
+var generation = 0 as int;
+
+// stick/plank/slab/stairs/vert slab/fence/fence gate
+
+while foundNewWood {
+    foundNewWood = false;
+    generation = generation + 1;
+    for wrapper in craftingTable.getAllRecipes() {
+        val output = wrapper.output.registryName.toString();
+        if ( (!costOfWood.contains(output)) && (wrapper.ingredients.length > 0) ) { // firework star seems to have a zero item crafting recipe.
+            var outputAmt = wrapper.output.amount as int;
+            var outputCostTally = 0.0 as double;
+            var outputType = "UNKNOWN";
+            var mightBeTreated = true;
+            var isWood = true;
+            for cell in wrapper.ingredients {
+                if (isWood && !cell.matches(air)) {
+                    isWood = false;
+                    var cellCost = 256.0 as double; // arbitrary high number
+                    var cellType = "UNKNOWN";
+                    for item in cell.items {
+                        val itemString = item.registryName.toString();
+                        if (costOfWood.contains(itemString)) {
+                            cellCost = min(cellCost,costOfWood.getAt(itemString).asNumber().getDouble());
+                            isWood = true;
+                            val itemType = typeOfWood.getAt(itemString).getString();
+                            if (!(itemType == "treated")) {
+                                mightBeTreated = false; // only takes one non-treated ingredient to not be treated (otherwise all-stick items like ladders would be treated wood types)
+                            }
+                            if (!(itemType in specialTypes)) {
+                                if (cellType == "UNKNOWN") {
+                                    cellType = itemType;
+                                } else if (cellType != itemType) {
+                                    //println("Found multiple types for cell "+itemString+" in "+output+" ("+cellType+" and "+itemType+")");
+                                    cellType = "any";
+                                }
+                            }
+                        }
+                    }
+                    outputCostTally += cellCost;
+                    if (!(cellType in specialTypes)) {
+                        if (outputType == "UNKNOWN") {
+                            outputType = cellType;
+                        } else if (outputType != cellType) {
+                            //println("Found multiple types for "+output+" ("+outputType+" and "+cellType+")");
+                            outputType = "any";
+                        }
+                    }
+                }
+            }
+            if (outputAmt != 0) { // some recipes output air, go figure ?
+                if (isWood) {
+                    costOfWood.put(output,outputCostTally/outputAmt);
+                    if (outputType == "UNKNOWN") {
+                        outputType = mightBeTreated ? "treated" : "any";
+                    }
+                    typeOfWood.put(output,outputType);
+                }
+            }
+        }
+    }
+    if (costOfWood.size > howManyFound) {
+        foundNewWood = true;
+        println("Iteration #"+generation+": "+(costOfWood.size-howManyFound)+" new items calculated");
+        howManyFound = costOfWood.size;
+    }
+    println("Final tally: "+howManyFound);
+}
+
+function addItemToWoodcutter(
+            outputString as string,
+            outputCost as double,
+            inputType as string,
+            discountLevel as double,
+            cutter as IRecipeManager,
+            isLogType as bool,
+            inputIngredient as string,
+            isTag as string
+
+            ) as void {
+    //println(outputString);
+    //println(inputType);
+    val recipe_name = validName(outputString)+".from."+validName(inputType);
+    println(recipe_name);
+    var outputAmount = 1 as int;
+    if (outputString == inputType) { // planks make planks
+        outputCost *= 4;
+        outputAmount *= 4;
+    }
+    //println(recipe_name+" with a cost of "+outputCost);
+    while (outputCost < 2.0) {
+        outputCost = outputCost/outputAmount; // to unit cost
+        outputAmount += 1;
+        outputCost = outputCost*outputAmount; // to new cost
+    }
+    if inputType == "treated" {
+        //println("treated");
+        if (outputCost > 2.0*discountLevel) {
+            //println(outputString+" is too expensive for a treated wood plank");
+        } else {
+        //    println("adding treated");
+            cutter.addJSONRecipe(recipe_name, {ingredient:{tag:"forge:treated_wood"},result:outputString,count:outputAmount as int});
+        }
+    } else {
+        //println("non-treated");
+        if (outputCost > 2*discountLevel) {
+            while (outputCost < 8.0) {
+                outputCost = outputCost/outputAmount; // to unit cost
+                outputAmount += 1;
+                outputCost = outputCost*outputAmount; // to new cost
+            }
+            if outputCost > 8 * discountLevel {
+                //println(outputString+" is too expensive for a single log");
+            } else {
+                if inputType == "any" {
+                    cutter.addJSONRecipe(recipe_name, {ingredient:{tag:"minecraft:logs"},result:outputString,count:outputAmount as int});
+                } else {
+                    if isLogType {
+                        if (isTag == "true") {
+                            cutter.addJSONRecipe(recipe_name, {ingredient:{tag:inputIngredient},result:outputString,count:outputAmount as int});
+                        } else {
+                            cutter.addJSONRecipe(recipe_name, {ingredient:{item:inputIngredient},result:outputString,count:outputAmount as int});
+                        }
+                    } else {
+                        println("LOG TYPE ERROR: Can't find "+inputType);
+                    }
+                }
+            }
+
+        } else {
+            if inputType == "any" {
+                cutter.addJSONRecipe(recipe_name, {ingredient:{tag:"minecraft:planks"},result:outputString,count:outputAmount as int});
+            } else {
+                cutter.addJSONRecipe(recipe_name, {ingredient:{item:inputType},result:outputString,count:outputAmount as int});
+            }
+        }
+    }
+
+}
+
+val tagsByPriority = [
+        <tag:items:forge:rods>,
+        <tag:items:minecraft:planks>,
+        <tag:items:minecraft:slabs>,
+        <tag:items:minecraft:stairs>,
+        <tag:items:quark:vertical_slab>,
+        <tag:items:minecraft:fences>,
+        <tag:items:minecraft:fence_gates> ];
+var listOfAllWood = new List<string>();
+
+for priorityTag in tagsByPriority {
+    for taggedItem in priorityTag.getElements() {
+        val tiString = taggedItem.defaultInstance.registryName.toString();
+        if ( costOfWood.contains(tiString) && !(tiString in listOfAllWood) ) {
+            listOfAllWood.add(tiString);
+            val inputType1 = typeOfWood.getAt(tiString).getString();
+            val isLogType1 = logTypes.contains(inputType1);
+            var inputIngredient1 = "";
+            var isTag1 = "";
+            if isLogType1 {
+                inputIngredient1 = logTypes.getAt(inputType1).getString();
+                //println("iI1 = "+inputIngredient1);
+                isTag1 = logTypeByTag.getAt(inputType1).getString();
+            }
+            addItemToWoodcutter(
+                    tiString,
+                    costOfWood.getAt(tiString).asNumber().getDouble(),
+                    inputType1,
+                    discountLevel,
+                    cutter,
+                    isLogType1,
+                    inputIngredient1,
+                    isTag1
+                );
+        }
+    }
+}
+for outputString in costOfWood.keySet {
+    if (!(outputString in listOfAllWood)) {
+        listOfAllWood.add(outputString);
+        val inputType2 = typeOfWood.getAt(outputString).getString();
+        val isLogType2 = logTypes.contains(inputType2);
+        var inputIngredient2 = "";
+        var isTag2 = "";
+        if isLogType2 {
+            inputIngredient2 = logTypes.getAt(inputType2).getString();
+            isTag2 = logTypeByTag.getAt(inputType2).getString();
+        }
+
+        addItemToWoodcutter(
+                    outputString,
+                    costOfWood.getAt(outputString).asNumber().getDouble(),
+                    inputType2,
+                    discountLevel,
+                    cutter,
+                    isLogType2,
+                    inputIngredient2,
+                    isTag2
+                );
+    }
+}
+
+
+/*
+        val input = <item:minecraft:oak_planks>;
+        val amt = wrapper.output.amount;
+        val recipe_name = validName(wrapper.output.registryName)+".from."+validName(input.registryName);
+        println("Add woodcutting recipe: "+recipe_name);
+        cutter.addJSONRecipe(recipe_name, {ingredient:{item:input.registryName},result:wrapper.output.registryName,count:amt as int});
+
+        if (wrapper.ingredients[0].items[0] in <tag:items:minecraft:planks>.getElements()) {
+            stoneCutter.removeRecipe(wrapper.output);
+        }
+*/
+
+
+/*
+val cutting_recipes = {
     <item:betterdefaultbiomes:swamp_willow_button>              : [ <item:betterdefaultbiomes:swamp_willow_planks> ],
     <item:betterdefaultbiomes:swamp_willow_door>                : [ <item:betterdefaultbiomes:swamp_willow_planks> ],
     <item:betterdefaultbiomes:swamp_willow_fence>               : [ <item:betterdefaultbiomes:swamp_willow_planks> ],
@@ -590,19 +892,16 @@ val cutting_recipes = {
     <item:transport:treated_wood_boat>                          : [ <item:immersiveengineering:treated_wood_horizontal>, <item:immersiveengineering:treated_wood_packaged>, <item:immersiveengineering:treated_wood_vertical> ]
         } as IItemStack[][IItemStack];
 
-for output, inputList in cutting_recipes {
-    for input in inputList {
-        val amt = output.amount;
-        val recipe_name = validName(output.registryName)+".from."+validName(input.registryName);
-        println("Add woodcutting recipe: "+recipe_name);
-        toType.addJSONRecipe(recipe_name, {ingredient:{item:input.registryName},result:output.registryName,count:amt as int});
+for outputItem, inputList in cutting_recipes {
+    for inputItem in inputList {
+        val recipeName = validName(outputItem.registryName)+".from."+validName(inputItem.registryName);
+        println("Add woodcutting recipe: "+recipeName);
+        cutter.addJSONRecipe(recipeName, {ingredient:{item:inputItem.registryName},result:outputItem.registryName,count:outputItem.amount as int});
     }
 }
+*/
 
-toType.removeRecipe(air);
-
-val stick = <item:minecraft:stick>;
-toType.addJSONRecipe("sticks.from.planks", {ingredient:{tag:"minecraft:planks"},result:stick.registryName,count:2 as int});
+cutter.removeRecipe(air);
 
 //craftingTable.removeRecipe(<item:woodenutilities:wood_cutter>);
 //mods.jei.JEI.hideItem(<item:woodenutilities:wood_cutter>);
