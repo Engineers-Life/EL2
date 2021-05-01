@@ -72,9 +72,9 @@ for planks in <tag:items:minecraft:planks>.getElements() {
                 } else {
 
                     var foundTag = false;
-                    println("TAG SEARCH: start "+wrapper.id.toString());
+                    //println("TAG SEARCH: start "+wrapper.id.toString());
                     for possibleTag in <tagManager:items>.getAllTagsFor(ingredient.items[0]) {
-                        println("TAG SEARCH: "+possibleTag.getElements().length+","+ingredient.items.length);
+                        //println("TAG SEARCH: "+possibleTag.getElements().length+","+ingredient.items.length);
 
                         if (possibleTag.getElements().length == ingredient.items.length) { // leap of faith
                             foundTag = true;
@@ -85,7 +85,8 @@ for planks in <tag:items:minecraft:planks>.getElements() {
                     }
                     if !foundTag {
                         println("TAG SEARCH: Couldn't find the tag for "+outputKey);
-                        //println("TAG SEARCH: Using "+ingredient.commandString);
+                        println("ERROR: Failing tag search will cause script to fail!");
+                        // this part is broken, don't fail tag search or fix this part:
                         logTypes.put(outputKey,ingredient.commandString);
                         logTypeByTag.put(outputKey,"false");
                     }
@@ -187,7 +188,7 @@ function addItemToWoodcutter(
     //println(outputString);
     //println(inputType);
     val recipe_name = validName(outputString)+".from."+validName(inputType);
-    println(recipe_name);
+    //println(recipe_name);
     var outputAmount = 1 as int;
     if (outputString == inputType) { // planks make planks
         outputCost *= 4;
