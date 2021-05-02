@@ -13,13 +13,18 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.tag.TagManager;
 import stdlib.List;
 
-println("BEGIN wood_cutting");
+println("BEGIN wood_cutting.zs");
 
 // will divide recipe total cost by this amount and still be craftable.
 // For example, a chest is made from the equivalent of two logs worth of wood, but at discount level 2, it will allow it to be crafted for 1 log.
 // Will only discount cost if needed to be craftable.  A discount level of 8 won't turn it into a chest costing 1 plank since it will only reduce the cost to be 1 wood.
 // Items that can't discount down to 1 plank but cost less than a log will round up to costing 1 log.
 val discountLevel = 2.0;
+
+// extra discount will be automatically applied to everything from that mod id (except for planks).  Not just if needed to be craftable.
+val extraDiscountByPrefix = {
+        "mcwfences" : 2.0
+        };
 
 val cutter = <recipetype:charm:woodcutting>;
 val air = <item:minecraft:air>;
@@ -180,6 +185,12 @@ for outputString in costOfWood.keySet {
     if (outputString == inputType) { // planks make planks
         outputCost *= 4;
         outputAmount *= 4;
+    } else {
+        for prefix, extraDiscount in extraDiscountByPrefix {
+            if outputString.startsWith(prefix) {
+                outputCost /= extraDiscount;
+            }
+        }
     }
     while (outputCost < 2.0) {
         outputCost = outputCost/outputAmount; // to unit cost
@@ -238,4 +249,4 @@ for wrapper in stoneCutter.getAllRecipes() {
     }
 }
 
-println("END wood_cutting");
+println("END wood_cutting.zs");
