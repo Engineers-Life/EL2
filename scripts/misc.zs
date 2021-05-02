@@ -5,6 +5,7 @@ println("BEGIN misc.zs");
 var air = <item:minecraft:air>;
 var cobblestone = <item:minecraft:cobblestone>;
 
+// Construction Wands
 removeAndHide(<item:constructionwand:infinity_wand>);
 removeAndHide(<item:constructionwand:core_angel>);
 removeAndHide(<item:constructionwand:core_destruction>);
@@ -188,5 +189,8 @@ craftingTable.addShaped("mob_imprisonment_tool",<item:industrialforegoing:mob_im
 
 //dragon egg recipe for servers
 craftingTable.addShapeless("inactive_dragon_egg_from_dragon_head",<item:productivebees:inactive_dragon_egg>,[<item:minecraft:dragon_head>]);
+
+//Remove second green dye
+removeAndHide(<item:pitg:green_dye>);
 
 println("END misc.zs");
