@@ -1,7 +1,7 @@
 {
 	id: "0000000000000534",
 	order_index: 0,
-	title: "Random dye",
+	title: "Random Dye",
 	loot_size: 1,
 	rewards: [
 		{
@@ -92,7 +92,7 @@
 			monster: 0
 		},
 		color: 16777215,
-		item_name: "Random dye crate",
+		item_name: "Random Dye Crate",
 		glow: 1b,
 		string_id: "random_dye"
 	}

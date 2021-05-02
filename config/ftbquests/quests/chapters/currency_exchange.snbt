@@ -25,6 +25,8 @@
 			rewards: [{
 				id: "0000000000000472",
 				type: "item",
+				team_reward: false,
+				auto: "enabled",
 				item: "minecraft:bricks",
 				count: 64
 			}]
@@ -114,7 +116,8 @@
 				id: "0000000000000583",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/stone_coin"
+				item: "spareparts:coins/stone_coin",
+				consume_items: true
 			}],
 			rewards: [{
 				id: "0000000000000593",
@@ -131,7 +134,8 @@
 				id: "0000000000000585",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/copper_coin"
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
 			}],
 			rewards: [{
 				id: "0000000000000594",
@@ -148,7 +152,8 @@
 				id: "0000000000000587",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/wooden_coin"
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
 			}],
 			rewards: [{
 				id: "0000000000000592",
@@ -165,7 +170,8 @@
 				id: "0000000000000589",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/iron_coin"
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
 			}],
 			rewards: [{
 				id: "0000000000000595",
@@ -200,7 +206,8 @@
 				id: "000000000000058D",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/diamond_coin"
+				item: "spareparts:coins/diamond_coin",
+				consume_items: true
 			}],
 			rewards: [{
 				id: "0000000000000596",
@@ -217,7 +224,8 @@
 				id: "000000000000058F",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/monster_coin"
+				item: "spareparts:coins/monster_coin",
+				consume_items: true
 			}],
 			rewards: [{
 				id: "0000000000000597",
@@ -235,7 +243,8 @@
 				id: "0000000000000591",
 				type: "item",
 				disable_toast: true,
-				item: "spareparts:coins/ancient_coin"
+				item: "spareparts:coins/ancient_coin",
+				consume_items: true
 			}],
 			rewards: [{
 				id: "0000000000000598",

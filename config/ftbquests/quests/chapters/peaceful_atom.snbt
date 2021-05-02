@@ -566,12 +566,19 @@
 				type: "checkmark",
 				title: "Criticality"
 			}],
-			rewards: [{
-				id: "00000000000012B4",
-				type: "item",
-				item: "minecraft:tnt",
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "00000000000012B4",
+					type: "item",
+					item: "minecraft:tnt",
+					count: 8
+				},
+				{
+					id: "41DE08835A3FFCCC",
+					type: "random",
+					table_id: 2014L
+				}
+			]
 		},
 		{
 			x: 11.5d,
@@ -673,12 +680,19 @@
 				type: "checkmark",
 				title: "Research"
 			}],
-			rewards: [{
-				id: "00000000000012B3",
-				type: "item",
-				item: "minecraft:book",
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "00000000000012B3",
+					type: "item",
+					item: "minecraft:book",
+					count: 16
+				},
+				{
+					id: "5B35E35AC6126124",
+					type: "random",
+					table_id: 1983L
+				}
+			]
 		},
 		{
 			x: 10.5d,

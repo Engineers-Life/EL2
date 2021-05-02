@@ -291,11 +291,18 @@
 				type: "item",
 				item: "refinedstorage:4096k_fluid_storage_disk"
 			}],
-			rewards: [{
-				id: "0000000000000536",
-				type: "item",
-				item: "spareparts:valuable_shard"
-			}]
+			rewards: [
+				{
+					id: "0000000000000536",
+					type: "item",
+					item: "spareparts:valuable_shard"
+				},
+				{
+					id: "2DC52FD406B3CE45",
+					type: "random",
+					table_id: 2014L
+				}
+			]
 		},
 		{
 			x: 4.0d,
@@ -308,11 +315,18 @@
 				type: "item",
 				item: "refinedstorage:64k_storage_disk"
 			}],
-			rewards: [{
-				id: "0000000000000533",
-				type: "item",
-				item: "spareparts:valuable_shard"
-			}]
+			rewards: [
+				{
+					id: "0000000000000533",
+					type: "item",
+					item: "spareparts:valuable_shard"
+				},
+				{
+					id: "3D6E17E80240C9BF",
+					type: "random",
+					table_id: 2014L
+				}
+			]
 		},
 		{
 			x: 10.0d,
@@ -696,6 +710,11 @@
 					id: "0000000000000567",
 					type: "item",
 					item: "minecraft:gold_ingot"
+				},
+				{
+					id: "3F76678E8F208083",
+					type: "random",
+					table_id: 2014L
 				}
 			]
 		},

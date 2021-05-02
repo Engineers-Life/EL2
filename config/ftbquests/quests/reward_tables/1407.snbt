@@ -54,6 +54,12 @@
 		},
 		{
 			item: "minecraft:spider_eye"
+		},
+		{
+			item: "minecraft:blaze_rod"
+		},
+		{
+			item: "minecraft:ghast_tear"
 		}
 	],
 	loot_crate: {

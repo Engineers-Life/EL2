@@ -20,13 +20,16 @@
 			}
 		},
 		{
-			item: "immersiveengineering:ingot_copper"
+			item: "immersiveengineering:ingot_copper",
+			count: 6
 		},
 		{
-			item: "immersiveengineering:ingot_aluminum"
+			item: "immersiveengineering:ingot_aluminum",
+			count: 6
 		},
 		{
-			item: "minecraft:coal_block"
+			item: "minecraft:coal_block",
+			count: 4
 		},
 		{
 			item: {
@@ -105,7 +108,7 @@
 		},
 		{
 			item: "minecraft:glistering_melon_slice",
-			count: 23
+			count: 24
 		},
 		{
 			item: "minecraft:magma_cream"
@@ -138,9 +141,6 @@
 			item: "aquaculture:lockbox"
 		},
 		{
-			item: "spareparts:scrap"
-		},
-		{
 			item: {
 				id: "minecraft:enchanted_book",
 				Count: 1b,
@@ -153,25 +153,31 @@
 			}
 		},
 		{
-			item: "minecraft:lapis_ore"
+			item: "minecraft:lapis_ore",
+			count: 6
 		},
 		{
 			item: "minecraft:sticky_piston"
 		},
 		{
-			item: "minecraft:melon"
+			item: "minecraft:melon",
+			count: 2
 		},
 		{
-			item: "minecraft:emerald_ore"
+			item: "minecraft:emerald_ore",
+			count: 4
 		},
 		{
-			item: "minecraft:emerald"
+			item: "minecraft:emerald",
+			count: 6
 		},
 		{
-			item: "minecraft:charcoal"
+			item: "minecraft:charcoal",
+			count: 16
 		},
 		{
-			item: "minecraft:coal"
+			item: "minecraft:coal",
+			count: 16
 		},
 		{
 			item: "spareparts:coins/copper_coin"
@@ -180,16 +186,27 @@
 			item: "spareparts:coins/iron_coin"
 		},
 		{
-			item: "immersiveengineering:ingot_constantan"
+			item: "immersiveengineering:ingot_constantan",
+			count: 4
 		},
 		{
-			item: "immersiveengineering:ingot_electrum"
+			item: "immersiveengineering:ingot_electrum",
+			count: 4
 		},
 		{
-			item: "immersiveengineering:ingot_nickel"
+			item: "immersiveengineering:ingot_nickel",
+			count: 4
 		},
 		{
-			item: "minecraft:tnt"
+			item: "minecraft:tnt",
+			count: 6
+		},
+		{
+			item: "minecraft:iron_ingot",
+			count: 16
+		},
+		{
+			item: "immersiveengineering:shader_bag_uncommon"
 		}
 	],
 	loot_crate: {

@@ -96,8 +96,8 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: -2.0d,
+			x: -2.5d,
+			y: -4.0d,
 			description: ["Will bottle honey into glass bottles when honey is pumped into into the machine."],
 			dependencies: ["0000000000000795"],
 			id: "0000000000000781",
@@ -369,8 +369,8 @@
 		},
 		{
 			title: "Hive Upgrades",
-			x: 1.5d,
-			y: -2.0d,
+			x: 3.5d,
+			y: 2.0d,
 			description: ["A variety of upgrades to your hives."],
 			dependencies: ["0000000000000789"],
 			id: "0000000000000797",
@@ -425,8 +425,8 @@
 			]
 		},
 		{
-			x: -2.5d,
-			y: -4.0d,
+			x: -4.5d,
+			y: -2.0d,
 			description: ["This generator will generate FE when fed with honey. A single bottle of honey will generate 1500 FE."],
 			dependencies: ["0000000000000795"],
 			id: "00000000000007A0",
@@ -442,8 +442,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -4.0d,
+			x: -0.5d,
+			y: -2.0d,
 			description: [
 				"A nice combo of liquid honey and some honey comb.",
 				"",
@@ -469,6 +469,81 @@
 					item: "minecraft:rose_bush"
 				}
 			]
+		},
+		{
+			x: 1.5d,
+			y: -2.0d,
+			description: ["A nice and tasty treat for yourself after all that bee work."],
+			dependencies: ["00000000000007A2"],
+			id: "1EF6661253EDAE23",
+			tasks: [{
+				id: "56944ACBCD1EAD87",
+				type: "item",
+				item: "productivebees:sugarbag_honeycomb"
+			}],
+			rewards: [
+				{
+					id: "26F23D0CB4D77BB0",
+					type: "item",
+					item: "minecraft:cornflower",
+					count: 6
+				},
+				{
+					id: "2E442C0A32D05E3F",
+					type: "item",
+					item: "minecraft:lily_of_the_valley",
+					count: 6
+				}
+			]
+		},
+		{
+			title: "BumbleBee Rodeo",
+			x: 3.5d,
+			y: -3.0d,
+			description: [
+				"The optimal form of transportation.",
+				"",
+				"Works like riding a pig or strider and lust be lead with a Treat on a Stick (which so kindly has been provided to you)."
+			],
+			dependencies: ["1EF6661253EDAE23"],
+			id: "3F2196582D1EF27A",
+			tasks: [{
+				id: "49AF7B7240A3C205",
+				type: "advancement",
+				title: "BumbleBee Rodeo",
+				icon: "minecraft:saddle",
+				advancement: "productivebees:husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider",
+				criterion: ""
+			}],
+			rewards: [{
+				id: "41F2DC05B551D8CD",
+				type: "item",
+				item: {
+					id: "productivebees:treat_on_a_stick",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 2.0d,
+			description: ["Sturdy bee cages are unlimited use versions of the bee cage. You aren't specialized enough in the art of bees to make one though, so these must be found in villages."],
+			dependencies: ["000000000000078F"],
+			id: "199CBDA1EBA33D57",
+			tasks: [{
+				id: "3021844D5CBAC6A7",
+				type: "item",
+				item: "productivebees:sturdy_bee_cage"
+			}],
+			rewards: [{
+				id: "10E20715C9F7ACF8",
+				type: "item",
+				item: "terraincognita:globeflower",
+				count: 4
+			}]
 		}
 	]
 }

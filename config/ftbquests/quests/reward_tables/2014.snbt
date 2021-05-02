@@ -3,7 +3,45 @@
 	order_index: 9,
 	title: "Tier IV Random",
 	loot_size: 1,
-	rewards: [],
+	rewards: [
+		{
+			item: "refinedstorage:4096k_fluid_storage_part"
+		},
+		{
+			item: "refinedstorage:64k_storage_part"
+		},
+		{
+			item: "minecraft:nether_star"
+		},
+		{
+			item: "productivebees:inactive_dragon_egg"
+		},
+		{
+			item: "backpacker:endersack"
+		},
+		{
+			item: "minecraft:ender_chest"
+		},
+		{
+			item: "minecraft:dragon_breath",
+			count: 6
+		},
+		{
+			item: "bigreactors:reinforced_reactorcasing",
+			count: 64
+		},
+		{
+			item: "bigreactors:reinforced_turbinecasing",
+			count: 64
+		},
+		{
+			item: "immersiveengineering:shader_bag_ie_masterwork"
+		},
+		{
+			item: "minecraft:end_crystal",
+			count: 4
+		}
+	],
 	loot_crate: {
 		drops: {
 			boss: 0,

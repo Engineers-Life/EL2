@@ -5,18 +5,6 @@
 	loot_size: 1,
 	rewards: [
 		{
-			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
-				tag: {
-					StoredEnchantments: [{
-						lvl: 5s,
-						id: "minecraft:smite"
-					}]
-				}
-			}
-		},
-		{
 			item: "randomite:randomite_ore"
 		},
 		{
@@ -48,9 +36,6 @@
 		},
 		{
 			item: "minecraft:coal"
-		},
-		{
-			item: "spareparts:paper_fragment"
 		},
 		{
 			item: {
@@ -106,7 +91,8 @@
 			item: "simplefarming:zucchini_bread"
 		},
 		{
-			item: "minecraft:charcoal"
+			item: "minecraft:charcoal",
+			count: 16
 		},
 		{
 			item: "aquaculture:box"
@@ -124,6 +110,21 @@
 		{
 			item: "minecraft:clay_ball",
 			count: 64
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "minecraft:smite"
+					}]
+				}
+			}
+		},
+		{
+			item: "immersiveengineering:shader_bag_common"
 		}
 	],
 	loot_crate: {

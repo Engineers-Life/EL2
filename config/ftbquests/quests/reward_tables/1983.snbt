@@ -32,13 +32,12 @@
 			item: "aquaculture:treasure_chest"
 		},
 		{
-			item: "spareparts:valuable_shard"
+			item: "minecraft:emerald",
+			count: 12
 		},
 		{
-			item: "minecraft:emerald"
-		},
-		{
-			item: "immersiveengineering:ingot_steel"
+			item: "immersiveengineering:ingot_steel",
+			count: 16
 		},
 		{
 			item: "spareparts:coins/golden_coin"
@@ -66,9 +65,6 @@
 					}]
 				}
 			}
-		},
-		{
-			item: "refinedstorage:64k_storage_part"
 		},
 		{
 			item: {
@@ -137,13 +133,16 @@
 			count: 9
 		},
 		{
-			item: "minecraft:ender_pearl"
+			item: "minecraft:ender_pearl",
+			count: 12
 		},
 		{
-			item: "minecraft:experience_bottle"
+			item: "minecraft:experience_bottle",
+			count: 6
 		},
 		{
-			item: "waystones:waystone"
+			item: "waystones:waystone",
+			count: 2
 		},
 		{
 			item: "buddycards:mystery_pack"
@@ -197,23 +196,34 @@
 			}
 		},
 		{
-			item: "minecraft:coal_block"
+			item: "minecraft:coal_block",
+			count: 16
 		},
 		{
-			item: "minecraft:emerald_ore"
+			item: "minecraft:emerald_ore",
+			count: 16
 		},
 		{
-			item: "randomite:randomite_ore"
+			item: "randomite:randomite_ore",
+			count: 16
 		},
 		{
-			item: "minecraft:coal"
+			item: "minecraft:coal",
+			count: 64
 		},
 		{
 			item: "minecraft:glowstone",
-			count: 2
+			count: 64
 		},
 		{
-			item: "immersiveengineering:coal_coke"
+			item: "immersiveengineering:coal_coke",
+			count: 64
+		},
+		{
+			item: "immersiveengineering:shader_bag_epic"
+		},
+		{
+			item: "immersiveengineering:shader_bag_rare"
 		}
 	],
 	loot_crate: {
