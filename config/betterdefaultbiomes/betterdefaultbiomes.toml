@@ -110,7 +110,7 @@
 		#Spawn Biomes/BiomeCategories where the Zebra will spawn.
 		#To add Biomes or Categories:
 		#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
-		spawn_biomes = ["savanna", "minecraft:plains"]
+		spawn_biomes = ["savanna"]
 		#Spawn weight for the Zebra. (Default: 12)
 		#Range: 0 ~ 10000
 		weight = 12
