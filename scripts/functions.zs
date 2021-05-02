@@ -243,4 +243,16 @@ function changeIngredientWithConversion(fromItem as IItemStack, toItem as IItemS
     craftingTable.addShapeless("convert_"+validName(fromItem.registryName)+"_to_"+validName(toItem.registryName),toItem,conversionInput as IIngredient[]);
 }
 
+function min(x as int, y as int) as int {
+    return (x<y) ? x : y;
+}
+
+function min(x as float, y as float) as float {
+    return (x<y) ? x : y;
+}
+
+function isShapeless(wrapper as WrapperRecipe) as bool {
+    return ( (recipeWidth(wrapper)==1) && (recipeHeight(wrapper)==1) );
+}
+
 println("END functions");
