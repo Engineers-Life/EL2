@@ -46,7 +46,7 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCPlayerIn
         if (!event.itemStack.empty) {
             val state = event.entity.getWorld().getBlockState(event.blockPos);
             var item = event.itemStack;
-            println(state.commandString);
+            // println(state.commandString);
             if (state.commandString.startsWith('<blockstate:charm:woodcutter')) {
                 val isAxe = item in <tag:items:minecraft:axes>;
                 if (item.registryName.toString() == "tetra:modular_double") {
