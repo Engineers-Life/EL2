@@ -168,9 +168,9 @@ val recipeGroups = {
         brickfurnace : "brickfurnace:smoking"
     } } as string[string][string];
 val defaultValues = {
-    "Smelting" : { xp : 0.1, cookTime : 10*20 },
-    "Blasting" : { xp : 0.2, cookTime :  5*20 },
-    "Smoking"  : { xp : 0.2, cookTime :  5*20 }
+    "Smelting" : { xp : 0.1, cookTime :  5*20 },
+    "Blasting" : { xp : 0.2, cookTime :2.5*20 },
+    "Smoking"  : { xp : 0.2, cookTime :2.5*20 }
 };
 
 val blockRecipes = {
