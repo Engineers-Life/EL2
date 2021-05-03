@@ -1142,6 +1142,11 @@
 				id: "0000000000001527",
 				type: "item",
 				item: "minecraft:music_disc_pigstep"
+			}],
+			rewards: [{
+				id: "4F6D77A83D1C32DD",
+				type: "item",
+				item: "minecraft:jukebox"
 			}]
 		},
 		{
@@ -1163,6 +1168,12 @@
 				type: "kill",
 				entity: "minecraft:piglin_brute",
 				value: 5L
+			}],
+			rewards: [{
+				id: "77F560A2BB9B87FE",
+				type: "item",
+				item: "simplefarming:cooked_bacon",
+				count: 10
 			}]
 		},
 		{
@@ -1176,6 +1187,11 @@
 				id: "000000000000152B",
 				type: "item",
 				item: "minecraft:piglin_banner_pattern"
+			}],
+			rewards: [{
+				id: "593BC7712E408297",
+				type: "random",
+				table_id: 1332L
 			}]
 		},
 		{

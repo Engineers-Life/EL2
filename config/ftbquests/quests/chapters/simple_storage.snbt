@@ -47,15 +47,9 @@
 					item: "minecraft:emerald"
 				},
 				{
-					id: "00000000000007F7",
-					type: "item",
-					item: {
-						id: "ftbquests:lootcrate",
-						Count: 1b,
-						tag: {
-							type: "tier_ii_random"
-						}
-					}
+					id: "4116C32176CD5222",
+					type: "random",
+					table_id: 1982L
 				}
 			]
 		},
@@ -117,15 +111,9 @@
 					xp_levels: 5
 				},
 				{
-					id: "00000000000007F6",
-					type: "item",
-					item: {
-						id: "ftbquests:lootcrate",
-						Count: 1b,
-						tag: {
-							type: "tier_i_random"
-						}
-					}
+					id: "591D36217EA49583",
+					type: "random",
+					table_id: 1980L
 				}
 			]
 		},
@@ -147,7 +135,7 @@
 			rewards: [{
 				id: "0000000000000460",
 				type: "item",
-				item: "spareparts:coins/stone_coin"
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -168,7 +156,7 @@
 			rewards: [{
 				id: "0000000000000461",
 				type: "item",
-				item: "spareparts:coins/stone_coin"
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -189,7 +177,7 @@
 			rewards: [{
 				id: "0000000000000462",
 				type: "item",
-				item: "spareparts:coins/stone_coin"
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -270,7 +258,7 @@
 			rewards: [{
 				id: "00000000000012E2",
 				type: "item",
-				item: "spareparts:coins/stone_coin"
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{

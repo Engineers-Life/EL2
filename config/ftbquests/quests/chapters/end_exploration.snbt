@@ -8,6 +8,7 @@
 	default_quest_shape: "",
 	quests: [
 		{
+			title: "Dovahkiin",
 			icon: "minecraft:dragon_head",
 			x: -6.5d,
 			y: -1.0d,
@@ -131,16 +132,12 @@
 			}]
 		},
 		{
+			title: "End Explorer",
 			icon: "minecraft:ender_eye",
 			x: -3.5d,
 			y: -1.0d,
 			dependencies: ["000000000000008A"],
-			id: "0000000000001534",
-			tasks: [{
-				id: "0000000000001535",
-				type: "checkmark",
-				title: "End Explorer"
-			}]
+			id: "0000000000001534"
 		},
 		{
 			title: "Foggy Mushroom Land",
@@ -747,6 +744,11 @@
 					id: "00000000000015A3",
 					type: "choice",
 					table_id: 1983L
+				},
+				{
+					id: "404935F4F03978B5",
+					type: "random",
+					table_id: 2014L
 				}
 			]
 		},
@@ -990,14 +992,14 @@
 				{
 					id: "00000000000015AB",
 					type: "random",
-					table_id: 1355L
+					table_id: 2014L
 				}
 			]
 		},
 		{
 			x: -3.5d,
 			y: 2.5d,
-			description: ["A unique light source that can only be found in end cities."],
+			description: ["A unique light source that can only be found in end cities. Is also a very useful Tetra piece if used as a tool rod."],
 			dependencies: ["0000000000001534"],
 			id: "00000000000015AD",
 			tasks: [{

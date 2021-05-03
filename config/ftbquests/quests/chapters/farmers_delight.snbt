@@ -1349,7 +1349,7 @@
 			disable_toast: true,
 			x: -4.0d,
 			y: 1.0416666666666643d,
-			shape: "hexagon",
+			shape: "gear",
 			size: 2.0d,
 			id: "0000000000000F97",
 			tasks: [{
@@ -2064,8 +2064,8 @@
 			]
 		},
 		{
-			x: 4.0d,
-			y: 4.5d,
+			x: 6.0d,
+			y: 3.0d,
 			description: ["Is placed on the ground with a rightclick. From there, you can access it's inventory where you can apply tackle to fishing rods on the right. The box also has storage slots to hold bait and tackle. To pickup the box again simply shift rightclick it."],
 			dependencies: ["00000000000015DD"],
 			id: "00000000000015E5",
@@ -2108,7 +2108,7 @@
 		{
 			title: "Bait",
 			x: 2.5d,
-			y: 5.0d,
+			y: 5.5d,
 			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leeches and minnows that you catch by fishing."],
 			dependencies: ["00000000000015E7"],
 			id: "00000000000015E9",
@@ -2149,8 +2149,8 @@
 			]
 		},
 		{
-			x: 4.0d,
-			y: 2.5d,
+			x: 1.3428571428571416d,
+			y: 2.414285714285711d,
 			shape: "gear",
 			description: ["I caught a chest..... wonder if it is anything valuable?"],
 			dependencies: ["00000000000015DD"],
@@ -2168,8 +2168,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: 6.0d,
+			x: 4.5d,
+			y: 3.0d,
 			description: ["Can be dyed like leather and can be used to customize your fishing rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015F0",
@@ -2185,8 +2185,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: 6.0d,
+			x: 4.0d,
+			y: 4.0d,
 			description: ["Can be dyed like leather and can be used to customize your fishing rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015F2",
@@ -2202,8 +2202,8 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: 2.0d,
+			x: 8.0d,
+			y: 7.0d,
 			description: ["Incurs a 20% chance to not use durability when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015F4",
@@ -2219,8 +2219,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 2.0d,
+			x: 7.5d,
+			y: 8.0d,
 			description: ["Increases a rods luck when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015F6",
@@ -2236,8 +2236,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 2.5d,
+			x: 6.5d,
+			y: 8.5d,
 			description: ["Incurs a 50% chance to not use durability when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015F8",
@@ -2253,8 +2253,8 @@
 			}]
 		},
 		{
-			x: 8.0d,
-			y: 3.5d,
+			x: 5.5d,
+			y: 8.5d,
 			description: ["Allows a rod to cast further when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015FA",
@@ -2270,8 +2270,8 @@
 			}]
 		},
 		{
-			x: 8.0d,
-			y: 4.5d,
+			x: 4.5d,
+			y: 8.0d,
 			description: ["Allows a chance to catch two things at once when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015FC",
@@ -2287,8 +2287,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 5.5d,
+			x: 4.0d,
+			y: 7.0d,
 			description: ["Increases the amount of time allowed to reel in a fish when applied to a rod."],
 			dependencies: ["00000000000015E5"],
 			id: "00000000000015FE",
@@ -2304,7 +2304,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 4.0d,
 			y: 6.0d,
 			description: ["Plays a note when a fish is about to bite when applied to a rod."],
 			dependencies: ["00000000000015E5"],
@@ -2321,8 +2321,8 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: 6.0d,
+			x: 4.0d,
+			y: 5.0d,
 			description: ["Incurs a 50% chance to not use durability when applied to a rod, as well as increase the rods luck."],
 			dependencies: ["00000000000015E5"],
 			id: "0000000000001602",

@@ -40,20 +40,14 @@
 			}],
 			rewards: [
 				{
-					id: "000000000000081E",
-					type: "item",
-					item: {
-						id: "ftbquests:lootcrate",
-						Count: 1b,
-						tag: {
-							type: "tier_i_random"
-						}
-					}
-				},
-				{
 					id: "00000000000014DD",
 					type: "item",
 					item: "pamhc2foodcore:cookiesandmilkitem"
+				},
+				{
+					id: "799EFA737064E28A",
+					type: "random",
+					table_id: 1980L
 				}
 			]
 		},
@@ -69,19 +63,13 @@
 				item: "transport:rail_workers_bench"
 			}],
 			rewards: [{
-				id: "000000000000081F",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "530701C6A7702D0B",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 1.5d,
 			y: -1.0d,
 			description: ["The Rail Breaker will allow you to change settings of rails and loaders as well as switch their sides much like the wrenches of other mods."],
 			dependencies: ["0000000000000742"],
@@ -92,19 +80,13 @@
 				item: "transport:rail_breaker"
 			}],
 			rewards: [{
-				id: "0000000000000820",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "64FDD90DB2A7A616",
+				type: "random",
+				table_id: 1355L
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -2.0d,
 			y: -2.5d,
 			description: [
 				"The module configurator will allow you to add modules to modular minecarts and boats.",
@@ -118,24 +100,20 @@
 				item: "transport:module_configurator"
 			}],
 			rewards: [{
-				id: "000000000000081D",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "14943674F441F438",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -3.5d,
 			y: -4.0d,
 			description: [
 				"Modular minecarts will in essence be your train cars for use in the mod.",
 				"",
-				"Engine addons can be added as well to make the carts powered but they will require fuel."
+				"Engine addons can be added as well to make the carts powered but they will require fuel.",
+				"",
+				"Can be connected to other minecarts by right clicking them with a Chain."
 			],
 			dependencies: ["0000000000000746"],
 			id: "0000000000000748",
@@ -145,20 +123,14 @@
 				item: "transport:cargo_minecart"
 			}],
 			rewards: [{
-				id: "000000000000081B",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "mob_drops"
-					}
-				}
+				id: "3B0AE7A4068EEACD",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			title: "Loaders and Modules",
-			x: 1.0d,
+			x: 0.0d,
 			y: -2.5d,
 			description: [
 				"Loaders will both load and offload from modular carts that go across their faces. Faces must be configured to operate with the Rail Breaker.",
@@ -193,15 +165,9 @@
 				}
 			],
 			rewards: [{
-				id: "0000000000000821",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "11F111B9E58BF561",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -234,19 +200,13 @@
 				}
 			],
 			rewards: [{
-				id: "0000000000000825",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "65C88062A43A7002",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -2.0d,
 			y: 0.5d,
 			description: ["Scaffold rails place scaffold underneath to support the rail. The elevator rail will bring the rail up a level."],
 			dependencies: ["0000000000000742"],
@@ -264,19 +224,13 @@
 				}
 			],
 			rewards: [{
-				id: "0000000000000823",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "50C057DE9DD2CB5C",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
-			x: -4.5d,
+			x: -5.0d,
 			y: 0.5d,
 			description: ["This rail will hold a cart when unpowered but act like a booster rail when powered."],
 			dependencies: ["0000000000000742"],
@@ -287,15 +241,9 @@
 				item: "transport:holding_rail"
 			}],
 			rewards: [{
-				id: "0000000000000826",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "107A38BDFC13B682",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
@@ -310,19 +258,13 @@
 				item: "transport:bumper_rail"
 			}],
 			rewards: [{
-				id: "0000000000000822",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "66A2FB9A0D41B1C0",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.0d,
 			y: 0.5d,
 			description: ["This track will hold carts for varying amounts of time before propelling the cart. For more information check the Advanced Transport manual."],
 			dependencies: ["0000000000000744"],
@@ -333,19 +275,13 @@
 				item: "transport:timed_holding_rail"
 			}],
 			rewards: [{
-				id: "0000000000000824",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "6A006971457C1688",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 4.0d,
 			y: -1.0d,
 			description: ["The Steam locamotive is a fuel powered train that is speed controllable. It needs both solid fuel and water to operate."],
 			dependencies: ["0000000000000744"],
@@ -356,15 +292,9 @@
 				item: "transport:steam_locomotive"
 			}],
 			rewards: [{
-				id: "000000000000081C",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_ii_random"
-					}
-				}
+				id: "48E3D96B52C95B99",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -393,15 +323,9 @@
 				value: 1000000
 			}],
 			rewards: [{
-				id: "0000000000000819",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "4A6FE638368FA39D",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -417,15 +341,9 @@
 				value: 2000000
 			}],
 			rewards: [{
-				id: "0000000000000818",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_ii_random"
-					}
-				}
+				id: "49B38229EC623DD3",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -441,15 +359,9 @@
 				value: 3000000
 			}],
 			rewards: [{
-				id: "0000000000000817",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_iii_random"
-					}
-				}
+				id: "228DC41204EFD8BC",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -467,7 +379,7 @@
 			rewards: [{
 				id: "00000000000012DF",
 				type: "random",
-				table_id: 1355L
+				table_id: 1983L
 			}]
 		}
 	]

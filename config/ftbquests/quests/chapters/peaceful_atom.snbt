@@ -747,12 +747,19 @@
 				type: "checkmark",
 				title: "Basic Turbine"
 			}],
-			rewards: [{
-				id: "00000000000014D9",
-				type: "item",
-				item: "immersiveengineering:fluid_pipe",
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "00000000000014D9",
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 16
+				},
+				{
+					id: "0F26010F739AED3E",
+					type: "random",
+					table_id: 1983L
+				}
+			]
 		},
 		{
 			x: 19.0d,

@@ -248,7 +248,7 @@
 			]
 		},
 		{
-			x: -3.0d,
+			x: -3.5d,
 			y: -1.5d,
 			description: [
 				"The fire starter is a primitive tool which is used to create a campfire. In order to use:",
@@ -528,7 +528,7 @@
 			}]
 		},
 		{
-			x: 21.5d,
+			x: 20.0d,
 			y: -3.0d,
 			description: ["Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or axe, but the yield produced is doubled when using a saw."],
 			dependencies: ["0000000000000058"],
@@ -772,7 +772,7 @@
 			]
 		},
 		{
-			x: 17.0d,
+			x: 16.5d,
 			y: -1.5d,
 			description: ["I feel like this is the start of the whole reason that you are here."],
 			dependencies: ["0000000000000045"],
@@ -802,7 +802,7 @@
 			]
 		},
 		{
-			x: 20.5d,
+			x: 19.0d,
 			y: -1.5d,
 			description: ["Clang! Clang! Clang! I can make so much with this!"],
 			dependencies: ["0000000000000056"],
@@ -826,7 +826,7 @@
 			]
 		},
 		{
-			x: 20.5d,
+			x: 19.0d,
 			y: -3.5d,
 			description: ["Mine me up some ore!"],
 			dependencies: ["0000000000000058"],
@@ -873,7 +873,7 @@
 		{
 			title: "Coke Oven",
 			icon: "immersiveengineering:cokebrick",
-			x: 25.5d,
+			x: 24.0d,
 			y: -1.5d,
 			shape: "gear",
 			description: [
@@ -935,7 +935,7 @@
 			]
 		},
 		{
-			x: 21.5d,
+			x: 20.0d,
 			y: 0.0d,
 			description: [
 				"Mattocks are advanced tools, and can be made from iron, gold or diamond. They function both as axes and shovels with regards to the blocks they can break, and have the right click functionality of axes, shovels, and hoes, being able to strip wood,",
@@ -986,7 +986,7 @@
 			]
 		},
 		{
-			x: 20.5d,
+			x: 19.0d,
 			y: -5.5d,
 			description: ["Watch out for lava when digging for these!"],
 			dependencies: ["000000000000005A"],
@@ -1030,7 +1030,7 @@
 			]
 		},
 		{
-			x: 22.0d,
+			x: 20.5d,
 			y: -5.5d,
 			description: ["This will really dig some stuff."],
 			dependencies: ["0000000000000061"],
@@ -1062,7 +1062,7 @@
 			}]
 		},
 		{
-			x: 21.0d,
+			x: 19.5d,
 			y: -7.0d,
 			description: ["How did I pound these diamonds into a blade? Who cares."],
 			dependencies: ["0000000000000061"],
@@ -1114,7 +1114,7 @@
 		},
 		{
 			title: "Diamond Armor",
-			x: 20.0d,
+			x: 18.5d,
 			y: -7.0d,
 			description: ["The most sparkling suit of armor you will ever get to wear."],
 			dependencies: ["0000000000000061"],
@@ -1202,7 +1202,7 @@
 		},
 		{
 			title: "Iron Armor",
-			x: 19.5d,
+			x: 18.0d,
 			y: -3.0d,
 			description: ["A good improvement, even though you will look a bit like the Silver Surfer."],
 			dependencies: ["0000000000000058"],
@@ -1272,7 +1272,7 @@
 			]
 		},
 		{
-			x: 19.5d,
+			x: 18.0d,
 			y: 0.0d,
 			description: ["Man I can carry so many liquids in this bucket!"],
 			dependencies: ["0000000000000058"],
@@ -1484,8 +1484,8 @@
 			}]
 		},
 		{
-			x: 17.0d,
-			y: 0.0d,
+			x: 16.5d,
+			y: -3.0d,
 			description: ["Hope you had fun getting this, you will need about a million more."],
 			dependencies: ["0000000000000056"],
 			id: "00000000000000A1",
@@ -1510,8 +1510,8 @@
 			]
 		},
 		{
-			x: 13.5d,
-			y: 3.5d,
+			x: 16.5d,
+			y: 4.0d,
 			description: [
 				"Will allow you to passively collect resources when placed in a 1 deep block of water.",
 				"If the water is flowing into the strainer you will get better efficiency."
@@ -1544,8 +1544,8 @@
 			]
 		},
 		{
-			x: 12.0d,
-			y: 4.5d,
+			x: 15.0d,
+			y: 5.0d,
 			description: ["Creates worms and fertilizer by composting fruit and vegetables. "],
 			dependencies: ["00000000000000A6"],
 			id: "00000000000000A8",
@@ -1569,8 +1569,8 @@
 			]
 		},
 		{
-			x: 12.0d,
-			y: 2.5d,
+			x: 15.0d,
+			y: 3.0d,
 			description: ["Collects fish and junk but requires bait to operate. Higher densities give longer usage and different item probabilites."],
 			dependencies: [
 				"00000000000000A6",
@@ -1603,8 +1603,8 @@
 			]
 		},
 		{
-			x: 13.5d,
-			y: 4.5d,
+			x: 15.0d,
+			y: 4.0d,
 			description: ["Can collect items such as stone, sticks, clay, and planks. Has higher levels of density for longer usage and different item probabilities."],
 			dependencies: ["00000000000000A6"],
 			id: "00000000000000AE",
@@ -1635,8 +1635,8 @@
 		},
 		{
 			title: "Worms",
-			x: 10.5d,
-			y: 3.5d,
+			x: 13.5d,
+			y: 4.0d,
 			description: ["Wiggle Worm"],
 			dependencies: ["00000000000000A8"],
 			id: "00000000000000B0",
@@ -1662,8 +1662,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 3.5d,
+			x: 10.5d,
+			y: 4.0d,
 			description: ["This will decrease the usage of bait in the strainer."],
 			dependencies: [
 				"00000000000000B0",
@@ -1704,8 +1704,8 @@
 			]
 		},
 		{
-			x: 20.5d,
-			y: 3.5d,
+			x: 19.0d,
+			y: 4.0d,
 			description: [
 				"Some basic automation, though you will need to start expanding to more soon.",
 				"",
@@ -1733,8 +1733,8 @@
 			]
 		},
 		{
-			x: 22.0d,
-			y: 3.5d,
+			x: 20.0d,
+			y: 3.0d,
 			description: ["A highly customizable hopper that allows you to change the stack size, drop delay, and a customizable collection range up to 9x9. Can be placed upside down and keeps inventory when broken. Redstone controllable."],
 			dependencies: ["00000000000000B4"],
 			id: "00000000000000B6",
@@ -2018,7 +2018,7 @@
 		},
 		{
 			x: 13.5d,
-			y: 2.5d,
+			y: 3.0d,
 			description: ["This lantern will be activated when you send it a redstone signal. Could be an interesting signal light."],
 			dependencies: ["00000000000000E0"],
 			id: "00000000000000F7",
@@ -2067,7 +2067,7 @@
 			}]
 		},
 		{
-			x: 19.5d,
+			x: 18.0d,
 			y: 1.5d,
 			description: ["Can grow crops anywhere without water!"],
 			dependencies: ["0000000000000073"],
@@ -2320,7 +2320,7 @@
 		},
 		{
 			title: "What is out there?",
-			x: 15.0d,
+			x: 15.5d,
 			y: 1.5d,
 			shape: "gear",
 			description: ["At least now I know what direction I am going, or do I?"],
@@ -2348,7 +2348,7 @@
 		},
 		{
 			title: "Volcanic Glass",
-			x: 23.5d,
+			x: 22.0d,
 			y: -5.5d,
 			description: ["This obsidian is some seriously tough material."],
 			dependencies: ["0000000000000063"],
@@ -2374,8 +2374,8 @@
 		},
 		{
 			title: "What could this Bee?",
-			x: -5.0d,
-			y: 0.0d,
+			x: -5.68333333333333d,
+			y: -1.5119047619047663d,
 			shape: "gear",
 			description: ['If I could just make some kind of cage to trap, I mean "transport", one of those big bumbling things.'],
 			dependencies: ["0000000000000012"],
@@ -2594,8 +2594,8 @@
 			}]
 		},
 		{
-			x: 17.0d,
-			y: 1.5d,
+			x: 16.5d,
+			y: -5.0d,
 			shape: "gear",
 			description: ["This chest kind of makes everything metallic. I wonder how much storage space I am going to need?"],
 			dependencies: ["00000000000000A1"],
@@ -2710,7 +2710,7 @@
 			}]
 		},
 		{
-			x: 11.0d,
+			x: 10.5d,
 			y: -4.5d,
 			subtitle: "14 slots",
 			description: ["The Golden Lunchbox is an expanded lunchbox."],
@@ -2849,7 +2849,7 @@
 			]
 		},
 		{
-			x: 23.5d,
+			x: 22.0d,
 			y: -7.0d,
 			description: ["Magic? Pah!"],
 			dependencies: ["0000000000000F92"],
@@ -2996,7 +2996,7 @@
 			}]
 		},
 		{
-			x: 25.0d,
+			x: 23.5d,
 			y: -5.5d,
 			description: [
 				"Waystones allow you set points that you can fast travel to across a map. By placing the Waystone down, giving it a name, and right clicking to activate it you will be able to travel to it from any other activated Waystone.",
@@ -3550,7 +3550,7 @@
 			]
 		},
 		{
-			x: 23.0d,
+			x: 21.5d,
 			y: -3.0d,
 			description: ["The Woodcutter will be your best friend at base when you need to process logs or planks. In addition to providing a full 4 planks per log it give a large number of unique recipes to make wooden items for a lesser number of planks or logs."],
 			dependencies: ["0000000000000039"],

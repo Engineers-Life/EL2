@@ -388,15 +388,9 @@
 				item: "refinedstorage:importer"
 			}],
 			rewards: [{
-				id: "00000000000007F8",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "7FCE7A94EDC13CA7",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -415,15 +409,9 @@
 				item: "refinedstorage:external_storage"
 			}],
 			rewards: [{
-				id: "00000000000007F9",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_ii_random"
-					}
-				}
+				id: "7AA9BBB207641359",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -469,15 +457,9 @@
 					random_bonus: 5
 				},
 				{
-					id: "00000000000007FC",
-					type: "item",
-					item: {
-						id: "ftbquests:lootcrate",
-						Count: 1b,
-						tag: {
-							type: "tier_iii_random"
-						}
-					}
+					id: "1386EBA2B2DBB4B1",
+					type: "random",
+					table_id: 1983L
 				}
 			]
 		},
@@ -493,15 +475,9 @@
 				item: "refinedstorage:fluid_grid"
 			}],
 			rewards: [{
-				id: "00000000000007FD",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "2FBA23145B07433D",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -519,15 +495,9 @@
 				item: "refinedstorage:pattern_grid"
 			}],
 			rewards: [{
-				id: "00000000000007FA",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "133ADD0AAAA40DA2",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -559,15 +529,9 @@
 				item: "refinedstorage:crafter"
 			}],
 			rewards: [{
-				id: "00000000000007FB",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_ii_random"
-					}
-				}
+				id: "7C2AB79790C6E9FB",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -866,15 +830,9 @@
 				item: "refinedstorage:detector"
 			}],
 			rewards: [{
-				id: "00000000000012C2",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "quark_basic_stones"
-					}
-				}
+				id: "191A2171D7A51354",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -940,15 +898,9 @@
 				item: "refinedstorage:crafting_upgrade"
 			}],
 			rewards: [{
-				id: "00000000000012C6",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "deco_blocks_set_2"
-					}
-				}
+				id: "3B119FDF1786F522",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -963,15 +915,9 @@
 				item: "refinedstorage:regulator_upgrade"
 			}],
 			rewards: [{
-				id: "00000000000012C5",
-				type: "item",
-				item: {
-					id: "ftbquests:lootcrate",
-					Count: 1b,
-					tag: {
-						type: "tier_i_random"
-					}
-				}
+				id: "4B88550490C4D5E8",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{

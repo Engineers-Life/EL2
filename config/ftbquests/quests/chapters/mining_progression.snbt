@@ -85,7 +85,7 @@
 		},
 		{
 			title: "Wooden Hammer: Tier I",
-			x: -12.0d,
+			x: -12.392857142857146d,
 			y: 0.0d,
 			shape: "gear",
 			description: [
@@ -93,7 +93,7 @@
 				"",
 				"Check the advancements tabs to gather greater info on the mod outside of these quests."
 			],
-			size: 1.5d,
+			size: 2.0d,
 			id: "1783F3551BE3CC14",
 			tasks: [{
 				id: "51A9570080665A2B",
