@@ -12,6 +12,18 @@
 		}
 	},
 	default_quest_shape: "",
+	images: [{
+		x: 6.5d,
+		y: 4.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "immersiveengineering:textures/item/tool_axe_steel.png",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [
 		{
 			x: -7.5d,
