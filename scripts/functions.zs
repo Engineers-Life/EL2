@@ -5,11 +5,13 @@ import crafttweaker.api.data.IData;
 import crafttweaker.api.data.INumberData;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.MCItemDefinition;
 import crafttweaker.api.recipes.WrapperRecipe;
 import crafttweaker.api.registries.IRecipeManager;
+import crafttweaker.api.tag.MCTag;
 import stdlib.List;
 
-println("BEGIN functions");
+println("BEGIN functions.zs");
 
 function validName(name as string) as string {
     val rl = BracketHandlers.getResourceLocation(name);
@@ -243,6 +245,24 @@ function changeIngredientWithConversion(fromItem as IItemStack, toItem as IItemS
     craftingTable.addShapeless("convert_"+validName(fromItem.registryName)+"_to_"+validName(toItem.registryName),toItem,conversionInput as IIngredient[]);
 }
 
+function changeIngredientsToTag(itemList as IItemStack[], toTag as MCTag<MCItemDefinition>) as void {
+    for item in itemList {
+        changeIngredient(item,toTag.asIIngredient());
+    }
+}
+
+function changeItemListToBaseItem(itemList as IItemStack[], baseItem as IItemStack) as void {
+    if (itemList.length > 0) {
+        var ingredientFromList = (itemList[0]) as IIngredient;
+        for i, entry in itemList {
+            if (i > 0) {
+                ingredientFromList = ingredientFromList | entry;
+            }
+        }
+        craftingTable.addShapeless("convert_to_"+validName(baseItem.registryName),baseItem,[ingredientFromList]);
+    }
+}
+
 function min(x as int, y as int) as int {
     return (x<y) ? x : y;
 }
@@ -255,4 +275,4 @@ function isShapeless(wrapper as WrapperRecipe) as bool {
     return ( (recipeWidth(wrapper)==1) && (recipeHeight(wrapper)==1) );
 }
 
-println("END functions");
+println("END functions.zs");
