@@ -531,8 +531,8 @@
 					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
-							lvl: 2s,
-							id: "farmersdelight:backstabbing"
+							lvl: 4s,
+							id: "minecraft:smite"
 						}]
 					}
 				}
