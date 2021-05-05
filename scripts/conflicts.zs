@@ -1,5 +1,5 @@
 
-println("BEGIN conflicts");
+println("BEGIN conflicts.zs");
 
 val air = <item:minecraft:air>;
 val bar = <item:engineersdecor:metal_bar>;
@@ -96,4 +96,7 @@ craftingTable.removeByName("simplefarming:red_dye2");
 craftingTable.addShapeless(validName("simplefarming:red_dye"),<item:minecraft:red_dye>,[<item:simplefarming:raspberries>|<item:simplefarming:strawberries>|<item:minecraft:sweet_berries>]);
 replaceByNameShapeless("simplefarming:black_dye",<item:minecraft:black_dye>,[<item:simplefarming:blackberries>]);
 
-println("END conflicts");
+changeIngredientsToTag([<item:immersivepetroleum:bitumen>,<item:mapperbase:raw_bitumen>],<tag:items:forge:bitumen>);
+changeItemListToBaseItem([<item:mapperbase:raw_bitumen>],<item:immersivepetroleum:bitumen>);
+
+println("END conflicts.zs");
