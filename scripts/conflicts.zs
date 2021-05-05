@@ -99,4 +99,6 @@ replaceByNameShapeless("simplefarming:black_dye",<item:minecraft:black_dye>,[<it
 changeIngredientsToTag([<item:immersivepetroleum:bitumen>,<item:mapperbase:raw_bitumen>],<tag:items:forge:bitumen>);
 changeItemListToBaseItem([<item:mapperbase:raw_bitumen>],<item:immersivepetroleum:bitumen>);
 
+replaceByName("vanillafoodpantry:sandwich/cyclops_sandwich",<item:vanillafoodpantry:cyclops_sandwich>*2,[[<tag:items:forge:foods/sandwich_breads>,<item:vanillafoodpantry:tangy_mayonnaise>,<tag:items:forge:cheese>],[<item:vanillafoodpantry:guardian_meat>,<tag:items:forge:ingredients/salad>]]);
+
 println("END conflicts.zs");
