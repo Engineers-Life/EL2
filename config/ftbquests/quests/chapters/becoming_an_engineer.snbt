@@ -194,7 +194,7 @@
 			}]
 		},
 		{
-			x: -5.0d,
+			x: -4.5d,
 			y: 0.0d,
 			description: ["The Kinetic Dynamo takes rotational energy and converts it to RF."],
 			dependencies: ["000000000000022F"],
@@ -849,8 +849,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: 5.0d,
+			x: -6.532440476190445d,
+			y: 4.839285714285715d,
 			description: ["Light Engineering Blocks can be thought of as the basic components that go into a larger machine."],
 			dependencies: ["0000000000001047"],
 			id: "0000000000000221",
@@ -874,8 +874,8 @@
 			]
 		},
 		{
-			x: -5.5d,
-			y: 7.5d,
+			x: -5.532440476190445d,
+			y: 7.339285714285715d,
 			description: ["Heavy Engineering Blocks can be thought of as the complex components that go into a larger machine."],
 			dependencies: [
 				"00000000000000FD",
@@ -1155,8 +1155,8 @@
 			]
 		},
 		{
-			x: -8.5d,
-			y: 4.5d,
+			x: -9.06815476190473d,
+			y: 4.232142857142861d,
 			description: [
 				"The garden cloche is used to automate and speed up the growing of crops in an industrial manner.",
 				"",
@@ -1559,7 +1559,7 @@
 			]
 		},
 		{
-			x: -10.0d,
+			x: -10.5d,
 			y: -3.0d,
 			description: ["The labeled crate is a double size storage block that has a slot in its GUI to to display on the front of the crate."],
 			dependencies: ["0000000000000255"],
@@ -2665,8 +2665,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 5.0d,
+			x: -4.532440476190445d,
+			y: 4.839285714285715d,
 			description: ["Redstone Engineering Blocks can be thought of as the control blocks for a machine, a control panel in essence."],
 			dependencies: ["0000000000001047"],
 			id: "0000000000000FA5",
@@ -2974,8 +2974,8 @@
 					blueprint: "electrode"
 				}
 			},
-			x: -5.5d,
-			y: 6.0d,
+			x: -5.532440476190445d,
+			y: 5.839285714285715d,
 			description: ["The blocks surrounding this quest are critical pieces in the multiblock structures of Immersive Engineering."],
 			dependencies: ["000000000000022D"],
 			id: "0000000000001047",
@@ -2991,8 +2991,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: 7.0d,
+			x: -6.532440476190445d,
+			y: 6.839285714285715d,
 			description: ["Radiator Blocks can be thought of as the machinery components that help dissipate heat away from a working machine."],
 			dependencies: [
 				"0000000000001047",
@@ -3011,8 +3011,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 7.0d,
+			x: -4.532440476190445d,
+			y: 6.839285714285715d,
 			description: ["Generator Blocks can be thought of as the components in a machine where electricity is made."],
 			dependencies: [
 				"0000000000001047",
@@ -3581,6 +3581,41 @@
 				id: "0C3CC90646E431DF",
 				type: "random",
 				table_id: 1983L
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -3.0d,
+			description: ["The Fluid Barrel is a slightly more helpful barrel than the standard Metal Barrel. While the same capacity, 12,000 mB (12 buckets), it has a guage on the side of the barrel to visually indicate the fill level. When stacked vertically the fluid is transported to the bottom most tank, essentially becoming a larger tank."],
+			dependencies: ["000000000000025B"],
+			id: "6572B63C841D1441",
+			tasks: [{
+				id: "15B27F291F1DA973",
+				type: "item",
+				item: "engineersdecor:fluid_barrel"
+			}],
+			rewards: [{
+				id: "71C34A4012D8C0CC",
+				type: "item",
+				item: "immersiveengineering:dust_iron",
+				count: 12
+			}]
+		},
+		{
+			x: -8.282440476190445d,
+			y: 5.0535714285714235d,
+			description: ["The Small Electrical furnace will be a joy to help automate your smelting of grit/dust. Items conveyored into its entrance side are passed through and smelted, being ejected from the opposite side on the far side with a conveyor. Its speed can be changed in its GUI, but at increased power usage."],
+			dependencies: ["000000000000022D"],
+			id: "41E62E6B6345B117",
+			tasks: [{
+				id: "42755590F1027866",
+				type: "item",
+				item: "engineersdecor:small_electrical_furnace"
+			}],
+			rewards: [{
+				id: "01EE35637D6260E4",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		}
 	]
