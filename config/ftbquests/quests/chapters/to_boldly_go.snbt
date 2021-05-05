@@ -230,7 +230,7 @@
 			],
 			dependencies: [
 				"00000000000000E0",
-				"0000000000000F90"
+				"015EC877F070EA20"
 			],
 			id: "00000000000000E2",
 			tasks: [{
@@ -675,7 +675,7 @@
 			title: "What is out there?",
 			disable_toast: true,
 			x: 3.0d,
-			y: 4.0d,
+			y: 5.0d,
 			shape: "gear",
 			size: 2.0d,
 			id: "0000000000000F90",
@@ -1591,6 +1591,27 @@
 						Damage: 0
 					}
 				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			description: ["Nature's Compass will be a very handy tool when you are in search of specific biomes around your world."],
+			dependencies: ["0000000000000F90"],
+			id: "015EC877F070EA20",
+			tasks: [{
+				id: "23EE7147D5063702",
+				type: "item",
+				item: {
+					id: "naturescompass:naturescompass",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: "5FBB245B8727441D",
+				type: "item",
+				item: "fins:seafood_soup"
 			}]
 		}
 	]

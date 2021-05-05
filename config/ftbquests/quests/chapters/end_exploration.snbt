@@ -152,6 +152,11 @@
 				type: "biome",
 				icon: "betterendforge:mossy_glowshroom_fur",
 				biome: "betterendforge:foggy_mushroomland"
+			}],
+			rewards: [{
+				id: "1519AA5D6CED1C08",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -167,6 +172,11 @@
 				title: "Umbrella Jungle",
 				icon: "betterendforge:twisted_umbrella_moss_tall",
 				biome: "betterendforge:umbrella_jungle"
+			}],
+			rewards: [{
+				id: "65620FB745CC0C65",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -181,6 +191,11 @@
 				title: "Ice Starfield",
 				icon: "betterendforge:ancient_emerald_ice",
 				biome: "betterendforge:ice_starfield"
+			}],
+			rewards: [{
+				id: "241D2F036F36AEF9",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -195,6 +210,11 @@
 				title: "Painted Mountains",
 				icon: "betterendforge:violecite",
 				biome: "betterendforge:painted_mountains"
+			}],
+			rewards: [{
+				id: "21F549A8CF00DCD9",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -209,6 +229,11 @@
 				title: "Chorus Forest",
 				icon: "betterendforge:chorus_nylium",
 				biome: "betterendforge:chorus_forest"
+			}],
+			rewards: [{
+				id: "49D7B3E71D8F0CCF",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -223,6 +248,11 @@
 				title: "Sulpher Springs",
 				icon: "betterendforge:hydrothermal_vent",
 				biome: "betterendforge:sulphur_springs"
+			}],
+			rewards: [{
+				id: "5086C9954AA3147C",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -237,6 +267,11 @@
 				title: "Amber Land",
 				icon: "betterendforge:amber_grass",
 				biome: "betterendforge:amber_land"
+			}],
+			rewards: [{
+				id: "1904577601BD0534",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -251,6 +286,11 @@
 				title: "Crystal Mountains",
 				icon: "betterendforge:aurora_crystal",
 				biome: "betterendforge:crystal_mountains"
+			}],
+			rewards: [{
+				id: "537193A54DAC1D31",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -265,6 +305,11 @@
 				title: "Megalake Grove",
 				icon: "betterendforge:umbrella_moss_tall",
 				biome: "betterendforge:megalake_grove"
+			}],
+			rewards: [{
+				id: "0F6AD41B94446439",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -279,6 +324,11 @@
 				title: "Blossoming Spires",
 				icon: "betterendforge:tenanea_sapling",
 				biome: "betterendforge:blossoming_spires"
+			}],
+			rewards: [{
+				id: "6C8A56B41CDB5FF9",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -293,6 +343,11 @@
 				title: "Shadow Forest",
 				icon: "betterendforge:shadow_grass",
 				biome: "betterendforge:shadow_forest"
+			}],
+			rewards: [{
+				id: "41275527A6920028",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -307,6 +362,11 @@
 				title: "Megalake",
 				icon: "betterendforge:end_lily_leaf",
 				biome: "betterendforge:megalake"
+			}],
+			rewards: [{
+				id: "23CD24CCC25458D4",
+				type: "random",
+				table_id: 1483L
 			}]
 		},
 		{
@@ -345,6 +405,11 @@
 				title: "Dust Wasteland",
 				icon: "betterendforge:endstone_dust",
 				biome: "betterendforge:dust_wastelands"
+			}],
+			rewards: [{
+				id: "0E03C0908D99E14D",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -1026,6 +1091,11 @@
 				title: "Glowing Grasslands",
 				icon: "betterendforge:blooming_cooksonia",
 				biome: "betterendforge:glowing_grasslands"
+			}],
+			rewards: [{
+				id: "36D62F1C10D1836A",
+				type: "random",
+				table_id: 1520L
 			}]
 		}
 	]

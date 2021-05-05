@@ -852,7 +852,7 @@
 				}
 			},
 			x: 11.5d,
-			y: 8.5d,
+			y: 9.0d,
 			shape: "diamond",
 			description: ["The machines following this quest will allow you to setup more efficient mob grinders that you can use to automate the creation of enchantments."],
 			dependencies: ["0000000000000618"],
@@ -874,6 +874,40 @@
 				id: "6598C2A5EF38C1FB",
 				type: "random",
 				table_id: 1982L
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 11.0d,
+			description: ["The Mob Imprisonment Tool is a handy method of moving mobs around. Don't try it on villagers though."],
+			dependencies: ["79AA2E031EFF01F4"],
+			id: "3EC5219447BE1C2A",
+			tasks: [{
+				id: "07F73D5B69701FCD",
+				type: "item",
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}],
+			rewards: [{
+				id: "5727BD3465EA7859",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 14.5d,
+			y: 11.0d,
+			description: ["The Mob Duplicator, when provided with an mob imprisonment tool filled with a mob, with duplicate the mob when provided with essence and power."],
+			dependencies: ["3EC5219447BE1C2A"],
+			id: "0D281F32257D8CF6",
+			tasks: [{
+				id: "2D7F04A359EB1CE1",
+				type: "item",
+				item: "industrialforegoing:mob_duplicator"
+			}],
+			rewards: [{
+				id: "2EE391DEBB3530C9",
+				type: "random",
+				table_id: 1983L
 			}]
 		}
 	]
