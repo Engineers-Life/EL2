@@ -66,5 +66,6 @@ changeIngredientWithConversion(<item:pamhc2foodcore:doughitem>,<item:vanillafood
 changeIngredientWithConversion(<item:veggie_way:dough>,<item:vanillafoodpantry:dough_ball>);
 replaceByName("vanillafoodpantry:bakery/dough_ball",<item:vanillafoodpantry:dough_ball>*2,[[<tag:items:forge:tool_mixingbowl>,<tag:items:forge:flour>],[<tag:items:forge:water>,<tag:items:forge:salt>]]);
 removeAndHide(<item:vanillafoodpantry:cooked_dough>);
+changeIngredientsToTag([<item:vanillafoodpantry:leavening_agent_ball>],<tag:items:forge:salt>);
 
 println("END vfp_dupes.zs");
