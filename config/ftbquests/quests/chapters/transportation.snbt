@@ -171,6 +171,7 @@
 			}]
 		},
 		{
+			title: "Special Rails",
 			x: 3.0d,
 			y: 0.5d,
 			description: [
@@ -206,7 +207,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			title: "Elevated Rails",
+			x: -5.0d,
 			y: 0.5d,
 			description: ["Scaffold rails place scaffold underneath to support the rail. The elevator rail will bring the rail up a level."],
 			dependencies: ["0000000000000742"],
@@ -230,7 +232,7 @@
 			}]
 		},
 		{
-			x: -5.0d,
+			x: -2.0d,
 			y: 0.5d,
 			description: ["This rail will hold a cart when unpowered but act like a booster rail when powered."],
 			dependencies: ["0000000000000742"],

@@ -1905,6 +1905,11 @@
 				id: "000000000000158F",
 				type: "item",
 				item: "farmingforblockheads:market"
+			}],
+			rewards: [{
+				id: "2E8A2831D5F8B4BA",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{

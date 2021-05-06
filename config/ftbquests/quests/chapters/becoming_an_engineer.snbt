@@ -3617,6 +3617,27 @@
 				type: "item",
 				item: "spareparts:coins/iron_coin"
 			}]
+		},
+		{
+			x: -11.044345238095197d,
+			y: 4.208333333333336d,
+			description: [
+				"Tired of listening to all those loud machines?",
+				"",
+				"Craft a pair of Ear Defenders to muffle out those sounds. The sounds it muffles can be configured by placing it onto a engineer's workbench along with the noise gate level to start blocking sound. They can also be combined with helmets in a crafting table to apply them to the helmet, giving you some protection while wearing them."
+			],
+			dependencies: ["000000000000022D"],
+			id: "7638362055CF4C13",
+			tasks: [{
+				id: "39D39D2F1E96B628",
+				type: "item",
+				item: "immersiveengineering:earmuffs"
+			}],
+			rewards: [{
+				id: "101B78BFA2A9F855",
+				type: "item",
+				item: "vanillafoodpantry:fizzydrink_poppy"
+			}]
 		}
 	]
 }

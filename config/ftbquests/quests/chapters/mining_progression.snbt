@@ -328,6 +328,7 @@
 			},
 			x: -11.0d,
 			y: 2.5d,
+			shape: "rsquare",
 			description: ["Bows can be upgraded into a number of unique forms with their own advantages."],
 			id: "53724A1FE29BFB20",
 			tasks: [{
@@ -376,9 +377,10 @@
 				}
 			}],
 			rewards: [{
-				id: "3EF025ABBEDB8A18",
-				type: "xp",
-				xp: 100
+				id: "3D01FD534B4E078A",
+				type: "item",
+				item: "minecraft:arrow",
+				count: 16
 			}]
 		},
 		{
@@ -416,9 +418,16 @@
 				}
 			}],
 			rewards: [{
-				id: "590D1CF0BB4FEFC5",
-				type: "xp",
-				xp: 100
+				id: "3602287984C3E5EE",
+				type: "item",
+				item: {
+					id: "minecraft:tipped_arrow",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:slowness"
+					}
+				},
+				count: 16
 			}]
 		},
 		{
@@ -456,15 +465,23 @@
 				}
 			}],
 			rewards: [{
-				id: "1DF146F591FB3597",
-				type: "xp",
-				xp: 100
+				id: "7B1CC96BB9897856",
+				type: "item",
+				item: {
+					id: "minecraft:tipped_arrow",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:poison"
+					}
+				},
+				count: 16
 			}]
 		},
 		{
 			title: "Rope Toolbelt",
-			x: -2.0d,
+			x: -2.5d,
 			y: 2.5d,
+			shape: "rsquare",
 			description: [
 				"The Toolbelt will allow you to have different addons such as carrying extra tools, items, and potions. It is curios compatible in the belt slot.",
 				"",
@@ -499,8 +516,9 @@
 					Damage: 0
 				}
 			},
-			x: 4.5d,
+			x: 4.0d,
 			y: 2.5d,
+			shape: "rsquare",
 			description: ["Shields will be the best way to protect yourself outside of armor."],
 			id: "44875B6FA3D7CE74",
 			tasks: [{
@@ -515,7 +533,7 @@
 			}]
 		},
 		{
-			x: 6.0d,
+			x: 5.5d,
 			y: 4.0d,
 			description: ["A Tower shield allows you to block indefinitely but it takes more integrity of the overall shield."],
 			dependencies: ["44875B6FA3D7CE74"],
@@ -549,13 +567,13 @@
 				}
 			}],
 			rewards: [{
-				id: "351B0EAA1D7A254D",
-				type: "xp",
-				xp: 100
+				id: "1042305F6C83121A",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 4.0d,
 			y: 4.5d,
 			description: ["A Heater shield can only be used for so long before going on cooldown for further use."],
 			dependencies: ["44875B6FA3D7CE74"],
@@ -589,13 +607,13 @@
 				}
 			}],
 			rewards: [{
-				id: "1ABE1CCC0C2B2B19",
-				type: "xp",
-				xp: 100
+				id: "206C1F1147D99C36",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 6.0d,
 			y: 2.5d,
 			description: ["A Buckler shield will give you a passive armor bonus when hend in your offhand but cannot be used to actively block."],
 			dependencies: ["44875B6FA3D7CE74"],
@@ -629,9 +647,9 @@
 				}
 			}],
 			rewards: [{
-				id: "1684025BEFC689A6",
-				type: "xp",
-				xp: 100
+				id: "640DB49528439480",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
@@ -642,8 +660,9 @@
 					Damage: 0
 				}
 			},
-			x: -5.0d,
+			x: -5.5d,
 			y: 2.5d,
+			shape: "rsquare",
 			description: ["Single Headed tools are the most simple tools you can make."],
 			id: "248343A8203E7CDC",
 			tasks: [{
@@ -658,7 +677,7 @@
 			}]
 		},
 		{
-			x: -5.5d,
+			x: -6.0d,
 			y: 4.5d,
 			description: ["Shovels, they are great at digging up the soft stuff like dirt and sand and can also be used to make paths."],
 			dependencies: ["248343A8203E7CDC"],
@@ -692,13 +711,14 @@
 				}
 			}],
 			rewards: [{
-				id: "75E36E5FA9084B3D",
-				type: "xp",
-				xp: 100
+				id: "6905199B30D872F6",
+				type: "item",
+				item: "minecraft:red_sand",
+				count: 16
 			}]
 		},
 		{
-			x: -4.5d,
+			x: -5.0d,
 			y: 4.5d,
 			description: ["Spears are a basic weapon that can easily be made."],
 			dependencies: ["248343A8203E7CDC"],
@@ -732,9 +752,15 @@
 				}
 			}],
 			rewards: [{
-				id: "62E0F1B6BD0EE980",
-				type: "xp",
-				xp: 100
+				id: "5AEC7872C81E24A5",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
 			}]
 		},
 		{
@@ -745,8 +771,9 @@
 					Damage: 0
 				}
 			},
-			x: 2.0d,
+			x: 1.5d,
 			y: 2.5d,
+			shape: "rsquare",
 			description: ["The good old fashioned slice and dicer."],
 			id: "7BC94372A9C4E217",
 			tasks: [{
@@ -761,7 +788,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 0.0d,
 			y: 3.5d,
 			description: ["This is just your standard sword blade with no extra frills."],
 			dependencies: ["7BC94372A9C4E217"],
@@ -799,13 +826,13 @@
 				}
 			}],
 			rewards: [{
-				id: "149BC06A95C44F9E",
-				type: "xp",
-				xp: 100
+				id: "69FC395EBC2FA469",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 3.0d,
 			y: 3.5d,
 			description: ["A Heavy blade will turn a sword into a Greatsword that does large sweeping attacks with a full charge attack."],
 			dependencies: ["7BC94372A9C4E217"],
@@ -843,13 +870,13 @@
 				}
 			}],
 			rewards: [{
-				id: "2DCE9BDF4FE713F4",
-				type: "xp",
-				xp: 100
+				id: "129AE3772B218C81",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 1.0d,
 			y: 4.5d,
 			description: ["The Machete blade allows the breaking of web and plants in an area."],
 			dependencies: ["7BC94372A9C4E217"],
@@ -887,13 +914,13 @@
 				}
 			}],
 			rewards: [{
-				id: "12C7A26375C496DC",
-				type: "xp",
-				xp: 100
+				id: "4CABDFBB1FB11BFF",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 2.0d,
 			y: 4.5d,
 			description: ["The Shortblade can be used in off handed attacks and in crafting to cut materials."],
 			dependencies: ["7BC94372A9C4E217"],
@@ -931,9 +958,9 @@
 				}
 			}],
 			rewards: [{
-				id: "1CC4ED14C9E9A4BA",
-				type: "xp",
-				xp: 100
+				id: "502CED6293876F61",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
@@ -944,8 +971,9 @@
 					Damage: 0
 				}
 			},
-			x: -8.0d,
+			x: -8.5d,
 			y: 3.5d,
+			shape: "rsquare",
 			description: ["Double Headed tools make up the large majority of tools in the game. The surrounding quests will describe the individual tool heads that define tools."],
 			id: "07137122925727C8",
 			tasks: [{
@@ -960,7 +988,7 @@
 			}]
 		},
 		{
-			x: -9.0d,
+			x: -9.5d,
 			y: 2.5d,
 			description: ["When a Butt is added to a tool as a head it will increase the swing speed of the tool due to the decreased weight."],
 			dependencies: ["07137122925727C8"],
@@ -1013,13 +1041,19 @@
 				}
 			}],
 			rewards: [{
-				id: "728E16D076FF4979",
-				type: "xp",
-				xp: 100
+				id: "1B253F2F5DA2D38C",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
 			}]
 		},
 		{
-			x: -9.5d,
+			x: -10.0d,
 			y: 3.5d,
 			description: ["The Adze is a shovel/axe combo that gives the advantages of both tools at a decreased speed due to its weight."],
 			dependencies: ["07137122925727C8"],
@@ -1071,14 +1105,23 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: "11A5931ABF8B7F92",
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7013F1DA74979E39",
+					type: "item",
+					item: "minecraft:birch_log",
+					count: 4
+				},
+				{
+					id: "1AA5CE9B27BB4D60",
+					type: "item",
+					item: "minecraft:wheat_seeds",
+					count: 4
+				}
+			]
 		},
 		{
-			x: -9.0d,
+			x: -9.5d,
 			y: 4.5d,
 			description: ["The Sickle head will allow you to break plant blocks in a wide area."],
 			dependencies: ["07137122925727C8"],
@@ -1130,14 +1173,23 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: "4C4FCE139784C754",
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1B99B20F378E2085",
+					type: "item",
+					item: "minecraft:grass",
+					count: 8
+				},
+				{
+					id: "0CAD3832A4C86143",
+					type: "item",
+					item: "minecraft:tall_grass",
+					count: 8
+				}
+			]
 		},
 		{
-			x: -8.0d,
+			x: -8.5d,
 			y: 5.0d,
 			description: ["The Hoe head will allow you to harvest crops and till soil to farm just like a standard hoe."],
 			dependencies: ["07137122925727C8"],
@@ -1189,14 +1241,23 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: "1CFA089D92EF9950",
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "306F72DDF4CB3961",
+					type: "item",
+					item: "minecraft:melon_seeds",
+					count: 4
+				},
+				{
+					id: "78A4B1C32C76D055",
+					type: "item",
+					item: "minecraft:pumpkin_seeds",
+					count: 4
+				}
+			]
 		},
 		{
-			x: -7.0d,
+			x: -7.5d,
 			y: 4.5d,
 			description: ["The Claw head will allow you to pry open items in Tetra dungeons as well as break wooden items quickly."],
 			dependencies: ["07137122925727C8"],
@@ -1248,14 +1309,21 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: "7DF68F4FE521FC28",
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "28597BF0FF8AA5E0",
+					type: "item",
+					item: "embellishcraft:spruce_wooden_crate"
+				},
+				{
+					id: "6D1589A673FB2230",
+					type: "item",
+					item: "embellishcraft:dark_oak_wooden_crate"
+				}
+			]
 		},
 		{
-			x: -6.5d,
+			x: -7.0d,
 			y: 3.5d,
 			description: ["The Axe head allows you to chop tree logs and strip them just like vanilla axes."],
 			dependencies: ["07137122925727C8"],
@@ -1308,13 +1376,14 @@
 				}
 			}],
 			rewards: [{
-				id: "4468C141B7706320",
-				type: "xp",
-				xp: 100
+				id: "5271CD7A787DA624",
+				type: "item",
+				item: "minecraft:acacia_log",
+				count: 4
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -7.5d,
 			y: 2.5d,
 			description: ["The Pickaxe head is.... a pickaxe head. It allows you to mine just like you would expect it to do."],
 			dependencies: ["07137122925727C8"],
@@ -1367,9 +1436,10 @@
 				}
 			}],
 			rewards: [{
-				id: "48D736D0EA76398F",
-				type: "xp",
-				xp: 100
+				id: "4A7F5D63DDE66FE6",
+				type: "item",
+				item: "randomite:randomite_ore",
+				count: 4
 			}]
 		},
 		{
@@ -1389,9 +1459,9 @@
 				item: "tetra:geode"
 			}],
 			rewards: [{
-				id: "757A81266974EA14",
-				type: "xp",
-				xp: 100
+				id: "765FB5EDBBE66554",
+				type: "item",
+				item: "tetra:geode"
 			}]
 		},
 		{
@@ -1483,6 +1553,7 @@
 			}]
 		},
 		{
+			icon: "betterendforge:aeternium_ingot",
 			x: -9.0d,
 			y: -2.5d,
 			description: [
@@ -1491,7 +1562,6 @@
 				"As with the base materials, these added materials can be seen in the holosphere."
 			],
 			dependencies: ["1BD22FC74CD3DB9A"],
-			optional: true,
 			id: "78A3FD855453B6DE",
 			tasks: [{
 				id: "6974F338B934B569",
@@ -1566,6 +1636,7 @@
 		},
 		{
 			title: "Integrity Through Bindings?",
+			icon: "minecraft:string",
 			x: -10.0d,
 			y: 1.5d,
 			description: ["Integrity is an item statistic that determines if it can be upgraded or not. Certain upgrades, such as bindings and handles, will increase the integrity of a tool allowing it to be upgraded further."],
@@ -1583,6 +1654,7 @@
 		},
 		{
 			title: "Tool Leveling",
+			icon: "minecraft:experience_bottle",
 			x: -9.0d,
 			y: 1.0d,
 			description: [
@@ -1607,6 +1679,7 @@
 			}]
 		},
 		{
+			icon: "immersiveengineering:screwdriver",
 			x: -11.0d,
 			y: 1.0d,
 			description: [
@@ -1631,11 +1704,10 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -1.0d,
 			y: 3.5d,
 			description: ["The Storage Pouch is a storage addon to store a good number of items but it does not have quick access."],
 			dependencies: ["3A768E3EC544BDE4"],
-			optional: true,
 			id: "12DAA083C8DAA20D",
 			tasks: [{
 				id: "69F12A268CBDCF9C",
@@ -1679,17 +1751,16 @@
 				}
 			}],
 			rewards: [{
-				id: "0F8EAA85F3E569FE",
-				type: "xp",
-				xp: 100
+				id: "0B28F8D7ED48CF20",
+				type: "item",
+				item: "simplefarming:fish_sandwich"
 			}]
 		},
 		{
-			x: -1.0d,
+			x: -1.5d,
 			y: 4.5d,
 			description: ["The Quiver can hold a large amount of arrows that can be quick selected."],
 			dependencies: ["3A768E3EC544BDE4"],
-			optional: true,
 			id: "310CF42911589333",
 			tasks: [{
 				id: "132190E71F50655F",
@@ -1733,13 +1804,14 @@
 				}
 			}],
 			rewards: [{
-				id: "115D21D1BB2DAE97",
-				type: "xp",
-				xp: 100
+				id: "32D68E4A055C0594",
+				type: "item",
+				item: "minecraft:arrow",
+				count: 16
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -2.5d,
 			y: 5.0d,
 			description: ["Belt straps allow the carrying and quick selection of multiple tools or items."],
 			dependencies: ["3A768E3EC544BDE4"],
@@ -1786,17 +1858,16 @@
 				}
 			}],
 			rewards: [{
-				id: "7F0D3F66CC4DEE32",
-				type: "xp",
-				xp: 100
+				id: "4630E006763EDED2",
+				type: "xp_levels",
+				xp_levels: 3
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -4.0d,
 			y: 3.5d,
 			description: ["The Booster is a sort of jetpack that uses gunpowder as fuel. Can be activated by crouch jumping, jumping in air, or while flying an elytra."],
 			dependencies: ["3A768E3EC544BDE4"],
-			optional: true,
 			id: "1492F3C3FB608067",
 			tasks: [{
 				id: "3F34F04A3619CF4C",
@@ -1840,17 +1911,17 @@
 				}
 			}],
 			rewards: [{
-				id: "14445752B2B50583",
-				type: "xp",
-				xp: 100
+				id: "39D999E303E6793D",
+				type: "item",
+				item: "minecraft:gunpowder",
+				count: 16
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -3.5d,
 			y: 4.5d,
 			description: ["The Potion Bag allows you to cary a large amount of potions but of limited variety."],
 			dependencies: ["3A768E3EC544BDE4"],
-			optional: true,
 			id: "1478BE654172DB0E",
 			tasks: [{
 				id: "76B4B318711D2C2C",
@@ -1899,11 +1970,41 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: "25EBE56017C4561D",
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3C18B0EC6250E884",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+				},
+				{
+					id: "3C75204BCF916487",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+				},
+				{
+					id: "7F4DBFE89B55241F",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+				}
+			]
 		},
 		{
 			x: -4.0d,
@@ -2065,6 +2166,1051 @@
 				id: "6A9B648EA7810D76",
 				type: "xp_levels",
 				xp_levels: 5
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 7.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed axes into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "5DD334FC79B2D1B9",
+			tasks: [{
+				id: "3D4CAEEBF3AD8449",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/basic_axe/warforge"],
+								ribbon: "b35973",
+								glyphs: [
+									5,
+									10,
+									8,
+									9
+								],
+								details: "warforge",
+								key: "double/basic_axe/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "4981589324C184AC",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 8.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed hammers into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "57C8481EA2D9B764",
+			tasks: [{
+				id: "090C6ADABD4DED02",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/basic_hammer/warforge"],
+								ribbon: "3d4299",
+								glyphs: [
+									9,
+									8,
+									11,
+									10
+								],
+								details: "warforge",
+								key: "double/basic_hammer/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "715001FBD067CBBF",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 9.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed pickaxes into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "544A948D897CEC4B",
+			tasks: [{
+				id: "22A84EBF788CAA41",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/basic_pickaxe/warforge"],
+								ribbon: "508cb3",
+								glyphs: [
+									6,
+									11,
+									8,
+									7
+								],
+								details: "warforge",
+								key: "double/basic_pickaxe/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "776A69D7282A3CB6",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 10.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed butts (mace) into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "1255A39FEC6BBC51",
+			tasks: [{
+				id: "2D5F3697B44E3AC2",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/butt_shared/warforge/"],
+								ribbon: "b33636",
+								glyphs: [
+									11,
+									5,
+									8,
+									9
+								],
+								details: "warforge",
+								key: "double/butt/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "566BD7A946CE99E0",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 7.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed claws into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "152251754B83ED3C",
+			tasks: [{
+				id: "1194F8874415AD25",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/claw/warforge"],
+								ribbon: "1d262f",
+								glyphs: [
+									8,
+									10,
+									5,
+									11
+								],
+								details: "warforge",
+								key: "double/claw/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "653C6B8D8B086AE6",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 8.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed hoes into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "635B2D7BBD9AC5B0",
+			tasks: [{
+				id: "6F66114B7375618C",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/hoe/warforge"],
+								ribbon: "93b350",
+								glyphs: [
+									10,
+									7,
+									9,
+									5
+								],
+								details: "warforge",
+								key: "double/hoe/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0DDA0C90973A7275",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 10.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed adzes into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "15E026173E7BC1CF",
+			tasks: [{
+				id: "169B5046B311DA4B",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/adze/warforge"],
+								ribbon: "8559b3",
+								glyphs: [
+									6,
+									7,
+									11,
+									7
+								],
+								details: "warforge",
+								key: "double/adze/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "46EEF48CDB4FB0D5",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 9.0d,
+			description: [
+				"This warforging schematic will allow you to better improve double-headed sickles into potent weapons. ",
+				"",
+				"Can be found in Bastion Remnants in the Nether."
+			],
+			id: "0589D14692A01423",
+			tasks: [{
+				id: "0E0835CEFB373074",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 2,
+								schematics: ["tetra:double/sickle/warforge"],
+								ribbon: "d99e4c",
+								glyphs: [
+									5,
+									9,
+									6,
+									10
+								],
+								details: "warforge",
+								key: "double/sickle/warforge"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "6ABC190834DE6FF5",
+				type: "random",
+				table_id: 1983L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 10.0d,
+			description: [
+				"A gilding schematic, when applied to the top of a workbench, allows the honing of a module to increase its magic capacity.",
+				"",
+				"Can be found in nether fortresses."
+			],
+			id: "07D95BE949C7DAF8",
+			tasks: [{
+				id: "2CFB035545562A12",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 1b,
+								material: 2,
+								schematics: ["tetra:shared/hone_gild_1"],
+								ribbon: "c9ae69",
+								glyphs: [
+									15,
+									14,
+									15,
+									15
+								],
+								key: "hone_gild_1"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "1F22AE178B5F9E13",
+				type: "random",
+				table_id: 1982L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 10.0d,
+			description: ["Gilding schematics can be combined to increase their level, up to level V. A level I can only be combined with a level I and so on so it will take a few gilding schematics to reach level V."],
+			dependencies: ["07D95BE949C7DAF8"],
+			id: "78F580FEAA69A4F8",
+			tasks: [{
+				id: "60684741EF4D88F8",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 1b,
+								material: 2,
+								schematics: ["tetra:shared/hone_gild_"],
+								ribbon: "f2b313",
+								glyphs: [
+									12,
+									12,
+									12,
+									12
+								],
+								key: "hone_gild_5"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "1C558896B034CBB5",
+				type: "choice",
+				table_id: 2014L
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 8.0d,
+			description: [
+				"A schematic that unlocks a long forgotten guard that allows you to block attacks or arrows with proper timing.",
+				"",
+				"Can be found in dungeons."
+			],
+			id: "77FDA42B1222BD4C",
+			tasks: [{
+				id: "74A5BEB7223E6982",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 1,
+								schematics: ["tetra:sword/sturdy_guard"],
+								ribbon: "bcb8b5",
+								glyphs: [
+									3,
+									2,
+									2,
+									1
+								],
+								key: "sword/sturdy_guard"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "50C4C8C643881BE8",
+				type: "random",
+				table_id: 1982L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			description: [
+				"A schematic that allows you to make small swords that have the ability to be thrown.",
+				"",
+				"Can be found in dungeons."
+			],
+			id: "7D603523233279B3",
+			tasks: [{
+				id: "4389DF4C4717A26C",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 1,
+								schematics: ["tetra:sword/throwing_knife"],
+								ribbon: "b8ced9",
+								glyphs: [
+									4,
+									1,
+									0,
+									5
+								],
+								key: "sword/throwing_knife"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "0D31D07BDD144022",
+				type: "random",
+				table_id: 1982L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 8.0d,
+			description: [
+				"A schematic of a sword fuller that when swung creates a gust that can deflect arrows.",
+				"",
+				"Can be found in dungeons."
+			],
+			id: "00CDA44B4E76D1E6",
+			tasks: [{
+				id: "671344C6F0D3EC28",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								material: 1,
+								schematics: ["tetra:sword/howling"],
+								ribbon: "faf396",
+								glyphs: [
+									8,
+									9,
+									10,
+									5
+								],
+								key: "sword/howling"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "5C6830BB3403DE5A",
+				type: "random",
+				table_id: 1982L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 8.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of gemstones will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "0D69186F8138A0C9",
+			tasks: [{
+				id: "77002C7820FF4E30",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:gem_expertise"],
+								material: 0,
+								ribbon: "2bffee",
+								glyphs: [
+									14,
+									13,
+									14,
+									15
+								],
+								key: "gem_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "47482454E3632129",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 7.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of metal will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "09D05DD705B6F75B",
+			tasks: [{
+				id: "4DDD25ECB7E4AD76",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:metal_expertise"],
+								material: 0,
+								ribbon: "ffffff",
+								glyphs: [
+									4,
+									6,
+									6,
+									5
+								],
+								key: "metal_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "4B50549B7F65D5A8",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of wood will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "216F8320B52B65C1",
+			tasks: [{
+				id: "0A90F9B918D22226",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:wood_expertise"],
+								material: 0,
+								ribbon: "bf934b",
+								glyphs: [
+									2,
+									1,
+									2,
+									1
+								],
+								key: "wood_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "641F48EEBE29DE27",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 7.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of stone will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "7234FD5F79ABF6B0",
+			tasks: [{
+				id: "1A1C722A3F807FE7",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:stone_expertise"],
+								material: 0,
+								ribbon: "9a9a9a",
+								glyphs: [2],
+								key: "stone_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "68833D312C5CCF94",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 9.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of fibre will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "15358C492A96474A",
+			tasks: [{
+				id: "1D71C39E18BFD321",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:fibre_expertise"],
+								material: 0,
+								ribbon: "a88054",
+								glyphs: [
+									5,
+									10,
+									11,
+									4
+								],
+								key: "fibre_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "25ACD2B425DAF3CC",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 10.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of skin (leather) will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "38B08A136E92B917",
+			tasks: [{
+				id: "252EA5E5DD2F3572",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:skin_expertise"],
+								material: 0,
+								ribbon: "bf6930",
+								glyphs: [
+									0,
+									1,
+									1,
+									1
+								],
+								key: "skin_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "426585FD91A1CDC9",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 9.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of bone will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "52B54E2CE151772D",
+			tasks: [{
+				id: "5A65D769598EBCB3",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:bone_expertise"],
+								material: 0,
+								ribbon: "fff193",
+								glyphs: [
+									12,
+									14,
+									12,
+									14
+								],
+								key: "bone_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "499E54B72DAD758C",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 10.0d,
+			description: [
+				"When this treatise is near a workbench any major module made of fabric will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "1FBD746595917646",
+			tasks: [{
+				id: "293C304A3EF8819F",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:fabric_expertise"],
+								material: 0,
+								ribbon: "ff3333",
+								glyphs: [
+									5,
+									3,
+									6,
+									4
+								],
+								key: "fabric_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "17EB4990F7A06AD0",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 8.5d,
+			description: [
+				"When this treatise is near a workbench any major module made of scale will do extra damage and have better efficiency.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "375CE372A0A91A71",
+			tasks: [{
+				id: "028B41C79D681E90",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:scale_expertise"],
+								material: 0,
+								ribbon: "75a03e",
+								glyphs: [
+									6,
+									7,
+									6,
+									8
+								],
+								key: "scale_expertise"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "5C5283389908B425",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 9.0d,
+			description: [
+				"When this treatise is near a workbench there is a 25% chance that using a hammer to make a module will require 1 less material amount. Cannot be less than 1.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "0A36FFA51A28A740",
+			tasks: [{
+				id: "799F0175C5D925E1",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:hammer_efficiency"],
+								material: 0,
+								ribbon: "ff6666",
+								glyphs: [
+									6,
+									7,
+									6,
+									11
+								],
+								key: "hammer_efficiency"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "049D31084868246A",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 9.0d,
+			description: [
+				"When this treatise is near a workbench there is a 25% chance that using an axe to make a module will require 1 less material amount. Cannot be less than 1.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "4BEC7C7000CA0094",
+			tasks: [{
+				id: "4D94FB9D6E3D802C",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:axe_efficiency"],
+								material: 0,
+								ribbon: "66ff66",
+								glyphs: [
+									0,
+									1,
+									3,
+									3
+								],
+								key: "axe_efficiency"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "012E40E62F08A89B",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 9.0d,
+			description: [
+				"When this treatise is near a workbench there is a 25% chance that using a cutting tool to make a module will require 1 less material amount. Cannot be less than 1.",
+				"",
+				"Can be bought from villagers."
+			],
+			id: "675FDDA4D1048267",
+			tasks: [{
+				id: "0C2E825771470ECA",
+				type: "item",
+				item: {
+					id: "tetra:scroll_rolled",
+					Count: 1b,
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								intricate: 0b,
+								effects: ["tetra:cut_efficiency"],
+								material: 0,
+								ribbon: "6666ff",
+								glyphs: [
+									4,
+									0,
+									3,
+									5
+								],
+								key: "cut_efficiency"
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: "4965402C2E927832",
+				type: "random",
+				table_id: 1980L
+			}]
+		},
+		{
+			title: "Scrolls, Schematics, and Treatises",
+			icon: {
+				id: "tetra:scroll_rolled",
+				Count: 1b,
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							intricate: 0b,
+							material: 2,
+							schematics: ["tetra:double/basic_axe/warforge"],
+							ribbon: "b35973",
+							glyphs: [
+								5,
+								10,
+								8,
+								9
+							],
+							details: "warforge",
+							key: "double/basic_axe/warforge"
+						}]
+					}
+				}
+			},
+			x: -4.0d,
+			y: 6.5d,
+			shape: "rsquare",
+			description: [
+				"Tetra includes a number of additional methods to better your tools. These schematics/treatises must be placed around a workbench in a 5x5x5 square of the space two above the workbench (so four blocks up the wall and two blocks off each side).",
+				"",
+				"The way to find these new items are indicated in the quests."
+			],
+			size: 1.5d,
+			id: "58E51E027525C66D",
+			tasks: [{
+				id: "1598584F4EF6CD03",
+				type: "checkmark",
+				title: "Did you read this?"
+			}],
+			rewards: [{
+				id: "1EBF10F1269A7959",
+				type: "xp",
+				xp: 100
 			}]
 		}
 	]
