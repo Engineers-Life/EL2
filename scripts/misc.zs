@@ -193,4 +193,88 @@ craftingTable.addShapeless("inactive_dragon_egg_from_dragon_head",<item:producti
 //Remove second green dye
 removeAndHide(<item:pitg:green_dye>);
 
+//Quark Crystal and Rune Crafting
+//crystal clusters
+var cc_red = <item:quark:red_crystal_cluster>;
+var cc_orange = <item:quark:orange_crystal_cluster>;
+var cc_yellow = <item:quark:yellow_crystal_cluster>;
+var cc_green = <item:quark:green_crystal_cluster>;
+var cc_blue = <item:quark:blue_crystal_cluster>;
+var cc_indigo = <item:quark:indigo_crystal_cluster>;
+var cc_violet = <item:quark:violet_crystal_cluster>;
+var cc_white = <item:quark:white_crystal_cluster>;
+var cc_black = <item:quark:black_crystal_cluster>;
+//crystal block
+var c_red = <item:quark:red_crystal>;
+var c_orange = <item:quark:orange_crystal>;
+var c_yellow = <item:quark:yellow_crystal>;
+var c_green = <item:quark:green_crystal>;
+var c_blue = <item:quark:blue_crystal>;
+var c_indigo = <item:quark:indigo_crystal>;
+var c_violet = <item:quark:violet_crystal>;
+var c_white = <item:quark:white_crystal>;
+var c_black = <item:quark:black_crystal>;
+//crystal panes
+var cp_red = <item:quark:red_crystal_pane>;
+var cp_orange = <item:quark:orange_crystal_pane>;
+var cp_yellow = <item:quark:yellow_crystal_pane>;
+var cp_green = <item:quark:green_crystal_pane>;
+var cp_blue = <item:quark:blue_crystal_pane>;
+var cp_indigo = <item:quark:indigo_crystal_pane>;
+var cp_violet = <item:quark:violet_crystal_pane>;
+var cp_white = <item:quark:white_crystal_pane>;
+var cp_black = <item:quark:black_crystal_pane>;
+
+//clusters to blocks
+craftingTable.addShaped("red_crystal",c_red,[[cc_red,cc_red],[cc_red,cc_red]]);
+craftingTable.addShaped("orange_crystal",c_orange,[[cc_orange,cc_orange],[cc_orange,cc_orange]]);
+craftingTable.addShaped("yellow_crystal",c_yellow,[[cc_yellow,cc_yellow],[cc_yellow,cc_yellow]]);
+craftingTable.addShaped("green_crystal",c_green,[[cc_green,cc_green],[cc_green,cc_green]]);
+craftingTable.addShaped("blue_crystal",c_blue,[[cc_blue,cc_blue],[cc_blue,cc_blue]]);
+craftingTable.addShaped("indigo_crystal",c_indigo,[[cc_indigo,cc_indigo],[cc_indigo,cc_indigo]]);
+craftingTable.addShaped("violet_crystal",c_violet,[[cc_violet,cc_violet],[cc_violet,cc_violet]]);
+craftingTable.addShaped("white_crystal",c_white,[[cc_white,cc_white],[cc_white,cc_white]]);
+craftingTable.addShaped("black_crystal",c_black,[[cc_black,cc_black],[cc_black,cc_black]]);
+
+//blocks to panes
+craftingTable.addShaped("red_crystal_pane",cp_red*16,[[c_red,c_red,c_red],[c_red,c_red,c_red]]);
+craftingTable.addShaped("orange_crystal_pane",cp_orange*16,[[c_orange,c_orange,c_orange],[c_orange,c_orange,c_orange]]);
+craftingTable.addShaped("yellow_crystal_pane",cp_yellow*16,[[c_yellow,c_yellow,c_yellow],[c_yellow,c_yellow,c_yellow]]);
+craftingTable.addShaped("green_crystal_pane",cp_green*16,[[c_green,c_green,c_green],[c_green,c_green,c_green]]);
+craftingTable.addShaped("blue_crystal_pane",cp_blue*16,[[c_blue,c_blue,c_blue],[c_blue,c_blue,c_blue]]);
+craftingTable.addShaped("indigo_crystal_pane",cp_indigo*16,[[c_indigo,c_indigo,c_indigo],[c_indigo,c_indigo,c_indigo]]);
+craftingTable.addShaped("violet_crystal_pane",cp_violet*16,[[c_violet,c_violet,c_violet],[c_violet,c_violet,c_violet]]);
+craftingTable.addShaped("white_crystal_pane",cp_white*16,[[c_white,c_white,c_white],[c_white,c_white,c_white]]);
+craftingTable.addShaped("black_crystal_pane",cp_black*16,[[c_black,c_black,c_black],[c_black,c_black,c_black]]);
+
+//panes to blocks
+craftingTable.addShaped("red_crystal_pane",c_red*3,[[c_red,c_red,c_red],[c_red,air,c_red],[c_red,c_red,c_red]]);
+craftingTable.addShaped("orange_crystal_pane",c_orange*3,[[c_orange,c_orange,c_orange],[c_orange,air,c_orange],[c_orange,c_orange,c_orange]]);
+craftingTable.addShaped("yellow_crystal_pane",c_yellow*3,[[c_yellow,c_yellow,c_yellow],[c_yellow,air,c_yellow],[c_yellow,c_yellow,c_yellow]]);
+craftingTable.addShaped("green_crystal_pane",c_green*3,[[c_green,c_green,c_green],[c_green,air,c_green],[c_green,c_green,c_green]]);
+craftingTable.addShaped("blue_crystal_pane",c_blue*3,[[c_blue,c_blue,c_blue],[c_blue,air,c_blue],[c_blue,c_blue,c_blue]]);
+craftingTable.addShaped("indigo_crystal_pane",c_indigo*3,[[c_indigo,c_indigo,c_indigo],[c_indigo,air,c_indigo],[c_indigo,c_indigo,c_indigo]]);
+craftingTable.addShaped("violet_crystal_pane",c_violet*3,[[c_violet,c_violet,c_violet],[c_violet,air,c_violet],[c_violet,c_violet,c_violet]]);
+craftingTable.addShaped("white_crystal_pane",c_white*3,[[c_white,c_white,c_white],[c_white,air,c_white],[c_white,c_white,c_white]]);
+craftingTable.addShaped("black_crystal_pane",c_black*3,[[c_black,c_black,c_black],[c_black,air,c_black],[c_black,c_black,c_black]]);
+
+//Runes
+var stone = <tag:items:forge:stone>;
+craftingTable.addShaped("white_rune",<item:quark:white_rune>,[[c_white,c_white,c_white],[c_white,stone,c_white],[c_white,c_white,c_white]]);
+craftingTable.addShaped("orange_rune",<item:quark:orange_rune>,[[c_orange,c_orange,c_orange],[c_orange,stone,c_orange],[c_orange,c_orange,c_orange]]);
+craftingTable.addShaped("magenta_rune",<item:quark:magenta_rune>,[[c_violet,c_violet,c_violet],[c_violet,stone,c_violet],[c_violet,c_violet,c_violet]]);
+craftingTable.addShaped("light_blue_rune",<item:quark:light_blue_rune>,[[c_blue,c_white,c_blue],[c_white,stone,c_white],[c_blue,c_white,c_blue]]);
+craftingTable.addShaped("yellow_rune",<item:quark:yellow_rune>,[[c_yellow,c_yellow,c_yellow],[c_yellow,stone,c_yellow],[c_yellow,c_yellow,c_yellow]]);
+craftingTable.addShaped("lime_rune",<item:quark:lime_rune>,[[c_green,c_yellow,c_green],[c_yellow,stone,c_yellow],[c_green,c_yellow,c_green]]);
+craftingTable.addShaped("pink_rune",<item:quark:pink_rune>,[[c_violet,c_white,c_violet],[c_white,stone,c_white],[c_violet,c_white,c_violet]]);
+craftingTable.addShaped("gray_rune",<item:quark:gray_rune>,[[c_black,c_white,c_black],[c_black,stone,c_black],[c_black,c_white,c_black]]);
+craftingTable.addShaped("light_gray_rune",<item:quark:light_gray_rune>,[[c_black,c_white,c_black],[c_white,stone,c_white],[c_black,c_white,c_black]]);
+craftingTable.addShaped("cyan_rune",<item:quark:cyan_rune>,[[c_blue,c_green,c_blue],[c_green,stone,c_green],[c_blue,c_green,c_blue]]);
+craftingTable.addShaped("purple_rune",<item:quark:purple_rune>,[[c_indigo,c_indigo,c_indigo],[c_indigo,stone,c_indigo],[c_indigo,c_indigo,c_indigo]]);
+craftingTable.addShaped("blue_rune",<item:quark:blue_rune>,[[c_blue,c_blue,c_blue],[c_blue,stone,c_blue],[c_blue,c_blue,c_blue]]);
+craftingTable.addShaped("brown_rune",<item:quark:brown_rune>,[[c_blue,c_orange,c_blue],[c_orange,stone,c_orange],[c_blue,c_orange,c_blue]]);
+craftingTable.addShaped("green_rune",<item:quark:green_rune>,[[c_green,c_green,c_green],[c_green,stone,c_green],[c_green,c_green,c_green]]);
+craftingTable.addShaped("red_rune",<item:quark:red_rune>,[[c_red,c_red,c_red],[c_red,stone,c_red],[c_red,c_red,c_red]]);
+craftingTable.addShaped("black_rune",<item:quark:black_rune>,[[c_black,c_black,c_black],[c_black,stone,c_black],[c_black,c_black,c_black]]);
+
 println("END misc.zs");
