@@ -248,15 +248,15 @@ craftingTable.addShaped("white_crystal_pane",cp_white*16,[[c_white,c_white,c_whi
 craftingTable.addShaped("black_crystal_pane",cp_black*16,[[c_black,c_black,c_black],[c_black,c_black,c_black]]);
 
 //panes to blocks
-craftingTable.addShaped("red_crystal_pane",c_red*3,[[c_red,c_red,c_red],[c_red,air,c_red],[c_red,c_red,c_red]]);
-craftingTable.addShaped("orange_crystal_pane",c_orange*3,[[c_orange,c_orange,c_orange],[c_orange,air,c_orange],[c_orange,c_orange,c_orange]]);
-craftingTable.addShaped("yellow_crystal_pane",c_yellow*3,[[c_yellow,c_yellow,c_yellow],[c_yellow,air,c_yellow],[c_yellow,c_yellow,c_yellow]]);
-craftingTable.addShaped("green_crystal_pane",c_green*3,[[c_green,c_green,c_green],[c_green,air,c_green],[c_green,c_green,c_green]]);
-craftingTable.addShaped("blue_crystal_pane",c_blue*3,[[c_blue,c_blue,c_blue],[c_blue,air,c_blue],[c_blue,c_blue,c_blue]]);
-craftingTable.addShaped("indigo_crystal_pane",c_indigo*3,[[c_indigo,c_indigo,c_indigo],[c_indigo,air,c_indigo],[c_indigo,c_indigo,c_indigo]]);
-craftingTable.addShaped("violet_crystal_pane",c_violet*3,[[c_violet,c_violet,c_violet],[c_violet,air,c_violet],[c_violet,c_violet,c_violet]]);
-craftingTable.addShaped("white_crystal_pane",c_white*3,[[c_white,c_white,c_white],[c_white,air,c_white],[c_white,c_white,c_white]]);
-craftingTable.addShaped("black_crystal_pane",c_black*3,[[c_black,c_black,c_black],[c_black,air,c_black],[c_black,c_black,c_black]]);
+craftingTable.addShaped("red_crystal_pb",c_red*3,[[cp_red,cp_red,cp_red],[cp_red,air,cp_red],[cp_red,cp_red,cp_red]]);
+craftingTable.addShaped("orange_crystal_pb",c_orange*3,[[cp_orange,cp_orange,cp_orange],[cp_orange,air,cp_orange],[cp_orange,cp_orange,cp_orange]]);
+craftingTable.addShaped("yellow_crystal_pb",c_yellow*3,[[cp_yellow,cp_yellow,cp_yellow],[cp_yellow,air,cp_yellow],[cp_yellow,cp_yellow,cp_yellow]]);
+craftingTable.addShaped("green_crystal_pb",c_green*3,[[cp_green,cp_green,cp_green],[cp_green,air,cp_green],[cp_green,cp_green,cp_green]]);
+craftingTable.addShaped("blue_crystal_pb",c_blue*3,[[cp_blue,cp_blue,cp_blue],[cp_blue,air,cp_blue],[cp_blue,cp_blue,cp_blue]]);
+craftingTable.addShaped("indigo_crystal_pb",c_indigo*3,[[cp_indigo,cp_indigo,cp_indigo],[cp_indigo,air,cp_indigo],[cp_indigo,cp_indigo,cp_indigo]]);
+craftingTable.addShaped("violet_crystal_pb",c_violet*3,[[cp_violet,cp_violet,cp_violet],[cp_violet,air,cp_violet],[cp_violet,cp_violet,cp_violet]]);
+craftingTable.addShaped("white_crystal_pb",c_white*3,[[cp_white,cp_white,cp_white],[cp_white,air,cp_white],[cp_white,cp_white,cp_white]]);
+craftingTable.addShaped("black_crystal_pb",c_black*3,[[cp_black,cp_black,cp_black],[cp_black,air,cp_black],[cp_black,cp_black,cp_black]]);
 
 //Runes
 var stone = <tag:items:forge:stone>;
