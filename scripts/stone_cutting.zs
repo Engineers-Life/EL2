@@ -49,7 +49,10 @@ for baseName in [
         "minecraft:cobblestone",
         "minecraft:smooth_red_sandstone",
         "minecraft:smooth_sandstone",
-        "quark:elder_prismarine" ] {
+        "quark:duskbound_block",
+        "quark:elder_prismarine",
+        "quark:midori_block",
+        "quark:sandy_bricks" ] {
     inputTierParent.put(baseName,"");
     inputTierLevel.put(baseName,1);
     inputTierCost.put(baseName,1.0 as double);
