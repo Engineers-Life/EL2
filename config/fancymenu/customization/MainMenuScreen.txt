@@ -37,7 +37,7 @@ customization {
   orientation = bottom-centered
   x = -100
   action = movebutton
-  y = -183
+  y = -182
 }
 
 customization {
@@ -118,7 +118,7 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover_q.png
+  backgroundhovered = config/fancymenu/button_hover.png
   backgroundnormal = config/fancymenu/button_normal.png
 }
 
@@ -240,7 +240,7 @@ customization {
   fadeinspeed = 0.6
   x = 1
   width = 99
-  actionid = cac04197-f40e-4ad9-a0b4-04d7d494b16d1618426282663
+  actionid = 0f2563c7-90eb-4bf7-a365-e058dd01b6d91620549476383
   action = addbutton
   y = -128
   delayappearance = true
@@ -260,7 +260,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 73d661e7-a4a6-4036-9fcc-062d60ef81011618426282687
+  actionid = 123a81ab-c7ff-47a5-acc6-0bd212eab07c1620549476386
   action = addbutton
   y = -106
   delayappearance = true
@@ -281,7 +281,7 @@ customization {
   fadeinspeed = 0.6
   x = -100
   width = 200
-  actionid = 106a13a9-dd52-4c1c-9403-ec9679d772621618426282708
+  actionid = fae3176e-b942-4fe2-95d8-30f1fa03a2291620549476389
   action = addbutton
   y = -84
   delayappearance = true
@@ -301,7 +301,7 @@ customization {
   fadeinspeed = 1.0
   x = -100
   width = 98
-  actionid = 5320ba93-68ad-4f9f-b0ce-20ab17e2a88c1618426282747
+  actionid = 758f07fb-a4c4-4f1b-9d5d-a782ca63a4431620549476392
   action = addbutton
   y = -40
   delayappearance = true
@@ -322,14 +322,7 @@ customization {
 customization {
   identifier = %id=376382%
   action = setbuttonlabel
-  value = L
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal.png
+  value = 
 }
 
 customization {
@@ -351,7 +344,7 @@ customization {
   fadeinspeed = 1.0
   x = 2
   width = 98
-  actionid = 3356928e-1018-4403-bbce-3cc40637b0f71618426282767
+  actionid = c5c29223-dafc-491a-ba87-5549d2844d231620549476395
   action = addbutton
   y = -40
   delayappearance = true
