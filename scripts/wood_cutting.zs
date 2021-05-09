@@ -58,6 +58,27 @@ costOfWood.put("immersiveengineering:stick_treated",1.0 as double);
 typeOfWood.put("immersiveengineering:stick_treated","treated");
 costOfWood.put("immersiveengineering:treated_wood_horizontal",2.0 as double);
 typeOfWood.put("immersiveengineering:treated_wood_horizontal","treated");
+for special_plank in [
+        "quark:white_stained_planks",
+        "quark:orange_stained_planks",
+        "quark:magenta_stained_planks",
+        "quark:light_blue_stained_planks",
+        "quark:yellow_stained_planks",
+        "quark:lime_stained_planks",
+        "quark:pink_stained_planks",
+        "quark:gray_stained_planks",
+        "quark:light_gray_stained_planks",
+        "quark:cyan_stained_planks",
+        "quark:purple_stained_planks",
+        "quark:blue_stained_planks",
+        "quark:brown_stained_planks",
+        "quark:green_stained_planks",
+        "quark:red_stained_planks",
+        "quark:black_stained_planks"
+    ] {
+    costOfWood.put(special_plank,2.0 as double);
+    typeOfWood.put(special_plank,special_plank);
+}
 
 // attempt to deduce what types of logs make what type of plank
 // logType should end up with plank keys ("minecraft:oak_planks") and IIngredient values (list of oak log types)
@@ -241,12 +262,5 @@ for outputString in costOfWood.keySet {
 }
 
 cutter.removeRecipe(air);
-
-// remove WOOD cutting recipes from STONE cutter
-for wrapper in stoneCutter.getAllRecipes() {
-    if (wrapper.ingredients[0].items[0] in <tag:items:minecraft:planks>.getElements()) {
-        stoneCutter.removeRecipe(wrapper.output);
-    }
-}
 
 println("END wood_cutting.zs");
