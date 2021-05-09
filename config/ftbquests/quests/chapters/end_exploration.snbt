@@ -10,7 +10,7 @@
 		{
 			title: "Dovahkiin",
 			icon: "minecraft:dragon_head",
-			x: -6.5d,
+			x: -7.0d,
 			y: -1.0d,
 			description: ["Ok well I really didn't expect that down here....."],
 			dependencies: ["00000000000014E8"],
@@ -61,7 +61,7 @@
 		},
 		{
 			x: -3.5d,
-			y: -4.5d,
+			y: -5.5d,
 			description: [
 				"Hey I can fly around pretty good with these.",
 				"Probably should bring a good number of ender pearls with me though to get one."
@@ -143,7 +143,7 @@
 			title: "Foggy Mushroom Land",
 			icon: "betterendforge:mossy_glowshroom_fur",
 			x: -4.0d,
-			y: -3.5d,
+			y: -4.5d,
 			description: ["Flower-filled land covered with giant bioluminescent glowshroom trees."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001536",
@@ -162,7 +162,7 @@
 		{
 			icon: "betterendforge:twisted_umbrella_moss_tall",
 			x: -3.0d,
-			y: -3.5d,
+			y: -4.5d,
 			description: ["Thick forest of hanging vines, Umbrella trees, and jellyshrooms."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001538",
@@ -181,7 +181,7 @@
 		},
 		{
 			x: -2.0d,
-			y: -3.0d,
+			y: -4.0d,
 			description: ["Large stars of ice and snow that exist between ender islands."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000153A",
@@ -200,7 +200,7 @@
 		},
 		{
 			x: -5.0d,
-			y: 1.0d,
+			y: 2.0d,
 			description: ["A layered mountainous land of various ender rocks."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000153C",
@@ -219,7 +219,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 1.5d,
+			y: 2.5d,
 			description: ["A forest of Chorus plants and Pythadendron trees."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000153E",
@@ -238,7 +238,7 @@
 		},
 		{
 			x: -2.0d,
-			y: 1.0d,
+			y: 2.0d,
 			description: ["A land filled with various stacks of sulfur vents that contain their own water based ecosystems. Are worth a dive into."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001540",
@@ -256,8 +256,8 @@
 			}]
 		},
 		{
-			x: -1.1285714285714334d,
-			y: 0.3571428571428612d,
+			x: -0.5d,
+			y: 0.5d,
 			description: ["A vibrant orange land with thick ground cover and large Helix trees."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001542",
@@ -275,7 +275,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 0.0d,
 			y: -1.5d,
 			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."],
 			dependencies: ["0000000000001534"],
@@ -295,7 +295,7 @@
 		},
 		{
 			x: -5.0d,
-			y: -3.0d,
+			y: -4.0d,
 			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be more like a grassland than a lake."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001546",
@@ -313,8 +313,8 @@
 			}]
 		},
 		{
-			x: -1.1571428571428513d,
-			y: -2.328571428571429d,
+			x: -0.5d,
+			y: -2.5d,
 			description: ["End stone spires covered in pink Tenanea trees and vines."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001548",
@@ -332,8 +332,8 @@
 			}]
 		},
 		{
-			x: -6.0142857142857125d,
-			y: 0.24285714285714732d,
+			x: -6.5d,
+			y: 0.5d,
 			description: ["Dark forest of Dragon trees and shadow plants."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000154A",
@@ -351,8 +351,8 @@
 			}]
 		},
 		{
-			x: -5.9857142857142875d,
-			y: -2.299999999999997d,
+			x: -6.5d,
+			y: -2.5d,
 			description: ["Deep lakes in the nether filled with End Lotus flowers."],
 			dependencies: ["0000000000001534"],
 			id: "000000000000154C",
@@ -395,7 +395,7 @@
 		},
 		{
 			x: -4.0d,
-			y: 1.5d,
+			y: 2.5d,
 			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."],
 			dependencies: ["0000000000001534"],
 			id: "0000000000001550",
@@ -1063,7 +1063,7 @@
 		},
 		{
 			x: -3.5d,
-			y: 2.5d,
+			y: 3.5d,
 			description: ["A unique light source that can only be found in end cities. Is also a very useful Tetra piece if used as a tool rod."],
 			dependencies: ["0000000000001534"],
 			id: "00000000000015AD",
@@ -1080,7 +1080,7 @@
 		},
 		{
 			title: "Glowing Grasslands",
-			x: -0.5d,
+			x: 0.0d,
 			y: -0.5d,
 			description: ["A flat grassland that is extremely grassy and has lumecorn sprouts."],
 			dependencies: ["0000000000001534"],
@@ -1096,6 +1096,82 @@
 				id: "36D62F1C10D1836A",
 				type: "random",
 				table_id: 1520L
+			}]
+		},
+		{
+			x: -5.845238095238102d,
+			y: 1.404761904761898d,
+			description: ["The end version of a desert with bright glowing cactus."],
+			dependencies: ["0000000000001534"],
+			id: "04CB959771837CBC",
+			tasks: [{
+				id: "305297DEF138CBDD",
+				type: "biome",
+				title: "Neon Oasis",
+				icon: "betterendforge:neon_cactus",
+				biome: "betterendforge:neon_oasis"
+			}],
+			rewards: [{
+				id: "0F457F9B57B958C7",
+				type: "random",
+				table_id: 1520L
+			}]
+		},
+		{
+			x: -5.86904761904762d,
+			y: -3.404761904761912d,
+			description: ["A red grassland containing obsidian pillars and Amaranita mushrooms, but small and large."],
+			dependencies: ["0000000000001534"],
+			id: "4B317E4ACF0FDD5C",
+			tasks: [{
+				id: "26648C16CA5FB0C0",
+				type: "biome",
+				title: "Dragon Graveyards",
+				icon: "betterendforge:mossy_obsidian",
+				biome: "betterendforge:dragon_graveyards"
+			}],
+			rewards: [{
+				id: "44D3D9182DD54285",
+				type: "random",
+				table_id: 1483L
+			}]
+		},
+		{
+			x: -1.1309523809523867d,
+			y: 1.309523809523803d,
+			description: ["A low scrub biome with only small grasses."],
+			dependencies: ["0000000000001534"],
+			id: "4BEBCD3B018B6281",
+			tasks: [{
+				id: "1AA464137B7BFAC4",
+				type: "biome",
+				title: "Dry Shrubland",
+				icon: "betterendforge:lutebus",
+				biome: "betterendforge:dry_shrubland"
+			}],
+			rewards: [{
+				id: "63F01C5AA9EE26AF",
+				type: "random",
+				table_id: 1520L
+			}]
+		},
+		{
+			x: -1.1785714285714235d,
+			y: -3.3095238095238173d,
+			description: ["A dense orange forest of Lucernia trees with floating Filalux."],
+			dependencies: ["0000000000001534"],
+			id: "17BAEB0F74B0E068",
+			tasks: [{
+				id: "41CE41E893F1E773",
+				type: "biome",
+				title: "Lantern Woods",
+				icon: "betterendforge:filalux",
+				biome: "betterendforge:lantern_woods"
+			}],
+			rewards: [{
+				id: "74F163C333081AE3",
+				type: "random",
+				table_id: 1483L
 			}]
 		}
 	]
