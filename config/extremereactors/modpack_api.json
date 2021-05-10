@@ -1,5 +1,58 @@
 {
   "Enabled": true,
+    "ReactorReactants": {
+    "WipeExistingValuesBeforeAdding": true,
+    "Add": [
+      {
+        "IsFuel": true,
+       "RgbColour": 13023828,
+        "Name": "Yellorium",
+        "TranslationKey": "reactant.bigreactors.yellorium"
+      },
+      {
+        "IsFuel": false,
+        "RgbColour": 52533,
+        "Name": "Cyanite",
+        "TranslationKey": "reactant.bigreactors.cyanite"
+     }
+    ]
+  },
+  "ReactorReactantSources": {
+    "WipeExistingValuesBeforeAdding": true,
+    "Add": [
+      {
+        "SourceTagId": "forge:ingots/yellorium",
+        "ProductName": "Yellorium",
+        "ProductQuantity": 1000
+      },
+      {
+        "SourceTagId": "forge:storage_blocks/yellorium",
+        "ProductName": "Yellorium",
+        "ProductQuantity": 9000
+      },
+      {
+        "SourceTagId": "forge:ingots/cyanite",
+        "ProductName": "Cyanite",
+        "ProductQuantity": 1000
+      },
+      {
+        "SourceTagId": "forge:storage_blocks/cyanite",
+        "ProductName": "Cyanite",
+        "ProductQuantity": 9000
+      }
+    ]
+  },
+  "ReactorReactantReaction": {
+    "WipeExistingValuesBeforeAdding": true,
+    "Add": [
+      {
+        "SourceReactant": "Yellorium",
+        "ProductReactant": "Cyanite",
+        "Reactivity": 1.05,
+        "FissionRate": 0.01
+      }
+    ]
+  },
   "ReactorSolidModerators": {
     "WipeExistingValuesBeforeAdding": false,
     "Add": [
