@@ -99,6 +99,25 @@ replaceByNameShapeless("simplefarming:black_dye",<item:minecraft:black_dye>,[<it
 changeIngredientsToTag([<item:immersivepetroleum:bitumen>,<item:mapperbase:raw_bitumen>],<tag:items:forge:bitumen>);
 changeItemListToBaseItem([<item:mapperbase:raw_bitumen>],<item:immersivepetroleum:bitumen>);
 
+// FOOD ITEMS
+
 replaceByName("vanillafoodpantry:sandwich/cyclops_sandwich",<item:vanillafoodpantry:cyclops_sandwich>*2,[[<tag:items:forge:foods/sandwich_breads>,<item:vanillafoodpantry:tangy_mayonnaise>,<tag:items:forge:cheese>],[<item:vanillafoodpantry:guardian_meat>,<tag:items:forge:ingredients/salad>]]);
+
+removeAllTagsAndHide(<item:simplefarming:raw_horse_meat>);
+removeFromListAndHide([campfire,furnace,smoker,<recipetype:charm:firing>],<item:simplefarming:cooked_horse_meat>);
+
+removeAllTagsAndHide(<item:simplefarming:raw_calamari>);
+removeFromListAndHide([campfire,furnace,smoker,<recipetype:charm:firing>],<item:simplefarming:fried_calamari>);
+
+removeAndHide(<item:veggie_way:dough>);
+removeAndHide(<item:pamhc2foodcore:doughitem>);
+removeAndHide(<item:vanillafoodpantry:leavening_agent>);
+removeAndHide(<item:vanillafoodpantry:leavening_agent_ball>);
+removeAndHide(<item:vanillafoodpantry:leavening_agent_pantry_block>);
+changeIngredientWithConversion(<item:pamhc2foodcore:doughitem>,<item:vanillafoodpantry:dough_ball>);
+changeIngredientWithConversion(<item:veggie_way:dough>,<item:vanillafoodpantry:dough_ball>);
+replaceByName("vanillafoodpantry:bakery/dough_ball",<item:vanillafoodpantry:dough_ball>*2,[[<tag:items:forge:tool_mixingbowl>,<tag:items:forge:flour>],[<tag:items:forge:water>,<tag:items:forge:salt>]]);
+removeAndHide(<item:vanillafoodpantry:cooked_dough>);
+changeIngredientsToTag([<item:vanillafoodpantry:leavening_agent_ball>],<tag:items:forge:salt>);
 
 println("END conflicts.zs");
