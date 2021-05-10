@@ -246,7 +246,7 @@ for outputString in costOfWood.keySet {
                             cutter.addJSONRecipe(recipe_name, {ingredient:{item:inputIngredient},result:outputString,count:outputAmount as int});
                         }
                     } else {
-                        println("LOG TYPE ERROR: Can't find "+inputType);
+                        // println("LOG TYPE ERROR: Can't find "+inputType);
                     }
                 }
             }
