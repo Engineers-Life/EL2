@@ -53,27 +53,27 @@
 		#Disable this if other mods need to smelt coal into their own products.
 		registerCoalForSmelting = true
 
-	#Define how ores generates in the world
+		#Define how ores generates in the world
 	[common.worldgen]
 		#Enable generation of Yellorite Ore.
-		yelloriteOreEnableWorldGen = true
+		yelloriteOreEnableWorldGen = false
 		#If false, disables all world gen from Extreme Reactors;
 		#all other worldgen settings are automatically ignored.
-		enableWorldGen = true
+		enableWorldGen = false
 		#User-set world generation version.
 		#Increase this by one if you want Extreme Reactors to re-run world generation in already modified chunks.
 		#Range: > 0
-		userWorldGenVersion = 1
+		userWorldGenVersion = 2
 		#Maximum number of Anglesite Ore clusters per chunk.
 		#Range: 1 ~ 16
 		anglesiteOreMaxClustersPerChunk = 2
 		#Enable generation of Anglesite Ore.
-		anglesiteOreEnableWorldGen = true
+		anglesiteOreEnableWorldGen = false
 		#Re-run world gen in chunks that have already been generated (once they have been loaded), 
 		#but have not been modified by Extreme Reactors before.
 		enableWorldRegeneration = false
 		#Enable generation of Benitoite Ore.
-		benitoiteOreEnableWorldGen = true
+		benitoiteOreEnableWorldGen = false
 		#Maximum number of Benitoite Ores to generate in each cluster.
 		#Range: 1 ~ 16
 		benitoiteOrePerCluster = 2
