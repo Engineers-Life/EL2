@@ -964,7 +964,7 @@
 		},
 		{
 			x: -8.5d,
-			y: 3.0d,
+			y: 1.5d,
 			description: ["A slightly more feature rich and decorative crafting station. Full features can be seen by holding shift + ctrl while hovering over the item."],
 			dependencies: ["0000000000000244"],
 			id: "0000000000000229",
@@ -1124,10 +1124,10 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 3.0d,
+			x: -10.0d,
+			y: 9.5d,
 			description: ['A special lantern that makes a 32 block long light "cone". Position can be adjusted by right clicking with the Engineer\'s Hammer.'],
-			dependencies: ["0000000000000244"],
+			dependencies: ["000000000000024A"],
 			id: "000000000000023A",
 			tasks: [{
 				id: "000000000000023B",
@@ -1304,10 +1304,10 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 1.5d,
+			x: -10.0d,
+			y: 8.0d,
 			description: ["A lantern that when provided RF creates as much light as a torch, but stops mob spawns within a 32 block radius."],
-			dependencies: ["0000000000000244"],
+			dependencies: ["000000000000022D"],
 			id: "000000000000024A",
 			tasks: [{
 				id: "000000000000024B",
@@ -2520,7 +2520,7 @@
 		},
 		{
 			title: "Industrial Lighting",
-			x: -8.5d,
+			x: -11.5d,
 			y: 1.5d,
 			dependencies: ["0000000000000244"],
 			id: "00000000000002C6",
