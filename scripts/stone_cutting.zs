@@ -89,6 +89,7 @@ while (inputTierLevel.size > sizeOfTierList) {
                         }
                     }
                     if couldBeThisRecipe { // went through whole recipe without invalidating it, so this may be a tier-defining recipe
+                        tierRecipe.remove(input); // work around for a bug in crafttweaker 1.16.5-7.1.0.280
                         tierRecipe.put(input,wrapper.id.toString());
                         lookingForTier = false;
                         var foundTier = "";
