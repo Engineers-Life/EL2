@@ -142,9 +142,11 @@ replaceByName("minecraft:fletching_table",<item:minecraft:fletching_table>,
 // Big Reactors
 removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_passive>);
 removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_active>);
-//<tag:blocks:forge:coils/copper>.add(<block:immersiveengineering:coil_lv>);
-//<tag:blocks:forge:coils/electrum>.add(<block:immersiveengineering:coil_mv>);
-//<tag:blocks:forge:coils/steel>.add(<block:immersiveengineering:coil_hv>);
+var uran = <item:immersiveengineering:dust_uranium>;
+craftingTable.addShaped("uranium_enrich", <item:bigreactors:yellorium_dust>*8, [
+    [uran,uran,uran],
+    [uran,<item:immersivepetroleum:gasoline_bucket>,uran],
+    [uran,uran,uran]]);
 
 // Better End Forge
 //<tag:blocks:forge:storage_blocks/aeternium>.add(<block:betterendforge:aeternium_block>);
