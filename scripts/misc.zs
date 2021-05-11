@@ -277,4 +277,7 @@ craftingTable.addShaped("green_rune",<item:quark:green_rune>,[[c_green,c_green,c
 craftingTable.addShaped("red_rune",<item:quark:red_rune>,[[c_red,c_red,c_red],[c_red,stone,c_red],[c_red,c_red,c_red]]);
 craftingTable.addShaped("black_rune",<item:quark:black_rune>,[[c_black,c_black,c_black],[c_black,stone,c_black],[c_black,c_black,c_black]]);
 
+// Prevent free buckets from cooking for blockheads kitchen
+craftingTable.removeByName("vanillafoodpantry:waterdrinks/bucket_potable_water_simple");
+
 println("END misc.zs");
