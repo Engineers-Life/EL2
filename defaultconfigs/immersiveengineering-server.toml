@@ -432,16 +432,16 @@
 	[ores.uranium]
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 4
+		vein_size = 5
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = 8
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 24
+		max_y = 32
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 2
+		avg_veins_per_chunk = 3
 		#Set this to true to allow retro-generation of uranium Ore.
 		retrogen_enable = false
 
