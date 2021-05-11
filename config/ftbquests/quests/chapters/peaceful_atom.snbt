@@ -18,7 +18,7 @@
 				"Let's build a simple reactor!",
 				"",
 				"To process Yellorium you will need the Arc Furnace.",
-				"(You can also use Uranium from Immersive Engineering as fuel)"
+				""
 			],
 			size: 2.0d,
 			id: "00000000000006F0",

@@ -3051,7 +3051,7 @@
 			}]
 		},
 		{
-			x: 9.636309523809437d,
+			x: 5.0d,
 			y: 0.5d,
 			shape: "gear",
 			description: ["This Iron seems to pulsate with a signal... "],
@@ -3096,11 +3096,11 @@
 			]
 		},
 		{
-			x: 4.636309523809437d,
+			x: 13.0d,
 			y: 0.5d,
 			shape: "gear",
 			description: ["Oh this ingot makes me tingle! I bet I can make some power with this."],
-			dependencies: ["0000000000000267"],
+			dependencies: ["009455CE7F67D2D9"],
 			size: 2.0d,
 			id: "0000000000001184",
 			tasks: [{
@@ -3637,6 +3637,48 @@
 				id: "101B78BFA2A9F855",
 				type: "item",
 				item: "vanillafoodpantry:fizzydrink_poppy"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 0.5d,
+			description: [
+				"Up to this point this tingly metal has been pretty useless..... I wonder if it could be processed to be a better material.",
+				"",
+				"Perhaps I should disolve the grit in some gasoline and see what I can extract."
+			],
+			dependencies: ["0000000000000267"],
+			id: "124CA5F8643ACDC1",
+			tasks: [{
+				id: "6D40C5DD92C00101",
+				type: "item",
+				item: "immersiveengineering:dust_uranium",
+				count: 8L
+			}],
+			rewards: [{
+				id: "24A1ACB3D24277A8",
+				type: "random",
+				table_id: 1982L
+			}]
+		},
+		{
+			title: "Yellowcake",
+			x: 10.824702380952402d,
+			y: 0.5059523809523796d,
+			description: ["Processed, but not edible. Cake made of this will make you a lot of energy, just not by eating."],
+			dependencies: ["124CA5F8643ACDC1"],
+			id: "009455CE7F67D2D9",
+			tasks: [{
+				id: "26C83096446B1803",
+				type: "item",
+				item: "bigreactors:yellorium_dust",
+				count: 8L
+			}],
+			rewards: [{
+				id: "2FD2D3E609FC5214",
+				type: "item",
+				item: "bigreactors:yellorium_dust",
+				count: 8
 			}]
 		}
 	]
