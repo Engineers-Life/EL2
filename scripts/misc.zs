@@ -139,15 +139,6 @@ replaceByName("storagedrawers:one_stack_upgrade",<item:storagedrawers:one_stack_
 replaceByName("minecraft:fletching_table",<item:minecraft:fletching_table>,
     [ [flint,flint],[plank,plank],[plank,plank] ] );
 
-// Big Reactors
-removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_passive>);
-removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_active>);
-var uran = <item:immersiveengineering:dust_uranium>;
-craftingTable.addShaped("uranium_enrich", <item:bigreactors:yellorium_dust>*8, [
-    [uran,uran,uran],
-    [uran,<item:immersivepetroleum:gasoline_bucket>,uran],
-    [uran,uran,uran]]);
-
 // Better End Forge
 //<tag:blocks:forge:storage_blocks/aeternium>.add(<block:betterendforge:aeternium_block>);
 //<tag:blocks:forge:storage_blocks/amber>.add(<block:betterendforge:amber_block>);
