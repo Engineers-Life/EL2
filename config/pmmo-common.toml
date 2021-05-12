@@ -114,13 +114,13 @@
 ["Mob Scaling"]
 	#What is the maximum amount an aggressive mob's damage will be boosted?
 	#Range: 0.0 ~ 1.0E9
-	maxMobDamageBoost = 100.0
+	maxMobDamageBoost = 50.0
 	#How much an aggresive mob's damage will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
 	mobDamageBoostPerPowerLevel = 1.0
 	#What is the maximum amount an aggressive mob's HP will be boosted?
 	#Range: 0.0 ~ 1024.0
-	maxMobHPBoost = 500.0
+	maxMobHPBoost = 250.0
 	#How much an aggresive mob's HP will increase per one Power Level?
 	#Range: 0.0 ~ 100.0
 	mobHPBoostPerPowerLevel = 5.0
@@ -418,7 +418,7 @@
 [Endurance]
 	#How much endurance is max (100 = god mode)
 	#Range: 0.0 ~ 100.0
-	maxEndurance = 50.0
+	maxEndurance = 25.0
 	#How much endurance you gain per level (1 = 1% per level)
 	#Range: 0.0 ~ 100.0
 	endurancePerLevel = 0.25
@@ -427,7 +427,7 @@
 	levelsPerHeart = 10.0
 	#How many Max Hearts you can have (20 means 10 vanilla + 20 boosted)
 	#Range: 0 ~ 1000000000
-	maxExtraHeartBoost = 100
+	maxExtraHeartBoost = 50
 	#How many half hearts regenerate per minute at level 0 Endurance (at 1, and at level 0 Endurance, you regenerate half a heart every 60 seconds, 0 means no base regeneration)
 	#Range: 0.0 ~ 1000.0
 	hpRegenPerMinuteBase = 1.0
@@ -436,7 +436,7 @@
 	hpRegenPerMinuteBoostPerLevel = 0.02
 	#Multiplier for xp gained in endurance from Regeneration
 	#Range: 0.0 ~ 1000000.0
-	hpRegenXpMultiplier = 15.23
+	hpRegenXpMultiplier = 10
 
 [Combat]
 	#How much percentage bonus damage do you get per Combat level in Melee?
@@ -444,7 +444,7 @@
 	damageBonusPercentPerLevelMelee = 0.005
 	#How much extra damage can you get from the Combat skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMelee = 100.0
+	maxExtraDamagePercentageBoostMelee = 25.0
 
 [Archery]
 	#How much percentage bonus damage do you get per Archery level in Archery?
@@ -452,7 +452,7 @@
 	damageBonusPercentPerLevelArchery = 0.005
 	#How much extra damage can you get from the Archery skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostArchery = 100.0
+	maxExtraDamagePercentageBoostArchery = 25.0
 
 [Smithing]
 	#Should PMMO anvil handling be enabled? (xp rewards for repair, and also Enchantment handling) (some mod items break, if you experience lost enchantments, set this to false)
