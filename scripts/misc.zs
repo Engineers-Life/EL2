@@ -12,23 +12,23 @@ removeAndHide(<item:constructionwand:core_destruction>);
 
 craftingTable.addShaped("larvikite_cobblestone", <item:embellishcraft:larvikite_cobblestone> * 8, [
     [cobblestone,cobblestone,cobblestone],
-    [cobblestone, <item:minecraft:blue_dye>, cobblestone], 
-	[cobblestone, cobblestone, cobblestone]]);
-	
+    [cobblestone, <item:minecraft:blue_dye>, cobblestone],
+    [cobblestone, cobblestone, cobblestone]]);
+
 craftingTable.addShaped("jade_cobblestone", <item:embellishcraft:jade_cobblestone> * 8, [
     [cobblestone,cobblestone,cobblestone],
-    [cobblestone, <item:minecraft:green_dye>, cobblestone], 
-	[cobblestone, cobblestone, cobblestone]]);
-	
+    [cobblestone, <item:minecraft:green_dye>, cobblestone],
+    [cobblestone, cobblestone, cobblestone]]);
+
 craftingTable.addShaped("gneiss_cobblestone", <item:embellishcraft:gneiss_cobblestone> * 8, [
     [cobblestone,cobblestone,cobblestone],
-    [cobblestone, <item:minecraft:white_dye>, cobblestone], 
-	[cobblestone, cobblestone, cobblestone]]);
-	
+    [cobblestone, <item:minecraft:white_dye>, cobblestone],
+    [cobblestone, cobblestone, cobblestone]]);
+
 craftingTable.addShaped("basalt_cobblestone", <item:embellishcraft:basalt_cobblestone> * 8, [
     [cobblestone,cobblestone,cobblestone],
-    [cobblestone, <item:minecraft:black_dye>, cobblestone], 
-	[cobblestone, cobblestone, cobblestone]]);
+    [cobblestone, <item:minecraft:black_dye>, cobblestone],
+    [cobblestone, cobblestone, cobblestone]]);
 
 removeAndHide(<item:productivebees:centrifuge>);
 replaceByName("productivebees:powered_centrifuge/vanilla",<item:productivebees:powered_centrifuge>, [
@@ -41,8 +41,8 @@ changeIngredient(<item:minecraft:campfire>,<item:minecraft:soul_campfire>);
 
 //craftingTable.removeRecipe(<item:farmersdelight:stove>);
 //craftingTable.addShaped("stove", <item:farmersdelight:stove>, [
-//[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>], 
-//[<item:minecraft:bricks>, air, <item:minecraft:bricks>], 
+//[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
+//[<item:minecraft:bricks>, air, <item:minecraft:bricks>],
 //[<item:minecraft:bricks>, <item:minecraft:furnace>, <item:minecraft:bricks>]], null);
 
 replaceByName("storagenetwork:master",<item:storagenetwork:master>, [
@@ -272,5 +272,8 @@ craftingTable.addShaped("black_rune",<item:quark:black_rune>,[[c_black,c_black,c
 
 // Prevent free buckets from cooking for blockheads kitchen
 craftingTable.removeByName("vanillafoodpantry:waterdrinks/bucket_potable_water_simple");
+
+moveTagsFromTo(<item:minecraft:rotten_flesh>,<item:betterdefaultbiomes:frozen_flesh>);
+changeIngredientsToTag([<item:minecraft:rotten_flesh>],<tag:items:forge:rotten_flesh>);
 
 println("END misc.zs");
