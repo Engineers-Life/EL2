@@ -203,6 +203,80 @@ function changeIngredient(fromIIng as IIngredient, toIIng as IIngredient) as voi
     changeIngredientCookingJSON(<recipetype:charm:firing>,fromIIng,toIIng,2.0,2.0);
 }
 
+
+function changeOutput(fromItem as IItemStack, toItem as IItemStack) as void {
+    // Currently unsupported:
+    // Smithing	        <recipetype:minecraft:smithing>	    smithing
+    // Stone Cutting	<recipetype:minecraft:stonecutting>	stoneCutter
+
+    val suffix = "_new_output";
+    var recipesToRemove = new List<string>();
+    // Crafting	        <recipetype:minecraft:crafting>	    craftingTable
+    for wrapper in craftingTable.getRecipesByOutput(fromItem) {
+        val width = recipeWidth(wrapper);
+        if (wrapper.canFit(width,recipeHeight(wrapper))) { // if can fit, then it is a shaped recipes.
+            var matrixGrid = new List<IIngredient[]>();
+            var matrixRow = new List<IIngredient>();
+            var cellIndex = 0;
+            for cell in wrapper.ingredients { // cell is IIngredient
+                matrixRow.add(cell);
+                cellIndex = cellIndex+1;
+                if (cellIndex % width == 0) {
+                    matrixGrid.add(matrixRow as IIngredient[]);
+                    matrixRow = new List<IIngredient>();
+                }
+            }
+            craftingTable.addShapedMirrored(wrapper.id.path+suffix,toItem*wrapper.output.amount,matrixGrid as IIngredient[][]);
+        } else {
+/*
+            var shapeless = new List<IIngredient>();
+            for cell in wrapper.ingredients { // cell is IIngredient
+                shapeless.add(cell);
+            }
+*/
+            craftingTable.addShapeless(wrapper.id.path+suffix,toItem*wrapper.output.amount,wrapper.ingredients as IIngredient[]);
+        }
+        recipesToRemove.add(wrapper.id.toString());
+    }
+    for recipeName in recipesToRemove {
+        craftingTable.removeByName(recipeName);
+    }
+
+    // Blasting	        <recipetype:minecraft:blasting>	    blastFurnace
+    // Campfire Cooking	<recipetype:minecraft:campfire_cooking>	campfire
+    // Smelting	        <recipetype:minecraft:smelting>	    furnace
+    // Smoking	        <recipetype:minecraft:smoking>	    smoker
+    val defaultValues = {
+        <recipetype:minecraft:blasting>         : { xp : 0.2 as float, cookTime :  5*20 as int },
+        <recipetype:minecraft:campfire_cooking> : { xp : 0.1 as float, cookTime : 10*20 as int },
+        <recipetype:minecraft:smelting>         : { xp : 0.1 as float, cookTime : 10*20 as int },
+        <recipetype:minecraft:smoking>          : { xp : 0.2 as float, cookTime :  5*20 as int } };
+    for manager in [<recipetype:minecraft:blasting>, <recipetype:minecraft:campfire_cooking>, <recipetype:minecraft:smelting>, <recipetype:minecraft:smoking>] {
+        recipesToRemove = new List<string>();
+        for wrapper in manager.getRecipesByOutput(fromItem) {
+/*
+            var ingList = new List<IIngredient>();
+            for cell in wrapper.ingredients { // cell is IIngredient
+                ingList.add(cell);
+            }
+            for count, ing in ingList {
+                manager.addRecipe(wrapper.id.path+suffix+"."+count,toItem*wrapper.output.amount,ing,defaultValues[manager]["xp"] as float,defaultValues[manager]["cookTime"] as int);
+            }
+*/
+            var ing = wrapper.ingredients[0] as IIngredient;
+            for cell in wrapper.ingredients {
+                ing = ing | cell;
+            }
+            manager.addRecipe(wrapper.id.path+suffix,toItem*wrapper.output.amount,ing,defaultValues[manager]["xp"] as float,defaultValues[manager]["cookTime"] as int);
+            recipesToRemove.add(wrapper.id.toString());
+        }
+        for recipeName in recipesToRemove {
+            manager.removeByName(recipeName);
+        }
+    }
+    changeOutputCookingJSON(<recipetype:charm:firing>,fromItem,toItem,2.0,2.0);
+}
+
 // xp and cookTime modifiers are beneficial, so xp is multiplied by the modifier and cookTime is divided by it.
 function changeIngredientCookingJSON(manager as IRecipeManager, fromIIng as IIngredient, toIIng as IIngredient, xpModifier as float, cookTimeModifier as float) as void {
     var cookingRecipesToRemove = new List<string>();
@@ -238,6 +312,33 @@ function changeIngredientCookingJSON(manager as IRecipeManager, fromIIng as IIng
     }
 }
 
+// xp and cookTime modifiers are beneficial, so xp is multiplied by the modifier and cookTime is divided by it.
+function changeOutputCookingJSON(manager as IRecipeManager, fromItem as IItemStack, toItem as IItemStack, xpModifier as float, cookTimeModifier as float) as void {
+    var cookingRecipesToRemove = new List<string>();
+    val xp = 0.1 * xpModifier;
+    val timeData = ( (10*20) / cookTimeModifier ) as IData;
+    val time = timeData.asNumber().getInt() as int;
+    for wrapper in manager.getRecipesByOutput(fromItem) {
+/*
+        var ingList = new List<IIngredient>();
+        for cell in wrapper.ingredients { // cell is IIngredient
+            ingList.add(cell);
+        }
+*/
+        var count = 0 as int;
+        for ing in wrapper.ingredients {
+            for inputItem in ing.items {
+                manager.addJSONRecipe(wrapper.id.path+".json"+"."+count, {ingredient:{item:inputItem.registryName},result:toItem.registryName,count:wrapper.output.amount,experience:xp as float,cookingtime:time as int});
+                count += 1;
+            }
+        }
+        cookingRecipesToRemove.add(wrapper.id.toString());
+    }
+    for recipeName in cookingRecipesToRemove {
+        manager.removeByName(recipeName);
+    }
+}
+
 function changeIngredientWithConversion(fromItem as IItemStack, toItem as IItemStack) as void {
     changeIngredient(fromItem,toItem);
     val conversionInput = new List<IIngredient>();
@@ -260,6 +361,29 @@ function changeItemListToBaseItem(itemList as IItemStack[], baseItem as IItemSta
             }
         }
         craftingTable.addShapeless("convert_to_"+validName(baseItem.registryName),baseItem,[ingredientFromList]);
+    }
+}
+
+function getSupportedRecipeTypes() as IRecipeManager[] {
+    return [craftingTable,<recipetype:charm:firing>,campfire,furnace,blastFurnace,smoker];
+}
+
+// Recipes using fromItems will instead use toItem.  toItem's recipe will be changed to the recipes use to make recipeBase
+function changeIngredientAndBaseRecipes(fromItems as IItemStack[], toItem as IItemStack, recipeBase as IItemStack[]) as void {
+    for item in fromItems {
+        changeIngredient(item,toItem);
+    }
+    if (!(toItem in recipeBase)) {
+        removeFromList(getSupportedRecipeTypes(),toItem);
+    }
+    for item in recipeBase {
+        if (!(item.matches(toItem))) {
+            changeOutput(item,toItem);
+        }
+    }
+    changeItemListToBaseItem(fromItems,toItem);
+    for item in fromItems {
+        removeAndHide(item);
     }
 }
 
