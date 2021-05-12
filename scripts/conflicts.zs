@@ -120,4 +120,9 @@ replaceByName("vanillafoodpantry:bakery/dough_ball",<item:vanillafoodpantry:doug
 removeAndHide(<item:vanillafoodpantry:cooked_dough>);
 changeIngredientsToTag([<item:vanillafoodpantry:leavening_agent_ball>],<tag:items:forge:salt>);
 
+changeIngredientWithConversion(<item:pamhc2foodcore:friedeggitem>,<item:vanillafoodpantry:fried_egg>);
+removeAndHide(<item:pamhc2foodcore:friedeggitem>);
+
+changeIngredientAndBaseRecipes([<item:pamhc2foodcore:flouritem>,<item:veggie_way:flour>],<item:vanillafoodpantry:portion_flour>,[<item:pamhc2foodcore:flouritem>,<item:veggie_way:flour>,<item:vanillafoodpantry:portion_flour>]);
+
 println("END conflicts.zs");
