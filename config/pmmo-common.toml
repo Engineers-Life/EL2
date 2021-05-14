@@ -120,7 +120,7 @@
 	mobDamageBoostPerPowerLevel = 1.0
 	#What is the maximum amount an aggressive mob's HP will be boosted?
 	#Range: 0.0 ~ 1024.0
-	maxMobHPBoost = 1000.0
+	maxMobHPBoost = 100.0
 	#How much an aggresive mob's HP will increase per one Power Level?
 	#Range: 0.0 ~ 100.0
 	mobHPBoostPerPowerLevel = 5.0
