@@ -46,7 +46,7 @@
 	#Range: > 0
 	cupidBeeAnimalDensity = 15
 	#Spawn skeletal and zombie bees as night?
-	spawnUndeadBees = false
+	spawnUndeadBees = true
 
 ["Bee attributes"]
 	#Number of ticks between effects on nearby entities
