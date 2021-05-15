@@ -504,6 +504,7 @@
 			]
 		},
 		{
+			title: "Corn and Soybean Seeds",
 			x: -2.5d,
 			y: -1.5d,
 			dependencies: ["00000000000001DE"],
@@ -552,9 +553,10 @@
 					count: 6
 				},
 				{
-					id: "00000000000003F0",
+					id: "7088C57B08D84144",
 					type: "item",
-					item: "quark:magenta_candle"
+					item: "simplefarming:cumin_seeds",
+					count: 2
 				}
 			]
 		},
@@ -1824,6 +1826,7 @@
 			}]
 		},
 		{
+			title: "Lentil and Quinoa Seeds",
 			x: -5.5d,
 			y: -1.5d,
 			dependencies: ["00000000000001DE"],
