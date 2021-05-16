@@ -7,11 +7,11 @@
 	[blocks.pedestal]
 		#enable displayed item spin
 		spin = true
-		#enable swords to display inserted into the block
-		fancy_swords = true
 		#spin speed
 		#Range: 0.0 ~ 100.0
 		speed = 2.0
+		#enable special display types for items like swords, tridents or end crystals
+		fancy_renderers = true
 
 	[blocks.clock_block]
 		#display 24h time format. False for 12h format
@@ -41,16 +41,21 @@
 		globe_colors = [["minecraft:overworld", "23658d", "25527d", "1d396d", "2d8a5c", "34a03a", "6ea14b", "89a83d", "b5ba65", "ccd7d5", "83b4c6", "2f83a2", "826e71"]]
 
 	[blocks.flag]
-		#Range: 0.0 ~ 100.0
-		amplitude = 1.0
+		#(period of oscillation) how slow a flag will oscillate. lower value = faster oscillation
+		#Range: 0 ~ 10000
+		slowness = 100
+		#(wavelength) how wavy the animation will be in pixels
 		#Range: 0.001 ~ 100.0
-		wavelenght = 15.0
-		#I don't remember what these are, I'll adde proper descriptions later. names may be a bit random and non descriptive
+		wavyness = 6.0
+		#(wave amplitude) how tall the wave lobes will be
+		#Range: 0.0 ~ 100.0
+		intensity = 1.0
+		#(amplitude increment per pixel) how much the wave amplitude increases each pixel
 		#Range: 0.0 ~ 10.0
-		speed = 1.0
-		#how much the wave amplitude increases each pixel
-		#Range: 0.0 ~ 10.0
-		amplitude_increment = 0.3
+		intensity_increment = 0.3
+		#at which graphic settings flags will have a fancy renderer: 0=fast, 1=fancy, 2=fabulous
+		#Range: 0 ~ 2
+		fanciness = 2
 
 	[blocks.wind_vane]
 		#this should be kept period_1/3 for a symmetric animation
