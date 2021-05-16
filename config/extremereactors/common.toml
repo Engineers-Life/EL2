@@ -53,7 +53,7 @@
 		#Disable this if other mods need to smelt coal into their own products.
 		registerCoalForSmelting = true
 
-		#Define how ores generates in the world
+	#Define how ores generates in the world
 	[common.worldgen]
 		#Enable generation of Yellorite Ore.
 		yelloriteOreEnableWorldGen = false
