@@ -11,6 +11,8 @@ Modpack Version: #### (Latest is not a version number)
 
 If you have Optifine installed, first uninstall it and confirm the issue still occurs if it is repeatable.
 
+**WE DO NOT PROVIDE SUPPORT TO HEAVILY MODIFIED MODPACKS. OUR PACK IS CURATED FOR WORKABILITY AND NO CONTENT OVERLAP, NOT ADDING ADDITIONAL MODS TO.**
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
