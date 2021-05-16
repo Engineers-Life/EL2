@@ -41,11 +41,6 @@
 	#Range: 1 ~ 16
 	witherMaxPacks = 3
 
-[lootTables]
-	#
-	#Allow packs to be obtained through Piglin bartering, default is true
-	piglinBartering = true
-
 [integration]
 	#
 	#Odds of fishing up an Aquaculture set card or pack while using a buddycard hook, 0-1, default is .075
@@ -65,15 +60,15 @@
 	#Range: 1 ~ 100
 	pointsUncommon = 2
 	#
-	#Base challenge points for rare cards, 1-100, default is 3
+	#Base challenge points for rare cards, 1-100, default is 4
 	#Range: 1 ~ 100
 	pointsRare = 3
 	#
-	#Base challenge points for epic cards, 1-100, default is 5
+	#Base challenge points for epic cards, 1-100, default is 8
 	#Range: 1 ~ 100
 	pointsEpic = 5
 	#
-	#Multiplier for challenge points on shiny cards, 0-10, default is 1.25
+	#Multiplier for challenge points on shiny cards, 0-10, default is 1.5
 	#Range: 0.0 ~ 10.0
 	shinyMultiplier = 1.25
 	#
@@ -129,4 +124,18 @@
 	#
 	#Enables medal effects, default is true
 	doMedalEffects = true
+
+[enderling]
+	#
+	#Odds for an Enderling to spawn with an Enderman in the End, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	endOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Nether, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	netherOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Overworld, 0-1, default is 1.5%
+	#Range: 0.0 ~ 1.0
+	overOdds = 0.015
 
