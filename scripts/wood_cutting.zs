@@ -51,13 +51,15 @@ var typeOfWood = new MapData();
 
 var specialTypes = ["any","treated","UNKNOWN"];
 
-// these may be needed since they don't follow normal recipes (due to axe-based recipes).
+// these may be needed since they don't follow normal recipes.
 costOfWood.put("minecraft:stick",1.0 as double);
 typeOfWood.put("minecraft:stick","any");
 costOfWood.put("immersiveengineering:stick_treated",1.0 as double);
 typeOfWood.put("immersiveengineering:stick_treated","treated");
 costOfWood.put("immersiveengineering:treated_wood_horizontal",2.0 as double);
 typeOfWood.put("immersiveengineering:treated_wood_horizontal","treated");
+costOfWood.put("tetra:modular_double",256.0 as double); // priced out of range
+typeOfWood.put("tetra:modular_double","minecraft:spruce_planks");
 for special_plank in [
         "quark:white_stained_planks",
         "quark:orange_stained_planks",
