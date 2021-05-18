@@ -31,7 +31,8 @@ craftingTable.addShaped("basalt_cobblestone", <item:embellishcraft:basalt_cobble
     [cobblestone, cobblestone, cobblestone]]);
 
 removeAndHide(<item:productivebees:centrifuge>);
-replaceByName("productivebees:powered_centrifuge/vanilla",<item:productivebees:powered_centrifuge>, [
+craftingTable.removeRecipe(<item:productivebees:powered_centrifuge>);
+craftingTable.addShaped("productivebees.powered_centrifuge",<item:productivebees:powered_centrifuge>, [
     [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
     [<item:minecraft:piston>, <item:minecraft:grindstone>, <item:minecraft:piston>],
     [<item:minecraft:redstone>, <item:minecraft:iron_ingot>, <item:minecraft:redstone>] ]);
