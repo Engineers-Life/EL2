@@ -116,22 +116,22 @@
 ["Mob Scaling"]
 	#What is the maximum amount an aggressive mob's damage will be boosted?
 	#Range: 0.0 ~ 1.0E9
-	maxMobDamageBoost = 50.0
+	maxMobDamageBoost = 25.0
 	#How much an aggresive mob's damage will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobDamageBoostPerPowerLevel = 1.0
+	mobDamageBoostPerPowerLevel = 0.1
 	#What is the maximum amount an aggressive mob's HP will be boosted?
 	#Range: 0.0 ~ 1024.0
-	maxMobHPBoost = 100.0
+	maxMobHPBoost = 30.0
 	#How much an aggresive mob's HP will increase per one Power Level?
 	#Range: 0.0 ~ 100.0
-	mobHPBoostPerPowerLevel = 5.0
+	mobHPBoostPerPowerLevel = 0.1
 	#What is the maximum amount an aggressive mob's speed will be boosted?
 	#Range: 0.0 ~ 100.0
-	maxMobSpeedBoost = 2.0
+	maxMobSpeedBoost = 1.25
 	#How much an aggresive mob's speed will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
-	mobSpeedBoostPerPowerLevel = 1.0
+	mobSpeedBoostPerPowerLevel = 0.01
 	#Should mob xp multipliers inside of biomes be enabled? false means no multipliers
 	biomeMobMultiplierEnabled = true
 
