@@ -15,7 +15,7 @@
 	#Range: 0.0 ~ 100.0
 	scaleXpBoostByDurabilityEnd = 75.0
 	#Should a warning come up if your Project MMO is outdated?
-	warnOutdatedVersion = true
+	warnOutdatedVersion = false
 
 [Party]
 	#In what range do Party members have to be to benefit from the other members?
