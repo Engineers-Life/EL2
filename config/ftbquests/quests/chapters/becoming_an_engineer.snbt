@@ -2743,9 +2743,7 @@
 			x: -9.0d,
 			y: 7.5d,
 			description: [
-				"These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench.",
-				"",
-				""
+				"These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench."
 			],
 			dependencies: ["000000000000022D"],
 			id: "000000000000102E",
@@ -2789,9 +2787,7 @@
 			description: [
 				"Great sources of knowledge in your coming adventures in industry and automation.",
 				"",
-				"For any Immersive Engineering multiblock structure you can check the manual for a breakdown on how to build the structure and its full function.",
-				"",
-				""
+				"For any Immersive Engineering multiblock structure you can check the manual for a breakdown on how to build the structure and its full function."
 			],
 			dependencies: ["0000000000000F99"],
 			id: "0000000000001031",
