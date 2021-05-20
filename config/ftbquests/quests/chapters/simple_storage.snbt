@@ -412,9 +412,7 @@
 			x: 8.0d,
 			y: 1.5d,
 			description: [
-				"The Network Guide Book will be your guide to Simple Storage Network machines and mechanics.",
-				"",
-				""
+				"The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."
 			],
 			dependencies: ["00000000000001A7"],
 			id: "0000000000001247",
