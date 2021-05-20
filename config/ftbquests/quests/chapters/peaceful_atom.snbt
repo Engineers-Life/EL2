@@ -698,9 +698,7 @@
 			x: 10.5d,
 			y: -1.5d,
 			description: [
-				"This manual will let you know all about the blocks from Extreme Reactors. Reference it often!",
-				"",
-				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+				"This manual will let you know all about the blocks from Extreme Reactors. Reference it often!"
 			],
 			dependencies: ["00000000000006F0"],
 			id: "0000000000001186",
