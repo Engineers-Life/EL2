@@ -11,9 +11,7 @@
 			x: -5.5d,
 			y: -1.0d,
 			description: [
-				"This manual will explain the mechanics and machines of Transport.",
-				"",
-				""
+				"This manual will explain the mechanics and machines of Transport."
 			],
 			dependencies: ["000000000000075C"],
 			id: "0000000000000740",
