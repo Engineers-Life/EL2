@@ -2745,50 +2745,32 @@
 			description: [
 				"These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench.",
 				"",
-				"*You will need to search for the recipes to these blueprints in JEI. We do know about the popup error, there is nothing we can do about it currently.*"
+				""
 			],
 			dependencies: ["000000000000022D"],
 			id: "000000000000102E",
 			tasks: [
 				{
-					id: "42C2339BC1432CA5",
+					id: "78613D2C42AEBA70",
 					type: "item",
-					title: "Engineer's Blueprint: Molds",
-					icon: {
-						id: "immersiveengineering:blueprint",
-						Count: 1b,
-						tag: {
-							blueprint: "molds"
-						}
-					},
+					title: "Engineer's Blueprint: Crafting Components",
 					item: {
-						id: "itemfilters:strong_nbt",
-						Count: 1b,
-						tag: {
-							value: {
-								blueprint: "molds"
-							}
-						}
-					}
-				},
-				{
-					id: "2906A374198217F4",
-					type: "item",
-					title: "Engineer's Blueprints: Components",
-					icon: {
 						id: "immersiveengineering:blueprint",
 						Count: 1b,
 						tag: {
 							blueprint: "components"
 						}
-					},
+					}
+				},
+				{
+					id: "556057E3D4134BFE",
+					type: "item",
+					title: "Engineer's Blueprint: Molds",
 					item: {
-						id: "itemfilters:strong_nbt",
+						id: "immersiveengineering:blueprint",
 						Count: 1b,
 						tag: {
-							value: {
-								blueprint: "components"
-							}
+							blueprint: "molds"
 						}
 					}
 				}
@@ -2809,7 +2791,7 @@
 				"",
 				"For any Immersive Engineering multiblock structure you can check the manual for a breakdown on how to build the structure and its full function.",
 				"",
-				"*You will have to search for the Engineer's Decor manual recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+				""
 			],
 			dependencies: ["0000000000000F99"],
 			id: "0000000000001031",
@@ -2820,23 +2802,13 @@
 					item: "immersiveengineering:manual"
 				},
 				{
-					id: "0AC97E53608ABE6E",
+					id: "49D71F40F62EE8DE",
 					type: "item",
-					title: "Engineer's Decor",
-					icon: {
+					item: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "engineersdecor:engineersdecor_manual"
-						}
-					},
-					item: {
-						id: "itemfilters:strong_nbt",
-						Count: 1b,
-						tag: {
-							value: {
-								"patchouli:book": "engineersdecor:engineersdecor_manual"
-							}
 						}
 					}
 				}

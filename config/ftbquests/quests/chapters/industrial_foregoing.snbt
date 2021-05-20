@@ -456,28 +456,18 @@
 			description: [
 				"The Industrial Foregoing Manual will give larger descriptions of its machines.",
 				"",
-				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+				""
 			],
 			dependencies: ["0000000000000614"],
 			id: "00000000000011DC",
 			tasks: [{
-				id: "11D35CD8913AFF88",
+				id: "6E5F9F0F6DE280B2",
 				type: "item",
-				title: "Industrial Foregoing's Manual",
-				icon: {
+				item: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "industrialforegoing:industrial_foregoing"
-					}
-				},
-				item: {
-					id: "itemfilters:strong_nbt",
-					Count: 1b,
-					tag: {
-						value: {
-							"patchouli:book": "industrialforegoing:industrial_foregoing"
-						}
 					}
 				}
 			}],

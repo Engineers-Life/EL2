@@ -13,28 +13,18 @@
 			description: [
 				"This manual will explain the mechanics and machines of Transport.",
 				"",
-				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+				""
 			],
 			dependencies: ["000000000000075C"],
 			id: "0000000000000740",
 			tasks: [{
-				id: "29993B61EEF1D11D",
+				id: "51DE91430A9B53B0",
 				type: "item",
-				title: "Advanced Transport",
-				icon: {
+				item: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "transport:guide"
-					}
-				},
-				item: {
-					id: "itemfilters:strong_nbt",
-					Count: 1b,
-					tag: {
-						value: {
-							"patchouli:book": "transport:guide"
-						}
 					}
 				}
 			}],

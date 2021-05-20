@@ -414,28 +414,18 @@
 			description: [
 				"The Network Guide Book will be your guide to Simple Storage Network machines and mechanics.",
 				"",
-				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+				""
 			],
 			dependencies: ["00000000000001A7"],
 			id: "0000000000001247",
 			tasks: [{
-				id: "38126F8C0BCB7AE7",
+				id: "33818785937E10F5",
 				type: "item",
-				title: "Network Guide Book",
-				icon: {
+				item: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "storagenetwork:network_book"
-					}
-				},
-				item: {
-					id: "itemfilters:strong_nbt",
-					Count: 1b,
-					tag: {
-						value: {
-							"patchouli:book": "storagenetwork:network_book"
-						}
 					}
 				}
 			}],

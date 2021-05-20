@@ -13,28 +13,18 @@
 			description: [
 				"Will help you with all the info about the Productive Bees mod.",
 				"",
-				"*You will have to search for the book recipe in JEI. We know about the error when the item in the tasks section is clicked but there is nothing we can do about it unfortunately.*"
+				""
 			],
 			dependencies: ["000000000000078F"],
 			id: "0000000000000779",
 			tasks: [{
-				id: "1E9E97FB250BEC42",
+				id: "255D63473F896235",
 				type: "item",
-				title: "Big Book Of Bees",
-				icon: {
+				item: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "productivebees:guide"
-					}
-				},
-				item: {
-					id: "itemfilters:strong_nbt",
-					Count: 1b,
-					tag: {
-						value: {
-							"patchouli:book": "productivebees:guide"
-						}
 					}
 				}
 			}],

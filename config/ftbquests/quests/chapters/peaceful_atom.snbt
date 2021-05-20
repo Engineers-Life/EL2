@@ -705,23 +705,13 @@
 			dependencies: ["00000000000006F0"],
 			id: "0000000000001186",
 			tasks: [{
-				id: "0000000000001187",
+				id: "39437859813350C0",
 				type: "item",
-				title: "The Extreme Book",
-				icon: {
+				item: {
 					id: "patchouli:guide_book",
 					Count: 1b,
 					tag: {
 						"patchouli:book": "bigreactors:erguide"
-					}
-				},
-				item: {
-					id: "itemfilters:strong_nbt",
-					Count: 1b,
-					tag: {
-						value: {
-							"patchouli:book": "bigreactors:erguide"
-						}
 					}
 				}
 			}],

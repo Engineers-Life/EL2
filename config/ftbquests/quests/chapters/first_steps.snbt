@@ -662,46 +662,8 @@
 			]
 		},
 		{
-			title: "Storage Drawer",
 			x: 1.5d,
 			y: -7.5d,
-			description: ["These storage drawers will allow you to store multiple stacks of items in a single block in a sorted manner."],
-			dependencies: ["000000000000002E"],
-			id: "0000000000000047",
-			tasks: [{
-				id: "0000000000000048",
-				type: "item",
-				title: "Any storagedrawers:drawers",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "storagedrawers:drawers"
-					}
-				}
-			}],
-			rewards: [
-				{
-					id: "0000000000000139",
-					type: "item",
-					item: "minecraft:black_dye",
-					count: 16
-				},
-				{
-					id: "0000000000000329",
-					type: "item",
-					item: "storagedrawers:oak_full_drawers_2"
-				},
-				{
-					id: "000000000000033A",
-					type: "item",
-					item: "pamhc2foodcore:caramelappleitem"
-				}
-			]
-		},
-		{
-			x: 0.0d,
-			y: -6.0d,
 			description: [
 				"This backpack will allow you to have some extra inventory space.",
 				"Once equipped, use the backpack keybind to open the backpack inventory. (check your controls menu for the specific key)"
@@ -1289,8 +1251,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -4.5d,
+			x: 0.0d,
+			y: -7.5d,
 			description: ["Will automatically drop items directly below it."],
 			dependencies: ["000000000000002E"],
 			id: "0000000000000077",
@@ -1794,7 +1756,7 @@
 		},
 		{
 			title: "Cupboards and Cabinets",
-			x: 0.0d,
+			x: 3.0d,
 			y: -7.5d,
 			description: ["Some slightly more decorative storage."],
 			dependencies: ["000000000000002E"],
@@ -3024,15 +2986,23 @@
 			]
 		},
 		{
+			icon: "mcwdoors:birch_glass_door",
 			x: 8.0d,
 			y: -6.0d,
 			description: ["The Macaw's series of mods will provide you with a large number of decorative blocks to stylize your base to your heart's content."],
 			dependencies: ["0000000000000054"],
 			id: "00000000000015B0",
 			tasks: [{
-				id: "00000000000015B1",
+				id: "790C7AC688A2951D",
 				type: "checkmark",
-				title: "Macaw's Mods"
+				title: "Did you read this?",
+				icon: {
+					id: "ftbquests:custom_icon",
+					Count: 1b,
+					tag: {
+						Icon: "ftbguilibrary:textures/icons/check.png"
+					}
+				}
 			}]
 		},
 		{
@@ -3676,7 +3646,13 @@
 				id: "0FEEECF1FF2F87E3",
 				type: "checkmark",
 				title: "Serene Seasons",
-				icon: "sereneseasons:calendar"
+				icon: {
+					id: "ftbquests:custom_icon",
+					Count: 1b,
+					tag: {
+						Icon: "sereneseasons:textures/block/season_sensor_autumn_top.png"
+					}
+				}
 			}],
 			rewards: [{
 				id: "404AD514FAACD717",
@@ -3872,8 +3848,8 @@
 					Damage: 0
 				}
 			},
-			x: 3.0d,
-			y: -7.5d,
+			x: 1.5d,
+			y: -4.5d,
 			description: ["Construction Wands will help your early game building by giving a method of placing a large number of blocks at once. It's GUI can be opened to change its settings by holding a wand and right clicking empty space while holding the sneak key and ctrl."],
 			dependencies: ["000000000000002E"],
 			id: "6EA56F51FEC13BDA",

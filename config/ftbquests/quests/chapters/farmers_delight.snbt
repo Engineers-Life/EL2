@@ -2561,6 +2561,13 @@
 			tasks: [{
 				id: "09B4338E50462B16",
 				type: "item",
+				icon: {
+					id: "ftbquests:custom_icon",
+					Count: 1b,
+					tag: {
+						Icon: "sereneseasons:textures/item/calendar_null.png"
+					}
+				},
 				item: "sereneseasons:calendar"
 			}],
 			rewards: [{
