@@ -16,4 +16,7 @@ for axe in [
     <tag:items:minecraft:axes>.add(axe);
 }
 
+<tag:items:itemfilters:check_nbt>.add(<item:immersiveengineering:blueprint>);
+<tag:items:itemfilters:check_nbt>.add(<item:patchouli:guide_book>);
+
 println("END tags.zs");
