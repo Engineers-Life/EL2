@@ -987,29 +987,32 @@
 			],
 			dependencies: ["000000000000150E"],
 			id: "0000000000001510",
-			tasks: [{
-				id: "0000000000001511",
-				type: "item",
-				item: "minecraft:conduit"
-			}],
-			rewards: [
+			tasks: [
 				{
-					id: "0000000000001512",
-					type: "xp_levels",
-					xp_levels: 10
+					id: "0000000000001511",
+					type: "item",
+					item: "minecraft:conduit"
 				},
 				{
-					id: "0000000000001513",
+					id: "3D832402D274B648",
 					type: "item",
 					item: {
-						id: "minecraft:trident",
+						id: "minecraft:enchanted_book",
 						Count: 1b,
 						tag: {
-							Damage: 0
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:depth_strider"
+							}]
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "0000000000001512",
+				type: "xp_levels",
+				xp_levels: 10
+			}]
 		},
 		{
 			title: "Ocean Monument",
