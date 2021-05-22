@@ -51,7 +51,7 @@ var typeOfWood = new MapData();
 
 var specialTypes = ["any","treated","UNKNOWN"];
 
-// these may be needed since they don't follow normal recipes (due to axe-based recipes).
+// these may be needed since they don't follow normal recipes.
 costOfWood.put("minecraft:stick",1.0 as double);
 typeOfWood.put("minecraft:stick","any");
 costOfWood.put("immersiveengineering:stick_treated",1.0 as double);
@@ -144,14 +144,13 @@ while foundNewWood {
             var outputAmt = wrapper.output.amount as int;
             var outputCostTally = 0.0 as double;
             var outputType = "UNKNOWN";
-            var isTreated = false;
+            var mightBeTreated = true;
             var isWood = true;
             for cell in wrapper.ingredients {
                 if (isWood && !cell.matches(air)) {
                     isWood = false;
                     var cellCost = 256.0 as double; // arbitrary high number
                     var cellType = "UNKNOWN";
-                    var mightBeTreated = true;
                     for item in cell.items {
                         val itemString = item.registryName.toString();
                         if (costOfWood.contains(itemString)) {
@@ -172,13 +171,11 @@ while foundNewWood {
                         }
                     }
                     outputCostTally += cellCost;
-                    isTreated = (mightBeTreated || isTreated);
                     if (!(cellType in specialTypes)) {
                         if (outputType == "UNKNOWN") {
                             outputType = cellType;
                         } else if (outputType != cellType) {
-                            // println("WOODCUTTER: Found multiple types for "+output+" ("+outputType+" and "+cellType+")");
-                            outputCostTally = 256*outputAmt; // priced out of range
+                            //println("Found multiple types for "+output+" ("+outputType+" and "+cellType+")");
                             outputType = "any";
                         }
                     }
@@ -186,13 +183,10 @@ while foundNewWood {
             }
             if (outputAmt != 0) { // some recipes output air, go figure ?
                 if (isWood) {
-                    if (outputType in specialTypes) {
-                        outputType = isTreated ? "treated" : "any";
-                    } else if (isTreated) {
-                        // println("WOODCUTTER: Found mixed treated wood and a specific type of wood.  Rejecting recipe for "+output);
-                        outputCostTally = 256*outputAmt; // priced out of range
-                    }
                     costOfWood.put(output,outputCostTally/outputAmt);
+                    if (outputType == "UNKNOWN") {
+                        outputType = mightBeTreated ? "treated" : "any";
+                    }
                     typeOfWood.put(output,outputType);
                 }
             }
