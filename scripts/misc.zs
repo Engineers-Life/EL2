@@ -60,6 +60,38 @@ replaceByName("transport:rail_workers_bench",<item:transport:rail_workers_bench>
     [air, <tag:items:minecraft:rails>, air],
     [<item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>] ]);
 
+replaceByName("industrialforegoing:machine_frame_pity",<item:industrialforegoing:machine_frame_pity>, [
+    [<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>],
+    [<item:minecraft:iron_ingot>, <item:immersiveengineering:rs_engineering>, <item:minecraft:iron_ingot>],
+    [<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>] ]);
+
+replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industrialforegoing:dissolution_chamber/simple_machine_frame", {
+    input: [
+        { tag: "forge:plastic" },
+        { item: "industrialforegoing:machine_frame_pity" },
+        { tag: "forge:plastic" },
+        { item: <item:minecraft:nether_brick>.registryName },
+        { item: <item:minecraft:nether_brick>.registryName },
+        { tag: "forge:ingots/steel" },
+        { item: "titanium:gold_gear" },
+        { tag: "forge:ingots/steel" } ],
+    inputFluid: "{FluidName:\"industrialforegoing:latex\",Amount:250}",
+    processingTime: 300,
+    output: {
+        item: <item:industrialforegoing:machine_frame_simple>.registryName,
+        count:1 }
+        // removed this so fluid output matches original recipe in jei instead of stating air
+        // , outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}"
+        } );
+
+replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industrialforegoing:dissolution_chamber/xp_bottles", {
+    input: [ { tag: "forge:empty_bottles" } ],
+    inputFluid: "{FluidName:\"industrialforegoing:essence\",Amount:250}",
+    processingTime: 300,
+    output: {
+        item: <item:minecraft:experience_bottle>.registryName,
+        count:1 } } );
+
 // Chainmail Armor
 craftingTable.addShaped("chain_helmet", <item:minecraft:chainmail_helmet>, [
     [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_iron>],
@@ -141,6 +173,13 @@ craftingTable.addShapeless("neterwart_storage_breakdwon",<item:minecraft:nether_
 craftingTable.removeRecipe(<item:natural-progression:basic_saw>);
 craftingTable.addShaped("flint_saw",<item:natural-progression:basic_saw>,
     [ [stick,stick,stick],[<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>]]);
+
+// mob imprisonment tool
+craftingTable.removeRecipe(<item:industrialforegoing:mob_imprisonment_tool>);
+craftingTable.addShaped("mob_imprisonment_tool",<item:industrialforegoing:mob_imprisonment_tool>,
+ [[air,<item:industrialforegoing:plastic>,air],
+ [<item:industrialforegoing:plastic>,<item:betterportals:portal_fluid_bucket>,<item:industrialforegoing:plastic>],
+ [air,<item:industrialforegoing:plastic>,air]]);
 
 //dragon egg recipe for servers
 craftingTable.addShapeless("inactive_dragon_egg_from_dragon_head",<item:productivebees:inactive_dragon_egg>,[<item:minecraft:dragon_head>]);
