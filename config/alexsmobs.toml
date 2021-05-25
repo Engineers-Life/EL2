@@ -238,7 +238,7 @@
 		hammerheadSharkSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		crimsonMosquitoSpawnWeight = 15
+		crimsonMosquitoSpawnWeight = 10
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		elephantSpawnWeight = 30
@@ -377,10 +377,10 @@
 			beachedCachalotWhales = true
 			#Percent chance increase for each failed attempt to spawn a beached cachalot whale. Higher value = more spawns.
 			#Range: 0 ~ 100
-			beachedCachalotWhaleSpawnChance = 5
+			beachedCachalotWhaleSpawnChance = 20
 			#Delay (in ticks) between attempts to spawn beached cachalot whales. Default is a single day. Works like wandering traders.
 			#Range: > 0
-			beachedCachalotWhaleSpawnDelay = 24000
+			beachedCachalotWhaleSpawnDelay = 12000
 			#Percent chance for leafcutter anthills to spawn as world gen in each chunk. Set to zero to disable spawning.
 			#Range: 0.0 ~ 1.0
 			leafcutterAnthillSpawnChance = 0.004999999888241291
