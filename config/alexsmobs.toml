@@ -346,7 +346,7 @@
 		cachalotWhaleSpawnWeight = 2
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		cachalotWhaleSpawnRolls = 0
+		cachalotWhaleSpawnRolls = 2
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		enderiophageSpawnWeight = 4
@@ -361,10 +361,10 @@
 		baldEagleSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		tarantulaHawkSpawnWeight = 1
+		tarantulaHawkSpawnWeight = 10
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		tarantulaHawkSpawnRolls = 1000
+		tarantulaHawkSpawnRolls = 2
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		tigerSpawnWeight = 100
