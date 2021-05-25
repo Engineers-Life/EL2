@@ -10,9 +10,7 @@
 		{
 			x: -6.5d,
 			y: 1.5d,
-			description: [
-				"Will help you with all the info about the Productive Bees mod."
-			],
+			description: ["Will help you with all the info about the Productive Bees mod."],
 			dependencies: ["000000000000078F"],
 			id: "0000000000000779",
 			tasks: [{

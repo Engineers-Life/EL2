@@ -1,7 +1,7 @@
 {
 	id: "000000000000011B",
 	group: "",
-	order_index: 11,
+	order_index: 12,
 	filename: "advanced_storage",
 	title: "Advanced Storage",
 	icon: "refinedstorage:controller",

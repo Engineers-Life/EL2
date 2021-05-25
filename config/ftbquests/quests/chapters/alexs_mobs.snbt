@@ -1,0 +1,1599 @@
+{
+	id: "0399220027D545F6",
+	group: "",
+	order_index: 6,
+	filename: "alexs_mobs",
+	title: "Conservation Warrior",
+	icon: {
+		id: "ftbquests:custom_icon",
+		Count: 1b,
+		tag: {
+			Icon: "alexsmobs:textures/mob_effect/knockback_resistance.png"
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -2.0d,
+			y: -6.0d,
+			description: ["bear drop"],
+			dependencies: ["4E20E64264B2AA55"],
+			id: "11AD9C3E6F7ED206",
+			tasks: [{
+				id: "5600BE1C666EA251",
+				type: "item",
+				item: "alexsmobs:bear_fur"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 0.5d,
+			description: ["Roadrunner drop"],
+			id: "7462427AC1D865C7",
+			tasks: [{
+				id: "062115DFB9A8E0A6",
+				type: "item",
+				item: "alexsmobs:roadrunner_feather"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 0.0d,
+			description: ["Makes running on sand faster"],
+			dependencies: ["7462427AC1D865C7"],
+			id: "12976ADEDD3B9090",
+			tasks: [{
+				id: "12F81678685F16CD",
+				type: "item",
+				item: {
+					id: "alexsmobs:roadrunner_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: 14.0d,
+			description: ["Bone serpent drop"],
+			id: "15132115F40EF4EA",
+			tasks: [{
+				id: "71619495E5032397",
+				type: "item",
+				item: "alexsmobs:bone_serpent_tooth"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 14.5d,
+			description: ["Lets you see through lava"],
+			dependencies: ["15132115F40EF4EA"],
+			id: "2092B6A1EE21D018",
+			tasks: [{
+				id: "72DEF711876FB75D",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "alexsmobs:lava_vision"
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.5d,
+			description: ["gazelle drop"],
+			id: "1561DE019D318A18",
+			tasks: [{
+				id: "7ABF08CE502BA3D7",
+				type: "item",
+				item: "alexsmobs:gazelle_horn"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			description: ["croc drop"],
+			dependencies: ["4B89A8800535AB16"],
+			id: "2FBC1196F9B59DF7",
+			tasks: [{
+				id: "6C695EDB244719DB",
+				type: "item",
+				item: "alexsmobs:crocodile_scute"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.5d,
+			description: ["croc armor"],
+			dependencies: ["2FBC1196F9B59DF7"],
+			id: "7B74EDBD46057811",
+			tasks: [{
+				id: "55B1F5C0010212AB",
+				type: "item",
+				item: {
+					id: "alexsmobs:crocodile_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -4.5d,
+			description: ["fly drop"],
+			id: "042E30144F9A1D2A",
+			tasks: [{
+				id: "2CFDD31640066490",
+				type: "item",
+				item: "alexsmobs:maggot"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -4.5d,
+			description: ["break jungle leaves"],
+			id: "2CF3F2F094B0D3B1",
+			tasks: [{
+				id: "2F2509E78CBF66D8",
+				type: "item",
+				item: "alexsmobs:banana"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 12.5d,
+			dependencies: ["3EF3C919FDC60E1B"],
+			id: "3B5F5AF7209A9221",
+			tasks: [{
+				id: "5EF379925A17EEAA",
+				type: "item",
+				item: "alexsmobs:blood_sac"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 12.5d,
+			dependencies: ["3EF3C919FDC60E1B"],
+			id: "3EC4C7FDCDB42C8D",
+			tasks: [{
+				id: "1A81541ABDE0D3CA",
+				type: "item",
+				item: "alexsmobs:mosquito_proboscis"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 14.5d,
+			dependencies: [
+				"3B5F5AF7209A9221",
+				"3EC4C7FDCDB42C8D"
+			],
+			id: "2BA62BA8195FC90F",
+			tasks: [{
+				id: "3703E14E87D5EAC9",
+				type: "item",
+				item: {
+					id: "alexsmobs:blood_sprayer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 2.0d,
+			description: ["rattlesnake drop"],
+			dependencies: ["295FFF98AC0C3FB2"],
+			id: "1670F799696648EA",
+			tasks: [{
+				id: "14B04FCEC03DCB1E",
+				type: "item",
+				item: "alexsmobs:rattlesnake_rattle"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 9.5d,
+			description: ["Leads endergrade around like pig and carrot on stick"],
+			id: "60286A30B5BF3EBF",
+			tasks: [{
+				id: "539E21D26BDBDE87",
+				type: "item",
+				item: "alexsmobs:chorus_on_a_stick"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 3.0d,
+			description: ["Hammerhead shark drop"],
+			id: "12903E07FD2AA25B",
+			tasks: [{
+				id: "0B77AD7BC335F364",
+				type: "item",
+				item: "alexsmobs:shark_tooth"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 4.5d,
+			description: ["shoots better underwater"],
+			dependencies: ["12903E07FD2AA25B"],
+			id: "77213B3F102D54FC",
+			tasks: [{
+				id: "0F6970038AA15D78",
+				type: "item",
+				item: "alexsmobs:shark_tooth_arrow"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			description: ["lobster in a bucket"],
+			id: "0A695B938C047241",
+			tasks: [{
+				id: "71AABA26300386B5",
+				type: "item",
+				item: "alexsmobs:lobster_bucket"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.0d,
+			description: ["lobster drop"],
+			id: "5B599C2BB40A43DD",
+			tasks: [{
+				id: "3AC3964E80C583B9",
+				type: "item",
+				item: "alexsmobs:lobster_tail"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.5d,
+			description: ["cooked lobster drop"],
+			dependencies: ["5B599C2BB40A43DD"],
+			id: "3B65899892E55F6F",
+			tasks: [{
+				id: "717BA1871FF674CF",
+				type: "item",
+				item: "alexsmobs:cooked_lobster_tail"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 0.5d,
+			description: ["Occasional drop from live komodo dragons"],
+			id: "08F33774046B54FC",
+			tasks: [{
+				id: "0D23CE0916F75F31",
+				type: "item",
+				item: "alexsmobs:komodo_spit"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: 1.5d,
+			description: ["bottled saliva"],
+			dependencies: ["08F33774046B54FC"],
+			id: "7EBEA1931702D1E5",
+			tasks: [{
+				id: "62EC16B92C5F9D63",
+				type: "item",
+				item: "alexsmobs:komodo_spit_bottle"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 2.5d,
+			description: ["definition of poison"],
+			dependencies: [
+				"7EBEA1931702D1E5",
+				"154772C9462DDCC4"
+			],
+			id: "598345B0F9427722",
+			tasks: [{
+				id: "0EA839DFED08E778",
+				type: "item",
+				item: "alexsmobs:poison_bottle"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 4.0d,
+			description: ["poison resistance"],
+			dependencies: [
+				"598345B0F9427722",
+				"1670F799696648EA"
+			],
+			id: "310DB627AF3DCE9B",
+			tasks: [{
+				id: "6AB5340F587CFDC4",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "alexsmobs:poison_resistance"
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.5d,
+			description: ["capuchins drops sometimes"],
+			dependencies: ["76291B63F0ED9022"],
+			id: "05B3DE276E40F772",
+			tasks: [{
+				id: "1461BD6CFCC7D731",
+				type: "item",
+				item: "alexsmobs:banana_peel"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			description: ["weird soup"],
+			dependencies: ["05B3DE276E40F772"],
+			id: "5FE4BCE33C614980",
+			tasks: [{
+				id: "7DE107F6DBEF8906",
+				type: "item",
+				item: "alexsmobs:sopa_de_macaco"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: 2.0d,
+			description: ["cave centipede drop, can be multiple"],
+			id: "154772C9462DDCC4",
+			tasks: [{
+				id: "180B35B0BB919AD9",
+				type: "item",
+				item: "alexsmobs:centipede_leg"
+			}]
+		},
+		{
+			x: -13.5d,
+			y: 3.5d,
+			description: ["allows you to climb walls"],
+			dependencies: ["154772C9462DDCC4"],
+			id: "673635AB75E98296",
+			tasks: [{
+				id: "364EC70179948791",
+				type: "item",
+				item: {
+					id: "alexsmobs:centipede_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 13.0d,
+			dependencies: ["3EC4C7FDCDB42C8D"],
+			id: "6D5AA599D202F0AF",
+			tasks: [{
+				id: "3DC5597D70910A0A",
+				type: "item",
+				item: "alexsmobs:mosquito_larva"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.5d,
+			description: ["Random drop from live moose"],
+			id: "2DFC032306822F4E",
+			tasks: [{
+				id: "7D8CA585B9505139",
+				type: "item",
+				item: "alexsmobs:moose_antler"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -2.5d,
+			description: ["gives knockback"],
+			dependencies: ["2DFC032306822F4E"],
+			id: "27F0DB0AF1386C6D",
+			tasks: [{
+				id: "2A68C851464EBAC0",
+				type: "item",
+				item: {
+					id: "alexsmobs:moose_headgear",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.5d,
+			description: ["moose drop"],
+			id: "61C774465250F5E2",
+			tasks: [{
+				id: "0B83A5C69A722347",
+				type: "item",
+				item: "alexsmobs:moose_ribs"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -0.5d,
+			description: ["cooked moose drop"],
+			dependencies: ["61C774465250F5E2"],
+			id: "11AFA0A04E10DF94",
+			tasks: [{
+				id: "32DB582575A5FAC4",
+				type: "item",
+				item: "alexsmobs:cooked_moose_ribs"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 9.5d,
+			description: ["can be used to duplicate enchanted weapons, result is broken but duplicate"],
+			id: "0B0040DAC5D0E2C8",
+			tasks: [{
+				id: "00FAEB55E3A7B2AA",
+				type: "item",
+				item: "alexsmobs:mimicream"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -5.5d,
+			description: ["racoon drop"],
+			id: "43A6451E42293BAC",
+			tasks: [{
+				id: "166A0DF287F39D32",
+				type: "item",
+				item: "alexsmobs:raccoon_tail"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.0d,
+			description: ["speed boost while sneaking"],
+			dependencies: ["43A6451E42293BAC"],
+			id: "5E067D93C8018428",
+			tasks: [{
+				id: "1CFD2F5A909BAEE3",
+				type: "item",
+				item: {
+					id: "alexsmobs:frontier_cap",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 2.0d,
+			description: ["blobfish in bucket"],
+			id: "759CC2ED6720614D",
+			tasks: [{
+				id: "50F159BA577FC800",
+				type: "item",
+				item: "alexsmobs:blobfish_bucket"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 1.5d,
+			description: ["blobfish drop"],
+			id: "235A8DAEDFF467D7",
+			tasks: [{
+				id: "3286E77C29DC9875",
+				type: "item",
+				item: "alexsmobs:blobfish"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 3.5d,
+			description: ["blobfish oil"],
+			dependencies: ["235A8DAEDFF467D7"],
+			id: "005E68B4C5271269",
+			tasks: [{
+				id: "5C7464F62CB0DD68",
+				type: "item",
+				item: "alexsmobs:fish_oil"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 3.5d,
+			description: ["Rattle made with rattlesnake tail"],
+			dependencies: ["1670F799696648EA"],
+			id: "679FB7E7C654385F",
+			tasks: [{
+				id: "19D31D99E32BAF86",
+				type: "item",
+				item: "alexsmobs:maraca"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 3.5d,
+			description: ["cockroach drop"],
+			id: "147F7EA3E650C141",
+			tasks: [{
+				id: "4A1E5CD54BAF7A7F",
+				type: "item",
+				item: "alexsmobs:cockroach_wing_fragment"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 5.0d,
+			description: ["rebuilt wing"],
+			dependencies: ["147F7EA3E650C141"],
+			id: "4DC3338C71A2086D",
+			tasks: [{
+				id: "2FD18E114E0FE331",
+				type: "item",
+				item: "alexsmobs:cockroach_wing"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: 5.5d,
+			description: ["invisibility to bugs potion"],
+			dependencies: ["4DC3338C71A2086D"],
+			id: "3B1E5DEBB7BE02F1",
+			tasks: [{
+				id: "1B05EE63E81476D3",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -7.0d,
+			description: ["rare drop from acacia trees"],
+			id: "568B1FDB06169851",
+			tasks: [{
+				id: "79126CD9D0AD4237",
+				type: "item",
+				item: "alexsmobs:acacia_blossom"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 7.0d,
+			description: ["after soul vulture filled may drop on death"],
+			dependencies: ["292B32B34CD5094A"],
+			id: "3E83CFACFBDFDEB2",
+			tasks: [{
+				id: "63A93237BADBA22A",
+				type: "item",
+				item: "alexsmobs:soul_heart"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 8.5d,
+			description: ["give soul stealing powers"],
+			dependencies: ["3E83CFACFBDFDEB2"],
+			id: "6A1A2DA7A8CF7DFC",
+			tasks: [{
+				id: "66B8F8B6B4128277",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			description: ["Shearing mossy alligator turtles"],
+			dependencies: ["6964B640BF90A11C"],
+			id: "76AAFE97A27F9401",
+			tasks: [{
+				id: "2354928341859A19",
+				type: "item",
+				item: "alexsmobs:spiked_scute"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 4.5d,
+			description: ["Modified turtle helmet"],
+			dependencies: ["76AAFE97A27F9401"],
+			id: "7C7C37A9744A5749",
+			tasks: [{
+				id: "43B7921B92D4A21C",
+				type: "item",
+				item: {
+					id: "alexsmobs:spiked_turtle_shell",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -2.0d,
+			description: ["guster drop"],
+			dependencies: ["586FB5B01BB6C341"],
+			id: "1F21942D74A4B548",
+			tasks: [{
+				id: "2D788644FF1CE5F1",
+				type: "item",
+				item: "alexsmobs:guster_eye"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -1.0d,
+			description: ["Throw a little sand in their eyes"],
+			dependencies: ["1F21942D74A4B548"],
+			id: "3E2F7D08A8E596F1",
+			tasks: [{
+				id: "79667C6F209C2E6A",
+				type: "item",
+				item: {
+					id: "alexsmobs:pocket_sand",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -1.0d,
+			description: ["emits little gusters in a line"],
+			dependencies: ["1F21942D74A4B548"],
+			id: "2401BD24F4787BEE",
+			tasks: [{
+				id: "4A08C8CC60DB08D7",
+				type: "item",
+				item: "alexsmobs:gustmaker"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 13.0d,
+			dependencies: ["47BE77D8F21BBDCC"],
+			id: "323E3518BE41C84D",
+			tasks: [{
+				id: "7466FDC5B490C584",
+				type: "item",
+				item: "alexsmobs:warped_muscle"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 13.0d,
+			dependencies: ["47BE77D8F21BBDCC"],
+			id: "1DD27A6265642B96",
+			tasks: [{
+				id: "69C3C165B652D650",
+				type: "item",
+				item: "alexsmobs:hemolymph_sac"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 15.0d,
+			dependencies: [
+				"323E3518BE41C84D",
+				"1DD27A6265642B96",
+				"2BA62BA8195FC90F",
+				"0B0040DAC5D0E2C8"
+			],
+			id: "7E104C87A3BB6CA4",
+			tasks: [{
+				id: "733A3D3E59544AC5",
+				type: "item",
+				item: {
+					id: "alexsmobs:hemolymph_blaster",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 12.0d,
+			description: ["bucket up a stradpole"],
+			dependencies: ["4EDC8D006049F8E4"],
+			id: "13EDF3FD77403F25",
+			tasks: [{
+				id: "4AE8288976987969",
+				type: "item",
+				item: "alexsmobs:stradpole_bucket"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 13.5d,
+			description: ["Straddler drop"],
+			dependencies: ["4EDC8D006049F8E4"],
+			id: "1D01C2288B41EBDC",
+			tasks: [{
+				id: "5BABD09020966A53",
+				type: "item",
+				item: "alexsmobs:straddlite"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 13.0d,
+			description: ["Allows you to surf lava"],
+			dependencies: ["1D01C2288B41EBDC"],
+			id: "76D75DF855373032",
+			tasks: [{
+				id: "6F0FC34DF30FD700",
+				type: "item",
+				item: {
+					id: "alexsmobs:straddleboard",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			description: ["drop from live emu"],
+			dependencies: ["051CA3BEF47E6BCF"],
+			id: "38854ED19F0C1963",
+			tasks: [{
+				id: "3E740055ADB7D366",
+				type: "item",
+				item: "alexsmobs:emu_egg"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 4.0d,
+			description: ["cooked drop"],
+			dependencies: ["38854ED19F0C1963"],
+			id: "5155710838D1A547",
+			tasks: [{
+				id: "3CE12C0C528D8BB6",
+				type: "item",
+				item: "alexsmobs:boiled_emu_egg"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			description: ["emu drop"],
+			dependencies: ["051CA3BEF47E6BCF"],
+			id: "369959C82AF24ECD",
+			tasks: [{
+				id: "2EDDC0933AB806CE",
+				type: "item",
+				item: "alexsmobs:emu_feather"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			description: ["give players the emu dodge ability"],
+			dependencies: [
+				"369959C82AF24ECD",
+				"4FBF9E3701C078F6"
+			],
+			id: "25B989B6383563D8",
+			tasks: [{
+				id: "417EE5A316C452B3",
+				type: "item",
+				item: {
+					id: "alexsmobs:emu_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -13.5d,
+			y: 9.5d,
+			description: ["dropbear drop, can make flint and steel"],
+			id: "3DAF08614ABA2EC5",
+			tasks: [{
+				id: "20299B6FFF0AC499",
+				type: "item",
+				item: "alexsmobs:dropbear_claw"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 8.0d,
+			description: ["allows you to walk on walls and ceilings"],
+			dependencies: ["3DAF08614ABA2EC5"],
+			id: "4FE66E25E32AEBAE",
+			tasks: [{
+				id: "491D219FBC87114E",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "alexsmobs:clinging"
+					}
+				}
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 2.0d,
+			description: ["kangaroo drop"],
+			dependencies: ["6941D667244F04D9"],
+			id: "62E977DBD3A3F3FE",
+			tasks: [{
+				id: "4F70AF34DD1E0BC5",
+				type: "item",
+				item: "alexsmobs:kangaroo_meat"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.5d,
+			description: ["cooked drop"],
+			dependencies: ["62E977DBD3A3F3FE"],
+			id: "5156BA2D508BE4D0",
+			tasks: [{
+				id: "5D30E69B7CB6A0D1",
+				type: "item",
+				item: "alexsmobs:cooked_kangaroo_meat"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 4.0d,
+			description: ["burger with kangaroo"],
+			dependencies: ["5156BA2D508BE4D0"],
+			id: "16FB2CA4AEF796DC",
+			tasks: [{
+				id: "5A45D61C27A565ED",
+				type: "item",
+				item: "alexsmobs:kangaroo_burger"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 1.5d,
+			description: ["kangaroo drop"],
+			dependencies: ["6941D667244F04D9"],
+			id: "4FBF9E3701C078F6",
+			tasks: [{
+				id: "5C057F378B832103",
+				type: "item",
+				item: "alexsmobs:kangaroo_hide"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 2.5d,
+			description: ["drops when whales attack"],
+			id: "68D06C789ABF3D14",
+			tasks: [{
+				id: "6A36D4B67C346235",
+				type: "item",
+				item: "alexsmobs:cachalot_whale_tooth"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 3.5d,
+			description: ["reward for saving a whale"],
+			id: "151159150037976D",
+			tasks: [{
+				id: "1BDD5F030839EFB0",
+				type: "item",
+				item: "alexsmobs:ambergris"
+			}]
+		},
+		{
+			x: 14.5d,
+			y: 4.0d,
+			description: ["locates caves"],
+			dependencies: [
+				"151159150037976D",
+				"68D06C789ABF3D14"
+			],
+			id: "456C97EA74811997",
+			tasks: [{
+				id: "1ACE9699E2BFB049",
+				type: "item",
+				item: {
+					id: "alexsmobs:echolocator",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 16.5d,
+			y: 4.0d,
+			description: ["locates the end portal"],
+			dependencies: ["456C97EA74811997"],
+			id: "02E95675EB8EF204",
+			tasks: [{
+				id: "1464AB23C58B3215",
+				type: "item",
+				item: {
+					id: "alexsmobs:endolocator",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -9.5d,
+			description: ["used to create new ant colony, rare drop from chambers or killing a queen"],
+			dependencies: ["7E6468F38A587264"],
+			id: "16CAFA17D62FD870",
+			tasks: [{
+				id: "0BDA5802571BADA9",
+				type: "item",
+				item: "alexsmobs:leafcutter_ant_pupa"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -8.5d,
+			description: ["can be used to feed ants, right click moldy ant chamber"],
+			dependencies: ["7E6468F38A587264"],
+			id: "6C244C409D094052",
+			tasks: [{
+				id: "3F3CAE2209A529AA",
+				type: "item",
+				item: "alexsmobs:gongylidia"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 11.5d,
+			description: ["drop"],
+			dependencies: ["40CFB3D7A3ECB1B9"],
+			id: "57D3C1E86A23E5AD",
+			tasks: [{
+				id: "1D7D964AFD8CCC28",
+				type: "item",
+				item: "alexsmobs:capsid"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 8.5d,
+			description: ["firework with special effect"],
+			dependencies: ["57D3C1E86A23E5AD"],
+			id: "1A85A5ED5D9EDD86",
+			tasks: [{
+				id: "660A9211FC204506",
+				type: "item",
+				item: "alexsmobs:enderiophage_rocket"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -9.0d,
+			description: ["allows you to control tamed eagle"],
+			dependencies: ["0433861EE023060D"],
+			id: "7FB236F280E77256",
+			tasks: [{
+				id: "2C5C6F871671B792",
+				type: "item",
+				item: "alexsmobs:falconry_glove"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -7.5d,
+			description: ["allows finer control of eagle flight"],
+			dependencies: ["7FB236F280E77256"],
+			id: "2BA83FDF7240DE8B",
+			tasks: [{
+				id: "3C040D4468053D5C",
+				type: "item",
+				item: "alexsmobs:falconry_hood"
+			}]
+		},
+		{
+			x: -16.5d,
+			y: 2.0d,
+			description: ["tarantula hawk drop"],
+			dependencies: ["737BD5F672EB23AF"],
+			id: "5F33DAD5DEE9892A",
+			tasks: [{
+				id: "470FA84FF6B6CF89",
+				type: "item",
+				item: "alexsmobs:tarantula_hawk_wing_fragment"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: 3.0d,
+			description: ["reconstructed wing"],
+			dependencies: ["5F33DAD5DEE9892A"],
+			id: "4480FBB32C9E3248",
+			tasks: [{
+				id: "4818558C819F7EE6",
+				type: "item",
+				item: "alexsmobs:tarantula_hawk_wing"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: 4.5d,
+			description: ["enhanced elytra"],
+			dependencies: ["4480FBB32C9E3248"],
+			id: "6F5AC67DDB20ADB4",
+			tasks: [{
+				id: "446C9044228A45EE",
+				type: "item",
+				item: {
+					id: "alexsmobs:tarantula_hawk_elytra",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -7.0d,
+			description: ["Encounter a Grizzly Bear"],
+			id: "4E20E64264B2AA55",
+			tasks: [{
+				id: "2CDF8914DBF19EC1",
+				type: "advancement",
+				title: "Grizzly Bear Encountered",
+				advancement: "alexsmobs:alexsmobs/grizzly_bear",
+				criterion: ""
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.5d,
+			description: ["Tame Grizzly Bear by feeding honey then salmon."],
+			dependencies: ["4E20E64264B2AA55"],
+			id: "240F618AC1E292F7",
+			tasks: [{
+				id: "57620075DD5F169C",
+				type: "advancement",
+				title: "Teddy the Bear",
+				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear",
+				criterion: ""
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -5.0d,
+			description: ["go fast"],
+			dependencies: ["1561DE019D318A18"],
+			id: "792DBA9FA8A22FD5",
+			tasks: [{
+				id: "5842E473899E6454",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "alexsmobs:speed_iii"
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.5d,
+			description: ["Encounter an Alligator Snapping Turtle"],
+			id: "4B89A8800535AB16",
+			tasks: [{
+				id: "1CBE91AD76108762",
+				type: "advancement",
+				title: "Crocodile Encountered",
+				advancement: "alexsmobs:alexsmobs/crocodile",
+				criterion: ""
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.0d,
+			id: "6964B640BF90A11C",
+			tasks: [{
+				id: "76B42026258E100A",
+				type: "advancement",
+				title: "Alligator Snapping Turtle Encountered",
+				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle",
+				criterion: ""
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -8.0d,
+			description: ["Breed Hummingbirds with flowers"],
+			id: "68585BA9EB6949FD",
+			tasks: [{
+				id: "3EBF1EF204B6F41B",
+				type: "advancement",
+				title: "Hummingbreeder",
+				advancement: "alexsmobs:alexsmobs/breed_hummingbird",
+				criterion: ""
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.5d,
+			description: ["faster attack speed from swimming with orca pod"],
+			id: "58BC291643685897",
+			tasks: [{
+				id: "1E88FF99723FF9F5",
+				type: "advancement",
+				title: "Orca's Might",
+				advancement: "alexsmobs:alexsmobs/orcas_might",
+				criterion: ""
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -10.5d,
+			description: ["Blessed by sunbird"],
+			id: "46E970252CE65795",
+			tasks: [{
+				id: "21284B920BF52531",
+				type: "advancement",
+				title: "Blessings from the Sky",
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing",
+				criterion: ""
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -3.5d,
+			description: ["tame gorilla with bananas"],
+			dependencies: ["2CF3F2F094B0D3B1"],
+			id: "49474262BB1DD1F1",
+			tasks: [{
+				id: "5B394498182F2EA9",
+				type: "advancement",
+				title: "Mighty Joe Young",
+				advancement: "alexsmobs:alexsmobs/tame_gorilla",
+				criterion: ""
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -3.5d,
+			description: ["tame capuchin monkey"],
+			dependencies: ["2CF3F2F094B0D3B1"],
+			id: "76291B63F0ED9022",
+			tasks: [{
+				id: "515F2AE9A1C47768",
+				type: "advancement",
+				title: "Mini Mo",
+				advancement: "alexsmobs:alexsmobs/tame_capuchin",
+				criterion: ""
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 0.5d,
+			description: ["Encounter Rattlesnake"],
+			id: "295FFF98AC0C3FB2",
+			tasks: [{
+				id: "5ED6AA67B994CB19",
+				type: "advancement",
+				title: "Rattlesnake Encountered",
+				advancement: "alexsmobs:alexsmobs/rattlesnake",
+				criterion: ""
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 5.0d,
+			description: ["Cockroaches like maracas"],
+			dependencies: ["679FB7E7C654385F"],
+			id: "0E7A15BD940ECF8E",
+			tasks: [{
+				id: "1139B235EB572777",
+				type: "advancement",
+				title: "La Cucaracha",
+				advancement: "alexsmobs:alexsmobs/la_cucaracha",
+				criterion: ""
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -6.0d,
+			description: ["Tame non-tusk elephant full size"],
+			dependencies: ["568B1FDB06169851"],
+			id: "2FF82B88371F5F07",
+			tasks: [{
+				id: "152BF44EB964BD44",
+				type: "advancement",
+				title: "Safari Adventure",
+				advancement: "alexsmobs:alexsmobs/tame_elephant",
+				criterion: ""
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -8.5d,
+			description: ["Tame a tusked elephant as a calf"],
+			dependencies: ["2FF82B88371F5F07"],
+			id: "24285EBFC92AD6C5",
+			tasks: [{
+				id: "0DD7CF75490E294D",
+				type: "advancement",
+				title: "Greatest Warrior",
+				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked",
+				criterion: ""
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -6.5d,
+			description: ["place colored carpet on a tamed elephant"],
+			dependencies: ["2FF82B88371F5F07"],
+			id: "4718CFDE2B4A98EB",
+			tasks: [{
+				id: "44DF9DD4AE95E8DD",
+				type: "advancement",
+				title: "Elephant Style",
+				advancement: "alexsmobs:alexsmobs/elephant_swag",
+				criterion: ""
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 3.0d,
+			description: ["Tame a mantis shrimp"],
+			id: "1404B0021D22163E",
+			tasks: [{
+				id: "7DCC80D0F958A866",
+				type: "advancement",
+				title: "Bullets, for Hands",
+				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp",
+				criterion: ""
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.5d,
+			description: ["Give tamed mantis shrimp a bucket of water"],
+			dependencies: ["1404B0021D22163E"],
+			id: "7E59CB5BD918ED99",
+			tasks: [{
+				id: "1B8A368CA6453177",
+				type: "advancement",
+				title: "I'm Parched",
+				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket",
+				criterion: ""
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -0.5d,
+			description: ["Guster Encountered"],
+			id: "586FB5B01BB6C341",
+			tasks: [{
+				id: "6F62F95DCC74816E",
+				type: "advancement",
+				title: "Guster Encountered",
+				advancement: "alexsmobs:alexsmobs/guster",
+				criterion: ""
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -9.0d,
+			description: ["Bald eagle tamed with fish oil"],
+			id: "0433861EE023060D",
+			tasks: [{
+				id: "60979777BE765F46",
+				type: "advancement",
+				title: "Not Really Bald",
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle",
+				criterion: ""
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -9.5d,
+			description: ["Kill animal from 100 blocks away with hooded Eagle."],
+			dependencies: ["2BA83FDF7240DE8B"],
+			id: "2FABD2A54A4B0A4E",
+			tasks: [{
+				id: "0DC163D693E32FA0",
+				type: "advancement",
+				title: "Long Distance Killer",
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge",
+				criterion: ""
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 0.5d,
+			description: ["Encounter a Tarantula Hawk"],
+			id: "3CA1304CC6ED84A5",
+			tasks: [{
+				id: "7D15C1F72B8C19A2",
+				type: "advancement",
+				title: "Tarantula Hawk Encountered",
+				advancement: "alexsmobs:alexsmobs/tarantula_hawk",
+				criterion: ""
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 1.5d,
+			description: ["tame tarantula hawk with spider eyes"],
+			dependencies: ["3CA1304CC6ED84A5"],
+			id: "737BD5F672EB23AF",
+			tasks: [{
+				id: "470721B071F9795A",
+				type: "advancement",
+				title: "Pet Flying Devil",
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk",
+				criterion: ""
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			description: ["Feed meat to a tiger for its blessing"],
+			id: "6B7F9A97D3149745",
+			tasks: [{
+				id: "47E2205644777034",
+				type: "advancement",
+				title: "Blessings of Tony",
+				advancement: "alexsmobs:alexsmobs/tigers_blessing",
+				criterion: ""
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 2.0d,
+			description: ["Rescue a beached whale"],
+			id: "4B530B73DFFA452D",
+			tasks: [{
+				id: "41AB33590C0FB4EA",
+				type: "advancement",
+				title: "Aqua Rescue Force",
+				advancement: "alexsmobs:alexsmobs/save_cachalot_whale",
+				criterion: ""
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -7.5d,
+			description: ["jump on anthill"],
+			id: "7E6468F38A587264",
+			tasks: [{
+				id: "300156AB96F3BDE6",
+				type: "advancement",
+				title: "Ants in my Pants",
+				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill",
+				criterion: ""
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 0.5d,
+			description: ["Kangaroo Encountered"],
+			id: "6941D667244F04D9",
+			tasks: [{
+				id: "681C7849CB7DF7F8",
+				type: "advancement",
+				title: "Kangaroo Jack",
+				advancement: "alexsmobs:alexsmobs/kangaroo",
+				criterion: ""
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 0.5d,
+			description: ["Emu Encountered"],
+			id: "051CA3BEF47E6BCF",
+			tasks: [{
+				id: "2FC20090FF5FDCC1",
+				type: "advancement",
+				title: "Emu Day Out",
+				advancement: "alexsmobs:alexsmobs/emu",
+				criterion: ""
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.5d,
+			description: ["Witness an emu dodge a projectile"],
+			dependencies: ["051CA3BEF47E6BCF"],
+			id: "520283E00BC59D1D",
+			tasks: [{
+				id: "6B1CF681617C7D01",
+				type: "advancement",
+				title: "It has begun.....",
+				icon: "immersiveengineering:casull",
+				advancement: "alexsmobs:alexsmobs/emu_dodge",
+				criterion: ""
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 10.5d,
+			description: ["encounter enderiophage"],
+			id: "40CFB3D7A3ECB1B9",
+			tasks: [{
+				id: "04F776AF5D636E3E",
+				type: "advancement",
+				title: "End Virus",
+				advancement: "alexsmobs:alexsmobs/enderiophage",
+				criterion: ""
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 11.5d,
+			description: ["Heal end virus with chorus fruit or milk"],
+			dependencies: ["40CFB3D7A3ECB1B9"],
+			id: "44DD26244ADEC0F8",
+			tasks: [{
+				id: "6BCC47F491E9A812",
+				type: "advancement",
+				title: "Hope it isn't Contagious",
+				advancement: "alexsmobs:alexsmobs/ender_flu",
+				criterion: ""
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 8.5d,
+			id: "292B32B34CD5094A",
+			tasks: [{
+				id: "021CDEE7CA77D77C",
+				type: "advancement",
+				title: "Soul Vulture Encountered",
+				advancement: "alexsmobs:alexsmobs/soul_vulture",
+				criterion: ""
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 7.0d,
+			description: ["Lure a Spectre in the end over and hitch a ride with a lead"],
+			dependencies: ["3E83CFACFBDFDEB2"],
+			id: "425A42A957D7D70B",
+			tasks: [{
+				id: "2B197BD81934156E",
+				type: "advancement",
+				title: "Hitching a Ride",
+				advancement: "alexsmobs:alexsmobs/spectre",
+				criterion: ""
+			}]
+		},
+		{
+			x: -13.5d,
+			y: 11.0d,
+			description: ["Encounter Straddler"],
+			id: "4EDC8D006049F8E4",
+			tasks: [{
+				id: "00699EA6765B7B6C",
+				type: "advancement",
+				title: "Straddler Encountered",
+				advancement: "alexsmobs:alexsmobs/straddler",
+				criterion: ""
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 12.0d,
+			description: ["feed a stradpole a mosquito larva"],
+			dependencies: [
+				"13EDF3FD77403F25",
+				"6D5AA599D202F0AF"
+			],
+			id: "649DAB5F8334BF09",
+			tasks: [{
+				id: "4A084078BEDF8074",
+				type: "advancement",
+				title: "Lava Tadpole Feast",
+				advancement: "alexsmobs:alexsmobs/stradpole_feed",
+				criterion: ""
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 10.5d,
+			description: ["Crimson Mosquito Encountered"],
+			id: "3EF3C919FDC60E1B",
+			tasks: [{
+				id: "5E6012AB1B7B64E9",
+				type: "advancement",
+				title: "Cimson Mosquito Encountered",
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito",
+				criterion: ""
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 11.5d,
+			dependencies: ["6D5AA599D202F0AF"],
+			id: "434FB123BC8DEEDE",
+			tasks: [{
+				id: "1131503C338F9EEB",
+				type: "advancement",
+				title: "Mosquito Repellent",
+				advancement: "alexsmobs:alexsmobs/tame_warped_toad",
+				criterion: ""
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 12.5d,
+			description: ["Have crimson mosquito feed on a mungus covered with warped fungus"],
+			dependencies: ["3EF3C919FDC60E1B"],
+			id: "6AD1386215D8E52F",
+			tasks: [{
+				id: "6DEB65E3D52A483A",
+				type: "advancement",
+				title: "Mad Scientist",
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick",
+				criterion: ""
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 11.0d,
+			description: ["Kill the Warped Mosquito"],
+			dependencies: ["6AD1386215D8E52F"],
+			id: "47BE77D8F21BBDCC",
+			tasks: [{
+				id: "23757EA29413C93A",
+				type: "advancement",
+				title: "Bye Bye Mega Chad",
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill",
+				criterion: ""
+			}]
+		}
+	]
+}

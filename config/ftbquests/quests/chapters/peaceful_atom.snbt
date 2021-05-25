@@ -1,7 +1,7 @@
 {
 	id: "00000000000006EF",
 	group: "",
-	order_index: 12,
+	order_index: 13,
 	filename: "peaceful_atom",
 	title: "Peaceful Atom",
 	icon: "bigreactors:basic_reactorfuelrod",
@@ -697,9 +697,7 @@
 		{
 			x: 10.5d,
 			y: -1.5d,
-			description: [
-				"This manual will let you know all about the blocks from Extreme Reactors. Reference it often!"
-			],
+			description: ["This manual will let you know all about the blocks from Extreme Reactors. Reference it often!"],
 			dependencies: ["00000000000006F0"],
 			id: "0000000000001186",
 			tasks: [{

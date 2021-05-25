@@ -1,7 +1,7 @@
 {
 	id: "000000000000073F",
 	group: "",
-	order_index: 9,
+	order_index: 10,
 	filename: "transportation",
 	title: "Transportation",
 	icon: "minecraft:powered_rail",
@@ -10,9 +10,7 @@
 		{
 			x: -5.5d,
 			y: -1.0d,
-			description: [
-				"This manual will explain the mechanics and machines of Transport."
-			],
+			description: ["This manual will explain the mechanics and machines of Transport."],
 			dependencies: ["000000000000075C"],
 			id: "0000000000000740",
 			tasks: [{

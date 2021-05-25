@@ -1,7 +1,7 @@
 {
 	id: "000000000000002B",
 	group: "",
-	order_index: 8,
+	order_index: 9,
 	filename: "becoming_an_engineer",
 	title: "Becoming an Engineer",
 	icon: "engineersdecor:sign_decor",
@@ -2742,9 +2742,7 @@
 			title: "Engineer's Blueprints",
 			x: -9.0d,
 			y: 7.5d,
-			description: [
-				"These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench."
-			],
+			description: ["These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench."],
 			dependencies: ["000000000000022D"],
 			id: "000000000000102E",
 			tasks: [

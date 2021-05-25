@@ -1,7 +1,7 @@
 {
 	id: "0000000000001220",
 	group: "",
-	order_index: 6,
+	order_index: 7,
 	filename: "end_exploration",
 	title: "End Exploration",
 	icon: "minecraft:end_portal_frame",

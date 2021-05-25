@@ -1,7 +1,7 @@
 {
 	id: "000000000000011A",
 	group: "",
-	order_index: 7,
+	order_index: 8,
 	filename: "simple_storage",
 	title: "Simple Storage Solutions",
 	icon: "storagenetwork:master",
@@ -411,9 +411,7 @@
 		{
 			x: 8.0d,
 			y: 1.5d,
-			description: [
-				"The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."
-			],
+			description: ["The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."],
 			dependencies: ["00000000000001A7"],
 			id: "0000000000001247",
 			tasks: [{
