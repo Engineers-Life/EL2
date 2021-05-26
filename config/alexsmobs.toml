@@ -80,7 +80,7 @@
 	#Range: 0.0 ~ 10.0
 	cachalotVolume = 3.0
 	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
-	falconryTeleportsBack = false
+	falconryTeleportsBack = true
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
