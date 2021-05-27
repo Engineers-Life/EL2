@@ -1,0 +1,101 @@
+{
+	id: "000000000000054B",
+	order_index: 1,
+	title: "Random Ingot/Material",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:nether_brick"
+		},
+		{
+			item: "minecraft:quartz"
+		},
+		{
+			item: "refinedstorage:quartz_enriched_iron"
+		},
+		{
+			item: "immersiveengineering:ingot_hop_graphite"
+		},
+		{
+			item: "randomite:randomite_ore"
+		},
+		{
+			item: "minecraft:diamond"
+		},
+		{
+			item: "minecraft:redstone"
+		},
+		{
+			item: "minecraft:gold_ingot"
+		},
+		{
+			item: "minecraft:iron_ingot"
+		},
+		{
+			item: "minecraft:coal"
+		},
+		{
+			item: "immersiveengineering:ingot_nickel"
+		},
+		{
+			item: "immersiveengineering:ingot_copper"
+		},
+		{
+			item: "immersiveengineering:ingot_aluminum"
+		},
+		{
+			item: "immersiveengineering:ingot_lead"
+		},
+		{
+			item: "immersiveengineering:ingot_silver"
+		},
+		{
+			item: "immersiveengineering:ingot_steel"
+		},
+		{
+			item: "immersiveengineering:ingot_uranium"
+		},
+		{
+			item: "immersiveengineering:ingot_constantan"
+		},
+		{
+			item: "immersiveengineering:ingot_electrum"
+		},
+		{
+			item: "aquaculture:neptunium_ingot"
+		},
+		{
+			item: "buddycards:buddysteel_ingot"
+		},
+		{
+			item: "betterendforge:aeternium_ingot"
+		},
+		{
+			item: "betterendforge:thallasium_ingot"
+		},
+		{
+			item: "betterendforge:terminite_ingot"
+		},
+		{
+			item: "industrialforegoing:pink_slime_ingot"
+		},
+		{
+			item: "bigreactors:yellorium_ingot"
+		},
+		{
+			item: "bigreactors:cyanite_ingot"
+		},
+		{
+			item: "minecraft:brick"
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		string_id: "random_ingot_material"
+	}
+}

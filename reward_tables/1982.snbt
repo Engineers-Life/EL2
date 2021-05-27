@@ -1,0 +1,222 @@
+{
+	id: "00000000000007BE",
+	order_index: 7,
+	title: "Tier II Random",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "randomite:randomite_ore"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s,
+						id: "ensorcellation:trueshot"
+					}]
+				}
+			}
+		},
+		{
+			item: "immersiveengineering:ingot_copper",
+			count: 6
+		},
+		{
+			item: "immersiveengineering:ingot_aluminum",
+			count: 6
+		},
+		{
+			item: "minecraft:coal_block",
+			count: 4
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "ensorcellation:curse_fool"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s,
+						id: "ensorcellation:displacement"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s,
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "quark:danger_sight"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:long_swiftness"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:strength"
+				}
+			}
+		},
+		{
+			item: "minecraft:golden_apple"
+		},
+		{
+			item: "minecraft:glistering_melon_slice",
+			count: 24
+		},
+		{
+			item: "minecraft:magma_cream"
+		},
+		{
+			item: "minecraft:redstone",
+			count: 9
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s,
+						id: "ensorcellation:phalanx"
+					}]
+				}
+			}
+		},
+		{
+			item: "minecraft:leather",
+			count: 4
+		},
+		{
+			item: "minecraft:slime_ball",
+			count: 4
+		},
+		{
+			item: "aquaculture:lockbox"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "ensorcellation:bulwark"
+					}]
+				}
+			}
+		},
+		{
+			item: "minecraft:lapis_ore",
+			count: 6
+		},
+		{
+			item: "minecraft:sticky_piston"
+		},
+		{
+			item: "minecraft:melon",
+			count: 2
+		},
+		{
+			item: "minecraft:emerald_ore",
+			count: 4
+		},
+		{
+			item: "minecraft:emerald",
+			count: 6
+		},
+		{
+			item: "minecraft:charcoal",
+			count: 16
+		},
+		{
+			item: "minecraft:coal",
+			count: 16
+		},
+		{
+			item: "spareparts:coins/copper_coin"
+		},
+		{
+			item: "spareparts:coins/iron_coin"
+		},
+		{
+			item: "immersiveengineering:ingot_constantan",
+			count: 4
+		},
+		{
+			item: "immersiveengineering:ingot_electrum",
+			count: 4
+		},
+		{
+			item: "immersiveengineering:ingot_nickel",
+			count: 4
+		},
+		{
+			item: "minecraft:tnt",
+			count: 6
+		},
+		{
+			item: "minecraft:iron_ingot",
+			count: 16
+		},
+		{
+			item: "immersiveengineering:shader_bag_uncommon"
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		glow: 1b,
+		string_id: "tier_ii_random"
+	}
+}

@@ -1,0 +1,99 @@
+{
+	id: "0000000000000534",
+	order_index: 0,
+	title: "Random Dye",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:black_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:red_dye",
+			count: 16,
+			random_bonus: 14
+		},
+		{
+			item: "minecraft:green_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:brown_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:blue_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:purple_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:cyan_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:white_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:orange_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:magenta_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:light_blue_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:yellow_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:lime_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:pink_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:gray_dye",
+			count: 16,
+			random_bonus: 16
+		},
+		{
+			item: "minecraft:light_gray_dye",
+			count: 16,
+			random_bonus: 16
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		item_name: "Random Dye Crate",
+		glow: 1b,
+		string_id: "random_dye"
+	}
+}

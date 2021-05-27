@@ -1,0 +1,239 @@
+{
+	id: "00000000000007BF",
+	order_index: 8,
+	title: "Tier III Random",
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "ensorcellation:volley"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s,
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		},
+		{
+			item: "aquaculture:treasure_chest"
+		},
+		{
+			item: "minecraft:emerald",
+			count: 12
+		},
+		{
+			item: "immersiveengineering:ingot_steel",
+			count: 16
+		},
+		{
+			item: "spareparts:coins/golden_coin"
+		},
+		{
+			item: {
+				id: "quark:ancient_tome",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s,
+						id: "ensorcellation:leech"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "quark:ancient_tome",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s,
+						id: "ensorcellation:vitality"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "alexsmobs:speed_iii"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "alexsmobs:soulsteal"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+		},
+		{
+			item: "minecraft:paper",
+			count: 4
+		},
+		{
+			item: "minecraft:feather",
+			count: 4
+		},
+		{
+			item: "minecraft:bone",
+			count: 9
+		},
+		{
+			item: "minecraft:ender_pearl",
+			count: 12
+		},
+		{
+			item: "minecraft:experience_bottle",
+			count: 6
+		},
+		{
+			item: "waystones:waystone",
+			count: 2
+		},
+		{
+			item: "buddycards:mystery_pack"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "minecraft:silk_touch"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s,
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s,
+						id: "minecraft:thorns"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "ensorcellation:soulbound"
+					}]
+				}
+			}
+		},
+		{
+			item: "minecraft:coal_block",
+			count: 16
+		},
+		{
+			item: "minecraft:emerald_ore",
+			count: 16
+		},
+		{
+			item: "randomite:randomite_ore",
+			count: 16
+		},
+		{
+			item: "minecraft:coal",
+			count: 64
+		},
+		{
+			item: "minecraft:glowstone",
+			count: 64
+		},
+		{
+			item: "immersiveengineering:coal_coke",
+			count: 64
+		},
+		{
+			item: "immersiveengineering:shader_bag_epic"
+		},
+		{
+			item: "immersiveengineering:shader_bag_rare"
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		glow: 1b,
+		string_id: "tier_iii_random"
+	}
+}

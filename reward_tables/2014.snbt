@@ -1,0 +1,54 @@
+{
+	id: "00000000000007DE",
+	order_index: 9,
+	title: "Tier IV Random",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "refinedstorage:4096k_fluid_storage_part"
+		},
+		{
+			item: "refinedstorage:64k_storage_part"
+		},
+		{
+			item: "minecraft:nether_star"
+		},
+		{
+			item: "productivebees:inactive_dragon_egg"
+		},
+		{
+			item: "backpacker:endersack"
+		},
+		{
+			item: "minecraft:ender_chest"
+		},
+		{
+			item: "minecraft:dragon_breath",
+			count: 6
+		},
+		{
+			item: "bigreactors:reinforced_reactorcasing",
+			count: 64
+		},
+		{
+			item: "bigreactors:reinforced_turbinecasing",
+			count: 64
+		},
+		{
+			item: "immersiveengineering:shader_bag_ie_masterwork"
+		},
+		{
+			item: "minecraft:end_crystal",
+			count: 4
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		string_id: "tier_iv_random"
+	}
+}

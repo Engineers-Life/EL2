@@ -1,0 +1,102 @@
+{
+	id: "00000000000005F0",
+	order_index: 5,
+	title: "Deco Blocks Set",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "embellishcraft:basalt",
+			count: 64
+		},
+		{
+			item: "mapperbase:asphalt",
+			count: 64
+		},
+		{
+			item: "embellishcraft:slate",
+			count: 64
+		},
+		{
+			item: "embellishcraft:gneiss",
+			count: 64
+		},
+		{
+			item: "embellishcraft:jade",
+			count: 64
+		},
+		{
+			item: "embellishcraft:larvikite",
+			count: 64
+		},
+		{
+			item: "embellishcraft:polished_red_sandstone",
+			count: 64
+		},
+		{
+			item: "embellishcraft:yellow_grey_tiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:light_blue_tiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:red_tiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:beige_wallpaper",
+			count: 64
+		},
+		{
+			item: "embellishcraft:concrete_tiles",
+			count: 64
+		},
+		{
+			item: "embellishcraft:moist_paving",
+			count: 64
+		},
+		{
+			item: "embellishcraft:dark_concrete_paving",
+			count: 64
+		},
+		{
+			item: "embellishcraft:damaged_paving",
+			count: 64
+		},
+		{
+			item: "embellishcraft:marble_ornament",
+			count: 64
+		},
+		{
+			item: "embellishcraft:dark_bricks",
+			count: 64
+		},
+		{
+			item: "embellishcraft:old_bricks",
+			count: 64
+		},
+		{
+			item: "embellishcraft:weared_bricks",
+			count: 64
+		},
+		{
+			item: "embellishcraft:concrete_paving",
+			count: 64
+		},
+		{
+			item: "embellishcraft:polished_paving",
+			count: 64
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		glow: 1b,
+		string_id: "deco_blocks_set_2"
+	}
+}

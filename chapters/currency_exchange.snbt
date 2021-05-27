@@ -1,0 +1,1465 @@
+{
+	id: "0000000000000459",
+	group: "",
+	order_index: 14,
+	filename: "currency_exchange",
+	title: "Currency Exchange",
+	icon: "minecraft:emerald",
+	disable_toast: true,
+	default_quest_shape: "square",
+	quests: [
+		{
+			title: "64x Bricks",
+			icon: "minecraft:bricks",
+			disable_toast: true,
+			x: -4.0d,
+			y: 0.5d,
+			id: "0000000000000470",
+			tasks: [{
+				id: "0000000000000471",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000472",
+				type: "item",
+				team_reward: false,
+				auto: "enabled",
+				item: "minecraft:bricks",
+				count: 64
+			}]
+		},
+		{
+			title: "Shingles",
+			icon: {
+				id: "engineersdecor:dark_shingle_roof",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -3.0d,
+			y: 0.5d,
+			id: "0000000000000575",
+			tasks: [{
+				id: "0000000000000576",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000007F3",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "shingles_blocks"
+					}
+				}
+			}]
+		},
+		{
+			title: "Random Mob Drop",
+			icon: "minecraft:slime_ball",
+			disable_toast: true,
+			x: -3.0d,
+			y: -1.5d,
+			id: "0000000000000579",
+			tasks: [{
+				id: "000000000000057A",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				count: 2L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000581",
+				type: "choice",
+				table_id: 1407L
+			}]
+		},
+		{
+			title: "Random Mob Drop",
+			icon: "minecraft:bone",
+			disable_toast: true,
+			x: -4.0d,
+			y: -1.5d,
+			id: "000000000000057C",
+			tasks: [{
+				id: "000000000000057D",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000007F2",
+				type: "item",
+				item: {
+					id: "ftbquests:lootcrate",
+					Count: 1b,
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: -1.5d,
+			id: "0000000000000582",
+			tasks: [{
+				id: "0000000000000583",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000593",
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 0.5d,
+			id: "0000000000000584",
+			tasks: [{
+				id: "0000000000000585",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000594",
+				type: "xp_levels",
+				xp_levels: 3
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: -3.5d,
+			id: "0000000000000586",
+			tasks: [{
+				id: "0000000000000587",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000592",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 2.5d,
+			id: "0000000000000588",
+			tasks: [{
+				id: "0000000000000589",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000595",
+				type: "xp_levels",
+				xp_levels: 4
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 4.5d,
+			id: "000000000000058A",
+			tasks: [{
+				id: "000000000000058B",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/golden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "624B2341E52A594A",
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 6.5d,
+			id: "000000000000058C",
+			tasks: [{
+				id: "000000000000058D",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/diamond_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000596",
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 8.5d,
+			id: "000000000000058E",
+			tasks: [{
+				id: "000000000000058F",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/monster_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000597",
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			disable_toast: true,
+			x: -6.0d,
+			y: 10.5d,
+			hide: false,
+			id: "0000000000000590",
+			tasks: [{
+				id: "0000000000000591",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/ancient_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000598",
+				type: "xp_levels",
+				xp_levels: 30
+			}]
+		},
+		{
+			title: "Random Ingot/Material",
+			icon: "minecraft:iron_ingot",
+			disable_toast: true,
+			x: -4.0d,
+			y: 2.5d,
+			id: "0000000000000599",
+			tasks: [{
+				id: "000000000000059A",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000007C3",
+				type: "random",
+				table_id: 1355L
+			}]
+		},
+		{
+			title: "Ingot/Material Choice",
+			icon: "minecraft:gold_ingot",
+			disable_toast: true,
+			x: -3.0d,
+			y: 2.5d,
+			id: "000000000000059B",
+			tasks: [{
+				id: "000000000000059C",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				count: 2L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000007C4",
+				type: "choice",
+				table_id: 1355L
+			}]
+		},
+		{
+			title: "Randomite Ore",
+			icon: "randomite:randomite_ore",
+			disable_toast: true,
+			x: -2.0d,
+			y: 2.5d,
+			id: "000000000000059F",
+			tasks: [{
+				id: "00000000000005A0",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005A1",
+				type: "item",
+				item: "randomite:randomite_ore"
+			}]
+		},
+		{
+			title: "Gold Ring",
+			icon: "curios:ring",
+			disable_toast: true,
+			x: -4.0d,
+			y: 6.5d,
+			description: ["This ring will boost your speed and increase your armor."],
+			id: "00000000000005A2",
+			tasks: [{
+				id: "00000000000005A3",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/diamond_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005AE",
+				type: "item",
+				item: "curios:ring"
+			}]
+		},
+		{
+			title: "Mighty Crown",
+			icon: {
+				id: "curios:crown",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			disable_toast: true,
+			x: -4.0d,
+			y: 10.5d,
+			description: ["This crown will give you nightvision but it will slowly decay due to its power."],
+			id: "00000000000005A6",
+			tasks: [{
+				id: "00000000000005A7",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/ancient_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005B1",
+				type: "item",
+				item: {
+					id: "curios:crown",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Knuckles",
+			icon: "curios:knuckles",
+			disable_toast: true,
+			x: -3.0d,
+			y: 6.5d,
+			description: ["These knuckles will boost your attack damage."],
+			id: "00000000000005AA",
+			tasks: [{
+				id: "00000000000005AB",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/diamond_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005B0",
+				type: "item",
+				item: "curios:knuckles"
+			}]
+		},
+		{
+			title: "Shiny Necklace",
+			icon: "curios:amulet",
+			disable_toast: true,
+			x: -3.0d,
+			y: 10.5d,
+			description: ["This necklace will grant you regeneration of health."],
+			id: "00000000000005AC",
+			tasks: [{
+				id: "00000000000005AD",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/ancient_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005B2",
+				type: "item",
+				item: "curios:amulet"
+			}]
+		},
+		{
+			title: "Chainmail Chestplate",
+			icon: {
+				id: "minecraft:chainmail_chestplate",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			disable_toast: true,
+			x: 1.0d,
+			y: -1.5d,
+			id: "00000000000005B4",
+			tasks: [{
+				id: "00000000000005B5",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				count: 5L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005BD",
+				type: "item",
+				item: {
+					id: "minecraft:chainmail_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Chainmail Helmet",
+			icon: {
+				id: "minecraft:chainmail_helmet",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			disable_toast: true,
+			x: 0.0d,
+			y: -1.5d,
+			id: "00000000000005B6",
+			tasks: [{
+				id: "00000000000005B7",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				count: 3L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005BC",
+				type: "item",
+				item: {
+					id: "minecraft:chainmail_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Chainmail Leggings",
+			icon: {
+				id: "minecraft:chainmail_leggings",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			disable_toast: true,
+			x: 2.0d,
+			y: -1.5d,
+			id: "00000000000005B8",
+			tasks: [{
+				id: "00000000000005B9",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				count: 5L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005BE",
+				type: "item",
+				item: {
+					id: "minecraft:chainmail_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Chainmail Boots",
+			icon: {
+				id: "minecraft:chainmail_boots",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			disable_toast: true,
+			x: 3.0d,
+			y: -1.5d,
+			id: "00000000000005BA",
+			tasks: [{
+				id: "00000000000005BB",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				count: 3L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005BF",
+				type: "item",
+				item: {
+					id: "minecraft:chainmail_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "64x Granite",
+			icon: {
+				id: "minecraft:granite",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -4.0d,
+			y: -3.5d,
+			id: "00000000000005CC",
+			tasks: [{
+				id: "00000000000005CD",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005D6",
+				type: "item",
+				item: "minecraft:granite",
+				count: 64
+			}]
+		},
+		{
+			title: "64x Diorite",
+			icon: {
+				id: "minecraft:diorite",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -3.0d,
+			y: -3.5d,
+			id: "00000000000005CE",
+			tasks: [{
+				id: "00000000000005CF",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005D7",
+				type: "item",
+				item: "minecraft:diorite",
+				count: 64
+			}]
+		},
+		{
+			title: "64x Andesite",
+			icon: {
+				id: "minecraft:andesite",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -2.0d,
+			y: -3.5d,
+			id: "00000000000005D0",
+			tasks: [{
+				id: "00000000000005D1",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005D8",
+				type: "item",
+				item: "minecraft:andesite",
+				count: 64
+			}]
+		},
+		{
+			title: "64x Red Sand",
+			icon: {
+				id: "minecraft:red_sand",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -1.0d,
+			y: -3.5d,
+			id: "00000000000005D2",
+			tasks: [{
+				id: "00000000000005D3",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005D9",
+				type: "item",
+				item: "minecraft:red_sand",
+				count: 64
+			}]
+		},
+		{
+			title: "64x Gravel",
+			icon: {
+				id: "minecraft:gravel",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: 0.0d,
+			y: -3.5d,
+			id: "00000000000005D4",
+			tasks: [{
+				id: "00000000000005D5",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005DA",
+				type: "item",
+				item: "minecraft:gravel",
+				count: 64
+			}]
+		},
+		{
+			title: "64x Sand",
+			icon: {
+				id: "minecraft:sand",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: 1.0d,
+			y: -3.5d,
+			id: "00000000000005DB",
+			tasks: [{
+				id: "00000000000005DC",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005DD",
+				type: "item",
+				item: "minecraft:sand",
+				count: 64
+			}]
+		},
+		{
+			title: "64x Cobblestone",
+			icon: {
+				id: "minecraft:cobblestone",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: 2.0d,
+			y: -3.5d,
+			id: "00000000000005E0",
+			tasks: [{
+				id: "00000000000005E1",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005E2",
+				type: "item",
+				item: "minecraft:cobblestone",
+				count: 64
+			}]
+		},
+		{
+			title: "Random Stone",
+			icon: {
+				id: "quark:jasper",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -2.0d,
+			y: -1.5d,
+			id: "00000000000005E3",
+			tasks: [{
+				id: "00000000000005E4",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005E5",
+				type: "choice",
+				table_id: 1483L
+			}]
+		},
+		{
+			title: "Random Stone",
+			icon: "quark:polished_jasper",
+			disable_toast: true,
+			x: -2.0d,
+			y: 0.5d,
+			id: "00000000000005E6",
+			tasks: [{
+				id: "00000000000005E7",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005E8",
+				type: "choice",
+				table_id: 1483L
+			}]
+		},
+		{
+			title: "Waystone",
+			icon: "waystones:waystone",
+			disable_toast: true,
+			x: -4.0d,
+			y: 4.5d,
+			id: "00000000000005E9",
+			tasks: [{
+				id: "00000000000005EA",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/golden_coin",
+				count: 2L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005EB",
+				type: "item",
+				item: "waystones:waystone"
+			}]
+		},
+		{
+			title: "Random Stone",
+			icon: {
+				id: "embellishcraft:larvikite",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -1.0d,
+			y: 0.5d,
+			id: "00000000000005F1",
+			tasks: [{
+				id: "00000000000005F2",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005F6",
+				type: "choice",
+				table_id: 1520L
+			}]
+		},
+		{
+			title: "Random Stone",
+			icon: {
+				id: "embellishcraft:larvikite",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -1.0d,
+			y: -1.5d,
+			id: "00000000000005F3",
+			tasks: [{
+				id: "00000000000005F4",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000005F5",
+				type: "choice",
+				table_id: 1520L
+			}]
+		},
+		{
+			title: "Potion of Strength",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:strength"
+				}
+			},
+			disable_toast: true,
+			x: 0.0d,
+			y: 0.5d,
+			id: "00000000000006AE",
+			tasks: [{
+				id: "00000000000006AF",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006B4",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				}
+			}]
+		},
+		{
+			title: "Potion of Fire Resistance",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			},
+			disable_toast: true,
+			x: 1.0d,
+			y: 0.5d,
+			id: "00000000000006B0",
+			tasks: [{
+				id: "00000000000006B1",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006B5",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		},
+		{
+			title: "Potion of Swiftness",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			},
+			disable_toast: true,
+			x: 4.0d,
+			y: -1.5d,
+			id: "00000000000006B2",
+			tasks: [{
+				id: "00000000000006B3",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006B8",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+			}]
+		},
+		{
+			title: "Potion of Water Breathing",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:water_breathing"
+				}
+			},
+			disable_toast: true,
+			x: 5.0d,
+			y: -1.5d,
+			id: "00000000000006B6",
+			tasks: [{
+				id: "00000000000006B7",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/stone_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006B9",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
+			}]
+		},
+		{
+			title: "64x Clay",
+			icon: {
+				id: "minecraft:clay",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: -1.0d,
+			y: 2.5d,
+			id: "00000000000006BC",
+			tasks: [{
+				id: "00000000000006BD",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006C0",
+				type: "item",
+				item: "minecraft:clay",
+				count: 64
+			}]
+		},
+		{
+			title: "32x Clay",
+			icon: {
+				id: "minecraft:clay",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: 2.0d,
+			y: 0.5d,
+			id: "00000000000006BE",
+			tasks: [{
+				id: "00000000000006BF",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006C1",
+				type: "item",
+				item: "minecraft:clay",
+				count: 32
+			}]
+		},
+		{
+			title: "Potion of Regeneration",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			},
+			disable_toast: true,
+			x: -3.0d,
+			y: 4.5d,
+			id: "00000000000006C2",
+			tasks: [{
+				id: "00000000000006C3",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/golden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006CE",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+			}]
+		},
+		{
+			title: "Lure III",
+			icon: {
+				id: "quark:ancient_tome",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s,
+						id: "minecraft:lure"
+					}]
+				}
+			},
+			disable_toast: true,
+			x: -2.0d,
+			y: 4.5d,
+			id: "00000000000006C4",
+			tasks: [{
+				id: "00000000000006C5",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/golden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006D0",
+				type: "item",
+				item: {
+					id: "quark:ancient_tome",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:lure"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Potion of Luck",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			},
+			disable_toast: true,
+			x: 0.0d,
+			y: 2.5d,
+			id: "00000000000006C6",
+			tasks: [{
+				id: "00000000000006C7",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006CD",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+			}]
+		},
+		{
+			title: "Potion of Slow Falling",
+			icon: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "minecraft:long_slow_falling"
+				}
+			},
+			disable_toast: true,
+			x: 3.0d,
+			y: 0.5d,
+			id: "00000000000006C8",
+			tasks: [{
+				id: "00000000000006C9",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/copper_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006CC",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+			}]
+		},
+		{
+			title: "Depth Strider III",
+			icon: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s,
+						id: "minecraft:depth_strider"
+					}]
+				}
+			},
+			disable_toast: true,
+			x: 1.0d,
+			y: 2.5d,
+			id: "00000000000006CA",
+			tasks: [{
+				id: "00000000000006CB",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006CF",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:depth_strider"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Luck of the Sea III",
+			icon: {
+				id: "quark:ancient_tome",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s,
+						id: "minecraft:lure"
+					}]
+				}
+			},
+			disable_toast: true,
+			x: -1.0d,
+			y: 4.5d,
+			id: "00000000000006D1",
+			tasks: [{
+				id: "00000000000006D2",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/golden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006D3",
+				type: "item",
+				item: {
+					id: "quark:ancient_tome",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:luck_of_the_sea"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Sharpness V",
+			icon: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s,
+						id: "minecraft:sharpness"
+					}]
+				}
+			},
+			disable_toast: true,
+			x: -2.0d,
+			y: 6.5d,
+			id: "00000000000006D4",
+			tasks: [{
+				id: "00000000000006D5",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/diamond_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006D6",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s,
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Angler's Bounty II",
+			icon: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s,
+						id: "ensorcellation:angler"
+					}]
+				}
+			},
+			disable_toast: true,
+			x: 2.0d,
+			y: 2.5d,
+			id: "00000000000006D7",
+			tasks: [{
+				id: "00000000000006D8",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006DF",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s,
+							id: "ensorcellation:angler"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Bulwark",
+			icon: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "ensorcellation:bulwark"
+					}]
+				}
+			},
+			disable_toast: true,
+			x: 3.0d,
+			y: 2.5d,
+			id: "00000000000006D9",
+			tasks: [{
+				id: "00000000000006DA",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006E0",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s,
+							id: "ensorcellation:bulwark"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Phalanx II",
+			icon: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s,
+						id: "ensorcellation:phalanx"
+					}]
+				}
+			},
+			disable_toast: true,
+			x: 4.0d,
+			y: 2.5d,
+			id: "00000000000006E1",
+			tasks: [{
+				id: "00000000000006E2",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/iron_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006E3",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s,
+							id: "ensorcellation:phalanx"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Cake",
+			icon: "minecraft:cake",
+			disable_toast: true,
+			x: 3.0d,
+			y: -3.5d,
+			id: "00000000000006E4",
+			tasks: [{
+				id: "00000000000006E5",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006E8",
+				type: "item",
+				item: "minecraft:cake"
+			}]
+		},
+		{
+			title: "32x Potato",
+			icon: {
+				id: "minecraft:potato",
+				Count: 64b
+			},
+			disable_toast: true,
+			x: 4.0d,
+			y: -3.5d,
+			id: "00000000000006E6",
+			tasks: [{
+				id: "00000000000006E7",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006E9",
+				type: "item",
+				item: "minecraft:potato",
+				count: 32
+			}]
+		},
+		{
+			title: "30 XP Levels",
+			icon: "minecraft:experience_bottle",
+			disable_toast: true,
+			x: 0.0d,
+			y: 4.5d,
+			id: "00000000000006EC",
+			tasks: [{
+				id: "00000000000006ED",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/golden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "00000000000006EE",
+				type: "xp_levels",
+				xp_levels: 30
+			}]
+		},
+		{
+			title: "Random Dye",
+			icon: "minecraft:yellow_dye",
+			disable_toast: true,
+			x: 5.0d,
+			y: -3.5d,
+			id: "000000000000076E",
+			tasks: [{
+				id: "000000000000076F",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000770",
+				type: "random",
+				table_id: 1332L
+			}]
+		},
+		{
+			title: "Coal Ore",
+			icon: "minecraft:coal_ore",
+			disable_toast: true,
+			x: 6.0d,
+			y: -3.5d,
+			id: "0000000000000771",
+			tasks: [{
+				id: "0000000000000772",
+				type: "item",
+				disable_toast: true,
+				item: "spareparts:coins/wooden_coin",
+				consume_items: true
+			}],
+			rewards: [{
+				id: "0000000000000773",
+				type: "item",
+				item: "minecraft:coal_ore"
+			}]
+		}
+	]
+}

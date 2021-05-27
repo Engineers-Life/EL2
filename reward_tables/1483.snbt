@@ -1,0 +1,57 @@
+{
+	id: "00000000000005CB",
+	order_index: 4,
+	title: "Quark Basic Stones",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "quark:limestone",
+			count: 64
+		},
+		{
+			item: "quark:cobbedstone",
+			count: 64
+		},
+		{
+			item: "quark:marble",
+			count: 64
+		},
+		{
+			item: "quark:jasper",
+			count: 64
+		},
+		{
+			item: "quark:slate",
+			count: 64
+		},
+		{
+			item: "quark:basalt",
+			count: 64
+		},
+		{
+			item: "quark:brimstone",
+			count: 64
+		},
+		{
+			item: "quark:turf",
+			count: 64
+		},
+		{
+			item: "quark:soul_sandstone",
+			count: 64
+		},
+		{
+			item: "quark:biotite_block",
+			count: 64
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		string_id: "quark_basic_stones"
+	}
+}

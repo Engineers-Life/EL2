@@ -1,0 +1,140 @@
+{
+	id: "00000000000007BC",
+	order_index: 6,
+	title: "Tier I Random",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "randomite:randomite_ore"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "charm:tinted"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s,
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		},
+		{
+			item: "spareparts:coins/wooden_coin"
+		},
+		{
+			item: "minecraft:coal"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s,
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+		},
+		{
+			item: "minecraft:iron_ingot"
+		},
+		{
+			item: "minecraft:tnt"
+		},
+		{
+			item: "simplefarming:sorghum_bread"
+		},
+		{
+			item: "minecraft:gold_ingot"
+		},
+		{
+			item: "minecraft:dark_oak_sapling"
+		},
+		{
+			item: "minecraft:string",
+			count: 4
+		},
+		{
+			item: "minecraft:redstone",
+			count: 3
+		},
+		{
+			item: "minecraft:hay_block"
+		},
+		{
+			item: "spareparts:coins/stone_coin"
+		},
+		{
+			item: "minecraft:jungle_sapling"
+		},
+		{
+			item: "simplefarming:spinach_quinoa_quiche"
+		},
+		{
+			item: "simplefarming:trail_mix"
+		},
+		{
+			item: "simplefarming:zucchini_bread"
+		},
+		{
+			item: "minecraft:charcoal",
+			count: 16
+		},
+		{
+			item: "aquaculture:box"
+		},
+		{
+			item: "minecraft:sand",
+			count: 64
+		},
+		{
+			item: "immersiveengineering:ingot_lead"
+		},
+		{
+			item: "immersiveengineering:ingot_silver"
+		},
+		{
+			item: "minecraft:clay_ball",
+			count: 64
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "minecraft:smite"
+					}]
+				}
+			}
+		},
+		{
+			item: "immersiveengineering:shader_bag_common"
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		glow: 1b,
+		string_id: "tier_i_random"
+	}
+}

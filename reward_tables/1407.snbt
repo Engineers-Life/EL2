@@ -1,0 +1,90 @@
+{
+	id: "000000000000057F",
+	order_index: 3,
+	title: "Mob Drops",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "quark:tallow",
+			count: 4
+		},
+		{
+			item: "minecraft:prismarine_shard",
+			count: 4
+		},
+		{
+			item: "minecraft:prismarine_crystals",
+			count: 4
+		},
+		{
+			item: "minecraft:rabbit_hide",
+			count: 6
+		},
+		{
+			item: "minecraft:leather",
+			count: 4
+		},
+		{
+			item: "minecraft:ender_pearl",
+			count: 2
+		},
+		{
+			item: "minecraft:bone",
+			count: 6
+		},
+		{
+			item: "minecraft:egg",
+			count: 6
+		},
+		{
+			item: "minecraft:slime_ball",
+			count: 6
+		},
+		{
+			item: "minecraft:gunpowder",
+			count: 4
+		},
+		{
+			item: "minecraft:feather",
+			count: 6
+		},
+		{
+			item: "minecraft:string",
+			count: 8
+		},
+		{
+			item: "minecraft:ink_sac",
+			count: 2
+		},
+		{
+			item: "quark:frog_leg",
+			count: 2
+		},
+		{
+			item: "minecraft:rabbit_foot",
+			count: 2
+		},
+		{
+			item: "minecraft:spider_eye",
+			count: 2
+		},
+		{
+			item: "minecraft:blaze_rod",
+			count: 4
+		},
+		{
+			item: "minecraft:ghast_tear",
+			count: 2
+		}
+	],
+	loot_crate: {
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		},
+		color: 16777215,
+		glow: 1b,
+		string_id: "mob_drops"
+	}
+}
