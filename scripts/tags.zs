@@ -18,5 +18,6 @@ for axe in [
 
 <tag:items:itemfilters:check_nbt>.add(<item:immersiveengineering:blueprint>);
 <tag:items:itemfilters:check_nbt>.add(<item:patchouli:guide_book>);
+<tag:items:itemfilters:check_nbt>.add(<item:tetra:scroll_rolled>);
 
 println("END tags.zs");
