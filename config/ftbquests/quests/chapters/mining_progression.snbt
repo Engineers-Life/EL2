@@ -1509,7 +1509,7 @@
 			description: [
 				"The Forge Hammer can be found in Ancient Bases where it can be used to create higher tier gear. A standard workbench or a forged workbench can be used with it.",
 				"",
-				"To activate the hammer it must be powered with 2 filled Thermal Cells, which are inserted by prying the sides off and right clicking until smoke comes out."
+				"To activate the hammer it must be powered with 2 filled Thermal Cells, which are inserted on the sides with a right click. Accesories can then be added to the other two sides."
 			],
 			dependencies: ["788795772632D09F"],
 			id: "7385A70C3CA6DD47",
@@ -2178,7 +2178,7 @@
 			],
 			id: "5DD334FC79B2D1B9",
 			tasks: [{
-				id: "3D4CAEEBF3AD8449",
+				id: "565EE1B9C72BA06E",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2188,7 +2188,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/basic_axe/warforge"],
+								schematics: ["minecraft:double/basic_axe/warforge"],
 								ribbon: "b35973",
 								glyphs: [
 									5,
@@ -2219,7 +2219,7 @@
 			],
 			id: "57C8481EA2D9B764",
 			tasks: [{
-				id: "090C6ADABD4DED02",
+				id: "274D3D02EC48320A",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2229,7 +2229,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/basic_hammer/warforge"],
+								schematics: ["minecraft:double/basic_hammer/warforge"],
 								ribbon: "3d4299",
 								glyphs: [
 									9,
@@ -2260,7 +2260,7 @@
 			],
 			id: "544A948D897CEC4B",
 			tasks: [{
-				id: "22A84EBF788CAA41",
+				id: "0661146F977C3B12",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2270,7 +2270,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/basic_pickaxe/warforge"],
+								schematics: ["minecraft:double/basic_pickaxe/warforge"],
 								ribbon: "508cb3",
 								glyphs: [
 									6,
@@ -2301,7 +2301,7 @@
 			],
 			id: "1255A39FEC6BBC51",
 			tasks: [{
-				id: "2D5F3697B44E3AC2",
+				id: "399A6DF0606EE392",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2311,7 +2311,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/butt_shared/warforge/"],
+								schematics: ["minecraft:double/butt_shared/warforge/"],
 								ribbon: "b33636",
 								glyphs: [
 									11,
@@ -2342,7 +2342,7 @@
 			],
 			id: "152251754B83ED3C",
 			tasks: [{
-				id: "1194F8874415AD25",
+				id: "4269D44467981D17",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2352,7 +2352,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/claw/warforge"],
+								schematics: ["minecraft:double/claw/warforge"],
 								ribbon: "1d262f",
 								glyphs: [
 									8,
@@ -2383,7 +2383,7 @@
 			],
 			id: "635B2D7BBD9AC5B0",
 			tasks: [{
-				id: "6F66114B7375618C",
+				id: "6842AD3982E44016",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2393,7 +2393,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/hoe/warforge"],
+								schematics: ["minecraft:double/hoe/warforge"],
 								ribbon: "93b350",
 								glyphs: [
 									10,
@@ -2424,7 +2424,7 @@
 			],
 			id: "15E026173E7BC1CF",
 			tasks: [{
-				id: "169B5046B311DA4B",
+				id: "2E49B6B6E2B01A19",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2434,7 +2434,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/adze/warforge"],
+								schematics: ["minecraft:double/adze/warforge"],
 								ribbon: "8559b3",
 								glyphs: [
 									6,
@@ -2465,7 +2465,7 @@
 			],
 			id: "0589D14692A01423",
 			tasks: [{
-				id: "0E0835CEFB373074",
+				id: "7C052C1C99B330D7",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2475,7 +2475,7 @@
 							data: [{
 								intricate: 0b,
 								material: 2,
-								schematics: ["tetra:double/sickle/warforge"],
+								schematics: ["minecraft:double/sickle/warforge"],
 								ribbon: "d99e4c",
 								glyphs: [
 									5,
@@ -2506,7 +2506,7 @@
 			],
 			id: "07D95BE949C7DAF8",
 			tasks: [{
-				id: "2CFB035545562A12",
+				id: "550B556D791BC277",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2516,7 +2516,7 @@
 							data: [{
 								intricate: 1b,
 								material: 2,
-								schematics: ["tetra:shared/hone_gild_1"],
+								schematics: ["minecraft:shared/hone_gild_1"],
 								ribbon: "c9ae69",
 								glyphs: [
 									15,
@@ -2543,7 +2543,7 @@
 			dependencies: ["07D95BE949C7DAF8"],
 			id: "78F580FEAA69A4F8",
 			tasks: [{
-				id: "60684741EF4D88F8",
+				id: "259C2EC980D8A466",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2583,7 +2583,7 @@
 			],
 			id: "77FDA42B1222BD4C",
 			tasks: [{
-				id: "74A5BEB7223E6982",
+				id: "740B4D64D7624965",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2593,7 +2593,7 @@
 							data: [{
 								intricate: 0b,
 								material: 1,
-								schematics: ["tetra:sword/sturdy_guard"],
+								schematics: ["minecraft:sword/sturdy_guard"],
 								ribbon: "bcb8b5",
 								glyphs: [
 									3,
@@ -2623,7 +2623,7 @@
 			],
 			id: "7D603523233279B3",
 			tasks: [{
-				id: "4389DF4C4717A26C",
+				id: "6EB02303B61AD923",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2633,7 +2633,7 @@
 							data: [{
 								intricate: 0b,
 								material: 1,
-								schematics: ["tetra:sword/throwing_knife"],
+								schematics: ["minecraft:sword/throwing_knife"],
 								ribbon: "b8ced9",
 								glyphs: [
 									4,
@@ -2663,7 +2663,7 @@
 			],
 			id: "00CDA44B4E76D1E6",
 			tasks: [{
-				id: "671344C6F0D3EC28",
+				id: "0DBC8A22DD13D8C7",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2673,7 +2673,7 @@
 							data: [{
 								intricate: 0b,
 								material: 1,
-								schematics: ["tetra:sword/howling"],
+								schematics: ["minecraft:sword/howling"],
 								ribbon: "faf396",
 								glyphs: [
 									8,
@@ -2699,11 +2699,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of gemstones will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from mason villagers."
 			],
 			id: "0D69186F8138A0C9",
 			tasks: [{
-				id: "77002C7820FF4E30",
+				id: "27D803D849745122",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2739,11 +2739,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of metal will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from villagers who work metal."
 			],
 			id: "09D05DD705B6F75B",
 			tasks: [{
-				id: "4DDD25ECB7E4AD76",
+				id: "72C46D582F784820",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2779,11 +2779,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of wood will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from fletcher villagers."
 			],
 			id: "216F8320B52B65C1",
 			tasks: [{
-				id: "0A90F9B918D22226",
+				id: "13C8B2A5B33103E8",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2819,11 +2819,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of stone will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from mason villagers."
 			],
 			id: "7234FD5F79ABF6B0",
 			tasks: [{
-				id: "1A1C722A3F807FE7",
+				id: "133633D3FCBEAF6A",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2854,11 +2854,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of fibre will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from fletcher villagers."
 			],
 			id: "15358C492A96474A",
 			tasks: [{
-				id: "1D71C39E18BFD321",
+				id: "67775264FE325F4D",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2891,14 +2891,15 @@
 		{
 			x: 1.0d,
 			y: 10.0d,
+			shape: "circle",
 			description: [
 				"When this treatise is near a workbench any major module made of skin (leather) will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from leatherworker villagers."
 			],
 			id: "38B08A136E92B917",
 			tasks: [{
-				id: "252EA5E5DD2F3572",
+				id: "26B21FDF1F8C9C5B",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2934,11 +2935,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of bone will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from butcher villagers."
 			],
 			id: "52B54E2CE151772D",
 			tasks: [{
-				id: "5A65D769598EBCB3",
+				id: "6E6492385800D348",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -2974,11 +2975,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of fabric will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from shepard villagers."
 			],
 			id: "1FBD746595917646",
 			tasks: [{
-				id: "293C304A3EF8819F",
+				id: "283CE26B549DD593",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -3014,11 +3015,11 @@
 			description: [
 				"When this treatise is near a workbench any major module made of scale will do extra damage and have better efficiency.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from leatherworker villagers."
 			],
 			id: "375CE372A0A91A71",
 			tasks: [{
-				id: "028B41C79D681E90",
+				id: "26B95AB51592EC21",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -3054,11 +3055,11 @@
 			description: [
 				"When this treatise is near a workbench there is a 25% chance that using a hammer to make a module will require 1 less material amount. Cannot be less than 1.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from metal working villagers."
 			],
 			id: "0A36FFA51A28A740",
 			tasks: [{
-				id: "799F0175C5D925E1",
+				id: "2043A6626DC9EAFF",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -3094,11 +3095,11 @@
 			description: [
 				"When this treatise is near a workbench there is a 25% chance that using an axe to make a module will require 1 less material amount. Cannot be less than 1.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from fletcher villagers."
 			],
 			id: "4BEC7C7000CA0094",
 			tasks: [{
-				id: "4D94FB9D6E3D802C",
+				id: "4F8CE52A4BEB1D2A",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
@@ -3134,11 +3135,11 @@
 			description: [
 				"When this treatise is near a workbench there is a 25% chance that using a cutting tool to make a module will require 1 less material amount. Cannot be less than 1.",
 				"",
-				"Can be bought from villagers."
+				"Can be bought from leatherworker villagers."
 			],
 			id: "675FDDA4D1048267",
 			tasks: [{
-				id: "0C2E825771470ECA",
+				id: "776E59FC7902F819",
 				type: "item",
 				item: {
 					id: "tetra:scroll_rolled",
