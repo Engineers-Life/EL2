@@ -23,6 +23,11 @@
 				id: "5600BE1C666EA251",
 				type: "item",
 				item: "alexsmobs:bear_fur"
+			}],
+			rewards: [{
+				id: "340E06F7124FEBEF",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -33,6 +38,11 @@
 			id: "7462427AC1D865C7",
 			tasks: [{
 				id: "062115DFB9A8E0A6",
+				type: "item",
+				item: "alexsmobs:roadrunner_feather"
+			}],
+			rewards: [{
+				id: "7362384A28563B41",
 				type: "item",
 				item: "alexsmobs:roadrunner_feather"
 			}]
@@ -53,6 +63,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "572BCFB7DCCC3B47",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -65,6 +80,17 @@
 				id: "71619495E5032397",
 				type: "item",
 				item: "alexsmobs:bone_serpent_tooth"
+			}],
+			rewards: [{
+				id: "3E1A49BB8521AFF7",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
 			}]
 		},
 		{
@@ -83,6 +109,11 @@
 						Potion: "alexsmobs:lava_vision"
 					}
 				}
+			}],
+			rewards: [{
+				id: "2C2755CFD1E314F1",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -95,6 +126,12 @@
 				id: "7ABF08CE502BA3D7",
 				type: "item",
 				item: "alexsmobs:gazelle_horn"
+			}],
+			rewards: [{
+				id: "23142A2F01E41DEC",
+				type: "item",
+				item: "minecraft:mutton",
+				count: 4
 			}]
 		},
 		{
@@ -107,6 +144,12 @@
 				id: "6C695EDB244719DB",
 				type: "item",
 				item: "alexsmobs:crocodile_scute"
+			}],
+			rewards: [{
+				id: "65E65E9D89D5AB31",
+				type: "item",
+				item: "alexsmobs:crocodile_scute",
+				count: 3
 			}]
 		},
 		{
@@ -125,6 +168,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "641B159A3198F44C",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -137,6 +185,12 @@
 				id: "2CFDD31640066490",
 				type: "item",
 				item: "alexsmobs:maggot"
+			}],
+			rewards: [{
+				id: "20E0157B26AF049E",
+				type: "item",
+				item: "alexsmobs:maggot",
+				count: 3
 			}]
 		},
 		{
@@ -148,11 +202,17 @@
 				id: "2F2509E78CBF66D8",
 				type: "item",
 				item: "alexsmobs:banana"
+			}],
+			rewards: [{
+				id: "45C540FB68964752",
+				type: "item",
+				item: "alexsmobs:banana",
+				count: 5
 			}]
 		},
 		{
 			x: -3.5d,
-			y: 12.5d,
+			y: 13.0d,
 			description: ["A Crimson Mosquito drop when killed when inflated with blood from a mob."],
 			dependencies: ["3EF3C919FDC60E1B"],
 			id: "3B5F5AF7209A9221",
@@ -160,11 +220,16 @@
 				id: "5EF379925A17EEAA",
 				type: "item",
 				item: "alexsmobs:blood_sac"
+			}],
+			rewards: [{
+				id: "4E407F372943B7DE",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
 			x: -5.5d,
-			y: 12.5d,
+			y: 13.0d,
 			description: ["A random drop when killing a Crimson Mosquito."],
 			dependencies: ["3EF3C919FDC60E1B"],
 			id: "3EC4C7FDCDB42C8D",
@@ -172,11 +237,17 @@
 				id: "1A81541ABDE0D3CA",
 				type: "item",
 				item: "alexsmobs:mosquito_proboscis"
+			}],
+			rewards: [{
+				id: "74F337BD4367E789",
+				type: "item",
+				item: "alexsmobs:mosquito_proboscis",
+				count: 2
 			}]
 		},
 		{
 			x: -4.5d,
-			y: 14.5d,
+			y: 15.0d,
 			description: ["A custom weapon that fires mosquito spit as a weapon. Blood sacks can be used as ammunition."],
 			dependencies: [
 				"3B5F5AF7209A9221",
@@ -193,7 +264,20 @@
 						Damage: 0
 					}
 				}
-			}]
+			}],
+			rewards: [
+				{
+					id: "6F0DBDCDADE8797F",
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: "435322EC940FD8AC",
+					type: "item",
+					item: "alexsmobs:blood_sac",
+					count: 2
+				}
+			]
 		},
 		{
 			x: -8.5d,
@@ -205,6 +289,11 @@
 				id: "14B04FCEC03DCB1E",
 				type: "item",
 				item: "alexsmobs:rattlesnake_rattle"
+			}],
+			rewards: [{
+				id: "1D77006C38694FB8",
+				type: "item",
+				item: "minecraft:milk_bucket"
 			}]
 		},
 		{
@@ -217,6 +306,11 @@
 				id: "539E21D26BDBDE87",
 				type: "item",
 				item: "alexsmobs:chorus_on_a_stick"
+			}],
+			rewards: [{
+				id: "372062164B25838D",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -229,6 +323,12 @@
 				id: "0B77AD7BC335F364",
 				type: "item",
 				item: "alexsmobs:shark_tooth"
+			}],
+			rewards: [{
+				id: "19061E1292F8E483",
+				type: "item",
+				item: "alexsmobs:shark_tooth",
+				count: 3
 			}]
 		},
 		{
@@ -241,6 +341,12 @@
 				id: "0F6970038AA15D78",
 				type: "item",
 				item: "alexsmobs:shark_tooth_arrow"
+			}],
+			rewards: [{
+				id: "7D5E3E3B7942FD70",
+				type: "item",
+				item: "alexsmobs:shark_tooth_arrow",
+				count: 11
 			}]
 		},
 		{
@@ -253,6 +359,11 @@
 				id: "71AABA26300386B5",
 				type: "item",
 				item: "alexsmobs:lobster_bucket"
+			}],
+			rewards: [{
+				id: "713BF7FC7101E1F6",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
@@ -263,6 +374,11 @@
 			id: "5B599C2BB40A43DD",
 			tasks: [{
 				id: "3AC3964E80C583B9",
+				type: "item",
+				item: "alexsmobs:lobster_tail"
+			}],
+			rewards: [{
+				id: "20497616CCD7A3F4",
 				type: "item",
 				item: "alexsmobs:lobster_tail"
 			}]
@@ -277,6 +393,11 @@
 				id: "717BA1871FF674CF",
 				type: "item",
 				item: "alexsmobs:cooked_lobster_tail"
+			}],
+			rewards: [{
+				id: "326CBA13D89ABD10",
+				type: "item",
+				item: "vanillafoodpantry:homemade_butter"
 			}]
 		},
 		{
@@ -289,6 +410,12 @@
 				id: "0D23CE0916F75F31",
 				type: "item",
 				item: "alexsmobs:komodo_spit"
+			}],
+			rewards: [{
+				id: "7ADC6ADEC9153DD8",
+				type: "item",
+				item: "alexsmobs:komodo_spit",
+				count: 2
 			}]
 		},
 		{
@@ -301,6 +428,11 @@
 				id: "62EC16B92C5F9D63",
 				type: "item",
 				item: "alexsmobs:komodo_spit_bottle"
+			}],
+			rewards: [{
+				id: "1CB8CAD5C0311D3E",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -316,6 +448,11 @@
 				id: "0EA839DFED08E778",
 				type: "item",
 				item: "alexsmobs:poison_bottle"
+			}],
+			rewards: [{
+				id: "649407DAF5400409",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -337,6 +474,11 @@
 						Potion: "alexsmobs:poison_resistance"
 					}
 				}
+			}],
+			rewards: [{
+				id: "3B9EC2967752C2D7",
+				type: "xp_levels",
+				xp_levels: 3
 			}]
 		},
 		{
@@ -349,18 +491,31 @@
 				id: "1461BD6CFCC7D731",
 				type: "item",
 				item: "alexsmobs:banana_peel"
+			}],
+			rewards: [{
+				id: "1677938C00103DCA",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
 			x: -3.0d,
 			y: -1.5d,
-			description: ['A very "unique" soup......'],
+			description: [
+				'A very "unique" soup......',
+				"Maybe try some of this better soup."
+			],
 			dependencies: ["05B3DE276E40F772"],
 			id: "5FE4BCE33C614980",
 			tasks: [{
 				id: "7DE107F6DBEF8906",
 				type: "item",
 				item: "alexsmobs:sopa_de_macaco"
+			}],
+			rewards: [{
+				id: "3C82761AB3FB798E",
+				type: "item",
+				item: "minecraft:beetroot_soup"
 			}]
 		},
 		{
@@ -373,6 +528,12 @@
 				id: "180B35B0BB919AD9",
 				type: "item",
 				item: "alexsmobs:centipede_leg"
+			}],
+			rewards: [{
+				id: "1AAB98F4A877062B",
+				type: "item",
+				item: "alexsmobs:centipede_leg",
+				count: 2
 			}]
 		},
 		{
@@ -391,6 +552,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "61D9563F82FA27DA",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -403,6 +569,12 @@
 				id: "3DC5597D70910A0A",
 				type: "item",
 				item: "alexsmobs:mosquito_larva"
+			}],
+			rewards: [{
+				id: "3F6128FEE1CFEB02",
+				type: "item",
+				item: "alexsmobs:mosquito_larva",
+				count: 2
 			}]
 		},
 		{
@@ -413,6 +585,11 @@
 			id: "2DFC032306822F4E",
 			tasks: [{
 				id: "7D8CA585B9505139",
+				type: "item",
+				item: "alexsmobs:moose_antler"
+			}],
+			rewards: [{
+				id: "42B83502B5DC6F7D",
 				type: "item",
 				item: "alexsmobs:moose_antler"
 			}]
@@ -433,6 +610,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "2F1A8F3E6760563B",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
@@ -443,6 +625,11 @@
 			id: "61C774465250F5E2",
 			tasks: [{
 				id: "0B83A5C69A722347",
+				type: "item",
+				item: "alexsmobs:moose_ribs"
+			}],
+			rewards: [{
+				id: "472FB949C5746205",
 				type: "item",
 				item: "alexsmobs:moose_ribs"
 			}]
@@ -457,6 +644,11 @@
 				id: "32DB582575A5FAC4",
 				type: "item",
 				item: "alexsmobs:cooked_moose_ribs"
+			}],
+			rewards: [{
+				id: "1B18F66F798B43A8",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
@@ -469,6 +661,12 @@
 				id: "00FAEB55E3A7B2AA",
 				type: "item",
 				item: "alexsmobs:mimicream"
+			}],
+			rewards: [{
+				id: "753E61056FEA34DF",
+				type: "item",
+				item: "alexsmobs:mimicream",
+				count: 3
 			}]
 		},
 		{
@@ -481,6 +679,11 @@
 				id: "166A0DF287F39D32",
 				type: "item",
 				item: "alexsmobs:raccoon_tail"
+			}],
+			rewards: [{
+				id: "7C9D7DC82206A011",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
@@ -499,6 +702,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "7B09E7CD8A48EFC5",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -511,6 +719,11 @@
 				id: "50F159BA577FC800",
 				type: "item",
 				item: "alexsmobs:blobfish_bucket"
+			}],
+			rewards: [{
+				id: "7B7C98AC07678085",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
@@ -521,6 +734,11 @@
 			id: "235A8DAEDFF467D7",
 			tasks: [{
 				id: "3286E77C29DC9875",
+				type: "item",
+				item: "alexsmobs:blobfish"
+			}],
+			rewards: [{
+				id: "0AFFC4BA380655F0",
 				type: "item",
 				item: "alexsmobs:blobfish"
 			}]
@@ -535,6 +753,12 @@
 				id: "5C7464F62CB0DD68",
 				type: "item",
 				item: "alexsmobs:fish_oil"
+			}],
+			rewards: [{
+				id: "1E95E4F3FA1EEE0C",
+				type: "item",
+				item: "alexsmobs:fish_oil",
+				count: 2
 			}]
 		},
 		{
@@ -547,6 +771,11 @@
 				id: "19D31D99E32BAF86",
 				type: "item",
 				item: "alexsmobs:maraca"
+			}],
+			rewards: [{
+				id: "32FDBAEAB5DEBC1B",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -559,6 +788,12 @@
 				id: "4A1E5CD54BAF7A7F",
 				type: "item",
 				item: "alexsmobs:cockroach_wing_fragment"
+			}],
+			rewards: [{
+				id: "632F82CF39CB7BA0",
+				type: "item",
+				item: "alexsmobs:cockroach_wing_fragment",
+				count: 3
 			}]
 		},
 		{
@@ -571,6 +806,11 @@
 				id: "2FD18E114E0FE331",
 				type: "item",
 				item: "alexsmobs:cockroach_wing"
+			}],
+			rewards: [{
+				id: "59E077B437620EEE",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -589,6 +829,11 @@
 						Potion: "alexsmobs:bug_pheromones"
 					}
 				}
+			}],
+			rewards: [{
+				id: "6C27111D0D893390",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -600,6 +845,12 @@
 				id: "79126CD9D0AD4237",
 				type: "item",
 				item: "alexsmobs:acacia_blossom"
+			}],
+			rewards: [{
+				id: "4CC4667252307EDB",
+				type: "item",
+				item: "alexsmobs:acacia_blossom",
+				count: 2
 			}]
 		},
 		{
@@ -612,7 +863,25 @@
 				id: "63A93237BADBA22A",
 				type: "item",
 				item: "alexsmobs:soul_heart"
-			}]
+			}],
+			rewards: [
+				{
+					id: "4DF80267D690A21B",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "23BE6640C97931B9",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+			]
 		},
 		{
 			x: -4.5d,
@@ -630,6 +899,11 @@
 						Potion: "alexsmobs:soulsteal"
 					}
 				}
+			}],
+			rewards: [{
+				id: "032D1B64A72FF455",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -642,6 +916,12 @@
 				id: "2354928341859A19",
 				type: "item",
 				item: "alexsmobs:spiked_scute"
+			}],
+			rewards: [{
+				id: "0494940CD1D9299C",
+				type: "item",
+				item: "alexsmobs:spiked_scute",
+				count: 2
 			}]
 		},
 		{
@@ -660,6 +940,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "43EC41F6B0FDA9A9",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -672,6 +957,11 @@
 				id: "2D788644FF1CE5F1",
 				type: "item",
 				item: "alexsmobs:guster_eye"
+			}],
+			rewards: [{
+				id: "2AC0EBFC2C37C63B",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
@@ -690,6 +980,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "140C65FC53463AD8",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -702,10 +997,23 @@
 				id: "4A08C8CC60DB08D7",
 				type: "item",
 				item: "alexsmobs:gustmaker"
-			}]
+			}],
+			rewards: [
+				{
+					id: "730D3520D358C026",
+					type: "item",
+					item: "minecraft:lever"
+				},
+				{
+					id: "79B79FB24325B61C",
+					type: "item",
+					item: "minecraft:redstone",
+					count: 8
+				}
+			]
 		},
 		{
-			x: 0.0d,
+			x: -0.5d,
 			y: 13.0d,
 			description: ["What gives the Warped Mosquito its strength."],
 			dependencies: ["47BE77D8F21BBDCC"],
@@ -714,10 +1022,15 @@
 				id: "7466FDC5B490C584",
 				type: "item",
 				item: "alexsmobs:warped_muscle"
+			}],
+			rewards: [{
+				id: "28A197BA81394DDA",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 1.5d,
 			y: 13.0d,
 			description: ["The warped power behind the Warped Mosquito."],
 			dependencies: ["47BE77D8F21BBDCC"],
@@ -726,6 +1039,12 @@
 				id: "69C3C165B652D650",
 				type: "item",
 				item: "alexsmobs:hemolymph_sac"
+			}],
+			rewards: [{
+				id: "41E40B84EE4639C6",
+				type: "item",
+				item: "alexsmobs:hemolymph_sac",
+				count: 2
 			}]
 		},
 		{
@@ -749,6 +1068,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "6991167115FC6CCF",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -761,6 +1085,11 @@
 				id: "4AE8288976987969",
 				type: "item",
 				item: "alexsmobs:stradpole_bucket"
+			}],
+			rewards: [{
+				id: "04ED4A9F03DCF8DD",
+				type: "random",
+				table_id: 1980L
 			}]
 		},
 		{
@@ -771,6 +1100,11 @@
 			id: "1D01C2288B41EBDC",
 			tasks: [{
 				id: "5BABD09020966A53",
+				type: "item",
+				item: "alexsmobs:straddlite"
+			}],
+			rewards: [{
+				id: "16E611377AB6A99D",
 				type: "item",
 				item: "alexsmobs:straddlite"
 			}]
@@ -791,6 +1125,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "578539AEF0D91CB4",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -803,18 +1142,28 @@
 				id: "3E740055ADB7D366",
 				type: "item",
 				item: "alexsmobs:emu_egg"
+			}],
+			rewards: [{
+				id: "6E9B1E0DDF597ECD",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
 			x: -0.5d,
 			y: 4.0d,
-			description: ["A whole omlet in a shell."],
+			description: ["A whole omelet in a shell."],
 			dependencies: ["38854ED19F0C1963"],
 			id: "5155710838D1A547",
 			tasks: [{
 				id: "3CE12C0C528D8BB6",
 				type: "item",
 				item: "alexsmobs:boiled_emu_egg"
+			}],
+			rewards: [{
+				id: "14A50E2C25011DB8",
+				type: "item",
+				item: "pamhc2foodcore:toastitem"
 			}]
 		},
 		{
@@ -825,6 +1174,11 @@
 			id: "369959C82AF24ECD",
 			tasks: [{
 				id: "2EDDC0933AB806CE",
+				type: "item",
+				item: "alexsmobs:emu_feather"
+			}],
+			rewards: [{
+				id: "54A122BBF62F12B5",
 				type: "item",
 				item: "alexsmobs:emu_feather"
 			}]
@@ -848,6 +1202,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "0E1C3B1A350B4391",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -860,6 +1219,11 @@
 				id: "20299B6FFF0AC499",
 				type: "item",
 				item: "alexsmobs:dropbear_claw"
+			}],
+			rewards: [{
+				id: "08C9AA67E57F2FBB",
+				type: "item",
+				item: "minecraft:iron_ingot"
 			}]
 		},
 		{
@@ -878,6 +1242,11 @@
 						Potion: "alexsmobs:clinging"
 					}
 				}
+			}],
+			rewards: [{
+				id: "6499C6EFC0F16AE2",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -890,6 +1259,11 @@
 				id: "4F70AF34DD1E0BC5",
 				type: "item",
 				item: "alexsmobs:kangaroo_meat"
+			}],
+			rewards: [{
+				id: "2CD6531416286BE0",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -902,6 +1276,12 @@
 				id: "5D30E69B7CB6A0D1",
 				type: "item",
 				item: "alexsmobs:cooked_kangaroo_meat"
+			}],
+			rewards: [{
+				id: "66684701385986D7",
+				type: "item",
+				item: "minecraft:bread",
+				count: 2
 			}]
 		},
 		{
@@ -914,6 +1294,11 @@
 				id: "5A45D61C27A565ED",
 				type: "item",
 				item: "alexsmobs:kangaroo_burger"
+			}],
+			rewards: [{
+				id: "27069516902A1AE4",
+				type: "xp",
+				xp: 500
 			}]
 		},
 		{
@@ -924,6 +1309,11 @@
 			id: "4FBF9E3701C078F6",
 			tasks: [{
 				id: "5C057F378B832103",
+				type: "item",
+				item: "alexsmobs:kangaroo_hide"
+			}],
+			rewards: [{
+				id: "2512B0CB217F59B2",
 				type: "item",
 				item: "alexsmobs:kangaroo_hide"
 			}]
@@ -937,6 +1327,12 @@
 				id: "6A36D4B67C346235",
 				type: "item",
 				item: "alexsmobs:cachalot_whale_tooth"
+			}],
+			rewards: [{
+				id: "3F22DD01B390C13D",
+				type: "item",
+				item: "alexsmobs:cachalot_whale_tooth",
+				count: 3
 			}]
 		},
 		{
@@ -946,6 +1342,11 @@
 			id: "151159150037976D",
 			tasks: [{
 				id: "1BDD5F030839EFB0",
+				type: "item",
+				item: "alexsmobs:ambergris"
+			}],
+			rewards: [{
+				id: "4313E32BE7BB072B",
 				type: "item",
 				item: "alexsmobs:ambergris"
 			}]
@@ -969,6 +1370,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "18117C87072BC748",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -987,6 +1393,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "4634EA4807B19705",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -999,6 +1410,11 @@
 				id: "0BDA5802571BADA9",
 				type: "item",
 				item: "alexsmobs:leafcutter_ant_pupa"
+			}],
+			rewards: [{
+				id: "7AB489BD3675EE1E",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -1011,6 +1427,12 @@
 				id: "3F3CAE2209A529AA",
 				type: "item",
 				item: "alexsmobs:gongylidia"
+			}],
+			rewards: [{
+				id: "6D6723F46A073E05",
+				type: "item",
+				item: "alexsmobs:gongylidia",
+				count: 5
 			}]
 		},
 		{
@@ -1023,6 +1445,11 @@
 				id: "1D7D964AFD8CCC28",
 				type: "item",
 				item: "alexsmobs:capsid"
+			}],
+			rewards: [{
+				id: "21005C69CCF7F094",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -1035,6 +1462,11 @@
 				id: "660A9211FC204506",
 				type: "item",
 				item: "alexsmobs:enderiophage_rocket"
+			}],
+			rewards: [{
+				id: "14BEC4B0CF295317",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1047,6 +1479,11 @@
 				id: "2C5C6F871671B792",
 				type: "item",
 				item: "alexsmobs:falconry_glove"
+			}],
+			rewards: [{
+				id: "1E3A7E13790F087A",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
@@ -1059,6 +1496,11 @@
 				id: "3C040D4468053D5C",
 				type: "item",
 				item: "alexsmobs:falconry_hood"
+			}],
+			rewards: [{
+				id: "7156AB679A743B56",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
@@ -1071,6 +1513,12 @@
 				id: "470FA84FF6B6CF89",
 				type: "item",
 				item: "alexsmobs:tarantula_hawk_wing_fragment"
+			}],
+			rewards: [{
+				id: "2FCFAB7AF6960D59",
+				type: "item",
+				item: "alexsmobs:tarantula_hawk_wing_fragment",
+				count: 4
 			}]
 		},
 		{
@@ -1083,6 +1531,11 @@
 				id: "4818558C819F7EE6",
 				type: "item",
 				item: "alexsmobs:tarantula_hawk_wing"
+			}],
+			rewards: [{
+				id: "2A11577510479A13",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1101,6 +1554,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "31DE9D6966AE0556",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -1118,7 +1576,24 @@
 				title: "Grizzly Bear Encountered",
 				advancement: "alexsmobs:alexsmobs/grizzly_bear",
 				criterion: ""
-			}]
+			}],
+			rewards: [
+				{
+					id: "392508A9633EF701",
+					type: "xp",
+					xp: 100
+				},
+				{
+					id: "06ECDBF446334306",
+					type: "item",
+					item: "minecraft:honeycomb"
+				},
+				{
+					id: "43D6B59710139384",
+					type: "item",
+					item: "minecraft:salmon"
+				}
+			]
 		},
 		{
 			x: 0.0d,
@@ -1132,6 +1607,11 @@
 				title: "Teddy the Bear",
 				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "3A252982A85C7744",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -1150,6 +1630,11 @@
 						Potion: "alexsmobs:speed_iii"
 					}
 				}
+			}],
+			rewards: [{
+				id: "57D012BE4C75F766",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1163,6 +1648,11 @@
 				title: "Crocodile Encountered",
 				advancement: "alexsmobs:alexsmobs/crocodile",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "15818836E32A1165",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1176,6 +1666,11 @@
 				title: "Alligator Snapping Turtle Encountered",
 				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "743900948393C170",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1193,6 +1688,12 @@
 				title: "Hummingbreeder",
 				advancement: "alexsmobs:alexsmobs/breed_hummingbird",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "47AFEFEFCC3E5069",
+				type: "item",
+				item: "terraincognita:globeflower",
+				count: 2
 			}]
 		},
 		{
@@ -1210,6 +1711,11 @@
 				title: "Orca's Might",
 				advancement: "alexsmobs:alexsmobs/orcas_might",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "6FC9300FEF389D61",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1227,6 +1733,11 @@
 				title: "Blessings from the Sky",
 				advancement: "alexsmobs:alexsmobs/sunbird_blessing",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "1C5EE82282530858",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -1245,6 +1756,11 @@
 				title: "Mighty Joe Young",
 				advancement: "alexsmobs:alexsmobs/tame_gorilla",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "5C48D2813A425EAF",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1264,6 +1780,11 @@
 				title: "Mini Mo",
 				advancement: "alexsmobs:alexsmobs/tame_capuchin",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "40C6CE211C59FD35",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1277,6 +1798,11 @@
 				title: "Rattlesnake Encountered",
 				advancement: "alexsmobs:alexsmobs/rattlesnake",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "613720ADBE74AA81",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1294,6 +1820,11 @@
 				title: "La Cucaracha",
 				advancement: "alexsmobs:alexsmobs/la_cucaracha",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "2AAFE2A5B5C9E176",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1302,7 +1833,7 @@
 			description: [
 				"Tame a non-tusked Elephant.",
 				"",
-				"Elephants are the large roamers of the Savannas. They can be found in three varieties: calves, tusked, and non-tusked. Elephants overall are very defensive of all of their herd family. Full Size Tusked Elephants cannot be tamed with Acacia Blossoms. Can be sometimes seen as a Wandering Traders Animal."
+				"Elephants are the large roamers of the Savannas. They can be found in three varieties: calves, tusked, and non-tusked. Elephants overall are very defensive of all of their herd family. Full Size Tusked Elephants cannot be tamed with Acacia Blossoms. Can be sometimes seen as a Wandering Trader's animal."
 			],
 			dependencies: ["568B1FDB06169851"],
 			id: "2FF82B88371F5F07",
@@ -1312,6 +1843,12 @@
 				title: "Safari Adventure",
 				advancement: "alexsmobs:alexsmobs/tame_elephant",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "7CD84B3A95C81ACC",
+				type: "item",
+				item: "alexsmobs:acacia_blossom",
+				count: 4
 			}]
 		},
 		{
@@ -1330,6 +1867,11 @@
 				title: "Greatest Warrior",
 				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "308A1D2CD32C6D88",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -1348,6 +1890,11 @@
 				title: "Elephant Style",
 				advancement: "alexsmobs:alexsmobs/elephant_swag",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "5083A3431108A4FE",
+				type: "random",
+				table_id: 1520L
 			}]
 		},
 		{
@@ -1365,6 +1912,11 @@
 				title: "Bullets, for Hands",
 				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "1D0707B97CF39192",
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1379,6 +1931,11 @@
 				title: "I'm Parched",
 				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "4E56FF11EE680F8E",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1396,6 +1953,11 @@
 				title: "Guster Encountered",
 				advancement: "alexsmobs:alexsmobs/guster",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "5B537F5BB867D04F",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1413,6 +1975,11 @@
 				title: "Not Really Bald",
 				advancement: "alexsmobs:alexsmobs/tame_bald_eagle",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "4DC1D6233066FEC7",
+				type: "random",
+				table_id: 1407L
 			}]
 		},
 		{
@@ -1427,6 +1994,11 @@
 				title: "Long Distance Killer",
 				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "4A661C862D0735A5",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -1444,6 +2016,11 @@
 				title: "Tarantula Hawk Encountered",
 				advancement: "alexsmobs:alexsmobs/tarantula_hawk",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "732299EB567FA6CA",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1461,6 +2038,11 @@
 				title: "Pet Flying Devil",
 				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "0FE3CD398E6B8B3C",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1478,6 +2060,11 @@
 				title: "Blessings of Tony",
 				advancement: "alexsmobs:alexsmobs/tigers_blessing",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "6B8D81E6C595D982",
+				type: "item",
+				item: "vanillafoodpantry:bowl_milk"
 			}]
 		},
 		{
@@ -1495,6 +2082,11 @@
 				title: "Aqua Rescue Force",
 				advancement: "alexsmobs:alexsmobs/save_cachalot_whale",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "1C8F925F7EF99FFF",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1512,6 +2104,11 @@
 				title: "Ants in my Pants",
 				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "5E47A36797E501F1",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1529,6 +2126,11 @@
 				title: "Kangaroo Jack",
 				advancement: "alexsmobs:alexsmobs/kangaroo",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "5A0479B4BC8A8A61",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1546,6 +2148,11 @@
 				title: "Emu Day Out",
 				advancement: "alexsmobs:alexsmobs/emu",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "1C791AFC6001ADDD",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1561,6 +2168,11 @@
 				icon: "immersiveengineering:casull",
 				advancement: "alexsmobs:alexsmobs/emu_dodge",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "458EB288C84A7856",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1578,6 +2190,11 @@
 				title: "End Virus",
 				advancement: "alexsmobs:alexsmobs/enderiophage",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "16D1ECC238BC0E81",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1592,6 +2209,12 @@
 				title: "Hope it isn't Contagious",
 				advancement: "alexsmobs:alexsmobs/ender_flu",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "1E64A18FE68C2A56",
+				type: "item",
+				item: "vanillafoodpantry:gelo_chorusfruit",
+				count: 4
 			}]
 		},
 		{
@@ -1605,6 +2228,11 @@
 				title: "Soul Vulture Encountered",
 				advancement: "alexsmobs:alexsmobs/soul_vulture",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "19BC2A4D6A557ADD",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1623,6 +2251,11 @@
 				title: "Hitching a Ride",
 				advancement: "alexsmobs:alexsmobs/spectre",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "0C2A17843B9EF729",
+				type: "random",
+				table_id: 1983L
 			}]
 		},
 		{
@@ -1640,6 +2273,11 @@
 				title: "Straddler Encountered",
 				advancement: "alexsmobs:alexsmobs/straddler",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "32E66281E6847474",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1657,6 +2295,11 @@
 				title: "Lava Tadpole Feast",
 				advancement: "alexsmobs:alexsmobs/stradpole_feed",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "19326A9DC755907D",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1670,6 +2313,11 @@
 				title: "Cimson Mosquito Encountered",
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "0616805ECC476653",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1687,6 +2335,11 @@
 				title: "Mosquito Repellent",
 				advancement: "alexsmobs:alexsmobs/tame_warped_toad",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "238F36B03F86D58D",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1704,6 +2357,11 @@
 				title: "Mad Scientist",
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "2BDE0160261BA560",
+				type: "xp_levels",
+				xp_levels: 2
 			}]
 		},
 		{
@@ -1722,6 +2380,11 @@
 				title: "Bye Bye Mega Chad",
 				advancement: "alexsmobs:alexsmobs/warped_mosco_kill",
 				criterion: ""
+			}],
+			rewards: [{
+				id: "26BA976C29B6CA4B",
+				type: "random",
+				table_id: 2014L
 			}]
 		},
 		{
@@ -1740,6 +2403,11 @@
 				id: "197A98242A90B910",
 				type: "checkmark",
 				title: "Seal Encountered"
+			}],
+			rewards: [{
+				id: "621DD7E6E8D3606C",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1758,6 +2426,11 @@
 				id: "03E5690E11AA0C47",
 				type: "checkmark",
 				title: "Seal Encountered"
+			}],
+			rewards: [{
+				id: "78754F8B4C96B3FE",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1776,6 +2449,11 @@
 				id: "2B166C07821F73AF",
 				type: "checkmark",
 				title: "Snow Leopard Encountered"
+			}],
+			rewards: [{
+				id: "4B5390A324FFA24A",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1797,6 +2475,11 @@
 				id: "3734C4A298D233E4",
 				type: "checkmark",
 				title: "Crow Encountered"
+			}],
+			rewards: [{
+				id: "1282C934E5B760F1",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1815,6 +2498,11 @@
 				id: "3F02A31D66A19AAE",
 				type: "checkmark",
 				title: "Mungus Encountered"
+			}],
+			rewards: [{
+				id: "57DE95FD347B41B7",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1836,6 +2524,11 @@
 				id: "2A3E156CC6B9B96B",
 				type: "checkmark",
 				title: "Platypus Encountered"
+			}],
+			rewards: [{
+				id: "7BCA9F8F78AB1428",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1854,6 +2547,11 @@
 				id: "1B4280C7AA14546E",
 				type: "checkmark",
 				title: "Tasmanian Devil Encountered"
+			}],
+			rewards: [{
+				id: "61721ACBF1603562",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1872,6 +2570,11 @@
 				id: "3A7584CFC76C55E5",
 				type: "checkmark",
 				title: "Raccoon Encountered"
+			}],
+			rewards: [{
+				id: "5C0FF384D71A826C",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1890,6 +2593,11 @@
 				id: "7B953C134B4B9D34",
 				type: "checkmark",
 				title: "Gazelle Encountered"
+			}],
+			rewards: [{
+				id: "535B1936F6BCB6D6",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1908,6 +2616,11 @@
 				id: "3F5513E24A79A11D",
 				type: "checkmark",
 				title: "Fly Encountered"
+			}],
+			rewards: [{
+				id: "2C6DFA122BB1BD9B",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1929,6 +2642,11 @@
 				id: "6E10393222B9B3FB",
 				type: "checkmark",
 				title: "Moose Encountered"
+			}],
+			rewards: [{
+				id: "79451D01310FF620",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1950,6 +2668,11 @@
 				id: "41F14FF24FEB6C4E",
 				type: "checkmark",
 				title: "Komodo Dragon Encountered"
+			}],
+			rewards: [{
+				id: "2F797E77AFEA73A8",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1968,6 +2691,11 @@
 				id: "2F70AE2127CF9BD6",
 				type: "checkmark",
 				title: "Roadrunner Encountered"
+			}],
+			rewards: [{
+				id: "751F3F802322873E",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -1986,6 +2714,11 @@
 				id: "1B833EB81F91BAA8",
 				type: "checkmark",
 				title: "Cave Centipede Encountered"
+			}],
+			rewards: [{
+				id: "6DA04C9E1A2BF052",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2007,6 +2740,11 @@
 				id: "08E6F1F0A7B5A54E",
 				type: "checkmark",
 				title: "Cockroach Encountered"
+			}],
+			rewards: [{
+				id: "061AD01051C06419",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2025,6 +2763,11 @@
 				id: "02C48EBD34FB1A3C",
 				type: "checkmark",
 				title: "Lobster Encountered"
+			}],
+			rewards: [{
+				id: "0D3AE27787779FE9",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2043,6 +2786,11 @@
 				id: "6A2D1EB640ED231C",
 				type: "checkmark",
 				title: "Blobfish Encountered"
+			}],
+			rewards: [{
+				id: "2E6F7297801F88E0",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2061,6 +2809,11 @@
 				id: "53C361BF979CBC5C",
 				type: "checkmark",
 				title: "Hammerhead Shark Encountered"
+			}],
+			rewards: [{
+				id: "20ECCF756CC54EDE",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2079,7 +2832,20 @@
 				id: "4CC884AF1B78D455",
 				type: "checkmark",
 				title: "Endergrade Encountered"
-			}]
+			}],
+			rewards: [
+				{
+					id: "453DF25531B70071",
+					type: "xp",
+					xp: 100
+				},
+				{
+					id: "4E41ACED63929E93",
+					type: "item",
+					item: "minecraft:chorus_fruit",
+					count: 6
+				}
+			]
 		},
 		{
 			icon: {
@@ -2097,6 +2863,11 @@
 				id: "1B2BDECD58C9963B",
 				type: "checkmark",
 				title: "Mimicube Encountered"
+			}],
+			rewards: [{
+				id: "52D6521BBC52700F",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2115,6 +2886,11 @@
 				id: "2F90E30454A80EFC",
 				type: "checkmark",
 				title: "Bone Serpent Encountered"
+			}],
+			rewards: [{
+				id: "0370ACA924ABCEFF",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2133,6 +2909,11 @@
 				id: "3904F121483CB9A9",
 				type: "checkmark",
 				title: "Dropbear Encountered"
+			}],
+			rewards: [{
+				id: "2B0A0D2830DC0523",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -2151,6 +2932,11 @@
 						Potion: "alexsmobs:knockback_resistance"
 					}
 				}
+			}],
+			rewards: [{
+				id: "1F36BF0D45D44C77",
+				type: "xp",
+				xp: 100
 			}]
 		}
 	]

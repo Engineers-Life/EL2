@@ -93,8 +93,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 10.5d,
+			x: -3.5d,
+			y: 11.0d,
 			description: [
 				"The blast furnace preheater will enhance your steel production even further. Each Reinforced Blast Furnace can have up to 2 preheaters.",
 				"",
@@ -125,7 +125,7 @@
 		},
 		{
 			title: "Alloy Kiln",
-			x: -6.0d,
+			x: -7.5d,
 			y: 1.5d,
 			description: ["The Alloy Kiln is a 2x2x2 block of Kiln bricks that allows you to create alloys of metals."],
 			dependencies: ["000000000000022F"],
@@ -168,8 +168,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 10.5d,
+			x: -7.5d,
+			y: 11.0d,
 			description: ["Ah, the engineers favorite flooring."],
 			dependencies: ["000000000000010C"],
 			id: "000000000000010E",
@@ -194,8 +194,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 0.0d,
+			x: -4.1744897959183405d,
+			y: 1.7006802721653003E-4d,
 			description: ["The Kinetic Dynamo takes rotational energy and converts it to RF."],
 			dependencies: ["000000000000022F"],
 			id: "0000000000000111",
@@ -333,8 +333,8 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: -1.5d,
+			x: -3.0d,
+			y: -2.0d,
 			description: ["An improved furnace that is faster than the vanilla furnace. Has an internal inventory and can have a external heater placed inside to accept RF power to speed up smelting."],
 			dependencies: ["00000000000001F4"],
 			id: "00000000000001F6",
@@ -358,7 +358,7 @@
 			]
 		},
 		{
-			x: -1.5d,
+			x: -0.5d,
 			y: -3.0d,
 			description: [
 				"Basic wiring that can carry up to 2048 RF/t before burning out and needing to be replaced.",
@@ -392,7 +392,7 @@
 			]
 		},
 		{
-			x: -1.5d,
+			x: -0.5d,
 			y: -5.0d,
 			description: ["LV connectors and relays allow up to 256 RF/t to flow across them or in/out of machines."],
 			dependencies: ["00000000000001F8"],
@@ -418,7 +418,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 0.5d,
 			y: -5.0d,
 			description: ["Allows you to run cables over your head to keep you from getting shocked."],
 			dependencies: ["00000000000001FA"],
@@ -445,7 +445,7 @@
 			]
 		},
 		{
-			x: -0.5d,
+			x: 0.5d,
 			y: -4.0d,
 			description: [
 				"The breaker switch allows you to manually cut the flow of LV/MV wires across it. Not insulated enough for HV.",
@@ -481,7 +481,7 @@
 		},
 		{
 			x: -5.5d,
-			y: -1.5d,
+			y: 1.5d,
 			description: [
 				"Redstone wires and connectors will allow you to send redstone signals through wires.",
 				"By using the screwdriver on the connector it will allow you to change the channel color that the connector is operating on, and whether it is an input or an output."
@@ -521,7 +521,7 @@
 			]
 		},
 		{
-			x: -0.5d,
+			x: 0.5d,
 			y: -3.0d,
 			description: ["When held in hand and hovering over a block it will indicate the power level stored in the block. Also can be used to calculate the loss between two connectors by right clicking the connector ends."],
 			dependencies: ["00000000000001F8"],
@@ -544,7 +544,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 1.5d,
 			y: -3.0d,
 			description: ["Tracks the power flow rate through the transformer and gives the level with a right click."],
 			dependencies: ["0000000000000205"],
@@ -570,7 +570,7 @@
 			]
 		},
 		{
-			x: 0.0d,
+			x: 0.5d,
 			y: -2.0d,
 			description: ["A portable capacitor that you can wear that will charge items in your hands."],
 			dependencies: ["00000000000001F2"],
@@ -589,7 +589,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 4.0d,
 			y: -1.0d,
 			description: ["A mid-tier capacitor, holds up to 1M RF."],
 			dependencies: ["00000000000001F2"],
@@ -620,7 +620,7 @@
 			]
 		},
 		{
-			x: 2.5d,
+			x: 4.0d,
 			y: -5.0d,
 			description: ["MV connectors and relays allow up to 2048 RF/t to flow across them or in/out of machines."],
 			dependencies: ["0000000000000211"],
@@ -645,7 +645,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 4.0d,
 			y: -3.0d,
 			description: ["Mid-tier wiring that can carry up to 8192 RF/t before burning out and needing to be replaced. These will hurt more than LV wires when they shock you."],
 			dependencies: ["000000000000020C"],
@@ -682,7 +682,7 @@
 			]
 		},
 		{
-			x: 4.5d,
+			x: 3.0d,
 			y: -2.0d,
 			description: ["Allows you to step down power levels from wires."],
 			dependencies: ["000000000000020C"],
@@ -711,7 +711,7 @@
 			]
 		},
 		{
-			x: 8.0d,
+			x: 7.5d,
 			y: -1.0d,
 			description: ["The highest tier capacitor, holds up to 4M RF."],
 			dependencies: ["000000000000020C"],
@@ -742,7 +742,7 @@
 			]
 		},
 		{
-			x: 7.0d,
+			x: 7.5d,
 			y: -3.0d,
 			description: ["The highest tier wiring that can transfer up to 32,768 RF/t before burning out and needing to be replaced. Getting shocked by these will be almost certain death."],
 			dependencies: ["0000000000000215"],
@@ -780,7 +780,7 @@
 			]
 		},
 		{
-			x: 7.0d,
+			x: 7.5d,
 			y: -5.0d,
 			description: ["HV connectors allow up to 4096 RF/t to flow across them and in/out of machines."],
 			dependencies: ["0000000000000217"],
@@ -814,7 +814,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 6.5d,
 			y: -2.0d,
 			description: ["A defense structure that will allow you to shock enemies when activated."],
 			dependencies: ["0000000000000215"],
@@ -849,8 +849,8 @@
 			}]
 		},
 		{
-			x: -6.532440476190445d,
-			y: 4.839285714285715d,
+			x: -6.5d,
+			y: 4.5d,
 			description: ["Light Engineering Blocks can be thought of as the basic components that go into a larger machine."],
 			dependencies: ["0000000000001047"],
 			id: "0000000000000221",
@@ -874,8 +874,8 @@
 			]
 		},
 		{
-			x: -5.532440476190445d,
-			y: 7.339285714285715d,
+			x: -5.5d,
+			y: 7.0d,
 			description: ["Heavy Engineering Blocks can be thought of as the complex components that go into a larger machine."],
 			dependencies: [
 				"00000000000000FD",
@@ -902,7 +902,7 @@
 		},
 		{
 			x: -11.0d,
-			y: 7.5d,
+			y: 7.0d,
 			description: [
 				"Pumps and pipes will be critical once you start to move liquids around your base.",
 				"",
@@ -964,7 +964,7 @@
 		},
 		{
 			x: -8.5d,
-			y: 1.5d,
+			y: 2.5d,
 			description: ["A slightly more feature rich and decorative crafting station. Full features can be seen by holding shift + ctrl while hovering over the item."],
 			dependencies: ["0000000000000244"],
 			id: "0000000000000229",
@@ -981,7 +981,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 6.0d,
+			y: 5.5d,
 			description: ["A custom crafting table that allows you to make special recipes from blueprints that can be made and found in villages in the world."],
 			dependencies: ["0000000000000244"],
 			id: "000000000000022D",
@@ -1000,7 +1000,7 @@
 		},
 		{
 			title: "Engineer's Tools",
-			x: -7.5d,
+			x: -6.5d,
 			y: 0.0d,
 			description: [
 				"A few more Engineer's tools to supplement the Engineer's Hammer.",
@@ -1044,8 +1044,8 @@
 		},
 		{
 			title: "Prospecting",
-			x: -0.3636904761905626d,
-			y: 9.5d,
+			x: -0.5d,
+			y: 10.5d,
 			description: [
 				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein locations and multiple samples of the same vein increase the vein information.",
 				"Samples can overlap, so samples may contain information from multiple veins.",
@@ -1082,7 +1082,7 @@
 		},
 		{
 			x: -12.0d,
-			y: 5.0d,
+			y: 4.5d,
 			description: [
 				"Conveyor belts will move your items around your base at the speed of.... walking.",
 				"",
@@ -1103,7 +1103,7 @@
 		},
 		{
 			x: -13.5d,
-			y: 4.5d,
+			y: 4.0d,
 			description: [
 				"Item routers will sort incoming items out of their respective faces. This can be used to split a single conveyor into 2 or more equal flowing conveyors.",
 				"",
@@ -1125,7 +1125,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 9.5d,
+			y: 9.0d,
 			description: ['A special lantern that makes a 32 block long light "cone". Position can be adjusted by right clicking with the Engineer\'s Hammer.'],
 			dependencies: ["000000000000024A"],
 			id: "000000000000023A",
@@ -1156,7 +1156,7 @@
 		},
 		{
 			x: -9.06815476190473d,
-			y: 4.232142857142861d,
+			y: 3.732142857142861d,
 			description: [
 				"The garden cloche is used to automate and speed up the growing of crops in an industrial manner.",
 				"",
@@ -1217,7 +1217,7 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -6.5d,
 			y: -1.5d,
 			description: ["A convenient toolbox to carry your tools in, along with some food and other items."],
 			dependencies: ["000000000000022F"],
@@ -1245,7 +1245,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 2.5d,
+			y: 1.5d,
 			description: ["A special crafting table with a small internal inventory and holds items in crafting spaces, instead of putting them back in your inventory, when closing the table."],
 			dependencies: ["0000000000000330"],
 			id: "0000000000000244",
@@ -1261,7 +1261,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 5.0d,
 			y: -5.0d,
 			description: ["A nice steel pole to keep cables out of your face."],
 			dependencies: ["000000000000020E"],
@@ -1287,7 +1287,7 @@
 			]
 		},
 		{
-			x: 8.0d,
+			x: 8.5d,
 			y: -5.0d,
 			description: ["A nice aluminum post to keep cables out of your face."],
 			dependencies: ["0000000000000219"],
@@ -1305,7 +1305,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 8.0d,
+			y: 7.5d,
 			description: ["A lantern that when provided RF creates as much light as a torch, but stops mob spawns within a 32 block radius."],
 			dependencies: ["000000000000022D"],
 			id: "000000000000024A",
@@ -1332,8 +1332,8 @@
 		{
 			title: "Excavator",
 			icon: "immersiveengineering:excavator",
-			x: 3.6363095238094374d,
-			y: 9.5d,
+			x: 3.3724489795918515d,
+			y: 10.536564625850339d,
 			shape: "square",
 			description: [
 				'The Excavator is made of two parts. The "Wheel" is the center part, and is formed by right-clicking with an Engineer\'s Hammer on the the Block of Steel. The "Engine" is the other part, and is formed by right-clicking the Engineer\'s Hammer on',
@@ -1408,7 +1408,7 @@
 		},
 		{
 			x: -11.0d,
-			y: 9.0d,
+			y: 8.5d,
 			description: ["The fluid router redirects fluids that flow into it out of their respective faces. For a more detailed description check the IE manual."],
 			dependencies: ["0000000000000225"],
 			id: "000000000000024F",
@@ -1469,33 +1469,20 @@
 			description: ["The buzzsaw is a fuel powered saw that can chew through blocks with ease. The IE manual also lists a number of upgrades that can be applied in the Engineer's Workbench to change its functionality."],
 			dependencies: ["0000000000000263"],
 			id: "0000000000000253",
-			tasks: [
-				{
-					id: "0000000000000254",
-					type: "item",
-					item: {
-						ForgeCaps: {
-							Parent: {
-								Size: 5,
-								Items: []
-							}
-						},
-						id: "immersiveengineering:buzzsaw",
-						Count: 1b
-					}
-				},
-				{
-					id: "0000000000001046",
-					type: "item",
-					item: {
-						id: "immersiveengineering:sawblade",
-						Count: 1b,
-						tag: {
-							Damage: 0
+			tasks: [{
+				id: "0000000000000254",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 5,
+							Items: []
 						}
-					}
+					},
+					id: "immersiveengineering:buzzsaw",
+					Count: 1b
 				}
-			],
+			}],
 			rewards: [
 				{
 					id: "0000000000000516",
@@ -1605,7 +1592,7 @@
 			}]
 		},
 		{
-			x: -7.5d,
+			x: -7.0d,
 			y: -2.5d,
 			description: ['A heavy duty "bucket" that can hold 10,000 mB of a liquid (10 buckets).'],
 			dependencies: ["0000000000000240"],
@@ -2255,8 +2242,8 @@
 		{
 			title: "Crusher",
 			icon: "immersiveengineering:crusher",
-			x: 2.0154761904761784d,
-			y: 5.494047619047635d,
+			x: 2.0170068027210846d,
+			y: 5.524659863945573d,
 			shape: "square",
 			description: [
 				"The Crusher is used to crush Ores into Grit (Dust), which is more efficient than normal smelting.",
@@ -2324,8 +2311,8 @@
 		{
 			title: "Metal Press",
 			icon: "immersiveengineering:metal_press",
-			x: -0.34166666666667567d,
-			y: 7.8869047619047805d,
+			x: -0.3299319727891117d,
+			y: 8.11649659863945d,
 			shape: "square",
 			description: [
 				"The metal press is an automated way of creating plates, rods, wires, and packing items.",
@@ -2478,7 +2465,7 @@
 		{
 			title: "Metal Press Molds",
 			x: -9.0d,
-			y: 9.0d,
+			y: 8.5d,
 			description: ["These molds will allow you to use the Metal Press to make a variety of products at better efficiency than by hand."],
 			dependencies: ["000000000000102E"],
 			id: "0000000000000274",
@@ -2521,7 +2508,7 @@
 		{
 			title: "Industrial Lighting",
 			x: -11.5d,
-			y: 1.5d,
+			y: 2.5d,
 			dependencies: ["0000000000000244"],
 			id: "00000000000002C6",
 			tasks: [{
@@ -2545,7 +2532,7 @@
 		},
 		{
 			title: "Skyhook",
-			x: -6.5d,
+			x: -6.0d,
 			y: -2.5d,
 			description: ["The skyhook will allow you to glide along wires or IE rope by right clicking their end connectors."],
 			dependencies: ["0000000000000240"],
@@ -2665,8 +2652,8 @@
 			}]
 		},
 		{
-			x: -4.532440476190445d,
-			y: 4.839285714285715d,
+			x: -4.5d,
+			y: 4.5d,
 			description: ["Redstone Engineering Blocks can be thought of as the control blocks for a machine, a control panel in essence."],
 			dependencies: ["0000000000001047"],
 			id: "0000000000000FA5",
@@ -2690,7 +2677,7 @@
 		},
 		{
 			x: -3.0d,
-			y: 9.5d,
+			y: 10.0d,
 			description: ["Steel scaffold will be used throughout your multiblock machine construction, and also looks really good as decoration."],
 			dependencies: ["00000000000000FD"],
 			id: "0000000000000FA7",
@@ -2741,7 +2728,7 @@
 		{
 			title: "Engineer's Blueprints",
 			x: -9.0d,
-			y: 7.5d,
+			y: 7.0d,
 			description: ["These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench."],
 			dependencies: ["000000000000022D"],
 			id: "000000000000102E",
@@ -2840,7 +2827,7 @@
 			]
 		},
 		{
-			x: -2.5d,
+			x: -1.5d,
 			y: -4.0d,
 			description: ["Transfers the same amount of power as the standard LV cable but it won't shock you."],
 			dependencies: ["00000000000001F8"],
@@ -2857,7 +2844,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 3.0d,
 			y: -4.0d,
 			description: ["Transfers the same amount of power as MV cables but without the risk of shock."],
 			dependencies: ["0000000000000211"],
@@ -2875,7 +2862,7 @@
 		},
 		{
 			title: "Faraday Suit",
-			x: 12.0d,
+			x: 10.0d,
 			y: -1.0d,
 			description: ["The faraday suit will keep you from getting shocked by un-insulated wires."],
 			dependencies: ["0000000000000215"],
@@ -2940,8 +2927,8 @@
 					blueprint: "electrode"
 				}
 			},
-			x: -5.532440476190445d,
-			y: 5.839285714285715d,
+			x: -5.5d,
+			y: 5.5d,
 			description: ["The blocks surrounding this quest are critical pieces in the multiblock structures of Immersive Engineering."],
 			dependencies: ["000000000000022D"],
 			id: "0000000000001047",
@@ -2957,8 +2944,8 @@
 			}]
 		},
 		{
-			x: -6.532440476190445d,
-			y: 6.839285714285715d,
+			x: -6.5d,
+			y: 6.5d,
 			description: ["Radiator Blocks can be thought of as the machinery components that help dissipate heat away from a working machine."],
 			dependencies: [
 				"0000000000001047",
@@ -2977,8 +2964,8 @@
 			}]
 		},
 		{
-			x: -4.532440476190445d,
-			y: 6.839285714285715d,
+			x: -4.5d,
+			y: 6.5d,
 			description: ["Generator Blocks can be thought of as the components in a machine where electricity is made."],
 			dependencies: [
 				"0000000000001047",
@@ -3163,7 +3150,7 @@
 		{
 			title: "Specialized Conveyors",
 			x: -12.5d,
-			y: 4.0d,
+			y: 3.5d,
 			description: [
 				"There are a number of specialized conveyors that can be made.",
 				"",
@@ -3205,7 +3192,7 @@
 		{
 			title: "Covered Conveyors",
 			x: -12.5d,
-			y: 6.0d,
+			y: 5.5d,
 			description: ["Covered versions of conveyors stop items from being picked up off a belt. No more walking over your belt and having your inventory filled! Can right click with a block to change the cover texture."],
 			dependencies: ["0000000000000236"],
 			id: "0000000000001190",
@@ -3252,7 +3239,7 @@
 		},
 		{
 			x: -13.5d,
-			y: 5.5d,
+			y: 5.0d,
 			description: ["Directs items directly down and stops players from picking them up. Inserts to inventories below them, and can be turned to side eject with a shift right click of the Engineers Hammer."],
 			dependencies: ["0000000000000236"],
 			id: "0000000000001196",
@@ -3515,7 +3502,7 @@
 		},
 		{
 			title: "Jump Jets",
-			x: 6.0d,
+			x: 5.0d,
 			y: -2.0d,
 			description: ["An upgraded jetpack that will hold quite a bit more energy. This pack allows you to fly faster than the basic model and you will fall slightly slower in hover mode but at the cost of higher energy usage."],
 			dependencies: ["000000000000020C"],
@@ -3533,7 +3520,7 @@
 		},
 		{
 			title: "Rocketman",
-			x: 10.5d,
+			x: 8.5d,
 			y: -2.0d,
 			description: ["The highest form of jetpack available. With this pack you can fly very fast through the air, very slowly fall in hover mode, and have access to the emergency hover mode that will turn on if you fall far enough to cause damage (will neglect the fall damage by turning on and catching you)."],
 			dependencies: ["0000000000000215"],
@@ -3569,7 +3556,7 @@
 		},
 		{
 			x: -8.282440476190445d,
-			y: 5.0535714285714235d,
+			y: 4.5535714285714235d,
 			description: ["The Small Electrical furnace will be a joy to help automate your smelting of grit/dust. Items conveyored into its entrance side are passed through and smelted, being ejected from the opposite side on the far side with a conveyor. Its speed can be changed in its GUI, but at increased power usage."],
 			dependencies: ["000000000000022D"],
 			id: "41E62E6B6345B117",
@@ -3586,7 +3573,7 @@
 		},
 		{
 			x: -11.044345238095197d,
-			y: 4.208333333333336d,
+			y: 3.7083333333333357d,
 			description: [
 				"Tired of listening to all those loud machines?",
 				"",
@@ -3645,6 +3632,86 @@
 				type: "item",
 				item: "bigreactors:yellorium_dust",
 				count: 8
+			}]
+		},
+		{
+			x: 4.6632653061224545d,
+			y: 2.511054421768712d,
+			description: ["The Iron Drill Head is the basic drill head for Mining Drill. It has a good amount of durability and a 2x2 mining area."],
+			dependencies: ["0000000000000251"],
+			id: "18ADDB7EC1E2A552",
+			tasks: [{
+				id: "16DF3179CA84850D",
+				type: "item",
+				item: "immersiveengineering:drillhead_iron"
+			}],
+			rewards: [{
+				id: "5C755189D462B193",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
+		},
+		{
+			x: 5.6632653061224545d,
+			y: 2.511054421768712d,
+			description: ["The Steel Drill Head is an updated head for the Mining Drill. It provides a larger amount of durability and is able to mine a 3x3 area."],
+			dependencies: ["0000000000000251"],
+			id: "02D4C51B66A6DD20",
+			tasks: [{
+				id: "66C8FC3F4CCC973B",
+				type: "item",
+				item: "immersiveengineering:drillhead_steel"
+			}],
+			rewards: [{
+				id: "49F6637C1A909286",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
+			}]
+		},
+		{
+			x: 4.744897959183682d,
+			y: 8.02125850340137d,
+			description: ["The Sawblade is the basic head for the Buzzsaw. It can be used to quickly cut wooden items."],
+			dependencies: ["0000000000000253"],
+			id: "56749328894F5791",
+			tasks: [{
+				id: "7A302FBDCC0A29DF",
+				type: "item",
+				item: {
+					id: "immersiveengineering:sawblade",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "1E94E315D8557BA8",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
+		},
+		{
+			x: 5.744897959183682d,
+			y: 8.02125850340137d,
+			description: ["The Rockcutter is the upgraded head for Buzzsaw. It is able to silk touch mine blocks, even stone."],
+			dependencies: ["0000000000000253"],
+			id: "415134D9266AB3AA",
+			tasks: [{
+				id: "66FA37898F2045F1",
+				type: "item",
+				item: {
+					id: "immersiveengineering:rockcutter",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "3D7041478C1BC4C1",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		}
 	]

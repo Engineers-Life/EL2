@@ -2703,27 +2703,57 @@
 			],
 			id: "0D69186F8138A0C9",
 			tasks: [{
-				id: "27D803D849745122",
+				id: "0F668D7CD2B32175",
 				type: "item",
+				title: "Treatise: Gemstone expertise",
 				item: {
-					id: "tetra:scroll_rolled",
+					id: "itemfilters:or",
 					Count: 1b,
 					tag: {
-						BlockEntityTag: {
-							data: [{
-								intricate: 0b,
-								effects: ["tetra:gem_expertise"],
-								material: 0,
-								ribbon: "2bffee",
-								glyphs: [
-									14,
-									13,
-									14,
-									15
-								],
-								key: "gem_expertise"
-							}]
-						}
+						items: [
+							{
+								id: "tetra:scroll_rolled",
+								Count: 1b,
+								tag: {
+									BlockEntityTag: {
+										data: [{
+											intricate: 0b,
+											effects: ["tetra:gem_expertise"],
+											material: 0,
+											ribbon: "2bffee",
+											glyphs: [I;
+												14,
+												13,
+												14,
+												15
+											],
+											key: "gem_expertise"
+										}]
+									}
+								}
+							},
+							{
+								id: "tetra:scroll_rolled",
+								Count: 1b,
+								tag: {
+									BlockEntityTag: {
+										data: [{
+											intricate: 0b,
+											effects: ["tetra:gem_expertise"],
+											material: 0,
+											ribbon: "2bffee",
+											glyphs: [
+												14,
+												13,
+												14,
+												15
+											],
+											key: "gem_expertise"
+										}]
+									}
+								}
+							}
+						]
 					}
 				}
 			}],
