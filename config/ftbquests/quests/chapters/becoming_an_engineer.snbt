@@ -1427,7 +1427,7 @@
 		{
 			x: 5.199404761904852d,
 			y: 3.7089285714285722d,
-			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. The drill needs to be fit with a drill head to operate. A number of upgrades can be seen in the IE manual to configure the drills operation."],
+			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. The drill needs to be fit with a drill head to operate. A number of upgrades can be seen in the IE manual to configure the drill's operation."],
 			dependencies: ["0000000000000263"],
 			id: "0000000000000251",
 			tasks: [{
@@ -3637,7 +3637,7 @@
 		{
 			x: 4.6632653061224545d,
 			y: 2.511054421768712d,
-			description: ["The Iron Drill Head is the basic drill head for Mining Drill. It has a good amount of durability and a 2x2 mining area."],
+			description: ["The Iron Drill Head is the basic drill head for the Mining Drill. It has a good amount of durability and a 2x2 mining area."],
 			dependencies: ["0000000000000251"],
 			id: "18ADDB7EC1E2A552",
 			tasks: [{
@@ -3654,7 +3654,7 @@
 		{
 			x: 5.6632653061224545d,
 			y: 2.511054421768712d,
-			description: ["The Steel Drill Head is an updated head for the Mining Drill. It provides a larger amount of durability and is able to mine a 3x3 area."],
+			description: ["The Steel Drill Head is an upgraded head for the Mining Drill. It provides a larger amount of durability and is able to mine a 3x3 area."],
 			dependencies: ["0000000000000251"],
 			id: "02D4C51B66A6DD20",
 			tasks: [{
@@ -3694,7 +3694,7 @@
 		{
 			x: 5.744897959183682d,
 			y: 8.02125850340137d,
-			description: ["The Rockcutter is the upgraded head for Buzzsaw. It is able to silk touch mine blocks, even stone."],
+			description: ["The Rockcutter is the upgraded head for Buzzsaw. It is able to silk touch mine stone type blocks and ore but not longer will work on trees."],
 			dependencies: ["0000000000000253"],
 			id: "415134D9266AB3AA",
 			tasks: [{

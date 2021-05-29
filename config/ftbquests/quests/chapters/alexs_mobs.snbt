@@ -15,7 +15,7 @@
 	quests: [
 		{
 			x: -2.0d,
-			y: -6.0d,
+			y: -8.5d,
 			description: ["Grizzly Bears will randomly drop some of their hair with time."],
 			dependencies: ["4E20E64264B2AA55"],
 			id: "11AD9C3E6F7ED206",
@@ -31,8 +31,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 0.5d,
+			x: -8.5d,
+			y: 1.5d,
 			description: ["Roadrunners will drop these if they lose battles against Rattlesnakes.... or you."],
 			dependencies: ["32F7D28F7B29709C"],
 			id: "7462427AC1D865C7",
@@ -48,8 +48,8 @@
 			}]
 		},
 		{
-			x: -13.0d,
-			y: 1.0d,
+			x: -8.5d,
+			y: 3.0d,
 			description: ["These boots, which are fitted with Roadrunner feathers, will allow users to run faster on sand."],
 			dependencies: ["7462427AC1D865C7"],
 			id: "12976ADEDD3B9090",
@@ -71,7 +71,7 @@
 			}]
 		},
 		{
-			x: -10.5d,
+			x: -9.5d,
 			y: 14.0d,
 			description: ["A drop from Bone Serpents when they leap out of lava and are killed."],
 			dependencies: ["6C2B0968097E6A03"],
@@ -95,7 +95,7 @@
 		},
 		{
 			x: -8.0d,
-			y: 14.5d,
+			y: 15.0d,
 			description: ["This special potion will allow you to look through lava like it was water."],
 			dependencies: ["15132115F40EF4EA"],
 			id: "2092B6A1EE21D018",
@@ -118,7 +118,7 @@
 		},
 		{
 			x: -6.0d,
-			y: -5.0d,
+			y: -7.0d,
 			description: ["A drop from Gazelle's when they are unfortunately killed, but they also may drop some mutton."],
 			dependencies: ["617FBFA90048602D"],
 			id: "1561DE019D318A18",
@@ -135,8 +135,8 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 1.0d,
+			x: 1.5d,
+			y: 1.5d,
 			description: ["This Crocodile item is dropped when baby crocodiles age up or are killed."],
 			dependencies: ["4B89A8800535AB16"],
 			id: "2FBC1196F9B59DF7",
@@ -153,7 +153,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 2.0d,
 			y: 3.0d,
 			description: ["This crocodile armor will give you some protection but also increase your swim speed."],
 			dependencies: ["2FBC1196F9B59DF7"],
@@ -176,8 +176,8 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: -4.0d,
+			x: -8.5d,
+			y: -1.5d,
 			description: ["A maggot will drop when a Fly is killed."],
 			dependencies: ["49AB71E75762D0B9"],
 			id: "042E30144F9A1D2A",
@@ -195,8 +195,8 @@
 		},
 		{
 			x: -3.0d,
-			y: -4.5d,
-			description: ["A rare drop from jungle leaves. Can be used to make a Simple Farming tree who's bananas will work in the same way."],
+			y: -2.0d,
+			description: ["A rare drop from jungle leaves. Can be used to make a Simple Farming tree whose bananas will work in the same way."],
 			id: "2CF3F2F094B0D3B1",
 			tasks: [{
 				id: "2F2509E78CBF66D8",
@@ -211,9 +211,9 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -4.0d,
 			y: 13.0d,
-			description: ["A Crimson Mosquito drop when killed when inflated with blood from a mob."],
+			description: ["A Crimson Mosquito drop when killed while inflated with blood from a mob."],
 			dependencies: ["3EF3C919FDC60E1B"],
 			id: "3B5F5AF7209A9221",
 			tasks: [{
@@ -228,7 +228,7 @@
 			}]
 		},
 		{
-			x: -5.5d,
+			x: -6.0d,
 			y: 13.0d,
 			description: ["A random drop when killing a Crimson Mosquito."],
 			dependencies: ["3EF3C919FDC60E1B"],
@@ -246,7 +246,7 @@
 			}]
 		},
 		{
-			x: -4.5d,
+			x: -5.0d,
 			y: 15.0d,
 			description: ["A custom weapon that fires mosquito spit as a weapon. Blood sacks can be used as ammunition."],
 			dependencies: [
@@ -280,8 +280,8 @@
 			]
 		},
 		{
-			x: -8.5d,
-			y: 2.0d,
+			x: -13.0d,
+			y: 1.5d,
 			description: ["A Rattlesnake drop when killed, usually when protecting other creatures from its venomous bite."],
 			dependencies: ["295FFF98AC0C3FB2"],
 			id: "1670F799696648EA",
@@ -298,7 +298,7 @@
 		},
 		{
 			x: 9.5d,
-			y: 9.5d,
+			y: 10.0d,
 			description: ["Once you lead a Endergrade down to you with a Chorus fruit you can saddle them much like a pig in the overworld. By crafting a Chorus Fruit on a Stick you can lead an Endergrade around in any direction you want."],
 			dependencies: ["3CD714A755372F99"],
 			id: "60286A30B5BF3EBF",
@@ -332,7 +332,7 @@
 			}]
 		},
 		{
-			x: 11.5d,
+			x: 12.0d,
 			y: 4.5d,
 			description: ["These arrows travel better underwater where they deal extra damage to sea creatures."],
 			dependencies: ["12903E07FD2AA25B"],
@@ -351,7 +351,7 @@
 		},
 		{
 			x: 6.0d,
-			y: 2.0d,
+			y: 3.0d,
 			description: ["Just in case you want to move some lobsters around."],
 			dependencies: ["493146EF96766BF4"],
 			id: "0A695B938C047241",
@@ -367,7 +367,7 @@
 			}]
 		},
 		{
-			x: 5.0d,
+			x: 4.0d,
 			y: 3.0d,
 			description: ["A Lobster item that drops when they are killed."],
 			dependencies: ["493146EF96766BF4"],
@@ -384,8 +384,8 @@
 			}]
 		},
 		{
-			x: 6.0d,
-			y: 4.5d,
+			x: 5.0d,
+			y: 4.0d,
 			description: ["Would go nice with some butter."],
 			dependencies: ["5B599C2BB40A43DD"],
 			id: "3B65899892E55F6F",
@@ -401,8 +401,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 1.0d,
+			x: -18.0d,
+			y: 1.5d,
 			description: ["An occasional drop from live Komodo Dragons."],
 			dependencies: ["6BC74F4BAEA808FF"],
 			id: "08F33774046B54FC",
@@ -419,8 +419,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 2.0d,
+			x: -17.29761904761905d,
+			y: 2.6071428571428186d,
 			description: ["Taking a few drops of saliva and putting it into a bottle could be pretty potent."],
 			dependencies: ["08F33774046B54FC"],
 			id: "7EBEA1931702D1E5",
@@ -436,8 +436,8 @@
 			}]
 		},
 		{
-			x: -11.0d,
-			y: 2.5d,
+			x: -16.583333333333343d,
+			y: 3.678571428571395d,
 			description: ["The very definition of poison."],
 			dependencies: [
 				"7EBEA1931702D1E5",
@@ -456,8 +456,8 @@
 			}]
 		},
 		{
-			x: -10.0d,
-			y: 4.0d,
+			x: -15.5d,
+			y: 5.0d,
 			description: ["A very potent poison resistance potion made from poison essence and a Rattlesnake tail."],
 			dependencies: [
 				"598345B0F9427722",
@@ -483,7 +483,7 @@
 		},
 		{
 			x: -3.0d,
-			y: -2.5d,
+			y: -5.0d,
 			description: ["A random drop from Capuchin Monkeys when fed bananas. "],
 			dependencies: ["76291B63F0ED9022"],
 			id: "05B3DE276E40F772",
@@ -500,7 +500,7 @@
 		},
 		{
 			x: -3.0d,
-			y: -1.5d,
+			y: -6.5d,
 			description: [
 				'A very "unique" soup......',
 				"Maybe try some of this better soup."
@@ -519,8 +519,8 @@
 			}]
 		},
 		{
-			x: -13.0d,
-			y: 2.5d,
+			x: -17.5d,
+			y: 5.0d,
 			description: ["This item is a Cave Centipede drop when they are killed, where multiple can be dropped."],
 			dependencies: ["3231E98238491AF0"],
 			id: "154772C9462DDCC4",
@@ -537,9 +537,9 @@
 			}]
 		},
 		{
-			x: -14.0d,
-			y: 4.0d,
-			description: ["Grants the wearer to climb walls."],
+			x: -16.5d,
+			y: 6.5d,
+			description: ["Grants the wearer the ability to climb walls."],
 			dependencies: ["154772C9462DDCC4"],
 			id: "673635AB75E98296",
 			tasks: [{
@@ -560,7 +560,7 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -7.5d,
 			y: 13.0d,
 			description: ["The larva for a Crimson Mosquito, made from a maggot and proboscis. Is the favorite treat of the Warped Toad, and will allow you to tame it with a few of these."],
 			dependencies: ["3EC4C7FDCDB42C8D"],
@@ -579,7 +579,7 @@
 		},
 		{
 			x: -5.0d,
-			y: -3.5d,
+			y: -5.0d,
 			description: ["Every 7-10 days a moose can drop one of their antlers."],
 			dependencies: ["3705153037F1DDEE"],
 			id: "2DFC032306822F4E",
@@ -596,8 +596,8 @@
 		},
 		{
 			x: -5.0d,
-			y: -2.5d,
-			description: ["By mounting some antlers to this hat giving the player a knockback ability."],
+			y: -6.5d,
+			description: ["By mounting some antlers to this hat it will give the player a knockback ability."],
 			dependencies: ["2DFC032306822F4E"],
 			id: "27F0DB0AF1386C6D",
 			tasks: [{
@@ -619,7 +619,7 @@
 		},
 		{
 			x: -5.0d,
-			y: -1.5d,
+			y: -2.0d,
 			description: ["These are some big ribs that are dropped when a moose is killed."],
 			dependencies: ["3705153037F1DDEE"],
 			id: "61C774465250F5E2",
@@ -653,7 +653,7 @@
 		},
 		{
 			x: 5.5d,
-			y: 9.5d,
+			y: 10.0d,
 			description: ["A drop from Mimicubes that can be used to duplicate enchanted tools, result is broken but duplicate tool."],
 			dependencies: ["54A887A01A32BB84"],
 			id: "0B0040DAC5D0E2C8",
@@ -671,7 +671,7 @@
 		},
 		{
 			x: -2.0d,
-			y: -5.0d,
+			y: -7.0d,
 			description: ["A drop when a Raccoon is killed."],
 			dependencies: ["5AF05B20BB414210"],
 			id: "43A6451E42293BAC",
@@ -688,7 +688,7 @@
 		},
 		{
 			x: -0.5d,
-			y: -5.0d,
+			y: -6.5d,
 			description: ["This fun hat will give the wearer a speed boost while sneaking."],
 			dependencies: ["43A6451E42293BAC"],
 			id: "5E067D93C8018428",
@@ -710,8 +710,8 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: 2.0d,
+			x: 8.0d,
+			y: 2.5d,
 			description: ["When you want a slimey little buddy of your own."],
 			dependencies: ["2142DDB9A0AF6B94"],
 			id: "759CC2ED6720614D",
@@ -727,8 +727,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 1.5d,
+			x: 7.0d,
+			y: 3.0d,
 			description: ["The sad little body of a blobfish when it is killed."],
 			dependencies: ["2142DDB9A0AF6B94"],
 			id: "235A8DAEDFF467D7",
@@ -744,9 +744,9 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: 3.5d,
-			description: ["By compressing blobfish down into a bottle fish oil can be made that can have some interesting properties in the rain."],
+			x: 8.0d,
+			y: 4.0d,
+			description: ["By compressing blobfish down into a bottle, Fish Oil can be made that can have some interesting properties in the rain."],
 			dependencies: ["235A8DAEDFF467D7"],
 			id: "005E68B4C5271269",
 			tasks: [{
@@ -762,8 +762,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 3.5d,
+			x: -12.5d,
+			y: 3.0d,
 			description: ["This Rattle is made with Rattlesnake tail. It will catch the attention of Cockroaches."],
 			dependencies: ["1670F799696648EA"],
 			id: "679FB7E7C654385F",
@@ -779,8 +779,8 @@
 			}]
 		},
 		{
-			x: -12.0d,
-			y: 3.5d,
+			x: -10.5d,
+			y: 4.5d,
 			description: ["A random drop when killing Cockroaches."],
 			dependencies: ["3B5935EFBF9C27D7"],
 			id: "147F7EA3E650C141",
@@ -797,7 +797,7 @@
 			}]
 		},
 		{
-			x: -13.0d,
+			x: -9.0d,
 			y: 4.5d,
 			description: ["A rebuilt wing of a Cockroach."],
 			dependencies: ["147F7EA3E650C141"],
@@ -814,9 +814,9 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 5.0d,
-			description: ["This potion will allow a person to go almost invisibility to hostile bugs."],
+			x: -7.5d,
+			y: 4.5d,
+			description: ["This potion will allow a person to go almost invisible to hostile bugs."],
 			dependencies: ["4DC3338C71A2086D"],
 			id: "3B1E5DEBB7BE02F1",
 			tasks: [{
@@ -837,8 +837,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -7.0d,
+			x: -4.5d,
+			y: -9.0d,
 			description: ["A rare drop from acacia trees."],
 			id: "568B1FDB06169851",
 			tasks: [{
@@ -856,7 +856,7 @@
 		{
 			x: -6.0d,
 			y: 7.0d,
-			description: ["After Soul Vulture has becomed filled from its health drain attack it may drop this infused heart."],
+			description: ["After Soul Vulture has become filled from its health drain attack it may drop this infused heart."],
 			dependencies: ["292B32B34CD5094A"],
 			id: "3E83CFACFBDFDEB2",
 			tasks: [{
@@ -908,7 +908,7 @@
 		},
 		{
 			x: 1.0d,
-			y: 4.0d,
+			y: 3.5d,
 			description: ["Shearing mossy Alligator Snapping Turtles has a chance to drop this."],
 			dependencies: ["6964B640BF90A11C"],
 			id: "76AAFE97A27F9401",
@@ -949,7 +949,7 @@
 		},
 		{
 			x: -10.5d,
-			y: -2.0d,
+			y: 1.5d,
 			description: ["The core of a Guster that can drop when they are killed."],
 			dependencies: ["586FB5B01BB6C341"],
 			id: "1F21942D74A4B548",
@@ -965,8 +965,8 @@
 			}]
 		},
 		{
-			x: -9.0d,
-			y: -1.0d,
+			x: -10.0d,
+			y: 3.0d,
 			description: ["Throw a little sand in their eyes!"],
 			dependencies: ["1F21942D74A4B548"],
 			id: "3E2F7D08A8E596F1",
@@ -988,8 +988,8 @@
 			}]
 		},
 		{
-			x: -12.0d,
-			y: -1.0d,
+			x: -11.0d,
+			y: 3.0d,
 			description: ["The Gustmaker, when powered with redstone, emits little Gusters in a line that can push stuff around."],
 			dependencies: ["1F21942D74A4B548"],
 			id: "2401BD24F4787BEE",
@@ -1076,8 +1076,8 @@
 			}]
 		},
 		{
-			x: -11.0d,
-			y: 12.0d,
+			x: -12.0d,
+			y: 11.5d,
 			description: ["Try to catch a Stradpole in a bucket of lava."],
 			dependencies: ["4EDC8D006049F8E4"],
 			id: "13EDF3FD77403F25",
@@ -1093,8 +1093,8 @@
 			}]
 		},
 		{
-			x: -12.0d,
-			y: 13.5d,
+			x: -13.0d,
+			y: 13.0d,
 			description: ["A rare Straddler drop that has an interesting use."],
 			dependencies: ["4EDC8D006049F8E4"],
 			id: "1D01C2288B41EBDC",
@@ -1110,7 +1110,7 @@
 			}]
 		},
 		{
-			x: -10.0d,
+			x: -11.0d,
 			y: 13.0d,
 			description: ["A dyeable board that allows you to surf lava. Be careful to not hit anything though because you may fall off."],
 			dependencies: ["1D01C2288B41EBDC"],
@@ -1133,7 +1133,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: -1.0d,
 			y: 1.5d,
 			description: ["An occasional drop from a live Emu."],
 			dependencies: ["051CA3BEF47E6BCF"],
@@ -1150,8 +1150,8 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 4.0d,
+			x: -1.0d,
+			y: 3.0d,
 			description: ["A whole omelet in a shell."],
 			dependencies: ["38854ED19F0C1963"],
 			id: "5155710838D1A547",
@@ -1167,8 +1167,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 2.0d,
+			x: -3.0d,
+			y: 1.5d,
 			description: ["An Emu drop when killed."],
 			dependencies: ["051CA3BEF47E6BCF"],
 			id: "369959C82AF24ECD",
@@ -1184,8 +1184,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: 3.5d,
+			x: -4.0d,
+			y: 3.0d,
 			description: ["Gives the wearer the Emu dodge ability."],
 			dependencies: [
 				"369959C82AF24ECD",
@@ -1210,7 +1210,7 @@
 			}]
 		},
 		{
-			x: -14.0d,
+			x: -12.0d,
 			y: 8.0d,
 			description: ["A Dropbear drop which can be used to make flint and steel or a special potion."],
 			dependencies: ["0544039A394BA4C5"],
@@ -1227,7 +1227,7 @@
 			}]
 		},
 		{
-			x: -11.5d,
+			x: -10.0d,
 			y: 7.5d,
 			description: ["This potion allows whoever drinks it to walk on ceilings like a Dropbear."],
 			dependencies: ["3DAF08614ABA2EC5"],
@@ -1250,8 +1250,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: 2.0d,
+			x: -7.0d,
+			y: 1.5d,
 			description: ["A Kangaroo drop when they are sadly killed."],
 			dependencies: ["6941D667244F04D9"],
 			id: "62E977DBD3A3F3FE",
@@ -1267,8 +1267,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: 2.5d,
+			x: -7.0d,
+			y: 3.0d,
 			description: ["Might as well cook up the meat."],
 			dependencies: ["62E977DBD3A3F3FE"],
 			id: "5156BA2D508BE4D0",
@@ -1287,7 +1287,7 @@
 		{
 			x: -6.0d,
 			y: 4.0d,
-			description: ["A fine artisian burger."],
+			description: ["A fine artisan burger."],
 			dependencies: ["5156BA2D508BE4D0"],
 			id: "16FB2CA4AEF796DC",
 			tasks: [{
@@ -1302,7 +1302,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -5.0d,
 			y: 1.5d,
 			description: ["A Kangaroo that can be crafted into leather or some fancy pants."],
 			dependencies: ["6941D667244F04D9"],
@@ -1319,8 +1319,8 @@
 			}]
 		},
 		{
-			x: 13.5d,
-			y: 2.5d,
+			x: 11.0d,
+			y: 2.0d,
 			description: ["A drop from Cachalot Whales when they attack."],
 			id: "68D06C789ABF3D14",
 			tasks: [{
@@ -1336,9 +1336,9 @@
 			}]
 		},
 		{
-			x: 12.5d,
-			y: 3.5d,
-			description: ["A reward for given by a whale for saving it from being beached."],
+			x: 10.0d,
+			y: 3.0d,
+			description: ["A reward given by a whale for saving it from being beached."],
 			id: "151159150037976D",
 			tasks: [{
 				id: "1BDD5F030839EFB0",
@@ -1352,8 +1352,8 @@
 			}]
 		},
 		{
-			x: 14.5d,
-			y: 4.0d,
+			x: 11.5d,
+			y: 3.5d,
 			description: ["The Echolocator can locate nearby caves."],
 			dependencies: [
 				"151159150037976D",
@@ -1378,8 +1378,8 @@
 			}]
 		},
 		{
-			x: 16.5d,
-			y: 4.0d,
+			x: 13.5d,
+			y: 3.5d,
 			description: ["The Enderlocator can be used to locate the end portal."],
 			dependencies: ["456C97EA74811997"],
 			id: "02E95675EB8EF204",
@@ -1401,8 +1401,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: -9.5d,
+			x: -2.0d,
+			y: -12.5d,
 			description: ["A rare drop from chamber blocks or Queens. Can be used to create new ant colonies when used on dirt or grass."],
 			dependencies: ["7E6468F38A587264"],
 			id: "16CAFA17D62FD870",
@@ -1419,8 +1419,8 @@
 		},
 		{
 			x: -0.5d,
-			y: -8.5d,
-			description: ["This fungi can be used to feed ants and heal them or boost the Queen reprodction. It can be collected by right clicking a moldy ant chamber under an anthill, where placing a shroomlight will stop the ants from being angry."],
+			y: -11.5d,
+			description: ["This fungi can be used to feed ants and heal them or boost the Queen's reprodction. It can be collected by right clicking a moldy ant chamber under an anthill, where placing a shroomlight will stop the ants from being angry."],
 			dependencies: ["7E6468F38A587264"],
 			id: "6C244C409D094052",
 			tasks: [{
@@ -1437,7 +1437,7 @@
 		},
 		{
 			x: 9.0d,
-			y: 11.5d,
+			y: 12.0d,
 			description: ["A drop from Enderiophage, it can hold a stack of items inside which will be transported into whatever block is above them."],
 			dependencies: ["40CFB3D7A3ECB1B9"],
 			id: "57D3C1E86A23E5AD",
@@ -1454,7 +1454,7 @@
 		},
 		{
 			x: 7.5d,
-			y: 8.5d,
+			y: 9.5d,
 			description: ["A special firework with special DNA effect that can be made in the End."],
 			dependencies: ["57D3C1E86A23E5AD"],
 			id: "1A85A5ED5D9EDD86",
@@ -1470,8 +1470,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -9.0d,
+			x: -7.5d,
+			y: -11.5d,
 			description: ["The Falconry Glove will allow you to pick up tamed Bald Eagles. Then by punching while pointing at a mob from long range will send the eagle off to attack it. If not hovering over a mob the eagle will just hop off."],
 			dependencies: ["0433861EE023060D"],
 			id: "7FB236F280E77256",
@@ -1488,8 +1488,8 @@
 		},
 		{
 			x: -6.0d,
-			y: -8.0d,
-			description: ["The Falconry Hood allows finer control of Bald Eagle flight, giving third-person control over the eagly flight. The Eagle can fly to 150 blocks out from its owner. Sneaking will stop the flying mode."],
+			y: -12.5d,
+			description: ["The Falconry Hood allows finer control of Bald Eagle flight, giving third-person control over the eagle's flight. The Eagle can fly up to 150 blocks out from its owner. Sneaking will stop the flying mode."],
 			dependencies: ["7FB236F280E77256"],
 			id: "2BA83FDF7240DE8B",
 			tasks: [{
@@ -1505,7 +1505,7 @@
 		},
 		{
 			x: -16.5d,
-			y: 2.0d,
+			y: 1.5d,
 			description: ["A drop when a Tarantula Hawk is killed."],
 			dependencies: ["737BD5F672EB23AF"],
 			id: "5F33DAD5DEE9892A",
@@ -1522,8 +1522,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: 3.0d,
+			x: -15.5d,
+			y: 2.5d,
 			description: ["A reconstructed Tarantula Hawk wing."],
 			dependencies: ["5F33DAD5DEE9892A"],
 			id: "4480FBB32C9E3248",
@@ -1539,8 +1539,8 @@
 			}]
 		},
 		{
-			x: -16.0d,
-			y: 4.5d,
+			x: -15.5d,
+			y: 4.0d,
 			description: ["An enhanced elytra with Tarantula Hawk wings that provides extra protection, durability, and enchantability."],
 			dependencies: ["4480FBB32C9E3248"],
 			id: "6F5AC67DDB20ADB4",
@@ -1562,8 +1562,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: -7.0d,
+			x: -3.5d,
+			y: -9.0d,
 			description: [
 				"Encounter a Grizzly Bear",
 				"",
@@ -1596,8 +1596,8 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: -7.0d,
+			x: 0.5d,
+			y: -10.0d,
 			description: ["A Grizzly Bear can be tamed by waiting for it to eat some honey, or by feeding a honeycomb to the bear, then feeding it some salmon. They are fierce defenders and a good mount."],
 			dependencies: ["4E20E64264B2AA55"],
 			id: "240F618AC1E292F7",
@@ -1616,7 +1616,7 @@
 		},
 		{
 			x: -7.5d,
-			y: -5.0d,
+			y: -6.5d,
 			description: ["This potion will allow you to create a uncommon speed potion that will help you get where you are going quicker."],
 			dependencies: ["1561DE019D318A18"],
 			id: "792DBA9FA8A22FD5",
@@ -1638,7 +1638,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 0.0d,
 			y: 0.5d,
 			description: ["A crocodile is a large swamp and river based creature that is very dangerous to be near. You can still breed these creatures though with the use of rotten flesh. When the egg hatches, a nearby player is imprinted upon the baby and it will listen to their commands."],
 			id: "4B89A8800535AB16",
@@ -1656,7 +1656,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 0.5d,
 			y: 2.0d,
 			description: ["Alligator Snapping Turtles are large swamp turtles. They will take a bite out of anything that gets too near. They rarely move and grow a mossy layer over their shell."],
 			id: "6964B640BF90A11C",
@@ -1674,8 +1674,8 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: -8.0d,
+			x: -4.0d,
+			y: -5.5d,
 			description: [
 				"Breed two Hummingbirds with flowers.",
 				"",
@@ -1697,8 +1697,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 1.5d,
+			x: 8.0d,
+			y: 1.0d,
 			description: [
 				"Go swimming with a pod of Orcas. Will grant faster attack speed.",
 				"",
@@ -1720,11 +1720,11 @@
 		},
 		{
 			x: -4.0d,
-			y: -10.5d,
+			y: -14.0d,
 			description: [
 				"Blessed by a Sunbird.",
 				"",
-				"The Sunbird is a mythilogical bird found flying above mountains. Will cause undead to burst into flame when nearby but naturally do not attack. "
+				"The Sunbird is a mythological bird found flying above mountains. Will cause undead to burst into flame when nearby but naturally do not attack. "
 			],
 			id: "46E970252CE65795",
 			tasks: [{
@@ -1741,8 +1741,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: -3.5d,
+			x: -3.0d,
+			y: -0.5d,
 			description: [
 				"Tame a Gorilla with bananas.",
 				"",
@@ -1769,7 +1769,7 @@
 			description: [
 				"Tame a Capuchin Monkey with bananas.",
 				"",
-				"These small monkeys are prevalent in Jungles where they are fond of being given bananas. Once tamed they can sit on their friends shoulder, follow, wander, stay, and even attack with both melee and ranged attacks.",
+				"These small monkeys are prevalent in Jungles where they are fond of being given bananas. Once tamed they can sit on their friend's shoulder, follow, wander, stay, and even attack with both melee and ranged attacks.",
 				"They can be fed eggs to heal them but maggots are used to breed them. "
 			],
 			dependencies: ["2CF3F2F094B0D3B1"],
@@ -1788,7 +1788,7 @@
 			}]
 		},
 		{
-			x: -7.5d,
+			x: -13.0d,
 			y: 0.5d,
 			description: ["The Rattlesnake is a venomous snake native to deserts and badlands. Its location is usually given away by it's distinctive rattle sound made by its tail. They bite and poison a person if they get too close while rattling."],
 			id: "295FFF98AC0C3FB2",
@@ -1806,8 +1806,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: 5.0d,
+			x: -13.5d,
+			y: 4.5d,
 			description: ["Who knows what will happen if you give a Cockroach a Maraca."],
 			dependencies: [
 				"679FB7E7C654385F",
@@ -1829,7 +1829,7 @@
 		},
 		{
 			x: -6.0d,
-			y: -6.0d,
+			y: -9.0d,
 			description: [
 				"Tame a non-tusked Elephant.",
 				"",
@@ -1852,8 +1852,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: -8.5d,
+			x: -8.5d,
+			y: -10.0d,
 			description: [
 				"Tame a tusked elephant as a calf.",
 				"",
@@ -1876,7 +1876,7 @@
 		},
 		{
 			x: -8.5d,
-			y: -6.5d,
+			y: -8.0d,
 			description: [
 				"Place a colored carpet on a tamed Elephant.",
 				"",
@@ -1898,12 +1898,12 @@
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 3.0d,
+			x: 6.5d,
+			y: 4.0d,
 			description: [
 				"Tame a Mantis Shrimp with Tropical Fish.",
 				"",
-				"Giant neutral creatures found in reefs or warm oceans that pack a heck of a punch. Mantis Shrimp can be healed with any fish and be bred with lobster tails. A tamed mantis shrimp can be given a block with a sneak right click and it will seak it out and break it if set into its breaking mode."
+				"Giant neutral creatures found in reefs or warm oceans that pack a heck of a punch. Mantis Shrimp can be healed with any fish and be bred with lobster tails. A tamed mantis shrimp can be given a block with a sneak right click and it will seek it out and break it if set into its breaking mode."
 			],
 			id: "1404B0021D22163E",
 			tasks: [{
@@ -1920,8 +1920,8 @@
 			}]
 		},
 		{
-			x: 8.0d,
-			y: 4.5d,
+			x: 7.5d,
+			y: 5.0d,
 			description: ["Give tamed mantis shrimp a bucket of water"],
 			dependencies: ["1404B0021D22163E"],
 			id: "7E59CB5BD918ED99",
@@ -1940,7 +1940,7 @@
 		},
 		{
 			x: -10.5d,
-			y: -0.5d,
+			y: 0.5d,
 			description: [
 				"Guster Encountered",
 				"",
@@ -1961,8 +1961,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: -9.0d,
+			x: -5.0d,
+			y: -10.0d,
 			description: [
 				"Tame a Bald Eagle with Fish Oil.",
 				"",
@@ -1983,8 +1983,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -9.5d,
+			x: -4.0d,
+			y: -12.5d,
 			description: ["Kill an animal from 100 blocks away with a hooded Bald Eagle."],
 			dependencies: ["2BA83FDF7240DE8B"],
 			id: "2FABD2A54A4B0A4E",
@@ -2002,7 +2002,7 @@
 			}]
 		},
 		{
-			x: -15.0d,
+			x: -15.5d,
 			y: 0.5d,
 			description: [
 				"Encounter a Tarantula Hawk",
@@ -2024,11 +2024,11 @@
 			}]
 		},
 		{
-			x: -14.0d,
+			x: -14.5d,
 			y: 1.5d,
 			description: [
 				"Tame Tarantula Hawk with spider eyes. They can be very good protectors against most monsters.",
-				"Two tamed Tarantula Hawks can be bred with fermented spider eyes, where they will then seak out a spider to paralyze and bury. Eventually a baby Tarantula Hawk will emerge from where the spider was burried."
+				"Two tamed Tarantula Hawks can be bred with fermented spider eyes, where they will then seek out a spider to paralyze and bury. Eventually a baby Tarantula Hawk will emerge from where the spider was buried."
 			],
 			dependencies: ["3CA1304CC6ED84A5"],
 			id: "737BD5F672EB23AF",
@@ -2046,8 +2046,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: -0.5d,
+			x: -6.0d,
+			y: -3.5d,
 			description: [
 				"Feed meat to a Tiger to gain its blessing.",
 				"",
@@ -2068,12 +2068,12 @@
 			}]
 		},
 		{
-			x: 12.0d,
-			y: 2.0d,
+			x: 9.5d,
+			y: 1.5d,
 			description: [
 				"Rescue a beached Cachalot Whale.",
 				"",
-				"Cachalot Whales are large neutral creatures found in pretty much ever ocean. Their favorite prey are squid. Sometimes during storms they may spawn on the beached on the shore."
+				"Cachalot Whales are large neutral creatures found in pretty much every ocean. Their favorite prey are squid. Sometimes during storms they may spawn beached on the shore."
 			],
 			id: "4B530B73DFFA452D",
 			tasks: [{
@@ -2090,12 +2090,12 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -8.0d,
+			x: -3.0d,
+			y: -10.0d,
 			description: [
 				"What could go wrong jumping on an anthill?",
 				"",
-				"Leafcutter Ants are small ants that eat the leaves off of trees in jungles. Colonies can consist up to 20 ants. Typically only workers are seen but a queen can be summoned by jumping on an anthill. Queens are need for the colony to repopulate."
+				"Leafcutter Ants are small ants that eat the leaves off of trees in jungles. Colonies can consist up to 20 ants. Typically only workers are seen but a queen can be summoned by jumping on an anthill. Queens are needed for the colony to repopulate."
 			],
 			id: "7E6468F38A587264",
 			tasks: [{
@@ -2112,12 +2112,12 @@
 			}]
 		},
 		{
-			x: -5.5d,
+			x: -6.0d,
 			y: 0.5d,
 			description: [
 				"Kangaroo Encountered",
 				"",
-				"Large jumping friends of the savanna and badlands, Kangaroos are a neutral creature. They are very good at defending themselves. They can be tamed with carrots where they gain the normal follower characteristics and a accessable storage by sneak right clicking. A melee weapon, helmet, and chestpiece placed in the storage can be used by the Kangaroo. Can be healed with non-meat foods and bred with a dead bush or grass."
+				"Large jumping friends of the savanna and badlands, Kangaroos are a neutral creature. They are very good at defending themselves. They can be tamed with carrots where they gain the normal follower characteristics and a accessible storage by sneak right clicking. A melee weapon, helmet, and chestpiece placed in the storage can be used by the Kangaroo. Can be healed with non-meat foods and bred with a dead bush or grass."
 			],
 			id: "6941D667244F04D9",
 			tasks: [{
@@ -2134,12 +2134,12 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -2.0d,
 			y: 0.5d,
 			description: [
 				"Emu Encountered",
 				"",
-				"A large ground bird, the Emu is found in savanna and badlands. They initially panic when attack but may return to attack. The like attacking skeletons. They can be bred with Wheat but cannot be tamed. They will appear in a few different colors."
+				"A large ground bird, the Emu is found in savanna and badlands. They initially panic when attacked but may return to attack. They like attacking skeletons though. They can be bred with Wheat but cannot be tamed. They will appear in a few different colors."
 			],
 			id: "051CA3BEF47E6BCF",
 			tasks: [{
@@ -2156,7 +2156,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: -2.0d,
 			y: 2.5d,
 			description: ["Witness an Emu dodge a projectile."],
 			dependencies: ["051CA3BEF47E6BCF"],
@@ -2177,7 +2177,7 @@
 		},
 		{
 			x: 7.5d,
-			y: 10.5d,
+			y: 11.0d,
 			description: [
 				"Encounter Enderiophage",
 				"",
@@ -2199,8 +2199,8 @@
 		},
 		{
 			x: 6.0d,
-			y: 11.5d,
-			description: ["To heal the End Flu Chorus fruit or milk can be ate/drank."],
+			y: 12.0d,
+			description: ["To heal the End Flu Chorus fruit or milk can be eaten/drank."],
 			dependencies: ["40CFB3D7A3ECB1B9"],
 			id: "44DD26244ADEC0F8",
 			tasks: [{
@@ -2220,7 +2220,7 @@
 		{
 			x: -8.0d,
 			y: 8.5d,
-			description: ["Long dead birds that now in inhabit the Nether. They have a health stealing attack which they use to great effect up to five times."],
+			description: ["Long dead birds that now inhabits the Nether. They have a health stealing attack which they use to great effect up to five times."],
 			id: "292B32B34CD5094A",
 			tasks: [{
 				id: "021CDEE7CA77D77C",
@@ -2236,12 +2236,12 @@
 			}]
 		},
 		{
-			x: 4.0d,
+			x: 7.5d,
 			y: 7.0d,
 			description: [
 				"Lure a Spectre over in the End and hitch a ride with a lead.",
 				"",
-				"Spectre's are a relative of Phantoms but are completely passive. They cannot be attacked by physical means. Their favorite item is a Soul Heart, which they will follow and very intently."
+				"Spectres are a relative of Phantoms but are completely passive. They cannot be attacked by physical means. Their favorite item is a Soul Heart, which they will follow very intently."
 			],
 			dependencies: ["3E83CFACFBDFDEB2"],
 			id: "425A42A957D7D70B",
@@ -2260,7 +2260,7 @@
 		},
 		{
 			x: -14.0d,
-			y: 11.0d,
+			y: 11.5d,
 			description: [
 				"Encounter a Straddler",
 				"",
@@ -2281,8 +2281,8 @@
 			}]
 		},
 		{
-			x: -9.0d,
-			y: 12.0d,
+			x: -10.0d,
+			y: 11.5d,
 			description: ["Feeding a Stradpole a Crimson Mosquito Larva and it might grow up."],
 			dependencies: [
 				"13EDF3FD77403F25",
@@ -2303,7 +2303,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -4.0d,
 			y: 10.5d,
 			description: ["The Crimson Mosquito is a native of Crimson Forests where it will suck the blood of almost an creature. It can then spit this blood back at other targets."],
 			id: "3EF3C919FDC60E1B",
@@ -2321,10 +2321,10 @@
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -7.5d,
 			y: 11.5d,
 			description: [
-				"The Warped Toad is a rare spwn in Warped Forests which is neutral. Its favorite food is Crimson Mosquitos so it may be worth having one of these as a friend.",
+				"The Warped Toad is a rare spawn in Warped Forests which is neutral. Its favorite food is Crimson Mosquitos so it may be worth having one of these as a friend.",
 				"It can be healed with maggots and bred with Crimson Mosquito Larva."
 			],
 			dependencies: ["6D5AA599D202F0AF"],
@@ -2343,7 +2343,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -2.0d,
 			y: 13.0d,
 			description: ["What could happen when a Crimson Mosquito feeds on a Mungus covered with Warped Fungus?"],
 			dependencies: [
@@ -2396,7 +2396,7 @@
 				}
 			},
 			x: 3.5d,
-			y: 1.0d,
+			y: 2.0d,
 			description: ['The seal is a cute, if not loud, creature frequently found on beaches or icebergs. Usually they are found sleeping but are very good swimmers. Giving a seal three fish with "trade" with the seal and they will dive into the water and bring back a sea related item (some are valuable). Can be bred with lobster tails.'],
 			id: "5A0A76BD018B4C93",
 			tasks: [{
@@ -2418,14 +2418,14 @@
 					DisplayEntityType: "alexsmobs:shoebill"
 				}
 			},
-			x: 2.0d,
-			y: 0.0d,
+			x: 1.5d,
+			y: 0.5d,
 			description: ["Shoebills are strange birds that inhabit swamps and will flee if attacked. They are more of solitary fishmen and won't keep all of their catch which can be picked up. They can be fed Crocodile eggs to increase the lure of their catches and Blobfish to increase the luck of their catch. They cannot be bred."],
 			id: "249C1132B4C26334",
 			tasks: [{
 				id: "03E5690E11AA0C47",
 				type: "checkmark",
-				title: "Seal Encountered"
+				title: "Shoebill Encountered"
 			}],
 			rewards: [{
 				id: "78754F8B4C96B3FE",
@@ -2442,7 +2442,7 @@
 				}
 			},
 			x: -2.0d,
-			y: -2.5d,
+			y: -3.5d,
 			description: ["The Snow Leopard is a big cat found in snowy mountain area where they live in solitude. They won't be aggressive to players but love hunting and will protect themselves. While hunting they often create extra drops due to their skill (like high luck). They cannot be tamed but can be bred with Moose Ribs. "],
 			id: "782985747FDE09EA",
 			tasks: [{
@@ -2464,10 +2464,10 @@
 					DisplayEntityType: "alexsmobs:crow"
 				}
 			},
-			x: -4.5d,
-			y: -8.0d,
+			x: -4.0d,
+			y: -2.5d,
 			description: [
-				"Crows are annoyance birds found in forests and plains when they circle fields and stop crop growth. They can be scared away with a scarecrow of a simple carved pumpkin. They will pickup any food or seeds and eat them.",
+				"Crows are annoyancing birds found in forests and plains where they circle fields and stop crop growth. They can be scared away with a scarecrow of a simple carved pumpkin. They will pickup any food or seeds and eat them.",
 				"They can be tamed by giving them some pumpkin seeds. When tamed they can follow the the basic tamed animal rules (Stay, follow, wander) but can also collect items. When set to gather mode crows will look for chests with item frames on them. Whatever item is in the frame will be collected and placed into the chest."
 			],
 			id: "0AE3D19B46EFA9D1",
@@ -2490,9 +2490,9 @@
 					DisplayEntityType: "alexsmobs:mungus"
 				}
 			},
-			x: -1.5d,
+			x: -2.0d,
 			y: 11.5d,
-			description: ["Mungi are mushroom creatures found in different Mushroom biomes. They are completely passive. They have mushrooms that on them that they will grow more of depending on the biome. They have a chance of creating giant mushrooms. If killed with 5 mushrooms on it, it will explode and spread their mushroom covering them. They can be bred with Mushroom Stew."],
+			description: ["Mungi are mushroom creatures found in different Mushroom biomes. They are completely passive. They have mushroomson them that on them that they will grow more of depending on the biome. They have a chance of creating giant mushrooms. If killed with 5 mushrooms on it, it will explode and spread their mushroom covering them. They can be bred with Mushroom Stew."],
 			id: "365AD0B3FADC70B1",
 			tasks: [{
 				id: "3F02A31D66A19AAE",
@@ -2513,8 +2513,8 @@
 					DisplayEntityType: "alexsmobs:platypus"
 				}
 			},
-			x: 3.5d,
-			y: 2.5d,
+			x: 2.5d,
+			y: 1.0d,
 			description: [
 				"The Platypus is a strange little animal that can be found in rivers. It has a poisonous attack to return on attackers. It can be bred with Lobster Tails.",
 				"It's special ability is that when fed with redstone it will seak out clay blocks where it will dig up maggots and clay balls."
@@ -2539,9 +2539,9 @@
 					DisplayEntityType: "alexsmobs:tasmanian_devil"
 				}
 			},
-			x: -16.5d,
-			y: 0.0d,
-			description: ["The Tasmanian Devil is a small creature found in temperate forests. They can be found in groups making growling noises. They will heartily defend themselves. Can be fed rotten flesh to release a howl to scare away all monsters for a time. They cannot be tamed by they can be bred with meat."],
+			x: -4.0d,
+			y: 0.5d,
+			description: ["The Tasmanian Devil is a small creature found in temperate forests. They can be found in groups making growling noises. They will also heartily defend themselves if attacked. Can be fed rotten flesh to release a howl to scare away all monsters for a time. They cannot be tamed but can be bred with meat."],
 			id: "44E83C7E2B80B35F",
 			tasks: [{
 				id: "1B4280C7AA14546E",
@@ -2563,7 +2563,7 @@
 				}
 			},
 			x: -3.0d,
-			y: -5.5d,
+			y: -8.0d,
 			description: ["Raccoons are natives of plains and forests where they can be seen foraging for food. They will come up to players to beg if food is being held but they will also steal food from chests. Will wash food when near water. Can be tamed when given an egg near water and can be bred with bread."],
 			id: "5AF05B20BB414210",
 			tasks: [{
@@ -2586,7 +2586,7 @@
 				}
 			},
 			x: -5.0d,
-			y: -5.5d,
+			y: -8.0d,
 			description: ["The Gazelle is a small creature of the savannas is very timid and prefers its large groups which will flee at the first sign of danger."],
 			id: "617FBFA90048602D",
 			tasks: [{
@@ -2608,8 +2608,8 @@
 					DisplayEntityType: "alexsmobs:fly"
 				}
 			},
-			x: -5.0d,
-			y: -4.5d,
+			x: -10.5d,
+			y: -2.5d,
 			description: ["This annoying bug is pretty common across the overworld. They will chase and bite zombies to near death. They are bred with rotten flesh. Make sure these do not get into the Nether...."],
 			id: "49AB71E75762D0B9",
 			tasks: [{
@@ -2631,8 +2631,8 @@
 					DisplayEntityType: "alexsmobs:moose"
 				}
 			},
-			x: -6.0d,
-			y: -2.5d,
+			x: -5.0d,
+			y: -3.5d,
 			description: [
 				"The Moose, the Big Boy of the Tundra and Taiga, are neutral but very capable of protecting themselves.",
 				"Can be bred with dandelions."
@@ -2657,7 +2657,7 @@
 					DisplayEntityType: "alexsmobs:komodo_dragon"
 				}
 			},
-			x: -9.0d,
+			x: -18.0d,
 			y: 0.5d,
 			description: [
 				"The Komodo Dragon is the largest lizard you will ever see, which you could experience travelling through the badlands. They will attack almost anything so watch out and they have a very poisonous bite.",
@@ -2683,8 +2683,8 @@
 					DisplayEntityType: "alexsmobs:roadrunner"
 				}
 			},
-			x: -13.0d,
-			y: 0.0d,
+			x: -8.5d,
+			y: 0.5d,
 			description: ["The Roadrunner is a quick ground bird that can be found in deserts and badlands. They are predator of Rattlesnakes. Can be bred with maggots."],
 			id: "32F7D28F7B29709C",
 			tasks: [{
@@ -2706,9 +2706,9 @@
 					DisplayEntityType: "alexsmobs:centipede_head"
 				}
 			},
-			x: -12.0d,
-			y: 1.5d,
-			description: ["A rare underground bug that can be found deep down. It slowly moves but it has a powerful bit and is poisonous."],
+			x: -18.5d,
+			y: 3.5d,
+			description: ["A rare underground bug that can be found deep down. It slowly moves but it has a powerful bite and is poisonous."],
 			id: "3231E98238491AF0",
 			tasks: [{
 				id: "1B833EB81F91BAA8",
@@ -2729,10 +2729,10 @@
 					DisplayEntityType: "alexsmobs:cockroach"
 				}
 			},
-			x: -10.0d,
-			y: 5.5d,
+			x: -12.0d,
+			y: 4.5d,
 			description: [
-				"Cockroaches can be be found underground in the dark corners of caves. While they are normal scared of people they can be fed with sugar or bread to make them more comfortable. They will eat and food dropped on the ground as well.",
+				"Cockroaches can be be found underground in the dark corners of caves. While they are normally scared of people they can be fed with sugar or bread to make them more comfortable. They will eat any food dropped on the ground as well.",
 				"Their most unique ability may be the ability to lose their head and keep on running though. They can be bred with sugar."
 			],
 			id: "3B5935EFBF9C27D7",
@@ -2755,8 +2755,8 @@
 					DisplayEntityType: "alexsmobs:lobster"
 				}
 			},
-			x: 4.5d,
-			y: 1.5d,
+			x: 5.0d,
+			y: 2.0d,
 			description: ["A Lobster is a small sea creature found in the water right off the beach. They will pinch anything aggresive to them but usually won't chase. Can come in a number of colors."],
 			id: "493146EF96766BF4",
 			tasks: [{
@@ -2778,8 +2778,8 @@
 					DisplayEntityType: "alexsmobs:blobfish"
 				}
 			},
-			x: 8.5d,
-			y: 1.0d,
+			x: 6.5d,
+			y: 1.5d,
 			description: ["This..... squishy fish is usually found deep in oceans. When a slimeball is used on a blobfish will allow it to survive on land."],
 			id: "2142DDB9A0AF6B94",
 			tasks: [{
@@ -2801,8 +2801,8 @@
 					DisplayEntityType: "alexsmobs:hammerhead_shark"
 				}
 			},
-			x: 10.5d,
-			y: 3.0d,
+			x: 9.0d,
+			y: 3.5d,
 			description: ["A Hammerhead Shark are a large creature native in warmer oceans. It is a predator of any creature below half health."],
 			id: "2C2D57D238A96C47",
 			tasks: [{
@@ -2824,8 +2824,8 @@
 					DisplayEntityType: "alexsmobs:endergrade"
 				}
 			},
-			x: 9.0d,
-			y: 8.0d,
+			x: 8.5d,
+			y: 8.5d,
 			description: ["This large animal of the End is a peaceful floating creature that is happy spending its days just floating around Chorus Forests eating chorus fruits. You can lure a Endergrade over to you by holding a Chorus fruit which you can also use to breed them."],
 			id: "3CD714A755372F99",
 			tasks: [{
@@ -2855,8 +2855,8 @@
 					DisplayEntityType: "alexsmobs:mimicube"
 				}
 			},
-			x: 6.0d,
-			y: 8.0d,
+			x: 6.5d,
+			y: 8.5d,
 			description: ["A slime relative of the End found typically in End Cities. Have very powerful magical abilities of mimicing an attackers weapons and armor."],
 			id: "54A887A01A32BB84",
 			tasks: [{
@@ -2878,9 +2878,9 @@
 					DisplayEntityType: "alexsmobs:bone_serpent"
 				}
 			},
-			x: -12.5d,
+			x: -11.0d,
 			y: 15.0d,
-			description: ["The Bone Serpent is a native of the lava lakes of the Nether where is preys on almost everything, especially Wither Skeletons."],
+			description: ["The Bone Serpent is a native of the lava lakes of the Nether where it preys on almost everything, especially Wither Skeletons."],
 			id: "6C2B0968097E6A03",
 			tasks: [{
 				id: "2F90E30454A80EFC",
@@ -2901,9 +2901,9 @@
 					DisplayEntityType: "alexsmobs:dropbear"
 				}
 			},
-			x: -14.5d,
+			x: -14.0d,
 			y: 9.5d,
-			description: ["The Dropbear is a evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."],
+			description: ["The Dropbear is an evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."],
 			id: "0544039A394BA4C5",
 			tasks: [{
 				id: "3904F121483CB9A9",
@@ -2917,8 +2917,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -6.0d,
+			x: 0.5d,
+			y: -8.0d,
 			description: ["This potion, made from bear hair and potions of strength, will create a potion giving knockback resistance."],
 			dependencies: ["11AD9C3E6F7ED206"],
 			id: "2655420D8A840C65",
