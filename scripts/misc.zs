@@ -135,7 +135,7 @@ craftingTable.addShaped("ultimate_chunk_loader",<item:chunkloaders:ultimate_chun
 //Storage Block Breakdown
 craftingTable.addShapeless("enriched_iron_storage_breakdown",<item:refinedstorage:quartz_enriched_iron>*9,[<item:refinedstorage:quartz_enriched_iron_block>]);
 craftingTable.addShapeless("biotite_storage_breakdown",<item:quark:biotite>*4,[<item:quark:biotite_block>]);
-craftingTable.addShapeless("neterwart_storage_breakdwon",<item:minecraft:nether_wart>*4,[<item:minecraft:nether_wart_block>]);
+//craftingTable.addShapeless("neterwart_storage_breakdwon",<item:minecraft:nether_wart>*4,[<item:minecraft:nether_wart_block>]);
 
 // flint saw
 craftingTable.removeRecipe(<item:natural-progression:basic_saw>);
