@@ -30,6 +30,7 @@ craftingTable.addShaped("arc_furnace_sand", <item:engineersdecor:dense_grit_sand
 furnace.removeRecipe(<item:bigreactors:graphite_block>);
 blastFurnace.removeRecipe(<item:bigreactors:graphite_block>);
 <tag:items:natural-progression:override_pickaxes>.add(<item:immersiveengineering:buzzsaw>);
+<tag:items:natural-progression:override_pickaxes>.add(<item:immersiveengineering:wirecutter>);
 
 // 2 ingots - 1 plate recipes
 
