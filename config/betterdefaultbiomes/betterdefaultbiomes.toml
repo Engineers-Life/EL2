@@ -39,7 +39,7 @@
 #Disable Enchantments from Better Default Biomes. (Default: "true" for all Enchantments.)
 [Enchanting]
 	#Horse Protection Enchantments like the Vanilla Protection Enchantments for the Player.
-	enable_horse_protection = true
+	enable_horse_protection = false
 	#Thorns for Shields.
 	enable_spikes = true
 	#Mobs in a small area around the Player get the Glowing effect.
