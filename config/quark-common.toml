@@ -893,7 +893,7 @@
 
 		[world.crevices.spawn_settings]
 			#Allowed values: [0,)
-			Rarity = 120
+			Rarity = 200
 			#Allowed values: [0,255]
 			"Min Y Level" = 15
 			#Allowed values: [0,255]
@@ -935,7 +935,7 @@
 
 		[world.mega_caves.spawn_settings]
 			#Allowed values: [0,)
-			Rarity = 300
+			Rarity = 400
 			#Allowed values: [0,255]
 			"Min Y Level" = 5
 			#Allowed values: [0,255]
@@ -1659,7 +1659,7 @@
 	Backpack = true
 	Crate = false
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Totem Of Holding" = false
 
