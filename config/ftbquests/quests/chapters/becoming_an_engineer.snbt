@@ -937,8 +937,8 @@
 			]
 		},
 		{
-			x: 12.999404761904856d,
-			y: 6.851785714285711d,
+			x: 11.806122448979593d,
+			y: 3.7532312925170075d,
 			description: ["Creates up to 256 RF/t when fueled with gasoline."],
 			dependencies: ["000000000000026B"],
 			id: "0000000000000227",
@@ -1044,8 +1044,8 @@
 		},
 		{
 			title: "Prospecting",
-			x: -0.5d,
-			y: 10.5d,
+			x: -1.5d,
+			y: 11.5d,
 			description: [
 				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein locations and multiple samples of the same vein increase the vein information.",
 				"Samples can overlap, so samples may contain information from multiple veins.",
@@ -1189,8 +1189,8 @@
 			]
 		},
 		{
-			x: 12.999404761904856d,
-			y: 3.68035714285714d,
+			x: 13.806122448979593d,
+			y: 3.7532312925170075d,
 			description: [
 				"The automatic lubricator will setup lubrication pipes around a machine for automatic lubrication ability.",
 				"For more information read the Immersive Petroleum section of the IE manual."
@@ -1332,8 +1332,8 @@
 		{
 			title: "Excavator",
 			icon: "immersiveengineering:excavator",
-			x: 3.3724489795918515d,
-			y: 10.536564625850339d,
+			x: 2.056122448979586d,
+			y: 11.5341836734694d,
 			shape: "square",
 			description: [
 				'The Excavator is made of two parts. The "Wheel" is the center part, and is formed by right-clicking with an Engineer\'s Hammer on the the Block of Steel. The "Engine" is the other part, and is formed by right-clicking the Engineer\'s Hammer on',
@@ -1425,8 +1425,8 @@
 			}]
 		},
 		{
-			x: 5.199404761904852d,
-			y: 3.7089285714285722d,
+			x: 5.282312925170075d,
+			y: 3.7056122448979707d,
 			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. The drill needs to be fit with a drill head to operate. A number of upgrades can be seen in the IE manual to configure the drill's operation."],
 			dependencies: ["0000000000000263"],
 			id: "0000000000000251",
@@ -1464,8 +1464,8 @@
 			]
 		},
 		{
-			x: 5.199404761904852d,
-			y: 6.880357142857143d,
+			x: 5.268707482993186d,
+			y: 7.237925170068031d,
 			description: ["The buzzsaw is a fuel powered saw that can chew through blocks with ease. The IE manual also lists a number of upgrades that can be applied in the Engineer's Workbench to change its functionality."],
 			dependencies: ["0000000000000263"],
 			id: "0000000000000253",
@@ -1619,8 +1619,8 @@
 		{
 			title: "Industrial Fermenter",
 			icon: "immersiveengineering:fermenter",
-			x: 2.051190476190463d,
-			y: 7.601190476190503d,
+			x: 1.5204081632652944d,
+			y: 7.009183673469401d,
 			shape: "square",
 			description: [
 				"The Industrial Fermenter is used to make Ethanol.",
@@ -1696,8 +1696,8 @@
 		{
 			title: "Industrial Squeezer",
 			icon: "immersiveengineering:squeezer",
-			x: 1.944047619047609d,
-			y: 3.3869047619047805d,
+			x: 1.5204081632652944d,
+			y: 4.009183673469401d,
 			shape: "square",
 			description: [
 				"The Industrial Squeezer is used to make Plant Oil or HOP Graphite Dust",
@@ -1785,8 +1785,8 @@
 		{
 			title: "Refinery",
 			icon: "immersiveengineering:refinery",
-			x: 5.199404761904837d,
-			y: 5.308928571428574d,
+			x: 5.270408163265294d,
+			y: 5.509183673469401d,
 			shape: "square",
 			description: [
 				"The Refinery is used to make Biodiesel.",
@@ -1863,8 +1863,8 @@
 		{
 			title: "Diesel Generator",
 			icon: "immersiveengineering:diesel_generator",
-			x: 7.1392857142857125d,
-			y: 5.303571428571431d,
+			x: 7.639285714285698d,
+			y: 5.562755102040825d,
 			shape: "square",
 			description: [
 				"The Diesel Generator is a 3x5x3 multi-block generator used to create RF from Biodiesel and Fuel.",
@@ -1947,8 +1947,8 @@
 		{
 			title: "Arc Furnace",
 			icon: "immersiveengineering:arc_furnace",
-			x: 7.129166666666578d,
-			y: 2.5d,
+			x: 7.649574829931886d,
+			y: 2.5151360544217667d,
 			shape: "square",
 			description: [
 				"The Arc Furnace is used to quickly smelt Ores, Grit and create Steel and other alloys, as well as to recycle tools and armor. After building the structure, right-click the Cauldron with an Engineer's Hammer to complete it.",
@@ -2074,8 +2074,8 @@
 		{
 			title: "Pumpjack",
 			icon: "immersivepetroleum:pumpjack",
-			x: 10.542261904761979d,
-			y: 5.308928571428574d,
+			x: 10.115646258503382d,
+			y: 5.550850340136073d,
 			shape: "square",
 			description: ["The pumpjack consumes 1024 RF/t to produce 15 mB/t of crude oil from deposits. "],
 			dependencies: ["0000000000000265"],
@@ -2159,8 +2159,8 @@
 		{
 			title: "Distillation Tower",
 			icon: "immersivepetroleum:distillationtower",
-			x: 12.970833333333402d,
-			y: 5.280357142857149d,
+			x: 12.806122448979607d,
+			y: 5.538945578231292d,
 			shape: "square",
 			description: ["The Distillation tower will take 2048 RF to convert 75 mB of crude oil to 9 mB of Lubricant, 27 mB of Diesel, and    39 mB of Gasoline."],
 			dependencies: ["0000000000000269"],
@@ -2242,8 +2242,8 @@
 		{
 			title: "Crusher",
 			icon: "immersiveengineering:crusher",
-			x: 2.0170068027210846d,
-			y: 5.524659863945573d,
+			x: 2.2704081632652944d,
+			y: 5.509183673469401d,
 			shape: "square",
 			description: [
 				"The Crusher is used to crush Ores into Grit (Dust), which is more efficient than normal smelting.",
@@ -2311,8 +2311,8 @@
 		{
 			title: "Metal Press",
 			icon: "immersiveengineering:metal_press",
-			x: -0.3299319727891117d,
-			y: 8.11649659863945d,
+			x: -0.409183673469407d,
+			y: 7.736224489795944d,
 			shape: "square",
 			description: [
 				"The metal press is an automated way of creating plates, rods, wires, and packing items.",
@@ -2391,8 +2391,8 @@
 		{
 			title: "Sawmill",
 			icon: "immersiveengineering:sawmill",
-			x: -0.34166666666667567d,
-			y: 2.8869047619047805d,
+			x: -0.38061224489797496d,
+			y: 3.2505102040816567d,
 			shape: "square",
 			description: [
 				"The sawmill is a multiblock structure that will process logs into planks or stripped logs. The sawmill requires a saw blade which is inserted by right clicking a sawblade in the slot around back of the machine (shift + right click to remove).",
@@ -2676,7 +2676,7 @@
 			]
 		},
 		{
-			x: -3.0d,
+			x: -3.5d,
 			y: 10.0d,
 			description: ["Steel scaffold will be used throughout your multiblock machine construction, and also looks really good as decoration."],
 			dependencies: ["00000000000000FD"],
@@ -2694,8 +2694,8 @@
 		},
 		{
 			title: "Just like the Movies",
-			x: -0.3636904761905626d,
-			y: 5.5d,
+			x: -0.437755102040839d,
+			y: 5.5076530612245165d,
 			shape: "octagon",
 			description: [
 				"The projector will be a critical item when you go to build multiblock machines.",
@@ -3004,8 +3004,8 @@
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 0.5d,
+			x: 5.520408163265309d,
+			y: 0.5151360544217667d,
 			shape: "gear",
 			description: ["This Iron seems to pulsate with a signal... "],
 			dependencies: ["0000000000000267"],
@@ -3049,8 +3049,8 @@
 			]
 		},
 		{
-			x: 13.0d,
-			y: 0.5d,
+			x: 13.520408163265309d,
+			y: 0.5151360544217667d,
 			shape: "gear",
 			description: ["Oh this ingot makes me tingle! I bet I can make some power with this."],
 			dependencies: ["009455CE7F67D2D9"],
@@ -3084,8 +3084,8 @@
 		{
 			title: "Assembler",
 			icon: "immersiveengineering:assembler",
-			x: -2.5d,
-			y: 3.3821428571428527d,
+			x: -2.2295918367347056d,
+			y: 4.009183673469401d,
 			shape: "square",
 			description: [
 				"The Assembler can automate up to three recipes set from its internal inventory.",
@@ -3593,8 +3593,8 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: 0.5d,
+			x: 9.520408163265309d,
+			y: 0.5151360544217667d,
 			description: [
 				"Up to this point this tingly metal has been pretty useless..... I wonder if it could be processed to be a better material.",
 				"",
@@ -3616,8 +3616,8 @@
 		},
 		{
 			title: "Yellowcake",
-			x: 10.824702380952402d,
-			y: 0.5059523809523796d,
+			x: 11.345110544217711d,
+			y: 0.5210884353741463d,
 			description: ["Processed, but not edible. Cake made of this will make you a lot of energy, just not by eating."],
 			dependencies: ["124CA5F8643ACDC1"],
 			id: "009455CE7F67D2D9",
@@ -3635,8 +3635,8 @@
 			}]
 		},
 		{
-			x: 4.6632653061224545d,
-			y: 2.511054421768712d,
+			x: 4.282312925170075d,
+			y: 2.7056122448979707d,
 			description: ["The Iron Drill Head is the basic drill head for the Mining Drill. It has a good amount of durability and a 2x2 mining area."],
 			dependencies: ["0000000000000251"],
 			id: "18ADDB7EC1E2A552",
@@ -3652,8 +3652,8 @@
 			}]
 		},
 		{
-			x: 5.6632653061224545d,
-			y: 2.511054421768712d,
+			x: 6.282312925170075d,
+			y: 2.7056122448979707d,
 			description: ["The Steel Drill Head is an upgraded head for the Mining Drill. It provides a larger amount of durability and is able to mine a 3x3 area."],
 			dependencies: ["0000000000000251"],
 			id: "02D4C51B66A6DD20",
@@ -3669,8 +3669,8 @@
 			}]
 		},
 		{
-			x: 4.744897959183682d,
-			y: 8.02125850340137d,
+			x: 4.268707482993186d,
+			y: 8.237925170068031d,
 			description: ["The Sawblade is the basic head for the Buzzsaw. It can be used to quickly cut wooden items."],
 			dependencies: ["0000000000000253"],
 			id: "56749328894F5791",
@@ -3692,8 +3692,8 @@
 			}]
 		},
 		{
-			x: 5.744897959183682d,
-			y: 8.02125850340137d,
+			x: 6.268707482993186d,
+			y: 8.237925170068031d,
 			description: ["The Rockcutter is the upgraded head for Buzzsaw. It is able to silk touch mine stone type blocks and ore but not longer will work on trees."],
 			dependencies: ["0000000000000253"],
 			id: "415134D9266AB3AA",
@@ -3712,6 +3712,179 @@
 				id: "3D7041478C1BC4C1",
 				type: "item",
 				item: "spareparts:coins/iron_coin"
+			}]
+		},
+		{
+			x: 12.806122448979593d,
+			y: 7.2532312925170075d,
+			dependencies: ["000000000000026B"],
+			id: "7F6C063FEBD91115",
+			tasks: [{
+				id: "6F31C3A0B23AAA3E",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 4,
+							Items: []
+						}
+					},
+					id: "immersivepetroleum:speedboat",
+					Count: 1b
+				}
+			}]
+		},
+		{
+			x: 11.306122448979593d,
+			y: 7.2532312925170075d,
+			dependencies: ["7F6C063FEBD91115"],
+			id: "62D4448E0379EE63",
+			tasks: [{
+				id: "22565ABCF1A6A21A",
+				type: "item",
+				item: "immersivepetroleum:upgrade_reinforced_hull"
+			}]
+		},
+		{
+			x: 14.306122448979593d,
+			y: 7.2532312925170075d,
+			dependencies: ["7F6C063FEBD91115"],
+			id: "112A1EA93CAECAD1",
+			tasks: [{
+				id: "21846BB63B08040D",
+				type: "item",
+				item: "immersivepetroleum:upgrade_icebreaker"
+			}]
+		},
+		{
+			x: 12.806122448979593d,
+			y: 8.753231292517007d,
+			dependencies: ["7F6C063FEBD91115"],
+			id: "40EBAD855688BEA5",
+			tasks: [{
+				id: "6E17487C25DA6D27",
+				type: "item",
+				item: "immersivepetroleum:upgrade_tank"
+			}]
+		},
+		{
+			x: 13.806122448979593d,
+			y: 8.253231292517007d,
+			dependencies: ["7F6C063FEBD91115"],
+			id: "7C0E58B5A56A3D19",
+			tasks: [{
+				id: "65C97A2FEC0E6A51",
+				type: "item",
+				item: "immersivepetroleum:upgrade_rudders"
+			}]
+		},
+		{
+			x: 11.806122448979593d,
+			y: 8.253231292517007d,
+			dependencies: ["7F6C063FEBD91115"],
+			id: "53D569A81C4B49F1",
+			tasks: [{
+				id: "4A16B22DB6750983",
+				type: "item",
+				item: "immersivepetroleum:upgrade_paddles"
+			}]
+		},
+		{
+			title: "Coker",
+			icon: "immersivepetroleum:cokerunit",
+			x: 16.646258503401327d,
+			y: 4.400340136054417d,
+			shape: "square",
+			dependencies: ["000000000000026B"],
+			size: 1.5d,
+			id: "4623FC8AFAD877FF",
+			tasks: [{
+				id: "00B5FE7F8EEEAC5E",
+				type: "item",
+				item: "immersiveengineering:concrete"
+			}]
+		},
+		{
+			icon: "immersivepetroleum:hydrotreater",
+			x: 16.646258503401327d,
+			y: 6.900340136054417d,
+			shape: "square",
+			dependencies: [
+				"4623FC8AFAD877FF",
+				"000000000000026B"
+			],
+			size: 1.5d,
+			id: "4BEBE6BF614C5133",
+			tasks: [{
+				id: "099E048AE00A33B5",
+				type: "item",
+				item: "immersiveengineering:sheetmetal_iron"
+			}]
+		},
+		{
+			x: 12.806122448979593d,
+			y: 3.2532312925170075d,
+			dependencies: ["000000000000026B"],
+			id: "7279B495CA7B1936",
+			tasks: [{
+				id: "1FC6BAB6DE464F02",
+				type: "item",
+				item: "immersivepetroleum:flarestack"
+			}]
+		},
+		{
+			x: 6.768707482993186d,
+			y: 7.237925170068031d,
+			dependencies: ["0000000000000253"],
+			id: "5E8AE787DEA22FA9",
+			tasks: [{
+				id: "72D25CCA5D8DF238",
+				type: "item",
+				item: "immersiveengineering:toolupgrade_drill_capacity"
+			}]
+		},
+		{
+			x: 3.768707482993186d,
+			y: 7.237925170068031d,
+			dependencies: ["0000000000000253"],
+			id: "73730C3C46BF8609",
+			tasks: [{
+				id: "166D0CF3DEF79280",
+				type: "item",
+				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+			}]
+		},
+		{
+			x: 3.782312925170075d,
+			y: 3.7056122448979707d,
+			dependencies: ["0000000000000251"],
+			id: "77A7918BBB36BDB7",
+			tasks: [{
+				id: "2F1C5AD885D954ED",
+				type: "item",
+				item: "immersiveengineering:toolupgrade_drill_waterproof"
+			}]
+		},
+		{
+			x: 6.782312925170075d,
+			y: 3.7056122448979707d,
+			dependencies: ["0000000000000251"],
+			id: "3F82A41908EC52BF",
+			tasks: [{
+				id: "4C2CD590DA4AC7D3",
+				type: "item",
+				item: "immersiveengineering:toolupgrade_drill_damage"
+			}]
+		},
+		{
+			x: 5.282312925170075d,
+			y: 2.2056122448979707d,
+			dependencies: ["0000000000000251"],
+			id: "18EB13DD9B7E7001",
+			tasks: [{
+				id: "0A9FD2F4D5A9BE9A",
+				type: "item",
+				item: "immersiveengineering:toolupgrade_drill_capacity"
 			}]
 		}
 	]
