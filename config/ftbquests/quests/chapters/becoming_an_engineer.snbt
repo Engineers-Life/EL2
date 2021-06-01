@@ -902,7 +902,7 @@
 		},
 		{
 			x: -11.0d,
-			y: 7.0d,
+			y: 7.5d,
 			description: [
 				"Pumps and pipes will be critical once you start to move liquids around your base.",
 				"",
@@ -937,8 +937,8 @@
 			]
 		},
 		{
-			x: 11.806122448979593d,
-			y: 3.7532312925170075d,
+			x: 11.5d,
+			y: 4.0d,
 			description: ["Creates up to 256 RF/t when fueled with gasoline."],
 			dependencies: ["000000000000026B"],
 			id: "0000000000000227",
@@ -947,24 +947,16 @@
 				type: "item",
 				item: "immersivepetroleum:gas_generator"
 			}],
-			rewards: [
-				{
-					id: "0000000000000518",
-					type: "item",
-					item: "immersiveengineering:dust_constantan",
-					count: 4
-				},
-				{
-					id: "0000000000000521",
-					type: "item",
-					item: "immersiveengineering:concrete_three_quarter",
-					count: 32
-				}
-			]
+			rewards: [{
+				id: "3723F198D06DC643",
+				type: "item",
+				item: "immersiveengineering:jerrycan",
+				count: 4
+			}]
 		},
 		{
-			x: -8.5d,
-			y: 2.5d,
+			x: -11.0d,
+			y: 2.0d,
 			description: ["A slightly more feature rich and decorative crafting station. Full features can be seen by holding shift + ctrl while hovering over the item."],
 			dependencies: ["0000000000000244"],
 			id: "0000000000000229",
@@ -1081,7 +1073,7 @@
 			}]
 		},
 		{
-			x: -12.0d,
+			x: -11.5d,
 			y: 4.5d,
 			description: [
 				"Conveyor belts will move your items around your base at the speed of.... walking.",
@@ -1102,8 +1094,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 4.0d,
+			x: -12.0d,
+			y: 3.5d,
 			description: [
 				"Item routers will sort incoming items out of their respective faces. This can be used to split a single conveyor into 2 or more equal flowing conveyors.",
 				"",
@@ -1125,7 +1117,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 9.0d,
+			y: 9.5d,
 			description: ['A special lantern that makes a 32 block long light "cone". Position can be adjusted by right clicking with the Engineer\'s Hammer.'],
 			dependencies: ["000000000000024A"],
 			id: "000000000000023A",
@@ -1155,8 +1147,8 @@
 			]
 		},
 		{
-			x: -9.06815476190473d,
-			y: 3.732142857142861d,
+			x: -11.5d,
+			y: 6.5d,
 			description: [
 				"The garden cloche is used to automate and speed up the growing of crops in an industrial manner.",
 				"",
@@ -1189,10 +1181,10 @@
 			]
 		},
 		{
-			x: 13.806122448979593d,
-			y: 3.7532312925170075d,
+			x: 14.0d,
+			y: 4.0d,
 			description: [
-				"The automatic lubricator will setup lubrication pipes around a machine for automatic lubrication ability.",
+				"The automatic lubricator will setup lubrication pipes around a machine for automatic lubrication ability. It will increase the speed of the Crusher, Excavator, and Pumpjack speed by 1.25x.",
 				"For more information read the Immersive Petroleum section of the IE manual."
 			],
 			dependencies: ["000000000000026B"],
@@ -1305,7 +1297,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 7.5d,
+			y: 8.0d,
 			description: ["A lantern that when provided RF creates as much light as a torch, but stops mob spawns within a 32 block radius."],
 			dependencies: ["000000000000022D"],
 			id: "000000000000024A",
@@ -1408,7 +1400,7 @@
 		},
 		{
 			x: -11.0d,
-			y: 8.5d,
+			y: 9.0d,
 			description: ["The fluid router redirects fluids that flow into it out of their respective faces. For a more detailed description check the IE manual."],
 			dependencies: ["0000000000000225"],
 			id: "000000000000024F",
@@ -1427,7 +1419,7 @@
 		{
 			x: 5.282312925170075d,
 			y: 3.7056122448979707d,
-			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. The drill needs to be fit with a drill head to operate. A number of upgrades can be seen in the IE manual to configure the drill's operation."],
+			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. The drill needs to be fit with a drill head and fuelled to operate. A number of upgrades can be seen surrounding this quest to configure the drill's operation, which can be done in a Engineer's Workbench."],
 			dependencies: ["0000000000000263"],
 			id: "0000000000000251",
 			tasks: [{
@@ -1466,7 +1458,7 @@
 		{
 			x: 5.268707482993186d,
 			y: 7.237925170068031d,
-			description: ["The buzzsaw is a fuel powered saw that can chew through blocks with ease. The IE manual also lists a number of upgrades that can be applied in the Engineer's Workbench to change its functionality."],
+			description: ["The Buzzsaw is a fuel powered saw that can chew through blocks with ease. The quests surrounding this one list a number of upgrades that can be applied in the Engineer's Workbench to change its functionality."],
 			dependencies: ["0000000000000263"],
 			id: "0000000000000253",
 			tasks: [{
@@ -1487,7 +1479,7 @@
 				{
 					id: "0000000000000516",
 					type: "item",
-					item: "pamhc2foodcore:caramelappleitem"
+					item: "spareparts:coins/copper_coin"
 				},
 				{
 					id: "0000000000000517",
@@ -2077,7 +2069,11 @@
 			x: 10.115646258503382d,
 			y: 5.550850340136073d,
 			shape: "square",
-			description: ["The pumpjack consumes 1024 RF/t to produce 15 mB/t of crude oil from deposits. "],
+			description: [
+				"The Pumpjack consumes 1024 RF/t to produce 15 mB/t of crude oil maximum from deposits. ",
+				"",
+				"The structure is formed by right clicking the Heavy Engineering block on the second level with an Engineer's Hammer."
+			],
 			dependencies: ["0000000000000265"],
 			size: 1.5d,
 			id: "0000000000000269",
@@ -2153,6 +2149,12 @@
 					type: "item",
 					item: "immersiveengineering:hemp_fiber",
 					count: 4
+				},
+				{
+					id: "7A4F9546E6EFA61D",
+					type: "item",
+					item: "spareparts:coins/iron_coin",
+					count: 2
 				}
 			]
 		},
@@ -2162,7 +2164,11 @@
 			x: 12.806122448979607d,
 			y: 5.538945578231292d,
 			shape: "square",
-			description: ["The Distillation tower will take 2048 RF to convert 75 mB of crude oil to 9 mB of Lubricant, 27 mB of Diesel, and    39 mB of Gasoline."],
+			description: [
+				"The Distillation tower will take 2048 FE to convert 75 mB of crude oil to 9 mB of Lubricant, 27 mB of Sulfurized Diesel, and 39 mB of Gasoline. It also has a chance to produce Bitumen as a result.",
+				"",
+				"It is formed by right clicking the Redstone Engineering block with an Engineer's Hammer."
+			],
 			dependencies: ["0000000000000269"],
 			size: 1.5d,
 			id: "000000000000026B",
@@ -2171,11 +2177,6 @@
 					id: "00000000000004C3",
 					type: "item",
 					item: "immersivepetroleum:gasoline_bucket"
-				},
-				{
-					id: "00000000000004C4",
-					type: "item",
-					item: "immersivepetroleum:bitumen"
 				},
 				{
 					id: "00000000000004C5",
@@ -2220,22 +2221,20 @@
 			],
 			rewards: [
 				{
-					id: "000000000000051A",
+					id: "03FBB4D373829C2A",
 					type: "item",
-					item: "immersiveengineering:dust_electrum",
-					count: 3
+					item: "spareparts:coins/golden_coin",
+					count: 2
 				},
 				{
-					id: "000000000000051B",
-					type: "item",
-					item: "immersiveengineering:dust_constantan",
-					count: 4
+					id: "15A9C3499108C6CF",
+					type: "random",
+					table_id: 1983L
 				},
 				{
-					id: "000000000000051C",
-					type: "item",
-					item: "immersiveengineering:dust_steel",
-					count: 4
+					id: "09F1E08D49504BB8",
+					type: "random",
+					table_id: 1983L
 				}
 			]
 		},
@@ -2465,7 +2464,7 @@
 		{
 			title: "Metal Press Molds",
 			x: -9.0d,
-			y: 8.5d,
+			y: 9.0d,
 			description: ["These molds will allow you to use the Metal Press to make a variety of products at better efficiency than by hand."],
 			dependencies: ["000000000000102E"],
 			id: "0000000000000274",
@@ -2507,8 +2506,8 @@
 		},
 		{
 			title: "Industrial Lighting",
-			x: -11.5d,
-			y: 2.5d,
+			x: -9.0d,
+			y: 2.0d,
 			dependencies: ["0000000000000244"],
 			id: "00000000000002C6",
 			tasks: [{
@@ -2728,7 +2727,7 @@
 		{
 			title: "Engineer's Blueprints",
 			x: -9.0d,
-			y: 7.0d,
+			y: 7.5d,
 			description: ["These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench."],
 			dependencies: ["000000000000022D"],
 			id: "000000000000102E",
@@ -3149,7 +3148,7 @@
 		},
 		{
 			title: "Specialized Conveyors",
-			x: -12.5d,
+			x: -11.0d,
 			y: 3.5d,
 			description: [
 				"There are a number of specialized conveyors that can be made.",
@@ -3191,7 +3190,7 @@
 		},
 		{
 			title: "Covered Conveyors",
-			x: -12.5d,
+			x: -12.0d,
 			y: 5.5d,
 			description: ["Covered versions of conveyors stop items from being picked up off a belt. No more walking over your belt and having your inventory filled! Can right click with a block to change the cover texture."],
 			dependencies: ["0000000000000236"],
@@ -3238,8 +3237,8 @@
 			]
 		},
 		{
-			x: -13.5d,
-			y: 5.0d,
+			x: -12.5d,
+			y: 4.5d,
 			description: ["Directs items directly down and stops players from picking them up. Inserts to inventories below them, and can be turned to side eject with a shift right click of the Engineers Hammer."],
 			dependencies: ["0000000000000236"],
 			id: "0000000000001196",
@@ -3555,8 +3554,8 @@
 			}]
 		},
 		{
-			x: -8.282440476190445d,
-			y: 4.5535714285714235d,
+			x: -8.5d,
+			y: 6.5d,
 			description: ["The Small Electrical furnace will be a joy to help automate your smelting of grit/dust. Items conveyored into its entrance side are passed through and smelted, being ejected from the opposite side on the far side with a conveyor. Its speed can be changed in its GUI, but at increased power usage."],
 			dependencies: ["000000000000022D"],
 			id: "41E62E6B6345B117",
@@ -3572,8 +3571,8 @@
 			}]
 		},
 		{
-			x: -11.044345238095197d,
-			y: 3.7083333333333357d,
+			x: -9.0d,
+			y: 4.5d,
 			description: [
 				"Tired of listening to all those loud machines?",
 				"",
@@ -3717,6 +3716,13 @@
 		{
 			x: 12.806122448979593d,
 			y: 7.2532312925170075d,
+			description: [
+				"The Motorboat is a much faster mode of water transport that runs off gasoline.",
+				"",
+				"It can be fueled with a bucket or Jerrycan of gasoline and can hold 8000 mB of fuel. It will consume fuel when going forward or backwards, and has a speed boost by holding the spacebar.",
+				"",
+				"It can be upgraded by placing it in the Engineer's Workbench, the available upgrades surround this quest."
+			],
 			dependencies: ["000000000000026B"],
 			id: "7F6C063FEBD91115",
 			tasks: [{
@@ -3737,56 +3743,108 @@
 		{
 			x: 11.306122448979593d,
 			y: 7.2532312925170075d,
+			description: [
+				"The Reinforced Hull upgrade will give the Motorboat much greater health to handle collisions.",
+				"",
+				"In addition, it's metal hull will allow it to be fireproof. This allows its use in the lava lakes of the Nether.",
+				"",
+				"Fried eggs perhaps?"
+			],
 			dependencies: ["7F6C063FEBD91115"],
 			id: "62D4448E0379EE63",
 			tasks: [{
 				id: "22565ABCF1A6A21A",
 				type: "item",
 				item: "immersivepetroleum:upgrade_reinforced_hull"
+			}],
+			rewards: [{
+				id: "1FFB3290ED53F2C4",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			x: 14.306122448979593d,
 			y: 7.2532312925170075d,
+			description: [
+				"The Icebreaker Bow will allow you to crash through ice with the motorboat, allowing it to get your iced over passages. In addition it can damage mobs if the boat is used to run into them.",
+				"",
+				"This is revenge for the Titanic!"
+			],
 			dependencies: ["7F6C063FEBD91115"],
 			id: "112A1EA93CAECAD1",
 			tasks: [{
 				id: "21846BB63B08040D",
 				type: "item",
 				item: "immersivepetroleum:upgrade_icebreaker"
+			}],
+			rewards: [{
+				id: "15AF3A4CDBA20A31",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			x: 12.806122448979593d,
 			y: 8.753231292517007d,
+			description: [
+				"The Expanded Fuel Tank upgrade will double the fuel capacity of the Motorboat.",
+				"",
+				"Just stick another tank in here."
+			],
 			dependencies: ["7F6C063FEBD91115"],
 			id: "40EBAD855688BEA5",
 			tasks: [{
 				id: "6E17487C25DA6D27",
 				type: "item",
 				item: "immersivepetroleum:upgrade_tank"
+			}],
+			rewards: [{
+				id: "226115384BBC5210",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			x: 13.806122448979593d,
 			y: 8.253231292517007d,
+			description: [
+				"The Manuevering Rudders will allow you to much better control the turning of the Motorboat.",
+				"",
+				"This is going to be a tight fit....."
+			],
 			dependencies: ["7F6C063FEBD91115"],
 			id: "7C0E58B5A56A3D19",
 			tasks: [{
 				id: "65C97A2FEC0E6A51",
 				type: "item",
 				item: "immersivepetroleum:upgrade_rudders"
+			}],
+			rewards: [{
+				id: "3E5CFFCB048F1D5B",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			x: 11.806122448979593d,
 			y: 8.253231292517007d,
+			description: [
+				"The Emergency Paddles upgrade will save you incase you run out of fuel in your Motorboat while away from base. It will allow you to use paddles as a backup like a standard boat.",
+				"",
+				"Who needs backup?...... I do......"
+			],
 			dependencies: ["7F6C063FEBD91115"],
 			id: "53D569A81C4B49F1",
 			tasks: [{
 				id: "4A16B22DB6750983",
 				type: "item",
 				item: "immersivepetroleum:upgrade_paddles"
+			}],
+			rewards: [{
+				id: "44F31B9B5AF24864",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
@@ -3795,96 +3853,381 @@
 			x: 16.646258503401327d,
 			y: 4.400340136054417d,
 			shape: "square",
-			dependencies: ["000000000000026B"],
+			description: [
+				"The Coker is a massive multiblock machine that will allow the processing of Bitumen into Petcoke and more Sulfurized Diesel for your power needs. It is quite the build and will require a lot of materials to get built and get running.",
+				"",
+				"The multiblock is finalized by reight clicking the central concrete block on the side of the machine with the Redstone Engineering block.",
+				"",
+				"The Bitumen process will require 1024 Rf/t and 2 pieces of Bitumen to produce 27 mB of Sulfurized Diesel after 3.7 seconds."
+			],
+			dependencies: ["7BAF189C67817C1B"],
 			size: 1.5d,
 			id: "4623FC8AFAD877FF",
-			tasks: [{
-				id: "00B5FE7F8EEEAC5E",
-				type: "item",
-				item: "immersiveengineering:concrete"
-			}]
+			tasks: [
+				{
+					id: "00B5FE7F8EEEAC5E",
+					type: "item",
+					item: "immersiveengineering:concrete",
+					count: 12L
+				},
+				{
+					id: "6232C8F83E9A7235",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 98L
+				},
+				{
+					id: "5FD2461D634C40E2",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 5L
+				},
+				{
+					id: "04C2B2671A1E7345",
+					type: "item",
+					item: "immersiveengineering:sheetmetal_steel"
+				},
+				{
+					id: "5FDE07EAA5C4CA77",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 5L
+				},
+				{
+					id: "3D9A54A3FDAEF134",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "11ADC60351660E70",
+					type: "item",
+					item: "immersiveengineering:concrete_tile",
+					count: 45L
+				},
+				{
+					id: "015D3ADF7EB93923",
+					type: "item",
+					item: "immersiveengineering:steel_fence",
+					count: 88L
+				},
+				{
+					id: "0B1FD97805DD580A",
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 162L
+				},
+				{
+					id: "507EC9140BDC47A7",
+					type: "item",
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top",
+					count: 46L
+				},
+				{
+					id: "775C9412048879D6",
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 47L
+				},
+				{
+					id: "7B4E86830CCA3BB8",
+					type: "item",
+					item: "immersiveengineering:steel_slope",
+					count: 3L
+				}
+			],
+			rewards: [
+				{
+					id: "0F5913158BD6A00D",
+					type: "item",
+					item: "spareparts:coins/ancient_coin",
+					count: 2
+				},
+				{
+					id: "12D9675C102A16AE",
+					type: "random",
+					table_id: 2014L
+				}
+			]
 		},
 		{
+			title: "Sulfur Recovery Unit",
 			icon: "immersivepetroleum:hydrotreater",
 			x: 16.646258503401327d,
 			y: 6.900340136054417d,
 			shape: "square",
+			description: [
+				"The Sulfur Recovery Unit uses electrolysis to seperate Sulfur from Sulfurized Diesel. This is an optional process to produce Sulfur. Both forms of diesel burn for the same amount of time/energy.",
+				"",
+				"The SRU will use 512 FE/t to convert 7 mB of Water and 7 mB of Sulfurized Diesel to produce 7 mB of Diesel. There is a 2% chance to produce some sulfur dust in this operation."
+			],
 			dependencies: [
 				"4623FC8AFAD877FF",
 				"000000000000026B"
 			],
 			size: 1.5d,
 			id: "4BEBE6BF614C5133",
-			tasks: [{
-				id: "099E048AE00A33B5",
-				type: "item",
-				item: "immersiveengineering:sheetmetal_iron"
-			}]
+			tasks: [
+				{
+					id: "4D8CD97962740F84",
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 10L
+				},
+				{
+					id: "376A130DF5C2922F",
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 4L
+				},
+				{
+					id: "68F7B6D3E66266BA",
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 15L
+				},
+				{
+					id: "62F6A760FCF970F5",
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: "6A6F50B1E817A126",
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				}
+			],
+			rewards: [
+				{
+					id: "7A3AEFB3CF7E583A",
+					type: "item",
+					item: "spareparts:coins/iron_coin"
+				},
+				{
+					id: "2294FC608AE4AB2E",
+					type: "random",
+					table_id: 1983L
+				}
+			]
 		},
 		{
-			x: 12.806122448979593d,
-			y: 3.2532312925170075d,
+			x: 12.340986394557788d,
+			y: 3.466836734693871d,
+			description: ["The Flarestack can burn off unwanted liquids (can be checked in the IE manual, Oil Processing Section) at a rate of 100 mb/t. Can be controlled with a redstone signal. "],
 			dependencies: ["000000000000026B"],
 			id: "7279B495CA7B1936",
 			tasks: [{
 				id: "1FC6BAB6DE464F02",
 				type: "item",
 				item: "immersivepetroleum:flarestack"
+			}],
+			rewards: [{
+				id: "48CE219BBAF5F9BF",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
 			x: 6.768707482993186d,
 			y: 7.237925170068031d,
+			description: ["When the Large Tank is applied to the Buzzsaw it will double its fuel capacity."],
 			dependencies: ["0000000000000253"],
 			id: "5E8AE787DEA22FA9",
 			tasks: [{
 				id: "72D25CCA5D8DF238",
 				type: "item",
 				item: "immersiveengineering:toolupgrade_drill_capacity"
+			}],
+			rewards: [{
+				id: "47448E5A06AB0330",
+				type: "item",
+				item: "immersiveengineering:biodiesel_bucket",
+				count: 2
 			}]
 		},
 		{
 			x: 3.768707482993186d,
 			y: 7.237925170068031d,
+			description: ["The Blade Quiver, when applied, will allow you to carry 2 extra blades for the Buzzsaw. They can be switched with a keybind (which you must set) or by sneaking and using the scroll wheel on your mouse."],
 			dependencies: ["0000000000000253"],
 			id: "73730C3C46BF8609",
 			tasks: [{
 				id: "166D0CF3DEF79280",
 				type: "item",
 				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+			}],
+			rewards: [{
+				id: "3D298CE20B7F16C2",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			x: 3.782312925170075d,
 			y: 3.7056122448979707d,
+			description: ["When applied, will allow the Mining Drill to run underwater, it cannot normally as it is a combustion engine, and it will have no underwater related mining slowdown."],
 			dependencies: ["0000000000000251"],
 			id: "77A7918BBB36BDB7",
 			tasks: [{
 				id: "2F1C5AD885D954ED",
 				type: "item",
 				item: "immersiveengineering:toolupgrade_drill_waterproof"
+			}],
+			rewards: [{
+				id: "1589B72855CB4C41",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			x: 6.782312925170075d,
 			y: 3.7056122448979707d,
+			description: ["Additional Augers will allow the Mining Drill to mine faster and do more damage to mobs. It can be applied up to 3 times to a Mining Drill."],
 			dependencies: ["0000000000000251"],
 			id: "3F82A41908EC52BF",
 			tasks: [{
 				id: "4C2CD590DA4AC7D3",
 				type: "item",
 				item: "immersiveengineering:toolupgrade_drill_damage"
+			}],
+			rewards: [{
+				id: "7E9AA5CE2603069F",
+				type: "random",
+				table_id: 1982L
 			}]
 		},
 		{
 			x: 5.282312925170075d,
 			y: 2.2056122448979707d,
+			description: ["When the Large Tank is applied to the Mining Drill it will double its fuel capacity."],
 			dependencies: ["0000000000000251"],
 			id: "18EB13DD9B7E7001",
 			tasks: [{
 				id: "0A9FD2F4D5A9BE9A",
 				type: "item",
 				item: "immersiveengineering:toolupgrade_drill_capacity"
+			}],
+			rewards: [{
+				id: "7DCA08EA865F7498",
+				type: "item",
+				item: "immersiveengineering:biodiesel_bucket",
+				count: 2
+			}]
+		},
+		{
+			x: 13.233843537414927d,
+			y: 3.466836734693871d,
+			description: ["The Advanced Lubrication System when applied will lower the rate ofdurability drop that sawblades/drill heads take when being used in the Buzzsaw/Mining Drill."],
+			dependencies: ["000000000000026B"],
+			id: "55B65D038D6D1492",
+			tasks: [{
+				id: "587FC8E78D095929",
+				type: "item",
+				item: "immersiveengineering:toolupgrade_drill_lube"
+			}],
+			rewards: [{
+				id: "0C249C4EA1C3C1BD",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
+			}]
+		},
+		{
+			x: 14.705272108843545d,
+			y: 4.953571428571436d,
+			description: ["Bitumen is the solid byproducts of petroleum processing, which can sometimes be found naturally. With a bit more processing it may prove to be useful."],
+			dependencies: ["000000000000026B"],
+			id: "7BAF189C67817C1B",
+			tasks: [{
+				id: "416EFD681592B718",
+				type: "item",
+				item: "immersivepetroleum:bitumen"
+			}],
+			rewards: [{
+				id: "0E39438F137E0855",
+				type: "item",
+				item: "immersivepetroleum:bitumen"
+			}]
+		},
+		{
+			title: "Circuit Design 101",
+			icon: "immersiveengineering:circuit_table",
+			x: -7.749489795918386d,
+			y: 4.515476190476193d,
+			description: ["Designing custom circuit boards will allow you to compact large redstone circuits in single logic boards. For much more detailed information than I can give read the Logic Circuits section of the Immersive Engineering manual. "],
+			dependencies: ["0000000000000221"],
+			id: "01C74BC5778378FE",
+			tasks: [
+				{
+					id: "656369AF74DD62BE",
+					type: "item",
+					item: "immersiveengineering:circuit_table"
+				},
+				{
+					id: "7B35455B7AA9320C",
+					type: "item",
+					item: "immersiveengineering:circuit_board"
+				},
+				{
+					id: "19F6A91F3C6822D8",
+					type: "item",
+					item: "immersiveengineering:electron_tube"
+				},
+				{
+					id: "17692925B3DF43A4",
+					type: "item",
+					title: "Any #immersiveengineering:circuits/solder",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "immersiveengineering:circuits/solder"
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "1AB29669461BE6B5",
+					type: "item",
+					item: "immersiveengineering:circuit_board",
+					count: 4
+				},
+				{
+					id: "3B24F1A323DF0E01",
+					type: "item",
+					item: "immersiveengineering:electron_tube",
+					count: 4
+				},
+				{
+					id: "7D4BB1410D1D4A8F",
+					type: "item",
+					item: "immersiveengineering:wire_lead",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -8.37806122448982d,
+			y: 3.229761904761908d,
+			description: ["Created Logic Circuits must be placed within a Logic Unit to work. Each Logic Unit can contain up to 10 Logic Circuits, which it will perform in their order in the Unit. To hook the Logic Unit into a network with a Redstone Interface Connector."],
+			dependencies: ["01C74BC5778378FE"],
+			id: "1EEF3F593EC2A230",
+			tasks: [
+				{
+					id: "17D42D81C99EACDA",
+					type: "item",
+					item: "immersiveengineering:logic_unit"
+				},
+				{
+					id: "5C64500215051A88",
+					type: "item",
+					item: "immersiveengineering:logic_circuit"
+				}
+			],
+			rewards: [{
+				id: "6DBE65C58B1D588E",
+				type: "random",
+				table_id: 1983L
 			}]
 		}
 	]
