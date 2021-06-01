@@ -4,6 +4,10 @@ println("BEGIN misc.zs");
 
 var air = <item:minecraft:air>;
 var cobblestone = <item:minecraft:cobblestone>;
+val stick = <tag:items:forge:rods/wooden>.asIIngredient();
+val flint = <tag:items:forge:flint>.asIIngredient();
+val plank = <tag:items:minecraft:planks>.asIIngredient();
+val nugget = <tag:items:forge:nuggets>.asIIngredient();
 
 // Construction Wands
 removeAndHide(<item:constructionwand:infinity_wand>);
@@ -100,9 +104,6 @@ craftingTable.addShaped("charm_woodcutter", <item:charm:woodcutter>, [
 
 // make red flint as usable as vanilla flint
 <tag:items:notreepunching:flint_knappable>.add(<item:vanillafoodpantry:red_flint>);
-val stick = <tag:items:forge:rods/wooden>.asIIngredient();
-val flint = <tag:items:forge:flint>.asIIngredient();
-val plank = <tag:items:minecraft:planks>.asIIngredient();
 replaceByName("storagedrawers:one_stack_upgrade",<item:storagedrawers:one_stack_upgrade>,
     [ [stick,stick,stick],[flint,<item:storagedrawers:upgrade_template>,flint],[stick,stick,stick] ] );
 replaceByName("minecraft:fletching_table",<item:minecraft:fletching_table>,
@@ -137,10 +138,27 @@ craftingTable.addShapeless("enriched_iron_storage_breakdown",<item:refinedstorag
 craftingTable.addShapeless("biotite_storage_breakdown",<item:quark:biotite>*4,[<item:quark:biotite_block>]);
 //craftingTable.addShapeless("neterwart_storage_breakdwon",<item:minecraft:nether_wart>*4,[<item:minecraft:nether_wart_block>]);
 
-// flint saw
-craftingTable.removeRecipe(<item:natural-progression:basic_saw>);
-craftingTable.addShaped("flint_saw",<item:natural-progression:basic_saw>,
-    [ [stick,stick,stick],[<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>,<item:notreepunching:flint_shard>]]);
+// saws
+removeAndHide(<item:natural-progression:bronze_saw>);
+removeAndHide(<item:notreepunching:iron_saw>);
+removeAndHide(<item:notreepunching:gold_saw>);
+removeAndHide(<item:notreepunching:diamond_saw>);
+replaceByName("immersiveengineering:crafting/wooden_grip", <item:immersiveengineering:wooden_grip>, [
+    [stick,stick],
+    [nugget,stick],
+    [stick,stick] ]);
+for name,material in {
+        "basic_saw"    : <item:notreepunching:flint_shard>,
+        "improved_saw" : <tag:items:forge:ingots/iron>,
+        "golden_saw"   : <tag:items:forge:ingots/gold>,
+        "diamond_saw"  : <tag:items:forge:gems/diamond>,
+        "copper_saw"   : <tag:items:forge:ingots/copper>,
+        "steel_saw"    : <tag:items:forge:ingots/steel> } {
+    replaceByName("natural-progression:crafting/saws/"+name, BracketHandlers.getItem("natural-progression:"+name), [
+            [stick,air,air],
+            [material,stick,air],
+            [air,material,<item:immersiveengineering:wooden_grip>]]);
+}
 
 //dragon egg recipe for servers
 craftingTable.addShapeless("inactive_dragon_egg_from_dragon_head",<item:productivebees:inactive_dragon_egg>,[<item:minecraft:dragon_head>]);
