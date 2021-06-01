@@ -8,11 +8,16 @@
 <recipetype:immersiveengineering:crusher>.addRecipe("yellorite_ore_to_dust", <item:bigreactors:yellorite_ore>, 500, <item:bigreactors:yellorium_dust>*2);
 
 //"Enrichment"
-var uran = <item:immersiveengineering:dust_uranium>;
-craftingTable.addShaped("uranium_enrich", <item:bigreactors:yellorium_dust>*8, [
-    [uran,uran,uran],
-    [uran,<item:immersivepetroleum:gasoline_bucket>,uran],
-    [uran,uran,uran]]);
+craftingTable.addJSONRecipe("uranium_enrich_with_fluid",{
+    "type":"immersiveengineering:shaped_fluid",
+    "pattern": ["UUU","UGU","UUU"],
+    "key": {
+        "U": {  "item": "immersiveengineering:dust_uranium" },
+        "G": {  "tag": "immersivepetroleum:gasoline",
+                "amount": 1000,
+                "type": "immersiveengineering:fluid" } },
+    "result": { "item": "bigreactors:yellorium_dust",
+                "count": 8 } } );
 
 // Power Taps
 removeAndHide(<item:bigreactors:reinforced_reactorpowertapfe_passive>);
