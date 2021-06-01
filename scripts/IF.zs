@@ -91,6 +91,8 @@ craftingTable.addShaped("mob_imprisonment_tool",<item:industrialforegoing:mob_im
         <item:industrialforegoing:mycelial_meatallurgic>,
         <item:industrialforegoing:washing_factory>,
         <item:industrialforegoing:fermentation_station>,
+        <item:industrialforegoing:item_transporter_type>,
+        <item:industrialforegoing:fluid_transporter_type>,
         <item:industrialforegoing:fluid_sieving_machine>
     ] {
      removeAndHide(item);
