@@ -16,8 +16,6 @@ println("BEGIN planks.zs");
 
 //Remove Natural Progression hatchet and iron saw and add tag to basic saw
 removeAndHide(<item:natural-progression:flint_hatchet>);
-removeAndHide(<item:natural-progression:improved_saw>);
-removeAndHide(<item:natural-progression:bronze_saw>);
 craftingTable.removeByRegex('.*axe.stripped_.*');
 craftingTable.removeByRegex('.*saw.*stripped_.*');
 
