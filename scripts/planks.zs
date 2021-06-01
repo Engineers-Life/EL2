@@ -17,12 +17,14 @@ println("BEGIN planks.zs");
 //Remove Natural Progression hatchet and iron saw and add tag to basic saw
 removeAndHide(<item:natural-progression:flint_hatchet>);
 removeAndHide(<item:natural-progression:improved_saw>);
+removeAndHide(<item:natural-progression:bronze_saw>);
 craftingTable.removeByRegex('.*axe.stripped_.*');
 craftingTable.removeByRegex('.*saw.*stripped_.*');
 
 //Create Saw tag
 <tag:items:forge:saws>.add(<tag:items:notreepunching:saws>);
-<tag:items:forge:saws>.add(<item:natural-progression:basic_saw>);
+<tag:items:forge:saws>.add(<item:natural-progression:netherite_saw>);
+<tag:items:forge:saws>.add(<tag:items:natural-progression:saw>);
 
 val air = <item:minecraft:air>;
 val saws = <tag:items:forge:saws> as MCTag<MCItemDefinition>;
