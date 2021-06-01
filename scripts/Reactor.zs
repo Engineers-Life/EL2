@@ -8,6 +8,7 @@
 <recipetype:immersiveengineering:crusher>.addRecipe("yellorite_ore_to_dust", <item:bigreactors:yellorite_ore>, 500, <item:bigreactors:yellorium_dust>*2);
 
 //"Enrichment"
+<tag:fluids:immersivepetroleum:gasoline>.add(<fluid:immersivepetroleum:gasoline>);
 craftingTable.addJSONRecipe("uranium_enrich_with_fluid",{
     "type":"immersiveengineering:shaped_fluid",
     "pattern": ["UUU","UGU","UUU"],
