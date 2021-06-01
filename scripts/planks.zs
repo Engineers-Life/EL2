@@ -127,10 +127,10 @@ craftingTable.addShaped("sticks_axe", <item:minecraft:stick>, [
 craftingTable.removeByName("immersiveengineering:crafting/stick_treated");
 craftingTable.addShaped("treated_sticks_axe", <item:immersiveengineering:stick_treated>, [
     [all_axes.anyDamage().transformDamage(), <tag:items:forge:treated_wood>] ], ifAxe);
-craftingTable.addShapedMirrored("treated_sticks_saw", <item:immersiveengineering:stick_treated>*2, [
+craftingTable.addShaped("treated_sticks_saw", <item:immersiveengineering:stick_treated>*2, [
     [saws.asIIngredient().anyDamage().transformDamage(), <tag:items:forge:treated_wood>] ]);
 craftingTable.removeByRegex('notreepunching:sticks.*_saw');
-craftingTable.addShapedMirrored("sticks_basic_saw", <item:minecraft:stick>*8, [
+craftingTable.addShaped("sticks_basic_saw", <item:minecraft:stick>*8, [
     [saws.asIIngredient().anyDamage().transformDamage(), <tag:items:minecraft:logs>] ]);
 
 //logs to sticks
