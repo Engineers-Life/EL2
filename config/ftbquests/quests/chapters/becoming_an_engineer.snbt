@@ -445,13 +445,13 @@
 			]
 		},
 		{
-			x: 0.5d,
+			x: 8.5d,
 			y: -4.0d,
 			description: [
 				"The breaker switch allows you to manually cut the flow of LV/MV wires across it. Not insulated enough for HV.",
 				"The redstone switch is insulated enough to handle all wires (LV-HV) across it. To operate its breaking method a redstone signal must be provided."
 			],
-			dependencies: ["00000000000001F8"],
+			dependencies: ["0000000000000219"],
 			id: "00000000000001FF",
 			tasks: [
 				{
