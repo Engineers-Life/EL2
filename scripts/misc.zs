@@ -1,5 +1,5 @@
 import crafttweaker.api.item.IIngredient;
-import crafttweaker.api.BracketHandlers
+import crafttweaker.api.BracketHandlers;
 
 println("BEGIN misc.zs");
 
