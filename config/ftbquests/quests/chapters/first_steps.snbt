@@ -2398,27 +2398,6 @@
 			id: "0000000000000723",
 			tasks: [
 				{
-					id: "0000000000000724",
-					type: "item",
-					title: "The Extreme Book",
-					icon: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"patchouli:book": "bigreactors:erguide"
-						}
-					},
-					item: {
-						id: "itemfilters:strong_nbt",
-						Count: 1b,
-						tag: {
-							value: {
-								"patchouli:book": "bigreactors:erguide"
-							}
-						}
-					}
-				},
-				{
 					id: "0000000000000728",
 					type: "item",
 					item: "cookingforblockheads:crafting_book"
@@ -2444,107 +2423,79 @@
 					item: "solpotato:food_book"
 				},
 				{
-					id: "0000000000001340",
+					id: "204E283CDD7F95F7",
 					type: "item",
-					title: "Network Guide Book",
-					icon: {
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+				},
+				{
+					id: "746306E351CCFD45",
+					type: "item",
+					item: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "storagenetwork:network_book"
 						}
-					},
-					item: {
-						id: "itemfilters:strong_nbt",
-						Count: 1b,
-						tag: {
-							value: {
-								"patchouli:book": "storagenetwork:network_book"
-							}
-						}
 					}
 				},
 				{
-					id: "3DAC8F6E7948DCFE",
+					id: "16ACE94FECB2DFCB",
 					type: "item",
-					title: "Big Book of Bees",
-					icon: {
+					item: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "productivebees:guide"
 						}
-					},
-					item: {
-						id: "itemfilters:strong_nbt",
-						Count: 1b,
-						tag: {
-							value: {
-								"patchouli:book": "productivebees:guide"
-							}
-						}
 					}
 				},
 				{
-					id: "100432F50160DB75",
+					id: "2D7738D3C1A6AE6B",
 					type: "item",
-					title: "Advanced Transport",
-					icon: {
+					item: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "transport:guide"
 						}
-					},
-					item: {
-						id: "itemfilters:strong_nbt",
-						Count: 1b,
-						tag: {
-							value: {
-								"patchouli:book": "transport:guide"
-							}
-						}
 					}
 				},
 				{
-					id: "0DEA8468D0CCF620",
+					id: "063931EDA59A1EF8",
 					type: "item",
-					title: "Engineer's Decor",
-					icon: {
+					item: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "engineersdecor:engineersdecor_manual"
 						}
-					},
-					item: {
-						id: "itemfilters:strong_nbt",
-						Count: 1b,
-						tag: {
-							value: {
-								"patchouli:book": "engineersdecor:engineersdecor_manual"
-							}
-						}
 					}
 				},
 				{
-					id: "5F81754D88EE8964",
+					id: "33CA5C21BF082B6D",
 					type: "item",
-					title: "Industrial Foregoing's Manual",
-					icon: {
+					item: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"patchouli:book": "industrialforegoing:industrial_foregoing"
 						}
-					},
+					}
+				},
+				{
+					id: "1BE18F3390D943C2",
+					type: "item",
 					item: {
-						id: "itemfilters:strong_nbt",
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							value: {
-								"patchouli:book": "industrialforegoing:industrial_foregoing"
-							}
+							"patchouli:book": "buddycards:buddycard_guidebook"
 						}
 					}
 				}
