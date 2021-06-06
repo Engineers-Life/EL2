@@ -15,6 +15,8 @@ import stdlib.List;
 
 println("BEGIN wood_cutting.zs");
 
+<tag:blocks:natural-progression:ignored_stone_blocks>.add(<block:charm:woodcutter>);
+
 // will divide recipe total cost by this amount and still be craftable.
 // For example, a chest is made from the equivalent of two logs worth of wood, but at discount level 2, it will allow it to be crafted for 1 log.
 // Will only discount cost if needed to be craftable.  A discount level of 8 won't turn it into a chest costing 1 plank since it will only reduce the cost to be 1 wood.
