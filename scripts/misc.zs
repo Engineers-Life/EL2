@@ -144,6 +144,7 @@ removeAndHide(<item:natural-progression:bronze_saw>);
 removeAndHide(<item:notreepunching:iron_saw>);
 removeAndHide(<item:notreepunching:gold_saw>);
 removeAndHide(<item:notreepunching:diamond_saw>);
+removeAndHide(<item:notreepunching:netherite_saw>);
 replaceByName("immersiveengineering:crafting/wooden_grip", <item:immersiveengineering:wooden_grip>, [
     [stick,stick],
     [nugget,stick],
