@@ -11,7 +11,10 @@
 			x: 10.0d,
 			y: 1.5d,
 			description: ["The root of your Simple Storage Network. You will only need a single root per network."],
-			dependencies: ["0000000000001247"],
+			dependencies: [
+				"0000000000001247",
+				"32520C7BCAB3CBE7"
+			],
 			id: "00000000000001A1",
 			tasks: [{
 				id: "00000000000001A2",
@@ -209,7 +212,9 @@
 			description: [
 				"A bigger chest to store your stuff.",
 				"",
-				"9x5 slots (45 total)."
+				"9x5 slots (45 total). ",
+				"",
+				"(Connection from First Steps chapter)"
 			],
 			size: 1.5d,
 			id: "00000000000000A3",
@@ -1070,6 +1075,18 @@
 				id: "24087FC1A694B2B0",
 				type: "random",
 				table_id: 1407L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["(Connection from To Industry and Beyond chapter)"],
+			id: "32520C7BCAB3CBE7",
+			tasks: [{
+				id: "2D90F2B07EA2ED3D",
+				type: "item",
+				item: "industrialforegoing:machine_frame_simple"
 			}]
 		}
 	]

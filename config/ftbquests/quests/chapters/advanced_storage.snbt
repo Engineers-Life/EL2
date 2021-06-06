@@ -12,6 +12,7 @@
 			x: 4.0d,
 			y: -1.0d,
 			shape: "gear",
+			description: ["(Connection from Becoming an Engineer chapter)"],
 			size: 2.0d,
 			id: "0000000000000279",
 			tasks: [{
@@ -25,6 +26,7 @@
 			x: 7.0d,
 			y: -1.0d,
 			shape: "gear",
+			description: ["(Connection from To Boldly Go! chapter)"],
 			size: 1.5d,
 			id: "000000000000027B",
 			tasks: [{

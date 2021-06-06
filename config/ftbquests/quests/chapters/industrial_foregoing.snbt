@@ -298,6 +298,7 @@
 			x: -8.5d,
 			y: 6.0d,
 			shape: "gear",
+			description: ["(Connection from Becoming an Engineer chapter)"],
 			size: 1.5d,
 			id: "0000000000000614",
 			tasks: [{
@@ -309,6 +310,7 @@
 		{
 			x: 6.5d,
 			y: 12.5d,
+			shape: "gear",
 			description: ["The Simple Machine Frame is the next level of machine frame that will allow some more complex machines."],
 			dependencies: ["000000000000073D"],
 			id: "0000000000000616",

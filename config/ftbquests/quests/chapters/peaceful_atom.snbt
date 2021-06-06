@@ -18,7 +18,8 @@
 				"Let's build a simple reactor!",
 				"",
 				"To process Yellorium you will need the Arc Furnace.",
-				""
+				"",
+				"(Connection from Becoming an Engineer chapter)"
 			],
 			size: 2.0d,
 			id: "00000000000006F0",

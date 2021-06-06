@@ -271,7 +271,9 @@
 			description: [
 				"Will allow you to capture/release bees with a right click of the cage. ",
 				"",
-				"*One time use per cage*"
+				"*One time use per cage*",
+				"",
+				"(Connection from First Steps chapter)"
 			],
 			size: 2.0d,
 			id: "000000000000078F",

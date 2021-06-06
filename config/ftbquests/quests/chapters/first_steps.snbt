@@ -2762,7 +2762,7 @@
 			]
 		},
 		{
-			x: 22.0d,
+			x: 22.5d,
 			y: -7.0d,
 			description: ["Magic? Pah!"],
 			dependencies: ["0000000000000F92"],
@@ -2909,8 +2909,8 @@
 			}]
 		},
 		{
-			x: 23.5d,
-			y: -5.5d,
+			x: 22.5d,
+			y: -4.0d,
 			description: [
 				"Waystones allow you set points that you can fast travel to across a map. By placing the Waystone down, giving it a name, and right clicking to activate it you will be able to travel to it from any other activated Waystone.",
 				"",
@@ -3878,6 +3878,69 @@
 				id: "16AAC284BEAA79B5",
 				type: "item",
 				item: "spareparts:coins/wooden_coin"
+			}]
+		},
+		{
+			x: 25.5d,
+			y: -5.5d,
+			description: [
+				"The Experience Journal can be used to store xp in much larger amounts than Bottles o' Enchanting.",
+				"",
+				"To deposit xp into the book simply shift right click with it in your hand. To pull xp from the book simply right click with it in your hand.",
+				"",
+				"The book can also be placed where all the same keybinds work to deposit/pull xp from the book."
+			],
+			dependencies: [
+				"5A03E96D5804BD26",
+				"069F3F9F84832557",
+				"53CBC7A9F693A9D6"
+			],
+			id: "18127372C2CBAB13",
+			tasks: [{
+				id: "2C03473A993FE002",
+				type: "item",
+				item: "spareparts:experience_journal"
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -7.0d,
+			shape: "gear",
+			description: ["(Connection from To Boldy Go! chapter)"],
+			id: "069F3F9F84832557",
+			tasks: [{
+				id: "0B52AEB69AAF5A86",
+				type: "item",
+				item: "minecraft:ender_eye"
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -4.0d,
+			shape: "gear",
+			description: ["(Connection from Outstanding in a Field chapter)"],
+			id: "53CBC7A9F693A9D6",
+			tasks: [{
+				id: "706AEA749AEA138C",
+				type: "item",
+				item: "minecraft:writable_book"
+			}]
+		},
+		{
+			x: 24.0d,
+			y: -5.5d,
+			description: ["Bottles o' Enchanting can be made by holding an empty bottle in your hand and right clicking on an Enchanting Table."],
+			dependencies: ["000000000000006C"],
+			id: "5A03E96D5804BD26",
+			tasks: [{
+				id: "1C48929ADD6D05D9",
+				type: "item",
+				item: "minecraft:experience_bottle"
+			}],
+			rewards: [{
+				id: "1D133827E850D4A7",
+				type: "random",
+				table_id: 1982L
 			}]
 		}
 	]

@@ -333,7 +333,11 @@
 			x: 17.559523809523824d,
 			y: 0.0d,
 			shape: "gear",
-			description: ["There is a whole new land of mystery down here."],
+			description: [
+				"There is a whole new land of mystery down here.",
+				"",
+				"(Connection from First Steps chapter)"
+			],
 			size: 2.0d,
 			id: "0000000000000080",
 			tasks: [{
@@ -603,7 +607,6 @@
 		{
 			x: 17.5d,
 			y: 5.5d,
-			shape: "gear",
 			description: ["Did that Wither just drop a..... star?"],
 			dependencies: ["0000000000000084"],
 			size: 1.5d,
@@ -677,6 +680,7 @@
 			x: 3.0d,
 			y: 5.0d,
 			shape: "gear",
+			description: ["(Connection from from First Steps chapter)"],
 			size: 2.0d,
 			id: "0000000000000F90",
 			tasks: [{
@@ -1257,6 +1261,7 @@
 			x: 9.5d,
 			y: 5.809523809523803d,
 			shape: "gear",
+			description: ["(Connection from Outstanding in a Field chapter)"],
 			id: "0000000000001604",
 			tasks: [{
 				id: "0000000000001605",

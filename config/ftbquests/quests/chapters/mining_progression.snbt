@@ -91,7 +91,9 @@
 			description: [
 				"The Wooden Hammer will be your first tool on your smithing journey.",
 				"",
-				"Check the advancements tabs to gather greater info on the mod outside of these quests."
+				"Check the advancements tabs to gather greater info on the mod outside of these quests.",
+				"",
+				"(Connection from First Steps chapter)"
 			],
 			size: 2.0d,
 			id: "1783F3551BE3CC14",

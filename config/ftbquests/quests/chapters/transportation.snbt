@@ -290,6 +290,7 @@
 			x: -5.496428571428574d,
 			y: -3.3071428571428925d,
 			shape: "gear",
+			description: ["(Connection from Becoming an Engineer chapter)"],
 			size: 1.5d,
 			id: "000000000000075C",
 			tasks: [{

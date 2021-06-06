@@ -2614,6 +2614,7 @@
 			x: -15.0d,
 			y: 0.0d,
 			shape: "gear",
+			description: ["(Connection from First Steps chapter)"],
 			size: 3.0d,
 			id: "0000000000000F99",
 			tasks: [
@@ -2636,19 +2637,28 @@
 			]
 		},
 		{
-			title: "Magma Blocks",
+			title: "Hot Blocks",
 			disable_toast: true,
-			x: -5.5d,
-			y: 14.0d,
+			x: -5.480442176870767d,
+			y: 14.104166666666671d,
 			shape: "gear",
+			description: ["(Connection from To Boldy Go! chapter)"],
 			size: 1.5d,
 			id: "0000000000000FA3",
-			tasks: [{
-				id: "0000000000000FA4",
-				type: "item",
-				item: "minecraft:magma_block",
-				count: 9L
-			}]
+			tasks: [
+				{
+					id: "0000000000000FA4",
+					type: "item",
+					item: "minecraft:magma_block",
+					count: 9L
+				},
+				{
+					id: "09E0B75EF86E6A6E",
+					type: "item",
+					item: "minecraft:nether_brick",
+					count: 36L
+				}
+			]
 		},
 		{
 			x: -4.5d,

@@ -1352,6 +1352,7 @@
 			x: -4.0d,
 			y: 1.0416666666666643d,
 			shape: "gear",
+			description: ["(Connection from First Steps chapter)"],
 			size: 2.0d,
 			id: "0000000000000F97",
 			tasks: [{

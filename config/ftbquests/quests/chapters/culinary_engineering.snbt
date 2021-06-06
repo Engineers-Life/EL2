@@ -13,6 +13,7 @@
 			x: -10.994047619047606d,
 			y: 13.217261904761905d,
 			shape: "gear",
+			description: ["(Connection from Outstanding in a Field chapter)"],
 			dependencies: ["0000000000001074"],
 			size: 1.5d,
 			id: "0000000000000FEE",
