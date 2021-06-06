@@ -3903,6 +3903,7 @@
 			}]
 		},
 		{
+			disable_toast: true,
 			x: 26.5d,
 			y: -7.0d,
 			shape: "gear",
@@ -3915,6 +3916,7 @@
 			}]
 		},
 		{
+			disable_toast: true,
 			x: 26.5d,
 			y: -4.0d,
 			shape: "gear",

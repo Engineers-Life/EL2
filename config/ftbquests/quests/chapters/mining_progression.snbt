@@ -85,6 +85,7 @@
 		},
 		{
 			title: "Wooden Hammer: Tier I",
+			disable_toast: true,
 			x: -12.392857142857146d,
 			y: 0.0d,
 			shape: "gear",

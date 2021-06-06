@@ -1571,8 +1571,8 @@
 		},
 		{
 			icon: "minecraft:grass_block",
-			x: 20.625d,
-			y: 0.0d,
+			x: 20.632142857142874d,
+			y: 0.011904761904759198d,
 			description: [
 				"You will need to journey through the nether to find you way back to the surface. A monolith containing a Reclaimer will need to be found and surrounded on 4 sides with a gold block before it will activate and take you home.",
 				"",

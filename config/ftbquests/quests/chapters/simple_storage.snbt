@@ -1078,6 +1078,7 @@
 			}]
 		},
 		{
+			disable_toast: true,
 			x: 12.5d,
 			y: 1.5d,
 			shape: "gear",
