@@ -10,11 +10,11 @@
 //import crafttweaker.api.event.entity.player.interact.MCRightClickBlockEvent;
 //import crafttweaker.api.util.BlockPos;
 //import crafttweaker.api.world.MCWorld;
-import crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent;
-import crafttweaker.api.events.CTEventManager;
-import crafttweaker.api.util.text.MCStyle;
-import crafttweaker.api.util.text.MCTextComponent;
-import crafttweaker.api.item.IItemStack;
+//import crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent;
+//import crafttweaker.api.events.CTEventManager;
+//import crafttweaker.api.util.text.MCStyle;
+//import crafttweaker.api.util.text.MCTextComponent;
+//import crafttweaker.api.item.IItemStack;
 
 println("BEGIN events.zs");
 
@@ -42,6 +42,7 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCRightCli
         }});
 */
 
+/*
 CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCPlayerInteractEvent>(event=>{
         if (!event.itemStack.empty) {
             val state = event.entity.getWorld().getBlockState(event.blockPos);
@@ -65,5 +66,6 @@ CTEventManager.register<crafttweaker.api.event.entity.player.interact.MCPlayerIn
             }
         }
     });
+*/
 
 println("END events.zs");
