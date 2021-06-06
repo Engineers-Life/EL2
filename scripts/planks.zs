@@ -21,7 +21,7 @@ craftingTable.removeByRegex('.*saw.*stripped_.*');
 
 //Create Saw tag
 <tag:items:forge:saws>.add(<tag:items:notreepunching:saws>);
-<tag:items:forge:saws>.add(<item:natural-progression:netherite_saw>);
+<tag:items:natural-progression:saw>.add(<item:natural-progression:netherite_saw>);
 <tag:items:forge:saws>.add(<tag:items:natural-progression:saw>);
 
 val air = <item:minecraft:air>;
@@ -88,7 +88,7 @@ craftingTable.removeByName("aquaculture:planks_from_driftwood");
 craftingTable.removeByName("notreepunching:oak_planks_with_flint_axe");
 craftingTable.removeByName("minecraft:oak_planks");
 
-val vanilla_needs_fixing = {
+val needs_fixing = {
 //  omit oak since it is covered in the miscellaneous logs
     "minecraft:spruce_planks"   :   <tag:items:minecraft:spruce_logs>.asIIngredient(),
     "minecraft:birch_planks"    :   <tag:items:minecraft:birch_logs>.asIIngredient(),
@@ -96,7 +96,17 @@ val vanilla_needs_fixing = {
     "minecraft:acacia_planks"   :   <tag:items:minecraft:acacia_logs>.asIIngredient(),
     "minecraft:dark_oak_planks" :   <tag:items:minecraft:dark_oak_logs>.asIIngredient(),
     "minecraft:crimson_planks"  :   <tag:items:minecraft:crimson_stems>.asIIngredient(),
-    "minecraft:warped_planks"   :   <tag:items:minecraft:warped_stems>.asIIngredient()
+    "minecraft:warped_planks"   :   <tag:items:minecraft:warped_stems>.asIIngredient(),
+    "betterendforge:mossy_glowshroom_planks" : <tag:items:betterendforge:mossy_glowshroom_logs>.asIIngredient(),
+    "betterendforge:lacugrove_planks"        : <tag:items:betterendforge:lacugrove_logs>.asIIngredient(),
+    "betterendforge:end_lotus_planks"        : <tag:items:betterendforge:end_lotus_logs>.asIIngredient(),
+    "betterendforge:pythadendron_planks"     : <tag:items:betterendforge:pythadendron_logs>.asIIngredient(),
+    "betterendforge:dragon_tree_planks"      : <tag:items:betterendforge:dragon_tree_logs>.asIIngredient(),
+    "betterendforge:tenanea_planks"          : <tag:items:betterendforge:tenanea_logs>.asIIngredient(),
+    "betterendforge:helix_tree_planks"       : <tag:items:betterendforge:helix_tree_logs>.asIIngredient(),
+    "betterendforge:umbrella_tree_planks"    : <tag:items:betterendforge:umbrella_tree_logs>.asIIngredient(),
+    "betterendforge:jellyshroom_planks"      : <tag:items:betterendforge:jellyshroom_logs>.asIIngredient(),
+    "betterendforge:lucernia_planks"         : <tag:items:betterendforge:lucernia_logs>.asIIngredient()
 } as IIngredient[string];
 
 // every log to plank changed to axe/saw recipes.
@@ -106,8 +116,8 @@ for wrapper in craftingTable.getRecipesByOutput(planks) {
     if (    (wrapper.output.amount == 4)
         &&  (ingredients.items[0] in <tag:items:minecraft:logs>)
         &&  (!(ingredients.items[0] in <tag:items:minecraft:oak_logs>)) ) {
-        if wrapper.output.registryName.toString() in vanilla_needs_fixing {
-            ingredients = vanilla_needs_fixing[wrapper.output.registryName.toString()];
+        if wrapper.output.registryName.toString() in needs_fixing {
+            ingredients = needs_fixing[wrapper.output.registryName.toString()];
         }
         craftingTable.removeByName(wrapper.id);
         val recipeName = validName(wrapper.id);
