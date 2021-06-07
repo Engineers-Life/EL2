@@ -1,0 +1,84 @@
+{
+  "type": "theme",
+  "id": 2,
+  "decorations": [
+    {
+      "type": "vines"
+    }
+  ],
+  "theme": {
+    "normal": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 3, "block": "minecraft:basalt" },
+        { "weight": 2, "block": "quark:vanilla_basalt_bricks" },
+        { "block": "minecraft:polished_basalt" }
+      ]
+    },
+    "normal_2": {
+      "type": "block",
+      "block": "minecraft:obsidian"
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 2, "block": "minecraft:basalt" },
+        { "weight": 4, "block": "quark:vanilla_basalt_bricks" },
+        { "block": "minecraft:polished_basalt" }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 3, "block": "embellishcraft:basalt_large_bricks" },
+        { "weight": 2, "block": "embellishcraft:basalt_paving" },
+        { "block": "embellishcraft:polished_basalt" }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 4, "block": "embellishcraft:basalt_paving_stones_stairs" },
+        { "weight": 4, "block": "embellishcraft:basalt_bricks_stairs" }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 3, "block": "embellishcraft:basalt_large_bricks_stairs" },
+        { "block": "embellishcraft:basalt_paving_stairs" }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 3, "block": "embellishcraft:basalt_cobblestone" },
+        { "weight": 3, "block": "embellishcraft:basalt_large_bricks" },
+        { "weight": 2, "block": "embellishcraft:basalt" },
+        { "block": "embellishcraft:basalt_paving" }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 2, "block": "embellishcraft:basalt_cobblestone_slab" },
+        { "block": "embellishcraft:basalt_large_bricks_slab" }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        { "block": "embellishcraft:basalt_large_bricks_slab" },
+        { "block": "embellishcraft:basalt_paving_slab" }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 3, "block": "embellishcraft:basalt_large_bricks_wall" },
+        { "weight": 2, "block": "embellishcraft:basalt_paving_wall" },
+        { "weight": 1, "block": "embellishcraft:polished_basalt_wall" }
+      ]
+    }
+  }
+}
