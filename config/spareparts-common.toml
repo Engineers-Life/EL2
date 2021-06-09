@@ -19,3 +19,14 @@
 	#Do you like easter eggs? (#S)
 	easter_egg_03 = ["DENY", "remove all entries to disable", "change DENY to ALLOW to invert list", "the default list denies nothing, so everything is enabled", "list entries should be resource locations"]
 
+[experience_journal]
+	#Withdrawn XP gets applied to all gear with mending
+	xpjournal_triggers_mending = true
+	#Maximum experience storage for the Experience Journal
+	#Range: > 0
+	maximum_experience_journal = 2147483647
+
+[easter_egg_04]
+	#Do you like easter eggs? (#B)
+	easter_egg_04 = true
+

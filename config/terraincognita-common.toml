@@ -31,6 +31,9 @@
 	"Disable Apple Drop From Oaks" = true
 	#Default: true
 	"Banner Patterns" = true
+	#Adds height variation to cacti, sugarcane and reeds.
+	#Default: true
+	"Plant Height Variation" = true
 
 [Trees]
 	#Default: true
@@ -65,6 +68,8 @@
 	#Default: 0.125
 	#Range: 0.0 ~ 1.0
 	"Caltrops Break Chance" = 0.125
+	#Default: true
+	"Blowpipe Enabled" = true
 
 [Flora]
 	#Dandelion puffs spawn among vanilla dandelions. You can blow on a dandelion puff by using it.
@@ -139,6 +144,10 @@
 	#Sour berries can be found growing on water in boreal swamps.
 	#Default: true
 	"Sour Berries Enabled" = true
+	#Default: true
+	"Cactus Flowers Enabled" = true
+	#Default: true
+	"Small Cacti Enabled" = true
 
 [Food]
 	#Fern fiddleheads can be found when breaking ferns. You can eat them raw or add them to suspicious stews.

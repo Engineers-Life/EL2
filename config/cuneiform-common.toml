@@ -1,18 +1,4 @@
 
-[Tweaks]
-	#Scales healing and instant damage inflicted by tipped arrows, like in Combat test snapshots.
-	#Default: true
-	"Arrow Instant Effect Nerf" = true
-	#Default: 0.125
-	#Range: 0.125 ~ 1.0
-	"Arrow Instant Effect Scaling" = 0.25
-	#Allows arrows fired from crossbows enchanted with Piercing to damage closed shulkers.
-	#Default: true
-	"Shulker Shell Piercing" = true
-	#Allows sponge blocks to reduce fall damage by 80%, like hay bales.
-	#Default: true
-	"Sponge Reduces Fall Damage" = true
-
 #Features related to log filtering.
 [Filtering]
 	#Default: true
