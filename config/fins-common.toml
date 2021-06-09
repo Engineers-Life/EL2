@@ -54,11 +54,17 @@
 	#Spawn weight of Spindly Gem Crabs
 	#Range: 1 ~ 1000
 	spindly_gem_crab_spawn_weight = 7
+	#Spawn weight of Rubber Belly Glider
+	#Range: 1 ~ 1000
+	rubber_belly_glider_spawn_weight = 3
 
 ["Ocean Creature Spawn Weight"]
 	#Spawn weight of High-finned Blue
 	#Range: 1 ~ 1000
 	high_finned_blue_spawn_weight = 2
+	#Spawn weight of Gopjets
+	#Range: 1 ~ 1000
+	gopjet_spawn_weight = 1
 
 ["Lukewarm Ocean Creature Spawn Weight"]
 	#Spawn weight of White Bull Crabs
@@ -83,4 +89,8 @@
 	#Spawn weight of Golden River Rays
 	#Range: 1 ~ 1000
 	golden_river_ray_spawn_weight = 2
+
+[General]
+	#Should Fins and Tails fish should appear in the fishing loot table?
+	fins_fishing_loot = true
 
