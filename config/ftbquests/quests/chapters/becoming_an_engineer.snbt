@@ -2165,7 +2165,7 @@
 			y: 5.538945578231292d,
 			shape: "square",
 			description: [
-				"The Distillation tower will take 2048 FE to convert 75 mB of crude oil to 9 mB of Lubricant, 27 mB of Sulfurized Diesel, and 39 mB of Gasoline. It also has a chance to produce Bitumen as a result.",
+				"The Distillation tower will take 2048 FE to convert 75 mB of crude oil to 9 mB of Lubricant, 14 mB of Sulfurized Diesel, and 39 mB of Gasoline. It also has a chance to produce Bitumen as a result.",
 				"",
 				"It is formed by right clicking the Redstone Engineering block with an Engineer's Hammer."
 			],
