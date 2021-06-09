@@ -3,11 +3,11 @@
 	#
 	#Odds of baby villager dropping base set packs, 0 for 0%, 1 for 100%, default is 5%
 	#Range: 0.0 ~ 1.0
-	villagerChance = 0.2
+	villagerChance = 0.05
 	#
 	#Odds of baby piglin dropping nether set packs, 0 for 0%, 1 for 100%, default is 5%
 	#Range: 0.0 ~ 1.0
-	piglinChance = 0.2
+	piglinChance = 0.05
 	#
 	#Odds of ender dragons dropping end set packs, 0 for 0%, 1 for 100%, default is 100%
 	#Range: 0.0 ~ 1.0
@@ -15,15 +15,15 @@
 	#
 	#Odds of baby zombie villager dropping base set packs, 0 for 0%, 1 for 100%, default is 10%
 	#Range: 0.0 ~ 1.0
-	zombieVillagerChance = 0.4
+	zombieVillagerChance = 0.1
 	#
 	#Odds of baby zombie dropping base set packs, 0 for 0%, 1 for 100%, default is 5%
 	#Range: 0.0 ~ 1.0
-	zombieChance = 0.2
+	zombieChance = 0.05
 	#
 	#Odds of baby zombie piglin dropping nether set , 0 for 0%, 1 for 100%, default is 5%
 	#Range: 0.0 ~ 1.0
-	zombiePiglinChance = 0.2
+	zombiePiglinChance = 0.05
 	#
 	#Odds of shulkers dropping end set packs, 0 for 0%, 1 for 100%, default is 5%
 	#Range: 0.0 ~ 1.0
@@ -66,23 +66,23 @@
 	#
 	#Base challenge points for rare cards, 1-100, default is 4
 	#Range: 1 ~ 100
-	pointsRare = 3
+	pointsRare = 4
 	#
 	#Base challenge points for epic cards, 1-100, default is 8
 	#Range: 1 ~ 100
-	pointsEpic = 5
+	pointsEpic = 8
 	#
 	#Multiplier for challenge points on shiny cards, 0-10, default is 1.5
 	#Range: 0.0 ~ 10.0
-	shinyMultiplier = 1.25
+	shinyMultiplier = 1.5
 	#
 	#Multiplier for challenge points from base set, 0-10, default is 1
 	#Range: 0.0 ~ 10.0
-	set1Multiplier = 0.8
+	set1Multiplier = 1
 	#
 	#Multiplier for challenge points from nether set, 0-10, default is 1.2
 	#Range: 0.0 ~ 10.0
-	set2Multiplier = 1.0
+	set2Multiplier = 1.2
 	#
 	#Multiplier for challenge points from end set, 0-10, default is 2
 	#Range: 0.0 ~ 10.0
@@ -94,7 +94,7 @@
 	#
 	#Multiplier for challenge points from create set, 0-10, default is 1
 	#Range: 0.0 ~ 10.0
-	set5Multiplier = 1.399999976158142
+	set5Multiplier = 1.0
 	#
 	#Multiplier for challenge points with grade D, 0-10, default is 1
 	#Range: 0.0 ~ 10.0
@@ -102,11 +102,11 @@
 	#
 	#Multiplier for challenge points with grade C, 0-10, default is 1.4
 	#Range: 0.0 ~ 10.0
-	grade2Multiplier = 1.399999976158142
+	grade2Multiplier = 1.4
 	#
 	#Multiplier for challenge points with grade B, 0-10, default is 1.8
 	#Range: 0.0 ~ 10.0
-	grade3Multiplier = 1.7999999523162842
+	grade3Multiplier = 1.8
 	#
 	#Multiplier for challenge points with grade A, 0-10, default is 2.5
 	#Range: 0.0 ~ 10.0
@@ -118,7 +118,7 @@
 	#
 	#Multiplier for challenge points from aquaculture set, 0-10, default is 0.9
 	#Range: 0.0 ~ 10.0
-	set6Multiplier = 1.0
+	set6Multiplier = 0.9
 	#
 	#Multiplier for challenge points from fd set, 0-10, default is 1
 	#Range: 0.0 ~ 10.0
