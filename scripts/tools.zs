@@ -156,11 +156,11 @@ craftingTable.addShaped("iron_boots", <item:minecraft:iron_boots>, [
 [iron_plate, air, iron_plate], 
 [iron_plate, air, iron_plate]]);
 
-craftingTable.removeRecipe(<item:notreepunching:iron_saw>);
-craftingTable.addShapedMirrored("iron_saw", <item:notreepunching:iron_saw>, [
-[air, air, stick], 
-[air, stick, iron_plate], 
-[stick, iron_plate, air]]);
+//craftingTable.removeRecipe(<item:notreepunching:iron_saw>);
+//craftingTable.addShapedMirrored("iron_saw", <item:notreepunching:iron_saw>, [
+//[air, air, stick], 
+//[air, stick, iron_plate], 
+//[stick, iron_plate, air]]);
 
 craftingTable.removeRecipe(<item:notreepunching:iron_mattock>);
 craftingTable.addShapedMirrored("iron_mattock", <item:notreepunching:iron_mattock>, [
