@@ -117,7 +117,7 @@ removeAndHide(<item:vanillafoodpantry:leavening_agent_pantry_block>);
 changeIngredientWithConversion(<item:pamhc2foodcore:doughitem>,<item:vanillafoodpantry:dough_ball>);
 changeIngredientWithConversion(<item:veggie_way:dough>,<item:vanillafoodpantry:dough_ball>);
 replaceByName("vanillafoodpantry:bakery/dough_ball",<item:vanillafoodpantry:dough_ball>*2,[[<tag:items:forge:tool_mixingbowl>,<tag:items:forge:flour>],[<tag:items:forge:water>,<tag:items:forge:salt>]]);
-removeAndHide(<item:vanillafoodpantry:cooked_dough>);
+removeFromListAndHide([campfire,furnace,smoker,<recipetype:charm:firing>],<item:vanillafoodpantry:cooked_dough>);
 changeIngredientsToTag([<item:vanillafoodpantry:leavening_agent_ball>],<tag:items:forge:salt>);
 
 changeIngredientWithConversion(<item:pamhc2foodcore:friedeggitem>,<item:vanillafoodpantry:fried_egg>);
