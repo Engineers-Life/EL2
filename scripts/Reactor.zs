@@ -1,5 +1,6 @@
 
 <tag:items:forge:ingots/uranium>.remove(<item:bigreactors:yellorium_ingot>);
+<tag:items:forge:dusts/uranium>.remove(<item:bigreactors:yellorium_dust>);
 
 //Arc furance processing
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("yellorium_ingot_from_dust", <item:bigreactors:yellorium_dust>, [<item:minecraft:quartz>], 100, 100*512, [<item:bigreactors:yellorium_ingot>],<item:immersiveengineering:slag>);
