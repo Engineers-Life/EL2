@@ -2970,19 +2970,9 @@
 					item: "mcwbridges:oak_log_bridge_middle"
 				},
 				{
-					id: "00000000000015B4",
-					type: "item",
-					item: "mcwbridges:oak_log_bridge_end"
-				},
-				{
 					id: "00000000000015B5",
 					type: "item",
 					item: "mcwbridges:rope_oak_bridge"
-				},
-				{
-					id: "00000000000015B6",
-					type: "item",
-					item: "mcwbridges:rope_oak_bridge_end"
 				},
 				{
 					id: "00000000000015B7",
