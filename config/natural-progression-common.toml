@@ -33,5 +33,5 @@
 	#Setting this to true will let players know that they can't break certain blocks without a certain tool
 	showToolHelp = false
 	#A string of dimensions in which pebbles should spawn. See the defaults for the format.
-	dimensionWhitelist = ["minecraft:overworld"]
+	dimensionWhitelist = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 
