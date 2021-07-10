@@ -1,0 +1,69 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "ik",
+  "controllerId": "ind_kln",
+  "name": "Industrial Kiln",
+  "layout": [
+    [
+      "!\"!!!\"!",
+      "#\"###\"#",
+      "!\"!!!\"!"
+    ],
+    [
+      "#\"#$#\"#",
+      "%&'(')*",
+      "#\"#C#\"#"
+    ],
+    [
+      "+,,,,,+",
+      "##\"#\"##",
+      "+,,,,,+"
+    ],
+    [
+      "       ",
+      "  - -  ",
+      "       "
+    ]
+  ],
+  "legend": {
+    "!": {
+      "block": "immersiveengineering:treated_scaffold"
+    },
+    "\"": {
+      "block": "engineersdecor:dark_shingle_roof_block"
+    },
+    "#": {
+      "block": "minecraft:bricks"
+    },
+    "$": {
+      "block": "masterfulmachinery:ind_kln_energy_port_energy_input"
+    },
+    "%": {
+      "block": "immersiveengineering:conveyor_basic"
+    },
+    "&": {
+      "block": "masterfulmachinery:ind_kln_item_port_items_input"
+    },
+    "'": {
+      "block": "minecraft:blast_furnace"
+    },
+    "(": {
+      "block": "charm:kiln"
+    },
+    ")": {
+      "block": "masterfulmachinery:ind_kln_item_port_items_output"
+    },
+    "*": {
+      "block": "immersiveengineering:conveyor_extract"
+    },
+    "+": {
+      "block": "minecraft:brick_stairs"
+    },
+    ",": {
+      "block": "engineersdecor:dark_shingle_roof"
+    },
+    "-": {
+      "block": "engineersdecor:dark_shingle_roof_chimney"
+    }
+  }
+}

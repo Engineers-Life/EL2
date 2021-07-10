@@ -1,0 +1,23 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "gg",
+    "controllerId": "gas_gen",
+    "ticks": 1,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "immersivepetroleum:gasoline",
+                "amount": 10
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "type": "masterfulmachinery:energy",
+            "data":{
+                "amount": 768                
+            }
+        }
+    ]
+}
