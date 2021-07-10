@@ -1,0 +1,23 @@
+{
+  "controllerId": "gas_gen",
+  "name": "Gas Generator",
+  "textureOverride": "immersiveengineering:block/metal/sheetmetal_iron",
+  "ports": [
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 1000000
+      }
+    }
+  ]
+}
