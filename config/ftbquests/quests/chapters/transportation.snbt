@@ -1,373 +1,374 @@
 {
-	id: "000000000000073F",
-	group: "",
-	order_index: 10,
-	filename: "transportation",
-	title: "Transportation",
-	icon: "minecraft:powered_rail",
-	default_quest_shape: "rsquare",
+	id: "000000000000073F"
+	group: ""
+	order_index: 10
+	filename: "transportation"
+	title: "Transportation"
+	icon: "minecraft:powered_rail"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -5.5d,
-			y: -1.0d,
-			description: ["This manual will explain the mechanics and machines of Transport."],
-			dependencies: ["000000000000075C"],
-			id: "0000000000000740",
+			x: -5.5d
+			y: -1.0d
+			description: ["This manual will explain the mechanics and machines of Transport."]
+			dependencies: ["000000000000075C"]
+			id: "0000000000000740"
 			tasks: [{
-				id: "51DE91430A9B53B0",
-				type: "item",
+				id: "51DE91430A9B53B0"
+				type: "item"
 				item: {
-					id: "patchouli:guide_book",
-					Count: 1b,
+					id: "patchouli:guide_book"
+					Count: 1b
 					tag: {
 						"patchouli:book": "transport:guide"
 					}
 				}
-			}],
+			}]
 			rewards: [
 				{
-					id: "00000000000014DD",
-					type: "item",
+					id: "00000000000014DD"
+					type: "item"
 					item: "pamhc2foodcore:cookiesandmilkitem"
-				},
+				}
 				{
-					id: "799EFA737064E28A",
-					type: "random",
+					id: "799EFA737064E28A"
+					type: "random"
 					table_id: 1980L
 				}
 			]
-		},
+		}
 		{
-			x: -3.5d,
-			y: -1.0d,
-			description: ["This bench will be extremely helpful when you want to expand your rail empire. It allows the switching of rails between types but most importantly allows you to make rail components from iron that quadruples rail production."],
-			dependencies: ["0000000000000740"],
-			id: "0000000000000742",
+			x: -3.5d
+			y: -1.0d
+			description: ["This bench will be extremely helpful when you want to expand your rail empire. It allows the switching of rails between types but most importantly allows you to make rail components from iron that quadruples rail production."]
+			dependencies: ["0000000000000740"]
+			id: "0000000000000742"
 			tasks: [{
-				id: "0000000000000743",
-				type: "item",
+				id: "0000000000000743"
+				type: "item"
 				item: "transport:rail_workers_bench"
-			}],
+			}]
 			rewards: [{
-				id: "530701C6A7702D0B",
-				type: "random",
+				id: "530701C6A7702D0B"
+				type: "random"
 				table_id: 1980L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -1.0d,
-			description: ["The Rail Breaker will allow you to change settings of rails and loaders as well as switch their sides much like the wrenches of other mods."],
-			dependencies: ["0000000000000742"],
-			id: "0000000000000744",
+			x: 1.5d
+			y: -1.0d
+			description: ["The Rail Breaker will allow you to change settings of rails and loaders as well as switch their sides much like the wrenches of other mods."]
+			dependencies: ["0000000000000742"]
+			id: "0000000000000744"
 			tasks: [{
-				id: "0000000000000745",
-				type: "item",
+				id: "0000000000000745"
+				type: "item"
 				item: "transport:rail_breaker"
-			}],
+			}]
 			rewards: [{
-				id: "64FDD90DB2A7A616",
-				type: "random",
+				id: "64FDD90DB2A7A616"
+				type: "random"
 				table_id: 1355L
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: -2.5d,
+			x: -2.0d
+			y: -2.5d
 			description: [
-				"The module configurator will allow you to add modules to modular minecarts and boats.",
+				"The module configurator will allow you to add modules to modular minecarts and boats."
 				"Placing a modular vehicle in the central slot in the gui will allow modules to be added to it. Available spaces will then be presented, showing installed modules or available spaces."
-			],
-			dependencies: ["0000000000000742"],
-			id: "0000000000000746",
+			]
+			dependencies: ["0000000000000742"]
+			id: "0000000000000746"
 			tasks: [{
-				id: "0000000000000747",
-				type: "item",
+				id: "0000000000000747"
+				type: "item"
 				item: "transport:module_configurator"
-			}],
+			}]
 			rewards: [{
-				id: "14943674F441F438",
-				type: "random",
+				id: "14943674F441F438"
+				type: "random"
 				table_id: 1982L
 			}]
-		},
+		}
 		{
-			x: -3.5d,
-			y: -4.0d,
+			x: -3.5d
+			y: -4.0d
 			description: [
-				"Modular minecarts will in essence be your train cars for use in the mod.",
-				"",
-				"Engine addons can be added as well to make the carts powered but they will require fuel.",
-				"",
+				"Modular minecarts will in essence be your train cars for use in the mod."
+				""
+				"Engine addons can be added as well to make the carts powered but they will require fuel."
+				""
 				"Can be connected to other minecarts by right clicking them with a Chain."
-			],
-			dependencies: ["0000000000000746"],
-			id: "0000000000000748",
+			]
+			dependencies: ["0000000000000746"]
+			id: "0000000000000748"
 			tasks: [{
-				id: "0000000000000749",
-				type: "item",
+				id: "0000000000000749"
+				type: "item"
 				item: "transport:cargo_minecart"
-			}],
+			}]
 			rewards: [{
-				id: "3B0AE7A4068EEACD",
-				type: "random",
+				id: "3B0AE7A4068EEACD"
+				type: "random"
 				table_id: 1982L
 			}]
-		},
+		}
 		{
-			title: "Loaders and Modules",
-			x: 0.0d,
-			y: -2.5d,
+			title: "Loaders and Modules"
+			x: 0.0d
+			y: -2.5d
 			description: [
-				"Loaders will both load and offload from modular carts that go across their faces. Faces must be configured to operate with the Rail Breaker.",
-				"Blue is input, Red is output.",
-				"",
-				"Each loader can be placed into a modular cart in a the module configurator to allow the cart to hold the loaders purpose.",
-				"Item Loader - Allows the cart to hold 5 stacks of items.",
-				"Fluid Loader - Allows the cart to hold 10 buckets of a fluid.",
-				"Energy Loader - Allows the cart to hold 10k RF.",
+				"Loaders will both load and offload from modular carts that go across their faces. Faces must be configured to operate with the Rail Breaker."
+				"Blue is input, Red is output."
+				""
+				"Each loader can be placed into a modular cart in a the module configurator to allow the cart to hold the loaders purpose."
+				"Item Loader - Allows the cart to hold 5 stacks of items."
+				"Fluid Loader - Allows the cart to hold 10 buckets of a fluid."
+				"Energy Loader - Allows the cart to hold 10k RF."
 				"Chest - Allows the cart to hold 27 stacks of items."
-			],
+			]
 			dependencies: [
-				"0000000000000744",
+				"0000000000000744"
 				"0000000000000746"
-			],
-			id: "000000000000074A",
+			]
+			id: "000000000000074A"
 			tasks: [
 				{
-					id: "000000000000074B",
-					type: "item",
+					id: "000000000000074B"
+					type: "item"
 					item: "transport:fluid_loader"
-				},
+				}
 				{
-					id: "000000000000074C",
-					type: "item",
+					id: "000000000000074C"
+					type: "item"
 					item: "transport:item_loader"
-				},
+				}
 				{
-					id: "000000000000114A",
-					type: "item",
+					id: "000000000000114A"
+					type: "item"
 					item: "transport:energy_loader"
 				}
-			],
+			]
 			rewards: [{
-				id: "11F111B9E58BF561",
-				type: "random",
+				id: "11F111B9E58BF561"
+				type: "random"
 				table_id: 1983L
 			}]
-		},
+		}
 		{
-			title: "Special Rails",
-			x: 3.0d,
-			y: 0.5d,
+			title: "Special Rails"
+			x: 3.0d
+			y: 0.5d
 			description: [
-				"These various switching rails will allow you to redirect your rail traffic.",
-				"",
-				"-Switch rail will let carts go straight normally but split them perpendicularly when activated by a point machine (check the manual for point machine examples).",
-				"-Diamond crossing rail allows tracks to cross perpendicularly with no effect.",
+				"These various switching rails will allow you to redirect your rail traffic."
+				""
+				"-Switch rail will let carts go straight normally but split them perpendicularly when activated by a point machine (check the manual for point machine examples)."
+				"-Diamond crossing rail allows tracks to cross perpendicularly with no effect."
 				"-Wye switch rails push carts left normally unless acted upon by a point machine, when they will redirect right."
-			],
-			dependencies: ["0000000000000744"],
-			id: "000000000000074D",
+			]
+			dependencies: ["0000000000000744"]
+			id: "000000000000074D"
 			tasks: [
 				{
-					id: "000000000000074E",
-					type: "item",
+					id: "000000000000074E"
+					type: "item"
 					item: "transport:switch_rail"
-				},
+				}
 				{
-					id: "0000000000000753",
-					type: "item",
+					id: "0000000000000753"
+					type: "item"
 					item: "transport:diamond_crossing_rail"
-				},
+				}
 				{
-					id: "0000000000001149",
-					type: "item",
+					id: "0000000000001149"
+					type: "item"
 					item: "transport:wye_switch_rail"
 				}
-			],
+			]
 			rewards: [{
-				id: "65C88062A43A7002",
-				type: "random",
+				id: "65C88062A43A7002"
+				type: "random"
 				table_id: 1980L
 			}]
-		},
+		}
 		{
-			title: "Elevated Rails",
-			x: -5.0d,
-			y: 0.5d,
-			description: ["Scaffold rails place scaffold underneath to support the rail. The elevator rail will bring the rail up a level."],
-			dependencies: ["0000000000000742"],
-			id: "0000000000000750",
+			title: "Elevated Rails"
+			x: -5.0d
+			y: 0.5d
+			description: ["Scaffold rails place scaffold underneath to support the rail. The elevator rail will bring the rail up a level."]
+			dependencies: ["0000000000000742"]
+			id: "0000000000000750"
 			tasks: [
 				{
-					id: "0000000000000751",
-					type: "item",
+					id: "0000000000000751"
+					type: "item"
 					item: "transport:elevator_switch_rail"
-				},
+				}
 				{
-					id: "0000000000000752",
-					type: "item",
+					id: "0000000000000752"
+					type: "item"
 					item: "transport:scaffolding_rail"
 				}
-			],
+			]
 			rewards: [{
-				id: "50C057DE9DD2CB5C",
-				type: "random",
+				id: "50C057DE9DD2CB5C"
+				type: "random"
 				table_id: 1980L
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 0.5d,
-			description: ["This rail will hold a cart when unpowered but act like a booster rail when powered."],
-			dependencies: ["0000000000000742"],
-			id: "0000000000000754",
+			x: -2.0d
+			y: 0.5d
+			description: ["This rail will hold a cart when unpowered but act like a booster rail when powered."]
+			dependencies: ["0000000000000742"]
+			id: "0000000000000754"
 			tasks: [{
-				id: "0000000000000755",
-				type: "item",
+				id: "0000000000000755"
+				type: "item"
 				item: "transport:holding_rail"
-			}],
+			}]
 			rewards: [{
-				id: "107A38BDFC13B682",
-				type: "random",
+				id: "107A38BDFC13B682"
+				type: "random"
 				table_id: 1980L
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -2.5d,
-			description: ["Bumper rails will prevent carts from running off the ends of tracks."],
-			dependencies: ["0000000000000744"],
-			id: "0000000000000756",
+			x: 3.0d
+			y: -2.5d
+			description: ["Bumper rails will prevent carts from running off the ends of tracks."]
+			dependencies: ["0000000000000744"]
+			id: "0000000000000756"
 			tasks: [{
-				id: "0000000000000757",
-				type: "item",
+				id: "0000000000000757"
+				type: "item"
 				item: "transport:bumper_rail"
-			}],
+			}]
 			rewards: [{
-				id: "66A2FB9A0D41B1C0",
-				type: "random",
+				id: "66A2FB9A0D41B1C0"
+				type: "random"
 				table_id: 1980L
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 0.5d,
-			description: ["This track will hold carts for varying amounts of time before propelling the cart. For more information check the Advanced Transport manual."],
-			dependencies: ["0000000000000744"],
-			id: "0000000000000758",
+			x: 0.0d
+			y: 0.5d
+			description: ["This track will hold carts for varying amounts of time before propelling the cart. For more information check the Advanced Transport manual."]
+			dependencies: ["0000000000000744"]
+			id: "0000000000000758"
 			tasks: [{
-				id: "0000000000000759",
-				type: "item",
+				id: "0000000000000759"
+				type: "item"
 				item: "transport:timed_holding_rail"
-			}],
+			}]
 			rewards: [{
-				id: "6A006971457C1688",
-				type: "random",
+				id: "6A006971457C1688"
+				type: "random"
 				table_id: 1980L
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: -1.0d,
-			description: ["The Steam locamotive is a fuel powered train that is speed controllable. It needs both solid fuel and water to operate."],
-			dependencies: ["0000000000000744"],
-			id: "000000000000075A",
+			x: 4.0d
+			y: -1.0d
+			description: ["The Steam locamotive is a fuel powered train that is speed controllable. It needs both solid fuel and water to operate."]
+			dependencies: ["0000000000000744"]
+			id: "000000000000075A"
 			tasks: [{
-				id: "000000000000075B",
-				type: "item",
+				id: "000000000000075B"
+				type: "item"
 				item: "transport:steam_locomotive"
-			}],
+			}]
 			rewards: [{
-				id: "48E3D96B52C95B99",
-				type: "random",
+				id: "48E3D96B52C95B99"
+				type: "random"
 				table_id: 1983L
 			}]
-		},
+		}
 		{
-			disable_toast: true,
-			x: -5.496428571428574d,
-			y: -3.3071428571428925d,
-			shape: "gear",
-			description: ["(Connection from Becoming an Engineer chapter)"],
-			size: 1.5d,
-			id: "000000000000075C",
+			disable_toast: true
+			x: -5.496428571428574d
+			y: -3.3071428571428925d
+			shape: "gear"
+			description: ["(Connection from Becoming an Engineer chapter)"]
+			size: 1.5d
+			id: "000000000000075C"
 			tasks: [{
-				id: "000000000000075D",
-				type: "item",
+				id: "000000000000075D"
+				type: "item"
 				item: "minecraft:rail"
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: -5.0d,
-			dependencies: ["000000000000075C"],
-			id: "000000000000075E",
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["000000000000075C"]
+			id: "000000000000075E"
 			tasks: [{
-				id: "000000000000075F",
-				type: "stat",
-				icon: "minecraft:minecart",
-				stat: "minecraft:minecart_one_cm",
+				id: "000000000000075F"
+				type: "stat"
+				icon: "minecraft:minecart"
+				stat: "minecraft:minecart_one_cm"
 				value: 1000000
-			}],
+			}]
 			rewards: [{
-				id: "4A6FE638368FA39D",
-				type: "random",
+				id: "4A6FE638368FA39D"
+				type: "random"
 				table_id: 1982L
 			}]
-		},
+		}
 		{
-			x: -6.0d,
-			y: -7.0d,
-			dependencies: ["000000000000075E"],
-			id: "0000000000000760",
+			x: -6.0d
+			y: -7.0d
+			dependencies: ["000000000000075E"]
+			id: "0000000000000760"
 			tasks: [{
-				id: "0000000000000761",
-				type: "stat",
-				icon: "minecraft:chest_minecart",
-				stat: "minecraft:minecart_one_cm",
+				id: "0000000000000761"
+				type: "stat"
+				icon: "minecraft:chest_minecart"
+				stat: "minecraft:minecart_one_cm"
 				value: 2000000
-			}],
+			}]
 			rewards: [{
-				id: "49B38229EC623DD3",
-				type: "random",
+				id: "49B38229EC623DD3"
+				type: "random"
 				table_id: 1982L
 			}]
-		},
+		}
 		{
-			x: -7.5d,
-			y: -8.0d,
-			dependencies: ["0000000000000760"],
-			id: "0000000000000762",
+			x: -7.5d
+			y: -8.0d
+			dependencies: ["0000000000000760"]
+			id: "0000000000000762"
 			tasks: [{
-				id: "0000000000000763",
-				type: "stat",
-				icon: "minecraft:furnace_minecart",
-				stat: "minecraft:minecart_one_cm",
+				id: "0000000000000763"
+				type: "stat"
+				icon: "minecraft:furnace_minecart"
+				stat: "minecraft:minecart_one_cm"
 				value: 3000000
-			}],
+			}]
 			rewards: [{
-				id: "228DC41204EFD8BC",
-				type: "random",
+				id: "228DC41204EFD8BC"
+				type: "random"
 				table_id: 1983L
 			}]
-		},
+		}
 		{
-			icon: "minecraft:tnt_minecart",
-			x: -9.0d,
-			y: -7.0d,
-			dependencies: ["0000000000000762"],
-			id: "000000000000114E",
+			icon: "minecraft:tnt_minecart"
+			x: -9.0d
+			y: -7.0d
+			dependencies: ["0000000000000762"]
+			id: "000000000000114E"
 			tasks: [{
-				id: "000000000000114F",
-				type: "stat",
-				stat: "minecraft:minecart_one_cm",
+				id: "000000000000114F"
+				type: "stat"
+				stat: "minecraft:minecart_one_cm"
 				value: 5000000
-			}],
+			}]
 			rewards: [{
-				id: "00000000000012DF",
-				type: "random",
+				id: "00000000000012DF"
+				type: "random"
 				table_id: 1983L
 			}]
 		}
