@@ -1,0 +1,55 @@
+{
+    "name": "Gas Generator",
+    "icon": "immersiveengineering:generator",
+    "category": "patchouli:basic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This is a test entry, but it should show up!"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "      ",
+                        " 3    ",
+                        "      "
+                    ],
+                    [
+                        "2--22 ",
+                        "-+--- ",
+                        "2--22 "
+                    ],
+                    [
+                        "*+,+--",
+                        ".///41",
+                        "*/C/--"
+                    ],
+                    [
+                      "))))))",
+                      "))0)))",
+                      "))))))"
+                    ]
+                  ],
+                  "mapping": {
+                    "4": "immersiveengineering:capacitor_mv",
+                    "1": "masterfulmachinery:gas_gen_energy_port_energy_output",
+                    "2": "immersiveengineering:slab_sheetmetal_iron",
+                    "3": "engineersdecor:dark_shingle_roof_chimney",
+                    ")": "spareparts:reinforcement/foundation_half",
+                    "0": "spareparts:reinforcement/foundation_half",
+                    "C": "masterfulmachinery:gas_gen_controller",
+                    "*": "immersiveengineering:metal_barrel",
+                    "+": "immersiveengineering:radiator",
+                    ",": "immersiveengineering:heavy_engineering",
+                    "-": "immersiveengineering:sheetmetal_iron",
+                    ".": "masterfulmachinery:gas_gen_fluid_port_fluids_input",
+                    "/": "immersiveengineering:generator"
+
+                  }
+            }
+        }
+    ]
+}
+

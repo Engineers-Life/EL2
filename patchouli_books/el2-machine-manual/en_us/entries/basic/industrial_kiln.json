@@ -1,0 +1,59 @@
+{
+    "name": "Industrial Kiln",
+    "icon": "minecraft:brick",
+    "category": "patchouli:basic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This is a test entry, but it should show up!"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "       ",
+                        "  6 6  ",
+                        "       "
+                    ],
+                    [
+                        "4555554",
+                        "**+*+**",
+                        "8777778"
+                    ],
+                    [
+                        "*+,-,+*",
+                        "32191/.",
+                        "*+,C,+*"
+                    ],
+                    [
+                      ")))))))",
+                      ")))0)))",
+                      ")))))))"
+                    ]
+                  ],
+                  "mapping": {
+                    ")": "spareparts:reinforcement/foundation_quarter",
+                    "0": "spareparts:reinforcement/foundation_quarter",
+                    "*": "minecraft:bricks",
+                    "+": "engineersdecor:dark_shingle_roof_block",
+                    ",": "minecraft:brick_wall[north=tall,south=tall]",
+                    "-": "masterfulmachinery:ind_kln_energy_port_energy_input",
+                    ".": "immersiveengineering:conveyor_basic",
+                    "/": "masterfulmachinery:ind_kln_item_port_items_input",
+                    "1": "minecraft:blast_furnace",
+                    "9": "charm:kiln",
+                    "2": "masterfulmachinery:ind_kln_item_port_items_output",
+                    "3": "immersiveengineering:conveyor_extract",
+                    "4": "minecraft:brick_stairs[facing=east]",
+                    "8": "minecraft:brick_stairs[facing=west]",
+                    "5": "engineersdecor:dark_shingle_roof[half=bottom,facing=east]",
+                    "7": "engineersdecor:dark_shingle_roof[half=bottom,facing=west]",
+                    "6": "engineersdecor:dark_shingle_roof_chimney",
+                    "C": "masterfulmachinery:ind_kln_controller"
+                  }
+            }
+        }
+    ]
+}
+

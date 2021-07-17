@@ -1,0 +1,8 @@
+{
+	"name": "Machinery Manual",
+	"landing_text": "Engineer's Life 2 is now bringing you customized machinery for more immersive processing.",
+	"version": 1,
+    "book_texture": "patchouli:textures/gui/book_red.png",
+    "model": "patchouli:book_red",
+    "show_progress": false
+}
