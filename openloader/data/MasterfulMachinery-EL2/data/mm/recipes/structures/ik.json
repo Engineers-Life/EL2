@@ -5,64 +5,67 @@
   "name": "Industrial Kiln",
   "layout": [
     [
-      "!\"!!!\"!",
-      "#\"###\"#",
-      "!\"!!!\"!"
+      ")))))))",
+      ")))))))",
+      ")))))))"
     ],
     [
-      "#\"#$#\"#",
-      "%&'(')*",
-      "#\"#C#\"#"
+      "*+,-,+*",
+      "./01023",
+      "*+,C,+*"
     ],
     [
-      "+,,,,,+",
-      "##\"#\"##",
-      "+,,,,,+"
+      "4555554",
+      "**+*+**",
+      "4555554"
     ],
     [
       "       ",
-      "  - -  ",
+      "  6 6  ",
       "       "
     ]
   ],
   "legend": {
-    "!": {
-      "block": "immersiveengineering:treated_scaffold"
-    },
-    "\"": {
-      "block": "engineersdecor:dark_shingle_roof_block"
-    },
-    "#": {
-      "block": "minecraft:bricks"
-    },
-    "$": {
-      "block": "masterfulmachinery:ind_kln_energy_port_energy_input"
-    },
-    "%": {
-      "block": "immersiveengineering:conveyor_basic"
-    },
-    "&": {
-      "block": "masterfulmachinery:ind_kln_item_port_items_input"
-    },
-    "'": {
-      "block": "minecraft:blast_furnace"
-    },
-    "(": {
-      "block": "charm:kiln"
-    },
     ")": {
-      "block": "masterfulmachinery:ind_kln_item_port_items_output"
+      "block": "spareparts:reinforcement/foundation_quarter"
     },
     "*": {
-      "block": "immersiveengineering:conveyor_extract"
+      "block": "minecraft:bricks"
     },
     "+": {
-      "block": "minecraft:brick_stairs"
+      "block": "engineersdecor:dark_shingle_roof_block"
     },
     ",": {
-      "block": "engineersdecor:dark_shingle_roof"
+      "block": "minecraft:brick_wall"
     },
     "-": {
+      "block": "masterfulmachinery:ind_kln_energy_port_energy_input"
+    },
+    ".": {
+      "block": "immersiveengineering:conveyor_basic"
+    },
+    "/": {
+      "block": "masterfulmachinery:ind_kln_item_port_items_input"
+    },
+    "0": {
+      "block": "minecraft:blast_furnace"
+    },
+    "1": {
+      "block": "charm:kiln"
+    },
+    "2": {
+      "block": "masterfulmachinery:ind_kln_item_port_items_output"
+    },
+    "3": {
+      "block": "immersiveengineering:conveyor_extract"
+    },
+    "4": {
+      "block": "minecraft:brick_stairs"
+    },
+    "5": {
+      "block": "engineersdecor:dark_shingle_roof"
+    },
+    "6": {
       "block": "engineersdecor:dark_shingle_roof_chimney"
     }
   }
