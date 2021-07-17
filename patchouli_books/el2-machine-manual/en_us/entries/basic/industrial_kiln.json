@@ -53,6 +53,14 @@
                     "C": "masterfulmachinery:ind_kln_controller"
                   }
             }
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This multiblock will require the following pieces:$(li)21 Quarter Reinforced Foundation$(li)10 Dark Shingle Roof$(li)09 Bricks$(li)06 Dark Shingle Roof Block$(li)04 Brick Wall$(li)04 Brick Stairs$(li)02 Blast Furnace$(li)02 Dark Shingle Roof Chimney"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)01 Kiln$(li)01 Conveyor Belt$(li)01 Extracting Conveyor Belt$(li)Industrial Kiln$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
         }
     ]
 }
