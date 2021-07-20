@@ -1,7 +1,7 @@
 
 [Miscellaneous]
 	#Should the Welcome message come up?
-	showWelcome = true
+	showWelcome = false
 	#Should your personal Donator Welcome message come up?
 	showPatreonWelcome = true
 	#Should Xp Boosts be scaled by the item Durability? (Max boost at Max durability, 50% at half Durability)
