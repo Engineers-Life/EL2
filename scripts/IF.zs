@@ -48,6 +48,8 @@ craftingTable.addShaped("mob_imprisonment_tool",<item:industrialforegoing:mob_im
         <item:industrialforegoing:infinity_drill>,
         <item:industrialforegoing:infinity_trident>,
         <item:industrialforegoing:infinity_charger>,
+        <item:industrialforegoing:infinity_nuke>,
+        <item:industrialforegoing:infinity_launcher>,
         <item:industrialforegoing:meat_feeder>,
         <item:industrialforegoing:pity_black_hole_tank>,
         <item:industrialforegoing:simple_black_hole_tank>,
@@ -93,6 +95,7 @@ craftingTable.addShaped("mob_imprisonment_tool",<item:industrialforegoing:mob_im
         <item:industrialforegoing:fermentation_station>,
         <item:industrialforegoing:item_transporter_type>,
         <item:industrialforegoing:fluid_transporter_type>,
+        <item:industrialforegoing:world_transporter_type>,
         <item:industrialforegoing:fluid_sieving_machine>
     ] {
      removeFromListAndHide([craftingTable,<recipetype:industrialforegoing:dissolution_chamber>],item);
