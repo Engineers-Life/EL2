@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This is a test entry, but it should show up!"
+            "text": "This Gas Generator will allow you to burn all that pesky gasoline and get power power in return. The Portable Generator can do this but this generator is larger and more efficent because of that. It can be used to supplement your power systems by consuming 10 mb/t of Gasoline to produce 768 RF/t."
         },
         {
             "type": "patchouli:multiblock",
@@ -53,7 +53,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "This multiblock will require the following pieces:$(li)18 Half Reinforced Foundation$(li)12 Iron Sheetmetal$(li)06 Iron Sheetmetal Slabs$(li)05 Generator Block$(li)03 Radiator Block$(li)02 Metal Barrel$(li)01 Heavy Engineering Block$(li)01 MV Capacitor$(li)01 Dark Shingle Roof Chimney$(li)Gas Generator $(li2)01 Controller$(li2)01 Fluid Input Port$(li2)01 Energy Output Port"
+            "text": "This multiblock will require the following pieces:$(li)18 Half Reinforced             Foundation$(li)12 Iron Sheetmetal$(li)06 Iron Sheetmetal Slabs$(li)05 Generator Block$(li)03 Radiator Block$(li)02 Metal Barrel$(li)01 Heavy Engineering Block$(li)01 MV Capacitor$(li)01 Dark Shingle Roof           Chimney$(li)Gas Generator $(li2)01 Controller$(li2)01 Fluid Input Port$(li2)01 Energy Output Port"
                     
         }
     ]

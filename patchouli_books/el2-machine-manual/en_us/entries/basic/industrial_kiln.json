@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This is a test entry, but it should show up!"
+            "text": "The Industrial Kiln is a large passthrough oven that will increase your production of bricks significantly. A brick can be produced from a Unfired Clay Brick every 2 seconds at the expense of 100 RF/t (4000 RF total)."
         },
         {
             "type": "patchouli:multiblock",
@@ -56,7 +56,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "This multiblock will require the following pieces:$(li)21 Quarter Reinforced Foundation$(li)10 Dark Shingle Roof$(li)09 Bricks$(li)06 Dark Shingle Roof Block$(li)04 Brick Wall$(li)04 Brick Stairs$(li)02 Blast Furnace$(li)02 Dark Shingle Roof Chimney"
+            "text": "This multiblock will require the following pieces:$(li)21 Quarter Reinforced          Foundation$(li)10 Dark Shingle Roof$(li)09 Bricks$(li)06 Dark Shingle Roof Block$(li)04 Brick Wall$(li)04 Brick Stairs$(li)02 Blast Furnace$(li)02 Dark Shingle Roof           Chimney"
         },
         {
             "type": "patchouli:text",
