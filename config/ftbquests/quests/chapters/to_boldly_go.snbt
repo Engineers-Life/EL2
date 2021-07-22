@@ -1237,7 +1237,7 @@
 		{
 			x: 17.5d,
 			y: -3.5d,
-			description: ["This Teleporter will transport you to the Mining Dimension, a world of caves where you can mine resources out of the Overworld."],
+			description: ["This Teleporter will transport you to the Mining Dimension, a world of caves where you can mine resources out of the Overworld.","","Note: The crafting recipe, as described by the item tooltip, requires 8 different individual pieces of ore to craft"],
 			dependencies: ["00000000000014FE"],
 			id: "00000000000015C2",
 			tasks: [{
