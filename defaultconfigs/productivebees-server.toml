@@ -8,7 +8,7 @@
 	centrifugePowerUse = 20
 	#How many ticks it takes for process a recipe in the powered centrifuge. Default 100.
 	#Range: > 20
-	centrifugePoweredProcessingTime = 200
+	centrifugePoweredProcessingTime = 400
 	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from.
 	preferredTagSource = ["productivebees", "immersiveengineering", "thermal", "create", "mekanism", "silents_mechanisms"]
 	#How many bees can fit in a bee bomb. Default is 10
