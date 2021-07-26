@@ -258,4 +258,6 @@ craftingTable.removeByName("vanillafoodpantry:waterdrinks/bucket_potable_water_s
 moveTagsFromTo(<item:minecraft:rotten_flesh>,<item:betterdefaultbiomes:frozen_flesh>);
 changeIngredientsToTag([<item:minecraft:rotten_flesh>],<tag:items:forge:rotten_flesh>);
 
+<tag:blocks:forge:relocation_not_supported>.add(<block:cookingforblockheads:cutting_board>);
+
 println("END misc.zs");
