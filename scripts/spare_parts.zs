@@ -26,7 +26,6 @@ if (!foundKiln) {
 
 craftingTable.addJSONRecipe("experience_journal", {
   "type": "immersiveengineering:turn_and_copy",
-  "group": "ie_concrete",
   "pattern": [ " x ", "ewe", " x " ],
   "key": {
     "x": { "item": "minecraft:experience_bottle" },
