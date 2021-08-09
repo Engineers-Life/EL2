@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This Gas Generator will allow you to burn all that pesky gasoline and get power power in return. The Portable Generator can do this but this generator is larger and more efficent because of that. It can be used to supplement your power systems by consuming 10 mb/t of Gasoline to produce 768 RF/t."
+            "text": "This Gas Generator will allow you to burn all that pesky gasoline and get power in return. The Portable Generator can do this but this generator is larger and more efficent due to its complexity. It can be used to supplement your power systems by consuming 10 mb/t of Gasoline to produce 768 RF/t."
         },
         {
             "type": "patchouli:multiblock",
