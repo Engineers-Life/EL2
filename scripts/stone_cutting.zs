@@ -277,7 +277,11 @@ for iteration in [1,2] {
                             }
                         }
                     }
-                    cost+=costOfCell;
+                    if (costOfCell>0) { // some recipes have items that only list air (<resource:crafttweaker:simplefarming.red_dye> as well as two vfp portion recipes)
+                        cost+=costOfCell;
+                    } else {
+                        thisCouldBeARecipe = false; // can't parse an ingredient, don't add the recipe.
+                    }
                 }
             }
             if thisCouldBeARecipe { // went through whole recipe without invalidating it, so this may be a new recipe
