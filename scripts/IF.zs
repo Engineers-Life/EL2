@@ -25,7 +25,8 @@ replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industri
         // , outputFluid: "{FluidName:\"minecraft:empty\",Amount:0}"
         } );
 
-replaceJsonByName(<recipetype:industrialforegoing:dissolution_chamber>,"industrialforegoing:dissolution_chamber/xp_bottles", {
+<recipetype:industrialforegoing:dissolution_chamber>.removeRecipe(<item:minecraft:experience_bottle>); // which may or may not exist
+<recipetype:industrialforegoing:dissolution_chamber>.addJSONRecipe("industrialforegoing.dissolution_chamber/xp_bottles", {
     input: [ { tag: "forge:empty_bottles" } ],
     inputFluid: "{FluidName:\"industrialforegoing:essence\",Amount:250}",
     processingTime: 300,
