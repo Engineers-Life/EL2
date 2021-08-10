@@ -194,6 +194,7 @@ while foundNewWood {
                         // println("WOODCUTTER: Found mixed treated wood and a specific type of wood.  Rejecting recipe for "+output);
                         outputCostTally = 256*outputAmt; // priced out of range
                     }
+                    if (outputCostTally == 0) { outputCostTally = 256; } // vanillafoodpantry:flour_pantry_block, probably a custom recipe, has a cost of zero.
                     costOfWood.put(output,outputCostTally/outputAmt);
                     typeOfWood.put(output,outputType);
                 }
