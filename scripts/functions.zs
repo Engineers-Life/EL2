@@ -168,38 +168,120 @@ function changeIngredient(fromIIng as IIngredient, toIIng as IIngredient) as voi
     // Smelting	        <recipetype:minecraft:smelting>	    furnace
     // Smoking	        <recipetype:minecraft:smoking>	    smoker
     val defaultValues = {
-        <recipetype:minecraft:blasting>         : { xp : 0.2 as float, cookTime :  5*20 as int },
-        <recipetype:minecraft:campfire_cooking> : { xp : 0.1 as float, cookTime : 10*20 as int },
-        <recipetype:minecraft:smelting>         : { xp : 0.1 as float, cookTime : 10*20 as int },
-        <recipetype:minecraft:smoking>          : { xp : 0.2 as float, cookTime :  5*20 as int } };
-    for manager in [<recipetype:minecraft:blasting>, <recipetype:minecraft:campfire_cooking>, <recipetype:minecraft:smelting>, <recipetype:minecraft:smoking>] {
-        recipesToRemove = new List<string>();
-        for wrapper in manager.getAllRecipes() {
-            transform = false;
-            for cell in wrapper.ingredients {
-                transform = transform || (cell.commandString == fromIIng.commandString);
-            }
-            if (transform) {
-                var ingList = new List<IIngredient>();
-                for cell in wrapper.ingredients { // cell is IIngredient
-                    if (cell.commandString == fromIIng.commandString) {
-                        ingList.add(toIIng);
-                    } else {
-                        ingList.add(cell);
-                    }
-                }
-                var count = 0 as int;
-                for ing in ingList {
-                    manager.addRecipe(wrapper.id.path+suffix+"."+count,wrapper.output,ing,defaultValues[manager]["xp"] as float,defaultValues[manager]["cookTime"] as int);
-                    count = count + 1;
-                }
-                recipesToRemove.add(wrapper.id.toString());
-            }
+        <recipetype:minecraft:blasting>.toString()         : { xp : 0.2 as float, cookTime :  5*20 as int },
+        <recipetype:minecraft:campfire_cooking>.toString() : { xp : 0.1 as float, cookTime : 10*20 as int },
+        <recipetype:minecraft:smelting>.toString()         : { xp : 0.1 as float, cookTime : 10*20 as int },
+        <recipetype:minecraft:smoking>.toString()          : { xp : 0.2 as float, cookTime :  5*20 as int } };
+    var ingList = new List<IIngredient>();
+    var count as int;
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:blasting>.getAllRecipes() {
+        transform = false;
+        for cell in wrapper.ingredients {
+            transform = transform || (cell.commandString == fromIIng.commandString);
         }
-        for recipeName in recipesToRemove {
-            manager.removeByName(recipeName);
+        if (transform) {
+            ingList = new List<IIngredient>();
+            for cell in wrapper.ingredients { // cell is IIngredient
+                if (cell.commandString == fromIIng.commandString) {
+                    ingList.add(toIIng);
+                } else {
+                    ingList.add(cell);
+                }
+            }
+            count = 0 as int;
+            for ing in ingList {
+                <recipetype:minecraft:blasting>.addRecipe(wrapper.id.path+suffix+"."+count,wrapper.output,ing,defaultValues[<recipetype:minecraft:blasting>.toString()]["xp"] as float,defaultValues[<recipetype:minecraft:blasting>.toString()]["cookTime"] as int);
+                count = count + 1;
+            }
+            recipesToRemove.add(wrapper.id.toString());
         }
     }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:blasting>.removeByName(recipeName);
+    }
+
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:campfire_cooking>.getAllRecipes() {
+        transform = false;
+        for cell in wrapper.ingredients {
+            transform = transform || (cell.commandString == fromIIng.commandString);
+        }
+        if (transform) {
+            ingList = new List<IIngredient>();
+            for cell in wrapper.ingredients { // cell is IIngredient
+                if (cell.commandString == fromIIng.commandString) {
+                    ingList.add(toIIng);
+                } else {
+                    ingList.add(cell);
+                }
+            }
+            count = 0 as int;
+            for ing in ingList {
+                <recipetype:minecraft:campfire_cooking>.addRecipe(wrapper.id.path+suffix+"."+count,wrapper.output,ing,defaultValues[<recipetype:minecraft:campfire_cooking>.toString()]["xp"] as float,defaultValues[<recipetype:minecraft:campfire_cooking>.toString()]["cookTime"] as int);
+                count = count + 1;
+            }
+            recipesToRemove.add(wrapper.id.toString());
+        }
+    }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:campfire_cooking>.removeByName(recipeName);
+    }
+
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:smelting>.getAllRecipes() {
+        transform = false;
+        for cell in wrapper.ingredients {
+            transform = transform || (cell.commandString == fromIIng.commandString);
+        }
+        if (transform) {
+            ingList = new List<IIngredient>();
+            for cell in wrapper.ingredients { // cell is IIngredient
+                if (cell.commandString == fromIIng.commandString) {
+                    ingList.add(toIIng);
+                } else {
+                    ingList.add(cell);
+                }
+            }
+            count = 0 as int;
+            for ing in ingList {
+                <recipetype:minecraft:smelting>.addRecipe(wrapper.id.path+suffix+"."+count,wrapper.output,ing,defaultValues[<recipetype:minecraft:smelting>.toString()]["xp"] as float,defaultValues[<recipetype:minecraft:smelting>.toString()]["cookTime"] as int);
+                count = count + 1;
+            }
+            recipesToRemove.add(wrapper.id.toString());
+        }
+    }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:smelting>.removeByName(recipeName);
+    }
+
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:smoking>.getAllRecipes() {
+        transform = false;
+        for cell in wrapper.ingredients {
+            transform = transform || (cell.commandString == fromIIng.commandString);
+        }
+        if (transform) {
+            ingList = new List<IIngredient>();
+            for cell in wrapper.ingredients { // cell is IIngredient
+                if (cell.commandString == fromIIng.commandString) {
+                    ingList.add(toIIng);
+                } else {
+                    ingList.add(cell);
+                }
+            }
+            count = 0 as int;
+            for ing in ingList {
+                <recipetype:minecraft:smoking>.addRecipe(wrapper.id.path+suffix+"."+count,wrapper.output,ing,defaultValues[<recipetype:minecraft:smoking>.toString()]["xp"] as float,defaultValues[<recipetype:minecraft:smoking>.toString()]["cookTime"] as int);
+                count = count + 1;
+            }
+            recipesToRemove.add(wrapper.id.toString());
+        }
+    }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:smoking>.removeByName(recipeName);
+    }
+
     changeIngredientCookingJSON(<recipetype:charm:firing>,fromIIng,toIIng,2.0,2.0);
 }
 
@@ -247,33 +329,64 @@ function changeOutput(fromItem as IItemStack, toItem as IItemStack) as void {
     // Smelting	        <recipetype:minecraft:smelting>	    furnace
     // Smoking	        <recipetype:minecraft:smoking>	    smoker
     val defaultValues = {
-        <recipetype:minecraft:blasting>         : { xp : 0.2 as float, cookTime :  5*20 as int },
-        <recipetype:minecraft:campfire_cooking> : { xp : 0.1 as float, cookTime : 10*20 as int },
-        <recipetype:minecraft:smelting>         : { xp : 0.1 as float, cookTime : 10*20 as int },
-        <recipetype:minecraft:smoking>          : { xp : 0.2 as float, cookTime :  5*20 as int } };
-    for manager in [<recipetype:minecraft:blasting>, <recipetype:minecraft:campfire_cooking>, <recipetype:minecraft:smelting>, <recipetype:minecraft:smoking>] {
-        recipesToRemove = new List<string>();
-        for wrapper in manager.getRecipesByOutput(fromItem) {
-/*
-            var ingList = new List<IIngredient>();
-            for cell in wrapper.ingredients { // cell is IIngredient
-                ingList.add(cell);
-            }
-            for count, ing in ingList {
-                manager.addRecipe(wrapper.id.path+suffix+"."+count,toItem*wrapper.output.amount,ing,defaultValues[manager]["xp"] as float,defaultValues[manager]["cookTime"] as int);
-            }
-*/
-            var ing = wrapper.ingredients[0] as IIngredient;
-            for cell in wrapper.ingredients {
-                ing = ing | cell;
-            }
-            manager.addRecipe(wrapper.id.path+suffix,toItem*wrapper.output.amount,ing,defaultValues[manager]["xp"] as float,defaultValues[manager]["cookTime"] as int);
-            recipesToRemove.add(wrapper.id.toString());
+        "blasting"         : { xp : 0.2 as float, cookTime :  5*20 as int },
+        "campfire_cooking" : { xp : 0.1 as float, cookTime : 10*20 as int },
+        "smelting"         : { xp : 0.1 as float, cookTime : 10*20 as int },
+        "smoking"          : { xp : 0.2 as float, cookTime :  5*20 as int } };
+    var ing as IIngredient;
+
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:blasting>.getRecipesByOutput(fromItem) {
+        ing = wrapper.ingredients[0] as IIngredient;
+        for cell in wrapper.ingredients {
+            ing = ing | cell;
         }
-        for recipeName in recipesToRemove {
-            manager.removeByName(recipeName);
-        }
+        <recipetype:minecraft:blasting>.addRecipe(wrapper.id.path+suffix,toItem*wrapper.output.amount,ing,defaultValues["blasting"]["xp"] as float,defaultValues["blasting"]["cookTime"] as int);
+        recipesToRemove.add(wrapper.id.toString());
     }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:blasting>.removeByName(recipeName);
+    }
+
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:campfire_cooking>.getRecipesByOutput(fromItem) {
+        ing = wrapper.ingredients[0] as IIngredient;
+        for cell in wrapper.ingredients {
+            ing = ing | cell;
+        }
+        <recipetype:minecraft:campfire_cooking>.addRecipe(wrapper.id.path+suffix,toItem*wrapper.output.amount,ing,defaultValues["campfire_cooking"]["xp"] as float,defaultValues["campfire_cooking"]["cookTime"] as int);
+        recipesToRemove.add(wrapper.id.toString());
+    }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:campfire_cooking>.removeByName(recipeName);
+    }
+
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:smelting>.getRecipesByOutput(fromItem) {
+        ing = wrapper.ingredients[0] as IIngredient;
+        for cell in wrapper.ingredients {
+            ing = ing | cell;
+        }
+        <recipetype:minecraft:smelting>.addRecipe(wrapper.id.path+suffix,toItem*wrapper.output.amount,ing,defaultValues["smelting"]["xp"] as float,defaultValues["smelting"]["cookTime"] as int);
+        recipesToRemove.add(wrapper.id.toString());
+    }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:smelting>.removeByName(recipeName);
+    }
+
+    recipesToRemove = new List<string>();
+    for wrapper in <recipetype:minecraft:smoking>.getRecipesByOutput(fromItem) {
+        ing = wrapper.ingredients[0] as IIngredient;
+        for cell in wrapper.ingredients {
+            ing = ing | cell;
+        }
+        <recipetype:minecraft:smoking>.addRecipe(wrapper.id.path+suffix,toItem*wrapper.output.amount,ing,defaultValues["smoking"]["xp"] as float,defaultValues["smoking"]["cookTime"] as int);
+        recipesToRemove.add(wrapper.id.toString());
+    }
+    for recipeName in recipesToRemove {
+        <recipetype:minecraft:smoking>.removeByName(recipeName);
+    }
+
     changeOutputCookingJSON(<recipetype:charm:firing>,fromItem,toItem,2.0,2.0);
 }
 
