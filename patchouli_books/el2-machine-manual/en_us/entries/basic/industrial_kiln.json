@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "The Industrial Kiln is a large passthrough oven that will increase your production of bricks significantly. A brick can be produced from a Unfired Clay Brick every 2 seconds at the expense of 100 RF/t (4000 RF total). It can also produce glass from sand, terracotta from clay, and charcoal from logs at the same production rate and power."
+            "text": "The Industrial Kiln is a large passthrough oven that will increase your production significantly. A brick can be produced from a Unfired Clay Brick every 2 seconds at the expense of 100 RF/t (4000 RF total). It can also produce glass from sand, terracotta from clay, and charcoal from logs at the same production rate and power."
         },
         {
             "type": "patchouli:multiblock",
