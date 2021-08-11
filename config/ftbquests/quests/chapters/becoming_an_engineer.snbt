@@ -333,8 +333,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: -2.0d,
+			x: -3.5d,
+			y: -1.5d,
 			description: ["An improved furnace that is faster than the vanilla furnace. Has an internal inventory and can have a external heater placed inside to accept RF power to speed up smelting."],
 			dependencies: ["00000000000001F4"],
 			id: "00000000000001F6",
@@ -4238,6 +4238,149 @@
 				id: "6DBE65C58B1D588E",
 				type: "random",
 				table_id: 1983L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.5d,
+			shape: "pentagon",
+			description: [
+				"The Machinery Manual is a custom manual made for Engineer's Life 2 to showcase custom multiblocks made by the EL2 team.",
+				"",
+				"You will be able to visualize custom multiblocks using the visualize button at the bottom corner of the structure view page.",
+				"",
+				"For this initial release, only a single multiblock (Industrial Kiln) is implemented to test this multiblock functionality. In the future the number of structures will be greatly increased. Any feedback should be provided to the discord linked on the pack's curseforge page."
+			],
+			dependencies: ["000000000000022F"],
+			size: 1.5d,
+			id: "12E1EBB4D51C212F",
+			tasks: [{
+				id: "59CA047E122011D0",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "patchouli:el2-machine-manual"
+					}
+				}
+			}],
+			rewards: [{
+				id: "2A9F87E6C4B005FB",
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Industrial Kiln",
+			icon: "masterfulmachinery:ind_kln_controller",
+			x: -3.5d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "Please provide feedback to our discord!",
+			description: [
+				"The Industrial Kiln is the first in a line of custom multiblocks made for EL2. To visualize it for construction use the Machinery Manual.",
+				"",
+				"The Industrial Kiln will greatly speed up your production of bricks and glass to allow you to get your industrial brick buildings built faster.",
+				"",
+				"Currently the kiln has four recipes, bricks, glass, terracotta, and charcoal. Recipes will require the machine to use 100 FE/t to operate (which can be provided to the power input port on the back of the machine) and each operation will take 2 seconds. This should greatly increase your production.",
+				"Recipes can be seen in JEI for the machine (check bricks, glass, terracotta, and charcoal) but these are subject to change and don't show all current info correctly."
+			],
+			dependencies: [
+				"12E1EBB4D51C212F",
+				"00000000000001F4"
+			],
+			size: 1.5d,
+			id: "0B8F3C507E595EC3",
+			tasks: [
+				{
+					id: "3B7A09077E6C8EFC",
+					type: "item",
+					item: "masterfulmachinery:ind_kln_controller"
+				},
+				{
+					id: "2D1E50A181210E84",
+					type: "item",
+					item: "masterfulmachinery:ind_kln_item_port_items_input"
+				},
+				{
+					id: "7A219B5DD23B7837",
+					type: "item",
+					item: "masterfulmachinery:ind_kln_item_port_items_output"
+				},
+				{
+					id: "67231EA2C4C8019A",
+					type: "item",
+					item: "masterfulmachinery:ind_kln_energy_port_energy_input"
+				},
+				{
+					id: "455B54CAAA70CFA2",
+					type: "item",
+					item: "charm:kiln"
+				},
+				{
+					id: "6335C2B5BE84FF91",
+					type: "item",
+					item: "immersiveengineering:furnace_heater",
+					count: 2L
+				},
+				{
+					id: "1EED8B78645197F0",
+					type: "item",
+					item: "immersiveengineering:conveyor_basic"
+				},
+				{
+					id: "6B77B389904197B9",
+					type: "item",
+					item: "immersiveengineering:conveyor_extract"
+				},
+				{
+					id: "34915909D418FFBF",
+					type: "item",
+					item: "spareparts:reinforcement/foundation_quarter",
+					count: 21L
+				},
+				{
+					id: "0A75EAFED5C01779",
+					type: "item",
+					item: "engineersdecor:dark_shingle_roof",
+					count: 10L
+				},
+				{
+					id: "68DC0BBB87E4A472",
+					type: "item",
+					item: "engineersdecor:dark_shingle_roof_block",
+					count: 6L
+				},
+				{
+					id: "5173A4E99C6BD030",
+					type: "item",
+					item: "engineersdecor:dark_shingle_roof_chimney",
+					count: 2L
+				},
+				{
+					id: "2CDD43E0E329DA50",
+					type: "item",
+					item: "minecraft:bricks",
+					count: 9L
+				},
+				{
+					id: "27227EA980A668F6",
+					type: "item",
+					item: "minecraft:brick_wall",
+					count: 4L
+				},
+				{
+					id: "01A333650FEF762B",
+					type: "item",
+					item: "minecraft:brick_stairs",
+					count: 4L
+				}
+			],
+			rewards: [{
+				id: "5CA79A2FDF66C80B",
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		}
 	]

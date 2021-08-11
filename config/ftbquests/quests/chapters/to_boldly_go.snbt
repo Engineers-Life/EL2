@@ -991,13 +991,11 @@
 			],
 			dependencies: ["000000000000150E"],
 			id: "0000000000001510",
-			tasks: [
-				{
-					id: "0000000000001511",
-					type: "item",
-					item: "minecraft:conduit"
-				}
-			],
+			tasks: [{
+				id: "0000000000001511",
+				type: "item",
+				item: "minecraft:conduit"
+			}],
 			rewards: [
 				{
 					id: "0000000000001512",
@@ -1017,7 +1015,8 @@
 							}]
 						}
 					}
-				}]
+				}
+			]
 		},
 		{
 			title: "Ocean Monument",
@@ -1237,7 +1236,11 @@
 		{
 			x: 17.5d,
 			y: -3.5d,
-			description: ["This Teleporter will transport you to the Mining Dimension, a world of caves where you can mine resources out of the Overworld.","","Note: The crafting recipe, as described by the item tooltip, requires 8 different individual pieces of ore to craft."],
+			description: [
+				"This Teleporter will transport you to the Mining Dimension, a world of caves where you can mine resources out of the Overworld.",
+				"",
+				"Note: The crafting recipe, as described by the item tooltip, requires 8 different individual pieces of ore to craft."
+			],
 			dependencies: ["00000000000014FE"],
 			id: "00000000000015C2",
 			tasks: [{
