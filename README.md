@@ -4,7 +4,7 @@ Current Pack Version 1.06
 Always remove the smoothboot config pre-pack upload to curse.
 
 Added Mods:
-
+- Masterful Machinery (https://www.curseforge.com/minecraft/mc-mods/masterful-machinery)
 
 Removed Mods:
 
