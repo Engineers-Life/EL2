@@ -1,0 +1,32 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "ik",
+    "controllerId": "ind_kln",
+    "ticks": 40,
+    "inputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "minecraft:sand",
+                "count": 1,
+                "consumeInstantly": true
+            }
+        },
+        {
+            "type": "masterfulmachinery:energy",
+            "perTick": true,
+            "data":{
+                "amount": 100                
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "minecraft:glass",
+                "count": 1
+            }
+        }
+    ]
+}

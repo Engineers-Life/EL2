@@ -1,0 +1,63 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "gg",
+  "controllerId": "gas_gen",
+  "name": "Gas Generator",
+  "layout": [
+    [
+      "))))))",
+      "))))))",
+      "))))))"
+    ],
+    [
+      "*+,+--",
+      ".///01",
+      "*/C/--"
+    ],
+    [
+      "2--22 ",
+      "-+--- ",
+      "2--22 "
+    ],
+    [
+      "      ",
+      " 3    ",
+      "      "
+    ]
+  ],
+  "legend": {
+    "0": {
+      "block": "immersiveengineering:capacitor_mv"
+    },
+    "1": {
+      "block": "masterfulmachinery:gas_gen_energy_port_energy_output"
+    },
+    "2": {
+      "block": "immersiveengineering:slab_sheetmetal_iron"
+    },
+    "3": {
+      "block": "engineersdecor:dark_shingle_roof_chimney"
+    },
+    ")": {
+      "block": "spareparts:reinforcement/foundation_half"
+    },
+    "*": {
+      "block": "immersiveengineering:metal_barrel"
+    },
+    "+": {
+      "block": "immersiveengineering:radiator"
+    },
+    ",": {
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    "-": {
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    ".": {
+      "block": "masterfulmachinery:gas_gen_fluid_port_fluids_input"
+    },
+    "/": {
+      "block": "immersiveengineering:generator"
+    }
+  }
+}
