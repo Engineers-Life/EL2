@@ -1,0 +1,168 @@
+{
+    "name": "Industrial Kiln",
+    "icon": "minecraft:brick",
+    "category": "patchouli:basic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Industrial Kiln is a large passthrough oven that will increase your production of bricks significantly. A brick can be produced from a Unfired Clay Brick every 2 seconds at the expense of 100 RF/t (4000 RF total). It can also produce glass from sand and terracotta from clay at the same production rate and power."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "       ",
+                        "  6 6  ",
+                        "       "
+                    ],
+                    [
+                        "4555554",
+                        "**+*+**",
+                        "8777778"
+                    ],
+                    [
+                        "*+,-,+*",
+                        "32191/.",
+                        "*+,C,+*"
+                    ],
+                    [
+                      ")))))))",
+                      ")))0)))",
+                      ")))))))"
+                    ]
+                  ],
+                  "mapping": {
+                    ")": "spareparts:reinforcement/foundation_quarter",
+                    "0": "spareparts:reinforcement/foundation_quarter",
+                    "*": "minecraft:bricks",
+                    "+": "engineersdecor:dark_shingle_roof_block",
+                    ",": "minecraft:brick_wall[north=tall,south=tall]",
+                    "-": "masterfulmachinery:ind_kln_energy_port_energy_input",
+                    ".": "immersiveengineering:conveyor_basic",
+                    "/": "masterfulmachinery:ind_kln_item_port_items_input",
+                    "1": "immersiveengineering:furnace_heater",
+                    "9": "charm:kiln",
+                    "2": "masterfulmachinery:ind_kln_item_port_items_output",
+                    "3": "immersiveengineering:conveyor_extract",
+                    "4": "minecraft:brick_stairs[facing=east]",
+                    "8": "minecraft:brick_stairs[facing=west]",
+                    "5": "engineersdecor:dark_shingle_roof[half=bottom,facing=east]",
+                    "7": "engineersdecor:dark_shingle_roof[half=bottom,facing=west]",
+                    "6": "engineersdecor:dark_shingle_roof_chimney",
+                    "C": "masterfulmachinery:ind_kln_controller"
+                  }
+            },
+            "text": "*Place the controller screen facing outwards, it is turned in the diagram due to manual limitations.*"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This multiblock will require the following pieces:$(li)21 Quarter Reinforced          Foundation$(li)10 Dark Shingle Roof$(li)09 Bricks$(li)06 Dark Shingle Roof Block$(li)04 Brick Wall$(li)04 Brick Stairs$(li)02 External Heater$(li)02 Dark Shingle Roof           Chimney"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)01 Kiln$(li)01 Conveyor Belt$(li)01 Extracting Conveyor Belt$(li)Industrial Kiln$(li2)01 Controller$(li2)01 Item Input Port$(li2)01 Item Output Port$(li2)01 Energy Input Port"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                      ")))))))",
+                      ")))0)))",
+                      ")))))))"
+                    ]
+                  ],
+                  "mapping": {
+                    ")": "spareparts:reinforcement/foundation_quarter",
+                    "0": "spareparts:reinforcement/foundation_quarter",
+                    "*": "minecraft:bricks",
+                    "+": "engineersdecor:dark_shingle_roof_block",
+                    ",": "minecraft:brick_wall[north=tall,south=tall]",
+                    "-": "masterfulmachinery:ind_kln_energy_port_energy_input",
+                    ".": "immersiveengineering:conveyor_basic",
+                    "/": "masterfulmachinery:ind_kln_item_port_items_input",
+                    "1": "immersiveengineering:furnace_heater",
+                    "9": "charm:kiln",
+                    "2": "masterfulmachinery:ind_kln_item_port_items_output",
+                    "3": "immersiveengineering:conveyor_extract",
+                    "4": "minecraft:brick_stairs[facing=east]",
+                    "8": "minecraft:brick_stairs[facing=west]",
+                    "5": "engineersdecor:dark_shingle_roof[half=bottom,facing=east]",
+                    "7": "engineersdecor:dark_shingle_roof[half=bottom,facing=west]",
+                    "6": "engineersdecor:dark_shingle_roof_chimney",
+                    "C": "masterfulmachinery:ind_kln_controller"
+                  }
+            },
+            "text": "*Base Layer*"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "*+,-,+*",
+                        "32101/.",
+                        "*+,C,+*"
+                    ]
+                  ],
+                  "mapping": {
+                    ")": "spareparts:reinforcement/foundation_quarter",
+                    "9": "spareparts:reinforcement/foundation_quarter",
+                    "*": "minecraft:bricks",
+                    "+": "engineersdecor:dark_shingle_roof_block",
+                    ",": "minecraft:brick_wall[north=tall,south=tall]",
+                    "-": "masterfulmachinery:ind_kln_energy_port_energy_input",
+                    ".": "immersiveengineering:conveyor_basic",
+                    "/": "masterfulmachinery:ind_kln_item_port_items_input",
+                    "1": "immersiveengineering:furnace_heater",
+                    "0": "charm:kiln",
+                    "2": "masterfulmachinery:ind_kln_item_port_items_output",
+                    "3": "immersiveengineering:conveyor_extract",
+                    "4": "minecraft:brick_stairs[facing=east]",
+                    "8": "minecraft:brick_stairs[facing=west]",
+                    "5": "engineersdecor:dark_shingle_roof[half=bottom,facing=east]",
+                    "7": "engineersdecor:dark_shingle_roof[half=bottom,facing=west]",
+                    "6": "engineersdecor:dark_shingle_roof_chimney",
+                    "C": "masterfulmachinery:ind_kln_controller"
+                  }
+            },
+            "text": "*Second Layer, Place normal conveyor towards the input and the extractor conveyor pulling from the output*"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "4555554",
+                        "**+0+**",
+                        "8777778"
+                    ]
+                  ],
+                  "mapping": {
+                    ")": "spareparts:reinforcement/foundation_quarter",
+                    "A": "spareparts:reinforcement/foundation_quarter",
+                    "*": "minecraft:bricks",
+                    "0": "minecraft:bricks",
+                    "+": "engineersdecor:dark_shingle_roof_block",
+                    ",": "minecraft:brick_wall[north=tall,south=tall]",
+                    "-": "masterfulmachinery:ind_kln_energy_port_energy_input",
+                    ".": "immersiveengineering:conveyor_basic",
+                    "/": "masterfulmachinery:ind_kln_item_port_items_input",
+                    "1": "immersiveengineering:furnace_heater",
+                    "9": "charm:kiln",
+                    "2": "masterfulmachinery:ind_kln_item_port_items_output",
+                    "3": "immersiveengineering:conveyor_extract",
+                    "4": "minecraft:brick_stairs[facing=east]",
+                    "8": "minecraft:brick_stairs[facing=west]",
+                    "5": "engineersdecor:dark_shingle_roof[half=bottom,facing=east]",
+                    "7": "engineersdecor:dark_shingle_roof[half=bottom,facing=west]",
+                    "6": "engineersdecor:dark_shingle_roof_chimney",
+                    "C": "masterfulmachinery:ind_kln_controller"
+                  }
+            },
+            "text": "*Third Layer, Top with two Dark Shingle Roof Chimneys on the Dark Shingle Roof Blocks*"
+        }
+    ]
+}
+
