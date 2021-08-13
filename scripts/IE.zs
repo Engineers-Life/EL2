@@ -25,6 +25,7 @@ craftingTable.addShaped("arc_furnace_sand", <item:engineersdecor:dense_grit_sand
 
 <recipetype:immersiveengineering:metal_press>.addRecipe("plastic_from_dryrubber_in_press", <item:industrialforegoing:dryrubber>, <item:immersiveengineering:mold_plate>, 2400, <item:industrialforegoing:plastic>);
 <recipetype:immersiveengineering:metal_press>.addRecipe("clay_brick_from_clay_block_in_press", <item:minecraft:clay>, <item:immersiveengineering:mold_unpacking>, 2400, <item:notreepunching:clay_brick>*4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("diamond_gear_from_diamonds_in_press", <item:minecraft:diamond>*4, <item:immersiveengineering:mold_gear>, 2400, <item:titanium:diamond_gear>);
 
 // SQUEEZER
 <recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking", <item:minecraft:glass_bottle>, 12800, <item:quark:clear_shard>*4);
