@@ -73,15 +73,19 @@ var ifAxe as function(usualOut as IItemStack, inputs as IItemStack[][]) as IItem
 };
 
 // special logs make oak
+<tag:items:minecraft:oak_logs>.add(<item:simplefarming:fruit_log>);
+<tag:items:minecraft:oak_logs>.add(<item:aquaculture:driftwood>);
+/*
 val oak_logs =
         <item:simplefarming:fruit_log>
     |   <item:aquaculture:driftwood>
     |   <tag:items:minecraft:oak_logs>.asIIngredient();
+*/
 
 craftingTable.addShaped("axe.misc.logs", <item:minecraft:oak_planks>*2,
-    [ [all_axes.anyDamage().transformDamage()], [oak_logs] ], ifAxe);
+    [ [all_axes.anyDamage().transformDamage()], [<tag:items:minecraft:oak_logs>] ], ifAxe);
 craftingTable.addShaped("saw.misc.logs", <item:minecraft:oak_planks>*4,
-    [ [saws.asIIngredient().anyDamage().transformDamage()], [oak_logs] ]);
+    [ [saws.asIIngredient().anyDamage().transformDamage()], [<tag:items:minecraft:oak_logs>] ]);
 
 craftingTable.removeByName("simplefarming:oak_planks");
 craftingTable.removeByName("aquaculture:planks_from_driftwood");
