@@ -6,7 +6,7 @@
 	#Is not guaranteed to work in specific world types.
 	#You can find more info here in regards to specific world types: https://github.com/CorgiTaco/BYG/wiki/Enabling-BYG-Nether-&-End-Biomes
 	#For existing worlds, follow the steps listed here: https://wiki.griefed.de/SCP/edit-world.
-	controlEnd = true
+	controlEnd = false
 	#End Biome Size
 	#Default: 3
 	#Range: 1-10
