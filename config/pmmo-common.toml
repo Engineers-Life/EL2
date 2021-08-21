@@ -105,7 +105,7 @@
 	maxVeinCharge = 320.0
 	#How much vein is restored for each player when the day is skipped by sleeping in bed?
 	#Range: 0.0 ~ 1.0
-	sleepVeinRestorePercent = 0.8477
+	sleepVeinRestorePercent = 0.0
 	#How much hunger should be exhausted per block veined?
 	#Range: 0.0 ~ 20.0
 	exhaustionPerBlock = 0.2
