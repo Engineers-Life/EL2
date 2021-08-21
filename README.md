@@ -5,6 +5,8 @@ Always remove the smoothboot config pre-pack upload to curse.
 
 Added Mods:
 
+	Artisan Worktables
+	Athenaeum
 	Better Dungeons
 	Oh the Biomes You'll Go
 	Drippy Loading Screen
