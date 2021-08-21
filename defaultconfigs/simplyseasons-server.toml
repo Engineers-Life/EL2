@@ -1,0 +1,5 @@
+#This should only be enabled if you have Serene Seasons installed. It will have Simply Seasons control the growth of crops instead of Serene Seasons. This will allow location based season features to work.
+"Use Simply Seasons crop handler" = false
+#Due to limitations with the way Better Weather 2 syncs up their data (it occurs too late for me to determine which worlds have seasons), you will need to add dimensions that you wish seasons to be in to this list too.
+"BetterWeather2 Seasonal Dimensions" = ["minecraft:overworld"]
+
