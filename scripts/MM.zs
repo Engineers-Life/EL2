@@ -17,9 +17,9 @@ craftingTable.addShapeless("half_foundation", <item:spareparts:reinforcement/fou
 
 craftingTable.addShapeless("quarter_foundation", <item:spareparts:reinforcement/foundation_quarter> * 2, [<item:spareparts:reinforcement/foundation_half>]);
 
-craftingTable.addShapeless("back_half_foundation", <item:spareparts:reinforcement/foundation_half>, [<item:spareparts:reinforcement/foundation_quarter>*2]);
+craftingTable.addShapeless("back_half_foundation", <item:spareparts:reinforcement/foundation_half>, [<item:spareparts:reinforcement/foundation_quarter>,<item:spareparts:reinforcement/foundation_quarter>]);
 
-craftingTable.addShapeless("back_foundation_block", <item:spareparts:reinforcement/reinforcement_block>, [<item:spareparts:reinforcement/foundation_half>*2]);
+craftingTable.addShapeless("back_foundation_block", <item:spareparts:reinforcement/reinforcement_block>, [<item:spareparts:reinforcement/foundation_half>,<item:spareparts:reinforcement/foundation_half>]);
 
 //MM Blocks
 
