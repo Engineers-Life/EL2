@@ -179,8 +179,8 @@
       "has_caves [default: true]": true
     },
     "nightshade_forest": {
-      "enabled [default: true]": true,
-      "fog_density [default: 1.0]": 0.0,
+      "enabled [default: true]": false,
+      "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true
     },
@@ -209,8 +209,8 @@
       "has_caves [default: true]": true
     },
     "shulkren_forest": {
-      "enabled [default: true]": true,
-      "fog_density [default: 1.0]": 0.0,
+      "enabled [default: true]": false,
+      "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true
     },
