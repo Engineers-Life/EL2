@@ -12,6 +12,7 @@ Added Mods:
 	Drippy Loading Screen
 	Farmers Delight
 	Farmers Delight Integrations
+	Geolosys
 	Macaws Furniture
 	Macaws Lights and Lamps
 	Mekanism
