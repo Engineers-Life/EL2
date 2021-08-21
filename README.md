@@ -11,7 +11,7 @@ Added Mods:
 	Oh the Biomes You'll Go
 	Drippy Loading Screen
 	Farmers Delight
-	Farmers Delight Integrations
+	Farmers Delight Compats
 	Geolosys
 	Macaws Furniture
 	Macaws Lights and Lamps
