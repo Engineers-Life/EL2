@@ -1,0 +1,73 @@
+type = hud
+
+customization-meta {
+  backgroundimage = config/fancymenu/animations/factory.jpg
+  renderorder = foreground
+  backgroundcolor = 000000
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = top-right
+  x = -11
+  textcolor = 009999
+  action = editforgememoryinfo
+  y = 345
+}
+
+customization {
+  orientation = top-left
+  x = 12
+  textcolor = 009999
+  action = editforgestatustext
+  y = 306
+}
+
+customization {
+  visible = false
+  x = -1
+  action = editprogressbar
+  y = -69
+  barcolor = 
+}
+
+customization {
+  path = config/fancymenu/animations/gears/animation/12.png
+  orientation = mid-right
+  x = -357
+  width = 87
+  action = addtexture
+  actionid = d686a2bb-9530-4693-9831-109d9d3568e61628826442457
+  y = -98
+  height = 109
+}
+
+customization {
+  orientation = bottom-centered
+  bartexture = config/fancymenu/button_normal.png
+  x = -2
+  width = 369
+  y = -73
+  action = addcustomprogressbar
+  backgroundtexture = config/fancymenu/animations/hex2.png
+  height = 20
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = 000000
+}
+
+customization {
+  path = config/fancymenu/logo.png
+  orientation = mid-right
+  x = -224
+  width = 220
+  action = addtexture
+  actionid = e1c87d6b-604c-45b7-9ad6-c22de57aceb91628824778919
+  y = -94
+  height = 122
+}
+

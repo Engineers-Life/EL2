@@ -1,0 +1,187 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.OptionsScreen
+  renderorder = background
+}
+
+customization {
+  path = config/fancymenu/animations/hex2.png
+  action = texturizebackground
+}
+
+customization {
+  orientation = top-left
+  name = gears
+  x = 88
+  width = 151
+  actionid = 8d42e956-4ff8-46fb-9025-779564def0841616227608249
+  action = addanimation
+  y = -65
+  height = 171
+}
+
+customization {
+  orientation = bottom-left
+  name = gears
+  x = -60
+  width = 227
+  actionid = 054df66f-a5d3-4a49-b109-36f0e036d8f91616226073053
+  action = addanimation
+  y = -119
+  height = 238
+}
+
+customization {
+  orientation = top-right
+  name = gears
+  x = -66
+  width = 103
+  actionid = ca65893e-256a-495a-9cb1-b361a2b9481a1616227264925
+  action = addanimation
+  y = 11
+  height = 120
+}
+
+customization {
+  orientation = bottom-right
+  name = gears
+  x = -136
+  width = 173
+  actionid = ca41df12-4cfc-4ce1-a1ef-71bbc0f1d3f41616227625548
+  action = addanimation
+  y = -152
+  height = 194
+}
+
+customization {
+  identifier = %id=505154%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttonlabel
+  value = Video Settings
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=345280%
+  action = setbuttonlabel
+  value = Resource Packs
+}
+
+customization {
+  identifier = %id=345280%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=345154%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505232%
+  action = setbuttonlabel
+  value = Controls
+}
+
+customization {
+  identifier = %id=505232%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505280%
+  action = setbuttonlabel
+  value = Accessibility Settings
+}
+
+customization {
+  identifier = %id=505280%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=400334%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=635154%
+  action = setbuttonlabel
+  value = Difficulty lock
+}
+
+customization {
+  identifier = %id=345208%
+  action = setbuttonlabel
+  value = Skin Customization
+}
+
+customization {
+  identifier = %id=345208%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=345256%
+  action = setbuttonlabel
+  value = Language
+}
+
+customization {
+  identifier = %id=345256%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505208%
+  action = setbuttonlabel
+  value = Music & Sounds
+}
+
+customization {
+  identifier = %id=505208%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505256%
+  action = setbuttonlabel
+  value = Chat Settings
+}
+
+customization {
+  identifier = %id=505256%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+

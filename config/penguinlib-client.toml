@@ -1,0 +1,5 @@
+#Allowed Values: TWENTY_FOUR_HOUR, TWELVE_HOUR
+"Clock Type" = "TWENTY_FOUR_HOUR"
+"Display time in Penguin HUDs" = true
+"Require clock in inventory to display the time" = false
+

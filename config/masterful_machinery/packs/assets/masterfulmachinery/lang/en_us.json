@@ -1,0 +1,13 @@
+{
+  "block.masterfulmachinery.ind_kln_controller": "Industrial Kiln Controller",
+  "block.masterfulmachinery.ind_kln_energy_port_energy_input": "Industrial Kiln - Energy Input Port",
+  "block.masterfulmachinery.ind_kln_energy_port_energy_output": "Industrial Kiln - Energy Output Port",
+  "block.masterfulmachinery.ind_kln_item_port_items_input": "Industrial Kiln - Item Input Port",
+  "block.masterfulmachinery.ind_kln_item_port_items_output": "Industrial Kiln - Item Output Port",
+  "block.masterfulmachinery.projector": "Structure Projector",
+  "block.masterfulmachinery.structure_generator": "Structure Scanner",
+  "container.masterfulmachinery.create_rotation": "Rotation Port",
+  "container.masterfulmachinery.ind_kln_controller.name": "Industrial Kiln Controller",
+  "item.masterfulmachinery.blueprint": "Blueprint",
+  "item.masterfulmachinery.structure_gen_device": "Structure Scanner"
+}

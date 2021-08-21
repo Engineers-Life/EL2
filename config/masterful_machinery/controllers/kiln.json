@@ -1,0 +1,24 @@
+{
+  "controllerId": "ind_kln",
+  "name": "Industrial Kiln",
+  "textureOverride": "minecraft:block/bricks",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}
