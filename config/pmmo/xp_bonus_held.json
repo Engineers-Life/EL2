@@ -1,0 +1,89 @@
+{
+	"immersiveengineering:sword_steel":
+	{
+		"combat": 5
+	},
+	"immersiveengineering:hoe_steel":
+	{
+		"farming": 5
+	},
+	"immersiveengineering:axe_steel":
+	{
+		"combat": 5,
+		"woodcutting": 5
+	},
+	"immersiveengineering:shovel_steel":
+	{
+		"excavation": 10
+	},
+	"immersiveengineering:pickaxe_steel":
+	{
+		"mining": 10
+	},
+	"minecraft:golden_pickaxe":
+	{
+		"mining": 50
+	},
+	"minecraft:golden_shovel":
+	{
+		"excavation": 50
+	},
+	"minecraft:golden_axe":
+	{
+		"woodcutting": 50,
+		"combat": 50
+	},
+	"minecraft:golden_sword":
+	{
+		"combat": 50
+	},
+	"minecraft:golden_hoe":
+	{
+		"farming": 20
+	},
+	"minecraft:netherite_hoe":
+	{
+		"farming": 15
+	},
+	"minecraft:diamond_sword":
+	{
+		"combat": 15
+	},
+	"minecraft:diamond_hoe":
+	{
+		"farming": 10
+	},
+	"minecraft:iron_hoe":
+	{
+		"farming": 5
+	},
+	"minecraft:iron_axe":
+	{
+		"combat": 10
+	},
+	"minecraft:stone_hoe":
+	{
+		"farming": 2.5
+	},
+	"minecraft:wooden_hoe":
+	{
+		"farming": 1
+	},
+	"aquaculture:neptunium_pickaxe":
+	{
+		"swimming": 2.5
+	},
+	"aquaculture:neptunium_shovel":
+	{
+		"swimming": 2.5
+	},
+	"aquaculture:neptunium_axe":
+	{
+		"swimming": 2.5
+	},
+	"aquaculture:neptunium_hoe":
+	{
+		"farming": 20,
+		"swimming": 2.5
+	}
+}

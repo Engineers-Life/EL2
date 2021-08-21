@@ -1,0 +1,2719 @@
+{	
+	"aquaculture:farmland":
+	{
+		"excavation": 5.0
+	},
+	"betterdefaultbiomes:blue_poppy":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:dark_violet":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:dead_grass":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:dune_grass":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:feather_reed_grass":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:gray_mushroom":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:palm_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"betterdefaultbiomes:palm_log":
+	{
+		"woodcutting": 2.0
+	},
+	"betterdefaultbiomes:palm_log_stripped":
+	{
+		"woodcutting": 2.0
+	},
+	"betterdefaultbiomes:palm_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:palm_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"betterdefaultbiomes:palm_sapling_potted":
+	{
+		"woodcutting": 2.0
+	},
+	"betterdefaultbiomes:palm_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:palm_wood_stripped":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:pink_cactus_flower":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_blue_poppy":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_dark_violet":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_dead_grass":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:potted_dune_grass":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:potted_feather_reed_grass":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:potted_gray_mushroom":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_pink_cactus_flower":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_purple_verbena":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_short_grass":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_white_mushroom":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:potted_yellow_mushroom":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:purple_verbena":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:short_grass":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:swamp_willow_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"betterdefaultbiomes:swamp_willow_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:swamp_willow_log_stripped":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:swamp_willow_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:swamp_willow_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"betterdefaultbiomes:swamp_willow_sapling_potted":
+	{
+		"woodcutting": 2.0
+	},
+	"betterdefaultbiomes:swamp_willow_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:swamp_willow_wood_stripped":
+	{
+		"woodcutting": 4.0
+	},
+	"betterdefaultbiomes:tall_water_reeds":
+	{
+		"farming": 0.2
+	},
+	"betterdefaultbiomes:white_mushroom":
+	{
+		"farming": 1.0
+	},
+	"betterdefaultbiomes:yellow_mushroom":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:amber_grass":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:amber_moss":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:amber_moss_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:amber_ore":
+	{
+		"mining": 25.0
+	},
+	"betterendforge:ancient_emerald_ice":
+	{
+		"mining": 2.0
+	},
+	"betterendforge:aurora_crystal":
+	{
+		"mining": 3.0
+	},
+	"betterendforge:blue_vine":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:blue_vine_fur":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:brimstone":
+	{
+		"mining": 4.0
+	},
+	"betterendforge:bubble_coral":
+	{
+		"mining": 1.0
+	},
+	"betterendforge:bulb_moss":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:bulb_vine":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:bushy_grass":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:cave_bush":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:cave_grass":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:cave_moss":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:cave_moss_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:charnia_cyan":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:charnia_green":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:charnia_light_blue":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:charnia_orange":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:charnia_purple":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:charnia_red":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:chorus_grass":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:chorus_nylium":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:chorus_nylium_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:creeping_moss":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:crystal_grass":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:crystal_moss":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:crystal_moss_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:cyan_moss":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:dense_emerald_ice":
+	{
+		"mining": 4.0
+	},
+	"betterendforge:dense_snow":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:dense_vine":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:dragon_tree_bark":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:dragon_tree_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:dragon_tree_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:dragon_tree_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:dragon_tree_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"betterendforge:dragon_tree_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:dragon_tree_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:emerald_ice":
+	{
+		"mining": 1.0
+	},
+	"betterendforge:end_lily":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:end_lotus_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:end_lotus_flower":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:end_lotus_leaf":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:end_lotus_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:end_lotus_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:end_lotus_stem":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:end_lotus_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:end_lotus_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:end_moss":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:end_moss_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:end_mycelium":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:end_mycelium_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:ender_ore":
+	{
+		"mining": 50.0
+	},
+	"betterendforge:endstone_dust":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:flavolite":
+	{
+		"mining": 4.0
+	},
+	"betterendforge:glowing_pillar_leaves":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:glowing_pillar_luminophor":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:glowing_pillar_roots":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:helix_tree_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:helix_tree_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:helix_tree_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:helix_tree_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:helix_tree_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:helix_tree_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:helix_tree_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:hydrothermal_vent":
+	{
+		"mining": 1.0
+	},
+	"betterendforge:jellyshroom_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:jellyshroom_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:jellyshroom_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:jellyshroom_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:jellyshroom_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:jungle_fern":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:jungle_grass":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:jungle_moss":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:jungle_moss_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:jungle_vine":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:lacugrove_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:lacugrove_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:lacugrove_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:lacugrove_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:lacugrove_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:lacugrove_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:lacugrove_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:lanceleaf":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:menger_sponge":
+	{
+		"crafting": 2.0
+	},
+	"betterendforge:menger_sponge_wet":
+	{
+		"crafting": 2.0
+	},
+	"betterendforge:mossy_glowshroom_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:mossy_glowshroom_fur":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:mossy_glowshroom_hymenophore":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:mossy_glowshroom_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:mossy_glowshroom_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:mossy_glowshroom_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:mossy_glowshroom_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:mossy_glowshroom_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:murkweed":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:needlegrass":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:pink_moss":
+	{
+		"excavation": 0.1
+	},
+	"betterendforge:pink_moss_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:potted_dragon_tree_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:potted_helix_tree_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:potted_lacugrove_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:potted_mossy_glowshroom_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:potted_pythadendron_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:potted_tenanea_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:potted_umbrella_tree_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:pythadendron_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:pythadendron_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:pythadendron_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:pythadendron_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:pythadendron_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:pythadendron_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:pythadendron_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:shadow_berry":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:shadow_grass":
+	{
+		"excavation": 0.1
+	},
+	"betterendforge:shadow_grass_path":
+	{
+		"excavation": 1.0
+	},
+	"betterendforge:shadow_plant":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:small_jellyshroom":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:sulphuric_rock":
+	{
+		"mining": 4.0
+	},
+	"betterendforge:tail_moss":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:tenanea_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:tenanea_flowers":
+	{
+		"farming": 1.0
+	},
+	"betterendforge:tenanea_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:tenanea_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:tenanea_outer_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:tenanea_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:tenanea_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:tenanea_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:tenanea_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:twisted_moss":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:twisted_umbrella_moss":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:twisted_umbrella_moss_tall":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:twisted_vine":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:umbrella_moss":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:umbrella_moss_tall":
+	{
+		"farming": 0.5
+	},
+	"betterendforge:umbrella_tree_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:umbrella_tree_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:umbrella_tree_membrane":
+	{
+		"woodcutting": 1.0
+	},
+	"betterendforge:umbrella_tree_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:umbrella_tree_sapling":
+	{
+		"farming": 2.0
+	},
+	"betterendforge:umbrella_tree_stripped_bark":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:umbrella_tree_stripped_log":
+	{
+		"woodcutting": 4.0
+	},
+	"betterendforge:violecite":
+	{
+		"mining": 4.0
+	},
+	"betterportals:reclaimer_block":
+	{
+		"mining": 25.0
+	},
+	"bigreactors:anglesite_ore":
+	{
+		"mining": 15.0
+	},
+	"bigreactors:benitoite_ore":
+	{
+		"mining": 15.0
+	},
+	"bigreactors:cyanite_block":
+	{
+		"mining": 40.0
+	},
+	"bigreactors:graphite_block":
+	{
+		"mining": 15.0
+	},
+	"bigreactors:yellorite_ore":
+	{
+		"mining": 30.0
+	},
+	"bigreactors:yellorium_block":
+	{
+		"mining": 50.0
+	},
+	"embellishcraft:basalt":
+	{
+		"mining": 0.2
+	},
+	"embellishcraft:gneiss":
+	{
+		"mining": 0.2
+	},
+	"embellishcraft:jade":
+	{
+		"mining": 0.2
+	},
+	"embellishcraft:larvikite":
+	{
+		"mining": 0.2
+	},
+	"embellishcraft:marble":
+	{
+		"mining": 0.2
+	},
+	"embellishcraft:slate":
+	{
+		"mining": 0.2
+	},
+	"farmingforblockheads:fertilized_farmland_healthy":
+	{
+		"excavation": 1.0
+	},
+	"farmingforblockheads:fertilized_farmland_healthy_stable":
+	{
+		"excavation": 1.0
+	},
+	"farmingforblockheads:fertilized_farmland_rich":
+	{
+		"excavation": 1.0
+	},
+	"farmingforblockheads:fertilized_farmland_rich_stable":
+	{
+		"excavation": 1.0
+	},
+	"farmingforblockheads:fertilized_farmland_stable":
+	{
+		"excavation": 1.0
+	},
+	"flowerseeds:crop_allium":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_azure":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_cornflower":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_dandelion":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_lily":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_orchid":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_oxeye":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_poppy":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_tulip_orange":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_tulip_pink":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_tulip_red":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_tulip_white":
+	{
+		"farming": 2.0
+	},
+	"flowerseeds:crop_witherrose":
+	{
+		"farming": 2.0
+	},
+	"immersiveengineering:hemp":
+	{
+		"farming": 0.5
+	},
+	"immersiveengineering:ore_aluminum":
+	{
+		"mining": 20.0
+	},
+	"immersiveengineering:ore_copper":
+	{
+		"mining": 15.0
+	},
+	"immersiveengineering:ore_lead":
+	{
+		"mining": 20.0
+	},
+	"immersiveengineering:ore_nickel":
+	{
+		"mining": 40.0
+	},
+	"immersiveengineering:ore_silver":
+	{
+		"mining": 35.0
+	},
+	"immersiveengineering:ore_uranium":
+	{
+		"mining": 45.0
+	},
+	"minecraft:acacia_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"minecraft:acacia_log":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:acacia_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:acacia_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:acacia_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:allium":
+	{
+		"farming": 0.5
+	},
+	"minecraft:ancient_debris":
+	{
+		"mining": 100.0
+	},
+	"minecraft:andesite":
+	{
+		"mining": 0.1
+	},
+	"minecraft:attached_melon_stem":
+	{
+		"farming": 0.5
+	},
+	"minecraft:attached_pumpkin_stem":
+	{
+		"farming": 0.5
+	},
+	"minecraft:azure_bluet":
+	{
+		"farming": 0.5
+	},
+	"minecraft:bamboo":
+	{
+		"farming": 0.5
+	},
+	"minecraft:bamboo_sapling":
+	{
+		"farming": 0.5
+	},
+	"minecraft:basalt":
+	{
+		"mining": 0.1
+	},
+	"minecraft:bee_nest":
+	{
+		"woodcutting": 2.0
+	},
+	"minecraft:beetroots":
+	{
+		"farming": 0.5
+	},
+	"minecraft:birch_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"minecraft:birch_log":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:birch_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:birch_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:birch_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:black_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:blackstone":
+	{
+		"mining": 4.0
+	},
+	"minecraft:blue_ice":
+	{
+		"mining": 1.0
+	},
+	"minecraft:blue_orchid":
+	{
+		"farming": 0.5
+	},
+	"minecraft:blue_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:bone_block":
+	{
+		"mining": 4.0
+	},
+	"minecraft:brewing_stand":
+	{
+		"mining": 5.0
+	},
+	"minecraft:brown_mushroom":
+	{
+		"farming": 0.5
+	},
+	"minecraft:brown_mushroom_block":
+	{
+		"woodcutting": 1.0
+	},
+	"minecraft:brown_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:cactus":
+	{
+		"woodcutting": 0.5
+	},
+	"minecraft:carrots":
+	{
+		"farming": 0.5
+	},
+	"minecraft:carved_pumpkin":
+	{
+		"woodcutting": 0.5
+	},
+	"minecraft:chorus_flower":
+	{
+		"farming": 0.5
+	},
+	"minecraft:chorus_plant":
+	{
+		"farming": 0.5
+	},
+	"minecraft:clay":
+	{
+		"excavation": 3.0
+	},
+	"minecraft:coal_ore":
+	{
+		"mining": 10.0
+	},
+	"minecraft:coarse_dirt":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:cobblestone":
+	{
+		"mining": 0.1
+	},
+	"minecraft:cocoa":
+	{
+		"farming": 0.5
+	},
+	"minecraft:cornflower":
+	{
+		"farming": 0.5
+	},
+	"minecraft:crimson_fungus":
+	{
+		"farming": 0.5
+	},
+	"minecraft:crimson_hyphae":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:crimson_nylium":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:crimson_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:crimson_roots":
+	{
+		"farming": 0.5
+	},
+	"minecraft:crimson_stem":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:crying_obsidian":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:cyan_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:dandelion":
+	{
+		"farming": 0.5
+	},
+	"minecraft:dark_oak_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"minecraft:dark_oak_log":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:dark_oak_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:dark_oak_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:dark_oak_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:dark_prismarine":
+	{
+		"mining": 4.0
+	},
+	"minecraft:dead_bush":
+	{
+		"farming": 0.5
+	},
+	"minecraft:diamond_ore":
+	{
+		"mining": 55.0
+	},
+	"minecraft:diorite":
+	{
+		"mining": 0.1
+	},
+	"minecraft:dirt":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:emerald_ore":
+	{
+		"mining": 60.0
+	},
+	"minecraft:end_stone":
+	{
+		"mining": 0.1
+	},
+	"minecraft:farmland":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:fern":
+	{
+		"farming": 0.5
+	},
+	"minecraft:frosted_ice":
+	{
+		"mining": 2.0
+	},
+	"minecraft:glowstone":
+	{
+		"mining": 0.5
+	},
+	"minecraft:gold_ore":
+	{
+		"mining": 45.0
+	},
+	"minecraft:granite":
+	{
+		"mining": 0.1
+	},
+	"minecraft:grass":
+	{
+		"farming": 0.2
+	},
+	"minecraft:grass_block":
+	{
+		"excavation": 1.0,
+		"farming": -0.6
+	},
+	"minecraft:grass_path":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:gravel":
+	{
+		"excavation": 2.0
+	},
+	"minecraft:gray_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:green_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:hay_block":
+	{
+		"farming": 2.0
+	},
+	"minecraft:ice":
+	{
+		"mining": 1.0
+	},
+	"minecraft:iron_ore":
+	{
+		"mining": 15.0
+	},
+	"minecraft:jungle_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"minecraft:jungle_log":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:jungle_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:jungle_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:jungle_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:kelp":
+	{
+		"farming": 1.0
+	},
+	"minecraft:kelp_plant":
+	{
+		"farming": 1.0
+	},
+	"minecraft:lapis_ore":
+	{
+		"mining": 25.0
+	},
+	"minecraft:large_fern":
+	{
+		"farming": 0.5
+	},
+	"minecraft:light_blue_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:light_gray_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:lilac":
+	{
+		"farming": 0.5
+	},
+	"minecraft:lily_of_the_valley":
+	{
+		"farming": 0.5
+	},
+	"minecraft:lily_pad":
+	{
+		"farming": 0.5
+	},
+	"minecraft:lime_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:magenta_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:magma_block":
+	{
+		"mining": 25.0
+	},
+	"minecraft:melon":
+	{
+		"farming": 4.0
+	},
+	"minecraft:melon_stem":
+	{
+		"farming": 0.5
+	},
+	"minecraft:mushroom_stem":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:mycelium":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:nether_bricks":
+	{
+		"mining": 4.0
+	},
+	"minecraft:nether_gold_ore":
+	{
+		"mining": 20.0
+	},
+	"minecraft:nether_quartz_ore":
+	{
+		"mining": 15.0
+	},
+	"minecraft:nether_sprouts":
+	{
+		"farming": 0.5
+	},
+	"minecraft:nether_wart":
+	{
+		"farming": 1.0
+	},
+	"minecraft:nether_wart_block":
+	{
+		"farming": 2.0
+	},
+	"minecraft:netherrack":
+	{
+		"mining": 0.5
+	},
+	"minecraft:oak_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"minecraft:oak_log":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:oak_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:oak_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:oak_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:obsidian":
+	{
+		"mining": 25.0
+	},
+	"minecraft:orange_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:orange_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:oxeye_daisy":
+	{
+		"farming": 0.5
+	},
+	"minecraft:packed_ice":
+	{
+		"mining": 2.0
+	},
+	"minecraft:peony":
+	{
+		"farming": 0.5
+	},
+	"minecraft:pink_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:pink_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:podzol":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:poppy":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potatoes":
+	{
+		"farming": 1.0
+	},
+	"minecraft:potted_acacia_sapling":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_allium":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_azure_bluet":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_bamboo":
+	{
+		"farming": 1.0
+	},
+	"minecraft:potted_birch_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:potted_blue_orchid":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_brown_mushroom":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_cactus":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_cornflower":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_crimson_fungus":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_crimson_roots":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_dandelion":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_dark_oak_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:potted_dead_bush":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_fern":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_jungle_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:potted_lily_of_the_valley":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_oak_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:potted_orange_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_oxeye_daisy":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_pink_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_poppy":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_red_mushroom":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_red_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_spruce_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:potted_warped_fungus":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_warped_roots":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_white_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:potted_wither_rose":
+	{
+		"farming": 0.5
+	},
+	"minecraft:prismarine":
+	{
+		"mining": 4.0
+	},
+	"minecraft:pumpkin":
+	{
+		"farming": 2.0
+	},
+	"minecraft:pumpkin_stem":
+	{
+		"farming": 0.5
+	},
+	"minecraft:purple_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:red_mushroom":
+	{
+		"farming": 0.5
+	},
+	"minecraft:red_mushroom_block":
+	{
+		"excavation": 2.0
+	},
+	"minecraft:red_nether_bricks":
+	{
+		"mining": 4.0
+	},
+	"minecraft:red_sand":
+	{
+		"excavation": 0.75
+	},
+	"minecraft:red_sandstone":
+	{
+		"mining": 4.0
+	},
+	"minecraft:red_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:red_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:redstone_ore":
+	{
+		"mining": 20.0
+	},
+	"minecraft:redstone_wire":
+	{
+		"crafting": 0.1
+	},
+	"minecraft:rose_bush":
+	{
+		"farming": 0.5
+	},
+	"minecraft:sand":
+	{
+		"excavation": 0.75
+	},
+	"minecraft:sandstone":
+	{
+		"mining": 2.0
+	},
+	"minecraft:scaffolding":
+	{
+		"woodcutting": 0.5
+	},
+	"minecraft:sea_lantern":
+	{
+		"mining": 1.0
+	},
+	"minecraft:sea_pickle":
+	{
+		"farming": 1.0
+	},
+	"minecraft:seagrass":
+	{
+		"farming": 0.5
+	},
+	"minecraft:shroomlight":
+	{
+		"farming": 1.0
+	},
+	"minecraft:smooth_stone":
+	{
+		"mining": 4.0
+	},
+	"minecraft:snow":
+	{
+		"excavation": 0.5
+	},
+	"minecraft:snow_block":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:soul_sand":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:soul_soil":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:spawner":
+	{
+		"mining": 10.0
+	},
+	"minecraft:sponge":
+	{
+		"crafting": 1.0
+	},
+	"minecraft:spruce_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"minecraft:spruce_log":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:spruce_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:spruce_sapling":
+	{
+		"farming": 2.0
+	},
+	"minecraft:spruce_wood":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:stone":
+	{
+		"mining": 0.1
+	},
+	"minecraft:stone_bricks":
+	{
+		"mining": 0.5
+	},
+	"minecraft:stone_button":
+	{
+		"mining": 0.5
+	},
+	"minecraft:stripped_acacia_log":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_acacia_wood":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_birch_log":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_birch_wood":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_crimson_hyphae":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_crimson_stem":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_dark_oak_log":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_dark_oak_wood":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_jungle_log":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_jungle_wood":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_oak_log":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_oak_wood":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_spruce_log":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_spruce_wood":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_warped_hyphae":
+	{
+		"farming": 4.0
+	},
+	"minecraft:stripped_warped_stem":
+	{
+		"farming": 4.0
+	},
+	"minecraft:sugar_cane":
+	{
+		"farming": 2.0
+	},
+	"minecraft:sunflower":
+	{
+		"farming": 0.25
+	},
+	"minecraft:sweet_berry_bush":
+	{
+		"farming": 1.0
+	},
+	"minecraft:tall_grass":
+	{
+		"farming": 0.25
+	},
+	"minecraft:tall_seagrass":
+	{
+		"farming": 0.25
+	},
+	"minecraft:terracotta":
+	{
+		"mining": 2.0
+	},
+	"minecraft:twisting_vines":
+	{
+		"farming": 0.5
+	},
+	"minecraft:twisting_vines_plant":
+	{
+		"farming": 0.5
+	},
+	"minecraft:vine":
+	{
+		"farming": 0.5
+	},
+	"minecraft:warped_fungus":
+	{
+		"farming": 1.0
+	},
+	"minecraft:warped_hyphae":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:warped_nylium":
+	{
+		"excavation": 1.0
+	},
+	"minecraft:warped_planks":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:warped_roots":
+	{
+		"farming": 0.5
+	},
+	"minecraft:warped_stem":
+	{
+		"woodcutting": 4.0
+	},
+	"minecraft:weeping_vines":
+	{
+		"farming": 0.5
+	},
+	"minecraft:weeping_vines_plant":
+	{
+		"farming": 0.5
+	},
+	"minecraft:wet_sponge":
+	{
+		"crafting": 2.0
+	},
+	"minecraft:wheat":
+	{
+		"farming": 1.0
+	},
+	"minecraft:white_terracotta":
+	{
+		"mining": 1.0
+	},
+	"minecraft:white_tulip":
+	{
+		"farming": 0.5
+	},
+	"minecraft:wither_rose":
+	{
+		"farming": 0.5
+	},
+	"minecraft:yellow_terracotta":
+	{
+		"mining": 1.0
+	},
+	"notreepunching:andesite_loose_rock":
+	{
+		"mining": 0.5
+	},
+	"notreepunching:diorite_loose_rock":
+	{
+		"mining": 0.5
+	},
+	"notreepunching:granite_loose_rock":
+	{
+		"mining": 0.5
+	},
+	"notreepunching:red_sandstone_loose_rock":
+	{
+		"mining": 0.5
+	},
+	"notreepunching:sandstone_loose_rock":
+	{
+		"mining": 0.5
+	},
+	"notreepunching:stone_loose_rock":
+	{
+		"mining": 0.5
+	},
+	"productivebees:bamboo_hive":
+	{
+		"woodcutting": 10.0
+	},
+	"productivebees:birch_wood_nest":
+	{
+		"woodcutting": 10.0
+	},
+	"productivebees:coarse_dirt_nest":
+	{
+		"excavation": 10.0
+	},
+	"productivebees:dark_oak_wood_nest":
+	{
+		"woodcutting": 10.0
+	},
+	"productivebees:end_stone_nest":
+	{
+		"mining": 10.0
+	},
+	"productivebees:glowstone_nest":
+	{
+		"mining": 10.0
+	},
+	"productivebees:gravel_nest":
+	{
+		"excavation": 10.0
+	},
+	"productivebees:jungle_wood_nest":
+	{
+		"woodcutting": 10.0
+	},
+	"productivebees:nether_brick_nest":
+	{
+		"mining": 10.0
+	},
+	"productivebees:nether_gold_nest":
+	{
+		"mining": 10.0
+	},
+	"productivebees:nether_quartz_nest":
+	{
+		"mining": 10.0
+	},
+	"productivebees:oak_wood_nest":
+	{
+		"woodcutting": 10.0
+	},
+	"productivebees:obsidian_nest":
+	{
+		"mining": 10.0
+	},
+	"productivebees:sand_nest":
+	{
+		"excavation": 10.0
+	},
+	"productivebees:slimy_nest":
+	{
+		"excavation": 10.0
+	},
+	"productivebees:snow_nest":
+	{
+		"excavation": 10.0
+	},
+	"productivebees:soul_sand_nest":
+	{
+		"excavation": 10.0
+	},
+	"productivebees:spruce_wood_nest":
+	{
+		"woodcutting": 10.0
+	},
+	"productivebees:stone_nest":
+	{
+		"mining": 10.0
+	},
+	"productivebees:sugar_cane_nest":
+	{
+		"woodcutting": 10.0
+	},
+	"productivebees:sugarbag_nest":
+	{
+		"woodcutting": 10.0
+	},
+	"quark:basalt":
+	{
+		"mining": 2.0
+	},
+	"quark:biotite_ore":
+	{
+		"mining": 25.0
+	},
+	"quark:blue_blossom_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"quark:blue_blossom_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"quark:brimstone":
+	{
+		"mining": 2.0
+	},
+	"quark:lavender_blossom_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"quark:lavender_blossom_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"quark:limestone":
+	{
+		"mining": 2.0
+	},
+	"quark:marble":
+	{
+		"mining": 4.0
+	},
+	"quark:myalite":
+	{
+		"mining": 4.0
+	},
+	"quark:orange_blossom_leaves":
+	{
+		"crafting": 0.75
+	},
+	"quark:orange_blossom_sapling":
+	{
+		"crafting": 2.0
+	},
+	"quark:permafrost":
+	{
+		"mining": 4.0
+	},
+	"quark:pink_blossom_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"quark:pink_blossom_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"quark:potted_beetroot":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_berries":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_blue_blossom_sapling":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_carrot":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_cave_root":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_chorus":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_cocoa_bean":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_glowshroom":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_grass":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_large_fern":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_lavender_blossom_sapling":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_lilac":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_melon":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_nether_sprouts":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_nether_wart":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_orange_blossom_sapling":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_peony":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_pink_blossom_sapling":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_potato":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_pumpkin":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_red_blossom_sapling":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_rose":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_sea_pickle":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_sugar_cane":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_sunflower":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_tall_grass":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_twisting_vines":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_vine":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_weeping_vines":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_wheat":
+	{
+		"farming": 1.0
+	},
+	"quark:potted_yellow_blossom_sapling":
+	{
+		"farming": 1.0
+	},
+	"quark:red_blossom_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"quark:red_blossom_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"quark:slate":
+	{
+		"mining": 1.0
+	},
+	"quark:yellow_blossom_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"quark:yellow_blossom_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:apple_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:apple_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:apricot_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:apricot_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:banana_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:banana_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:barley_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:barley_hay_block":
+	{
+		"farming": 2.0
+	},
+	"simplefarming:blackberry_bush":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:blueberry_bush":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:broccoli_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:cactus_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:cantaloupe_block":
+	{
+		"farming": 3.0
+	},
+	"simplefarming:cantaloupe_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:carrot_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:cassava_crop":
+	{
+		"woodcutting": 0.5
+	},
+	"simplefarming:cherry_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:cherry_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:chicory":
+	{
+		"farming": 1.5
+	},
+	"simplefarming:corn_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:cotton_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:cucumber_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:cumin":
+	{
+		"farming": 1.5
+	},
+	"simplefarming:eggplant_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:fruit_log":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:ginger_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:grape_block":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:grape_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:grape_leaves_base":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:grape_plant":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:honeydew_block":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:honeydew_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:kenaf_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:lettuce_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:mango_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:mango_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:melon_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:oat_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:oat_hay_block":
+	{
+		"farming": 3.0
+	},
+	"simplefarming:olive_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:olive_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:onion_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:orange_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:orange_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:pea_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:peanut_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:pear_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:pear_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:pepper_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:plum_leaves":
+	{
+		"woodcutting": 0.75
+	},
+	"simplefarming:plum_sapling":
+	{
+		"woodcutting": 2.0
+	},
+	"simplefarming:potato_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:pumpkin_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:quinoa":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:radish_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:raspberry_bush":
+	{
+		"farming": 2.0
+	},
+	"simplefarming:rice_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:rice_hay_block":
+	{
+		"farming": 3.0
+	},
+	"simplefarming:rye_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:rye_hay_block":
+	{
+		"farming": 3.0
+	},
+	"simplefarming:sorghum_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:soybean_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:spinach_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:squash_block":
+	{
+		"farming": 3.0
+	},
+	"simplefarming:squash_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:strawberry_bush":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:sunflower":
+	{
+		"farming": 2.0
+	},
+	"simplefarming:sweet_potato_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:tomato_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:turnip_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:wild_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:yam_crop":
+	{
+		"farming": 0.5
+	},
+	"simplefarming:zucchini_crop":
+	{
+		"farming": 0.5
+	},
+	"terraincognita:alpine_pink":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:apple":
+	{
+		"farming": 4.0
+	},
+	"terraincognita:apple_leaves":
+	{
+		"woodcutting": 1.0
+	},
+	"terraincognita:apple_log":
+	{
+		"woodcutting": 5.0
+	},
+	"terraincognita:apple_planks":
+	{
+		"woodcutting": 2.0
+	},
+	"terraincognita:apple_sapling":
+	{
+		"woodcutting": 0.5
+	},
+	"terraincognita:apple_wood":
+	{
+		"woodcutting": 5.0
+	},
+	"terraincognita:arctic_poppy":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:black_iris":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:blossoming_apple_hedge":
+	{
+		"woodcutting": 2.0
+	},
+	"terraincognita:blossoming_apple_leaves":
+	{
+		"woodcutting": 2.0
+	},
+	"terraincognita:blue_iris":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:blue_lupin":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:cattail":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:chicory":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:dandelion_puff":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:edelweiss":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:fireweed":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:forget_me_not":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:gentian":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:hanging_moss":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:magenta_snapdragon":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:marigold":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:peat":
+	{
+		"excavation": 1.0
+	},
+	"terraincognita:pink_lotus":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_alpine_pink":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_apple_sapling":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_arctic_poppy":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_black_iris":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_blue_iris":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_blue_lupin":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_cattail":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_chicory":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_dandelion_puff":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_edelweiss":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_fireweed":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_forget_me_not":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_gentian":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_magenta_snapdragon":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_marigold":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_purple_iris":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_red_snapdragon":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_reeds":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_rockfoil":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_tall_fireweed":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_water_flag":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_white_rhododendron":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_yarrow":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:potted_yellow_snapdragon":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:purple_iris":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:red_snapdragon":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:reeds":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:rockfoil":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:roots":
+	{
+		"woodcutting": 1.0
+	},
+	"terraincognita:small_lilypad":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:stripped_apple_log":
+	{
+		"woodcutting": 2.0
+	},
+	"terraincognita:stripped_apple_post":
+	{
+		"woodcutting": 2.0
+	},
+	"terraincognita:stripped_apple_wood":
+	{
+		"woodcutting": 2.0
+	},
+	"terraincognita:tall_fireweed":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:tilled_peat":
+	{
+		"excavation": 1.0
+	},
+	"terraincognita:vertical_apple_planks":
+	{
+		"woodcutting": 1.0
+	},
+	"terraincognita:water_flag":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:white_lotus":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:white_rhododendron":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:wicker_mat":
+	{
+		"woodcutting": 1.5
+	},
+	"terraincognita:yarrow":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:yellow_lotus":
+	{
+		"farming": 1.0
+	},
+	"terraincognita:yellow_snapdragon":
+	{
+		"farming": 1.0
+	},
+	"vanillafoodpantry:natron_ore":
+	{
+		"mining": 7.0
+	},
+	"vanillafoodpantry:rock_salt_ore":
+	{
+		"mining": 8.0
+	},
+	"vanillafoodpantry:rock_salt_ore_nether":
+	{
+		"mining": 8.0
+	},
+	"vanillafoodpantry:trona_ore":
+	{
+		"mining": 20.0
+	},
+	"veggie_way:plant_corn":
+	{
+		"farming": 5.0
+	},
+	"veggie_way:plant_lentil":
+	{
+		"farming": 4.0
+	},
+	"veggie_way:plant_quinoa":
+	{
+		"farming": 4.0
+	},
+	"veggie_way:plant_soybean":
+	{
+		"farming": 4.0
+	},
+	"waystones:mossy_waystone":
+	{
+		"mining": 10.0
+	},
+	"waystones:sandy_waystone":
+	{
+		"mining": 10.0
+	},
+	"waystones:waystone":
+	{
+		"mining": 10.0
+	}
+}
