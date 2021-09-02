@@ -62,6 +62,9 @@ costOfWood.put("immersiveengineering:treated_wood_horizontal",2.0 as double);
 typeOfWood.put("immersiveengineering:treated_wood_horizontal","treated");
 costOfWood.put("tetra:modular_double",256.0 as double); // priced out of range
 typeOfWood.put("tetra:modular_double","minecraft:spruce_planks");
+costOfWood.put("pamhc2foodcore:creamitem",256.0 as double); // priced out of range
+typeOfWood.put("pamhc2foodcore:creamitem","any");
+
 for special_plank in [
         "quark:white_stained_planks",
         "quark:orange_stained_planks",
