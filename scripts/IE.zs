@@ -1,7 +1,11 @@
-
 // ARC FURNACE
 craftingTable.removeRecipe(<item:refinedstorage:quartz_enriched_iron>);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("quartz_enriched_iron", <item:minecraft:iron_ingot>, [<item:minecraft:quartz>*2], 400, 400*512, [<item:refinedstorage:quartz_enriched_iron>],<item:immersiveengineering:slag>);
+
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("plastic_from_dryrubber_in_arc", <item:industrialforegoing:dryrubber>, [], 100, 100*512, [<item:industrialforegoing:plastic>]);
+
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_dust",   <item:bigreactors:graphite_dust>,      [],                        100, 100*512, [<item:bigreactors:graphite_ingot>]);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("graphite_ingot_from_quartz", <item:immersiveengineering:coal_coke>, [<item:minecraft:quartz>], 400, 400*512, [<item:bigreactors:graphite_ingot>],<item:immersiveengineering:slag>);
 
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("brick_from_clay_brick",   <item:notreepunching:clay_brick>,      [],                        100, 100*512, [<item:minecraft:brick>]);
 <recipetype:immersiveengineering:arc_furnace>.addRecipe("nether_brick_from_netherrack",   <item:minecraft:netherrack>,      [],                        100, 100*512, [<item:minecraft:nether_brick>]);
@@ -18,12 +22,17 @@ craftingTable.addShaped("arc_furnace_sand", <item:engineersdecor:dense_grit_sand
 
 // METAL PRESS
 
+<recipetype:immersiveengineering:metal_press>.addRecipe("plastic_from_dryrubber_in_press", <item:industrialforegoing:dryrubber>, <item:immersiveengineering:mold_plate>, 2400, <item:industrialforegoing:plastic>);
 <recipetype:immersiveengineering:metal_press>.addRecipe("clay_brick_from_clay_block_in_press", <item:minecraft:clay>, <item:immersiveengineering:mold_unpacking>, 2400, <item:notreepunching:clay_brick>*4);
+<recipetype:immersiveengineering:metal_press>.addRecipe("diamond_gear_from_diamonds_in_press", <item:minecraft:diamond>*4, <item:immersiveengineering:mold_gear>, 2400, <item:titanium:diamond_gear>);
 
 // SQUEEZER
 <recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking", <item:minecraft:glass_bottle>, 12800, <item:quark:clear_shard>*4);
+<recipetype:immersiveengineering:squeezer>.addRecipe("bottle_breaking_essence", <item:minecraft:experience_bottle>, 12800, <fluid:industrialforegoing:essence> * 250, <item:quark:clear_shard>*4);
 
 // RANDOM STUFF (extreme reactors)
+furnace.removeRecipe(<item:bigreactors:graphite_block>);
+blastFurnace.removeRecipe(<item:bigreactors:graphite_block>);
 <tag:items:natural-progression:override_pickaxes>.add(<item:immersiveengineering:buzzsaw>);
 <tag:items:natural-progression:override_pickaxes>.add(<item:immersiveengineering:wirecutter>);
 
