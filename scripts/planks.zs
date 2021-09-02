@@ -18,6 +18,7 @@ println("BEGIN planks.zs");
 removeAndHide(<item:natural-progression:flint_hatchet>);
 craftingTable.removeByRegex('.*axe.stripped_.*');
 craftingTable.removeByRegex('.*saw.*stripped_.*');
+craftingTable.removeByRegex('byg.*_planks');
 
 //Create Saw tag
 <tag:items:forge:saws>.add(<tag:items:notreepunching:saws>);
@@ -110,7 +111,38 @@ val needs_fixing = {
     "betterendforge:helix_tree_planks"       : <tag:items:betterendforge:helix_tree_logs>.asIIngredient(),
     "betterendforge:umbrella_tree_planks"    : <tag:items:betterendforge:umbrella_tree_logs>.asIIngredient(),
     "betterendforge:jellyshroom_planks"      : <tag:items:betterendforge:jellyshroom_logs>.asIIngredient(),
-    "betterendforge:lucernia_planks"         : <tag:items:betterendforge:lucernia_logs>.asIIngredient()
+    "betterendforge:lucernia_planks"         : <tag:items:betterendforge:lucernia_logs>.asIIngredient(),
+
+    "byg:aspen_planks"              : <tag:items:byg:aspen_logs>.asIIngredient(),
+    "byg:baobab_planks"             : <tag:items:byg:baobab_logs>.asIIngredient(),
+    "byg:blue_enchanted_planks"     : <tag:items:byg:blue_enchanted_logs>.asIIngredient(),
+    "byg:bulbis_planks"             : <tag:items:byg:bulbis_stems>.asIIngredient(),
+    "byg:cherry_planks"             : <tag:items:byg:cherry_logs>.asIIngredient(),
+    "byg:cika_planks"               : <tag:items:byg:cika_logs>.asIIngredient(),
+    "byg:cypress_planks"            : <tag:items:byg:cypress_logs>.asIIngredient(),
+    "byg:ebony_planks"              : <tag:items:byg:ebony_logs>.asIIngredient(),
+    "byg:ether_planks"              : <tag:items:byg:ether_logs>.asIIngredient(),
+    "byg:fir_planks"                : <tag:items:byg:fir_logs>.asIIngredient(),
+    "byg:green_enchanted_planks"    : <tag:items:byg:green_enchanted_logs>.asIIngredient(),
+    "byg:holly_planks"              : <tag:items:byg:holly_logs>.asIIngredient(),
+    "byg:imparius_planks"           : <tag:items:byg:imparius_stems>.asIIngredient(),
+    "byg:jacaranda_planks"          : <tag:items:byg:jacaranda_logs>.asIIngredient(),
+    "byg:lament_planks"             : <tag:items:byg:lament_logs>.asIIngredient(),
+    "byg:mahogany_planks"           : <tag:items:byg:mahogany_logs>.asIIngredient(),
+    "byg:mangrove_planks"           : <tag:items:byg:mangrove_logs>.asIIngredient(),
+    "byg:maple_planks"              : <tag:items:byg:maple_logs>.asIIngredient(),
+    "byg:nightshade_planks"         : <tag:items:byg:nightshade_logs>.asIIngredient(),
+    "byg:palm_planks"               : <tag:items:byg:palm_logs>.asIIngredient(),
+    "byg:pine_planks"               : <tag:items:byg:pine_logs>.asIIngredient(),
+    "byg:rainbow_eucalyptus_planks" : <tag:items:byg:rainbow_eucalyptus_logs>.asIIngredient(),
+    "byg:redwood_planks"            : <tag:items:byg:redwood_logs>.asIIngredient(),
+    "byg:skyris_planks"             : <tag:items:byg:skyris_logs>.asIIngredient(),
+    "byg:willow_planks"             : <tag:items:byg:willow_logs>.asIIngredient(),
+    "byg:witch_hazel_planks"        : <tag:items:byg:witch_hazel_logs>.asIIngredient(),
+    "byg:zelkova_planks"            : <tag:items:byg:zelkova_logs>.asIIngredient(),
+    "byg:sythian_planks"            : <tag:items:byg:sythian_stems>.asIIngredient(),
+    "byg:embur_planks"              : <tag:items:byg:embur_pedus>.asIIngredient()
+
 } as IIngredient[string];
 
 // every log to plank changed to axe/saw recipes.
