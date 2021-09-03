@@ -1,4 +1,3 @@
-
 import crafttweaker.api.BracketHandlers;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.mods.Mods;
@@ -37,20 +36,20 @@ println("BEGIN furnace.metal_processing");
 // remove making dust from ores in crafting table
 var removeList = new List<string>();
 for wrapper in craftingTable.getRecipesByOutput(<tag:items:forge:dusts>) {
-    if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>) {
-        removeList.add(wrapper.id);
-    }
+	if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>) {
+		removeList.add(wrapper.id);
+	}
 }
 for recipeName in removeList {
-    craftingTable.removeByName(recipeName);
+	craftingTable.removeByName(recipeName);
 }
 
 // remove processing ores in furnace
 for wrapper in furnace.getAllRecipes() {
-    if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>.getElements()) {
-        if (REMOVE_ALL_INGOTS_FROM_FURNACE) { furnace.removeRecipe(wrapper.output); }
-        else { furnace.removeByName(wrapper.id); }
-    }
+	if (wrapper.ingredients[0].items[0] in <tag:items:forge:ores>.getElements()) {
+		if (REMOVE_ALL_INGOTS_FROM_FURNACE) { furnace.removeRecipe(wrapper.output); }
+		else { furnace.removeByName(wrapper.id); }
+	}
 }
 
 // move melting items into nuggets from furnace into blast furnace
@@ -63,64 +62,66 @@ for wrapper in furnace.getAllRecipes() {
 // then the item is a quark trowel, because that's the only thing this whole section manages to find
 // but let's keep it, in case mods change, cause this code will catch that.
 for furnaceWrapper in furnace.getAllRecipes() {
-    if (furnaceWrapper.output in <tag:items:forge:nuggets>.getElements()) {
-        val nugget = furnaceWrapper.output;
-        val blastRecipes = blastFurnace.getRecipesByOutput(nugget);
-        // println("Evaluating furnace recipe that outputs: "+nugget.displayName);
-        for furnaceIngredient in furnaceWrapper.ingredients {
-            for furnaceItem in furnaceIngredient.items {
-                // println("Evaluating furnace recipe that converts "+furnaceItem.displayName+" into "+nugget.displayName);
-                var foundInBlastFurnace = false;
-                for blastWrapper in blastRecipes {
-                    for blastIngredient in blastWrapper.ingredients {
-                        for blastItem in blastIngredient.items {
-                            foundInBlastFurnace = foundInBlastFurnace || (blastItem.matches(furnaceItem));
-                        }
-                    }
-                }
-                if (!foundInBlastFurnace) {
-                    //println("Couldn\'t find blast furnace recipe that converts "+furnaceItem.displayName+" into "+nugget.displayName+", adding it.");
-                    blastFurnace.addRecipe("melt."+furnaceItem.translationKey,nugget,furnaceItem,0.1,5*20);
-                }
-            }
-        }
-    }
+	if (furnaceWrapper.output in <tag:items:forge:nuggets>.getElements()) {
+		val nugget = furnaceWrapper.output;
+		val blastRecipes = blastFurnace.getRecipesByOutput(nugget);
+		// println("Evaluating furnace recipe that outputs: "+nugget.displayName);
+		for furnaceIngredient in furnaceWrapper.ingredients {
+			for furnaceItem in furnaceIngredient.items {
+				// println("Evaluating furnace recipe that converts "+furnaceItem.displayName+" into "+nugget.displayName);
+				var foundInBlastFurnace = false;
+				for blastWrapper in blastRecipes {
+					for blastIngredient in blastWrapper.ingredients {
+						for blastItem in blastIngredient.items {
+							foundInBlastFurnace = foundInBlastFurnace || (blastItem.matches(furnaceItem));
+						}
+					}
+				}
+				if (!foundInBlastFurnace) {
+					//println("Couldn\'t find blast furnace recipe that converts "+furnaceItem.displayName+" into "+nugget.displayName+", adding it.");
+					blastFurnace.addRecipe("melt."+furnaceItem.translationKey,nugget,furnaceItem,0.1,5*20);
+				}
+			}
+		}
+	}
 }
 // this is part of the above, but pulled out of the loop in case more than one recipe makes the same nugget.
 for furnaceWrapper in furnace.getAllRecipes() {
-    if (furnaceWrapper.output in <tag:items:forge:nuggets>.getElements()) {
-        furnace.removeRecipe(furnaceWrapper.output);
-    }
+	if (furnaceWrapper.output in <tag:items:forge:nuggets>.getElements()) {
+		furnace.removeRecipe(furnaceWrapper.output);
+	}
 }
 
 println("END furnace.metal_processing");
 
 // FOODS
 println("BEGIN furnace.food_processing");
+
 // tofu wasn't a food item, so fixing before moving foods to smoker.
 removeFromList([blastFurnace,campfire,furnace,smoker],<item:simplefarming:tofu>);
 craftingTable.addShapeless("fresh_tofu",<item:simplefarming:tofu>,[<tag:items:forge:buckets/water>,<tag:items:forge:crops/soybean>]);
+
 // remove food from furnace (if REMOVE_FOOD_FROM_FURNACE is true), moving to smoker if not present.
 for furnaceWrapper in furnace.getAllRecipes() {
-    if (furnaceWrapper.output.food != null) {
-        val smokerRecipes = smoker.getRecipesByOutput(furnaceWrapper.output);
-        for furnaceIngredient in furnaceWrapper.ingredients {
-            for furnaceItem in furnaceIngredient.items {
-                var foundInSmoker = false;
-                for smokerWrapper in smokerRecipes {
-                    for smokerIngredient in smokerWrapper.ingredients {
-                        for smokerItem in smokerIngredient.items {
-                            foundInSmoker = foundInSmoker || (smokerItem.matches(furnaceItem));
-                        }
-                    }
-                }
-                if (!foundInSmoker) {
-                    smoker.addRecipe("food."+furnaceItem.translationKey,furnaceWrapper.output,furnaceItem,0.1,5*20);
-                }
-            }
-        }
-        if (REMOVE_FOOD_FROM_FURNACE) { furnace.removeByName(furnaceWrapper.id.toString()); }
-    }
+	if (furnaceWrapper.output.food != null) {
+		val smokerRecipes = smoker.getRecipesByOutput(furnaceWrapper.output);
+		for furnaceIngredient in furnaceWrapper.ingredients {
+			for furnaceItem in furnaceIngredient.items {
+				var foundInSmoker = false;
+				for smokerWrapper in smokerRecipes {
+					for smokerIngredient in smokerWrapper.ingredients {
+						for smokerItem in smokerIngredient.items {
+							foundInSmoker = foundInSmoker || (smokerItem.matches(furnaceItem));
+						}
+					}
+				}
+				if (!foundInSmoker) {
+					smoker.addRecipe("food."+furnaceItem.translationKey,furnaceWrapper.output,furnaceItem,0.1,5*20);
+				}
+			}
+		}
+		if (REMOVE_FOOD_FROM_FURNACE) { furnace.removeByName(furnaceWrapper.id.toString()); }
+	}
 }
 println("END furnace.food_processing");
 
@@ -139,101 +140,106 @@ val blast_furnace_block = <item:minecraft:blast_furnace>;
 
 // may include mods not in the pack.  Will check if mod is loaded before processing
 val recipeGroups = {
-    "Smelting" : {
-        minecraft : "minecraft:smelting",
-        charm : "charm:firing",
-        brickfurnace : "brickfurnace:smelting"
-    },
-    "Blasting" : {
-        minecraft : "minecraft:blasting",
-        brickfurnace : "brickfurnace:blasting"
-    },
-    "Smoking" : {
-        minecraft : "minecraft:smoking",
-        brickfurnace : "brickfurnace:smoking"
-    } } as string[string][string];
+	"Smelting" : {
+		minecraft : "minecraft:smelting",
+		charm : "charm:firing",
+		brickfurnace : "brickfurnace:smelting"
+	},
+	"Blasting" : {
+		minecraft : "minecraft:blasting",
+		brickfurnace : "brickfurnace:blasting"
+	},
+	"Smoking" : {
+		minecraft : "minecraft:smoking",
+		brickfurnace : "brickfurnace:smoking"
+	} } as string[string][string];
 val defaultValues = {
-    "Smelting" : { xp : 0.1, cookTime :  5*20 },
-    "Blasting" : { xp : 0.2, cookTime :2.5*20 },
-    "Smoking"  : { xp : 0.2, cookTime :2.5*20 }
+	"Smelting" : { xp : 0.1, cookTime :  5*20 },
+	"Blasting" : { xp : 0.2, cookTime :2.5*20 },
+	"Smoking"  : { xp : 0.2, cookTime :2.5*20 }
 };
 
 val blockRecipes = {
-        minecraft : {
-            "minecraft:furnace" : [[cobble,cobble,cobble],[cobble,air,cobble],[cobble,cobble,cobble]],
-            "minecraft:blast_furnace" : [[clay_plate,clay_plate,clay_plate],[clay_plate,furnace_block,clay_plate],[smooth_stone,smooth_stone,smooth_stone]],
-            "minecraft:smoker" : [[air,log,air],[log,furnace_block,log],[air,log,air]]
-        },
-        charm : {
-            "charm:kiln" : [[air,brick_block,air],[brick_block,furnace_block,brick_block],[air,brick_block,air]]
-        },
-        brickfurnace : {
-            "brickfurnace:brick_furnace" : [[brick,brick,brick],[brick,furnace_block,brick],[terracotta,terracotta,terracotta]],
-            "brickfurnace:brick_blast_furnace" : [[clay_plate,clay_plate,clay_plate],[clay_plate,blast_furnace_block,clay_plate],[terracotta,terracotta,terracotta]],
-            "brickfurnace:brick_smoker" : [[brick,brick,brick],[brick,smoker_block,brick],[brick,brick,brick]]
-        } } as IIngredient[][][string][string];
+	minecraft : {
+		"minecraft:furnace" : [[cobble,cobble,cobble],[cobble,air,cobble],[cobble,cobble,cobble]],
+		"minecraft:blast_furnace" : [[clay_plate,clay_plate,clay_plate],[clay_plate,furnace_block,clay_plate],[smooth_stone,smooth_stone,smooth_stone]],
+		"minecraft:smoker" : [[air,log,air],[log,furnace_block,log],[air,log,air]]
+	},
+	charm : {
+		"charm:kiln" : [[air,brick_block,air],[brick_block,furnace_block,brick_block],[air,brick_block,air]]
+	},
+	brickfurnace : {
+		"brickfurnace:brick_furnace" : [[brick,brick,brick],[brick,furnace_block,brick],[terracotta,terracotta,terracotta]],
+		"brickfurnace:brick_blast_furnace" : [[clay_plate,clay_plate,clay_plate],[clay_plate,blast_furnace_block,clay_plate],[terracotta,terracotta,terracotta]],
+		"brickfurnace:brick_smoker" : [[brick,brick,brick],[brick,smoker_block,brick],[brick,brick,brick]]
+	} } as IIngredient[][][string][string];
+
+furnace.removeByName("minecraft:glass");
+furnace.addJSONRecipe("red_stained_glass_from_sand", {ingredient:{item:"minecraft:red_sand"},result:"minecraft:red_stained_glass",experience:0.1 as float,cookingtime:100 as int});
 
 // move recipes
 for group, groupData in recipeGroups {      //println("Iterating "+group+" recipes.");
-    for modid, recipe_type in groupData {   //println("* Iterating recipes for "+modid+".");
-        if loadedMods.isModLoaded(modid) {  //println("* * "+modid+" is loaded.");
-            if (modid != "minecraft" && bricksAreBetter && "minecraft" in groupData) { //println("* * Bricks are Better.");
-                val vanillaManager = BracketHandlers.getRecipeManager(groupData["minecraft"]);
-                //println("MANAGER: "+recipe_type);
-                val moddedManager = BracketHandlers.getRecipeManager(recipe_type);
-                for wrapper in vanillaManager.getAllRecipes() {
-                    val output = wrapper.output;
-                    //println("* * Reviewing recipe for "+output.translationKey);
-                    val xp = defaultValues[group]["xp"];           // can't figure out how to access this data!
-                    val time = defaultValues[group]["cookTime"];    // doesn't seem possible to get
-                    val moddedRecipes = moddedManager.getRecipesByOutput(output);
-                    for vanillaIngredient in wrapper.ingredients {
-                        for vanillaItem in vanillaIngredient.items {
-                            var existingRecipe = false;
-                            //println("* * Reviewing ingredient "+vanillaItem.translationKey);
-                            for moddedWrapper in moddedRecipes {
-                                for moddedIngredient in moddedWrapper.ingredients {
-                                    for moddedItem in moddedIngredient.items {
-                                        existingRecipe = existingRecipe || (moddedItem.matches(vanillaItem));
-                                    }
-                                }
-                            }
-                            if (!existingRecipe) {
-                                moddedManager.addJSONRecipe(validName(modid)+"."+validName(vanillaItem.registryName), {ingredient:{item:vanillaItem.registryName},result:output.registryName,experience:xp as float,cookingtime:time as int});
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+	for modid, recipe_type in groupData {   //println("* Iterating recipes for "+modid+".");
+		if loadedMods.isModLoaded(modid) {  //println("* * "+modid+" is loaded.");
+			if (modid != "minecraft" && bricksAreBetter && "minecraft" in groupData) { //println("* * Bricks are Better.");
+				val vanillaManager = BracketHandlers.getRecipeManager(groupData["minecraft"]);
+				//println("MANAGER: "+recipe_type);
+				val moddedManager = BracketHandlers.getRecipeManager(recipe_type);
+				for wrapper in vanillaManager.getAllRecipes() {
+					val output = wrapper.output;
+					//println("* * Reviewing recipe for "+output.translationKey);
+					val xp = defaultValues[group]["xp"];           // can't figure out how to access this data!
+					val time = defaultValues[group]["cookTime"];    // doesn't seem possible to get
+					val moddedRecipes = moddedManager.getRecipesByOutput(output);
+					for vanillaIngredient in wrapper.ingredients {
+						for vanillaItem in vanillaIngredient.items {
+							var existingRecipe = false;
+							//println("* * Reviewing ingredient "+vanillaItem.translationKey);
+							for moddedWrapper in moddedRecipes {
+								for moddedIngredient in moddedWrapper.ingredients {
+									for moddedItem in moddedIngredient.items {
+										existingRecipe = existingRecipe || (moddedItem.matches(vanillaItem));
+									}
+								}
+							}
+							if (!existingRecipe) {
+								moddedManager.addJSONRecipe("furnace.zs."+validName(modid)+"."+validName(vanillaItem.registryName), {ingredient:{item:vanillaItem.registryName},result:output.registryName,experience:xp as float,cookingtime:time as int});
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 // change block recipes
 for modid, blockData in blockRecipes {
-    if loadedMods.isModLoaded(modid) {
-        for block_id, recipe in blockData {
-            val item = BracketHandlers.getItem(block_id);
-            craftingTable.removeRecipe(item);
-            craftingTable.addShaped(validName(block_id), item, recipe);
-        }
-    }
+	if loadedMods.isModLoaded(modid) {
+		for block_id, recipe in blockData {
+			val item = BracketHandlers.getItem(block_id);
+			craftingTable.removeRecipe(item);
+			craftingTable.addShaped(validName(block_id), item, recipe);
+		}
+	}
 }
 
 // remove furnace recipes IF there is another option in that recipeGroup
 if (bricksAreBetter && recipeGroups["Smelting"].size>1) { // size > 1 only checks if more than minecraft is listed.  It doesn't mean any of the listed mods are present.
-    val manager = BracketHandlers.getRecipeManager(recipeGroups["Smelting"]["minecraft"]);
-    manager.removeRecipe(<item:minecraft:brick>);
-    manager.removeRecipe(<item:notreepunching:ceramic_large_vessel>);
-    manager.removeRecipe(<item:notreepunching:ceramic_small_vessel>);
-    manager.removeRecipe(<item:notreepunching:ceramic_bucket>);
-    manager.removeRecipe(<item:minecraft:flower_pot>);
+	val manager = BracketHandlers.getRecipeManager(recipeGroups["Smelting"]["minecraft"]);
+	manager.removeRecipe(<item:minecraft:brick>);
+	manager.removeRecipe(<item:notreepunching:ceramic_large_vessel>);
+	manager.removeRecipe(<item:notreepunching:ceramic_small_vessel>);
+	manager.removeRecipe(<item:notreepunching:ceramic_bucket>);
+	manager.removeRecipe(<item:minecraft:flower_pot>);
 	manager.removeRecipe(<item:minecraft:nether_brick>);
 	manager.removeRecipe(<item:minecraft:smooth_sandstone>);
 	manager.removeRecipe(<item:minecraft:smooth_red_sandstone>);
 	manager.removeRecipe(<item:minecraft:glass>);
 	manager.removeRecipe(<item:minecraft:glass>);
-    // manager.removeRecipe(<item:minecraft:terracotta>);
+	manager.removeByRegex('.*glass_from_sand');
+
+	// manager.removeRecipe(<item:minecraft:terracotta>);
 	manager.removeRecipe(<item:minecraft:sandstone>);
 	manager.removeRecipe(<item:minecraft:red_sandstone>);
 	manager.removeRecipe(<item:minecraft:light_gray_glazed_terracotta>);
