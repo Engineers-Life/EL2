@@ -146,4 +146,8 @@ changeIngredientsToTag([<item:vanillafoodpantry:leavening_agent_ball>],<tag:item
 changeIngredientWithConversion(<item:pamhc2foodcore:friedeggitem>,<item:vanillafoodpantry:fried_egg>);
 removeAndHide(<item:pamhc2foodcore:friedeggitem>);
 
+craftingTable.removeRecipe(<item:farmersdelight:egg_sandwich>);
+craftingTable.addShapeless("conflicts.egg_sandwich",<item:farmersdelight:egg_sandwich>,[<tag:items:forge:bread>,<tag:items:forge:foods/cooked_eggs>]);
+removeFromListAndHide([campfire,furnace,smoker,<recipetype:charm:firing>],<item:farmersdelight:fried_egg>);
+
 println("END conflicts.zs");
