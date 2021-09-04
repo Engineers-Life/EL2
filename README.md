@@ -21,6 +21,7 @@ Added Mods:
 	Puzzles Lib
 	Simply Seasons
 	Structures Compass
+	Total Darkness
 	Visual Workbench
 	
 Removed Mods:
