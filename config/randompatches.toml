@@ -140,7 +140,7 @@
 		# The path to the 256x256 Minecraft window icon relative to the Minecraft instance directory.
 		# This is only used on Mac OS X.
 		# Default: ""
-		icon_256x256 = ""
+		icon_256x256 = "icons/icon.png"
 
 # Options related to connection timeouts.
 [connection_timeouts]

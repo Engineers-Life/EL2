@@ -16,6 +16,8 @@
 	#At what durability percentage should the xp bonus start going down from? (75 means that at 75% durability or above, the xp bonus will be max, and at 37.5%, the xp boost will be half
 	#Range: 0.0 ~ 100.0
 	scaleXpBoostByDurabilityEnd = 75.0
+	#Should right click xp be enabled?
+	rightClickXpEnabled = true
 
 [Party]
 	#In what range do Party members have to be to benefit from the other members?

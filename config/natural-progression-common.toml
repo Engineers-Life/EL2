@@ -39,5 +39,5 @@
 	#A list of 'modid:block' that represent blocks that pebbles can be placed on.
 	pebblePlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice", "minecraft:bedrock"]
 	#A list of 'modid:block' that represent blocks that twigs can be placed on.
-	twigPlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice", "minecraft:bedrock","minecraft:end_stone"]
+	twigPlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice", "minecraft:bedrock", "minecraft:end_stone"]
 
