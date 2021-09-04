@@ -1,0 +1,76 @@
+
+[dynamic_lighting_settings]
+	#
+	# If enabled, vanilla mobs and items will recieve dynamic lighting. If disabled, only objects specified by external mods or configs will recieve dynamic lighting.
+	vanillaDynamicLighting = true
+	#
+	# The amount of times light tries to refresh in a single second. Higher values refresh more often, looking smoother at the cost of performance.
+	#Range: 1 ~ 20
+	lightRefreshRate = 20
+	#
+	# Determines how far away you should be able to see light from an entity (measured in blocks). 0 for infinite distance. Use this to prevent far away entities from causing light updates.
+	#Range: 0 ~ 1024
+	maxVisibleDistance = 128
+	#
+	# Determines if dynamic lighting should still occur when an entity is behind a wall. Turning this on may impact performance, but allows light to be seen around corners from far away. Entities within 24 blocks will always emit light.
+	seeThroughWalls = false
+	#
+	# Determines if dynamic lighting smoothly blends as you move. Works best with a high refresh rate. Will result in worse performance since lighting updates typically happen more often.
+	smoothBlending = true
+	#
+	# If enabled, allows chunks with dynamic lighting to be queued to render on the Chunk Update thread. Improves FPS, but may cause strange rendering glitches (Does nothing if Optifine is installed).
+	threadedRendering = true
+
+	[dynamic_lighting_settings.entity_lighting]
+		#
+		# Sets the light level of entities. Allows for adding modded entities. Set the light to -1 to unregister it.
+		# Example: ["minecraft:blaze=9", "minecraft:creeper=5"]
+		entityBrightnessOverrides = []
+
+		[dynamic_lighting_settings.entity_lighting.burning_entities]
+			#
+			# Should entities on fire emit light.
+			burningEntitiesGlow = true
+			#
+			# How bright a burning entity should be.
+			#Range: 0 ~ 15
+			burningEntityLightLevel = 10
+
+		[dynamic_lighting_settings.entity_lighting.glowing_entities]
+			#
+			# Should entities affected with the glowing effect emit light.
+			glowingEntitiesGlow = true
+			#
+			# How bright an entity with the glowing effect be.
+			#Range: 0 ~ 15
+			glowingEntityLightLevel = 5
+
+	[dynamic_lighting_settings.item_lighting]
+		#
+		# Modifies the light level of items. Allows for adding modded items. Set the light to -1 to unregister it.
+		# Example: ["minecraft:torch=14", "minecraft:diamond=10"]
+		itemBrightnessOverrides = []
+		#
+		# Should items in the world emit light.
+		itemEntitiesGlow = true
+		#
+		# Should held or worn items emit light.
+		heldItemsGlow = true
+		#
+		# Should item frames with glowing items emit light.
+		itemFramesGlow = true
+
+[block_emission_settings]
+	#
+	# Should block textures emit light brighter than usual.
+	blockTexturesGlow = true
+	#
+	# Modifies the light level of block textures. Allows for adding modded blocks. Set the light to -1 to unregister it.
+	# Example: ["minecraft:block/end_portal_frame_eye=12", "minecraft:block/stone=4"]
+	blockTextureBrightnessOverrides = []
+
+[debug_settings]
+	#
+	# Logs when an object's light value is registered.
+	logRegisterObjectLighting = false
+
