@@ -1,5 +1,7 @@
 #priority 20
 
+import crafttweaker.api.blocks.MCBlock;
+import crafttweaker.api.BracketHandlers;
 import crafttweaker.api.registries.IRecipeManager;
 
 val scriptName = "metal_processing.zs";
@@ -11,45 +13,55 @@ val gateGeolosysOres = true; // if true, geolosys ores won't smelt directly.
 <tag:items:natural-progression:override_pickaxes>.add(<item:mekanism:meka_tool>);
 <tag:items:natural-progression:override_pickaxes>.add(<item:mekanism:atomic_disassembler>);
 
-// COPPER
-removeAndHide(<item:geolosys:copper_nugget>);
-removeAndHide(<item:mekanism:nugget_copper>);
-removeFromListAndHide([craftingTable,blastFurnace],<item:geolosys:copper_ingot>);
-removeFromListAndHide([craftingTable,blastFurnace,furnace],<item:mekanism:ingot_copper>);
-removeAndHide(<item:mekanism:block_copper>);
-if (!gateGeolosysOres) {
-    blastFurnace.removeByName("immersiveengineering:crafting/ingot_copper_from_blasting");
-    blastFurnace.addRecipe(scriptName+".ingot_copper_from_blasting",<item:immersiveengineering:ingot_copper>,<tag:items:forge:ores/copper>,0.6,5*20);
+function removeBasicDust(scriptName as string, material as string) as void {
+    <recipetype:mekanism:crushing>.removeByName("mekanism:processing/"+material+"/dust/from_ingot");
+    <recipetype:mekanism:enriching>.removeByName("mekanism:processing/"+material+"/dust/from_ore");
+    <recipetype:mekanism:enriching>.removeByName("mekanism:processing/"+material+"/dust/from_dirty_dust");
+    <recipetype:mekanism:crushing>.addJSONRecipe(scriptName+"."+material+".dust/from_ingot", {input:{ingredient:{tag:"forge:ingots/"+material}},output:{item:"immersiveengineering:dust_"+material}});
+    <recipetype:mekanism:enriching>.addJSONRecipe(scriptName+"."+material+".dust/from_ore", {input:{ingredient:{tag:"forge:ores/"+material}},output:{item:"immersiveengineering:dust_"+material,count:2 as int}});
+    <recipetype:mekanism:enriching>.addJSONRecipe(scriptName+"."+material+".dust/from_dirty_dust", {input:{ingredient:{tag:"mekanism:dirty_dusts/"+material}},output:{item:"immersiveengineering:dust_"+material}});
+    removeAndHide(BracketHandlers.getItem("mekanism:dust_"+material));
 }
-<recipetype:mekanism:crushing>.removeByName("mekanism:processing/copper/dust/from_ingot");
-<recipetype:mekanism:enriching>.removeByName("mekanism:processing/copper/dust/from_ore");
-<recipetype:mekanism:enriching>.removeByName("mekanism:processing/copper/dust/from_dirty_dust");
-<recipetype:mekanism:crushing>.addJSONRecipe(scriptName+".copper/dust/from_ingot", {input:{ingredient:{tag:"forge:ingots/copper"}},output:{item:"immersiveengineering:dust_copper"}});
-<recipetype:mekanism:enriching>.addJSONRecipe(scriptName+".copper/dust/from_ore", {input:{ingredient:{tag:"forge:ores/copper"}},output:{item:"immersiveengineering:dust_copper",count:2 as int}});
-<recipetype:mekanism:enriching>.addJSONRecipe(scriptName+".copper/dust/from_dirty_dust", {input:{ingredient:{tag:"mekanism:dirty_dusts/copper"}},output:{item:"immersiveengineering:dust_copper"}});
-removeAndHide(<item:mekanism:dust_copper>);
-<recipetype:mekanism:combining>.addJSONRecipe(scriptName+".copper/ore/from_dust", {mainInput:{amount:8,ingredient:{tag:"forge:dusts/copper"}},extraInput:{ingredient:{tag:"forge:cobblestone"}},output:{item:"immersiveengineering:ore_copper"}});
-removeFromListAndHide([<recipetype:mekanism:combining>],<item:mekanism:copper_ore>);
 
-// LEAD
-removeAndHide(<item:geolosys:lead_nugget>);
-removeAndHide(<item:mekanism:nugget_lead>);
-removeFromListAndHide([craftingTable,blastFurnace],<item:geolosys:lead_ingot>);
-removeFromListAndHide([craftingTable,blastFurnace,furnace],<item:mekanism:ingot_lead>);
-removeAndHide(<item:mekanism:block_lead>);
-if (!gateGeolosysOres) {
-    blastFurnace.removeByName("immersiveengineering:crafting/ingot_lead_from_blasting");
-    blastFurnace.addRecipe(scriptName+".ingot_lead_from_blasting",<item:immersiveengineering:ingot_lead>,<tag:items:forge:ores/lead>,0.6,5*20);
+function removeBlockTags(block as MCBlock) as void {
+    for tag in<tagManager:blocks>.getAllTagsFor(block){
+        tag.remove(block);
+    }
 }
-<recipetype:mekanism:crushing>.removeByName("mekanism:processing/lead/dust/from_ingot");
-<recipetype:mekanism:enriching>.removeByName("mekanism:processing/lead/dust/from_ore");
-<recipetype:mekanism:enriching>.removeByName("mekanism:processing/lead/dust/from_dirty_dust");
-<recipetype:mekanism:crushing>.addJSONRecipe(scriptName+".lead/dust/from_ingot", {input:{ingredient:{tag:"forge:ingots/lead"}},output:{item:"immersiveengineering:dust_lead"}});
-<recipetype:mekanism:enriching>.addJSONRecipe(scriptName+".lead/dust/from_ore", {input:{ingredient:{tag:"forge:ores/lead"}},output:{item:"immersiveengineering:dust_lead",count:2 as int}});
-<recipetype:mekanism:enriching>.addJSONRecipe(scriptName+".lead/dust/from_dirty_dust", {input:{ingredient:{tag:"mekanism:dirty_dusts/lead"}},output:{item:"immersiveengineering:dust_lead"}});
-removeAndHide(<item:mekanism:dust_lead>);
-<recipetype:mekanism:combining>.addJSONRecipe(scriptName+".lead/ore/from_dust", {mainInput:{amount:8,ingredient:{tag:"forge:dusts/lead"}},extraInput:{ingredient:{tag:"forge:cobblestone"}},output:{item:"immersiveengineering:ore_lead"}});
-removeFromListAndHide([<recipetype:mekanism:combining>],<item:mekanism:lead_ore>);
+
+function removeGeoMetal(scriptName as string, material as string) as void{
+    removeAndHide(BracketHandlers.getItem("geolosys:"+material+"_nugget"));
+    removeFromListAndHide([craftingTable,blastFurnace],BracketHandlers.getItem("geolosys:"+material+"_ingot"));
+}
+
+function removeCompleteMetal(scriptName as string, material as string, gateGeolosysOres as bool, hasGeoNuggetIngot as bool) as void {
+    removeBasicDust(scriptName,material);
+    if (hasGeoNuggetIngot) {
+        removeGeoMetal(scriptName,material);
+    }
+    removeAndHide(BracketHandlers.getItem("mekanism:nugget_"+material));
+    removeFromListAndHide([craftingTable,blastFurnace,furnace],BracketHandlers.getItem("mekanism:ingot_"+material));
+    removeBlockTags(BracketHandlers.getBlock("mekanism:block_"+material));
+    removeAndHide(BracketHandlers.getItem("mekanism:block_"+material));
+    if (!gateGeolosysOres) {
+        blastFurnace.removeByName("immersiveengineering:crafting/ingot_"+material+"_from_blasting");
+        blastFurnace.addJSONRecipe(scriptName+".ingot."+material+".from_blasting",{result:"immersiveengineering:ingot_"+material,ingredient:{tag:"forge:ores/"+material},experience:0.6 as float,cookingtime:5*20 as int});
+    }
+    <recipetype:mekanism:combining>.addJSONRecipe(scriptName+"."+material+".ore/from_dust", {mainInput:{amount:8,ingredient:{tag:"forge:dusts/"+material}},extraInput:{ingredient:{tag:"forge:cobblestone"}},output:{item:"immersiveengineering:ore_"+material}});
+    removeFromListAndHide([<recipetype:mekanism:combining>],BracketHandlers.getItem("mekanism:"+material+"_ore"));
+}
+
+for material in ["gold","iron"] {
+    removeBasicDust(scriptName,material);
+}
+
+for material in ["copper","lead"] {
+    removeCompleteMetal(scriptName,material,gateGeolosysOres,true);
+}
+
+for material in ["uranium"] {
+    removeCompleteMetal(scriptName,material,gateGeolosysOres,true);
+}
 
 // STEEL
 removeAndHide(<item:mekanism:nugget_steel>);
@@ -60,24 +72,5 @@ removeAndHide(<item:mekanism:block_steel>);
 <recipetype:mekanism:crushing>.addJSONRecipe(scriptName+".steel/ingot_to_dust", {input:{ingredient:{tag:"forge:ingots/steel"}},output:{item:"immersiveengineering:dust_steel"}});
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe(scriptName+".steel/enriched_iron_to_dust",{itemInput:{ingredient:{item:"mekanism:enriched_iron"}},infusionInput:{amount:10,tag:"mekanism:carbon"},output:{item:"immersiveengineering:dust_steel"}});
 removeAndHide(<item:mekanism:dust_steel>);
-
-// URANIUM
-removeAndHide(<item:mekanism:nugget_uranium>);
-removeFromListAndHide([craftingTable,blastFurnace,furnace],<item:mekanism:ingot_uranium>);
-removeAndHide(<item:mekanism:block_uranium>);
-if (!gateGeolosysOres) {
-    blastFurnace.removeByName("immersiveengineering:crafting/ingot_uranium_from_blasting");
-    blastFurnace.addRecipe(scriptName+".ingot_uranium_from_blasting",<item:immersiveengineering:ingot_uranium>,<tag:items:forge:ores/uranium>,0.6,5*20);
-}
-<recipetype:mekanism:crushing>.removeByName("mekanism:processing/uranium/dust/from_ingot");
-<recipetype:mekanism:enriching>.removeByName("mekanism:processing/uranium/dust/from_ore");
-<recipetype:mekanism:enriching>.removeByName("mekanism:processing/uranium/dust/from_dirty_dust");
-<recipetype:mekanism:crushing>.addJSONRecipe(scriptName+".uranium/dust/from_ingot", {input:{ingredient:{tag:"forge:ingots/uranium"}},output:{item:"immersiveengineering:dust_uranium"}});
-<recipetype:mekanism:enriching>.addJSONRecipe(scriptName+".uranium/dust/from_ore", {input:{ingredient:{tag:"forge:ores/uranium"}},output:{item:"immersiveengineering:dust_uranium",count:2 as int}});
-<recipetype:mekanism:enriching>.addJSONRecipe(scriptName+".uranium/dust/from_dirty_dust", {input:{ingredient:{tag:"mekanism:dirty_dusts/uranium"}},output:{item:"immersiveengineering:dust_uranium"}});
-removeAndHide(<item:mekanism:dust_uranium>);
-<recipetype:mekanism:combining>.addJSONRecipe(scriptName+".uranium/ore/from_dust", {mainInput:{amount:8,ingredient:{tag:"forge:dusts/uranium"}},extraInput:{ingredient:{tag:"forge:cobblestone"}},output:{item:"immersiveengineering:ore_uranium"}});
-removeFromListAndHide([<recipetype:mekanism:combining>],<item:mekanism:uranium_ore>);
-
 
 println("END "+scriptName);
