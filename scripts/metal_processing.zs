@@ -73,4 +73,33 @@ removeAndHide(<item:mekanism:block_steel>);
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe(scriptName+".steel/enriched_iron_to_dust",{itemInput:{ingredient:{item:"mekanism:enriched_iron"}},infusionInput:{amount:10,tag:"mekanism:carbon"},output:{item:"immersiveengineering:dust_steel"}});
 removeAndHide(<item:mekanism:dust_steel>);
 
+// SULFUR
+<recipetype:mekanism:injecting>.removeByName("mekanism:injecting/gunpowder_to_sulfur");
+<recipetype:mekanism:injecting>.addJSONRecipe(scriptName+".injecting/gunpowder_to_sulfur", {itemInput:{ingredient:{tag:"forge:gunpowder"}},gasInput:{amount:1,gas:"mekanism:hydrogen_chloride"},output:{item:"immersiveengineering:dust_sulfur"}});
+<recipetype:mekanism:reaction>.removeByName("mekanism:reaction/coal_gasification/blocks_coals");
+<recipetype:mekanism:reaction>.addJSONRecipe(scriptName+".reaction/coal_gasification/blocks_coals",{
+        itemInput:{ingredient:[{tag:"forge:storage_blocks/coal"},{tag:"forge:storage_blocks/charcoal"}]},
+        fluidInput:{amount:1000,tag:"minecraft:water"},
+        gasInput:{amount:1000,gas:"mekanism:oxygen"},
+        duration:900,
+        itemOutput:{count:9,item:"immersiveengineering:dust_sulfur"},
+        gasOutput:{amount:1000,gas:"mekanism:hydrogen"}});
+<recipetype:mekanism:reaction>.removeByName("mekanism:reaction/coal_gasification/dusts_coals");
+<recipetype:mekanism:reaction>.addJSONRecipe(scriptName+".reaction/coal_gasification/dusts_coals",{
+        itemInput:{ingredient:[{tag:"forge:dusts/coal"},{tag:"forge:dusts/charcoal"}]},
+        fluidInput:{amount:100,tag:"minecraft:water"},
+        gasInput:{amount:100,gas:"mekanism:oxygen"},
+        duration:100,
+        itemOutput:{item:"immersiveengineering:dust_sulfur"},
+        gasOutput:{amount:100,gas:"mekanism:hydrogen"}});
+<recipetype:mekanism:reaction>.removeByName("mekanism:reaction/coal_gasification/coals");
+<recipetype:mekanism:reaction>.addJSONRecipe(scriptName+".reaction/coal_gasification/coals",{
+        itemInput:{ingredient:{tag:"minecraft:coals"}},
+        fluidInput:{amount:100,tag:"minecraft:water"},
+        gasInput:{amount:100,gas:"mekanism:oxygen"},
+        duration:100,
+        itemOutput:{item:"immersiveengineering:dust_sulfur"},
+        gasOutput:{amount:100,gas:"mekanism:hydrogen"}});
+removeAndHide(<item:mekanism:dust_sulfur>);
+
 println("END "+scriptName);
