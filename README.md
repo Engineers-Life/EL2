@@ -12,6 +12,9 @@ Added Mods:
 	Drippy Loading Screen
 	Farmers Delight
 	Farmers Delight Compats
+	FTB Backups
+	FTB Chunks
+	FTB Essentials
 	Geolosys
 	Macaws Furniture
 	Macaws Lights and Lamps
