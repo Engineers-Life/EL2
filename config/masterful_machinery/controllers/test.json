@@ -1,0 +1,55 @@
+{
+  "controllerId": "test",
+  "name": "Test",
+    "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 100000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:mekanism_gas",
+      "name": "Mek Gas",
+      "id": "gas",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:mekanism_infuse",
+      "name": "Mek Infuse",
+      "id": "infuse",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:mekanism_slurry",
+      "name": "Mek Slurry",
+      "id": "slurry",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}
