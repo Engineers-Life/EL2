@@ -60,7 +60,7 @@ for material in ["copper","lead"] {
 }
 
 for material in ["uranium"] {
-    removeCompleteMetal(scriptName,material,gateGeolosysOres,true);
+    removeCompleteMetal(scriptName,material,gateGeolosysOres,false);
 }
 
 // STEEL
