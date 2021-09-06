@@ -3,6 +3,8 @@
 import crafttweaker.api.blocks.MCBlock;
 import crafttweaker.api.BracketHandlers;
 import crafttweaker.api.registries.IRecipeManager;
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.item.IIngredient;
 
 val scriptName = "metal_processing.zs";
 println("BEGIN "+scriptName);
@@ -101,5 +103,25 @@ removeAndHide(<item:mekanism:dust_steel>);
         itemOutput:{item:"immersiveengineering:dust_sulfur"},
         gasOutput:{amount:100,gas:"mekanism:hydrogen"}});
 removeAndHide(<item:mekanism:dust_sulfur>);
+
+for input,output in {
+        <item:minecraft:lapis_lazuli>          as IIngredient : <item:mekanism:dust_lapis_lazuli>,
+        <item:minecraft:quartz>                as IIngredient : <item:mekanism:dust_quartz>,
+        <item:minecraft:emerald>               as IIngredient : <item:mekanism:dust_emerald>,
+        <item:minecraft:diamond>               as IIngredient : <item:mekanism:dust_diamond>,
+        <item:minecraft:netherite_ingot>       as IIngredient : <item:mekanism:dust_netherite>,
+        <item:mekanism:ingot_refined_obsidian> as IIngredient : <item:mekanism:dust_refined_obsidian>,
+        <tag:items:forge:obsidian>.asIIngredient() as IIngredient : <item:mekanism:dust_obsidian>,
+        <item:mekanism:clump_iron>             as IIngredient : <item:mekanism:dirty_dust_iron>,
+        <item:mekanism:clump_gold>             as IIngredient : <item:mekanism:dirty_dust_gold>,
+        <item:mekanism:clump_osmium>           as IIngredient : <item:mekanism:dirty_dust_osmium>,
+        <item:mekanism:clump_copper>           as IIngredient : <item:mekanism:dirty_dust_copper>,
+        <item:mekanism:clump_tin>              as IIngredient : <item:mekanism:dirty_dust_tin>,
+        <item:mekanism:clump_lead>             as IIngredient : <item:mekanism:dirty_dust_lead>,
+        <item:mekanism:clump_uranium>          as IIngredient : <item:mekanism:dirty_dust_uranium>
+    } {
+    <recipetype:immersiveengineering:crusher>.addRecipe(scriptName+"."+validName(output.registryName)+".from_crusher",
+        input,3000,output);
+}
 
 println("END "+scriptName);
