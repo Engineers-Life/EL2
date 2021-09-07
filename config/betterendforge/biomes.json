@@ -181,7 +181,7 @@
     "nightshade_forest": {
       "enabled [default: true]": false,
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.0,
       "has_caves [default: true]": true
     },
     "ethereal_islands": {
@@ -211,7 +211,7 @@
     "shulkren_forest": {
       "enabled [default: true]": false,
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.0,
       "has_caves [default: true]": true
     },
     "purpur_peaks": {
