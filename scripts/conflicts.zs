@@ -94,35 +94,15 @@ craftingTable.removeByName("simplefarming:red_dye2");
 craftingTable.addShapeless(validName("simplefarming:red_dye"),<item:minecraft:red_dye>,[<item:simplefarming:raspberries>|<item:simplefarming:strawberries>|<item:minecraft:sweet_berries>]);
 replaceByNameShapeless("simplefarming:black_dye",<item:minecraft:black_dye>,[<item:simplefarming:blackberries>]);
 
-// bitumen to use tag and fluid crafting
-craftingTable.removeByName("immersivepetroleum:asphalt");
-craftingTable.removeByName("immersivepetroleum:asphalt2");
-changeIngredientsToTag([<item:immersivepetroleum:bitumen>,<item:mapperbase:raw_bitumen>],<tag:items:forge:bitumen>);
-changeItemListToBaseItem([<item:mapperbase:raw_bitumen>],<item:immersivepetroleum:bitumen>);
-craftingTable.addJSONRecipe("asphalt",{
-    "type":"immersiveengineering:shaped_fluid",
-    "pattern": ["SBS","GWG","SBS"],
-    "key": {
-        "S": {  "tag":  "forge:sand" },
-        "B": {  "tag":  "forge:bitumen" },
-        "G": {  "item": "minecraft:gravel" },
-        "W": {  "tag":  "minecraft:water",
-                "amount": 1000,
-                "type": "immersiveengineering:fluid" } },
-    "result": { "item": "immersivepetroleum:asphalt",
-                "count": 8 } } );
-craftingTable.addJSONRecipe("asphalt2",{
-    "type":"immersiveengineering:shaped_fluid",
-    "pattern": ["SBS","GWG","SBS"],
-    "key": {
-        "S": {  "item": "immersiveengineering:slag" },
-        "B": {  "tag": "forge:bitumen" },
-        "G": {  "item": "minecraft:gravel" },
-        "W": {  "tag": "minecraft:water",
-                "amount": 1000,
-                "type": "immersiveengineering:fluid" } },
-    "result": { "item": "immersivepetroleum:asphalt",
-                "count": 12 } } );
+val bitumen = <tag:items:forge:bitumen>;
+removeFromListAndHide([craftingTable,blastFurnace],<item:mapperbase:raw_bitumen>);
+replaceByNameShapeless("mapperbase:bitumen_block",<item:mapperbase:bitumen_block>,[bitumen,bitumen,bitumen,bitumen,bitumen,bitumen,bitumen,bitumen,bitumen]);
+removeAllTagsAndHide(<item:mapperbase:bitumen_ore>);
+removeAllTagsAndHide(<item:mapperbase:asphalt>);
+removeAllTagsAndHide(<item:mapperbase:asphalt_stairs>);
+removeAllTagsAndHide(<item:mapperbase:asphalt_slab>);
+removeFromList([<recipetype:minecraft:stonecutting>],<item:mapperbase:asphalt_pressure_plate>);
+replaceByName("mapperbase:asphalt_pressure_plate",<item:mapperbase:asphalt_pressure_plate>,[[<item:immersivepetroleum:asphalt>,<item:immersivepetroleum:asphalt>]]);
 
 // FOOD ITEMS
 
