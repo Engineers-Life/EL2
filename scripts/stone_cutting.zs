@@ -46,6 +46,7 @@ for baseName in [
         "embellishcraft:smooth_marble",
         "embellishcraft:smooth_slate",
         "engineersdecor:clinker_brick_block",
+        "immersivepetroleum:asphalt",
         "minecraft:cobblestone",
         "minecraft:smooth_red_sandstone",
         "minecraft:smooth_sandstone",
@@ -162,13 +163,11 @@ while (inputTierLevel.size > sizeOfTierList) {
                             inputTierParent.put(input,foundTier);
                             inputTierLevel.put(input,foundLevel+1);
                             inputTierCost.put(input,recipeCost/wrapper.output.amount);
-                            //println(input+" tier "+(foundLevel+1)+" from "+foundTier);
                         }
                     }
                 }
             }
             if lookingForTier { // never found a tier-defining recipe, so insert at base.
-                //println(input+" is a base tier");
                 inputTierParent.put(input,"");
                 inputTierLevel.put(input,1);
                 inputTierCost.put(input,1.0 as double);
@@ -228,7 +227,6 @@ for iteration in [1,2] {
                                         var upString = "";
                                         var downString = "";
                                         var levelDif = 0;
-                                        //println("Processing "+cellItem+"("+cellItemLevel+") and "+foundATier+"("+foundALevel+")");
                                         if cellItemLevel > foundALevel {
                                             upString = cellItem;
                                             downString = foundATier;
@@ -244,21 +242,12 @@ for iteration in [1,2] {
                                         while (levelDif>0) {
                                             levelDif -= 1;
                                             upString = inputTierParent.getAt(upString).getString();
-                                            //println("Dropped to "+upString);
                                         }
-                                        //println("Leveled at "+upString+" and "+downString);
                                         if  (   (upString != downString) // not in the same branch, but they could have a common ancestor
                                             ||  (levelTracked > foundACap) ) {
                                             while ( (upString != downString) || (levelTracked > foundACap) ) {
                                                 levelTracked -= 1;
-/*
-                                                if (!inputTierParent.contains(upString)) {
-                                                    println(upString+" is missing it's parent?");
-                                                }
-                                                if (!inputTierParent.contains(downString)) {
-                                                    println(downString+" is missing it's parent?");
-                                                }
-*/
+
                                                 upString = inputTierParent.getAt(upString).getString();
                                                 downString = inputTierParent.getAt(downString).getString();
                                             }
@@ -280,11 +269,14 @@ for iteration in [1,2] {
                     if (costOfCell>0) { // some recipes have items that only list air (<resource:crafttweaker:simplefarming.red_dye> as well as two vfp portion recipes)
                         cost+=costOfCell;
                     } else {
-                        thisCouldBeARecipe = false; // can't parse an ingredient, don't add the recipe.
+                        if (!ingredient.matches(air)){
+                            thisCouldBeARecipe=false; // can't parse an ingredient, don't add the recipe.
+                        }
                     }
                 }
             }
-            if thisCouldBeARecipe { // went through whole recipe without invalidating it, so this may be a new recipe
+
+            if (thisCouldBeARecipe && cost>0) { // went through whole recipe without invalidating it, so this may be a new recipe
                 val unitCost = cost/wrapper.output.amount;
                 if (!inputTierCost.contains(output)) { // never had an output doesn't mean it wasn't an input
                     inputTierParent.put(output,foundATier);
@@ -303,7 +295,6 @@ for iteration in [1,2] {
                             // add recipe
                             if (output != foundATier) {
                                 val recipe_name = validName(output)+".from."+validName(foundATier);
-                                //println("MADE A RECIPE: "+recipe_name);
                                 cutter.addJSONRecipe(recipe_name, {ingredient:{item:foundATier},result:output,count:amountFromInput as int});
                                 addedRecipes += 1;
                             }
