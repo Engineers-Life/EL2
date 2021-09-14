@@ -104,6 +104,20 @@ removeAllTagsAndHide(<item:mapperbase:asphalt_slab>);
 removeFromList([<recipetype:minecraft:stonecutting>],<item:mapperbase:asphalt_pressure_plate>);
 replaceByName("mapperbase:asphalt_pressure_plate",<item:mapperbase:asphalt_pressure_plate>,[[<item:immersivepetroleum:asphalt>,<item:immersivepetroleum:asphalt>]]);
 
+removeAndHide(<item:geolosys:peat>);
+craftingTable.addShapeless("terraincognita_peat_to_byg",<item:byg:peat>,[<item:terraincognita:peat>]);
+craftingTable.addShapeless("byg_peat_to_terraincognita",<item:terraincognita:peat>,[<item:byg:peat>]);
+<item:terraincognita:peat>.burnTime = <item:byg:peat>.burnTime;
+
+removeFromListAndHide([blastFurnace],<item:byg:lignite>);
+blastFurnace.addRecipe("conflicts.zs.lignite_from_blasting_byg",<item:geolosys:lignite_coal>,<item:byg:lignite_ore>,0.4,5*20);
+replaceByNameShapeless("byg:lignite_from_lignite_block",<item:geolosys:lignite_coal>*9,[<item:byg:lignite_block>]);
+replaceByNameShapeless("byg:lignite_block",<item:byg:lignite_block>,[<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>,<item:geolosys:lignite_coal>]);
+<item:byg:lignite_block>.burnTime = 10 * <item:geolosys:lignite_coal>.burnTime;
+
+moveTagsFromTo(<item:minecraft:ancient_debris>,<item:geolosys:ancient_debris_cluster>);
+moveTagsFromTo(<item:minecraft:quartz>,<item:byg:quartz_crystal>);
+
 // FOOD ITEMS
 
 replaceByName("vanillafoodpantry:sandwich/cyclops_sandwich",<item:vanillafoodpantry:cyclops_sandwich>*2,[[<tag:items:forge:foods/sandwich_breads>,<item:vanillafoodpantry:tangy_mayonnaise>,<tag:items:forge:cheese>],[<item:vanillafoodpantry:guardian_meat>,<tag:items:forge:ingredients/salad>]]);
