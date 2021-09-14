@@ -1,0 +1,43 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.6,
+      "output": {
+        "item": "geolosys:platinum_cluster"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "geolosys:nickel_cluster"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "tag": "forge:dusts/sulfur"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "byg:soapstone"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/platinum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "weight": 5,
+  "fail_chance": 0.1
+}

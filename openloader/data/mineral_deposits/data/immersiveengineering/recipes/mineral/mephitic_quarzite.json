@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.6,
+      "output": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "geolosys:nether_gold_cluster"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "tag": "forge:dusts/sulfur"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "weight": 20,
+  "fail_chance": 0.15,
+  "sample_background": "minecraft:netherrack"
+}

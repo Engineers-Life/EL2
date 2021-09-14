@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.7,
+      "output": {
+        "item": "geolosys:uranium_cluster"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "geolosys:lead_cluster"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 10,
+  "fail_chance": 0.15
+}

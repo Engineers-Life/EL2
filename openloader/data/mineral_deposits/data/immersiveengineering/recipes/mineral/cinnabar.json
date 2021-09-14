@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.6,
+      "output": {
+        "item": "geolosys:cinnabar_ore"
+      }
+    },
+    {
+      "chance": 0.4,
+      "output": {
+        "tag": "forge:dusts/sulfur"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 15,
+  "fail_chance": 0.1
+}

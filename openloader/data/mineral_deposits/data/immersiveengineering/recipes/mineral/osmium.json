@@ -1,0 +1,11 @@
+{ "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    { "chance": 0.50, "output": { "item": "geolosys:osmium_cluster" } },
+    { "chance": 0.20, "output": { "item": "geolosys:platinum_cluster" } },
+    { "chance": 0.15, "output": { "item": "geolosys:gold_cluster" } },
+    { "chance": 0.15, "output": { "item": "geolosys:iron_cluster" } }
+  ],
+  "dimensions": ["minecraft:overworld"],
+  "weight": 15,
+  "fail_chance": 0.05
+}

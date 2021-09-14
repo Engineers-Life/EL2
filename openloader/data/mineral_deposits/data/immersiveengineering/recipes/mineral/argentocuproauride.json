@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.75,
+      "output": {
+        "item": "geolosys:copper_cluster"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "geolosys:gold_cluster"
+      }
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "geolosys:silver_cluster"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 6,
+  "fail_chance": 0.1
+}

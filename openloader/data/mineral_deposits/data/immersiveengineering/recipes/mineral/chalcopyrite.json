@@ -1,0 +1,34 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "geolosys:iron_cluster"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "geolosys:copper_cluster"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "tag": "forge:dusts/sulfur"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "embellishcraft:gneiss"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 20,
+  "fail_chance": 0.05
+}

@@ -1,0 +1,34 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "notreepunching:granite_cobblestone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "notreepunching:diorite_cobblestone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "notreepunching:andesite_cobblestone"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "minecraft:obsidian"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 25,
+  "fail_chance": 0.05
+}

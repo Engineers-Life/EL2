@@ -1,0 +1,10 @@
+{ "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    { "chance": 0.50, "output": { "item": "terraincognita:peat" } },
+    { "chance": 0.30, "output": { "item": "geolosys:lignite_coal" } },
+    { "chance": 0.20, "output": { "item": "geolosys:bituminous_coal" } }
+  ],
+  "dimensions": ["minecraft:overworld"],
+  "weight": 10,
+  "fail_chance": 0.05
+}

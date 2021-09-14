@@ -1,0 +1,11 @@
+{ "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    { "chance": 0.50, "output": { "item": "mekanism:fluorite_gem" } },
+    { "chance": 0.20, "output": { "item": "quark:limestone" } },
+    { "chance": 0.15, "output": { "item": "geolosys:silver_cluster" } },
+    { "chance": 0.15, "output": { "item": "geolosys:lead_cluster" } }
+  ],
+  "dimensions": ["minecraft:overworld"],
+  "weight": 10,
+  "fail_chance": 0.10
+}

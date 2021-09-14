@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.4,
+      "output": {
+        "item": "geolosys:lead_cluster"
+      }
+    },
+    {
+      "chance": 0.4,
+      "output": {
+        "tag": "forge:dusts/sulfur"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "geolosys:silver_cluster"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 15,
+  "fail_chance": 0.05
+}

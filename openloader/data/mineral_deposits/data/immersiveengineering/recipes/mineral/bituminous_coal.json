@@ -1,0 +1,34 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "minecraft:coal"
+      }
+    },
+    {
+      "chance": 0.4,
+      "output": {
+        "item": "geolosys:bituminous_coal"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "geolosys:anthracite_coal"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "tag": "forge:dusts/sulfur"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 25,
+  "fail_chance": 0.05
+}

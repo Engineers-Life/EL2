@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "chance": 0.75,
+      "output": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "geolosys:aluminum_cluster"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "weight": 5,
+  "fail_chance": 0.2
+}

@@ -1,0 +1,10 @@
+{ "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    { "chance": 0.70, "output": { "item": "geolosys:aluminum_cluster" } },
+    { "chance": 0.20, "output": { "item": "geolosys:iron_cluster" } },
+    { "chance": 0.10, "output": { "item": "geolosys:nickel_cluster" } }
+  ],
+  "dimensions": ["minecraft:overworld"],
+  "weight": 10,
+  "fail_chance": 0.10
+}

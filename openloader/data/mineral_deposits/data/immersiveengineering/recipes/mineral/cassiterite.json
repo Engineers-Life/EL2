@@ -1,0 +1,31 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.9,
+      "output": {
+        "item": "geolosys:tin_cluster"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "mekanism:fluorite_gem"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/tin",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "weight": 20,
+  "fail_chance": 0.05
+}
