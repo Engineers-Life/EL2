@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "count": 1,
+      "base_ingredient": {
+        "tag": "forge:ingots/gold"
+      }
+    }
+  ],
+  "additives": [],
+  "input": {
+    "item": "geolosys:nether_gold_cluster"
+  },
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 200,
+  "energy": 102400
+}
