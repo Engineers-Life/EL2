@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 1,
+    "base_ingredient": {
+      "tag": "forge:dusts/gold"
+    }
+  },
+  "input": {
+    "item": "geolosys:nether_gold_cluster"
+  },
+  "energy": 2100
+}
