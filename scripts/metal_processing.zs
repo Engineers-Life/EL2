@@ -14,6 +14,8 @@ val gateGeolosysOres = true; // if true, geolosys ores won't smelt directly.
 // the pick-stuff should be in a mekanism.zs
 <tag:items:natural-progression:override_pickaxes>.add(<item:mekanism:meka_tool>);
 <tag:items:natural-progression:override_pickaxes>.add(<item:mekanism:atomic_disassembler>);
+<tag:items:natural-progression:override_axes>.add(<item:mekanism:meka_tool>);
+<tag:items:natural-progression:override_axes>.add(<item:mekanism:atomic_disassembler>);
 
 function removeBasicDust(scriptName as string, material as string) as void {
     <recipetype:mekanism:crushing>.removeByName("mekanism:processing/"+material+"/dust/from_ingot");
