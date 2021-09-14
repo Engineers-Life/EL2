@@ -1,0 +1,23 @@
+{
+  "type": "geolosys:ore_deposit",
+  "config": {
+    "block": "terraincognita:peat",
+    "sample": "geolosys:rhododendron",
+    "yMin": 0,
+    "yMax": 256,
+    "chance": 9,
+    "size": 11,
+    "type": "TOP_LAYER",
+    "density": 1.0,
+    "blockStateMatchers": [
+      "minecraft:dirt",
+      "minecraft:grass_block"
+    ],
+    "dimensions": {
+      "isBlacklist": false,
+      "filter": [
+        "overworld"
+      ]
+    }
+  }
+}
