@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "geolosys:nether_gold_cluster"
+    }
+  },
+  "output": {
+    "item": "mekanism:dust_gold",
+    "count": 1
+  }
+}
