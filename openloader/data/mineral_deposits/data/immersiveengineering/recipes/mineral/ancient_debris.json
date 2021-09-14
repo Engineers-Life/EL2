@@ -1,0 +1,30 @@
+
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "natural-progression:cobbled_netherrack"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "geolosys:ancient_debris_cluster"
+      }
+    }
+  ],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "weight": 8,
+  "fail_chance": 0.4,
+  "sample_background": "minecraft:netherrack"
+}
