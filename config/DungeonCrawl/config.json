@@ -45,7 +45,20 @@
     "minecraft:cold_ocean",
     "minecraft:deep_cold_ocean",
     "minecraft:frozen_ocean",
-    "minecraft:deep_frozen_ocean"
+    "minecraft:deep_frozen_ocean",
+    
+    "byg:brimstone_caverns",
+    "byg:canyon_edge",
+    "byg:canyons",
+    "byg:fresh_water_lake",
+    "byg:frozen_lake",
+    "byg:great_lake_isles",
+    "byg:great_lakes",
+    "byg:tropical_islands",
+    "byg:polluted_lake",
+    "byg:shattered_desert_isles",
+    "byg:shattered_viscal_isles"
+    
   ],
   "config_version": 0
 }
