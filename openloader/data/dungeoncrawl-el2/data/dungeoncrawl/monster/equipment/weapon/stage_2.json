@@ -1,0 +1,49 @@
+{
+  "melee": [
+    {
+      "item": "notreepunching:macuahuitl"
+    },
+    {
+      "item": "notreepunching:flint_pickaxe"
+    },
+    {
+      "item": "notreepunching:flint_shovel"
+    },
+    {
+      "item": "minecraft:stone_sword",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:stone_pickaxe",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:stone_axe",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:stone_shovel",
+      "weight": 3
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "natural-progression:bone_pickaxe"
+    }
+  ],
+  "ranged": [
+    {
+      "item": "minecraft:bow"
+    }
+  ]
+}
