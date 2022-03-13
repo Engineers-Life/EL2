@@ -41,6 +41,10 @@ campfire.removeRecipe(<item:simplefarming:cooked_egg>);
 smoker.removeRecipe(<item:simplefarming:cooked_egg>);
 <recipetype:charm:firing>.removeByName("charm:kilns/brick");
 
+furnace.removeByName("minecraft:glass");
+furnace.addRecipe("clear_glass", <item:minecraft:glass>, <item:minecraft:sand>, 0.1, 10*20);
+furnace.addRecipe("red_glass", <item:minecraft:red_stained_glass>, <item:minecraft:red_sand>, 0.1, 10*20);
+
 println("BEGIN furnace.metal_processing");
 
 // remove making dust from ores in crafting table
@@ -247,7 +251,12 @@ if (bricksAreBetter && recipeGroups["Smelting"].size>1) { // size > 1 only check
 	manager.removeRecipe(<item:minecraft:smooth_sandstone>);
 	manager.removeRecipe(<item:minecraft:smooth_red_sandstone>);
 	manager.removeRecipe(<item:minecraft:glass>);
-	manager.removeRecipe(<item:minecraft:glass>);
+	manager.removeRecipe(<item:minecraft:white_stained_glass>);
+	manager.removeRecipe(<item:minecraft:pink_stained_glass>);
+	manager.removeRecipe(<item:minecraft:purple_stained_glass>);
+	manager.removeRecipe(<item:minecraft:blue_stained_glass>);
+	manager.removeRecipe(<item:minecraft:red_stained_glass>);
+	manager.removeRecipe(<item:minecraft:black_stained_glass>);
     // manager.removeRecipe(<item:minecraft:terracotta>);
 	manager.removeRecipe(<item:minecraft:sandstone>);
 	manager.removeRecipe(<item:minecraft:red_sandstone>);
