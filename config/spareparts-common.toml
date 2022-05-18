@@ -1,0 +1,44 @@
+
+[coins]
+	#Create coin exchange rate recipes
+	default_coin_recipes = false
+
+[corinthian]
+	#Create default corinthian recipes
+	default_corinthian_recipes = true
+
+[easter_egg_01]
+	#Do you like easter eggs? (#G)
+	easter_egg_01 = true
+
+[easter_egg_02]
+	#Do you like easter eggs? (#K)
+	easter_egg_02 = true
+
+[easter_egg_03]
+	#Do you like easter eggs? (#S)
+	easter_egg_03 = ["DENY", "remove all entries to disable", "change DENY to ALLOW to invert list", "the default list denies nothing, so everything is enabled", "list entries should be resource locations"]
+
+[experience_journal]
+	#Withdrawn XP gets applied to all gear with mending
+	xpjournal_triggers_mending = true
+	#Maximum experience storage for the Experience Journal
+	#Range: > 0
+	maximum_experience_journal = 2147483647
+
+[easter_egg_04]
+	#Do you like easter eggs? (#B)
+	easter_egg_04 = true
+
+[foundation_alternates]
+	#Define alternate blocks for the foundation blocks to display.
+	foundation_alternates = ["minecraft:grass_block->minecraft:dirt", "minecraft:mycelium->minecraft:dirt", "minecraft:podzol->minecraft:dirt", "immersiveengineering:metal_barrel->immersiveengineering:sheetmetal_iron", "immersiveengineering:radiator->immersiveengineering:sheetmetal_steel", "immersiveengineering:generator->immersiveengineering:sheetmetal_steel", "immersiveengineering:heavy_engineering->immersiveengineering:sheetmetal_steel"]
+
+[foundation_smart_substitutes]
+	#Certain blocks with a changed automatically unless overriden by foundation_alternates config option.
+	foundation_smart_substitutes = true
+
+[foundation_limited_to_solids]
+	#Non-solid blocks will not be copied.  If disabled, you will probably want to add exceptions the alternates list.
+	foundation_limited_to_solids = true
+

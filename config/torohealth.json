@@ -1,0 +1,22 @@
+{
+  "watchForChanges": true,
+  "hud": {
+    "distance": 40,
+    "x": 4.0,
+    "y": 4.0,
+    "scale": 0.0,
+    "hideDelay": 20,
+    "anchorPoint": "TOP_CENTER"
+  },
+  "bar": {
+    "damageNumberType": "LAST",
+    "friendColor": 16711935,
+    "friendColorSecondary": 8388863,
+    "foeColor": -16776961,
+    "foeColorSecondary": -2147483393
+  },
+  "inWorld": {
+    "mode": "NEVER",
+    "distance": 20.0
+  }
+}

@@ -1,0 +1,15 @@
+
+[Seasons]
+	#Allowed Values: NONE, SLOW_GROWTH, NO_GROWTH, REPLACE_WITH_JUNK, SET_TO_AIR
+	"Crop out of season effect" = "REPLACE_WITH_JUNK"
+	"Disable planting of seeds that are out of season" = true
+	"Enable inactive bees in winter" = true
+
+[Sleeping]
+	#5999 = Ignore this. 10000 = 10AM. 13000 = 1PM etc.
+	#Range: 5999 ~ 23999
+	"Disable sleeping between 6:00 and the specified time" = 5999
+	"Disable sleeping between waking up and sunset" = true
+	"Wake up at sunrise" = false
+	"Sleep at any time" = false
+

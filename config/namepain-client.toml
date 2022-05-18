@@ -1,0 +1,47 @@
+applyToMobs = true
+seeInjuredNames = false
+injuredAlwaysNamed = false
+tamesAlwaysNamed = true
+villagersAlwaysNamed = true
+seeYourName = false
+applyToScores = false
+stripFormat = false
+seeFrameNames = true
+namesWithoutHUD = false
+#Range: 0 ~ 64
+visibleRange = 64
+#Range: 0 ~ 255
+nameMaxR = 255
+#Range: 0 ~ 255
+nameMaxG = 255
+#Range: 0 ~ 255
+nameMaxB = 255
+#Range: 0 ~ 255
+nameMaxA = 255
+#Range: 0 ~ 255
+nameMinR = 255
+#Range: 0 ~ 255
+nameMinG = 0
+#Range: 0 ~ 255
+nameMinB = 0
+#Range: 0 ~ 255
+nameMinA = 255
+#Range: 0 ~ 255
+plateMaxR = 0
+#Range: 0 ~ 255
+plateMaxG = 0
+#Range: 0 ~ 255
+plateMaxB = 0
+#Range: 0 ~ 255
+plateMaxA = 64
+#Range: 0 ~ 255
+plateMinR = 192
+#Range: 0 ~ 255
+plateMinG = 0
+#Range: 0 ~ 255
+plateMinB = 0
+#Range: 0 ~ 255
+plateMinA = 64
+doValentines = false
+doAprilFools = false
+

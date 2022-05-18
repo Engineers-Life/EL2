@@ -1,0 +1,190 @@
+#Worldgen features will not be added to the biomes listed here.
+#Default: []
+"Biome Blacklist" = []
+
+[Misc]
+	#Peat is a block found underwater in swamps similar to clay.
+	#It can be tilled and used to plant crops, which will grow faster than on regular farmland.
+	#One peat block can also be used as fuel to smelt 12 items.
+	#Default: true
+	"Peat Enabled" = true
+	#Default: 0.25
+	#Range: 0.0 ~ 1.0
+	"Peat Growth Rate Bonus" = 0.25
+	#Adds foxes, sheep, berry bushes, birches and shrubs to tundras to make them less lackluster.
+	#Default: true
+	"Better Tundras" = true
+	#Adds composting recipes for dead bushes, bamboo, poisonous potatoes and chorus fruits/flowers.
+	#Default: true
+	"Additional Compostables" = true
+	#Allows growing lily pads by using bonemeal in shallow water pools.
+	#Default: true
+	"Bonemeal Lilypad Growing" = true
+	#If enabled, wither roses will generate naturally in Soul Sand Valleys.
+	#Default: true
+	"Wither Rose Generation" = true
+	#Mossy Gravel is found in swamps. It can also be crafted using gravel and vines/hanging moss.
+	#Default: true
+	"Mossy Gravel Enabled" = true
+	#This tweak only applies if apple trees are enabled.
+	#Default: true
+	"Disable Apple Drop From Oaks" = true
+	#Default: true
+	"Banner Patterns" = true
+	#Adds height variation to cacti, sugarcane and reeds.
+	#Default: true
+	"Plant Height Variation" = true
+
+[Trees]
+	#Default: true
+	"Apple Trees Enabled" = true
+	#Default: true
+	"Hazel Trees Enabled" = true
+
+[Biomes]
+	#Default: 1
+	#Range: > 0
+	"Lush Plains Weight" = 1
+	#Default: 5
+	#Range: > 0
+	"Tundra Weight" = 5
+	#Default: 3
+	#Range: > 0
+	"Muskeg Weight" = 3
+
+[Tools]
+	#Caltrops are metal spikes that can be placed on the ground. Dropped caltrops will also place themselves if possible.
+	#Caltrops deal one heart of damage and inflict slowness for 10 seconds when touched.
+	#You can right click caltrops with an empty hand to pick them up. They will also be flushed away by flowing water.
+	#Default: true
+	"Caltrops Enabled" = true
+	#Basket is a portable container crafted from swamp reeds (or sugar cane if reeds are disabled). It can be placed or opened from inventory.
+	#Baskets have 9 slots and can only store forage such as flowers, saplings, mushrooms, seeds and eggs.
+	#When you have a basket in your hand, it will automatically collect compatible items.
+	#Default: true
+	"Basket Enabled" = true
+	#The chance for caltrops to break when dealing damage.
+	#Default: 0.125
+	#Range: 0.0 ~ 1.0
+	"Caltrops Break Chance" = 0.125
+	#Default: true
+	"Blowpipe Enabled" = true
+
+[Flora]
+	#Dandelion puffs spawn among vanilla dandelions. You can blow on a dandelion puff by using it.
+	#Default: true
+	"Dandelion Puff Enabled" = true
+	#Chance to replace a vanilla dandelion with a dandelion puff during generation.
+	#Default: 0.5
+	#Range: 0.0 ~ 1.0
+	"Dandelion Puff Ratio" = 0.5
+	#Adds chicory, yarrow and daffodils to plains. Daffodils are rare, but they can also be found in flower forests.
+	#Default: true
+	"Field Flowers Enabled" = true
+	#Adds forget-me-not, globeflowers and water flags to temperate and hot swamps.
+	#Default: true
+	"Swamp Flowers Enabled" = true
+	#Small lilypads can be found in swamps. They can be stacked up to 4, like sea pickles.
+	#Default: true
+	"Small Lilypads Enabled" = true
+	#Reeds are a sugarcane-like plant that can be found in swamps. They can be grown in the same way as sugar cane, or, alternatively, in one block deep water.
+	#Reeds can be crafted into a variety of decorative wicker blocks and baskets.
+	#Default: true
+	"Reeds Enabled" = true
+	#Adds marigolds, blue lupines, snapdragons, gladioluses, geraniums, oleanders and sage to savannas.
+	#Default: true
+	"Savanna Flowers Enabled" = true
+	#Adds blue, black and purple irises to jungles.
+	#Default: true
+	"Jungle Flowers Enabled" = true
+	#Lotus is a beautiful aquatic flower found in jungle lakes. It comes in yellow, pink and white colors.
+	#Default: true
+	"Lotus Enabled" = true
+	#Adds edelweiss, alpine pink, saxifrage and gentian to temperate and cold mountain biomes.
+	#All of these flowers can grow on gravel, and saxifrage can grow on stone as well.
+	#Edelweiss has a minimum altitude requirement to generate.
+	#Default: true
+	"Alpine Flowers Enabled" = true
+	#Minimum Y level where edelweiss can generate in the mountains.
+	#Default: 90
+	#Range: 64 ~ 128
+	"Minimum Altitude for Edelweiss" = 90
+	#Adds white dryads, fireweed, arctic poppies and white rhododendrons to taiga and tundra biomes.
+	#Default: true
+	"Arctic Flowers Enabled" = true
+	#Wreath is a cosmetic headdress crafted with 4 small flowers of any kind in a 2x2 shape.
+	#The color of the wreath depends on the flowers you used to craft it.
+	#Default: true
+	"Wreaths Enabled" = true
+	#Roots can be found on dirt cave ceilings and overhangs in most biomes.
+	#They can be collected with shears. You can spread roots by using bonemeal on one.
+	#Roots can be crafted into brown dye or covered in clay and baked on a campfire. Baked roots grant 15 seconds of Haste when eaten.
+	#Default: true
+	"Roots Enabled" = true
+	#Default: true
+	"Hanging Moss Enabled" = true
+	#Adds wild garlic, primroses and foxgloves to forests. These flowers can also be found in flower forests.
+	#Default: true
+	"Forest Flowers Enabled" = true
+	#Adds cattails to swamps. Cattails can be duplicated using bonemeal and crafted into brown dye.
+	#Default: true
+	"Cattails Enabled" = true
+	#Chance to replace a vanilla poppy with an arctic poppy in tundra biomes.
+	#Default: 0.5
+	#Range: 0.0 ~ 1.0
+	"Arctic Poppy Ratio" = 0.5
+	#Sweet peas are flowering vines found in flower forests. They come in seven different colors.
+	#Default: true
+	"Sweet Peas Enabled" = true
+	#Caribou moss is a grass-like plant found in tundras.
+	#Default: true
+	"Caribou Moss Enabled" = true
+	#Sour berries can be found growing on water in boreal swamps.
+	#Default: true
+	"Sour Berries Enabled" = true
+	#Default: true
+	"Cactus Flowers Enabled" = true
+	#Default: true
+	"Small Cacti Enabled" = true
+
+[Food]
+	#Fern fiddleheads can be found when breaking ferns. You can eat them raw or add them to suspicious stews.
+	#Duration of suspicious stew's effect is doubled when a fiddlehead is added during or after cooking.
+	#If the effect is negative, duration is halved instead.
+	#Default: true
+	"Fern Fiddlehead Enabled" = true
+	#Taffy is a food item that can only be found in dungeons. It restores some health, but also makes your mouth sticky, reducing eating speed with every taffy eaten.
+	#Default: true
+	"Taffy Enabled" = true
+	#How many half hearts are healed when eating a taffy.
+	#Default: 3
+	#Range: 0 ~ 8
+	"Taffy Healing Amount" = 3
+	#Enchanted golden carrot grants 30 seconds of Regeneration II, 2 minutes of Absorption IV, 5 minutes of Speed II and 10 minutes of Night Vision when eaten.
+	#It can be found in dungeon loot with the same rarity as enchanted golden apples.
+	#Default: true
+	"Enchanted Golden Carrot Enabled" = true
+	#Default: 0.2
+	#Range: 0.0 ~ 1.0
+	"Fiddlehead Drop Chance" = 0.2
+	#Adds kelp soup and sweet berry sorbet.
+	#Default: true
+	"Extra Vanilla Foods" = true
+
+[Integration]
+
+	[Integration.Environmental]
+		#Default: true
+		"Delphiniums In Lush Plains" = true
+
+	[Integration.Quark]
+		#Chance to generate a marigold fairy ring in savanna biome chunk. Set to 0 to disable.
+		#Default: 0.0025
+		#Range: 0.0 ~ 1.0
+		"Savanna Fairy Ring Chance" = 0.0025
+
+[Fauna]
+	#Default: 10
+	#Range: 0 ~ 100
+	"Butterfly Spawn Weight" = 10
+

@@ -1,0 +1,6 @@
+{
+  "permeable_comment": "List of Block IDs which allow oxygen to flow through it (permeable). E.g. tardis:ars_egg ",
+  "permeable": [],
+  "nonpermeable_comment": "List of Block IDs which does not allow oxygen to flow through it (nonpermeable) E.g. tardis:oxygen_sealer ",
+  "nonpermeable": []
+}
