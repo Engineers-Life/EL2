@@ -1,0 +1,130 @@
+{
+  "Enabled": true,
+    "ReactorReactants": {
+    "WipeExistingValuesBeforeAdding": true,
+    "Add": [
+      {
+        "IsFuel": true,
+       "RgbColour": 13023828,
+        "Name": "Yellorium",
+        "TranslationKey": "reactant.bigreactors.yellorium"
+      },
+      {
+        "IsFuel": false,
+        "RgbColour": 52533,
+        "Name": "Cyanite",
+        "TranslationKey": "reactant.bigreactors.cyanite"
+     }
+    ]
+  },
+  "ReactorReactantSources": {
+    "WipeExistingValuesBeforeAdding": true,
+    "Add": [
+      {
+        "SourceTagId": "forge:ingots/yellorium",
+        "ProductName": "Yellorium",
+        "ProductQuantity": 1000
+      },
+      {
+        "SourceTagId": "forge:storage_blocks/yellorium",
+        "ProductName": "Yellorium",
+        "ProductQuantity": 9000
+      },
+      {
+        "SourceTagId": "forge:ingots/cyanite",
+        "ProductName": "Cyanite",
+        "ProductQuantity": 1000
+      },
+      {
+        "SourceTagId": "forge:storage_blocks/cyanite",
+        "ProductName": "Cyanite",
+        "ProductQuantity": 9000
+      }
+    ]
+  },
+  "ReactorReactantReaction": {
+    "WipeExistingValuesBeforeAdding": true,
+    "Add": [
+      {
+        "SourceReactant": "Yellorium",
+        "ProductReactant": "Cyanite",
+        "Reactivity": 1.05,
+        "FissionRate": 0.01
+      }
+    ]
+  },
+  "ReactorSolidModerators": {
+    "WipeExistingValuesBeforeAdding": false,
+    "Add": [
+      {
+        "TagId": "forge:storage_blocks/constantan",
+        "Absorption": 0.525,
+        "HeatEfficiency": 0.76,
+        "Moderation": 1.4,
+        "HeatConductivity": 0.8
+      },
+      {
+        "TagId": "forge:storage_blocks/neptunium",
+        "Absorption": 0.5,
+        "HeatEfficiency": 0.96,
+        "Moderation": 2.0,
+        "HeatConductivity": 3.0
+      },
+      {
+        "TagId": "forge:storage_blocks/aeternium",
+        "Absorption": 0.6,
+        "HeatEfficiency": 0.96,
+        "Moderation": 1.65,
+        "HeatConductivity": 3.0
+      },
+      {
+        "TagId": "forge:storage_blocks/amber",
+        "Absorption": 0.48,
+        "HeatEfficiency": 0.73,
+        "Moderation": 1.3,
+        "HeatConductivity": 0.15
+      },
+      {
+        "TagId": "forge:storage_blocks/thallasium",
+        "Absorption": 0.57,
+        "HeatEfficiency": 0.86,
+        "Moderation": 1.58,
+        "HeatConductivity": 2.5
+      },
+      {
+        "TagId": "forge:storage_blocks/terminite",
+        "Absorption": 0.6,
+        "HeatEfficiency": 0.88,
+        "Moderation": 1.6,
+        "HeatConductivity": 3.0
+      }
+    ],
+    "Remove": [
+      "forge:storage_blocks/diamond",
+      "forge:storage_blocks/copper"
+    ]
+  },
+  "TurbineCoils": {
+    "WipeExistingValuesBeforeAdding": true,
+    "Add": [
+      {
+        "BlockTagId": "forge:coils/copper",
+        "Efficiency": 1.2,
+        "Bonus": 1.0,
+        "ExtractionRate": 1.2
+      },
+      {
+        "BlockTagId": "forge:coils/electrum",
+        "Efficiency": 2.5,
+        "Bonus": 1.0,
+        "ExtractionRate": 2.0
+      },
+      {
+        "BlockTagId": "forge:coils/steel",
+        "Efficiency": 1.5,
+        "Bonus": 1.0,
+        "ExtractionRate": 1.3
+      }
+    ]
+  }
+}

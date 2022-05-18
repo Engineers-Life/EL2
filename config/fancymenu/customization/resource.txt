@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.PackScreen
+  renderorder = background
+}
+
+customization {
+  identifier = %id=346952%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=504952%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+

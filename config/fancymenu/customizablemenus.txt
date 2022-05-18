@@ -1,0 +1,59 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
+net.minecraft.client.gui.screen.WorkingScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraftforge.fml.client.gui.screen.ModListScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.LanguageScreen {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screen.EditWorldScreen {
+}
+
+net.minecraft.client.gui.screen.CustomizeSkinScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsSoundsScreen {
+}
+
+net.minecraft.client.gui.AccessibilityScreen {
+}
+
+net.minecraft.client.gui.screen.PackScreen {
+}
+
+net.minecraft.client.gui.screen.VideoSettingsScreen {
+}
+
+com.blamejared.controlling.client.gui.GuiNewControls {
+}
+
+net.minecraft.client.gui.screen.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+

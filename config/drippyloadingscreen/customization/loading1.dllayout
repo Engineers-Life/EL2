@@ -1,0 +1,50 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = #404040
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+}
+
+customization {
+  x = 12
+  action = editforgestatustext
+  y = -27
+}
+
+customization {
+  orientation = bottom-left
+  bartexture = config/drippyloadingscreen/bar0.png
+  x = 0
+  width = %guiwidth%
+  y = 0
+  action = addcustomprogressbar
+  height = 18
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = config/drippyloadingscreen/loading.png
+  orientation = mid-centered
+  x = 2
+  width = 226
+  action = addtexture
+  actionid = e84f98c4-8703-4934-b83d-0e2a2eac1a171637572605040
+  y = -12
+  height = 177
+}
+

@@ -1,0 +1,19 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.VideoSettingsScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/animations/hex2.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400973%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+

@@ -1,0 +1,82 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.CreateWorldScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/animations/hex2.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=345972%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505972%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=345185%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505185%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505120%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505151%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=345100%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=345151%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505100%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
+customization {
+  identifier = %id=505132%
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundnormal = config/fancymenu/button_normal.png
+}
+
