@@ -1,0 +1,90 @@
+{
+	"minecraft:silverfish":
+	{
+		"combat": 35
+	},
+	"minecraft:zombie":
+	{
+		"combat": 15
+	},
+	"minecraft:creeper":
+	{
+		"combat": 25
+	},
+	"minecraft:spider":
+	{
+		"combat": 20
+	},
+	"minecraft:skeleton":
+	{
+		"combat": 25
+	},
+	"minecraft:enderman":
+	{
+		"combat": 35
+	},
+	"minecraft:wither_skeleton":
+	{
+		"combat": 40
+	},
+	"minecraft:slime":
+	{
+		"combat": 5
+	},
+	"minecraft:blaze":
+	{
+		"combat": 30
+	},
+	"minecraft:drowned":
+	{
+		"combat": 25
+	},
+	"minecraft:evoker":
+	{
+		"combat": 40
+	},
+	"minecraft:ravager":
+	{
+		"combat": 50
+	},
+	"minecraft:vindicator":
+	{
+		"combat": 35
+	},
+	"minecraft:cave_spider":
+	{
+		"combat": 25
+	},
+	"minecraft:guardian":
+	{
+		"combat": 25
+	},
+	"minecraft:elder_guardian":
+	{
+		"combat": 100
+	},
+	"minecraft:husk":
+	{
+		"combat": 45
+	},
+	"minecraft:magma_cube":
+	{
+		"combat": 7.5
+	},
+	"minecraft:zombie_pigman":
+	{
+		"combat": 25
+	},
+	"minecraft:zombie_villager":
+	{
+		"combat": 15
+	},
+	"minecraft:ender_dragon":
+	{
+		"combat": 2500
+	},
+	"minecraft:wither":
+	{
+		"combat": 1000
+	}
+}

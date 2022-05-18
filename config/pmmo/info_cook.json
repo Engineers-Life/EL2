@@ -1,0 +1,498 @@
+{
+	"minecraft:mutton":
+	{
+		"extraChance": 0.010
+	},
+	"minecraft:rabbit":
+	{
+		"extraChance": 0.010
+	},
+	"minecraft:salmon":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:cod":
+	{
+		"extraChance": 0.020
+	},
+	"minecraft:beef":
+	{
+		"extraChance": 0.010
+	},
+	"minecraft:porkchop":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:chicken":
+	{
+		"extraChance": 0.005
+	},
+	"minecraft:potato":
+	{
+		"extraChance": 0.005
+	},
+	"minecraft:cactus":
+	{
+		"extraChance": 0.020
+	},
+	"minecraft:sea_pickle":
+	{
+		"extraChance": 0.020
+	},
+	"minecraft:chorus_fruit":
+	{
+		"extraChance": 0.005
+	},
+	"minecraft:kelp":
+	{
+		"extraChance": 0.006
+	},
+	"minecraft:egg":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:red_mushroom":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:brown_mushroom":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:beetroot_seed":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:melon_seed":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:pumpkin_seed":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:wheat_seed":
+	{
+		"extraChance": 0.015
+	},
+	"aquaculture:fish_fillet_raw":
+	{
+		"extraChance": 0.012
+	},
+	"aquaculture:frog_legs_raw":
+	{
+		"extraChance": 0.012
+	},
+	"betterdefaultbiomes:duck":
+	{
+		"extraChance": 0.012
+	},
+	"betterdefaultbiomes:frog_leg":
+	{
+		"extraChance": 0.012
+	},
+	"betterendforge:shadow_berry_raw":
+	{
+		"extraChance": 0.015
+	},
+	"betterendforge:end_fish_raw":
+	{
+		"extraChance": 0.012
+	},
+	"fins:banded_redback_shrimp":
+	{
+		"extraChance": 0.012
+	},
+	"fins:bugmeat":
+	{
+		"extraChance": 0.012
+	},
+	"fins:raw_golden_river_ray_wing":
+	{
+		"extraChance": 0.012
+	},
+	"fins:white_bull_crab_claw":
+	{
+		"extraChance": 0.012
+	},
+	"pamhc2foodcore:sunflowerseedsitem":
+	{
+		"extraChance": 0.012
+	},
+	"quark:crab_leg":
+	{
+		"extraChance": 0.012
+	},
+	"quark:frog_leg":
+	{
+		"extraChance": 0.012
+	},
+	"veggie_way:large_bamboo_sheet":
+	{
+		"extraChance": 0.012
+	},
+	"veggie_way:fresh_tofu":
+	{
+		"extraChance": 0.012
+	},
+	"veggie_way:dough":
+	{
+		"extraChance": 0.015
+	},
+	"simplefarming:grapes":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:soybean":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:sweet_potato":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:yam":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:corn_seeds":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:raw_bacon":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:raw_chicken_wings":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:raw_calamari":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:raw_horse_meat":
+	{
+		"extraChance": 0.012
+	},
+	"simplefarming:raw_sausage":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:drying_agent_unprocessed":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:drying_agent_unprocessed_ball":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:foodpowder_sunflower_seeds":
+	{
+		"extraChance": 0.020
+	},
+	"vanillafoodpantry:bucket_sweetened_milk":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:hardened_sugar":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:hardened_sugar_pantry_block":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:dough_ball":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:sweet_dough_ball":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_egg_minibread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_meat_minibread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_cheese_minibread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_enriched_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_molasses_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_egg_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_honey_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_apple_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_pumpkin_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_french_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_potato_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_muscle_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_klingon_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_beets_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_allium_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_flat_bread":
+	{
+		"extraChance": 0.016
+	},
+	"vanillafoodpantry:uncooked_pumpkin_muffin":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:uncooked_cocoa_muffin":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:uncooked_carrot_muffin":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:uncooked_apple_muffin":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:uncooked_honey_muffin":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:uncooked_uglifruit_muffin":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:uncooked_apple_pie":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:uncooked_enriched_pumpkin_pie":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:uncooked_mixed_berry_pie":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:uncooked_golden_fruit_pie":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:seedmush":
+	{
+		"extraChance": 0.010
+	},
+	"vanillafoodpantry:wrapped_egg":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:uncooked_egg_pie":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:uncooked_egg_pie_mushroom":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:uncooked_egg_pie_chicken":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:uncooked_egg_pie_ham":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:uncooked_egg_pie_allium":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:portion_pumpkin":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:raw_vegetables":
+	{
+		"extraChance": 0.010
+	},
+	"vanillafoodpantry:ink_kelp":
+	{
+		"extraChance": 0.010
+	},
+	"vanillafoodpantry:pufferfish_raw":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:salt_pork":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:hocks_raw_salted":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:bat_raw":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:llama_raw":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:wolf_raw":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:bear_raw_prepped":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:sanitized_flesh":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:guardian_meat_raw":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:phantom_meat_raw":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:ravager_meat_prepped":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:fries_potato_raw":
+	{
+		"extraChance": 0.020
+	},
+	"vanillafoodpantry:fries_carrot_raw":
+	{
+		"extraChance": 0.020
+	},
+	"vanillafoodpantry:fries_klingon_raw":
+	{
+		"extraChance": 0.020
+	},
+	"vanillafoodpantry:uncooked_fish_pie_salmon":
+	{
+		"extraChance": 0.015
+	},
+	"vanillafoodpantry:kebab_meat_raw":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:kebab_poultry_raw":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:kebab_fish_raw":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:kebab_veggie_raw":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:kebab_fruit_raw":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:kebab_adventure_raw":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:kebab_bear_raw":
+	{
+		"extraChance": 0.018
+	},
+	"vanillafoodpantry:nuggests_chicken_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_beef_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_beef_jerky_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_mutton_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_pork_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_fish_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_fish_jerky_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_mushroom_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_veggies_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_squid_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_cooked_pork_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:nuggets_carrots_fried_prep":
+	{
+		"extraChance": 0.012
+	},
+	"vanillafoodpantry:fish_sausage":
+	{
+		"extraChance": 0.015
+	}
+}

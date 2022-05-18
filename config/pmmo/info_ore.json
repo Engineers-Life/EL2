@@ -1,0 +1,98 @@
+{
+	"minecraft:nether_quartz_ore":
+	{
+		"extraChance": 0.055
+	},
+	"minecraft:coal_ore":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:iron_ore":
+	{
+		"extraChance": 0.075
+	},
+	"minecraft:gold_ore":
+	{
+		"extraChance": 0.05
+	},
+	"minecraft:diamond_ore":
+	{
+		"extraChance": 0.033
+	},
+	"minecraft:redstone_ore":
+	{
+		"extraChance": 0.20
+	},
+	"minecraft:lapis_ore":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:emerald_ore":
+	{
+		"extraChance": 0.075
+	},
+	"minecraft:glowstone":
+	{
+		"extraChance": 0.01
+	},
+	"minecraft:nether_gold_ore":
+	{
+		"extraChance": 0.05
+	},
+	"betterendforge:amber_ore":
+	{
+		"extraChance": 0.05
+	},
+	"betterendforge:ender_ore":
+	{
+		"extraChance": 0.075
+	},
+	"bigreactors:benitoite_ore":
+	{
+		"extraChance": 0.10
+	},
+	"bigreactors:anglesite_ore":
+	{
+		"extraChance": 0.10
+	},
+	"bigreactors:yellorite_ore":
+	{
+		"extraChance": 0.15
+	},
+	"mapperbase:bitumen_ore":
+	{
+		"extraChance": 0.01
+	},
+	"randomite:randomite_ore":
+	{
+		"extraChance": 0.025
+	},
+	"quark:biotite_ore":
+	{
+		"extraChance": 0.025
+	},
+	"immersiveengineering:ore_copper":
+	{
+		"extraChance": 0.15
+	},
+	"immersiveengineering:ore_aluminum":
+	{
+		"extraChance": 0.10
+	},
+	"immersiveengineering:ore_lead":
+	{
+		"extraChance": 0.05
+	},
+	"immersiveengineering:ore_silver":
+	{
+		"extraChance": 0.075
+	},
+	"immersiveengineering:ore_nickel":
+	{
+		"extraChance": 0.125
+	},
+	"immersiveengineering:ore_uranium":
+	{
+		"extraChance": 0.05
+	}
+}

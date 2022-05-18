@@ -1,0 +1,426 @@
+{
+	"minecraft:cobblestone":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:stone":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:stone_bricks":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:netherrack":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:nether_bricks":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:polished_blackstone_bricks":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:sand":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:red_sand":
+	{
+		"extraChance": 0.09
+	},
+	"minecraft:sandstone":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:red_sandstone":
+	{
+		"extraChance": 0.09
+	},
+	"minecraft:coal_ore":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:iron_ore":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:gold_ore":
+	{
+		"extraChance": 0.05
+	},
+	"minecraft:nether_gold_ore":
+	{
+		"extraChance": 0.075
+	},
+	"minecraft:nether_quartz_ore":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:diamond_ore":
+	{
+		"extraChance": 0.025
+	},
+	"minecraft:redstone_ore":
+	{
+		"extraChance": 0.2
+	},
+	"minecraft:lapis_ore":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:emerald_ore":
+	{
+		"extraChance": 0.02
+	},
+	"minecraft:ancient_debris":
+	{
+		"extraChance": 0.033
+	},
+	"minecraft:clay_ball":
+	{
+		"extraChance": 0.05
+	},
+	"minecraft:clay":
+	{
+		"extraChance": 0.05
+	},
+	"minecraft:chainmail_helmet":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:chainmail_chestplate":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:chainmail_leggings":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:chainmail_boots":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:iron_helmet":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_chestplate":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_leggings":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_boots":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_pickaxe":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_shovel":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_axe":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_hoe":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_sword":
+	{
+		"extraChance": 0.5
+	},
+	"minecraft:iron_horse_armor":
+	{
+		"extraChance": 0.50
+	},
+	"minecraft:golden_helmet":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_chestplate":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_leggings":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_boots":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_pickaxe":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_shovel":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_axe":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_hoe":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_sword":
+	{
+		"extraChance": 0.25
+	},
+	"minecraft:golden_horse_armor":
+	{
+		"extraChance": 0.50
+	},
+	"minecraft:oak_log":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:birch_log":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:spruce_log":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:jungle_log":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:dark_oak_log":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:acacia_log":
+	{
+		"extraChance": 0.1
+	},
+	"minecraft:white_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:orange_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:magenta_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:light_blue_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:yellow_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:lime_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:pink_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:gray_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:light_gray_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:cyan_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:purple_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:blue_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:brown_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:green_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:red_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:black_terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:terracotta":
+	{
+		"extraChance": 0.15
+	},
+	"minecraft:quartz_block":
+	{
+		"extraChance": 0.10
+	},
+	"minecraft:cracked_nether_bricks":
+	{
+		"extraChance": 0.10
+	},
+	"minecraft:cracked_stone_bricks":
+	{
+		"extraChance": 0.12
+	},
+	"minecraft:obsidian":
+	{
+		"extraChance": 0.12
+	},
+	"minecraft:granite":
+	{
+		"extraChance": 0.10
+	},
+	"minecraft:diorite":
+	{
+		"extraChance": 0.10
+	},
+	"minecraft:cracked_polished_blackstone_bricks":
+	{
+		"extraChance": 0.10
+	},
+	"minecraft:coal_block":
+	{
+		"extraChance": 0.10
+	},
+	"minecraft:glowstone":
+	{
+		"extraChance": 0.10
+	},
+	"minecraft:andesite":
+	{
+		"extraChance": 0.10
+	},
+	"aquaculture:tin_can":
+	{
+		"extraChance": 0.15
+	},
+	"embellishcraft:smooth_marble":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:gneiss":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:gneiss_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:larvikite":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:larvikite_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:marble_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:marble":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:basalt":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:basalt_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:jade":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:jade_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"notreepunching:diorite_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"notreepunching:andesite_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"notreepunching:granite_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"quark:soul_sandstone":
+	{
+		"extraChance": 0.10
+	},
+	"quark:biotite_block":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:slate":
+	{
+		"extraChance": 0.10
+	},
+	"embellishcraft:slate_cobblestone":
+	{
+		"extraChance": 0.10
+	},
+	"immersiveengineering:ore_uranium":
+	{
+		"extraChance": 0.10
+	},
+	"immersiveengineering:ore_nickel":
+	{
+		"extraChance": 0.12
+	},
+	"immersiveengineering:ore_silver":
+	{
+		"extraChance": 0.11
+	},
+	"immersiveengineering:ore_lead":
+	{
+		"extraChance": 0.10
+	},
+	"immersiveengineering:ore_aluminum":
+	{
+		"extraChance": 0.12
+	},
+	"immersiveengineering:ore_copper":
+	{
+		"extraChance": 0.14
+	},
+	"quark:trowel":
+	{
+		"extraChance": 0.2
+	},
+	"bigreactors:cyanite_dust":
+	{
+		"extraChance": 0.15
+	}
+}

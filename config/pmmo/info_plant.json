@@ -1,0 +1,310 @@
+{
+	"minecraft:cocoa_beans":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:wheat":
+	{
+		"extraChance": 0.005
+	},
+	"minecraft:melon":
+	{
+		"extraChance": 0.01
+	},
+	"minecraft:apple":
+	{
+		"extraChance": 0.01
+	},
+	"minecraft:pumpkin":
+	{
+		"extraChance": 0.006
+	},
+	"minecraft:beetroot":
+	{
+		"extraChance": 0.01
+	},
+	"minecraft:cactus":
+	{
+		"extraChance": 0.0045
+	},
+	"minecraft:sugar_cane":
+	{
+		"extraChance": 0.0033
+	},
+	"minecraft:kelp":
+	{
+		"extraChance": 0.0025
+	},
+	"minecraft:bamboo":
+	{
+		"extraChance": 0.0035
+	},
+	"minecraft:sea_pickle":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:potato":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:carrot":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:sweet_berries":
+	{
+		"extraChance": 0.015
+	},
+	"minecraft:nether_wart":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:dandelion":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:poppy":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:blue_orchid":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:allium":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:azure_bluet":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:red_tulip":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:orange_tulip":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:white_tulip":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:pink_tulip":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:oxeye_daisy":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:cornflower":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:lily_of_the_valley":
+	{
+		"extraChance": 0.0075
+	},
+	"minecraft:wither_rose":
+	{
+		"extraChance": 0.0075
+	},
+	"immersiveengineering:hemp_fiber":
+	{
+		"extraChance": 0.010
+	},
+	"veggie_way:quinoa":
+	{
+		"extraChance": 0.0025
+	},
+	"veggie_way:soybean":
+	{
+		"extraChance": 0.0025
+	},
+	"veggie_way:lentil":
+	{
+		"extraChance": 0.0025
+	},
+	"veggie_way:corn":
+	{
+		"extraChance": 0.0025
+	},
+	"simplefarming:apricot":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:banana":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:blackberries":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:blueberries":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:cactus_fruit":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:cantaloupe":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:cherries":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:grapes":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:honeydew":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:mango":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:olives":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:orange":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:pear":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:plum":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:raspberries":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:strawberries":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:broccoli":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:cassava":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:corn":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:cucumber":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:eggplant":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:habanero":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:ginger":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:lettuce":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:onion":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:pea_pod":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:peanut":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:pepper":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:radish":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:sorghum":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:soybean":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:spinach":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:squash":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:sweet_potato":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:tomato":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:turnip":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:yam":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:zucchini":
+	{
+		"extraChance": 0.004
+	},
+	"simplefarming:cotton":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:kenaf_fiber":
+	{
+		"extraChance": 0.005
+	},
+	"simplefarming:barley":
+	{
+		"extraChance": 0.006
+	},
+	"simplefarming:oat":
+	{
+		"extraChance": 0.006
+	},
+	"simplefarming:rye":
+	{
+		"extraChance": 0.006
+	},
+	"simplefarming:rice":
+	{
+		"extraChance": 0.006
+	}
+}
