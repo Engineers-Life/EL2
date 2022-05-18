@@ -1,0 +1,10 @@
+
+#Tick settings (20 ticks = 1 second)
+[tickSettings]
+	#Number of ticks to craft a recipe
+	#Range: > 1
+	craftingTicks = 8
+	#Number of ticks to cool down
+	#Range: > 1
+	cooldownTicks = 16
+

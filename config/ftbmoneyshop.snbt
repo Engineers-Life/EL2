@@ -1,0 +1,52 @@
+{
+	tabs: [
+		{
+			title: "Basic"
+			icon: "minecraft:stone"
+			entries: [
+				{
+					item: { id: "minecraft:andesite", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:diorite", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:granite", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:gravel", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:sand", Count: 64b }
+					buy: 10L
+				}
+			]
+		}
+		{
+			title: "Lootbox"
+			icon: "aquaculture:treasure_chest"
+			entries: [
+				{
+					item: "aquaculture:box"
+					buy: 5L
+				}
+				{
+					item: "aquaculture:lockbox"
+					buy: 15L
+				}
+				{
+					item: "aquaculture:treasure_chest"
+					buy: 30L
+				}
+				{
+					item: "randomite:randomite_ore"
+					buy: 25L
+				}
+			]
+		}
+	]
+}
