@@ -1,9 +1,0 @@
-name = gears
-loop = true
-fps = 12
-width = 467
-height = 567
-x = 0
-y = 0
-replayintro = true
-
