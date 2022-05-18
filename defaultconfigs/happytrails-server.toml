@@ -1,0 +1,12 @@
+
+["Happy Trail Control Values"]
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+	#Particles On: [true] / false
+	particlesOn = true
+
+["Trail Values 6464"]
+	#Trail Block String 6464
+	defaultTrailBlocksActual = "minecraft:grass_path,1;mapperbase:asphalt,1;immersiveengineering:concrete,1;"
+
