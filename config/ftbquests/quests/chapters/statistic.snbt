@@ -1,0 +1,1087 @@
+{
+	id: "00000000000002E6"
+	group: ""
+	order_index: 18
+	filename: "statistic"
+	title: "Statistics"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "minecraft:stone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -4.0d
+			id: "00000000000002EB"
+			tasks: [{
+				id: "00000000000002EC"
+				type: "stat"
+				title: "Kill 25 Mobs"
+				stat: "minecraft:mob_kills"
+				value: 25
+			}]
+			rewards: [{
+				id: "00000000000004F3"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "First Blood"
+			icon: "minecraft:skeleton_skull"
+			x: -4.5d
+			y: -4.0d
+			id: "00000000000002EF"
+			tasks: [{
+				id: "00000000000002F0"
+				type: "stat"
+				icon: "minecraft:skeleton_skull"
+				stat: "minecraft:deaths"
+				value: 1
+			}]
+			rewards: [{
+				id: "0000000000001293"
+				type: "item"
+				item: "simplefarming:peanut_butter_cookie"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["00000000000002EB"]
+			id: "00000000000002F1"
+			tasks: [{
+				id: "00000000000002F2"
+				type: "stat"
+				title: "Kill 100 Mobs"
+				stat: "minecraft:mob_kills"
+				value: 100
+			}]
+			rewards: [{
+				id: "000000000000128B"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:golden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["00000000000002F1"]
+			id: "00000000000002F3"
+			tasks: [{
+				id: "00000000000002F4"
+				type: "stat"
+				title: "Kill 250 Mobs"
+				stat: "minecraft:mob_kills"
+				value: 250
+			}]
+			rewards: [{
+				id: "0000000000000449"
+				type: "item"
+				item: "spareparts:coins/iron_coin"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["00000000000002EF"]
+			id: "00000000000002F5"
+			tasks: [{
+				id: "00000000000002F6"
+				type: "stat"
+				title: "Die 10 Times"
+				icon: "minecraft:skeleton_skull"
+				stat: "minecraft:deaths"
+				value: 10
+			}]
+			rewards: [{
+				id: "00000000000005CA"
+				type: "item"
+				item: "spareparts:coins/stone_coin"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["00000000000002F5"]
+			id: "00000000000002F7"
+			tasks: [{
+				id: "00000000000002F8"
+				type: "stat"
+				title: "Die 30 Times"
+				icon: "minecraft:skeleton_skull"
+				stat: "minecraft:deaths"
+				value: 30
+			}]
+			rewards: [{
+				id: "0000000000001294"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			id: "00000000000002F9"
+			tasks: [{
+				id: "00000000000002FA"
+				type: "stat"
+				icon: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 500000
+			}]
+			rewards: [
+				{
+					id: "0000000000000353"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "0000000000000354"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["00000000000002F9"]
+			id: "00000000000002FB"
+			tasks: [{
+				id: "00000000000002FC"
+				type: "stat"
+				icon: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 1500000
+			}]
+			rewards: [{
+				id: "0000000000001292"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["00000000000002FB"]
+			id: "00000000000002FD"
+			tasks: [{
+				id: "00000000000002FE"
+				type: "stat"
+				icon: {
+					id: "minecraft:golden_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 3500000
+			}]
+			rewards: [
+				{
+					id: "0000000000001290"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:slow_falling"
+						}
+					}
+					random_bonus: 1
+				}
+				{
+					id: "0000000000001291"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["00000000000002FD"]
+			id: "0000000000000301"
+			tasks: [{
+				id: "0000000000000302"
+				type: "stat"
+				icon: {
+					id: "minecraft:diamond_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 7000000
+			}]
+			rewards: [{
+				id: "0000000000000352"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:feather_falling"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["0000000000000301"]
+			id: "0000000000000303"
+			tasks: [{
+				id: "0000000000000304"
+				type: "stat"
+				icon: {
+					id: "minecraft:netherite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 15000000
+			}]
+			rewards: [{
+				id: "000000000000044A"
+				type: "item"
+				item: "spareparts:coins/diamond_coin"
+			}]
+		}
+		{
+			icon: "engineersdecor:sign_exit"
+			x: -7.5d
+			y: -4.0d
+			id: "0000000000000308"
+			tasks: [{
+				id: "0000000000000309"
+				type: "stat"
+				icon: "engineersdecor:sign_exit"
+				stat: "minecraft:leave_game"
+				value: 1
+			}]
+			rewards: [{
+				id: "00000000000004A7"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["0000000000000308"]
+			id: "000000000000030A"
+			tasks: [{
+				id: "000000000000030B"
+				type: "stat"
+				icon: "engineersdecor:sign_exit"
+				stat: "minecraft:leave_game"
+				value: 10
+			}]
+			rewards: [{
+				id: "0000000000001284"
+				type: "item"
+				item: "simplefarming:pancakes"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["000000000000030A"]
+			id: "000000000000030C"
+			tasks: [{
+				id: "000000000000030D"
+				type: "stat"
+				icon: "engineersdecor:sign_exit"
+				stat: "minecraft:leave_game"
+				value: 50
+			}]
+			rewards: [{
+				id: "0000000000001285"
+				type: "item"
+				item: "pamhc2foodcore:cookiesandmilkitem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["000000000000030C"]
+			id: "000000000000030E"
+			tasks: [{
+				id: "000000000000030F"
+				type: "stat"
+				icon: "engineersdecor:sign_exit"
+				stat: "minecraft:leave_game"
+				value: 100
+			}]
+			rewards: [{
+				id: "0000000000001287"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			dependencies: ["000000000000030E"]
+			id: "0000000000000310"
+			tasks: [{
+				id: "0000000000000311"
+				type: "stat"
+				icon: "engineersdecor:sign_exit"
+				stat: "minecraft:leave_game"
+				value: 250
+			}]
+			rewards: [{
+				id: "0000000000001288"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			id: "0000000000000312"
+			tasks: [{
+				id: "0000000000000313"
+				type: "stat"
+				title: "Piece of Cake!"
+				icon: "minecraft:cake"
+				stat: "minecraft:eat_cake_slice"
+				value: 152
+			}]
+			rewards: [
+				{
+					id: "00000000000012AE"
+					type: "item"
+					item: "veggie_way:cooked_carrot"
+					count: 16
+				}
+				{
+					id: "00000000000012AF"
+					type: "item"
+					item: "minecraft:baked_potato"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			id: "0000000000000314"
+			tasks: [{
+				id: "0000000000000315"
+				type: "stat"
+				icon: "minecraft:sticky_piston"
+				stat: "minecraft:jump"
+				value: 1000
+			}]
+			rewards: [{
+				id: "0000000000001297"
+				type: "item"
+				item: "minecraft:feather"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "0000000000000316"
+			tasks: [{
+				id: "0000000000000317"
+				type: "stat"
+				title: "Fishy Business"
+				icon: "minecraft:pufferfish"
+				stat: "minecraft:fish_caught"
+				value: 376
+			}]
+			rewards: [{
+				id: "00000000000012B1"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["00000000000002F7"]
+			id: "00000000000003C2"
+			tasks: [{
+				id: "00000000000003C3"
+				type: "stat"
+				title: "Die 50 Times"
+				icon: "minecraft:wither_skeleton_skull"
+				stat: "minecraft:deaths"
+				value: 50
+			}]
+			rewards: [{
+				id: "0000000000001295"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["00000000000003C2"]
+			id: "00000000000006A2"
+			tasks: [{
+				id: "00000000000006A3"
+				type: "stat"
+				title: "Too Hard For You Maybe?"
+				icon: "minecraft:wither_skeleton_skull"
+				stat: "minecraft:deaths"
+				value: 200
+			}]
+			rewards: [{
+				id: "000000000000129A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["00000000000002F3"]
+			id: "00000000000006A4"
+			tasks: [{
+				id: "00000000000006A5"
+				type: "stat"
+				title: "Kill 500 Mobs"
+				icon: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 500
+			}]
+			rewards: [{
+				id: "000000000000128C"
+				type: "item"
+				item: "spareparts:coins/monster_coin"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			dependencies: ["00000000000006A4"]
+			id: "00000000000006A6"
+			tasks: [{
+				id: "00000000000006A7"
+				type: "stat"
+				title: "Kill 1,000 Mobs"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 1000
+			}]
+			rewards: [{
+				id: "000000000000128A"
+				type: "item"
+				item: "spareparts:coins/monster_coin"
+			}]
+		}
+		{
+			title: "Is That All You Got?"
+			x: 1.5d
+			y: -2.5d
+			id: "00000000000006A8"
+			tasks: [{
+				id: "00000000000006A9"
+				type: "stat"
+				icon: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:damage_blocked_by_shield"
+				value: 100000
+			}]
+			rewards: [{
+				id: "000000000000129E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Animal Cruelty"
+			x: 0.0d
+			y: -1.0d
+			id: "00000000000006AA"
+			tasks: [{
+				id: "00000000000006AB"
+				type: "stat"
+				icon: {
+					id: "minecraft:carrot_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:pig_one_cm"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "00000000000012A0"
+				type: "item"
+				item: "minecraft:porkchop"
+				count: 64
+			}]
+		}
+		{
+			title: "Free Falling"
+			x: 1.5d
+			y: -4.0d
+			id: "00000000000006AC"
+			tasks: [{
+				id: "00000000000006AD"
+				type: "stat"
+				icon: "minecraft:feather"
+				stat: "minecraft:fall_one_cm"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "000000000000129D"
+				type: "item"
+				item: "minecraft:egg"
+				count: 16
+			}]
+		}
+		{
+			title: "Rock The Boat"
+			x: 0.0d
+			y: -4.0d
+			id: "000000000000071F"
+			tasks: [{
+				id: "0000000000000720"
+				type: "stat"
+				icon: "minecraft:dark_oak_boat"
+				stat: "minecraft:boat_one_cm"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "0000000000000776"
+				type: "random"
+				table_id: 1355L
+			}]
+		}
+		{
+			title: "High Flying"
+			x: 0.0d
+			y: -2.5d
+			id: "0000000000000FAB"
+			tasks: [{
+				id: "0000000000000FAC"
+				type: "stat"
+				title: "Take Flight"
+				icon: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:aviate_one_cm"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "000000000000129F"
+				type: "item"
+				item: {
+					id: "immersiveengineering:balloon"
+					Count: 1b
+					tag: { }
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Rough Riders"
+			icon: "minecraft:saddle"
+			x: 0.0d
+			y: 0.5d
+			id: "000000000000102A"
+			tasks: [{
+				id: "000000000000102B"
+				type: "stat"
+				icon: "minecraft:saddle"
+				stat: "minecraft:horse_one_cm"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "00000000000012A1"
+				type: "item"
+				item: "minecraft:diamond_horse_armor"
+			}]
+		}
+		{
+			title: "Nether Pigs"
+			x: 0.0d
+			y: 2.0d
+			id: "00000000000011A0"
+			tasks: [{
+				id: "00000000000011A1"
+				type: "stat"
+				icon: "minecraft:warped_fungus"
+				stat: "minecraft:strider_one_cm"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "00000000000012B0"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 10
+			}]
+		}
+		{
+			title: "Spongebob"
+			x: 0.0d
+			y: 3.5d
+			id: "00000000000011A2"
+			tasks: [{
+				id: "00000000000011A3"
+				type: "stat"
+				icon: {
+					id: "scuba_gear:scuba_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_under_water_one_cm"
+				value: 100000
+			}]
+			rewards: [{
+				id: "00000000000014DB"
+				type: "item"
+				item: "minecraft:sea_pickle"
+				count: 16
+			}]
+		}
+		{
+			icon: "engineersdecor:sign_exit"
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["0000000000000310"]
+			id: "00000000000011A4"
+			tasks: [{
+				id: "00000000000011A5"
+				type: "stat"
+				icon: "engineersdecor:sign_exit"
+				stat: "minecraft:leave_game"
+				value: 500
+			}]
+			rewards: [{
+				id: "0000000000001289"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		}
+		{
+			title: "Kill 10,000 Mobs"
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["00000000000006A6"]
+			id: "00000000000011A6"
+			tasks: [{
+				id: "00000000000011A7"
+				type: "stat"
+				title: "Kill 10,000 Mobs"
+				icon: {
+					id: "betterendforge:aeternium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 10000
+			}]
+			rewards: [{
+				id: "000000000000128D"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "You Still Haven't Given Up?"
+			icon: "minecraft:creeper_head"
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["00000000000006A2"]
+			id: "00000000000011A8"
+			tasks: [{
+				id: "00000000000011A9"
+				type: "stat"
+				icon: "minecraft:creeper_head"
+				stat: "minecraft:deaths"
+				value: 500
+			}]
+			rewards: [
+				{
+					id: "0000000000001305"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000001306"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000001307"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000001308"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["0000000000000303"]
+			id: "00000000000011AA"
+			tasks: [{
+				id: "00000000000011AB"
+				type: "stat"
+				icon: {
+					id: "betterendforge:aeternium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 30000000
+			}]
+			rewards: [{
+				id: "000000000000128E"
+				type: "item"
+				item: "spareparts:coins/ancient_coin"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["0000000000000314"]
+			id: "00000000000011AC"
+			tasks: [{
+				id: "00000000000011AD"
+				type: "stat"
+				icon: "minecraft:piston"
+				stat: "minecraft:jump"
+				value: 10000
+			}]
+			rewards: [{
+				id: "0000000000001298"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "tier_i_random"
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:roadrunner_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["00000000000011AC"]
+			id: "00000000000011AE"
+			tasks: [{
+				id: "00000000000011AF"
+				type: "stat"
+				icon: "supplementaries:piston_launcher"
+				stat: "minecraft:jump"
+				value: 100000
+			}]
+			rewards: [{
+				id: "0000000000001299"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "shingles_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["00000000000011AE"]
+			id: "00000000000011B0"
+			tasks: [{
+				id: "00000000000011B1"
+				type: "stat"
+				icon: "minecraft:slime_block"
+				stat: "minecraft:jump"
+				value: 500000
+			}]
+			rewards: [{
+				id: "000000000000129B"
+				type: "item"
+				item: "minecraft:slime_block"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["00000000000011B0"]
+			id: "00000000000011B2"
+			tasks: [{
+				id: "00000000000011B3"
+				type: "stat"
+				icon: "immersiveengineering:cushion"
+				stat: "minecraft:jump"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "000000000000129C"
+				type: "item"
+				item: "supplementaries:piston_launcher"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["00000000000011B2"]
+			id: "00000000000011B4"
+			tasks: [{
+				id: "00000000000011B5"
+				type: "stat"
+				icon: "quark:bottled_cloud"
+				stat: "minecraft:jump"
+				value: 10000000
+			}]
+			rewards: [{
+				id: "0000000000001296"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Master Socializer"
+			x: 1.5d
+			y: 2.0d
+			id: "00000000000011B6"
+			tasks: [{
+				id: "00000000000011B7"
+				type: "stat"
+				icon: "minecraft:bell"
+				stat: "minecraft:talked_to_villager"
+				value: 1000
+			}]
+			rewards: [{
+				id: "00000000000012AD"
+				type: "item"
+				item: "simplefarming:wine"
+				count: 16
+			}]
+		}
+		{
+			title: "Love Guru"
+			x: 1.5d
+			y: 3.5d
+			id: "00000000000011B8"
+			tasks: [{
+				id: "00000000000011B9"
+				type: "stat"
+				icon: "minecraft:egg"
+				stat: "minecraft:animals_bred"
+				value: 1000
+			}]
+			rewards: [{
+				id: "00000000000012AC"
+				type: "item"
+				item: "embellishcraft:red_crimson_fancy_bed"
+			}]
+		}
+	]
+}

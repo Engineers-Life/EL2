@@ -1,0 +1,684 @@
+{
+	id: "14F4F74C56804B36"
+	group: ""
+	order_index: 15
+	filename: "tardis"
+	title: "TARDIS"
+	icon: "tardis:telescope"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "You will find more details in this book"
+			description: [
+				"Tardises can be found underground under Y level 64 (below y level 32 in 1.16.5) across all biomes in all dimensions except the Nether and End dimensions. To detect broken Tardises, you can right click a Minecraft Bell for long distance searches, and narrow the search radius down with a Pocket Watch."
+				""
+				"If ringing the bell produces an echoing \"Cloister Bell\" sound, it means a broken Tardis may be within range (3 chunk radius around the Bell). This is an indication of timeships responding to the bell as its sound mirrors its own Cloister Bell, which is often an indication of distress or impending danger. "
+				""
+				"To use the Pocket Watch to detect broken Tardises, simply hold the watch in either hand as you explore the world. You may notice that the watch hands will go haywire within 25 blocks of such space-time anomalies."
+			]
+			dependencies: ["407A45C2AAEDD9EB"]
+			size: 2.0d
+			id: "22E2E67680D43CC4"
+			tasks: [{
+				id: "2B8C850895564A9F"
+				type: "item"
+				item: {
+					id: "tardis:manual"
+					Count: 1b
+					tag: {
+						chapter: 13
+						page: 4
+					}
+				}
+			}]
+			rewards: [{
+				id: "754A4E9A53C39E3E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Visit website for in-depth guide: https://tardis-mod.com"
+			description: ["The New TARDIS Mod is a technology mod that adds a pocket dimension which can act as a portable base, inspired by the eponymous time machine from the popular British television show, Doctor Who."]
+			id: "407A45C2AAEDD9EB"
+			tasks: [{
+				id: "2BEBD8EA7826988B"
+				type: "item"
+				item: "tardis:xion_crystal"
+			}]
+			rewards: [{
+				id: "3A32DD2205510BE0"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			title: "Interacting with a Tardis"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Gifting Items"
+			description: [
+				"Each Tardis will have a unique emotional personality and may exhibit different emotions when interacted with."
+				""
+				"Initially, crashed Tardises will be vulnerable and will be hesitant and fearful of any outsiders, much like a cornered or wounded creature. The exterior will produce sparks and will produce a pulsating, faint glow. Players or entities cannot enter the Tardis in any form at this stage."
+				""
+				"The player will need to convince the Tardis to open for them in order to gain access. Most Tardises are known for having a passion for exploration and adventure, so the player may want to appeal to these emotions."
+			]
+			dependencies: ["22E2E67680D43CC4"]
+			id: "34ADA6FDA1A391D8"
+			tasks: [{
+				id: "5C4B68230E5A6CB2"
+				type: "item"
+				item: {
+					id: "minecraft:clock"
+					Count: 1b
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "78DF3C640825127B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DEB83990997F3C8"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["One way the player can interact with the Tardis is through giving it items it likes, especially items related to exploration/adventure. This is done by right clicking with an item on the Tardis exterior. If the Tardis likes the item, it will produce heart particles. A successful gift will also increase the Tardis’ loyalty to the player, which will be outlined in further detail here: Tardis Loyalty"]
+			dependencies: ["22E2E67680D43CC4"]
+			id: "19E2538BF7F9B43D"
+			tasks: [{
+				id: "1A3204CB1EF17D62"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [
+				{
+					id: "544150810CD40469"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "018E54482EBD81A5"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"Some items a Tardis may like include:"
+				"- Filled Map"
+				"- Ender Pearl"
+				"- Ender Eye"
+				"- Bells"
+				"- Clocks"
+				"- Compass"
+			]
+			dependencies: ["22E2E67680D43CC4"]
+			id: "3B4CF2F923D7BB4D"
+			tasks: [{
+				id: "30A91129ECF62590"
+				type: "item"
+				item: {
+					id: "minecraft:compass"
+					Count: 1b
+					tag: {
+						"quark:compass_calculated": 1b
+						"quark:compass_in_nether": 0b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5588145289647C09"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "569FCE3B136C6878"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["22E2E67680D43CC4"]
+			id: "1D1D1A2D775616FA"
+			tasks: [{
+				id: "429E78169BDB219C"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [
+				{
+					id: "280BFABB25D1BCC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "35E61D84D2538627"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["22E2E67680D43CC4"]
+			id: "0D12379C402F93C9"
+			tasks: [{
+				id: "34CA605A664B8CD5"
+				type: "item"
+				item: "tardis:alembic"
+			}]
+			rewards: [{
+				id: "395CB83E1B7D9EF3"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["0D12379C402F93C9"]
+			id: "63472F84B5A95AF9"
+			tasks: [{
+				id: "3C79BC934DAF08BE"
+				type: "item"
+				item: "tardis:quantiscope_iron"
+			}]
+			rewards: [{
+				id: "3C9D4122D6F26E5F"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["7C554A1DA16BD07D"]
+			id: "40B57C1F37AEB946"
+			tasks: [{
+				id: "6ED55FCF062CAFB4"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/dematerialisation_circuit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "369F4BD791B017B2"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3FB294A8750CEEB5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_i_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["7C554A1DA16BD07D"]
+			id: "17B5705D133DC9D8"
+			tasks: [{
+				id: "7AB1CF7FD1FA92B9"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/fluid_link"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A4595DAF166D556"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0B05014CABC1217F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_i_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			dependencies: ["7C554A1DA16BD07D"]
+			id: "1A4C4DBFB83AD38C"
+			tasks: [{
+				id: "0034FAB46C836707"
+				type: "item"
+				item: "tardis:artron_capacitor"
+			}]
+			rewards: [
+				{
+					id: "308A63E0D6C79BA8"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0EEA514AAFBFF413"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_i_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["1A4C4DBFB83AD38C"]
+			id: "2A872F707008AF64"
+			tasks: [{
+				id: "27B9C002F40362C0"
+				type: "item"
+				item: "tardis:artron_capacitor_mid"
+			}]
+			rewards: [{
+				id: "4902189AF6DB703C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["2A872F707008AF64"]
+			id: "44D9C7367F4B18FD"
+			tasks: [{
+				id: "3FB24A39EB399FD4"
+				type: "item"
+				item: "tardis:artron_capacitor_high"
+			}]
+			rewards: [{
+				id: "3C679C766738AA9B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "tier_iii_random"
+					}
+				}
+			}]
+		}
+		{
+			icon: "itemfilters:custom"
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"To make your Tardis ready for flight, you need the following subsystems"
+				"- Dematerialisation Circuit"
+				"- Fluid Link"
+				"- Artron Capacitor"
+				""
+				"Dematerialisation Circuit and Fluid Link are needed for flight, whilst the Fluid Link and Artron Capacitor are needed to refuel the Tardis."
+			]
+			dependencies: ["63472F84B5A95AF9"]
+			id: "7C554A1DA16BD07D"
+			tasks: [{
+				id: "574A3288F8949427"
+				type: "checkmark"
+				title: "Obtain Essential Flight Subsystems"
+			}]
+			rewards: [{
+				id: "12FB295D9AD079FB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "itemfilters:not"
+			x: 5.0d
+			y: 1.0d
+			description: [
+				"The Tardis is a living being and to ensure its cooperation with you in the future, you need to interact with it and do activities that can increase its mood and loyalty."
+				""
+				"Gaining your Tardis’ trust will be important in your relationship with your Tardis, as you’ll find it can really handy during the course of your time in-game."
+				""
+				"Happy Tardises will be inclined to land more accurately. Additionally, loyal Tardises will be able to open in response when you “snap your fingers” (activate Snap keybind)."
+				""
+			]
+			dependencies: ["7C554A1DA16BD07D"]
+			id: "7977523AD15D6172"
+			tasks: [{
+				id: "2862224CCF3056D8"
+				type: "checkmark"
+				title: "Gain and Maintaining your Tardis’ Trust"
+			}]
+			rewards: [{
+				id: "47A3A3398EB7B0D7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "itemfilters:not"
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"As you gather more resources you will be able to access other subsystems that can increase the range of abilities of your Tardis. These include:"
+				""
+				"1. Interstitial Antenna"
+				"Allows you to pick up distress calls from other players, detect crashed ships that can contain scrap materials"
+				""
+				"2. Chameleon Circuit"
+				"Disguise your Exterior as other structures in the world, such as trees or cacti."
+				"Customise your Exterior with different models"
+				""
+				"3. Shield Generator"
+				"Protect your other subsystems from damage when the exterior is damaged."
+				"When in space, prevent you from being sucked out when the door opens."
+				""
+				"4. Temporal Grace"
+				"Negate any damage you take inside the Tardis interior."
+				""
+				"You can also apply Mending and Unbreaking enchantments to your components for increased durability and longevity."
+			]
+			dependencies: [
+				"40B57C1F37AEB946"
+				"17B5705D133DC9D8"
+				"1A4C4DBFB83AD38C"
+			]
+			id: "1A86659D965B90B9"
+			tasks: [{
+				id: "583A970A047F4055"
+				type: "checkmark"
+				title: "Accessing more Subsystems"
+			}]
+			rewards: [{
+				id: "5000DDE9A3F25089"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["1A86659D965B90B9"]
+			id: "20F6FC0E6AD6DFE8"
+			tasks: [{
+				id: "14113CEF169A64EC"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/interstitial_antenna"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "357F5FAD2F917DC1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "7762824C8F4742C2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			dependencies: ["1A86659D965B90B9"]
+			id: "5B526727F9258F4F"
+			tasks: [{
+				id: "6D9818627F8DEBC3"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/chameleon_circuit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3162112510A87BAE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "5D032EB96500EE5C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			dependencies: ["1A86659D965B90B9"]
+			id: "2B79F7466037B3BC"
+			tasks: [{
+				id: "1BDDFD2DB1211BF3"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/shield_generator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12306426631019CA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "2F9EE951096617ED"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["1A86659D965B90B9"]
+			id: "7122B7B7223E9DED"
+			tasks: [{
+				id: "536494D24317547F"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/temporal_grace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "047DEB75D58E53ED"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "07A3E00099268A51"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "Upgrades"
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"You can also extend the abilities of existing subsystems by crafting and installing Upgrades."
+				""
+				"Some upgrades such as the Atrium Upgrade can help you move other blocks with your exterior when you dematerialize."
+				""
+				"Other upgrades like the Electrolytic Upgrade are useful for helping you breath in underwater environments."
+			]
+			dependencies: ["1A86659D965B90B9"]
+			id: "09DA314DF16AD552"
+			tasks: [{
+				id: "4FB6AB17E03CB15A"
+				type: "item"
+				item: {
+					id: "tardis:blank_upgrade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D233F270180DBAD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "random_ingot_material"
+					}
+				}
+			}]
+		}
+		{
+			title: "Maintaining your systems"
+			x: 10.0d
+			y: -2.0d
+			description: [
+				"It is important to maintain stocks of raw materials to repair your subsystems as you continue to use your Tardis."
+				""
+				"It is recommend you create a cactus farm to keep up supply of green dye that is used for the Exotronic Circuit."
+				""
+				"Additionally, cinnabar will be essential in repairing your Fluid Links via Mercury Bottles."
+			]
+			dependencies: ["1A86659D965B90B9"]
+			id: "78ED78898C431B33"
+			tasks: [{
+				id: "620C267D21AC90AA"
+				type: "item"
+				item: "tardis:cinnabar"
+			}]
+			rewards: [{
+				id: "267D5354C9F76DA9"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			title: "Redecorating your Interior"
+			x: 11.0d
+			y: 2.0d
+			description: [
+				"If you are seeking to expand your Tardis interior beyond just the console room, you can craft an ARS Tablet and ARS Egg to get the ARS Structure Start block. The ARS Tablet and ARS Structure Start Block will allow you to create new corridors or rooms in your Tardis."
+				""
+				"If you want to redecorate your console room, ensure to design the interior around the console and start build from the console block, as it will ensure your interior is symmetrical with the console."
+			]
+			dependencies: ["1A86659D965B90B9"]
+			id: "2B91D41B423DE8E3"
+			tasks: [{
+				id: "2B5C9FD740808A69"
+				type: "item"
+				item: {
+					id: "tardis:ars_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1F7C2C2FC1D594B3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "random_ingot_material"
+					}
+				}
+			}]
+		}
+	]
+}

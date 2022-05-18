@@ -1,0 +1,830 @@
+{
+	id: "35B31606A66AD82D"
+	group: ""
+	order_index: 16
+	filename: "card_collector"
+	title: "Card collector"
+	icon: "buddycards:pack.1"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "17A0BCB998D550F5"
+			tasks: [{
+				id: "2C23C794BB77BE7D"
+				type: "item"
+				title: "Any #buddycards:packs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:packs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "20FCC262B307D3C9"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "buddycards:buddycard_guidebook"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["17A0BCB998D550F5"]
+			id: "1A45C3FECFEC14A5"
+			tasks: [{
+				id: "3D700E526CBEC6EC"
+				type: "item"
+				item: "buddycards:binder.1"
+			}]
+			rewards: [
+				{
+					id: "27784E6C3883950E"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "6CA9852FDC1CFE5F"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["1A45C3FECFEC14A5"]
+			id: "28A22E6DC399FF65"
+			tasks: [{
+				id: "77B335CB4BD1592D"
+				type: "item"
+				item: "buddycards:oak_card_display"
+			}]
+			rewards: [
+				{
+					id: "1C2B72DFE2B14FA5"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+				}
+				{
+					id: "282DCE6DE487B2F9"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["1C3CB4E451657931"]
+			id: "7C872A8422B863D6"
+			tasks: [{
+				id: "53E0F1E08538F2C3"
+				type: "item"
+				item: "buddycards:buddysteel_vault.1"
+			}]
+			rewards: [
+				{
+					id: "307266F6571542CD"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 5
+				}
+				{
+					id: "120428497936E21A"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["7C504F8D458B1F05"]
+			id: "74D3E19D923F45C2"
+			tasks: [{
+				id: "7A4854EB91C43791"
+				type: "item"
+				item: "buddycards:buddycard_hook"
+			}]
+			rewards: [
+				{
+					id: "0715387242C3ABD7"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+				}
+				{
+					id: "7A14CFFF4515444E"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "buzzier_bees:long_luck"
+						}
+					}
+				}
+				{
+					id: "4EE7D650CD11E470"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["1A45C3FECFEC14A5"]
+			id: "1C3CB4E451657931"
+			tasks: [{
+				id: "5275077E0E069DD9"
+				type: "item"
+				item: "buddycards:buddysteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "6D663041AFBBCAA5"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "31C86BDD2B16C587"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["1A45C3FECFEC14A5"]
+			id: "6C67A9B8AEC95245"
+			tasks: [{
+				id: "0A362E4DA18CC1FE"
+				type: "item"
+				item: "buddycards:buddybeans"
+			}]
+			rewards: [
+				{
+					id: "60D8CCB34B8C3409"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+				}
+				{
+					id: "6FA1BFC4E378DF97"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["1C3CB4E451657931"]
+			id: "2C93F538B8CB628E"
+			tasks: [{
+				id: "4DEDB270F7C1DCC2"
+				type: "item"
+				item: "buddycards:card_stand"
+			}]
+			rewards: [
+				{
+					id: "43E6F6A930D409F9"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "08E8DB3ED8728F44"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			title: "Buddysteel Armor"
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["1C3CB4E451657931"]
+			id: "2093FB2EF6A08F3F"
+			tasks: [
+				{
+					id: "6AC2DDF733AF1000"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24E293D8461D8D51"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AAF688542BDC370"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B5B02E588CC717B"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3702E906B1F16EF3"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 9
+				}
+				{
+					id: "7FA1BA73F050C8AF"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 9
+				}
+				{
+					id: "1BB0C9C5FABF190E"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 9
+				}
+				{
+					id: "65D69279D3F14BC9"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "7C7CBE1DC09DB89B"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+				}
+				{
+					id: "1870AAC316BC6873"
+					type: "random"
+					table_id: 1982L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: [
+				"5A5B5F2B87D96CEA"
+				"18F57E4CE9840634"
+				"69E1ED7F49D0A416"
+			]
+			id: "3416C8935C46D7B3"
+			tasks: [{
+				id: "59DBA52FFA155419"
+				type: "item"
+				item: "buddycards:perfect_buddysteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "012479CFDA8179CF"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 5
+				}
+				{
+					id: "50C9A00AA8EC4E9D"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 6
+				}
+				{
+					id: "62CB7FDE2263E2AB"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 6
+				}
+				{
+					id: "74B983FD42E53A47"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "3248972F872AF973"
+					type: "random"
+					table_id: 1982L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["6C67A9B8AEC95245"]
+			id: "34B2314C353E0AFF"
+			tasks: [{
+				id: "03868A462D655995"
+				type: "item"
+				item: "buddycards:assorted_gummies"
+			}]
+			rewards: [
+				{
+					id: "2EF83309196AC72C"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "681725AC2F2A103E"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 3
+				}
+				{
+					id: "4B67086BD8F503F2"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["6C67A9B8AEC95245"]
+			id: "799201F36B30D4F1"
+			tasks: [{
+				id: "7D20CE8ED1DC34B2"
+				type: "item"
+				item: "buddycards:shredded_buddycard"
+			}]
+			rewards: [
+				{
+					id: "2D79A76149EFF751"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 3
+				}
+				{
+					id: "3863BAD35EB15E08"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["1C3CB4E451657931"]
+			id: "5A5B5F2B87D96CEA"
+			tasks: [{
+				id: "764905EE56DD95BE"
+				type: "item"
+				item: "buddycards:deep_luminis"
+			}]
+			rewards: [
+				{
+					id: "25E9EC50BE1C3A68"
+					type: "item"
+					item: "minecraft:ink_sac"
+					random_bonus: 5
+				}
+				{
+					id: "747DACA8F1010C7C"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["1C3CB4E451657931"]
+			id: "18F57E4CE9840634"
+			tasks: [{
+				id: "363B07C16AE0988B"
+				type: "item"
+				item: "buddycards:luminis"
+			}]
+			rewards: [
+				{
+					id: "2D95367846445C58"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 5
+				}
+				{
+					id: "7BFE6CBA9A8C141D"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["1C3CB4E451657931"]
+			id: "69E1ED7F49D0A416"
+			tasks: [{
+				id: "2E4D2BCA7548FD1F"
+				type: "item"
+				item: "buddycards:zylex"
+			}]
+			rewards: [
+				{
+					id: "665F26E33AD3240C"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 2
+				}
+				{
+					id: "18290E80DACAAEFF"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["69E1ED7F49D0A416"]
+			id: "3DC36C13BC06E4EE"
+			tasks: [{
+				id: "5D244DF9C9A929CD"
+				type: "item"
+				item: "buddycards:zylex_band"
+			}]
+			rewards: [
+				{
+					id: "6B2AEB63A56F5CAB"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 5
+				}
+				{
+					id: "128C2FC73F659B52"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			dependencies: ["18F57E4CE9840634"]
+			id: "39E962BBB471BF49"
+			tasks: [{
+				id: "2430238AAC62AC20"
+				type: "item"
+				item: "buddycards:luminis_band"
+			}]
+			rewards: [
+				{
+					id: "4B05A3BB5F072E02"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 2
+				}
+				{
+					id: "28EB736D64ED0313"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 3
+				}
+				{
+					id: "7C7FB76424DC3DDC"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["3416C8935C46D7B3"]
+			id: "4691F3803DC973C9"
+			tasks: [
+				{
+					id: "35CAB4415D3B01E5"
+					type: "item"
+					item: {
+						id: "buddycards:perfect_buddysteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B23646944B9FD15"
+					type: "item"
+					item: {
+						id: "buddycards:perfect_buddysteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A297B9EA4366108"
+					type: "item"
+					item: {
+						id: "buddycards:perfect_buddysteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C4CC9757A597C4E"
+					type: "item"
+					item: {
+						id: "buddycards:perfect_buddysteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "40CEF2D2A11AD716"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 9
+				}
+				{
+					id: "3B6EB0F4BF69A275"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 8
+				}
+				{
+					id: "0F97D5CDA02A89E4"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 32
+				}
+				{
+					id: "27CA6DC7A03F1288"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 9
+				}
+				{
+					id: "506C3CC2C2BC4CCD"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "0645207B199B72C6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+				}
+				{
+					id: "2A6C0FEAA9842CBB"
+					type: "random"
+					table_id: 1983L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			dependencies: ["3416C8935C46D7B3"]
+			id: "7A8102517E7FD633"
+			tasks: [{
+				id: "195796CEAC0593C5"
+				type: "item"
+				item: {
+					id: "buddycards:perfect_buddysteel_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F120A9B2F59E2DF"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 8
+				}
+				{
+					id: "73D17C2726EFA76F"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 8
+				}
+				{
+					id: "4221BAC46232CC4C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+				{
+					id: "48430D104DBDE053"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			dependencies: ["3416C8935C46D7B3"]
+			id: "6E8448772FF85F27"
+			tasks: [{
+				id: "4731CD74EA03C0D0"
+				type: "item"
+				item: {
+					id: "buddycards:perfect_buddysteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6AE3E16D960F9D0A"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 5
+				}
+				{
+					id: "627B709B01EF6A65"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 5
+				}
+				{
+					id: "235D8705A1486117"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+				}
+				{
+					id: "21B97F74037CD601"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "67ECBE501CEC61AF"
+					type: "random"
+					table_id: 1332L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["1C3CB4E451657931"]
+			id: "38D09448762CF221"
+			tasks: [{
+				id: "5ADBCE1A95ECFEE1"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2CAB5118118E28CE"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 5
+				}
+				{
+					id: "71CDDF9CA4040073"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 5
+				}
+				{
+					id: "5FFF6AF13CEFE416"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+				{
+					id: "6E46394184B0C140"
+					type: "random"
+					table_id: 1980L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["1C3CB4E451657931"]
+			id: "7C504F8D458B1F05"
+			tasks: [{
+				id: "18DA09B16337F82C"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A70D877FB722717"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 2
+				}
+				{
+					id: "426E4BD89F3F6E3D"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+					random_bonus: 5
+				}
+				{
+					id: "524180151E76E477"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+	]
+}

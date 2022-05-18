@@ -1,0 +1,1213 @@
+{
+	id: "65BBD02A54061C8F"
+	group: ""
+	order_index: 12
+	filename: "pneumaticcraft"
+	title: "PneumaticCraft"
+	icon: "pneumaticcraft:pressure_gauge"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "pneumaticcraft:pressure_gauge"
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Look for detailed info in guidebook!"
+			description: [
+				"PneumaticCraft has its own power system, based on compressed air. It's a little multi-dimensional, in that machines and tools store air by quantity, but many operations depend upon air pressure, which is a function of the machine's volume and the air quantity stored."
+				""
+				"Pressure generation is via several compressors: solid fuel compressors (burn whatever will burn in a vanilla Furnace), liquid fuel compressors (see below), a compressor which uses lightning strikes and FE/EU compressors."
+				""
+				"A Heat mechanic; some machines require heat, some compressors produce heat which needs to be dissipated"
+				""
+				"Liquid fuels are refined from oil which the mod adds as worldgen; some of the refined fuels are of very high quality."
+			]
+			id: "302F025D35C7E495"
+			tasks: [{
+				id: "14454134F73390B3"
+				type: "checkmark"
+				title: "Pneumatics!"
+			}]
+			rewards: [{
+				id: "62B56C939ED5E7DD"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Make some Pressure Tubes to move air around."
+			dependencies: ["6FD45EF3A2B1B31F"]
+			id: "4C788FBAAE9CF49C"
+			tasks: [{
+				id: "119B6AE6CDED5CB0"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+			rewards: [
+				{
+					id: "1001407892A9A48F"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "3B8DAD465259BC86"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["6FD45EF3A2B1B31F"]
+			id: "754A30B336A3E94C"
+			tasks: [{
+				id: "3CA2CDFB8401EA59"
+				type: "item"
+				item: "pneumaticcraft:reinforced_stone"
+			}]
+			rewards: [
+				{
+					id: "3DA9048E3E0A51CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "070AC409C96D86C0"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["754A30B336A3E94C"]
+			id: "5BDB321306D9FF76"
+			tasks: [{
+				id: "3DD93BAE3ED23D73"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_wall"
+			}]
+			rewards: [
+				{
+					id: "2B6A60FE2397A8FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18DC09B78419CEF3"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			subtitle: "Assemble a multiblock Pressure Chamber"
+			dependencies: ["5BDB321306D9FF76"]
+			id: "73BA97DCC05FA0ED"
+			tasks: [{
+				id: "35793D297CFA152A"
+				type: "advancement"
+				advancement: "pneumaticcraft:pressure_chamber"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "57245437C5A3EAB2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "3E077998FF476D1E"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["302F025D35C7E495"]
+			size: 1.5d
+			id: "6FD45EF3A2B1B31F"
+			tasks: [{
+				id: "04EDCECFB54AF19D"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+			rewards: [{
+				id: "2998F7C74281502A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["41DBE31C5FAE9B96"]
+			id: "3C8C4BD3067374D0"
+			tasks: [{
+				id: "3E1BA66A34806209"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_wrench"
+			}]
+			rewards: [{
+				id: "044DE1033820957C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "tier_ii_random"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["1EB00AC57E572D88"]
+			id: "41DBE31C5FAE9B96"
+			tasks: [{
+				id: "22B5369E1ED10D30"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+			rewards: [
+				{
+					id: "55465F4910AFE950"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "0F7B2CA253DB5B51"
+					type: "item"
+					item: "minecraft:coal"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Make an Air Compressor."
+			dependencies: ["4C788FBAAE9CF49C"]
+			id: "1EB00AC57E572D88"
+			tasks: [{
+				id: "6A536FB0907077C2"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			rewards: [
+				{
+					id: "60638DA64D5B7DF7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_ingot_material"
+						}
+					}
+				}
+				{
+					id: "4D60C4C3397D540F"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			subtitle: "Create some Logistics Passive Provider and Requester Frames for smart item and fluid storage and transfer."
+			description: ["Make a Logistics Configurator to manage your Logistics grames. This tool also works on attachments like the Heat Frame, Spawner Agitator and Crop Supports."]
+			dependencies: ["73BA97DCC05FA0ED"]
+			id: "32737F8BBBCF40C7"
+			tasks: [
+				{
+					id: "6DAB5DA677780151"
+					type: "item"
+					item: "pneumaticcraft:logistics_frame_storage"
+				}
+				{
+					id: "7D50AE6EAF3EC9E3"
+					type: "item"
+					item: "pneumaticcraft:logistics_frame_active_provider"
+				}
+				{
+					id: "79BA7092A94639B8"
+					type: "item"
+					item: "pneumaticcraft:logistics_configurator"
+				}
+			]
+			rewards: [
+				{
+					id: "0085C8B1E8ED5EE5"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "6F26F5EE59EE91F6"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			subtitle: "Create and deploy a Logistics Drone to move items around your logistics network."
+			dependencies: ["32737F8BBBCF40C7"]
+			id: "67EB564C8FEEC6C4"
+			tasks: [{
+				id: "40333160B22F6C7C"
+				type: "item"
+				item: "pneumaticcraft:logistics_drone"
+			}]
+			rewards: [
+				{
+					id: "3B5A3280A8630472"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "181BB49C4DD00820"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["1EB00AC57E572D88"]
+			id: "4517E3399982322C"
+			tasks: [{
+				id: "61183A743434A1EC"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+			rewards: [
+				{
+					id: "6C26E47793054E47"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_iii_random"
+						}
+					}
+				}
+				{
+					id: "651AA9B58152BCB5"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			subtitle: "Make a Refinery Controller and 2-4 Refinery Outputs."
+			dependencies: ["6FD45EF3A2B1B31F"]
+			id: "3DB5BEED97CF4BA4"
+			tasks: [
+				{
+					id: "0BCFF0D9A593FCA0"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "754A1695ED340730"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+				}
+			]
+			rewards: [{
+				id: "15EE2B3EF7E4C4D9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			subtitle: "Make a Liquid Compressor for some more efficient pressure creation."
+			dependencies: ["3DB5BEED97CF4BA4"]
+			id: "4078FE00BC9E4014"
+			tasks: [{
+				id: "4783B53639988754"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			rewards: [{
+				id: "1C0329FE60EF833E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "random_ingot_material"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["4078FE00BC9E4014"]
+			id: "6D6D2A39E1E72ED0"
+			tasks: [{
+				id: "1E1D98E3A0916586"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+			rewards: [
+				{
+					id: "1C8D0D663DDB12A6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_iii_random"
+						}
+					}
+				}
+				{
+					id: "374BE770D140A547"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["73BA97DCC05FA0ED"]
+			id: "1522D0D97EA3E78D"
+			tasks: [
+				{
+					id: "685D0C80F23D2549"
+					type: "item"
+					item: "pneumaticcraft:empty_pcb"
+				}
+				{
+					id: "10D269D77440CCF0"
+					type: "item"
+					item: "pneumaticcraft:uv_light_box"
+				}
+			]
+			rewards: [{
+				id: "1498E18E71A56918"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["1522D0D97EA3E78D"]
+			id: "5E8A0DC28C87528A"
+			tasks: [
+				{
+					id: "0016EF1E5954EEBB"
+					type: "item"
+					item: "pneumaticcraft:etching_acid_bucket"
+				}
+				{
+					id: "264E2BACDD8668B2"
+					type: "item"
+					item: "pneumaticcraft:etching_tank"
+				}
+			]
+			rewards: [{
+				id: "566A3F6FB29E1981"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["5E8A0DC28C87528A"]
+			id: "22E9A7D30ABA1E14"
+			tasks: [{
+				id: "3310BE2F3997D3C4"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+			rewards: [
+				{
+					id: "3EF31BABAE06E7A3"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "7671E0F71BF6237C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			dependencies: ["22E9A7D30ABA1E14"]
+			id: "2F1F68142FB421C1"
+			tasks: [{
+				id: "2256A91B988148C0"
+				type: "item"
+				item: "pneumaticcraft:failed_pcb"
+			}]
+			rewards: [
+				{
+					id: "3F1F92DBA3220083"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_ingot_material"
+						}
+					}
+				}
+				{
+					id: "0958D30A7804C0D3"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["22E9A7D30ABA1E14"]
+			id: "00F720B457FE7814"
+			tasks: [{
+				id: "68A665E6803571A7"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			rewards: [
+				{
+					id: "1FFB27F95D867A02"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "4D5EA8A906969BB0"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+				{
+					id: "56043D4E4BE2F895"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["3DB5BEED97CF4BA4"]
+			id: "13C67521F98B2F2D"
+			tasks: [{
+				id: "0A611ECA92A5B070"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			rewards: [
+				{
+					id: "4A518BB6C3F22CAE"
+					type: "ftbmoney:money"
+					ftb_money: 6L
+				}
+				{
+					id: "292EBA56E1B06127"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "6275B35AAFD22187"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["3DB5BEED97CF4BA4"]
+			id: "295FF179F973AF2A"
+			tasks: [{
+				id: "63735319E2B1E935"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+			rewards: [
+				{
+					id: "0D0ED1B58B4B2369"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2
+				}
+				{
+					id: "343F4F2012CFBE49"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: [
+				"13C67521F98B2F2D"
+				"295FF179F973AF2A"
+			]
+			id: "4ECA8387C0B80330"
+			tasks: [{
+				id: "41D7701AD28908C6"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+			rewards: [
+				{
+					id: "68E48C00A54563A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4AF0B69C841F028F"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["13C67521F98B2F2D"]
+			id: "7AAB7F9D4E5A7571"
+			tasks: [{
+				id: "7AFD3CBE41E21FB5"
+				type: "item"
+				item: "pneumaticcraft:upgrade_matrix"
+			}]
+			rewards: [{
+				id: "5DB7A7C35A2193FC"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["13C67521F98B2F2D"]
+			id: "18ED2341DF958812"
+			tasks: [{
+				id: "292D46724DA05E0F"
+				type: "item"
+				item: "pneumaticcraft:lubricant_bucket"
+			}]
+			rewards: [
+				{
+					id: "3EB09EF2DDEC8896"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_ingot_material"
+						}
+					}
+				}
+				{
+					id: "2CB1853704FD6435"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["4C788FBAAE9CF49C"]
+			id: "253E43059F263318"
+			tasks: [{
+				id: "2D800C6FE0BB988F"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+			rewards: [
+				{
+					id: "1F2BE20744591208"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_i_random"
+						}
+					}
+				}
+				{
+					id: "680DCDA750660AFB"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["253E43059F263318"]
+			id: "65DDDE462D8D35F2"
+			tasks: [{
+				id: "303E6B3B00115BBF"
+				type: "item"
+				item: "pneumaticcraft:sentry_turret"
+			}]
+			rewards: [
+				{
+					id: "5D4BCF19C6666022"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "51483951DCEF5837"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: [
+				"18ED2341DF958812"
+				"7AAB7F9D4E5A7571"
+			]
+			id: "1138F697024621D9"
+			tasks: [{
+				id: "1D97534981E7F183"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4CD0E05F0AED292F"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2
+				}
+				{
+					id: "6907AC47B249E653"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["4ECA8387C0B80330"]
+			id: "2AC5A3F3AD6051DE"
+			tasks: [{
+				id: "6B7C6A2DCAD5556C"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			rewards: [
+				{
+					id: "4CFF8BD34F1F322C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47FE6406D2AD377E"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "6F44B79B3901B2BF"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			dependencies: ["3598EC582CB9CFC1"]
+			id: "256BD2FFBE7EC950"
+			tasks: [
+				{
+					id: "0B4519FA18309A4E"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "54BB0E11FD652DA9"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "1968B2DDC7BB950F"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "37F1A1901AE38B95"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "60797CEB07441F3E"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+			]
+			rewards: [
+				{
+					id: "7D9F291AAABB0BD3"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "34B0775A5DDA4C3B"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2
+				}
+				{
+					id: "2CFA5D04C78E6074"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["00F720B457FE7814"]
+			id: "3598EC582CB9CFC1"
+			tasks: [{
+				id: "7102F6FF7968700D"
+				type: "item"
+				item: "pneumaticcraft:assembly_controller"
+			}]
+			rewards: [{
+				id: "0096C0506B98AB26"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			dependencies: ["256BD2FFBE7EC950"]
+			id: "17761223A9BC14AF"
+			tasks: [{
+				id: "25405C6CA684E0BC"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+			rewards: [{
+				id: "220BB4EC2339C48F"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			dependencies: ["00F720B457FE7814"]
+			id: "22C1BE1B37405FA7"
+			tasks: [
+				{
+					id: "482C64EFD3D37D38"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10AE3D797B0B739A"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1699EB5144C03B4E"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6994893FD2207E93"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "79BFDDD8BDA724AD"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "30BEFABC9D0DB358"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "549DE2609E6C3A53"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_iii_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			dependencies: [
+				"00F720B457FE7814"
+				"4ECA8387C0B80330"
+			]
+			id: "066F64299D4F3C51"
+			tasks: [{
+				id: "0EE6D343BADC37F2"
+				type: "item"
+				item: "pneumaticcraft:programmer"
+			}]
+			rewards: [
+				{
+					id: "1AFCDB98B334EA95"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "1EDF0D2E780CBF36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "484CB2B0F18D5E98"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			dependencies: ["17761223A9BC14AF"]
+			id: "01171D8DA19473EE"
+			tasks: [{
+				id: "667EA7095E4630B9"
+				type: "item"
+				item: "pneumaticcraft:aerial_interface"
+			}]
+			rewards: [
+				{
+					id: "0FD7C581D0E87D44"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "13E013D71D2A3834"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 1.0d
+			dependencies: ["17761223A9BC14AF"]
+			id: "42C1B62F4B3A747A"
+			tasks: [{
+				id: "628D7285E1E6F006"
+				type: "item"
+				item: "pneumaticcraft:programmable_controller"
+			}]
+			rewards: [
+				{
+					id: "5F7303773CBA79B2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1036F07C80CFEA4C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 2.0d
+			dependencies: ["17761223A9BC14AF"]
+			id: "2CDAD96D89AA8045"
+			tasks: [{
+				id: "0A64601C0E1BFF7F"
+				type: "item"
+				item: "pneumaticcraft:flux_compressor"
+			}]
+			rewards: [
+				{
+					id: "21E2C95CC36758E8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3C895BB9FECD585B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["6FD45EF3A2B1B31F"]
+			id: "669A8F2B1C318E73"
+			tasks: [{
+				id: "1E74E7200B03AAC7"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+			rewards: [{
+				id: "657626D9A1E28B15"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["4C788FBAAE9CF49C"]
+			id: "6F134D8658FA01F6"
+			tasks: [{
+				id: "63A872C1CF87D6F9"
+				type: "item"
+				item: "pneumaticcraft:medium_tank"
+			}]
+			rewards: [
+				{
+					id: "623E3BAE65EC63D7"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "11522A53A994EB75"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			dependencies: ["17761223A9BC14AF"]
+			id: "3C0A0421DDEEA487"
+			tasks: [{
+				id: "05C4B38466D3769F"
+				type: "item"
+				item: "pneumaticcraft:large_tank"
+			}]
+			rewards: [
+				{
+					id: "23EEB9FADD7D7BDB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+				{
+					id: "0F7976736059CEE2"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2
+				}
+				{
+					id: "521F018AD24A6E36"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			dependencies: ["3C0A0421DDEEA487"]
+			id: "678B26E2434DCFFB"
+			tasks: [{
+				id: "59B9A68526539AA8"
+				type: "item"
+				item: "pneumaticcraft:huge_tank"
+			}]
+			rewards: [
+				{
+					id: "53E29EE75ECEA3AE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_iii_random"
+						}
+					}
+				}
+				{
+					id: "2F793378CCC7F551"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "56E0DE1C78C8621F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["669A8F2B1C318E73"]
+			id: "31355329CF220C94"
+			tasks: [{
+				id: "760D8101651E00CD"
+				type: "item"
+				item: "pneumaticcraft:liquid_hopper"
+			}]
+			rewards: [
+				{
+					id: "584A7B1A0FB58128"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+				{
+					id: "6C79D33A40E6B78E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "tier_ii_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["6FD45EF3A2B1B31F"]
+			id: "4B1D20C4C391EA08"
+			tasks: [{
+				id: "1907F337F3FF411C"
+				type: "item"
+				item: "pneumaticcraft:omnidirectional_hopper"
+			}]
+			rewards: [
+				{
+					id: "7C4EE1A1BF0F3089"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "50A854072D33CD74"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			dependencies: ["066F64299D4F3C51"]
+			id: "4DA8799B47EA7011"
+			tasks: [{
+				id: "23C4B64F62860EDD"
+				type: "item"
+				item: "pneumaticcraft:programming_puzzle"
+			}]
+		}
+	]
+}
