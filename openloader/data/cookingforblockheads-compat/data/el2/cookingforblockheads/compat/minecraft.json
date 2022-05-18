@@ -1,0 +1,17 @@
+{ "modid": "minecraft",
+  "foods": {
+    "GENERAL": [
+      "minecraft:cake",
+      "minecraft:kelp",
+      "minecraft:melon",
+      "minecraft:pumpkin",
+      "minecraft:rabbit_foot" ],
+    "INGREDIENTS": [
+      "minecraft:honey_bottle",
+      "minecraft:milk_bucket",
+      "minecraft:snowball",
+      "minecraft:water_bucket" ] },
+  "kitchenItemProviders": [
+    "minecraft:barrel"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "type": "theme",
+  "id": 49,
+  "theme": {
+    "normal": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 2, "block": "minecraft:bricks" },
+        { "block": "minecraft:polished_granite" }
+      ]
+    },
+    "normal_2": {
+      "type": "block",
+      "block": "minecraft:obsidian"
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 20, "block": "engineersdecor:clinker_brick_block" },
+        { "weight": 40, "block": "engineersdecor:clinker_brick_stained_block" },
+        { "weight":  1, "block": "engineersdecor:clinker_brick_wall" },
+        { "weight":  1, "block": "engineersdecor:clinker_brick_stairs" }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        { "weight":  90, "block": "floormats:connected/immersive/connected_treated_wood", "data": { "down": false, "up": false, "north": false, "east": false, "south": false, "west": false } },
+        { "weight":  1, "block": "floormats:connected/immersive/connected_gilded_treated_wood" },
+        { "weight":  9, "block": "immersiveengineering:slab_treated_wood_packaged", "data": { "type": "top" } }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        { "block": "minecraft:granite_stairs" },
+        { "block": "minecraft:polished_granite_stairs" },
+        { "weight": 2, "block": "minecraft:brick_stairs" }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        { "block": "minecraft:granite_stairs" },
+        { "block": "minecraft:polished_granite_stairs" },
+        { "weight": 2, "block": "minecraft:brick_stairs" }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        { "block": "minecraft:polished_granite_slab" },
+        { "weight": 2, "block": "minecraft:brick_slab" },
+        { "block": "minecraft:granite_slab" }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        { "block": "minecraft:polished_granite_slab" },
+        { "weight": 2, "block": "minecraft:brick_slab" },
+        { "block": "minecraft:granite_slab" }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 2, "block": "minecraft:cobblestone" },
+        { "block": "minecraft:stone_bricks" },
+        { "block": "minecraft:cracked_stone_bricks" }
+      ]
+    },
+    "wall":{
+      "type": "block",
+      "block": "minecraft:brick_wall"
+    }
+  }
+}

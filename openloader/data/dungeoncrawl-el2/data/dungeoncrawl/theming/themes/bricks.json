@@ -1,0 +1,79 @@
+{
+  "type": "theme",
+  "id": 48,
+  "theme": {
+    "normal": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 8, "block": "quark:polished_jasper" },
+        { "weight": 4, "block": "quark:jasper_bricks" },
+        { "weight": 2, "block": "quark:chiseled_jasper_bricks" }
+      ]
+    },
+    "normal_2": {
+      "type": "block",
+      "block": "minecraft:obsidian"
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 20, "block": "engineersdecor:clinker_brick_block" },
+        { "weight": 40, "block": "engineersdecor:clinker_brick_stained_block" },
+        { "weight":  1, "block": "engineersdecor:clinker_brick_wall" },
+        { "weight":  1, "block": "engineersdecor:clinker_brick_stairs" }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        { "weight":  90, "block": "floormats:connected/wooden/connected_spruce_log", "data": { "down": false, "up": false, "north": true, "east": false, "south": true, "west": false } },
+        { "weight":  1, "block": "floormats:connected/gilded/connected_gilded_spruce_log", "data": { "down": false, "up": false, "north": true, "east": false, "south": true, "west": false } },
+        { "weight":  9, "block": "quark:vertical_spruce_planks" }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        { "block": "quark:jasper_stairs" },
+        { "block": "quark:polished_jasper_stairs" },
+        { "weight": 4, "block": "quark:jasper_bricks_stairs" }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        { "block": "quark:jasper_stairs" },
+        { "block": "quark:polished_jasper_stairs" }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 4, "block": "quark:jasper_slab" },
+        { "weight": 1, "block": "quark:polished_jasper_slab" },
+        { "weight": 2, "block": "quark:jasper_bricks_slab" }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 1, "block": "quark:jasper_slab" },
+        { "weight": 2, "block": "quark:polished_jasper_slab" },
+        { "weight": 4, "block": "quark:jasper_bricks_slab" }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        { "weight": 8, "block": "quark:jasper" },
+        { "weight": 4, "block": "quark:polished_jasper" },
+        { "weight": 2, "block": "quark:jasper_bricks" },
+        { "weight": 1, "block": "quark:chiseled_jasper_bricks" }
+      ]
+    },
+    "wall":{
+      "type": "block",
+      "block": "quark:jasper_bricks_wall"
+    }
+  }
+}
