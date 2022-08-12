@@ -2,7 +2,10 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
   renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
 }
 
 customization {
@@ -16,57 +19,8 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
-  orientation = top-left
-  x = 11
-  action = movebutton
-  y = 17
-}
-
-customization {
-  identifier = %id=604382%
-  seconds = 3.8
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.6
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=400298%
-  orientation = bottom-centered
-  x = -100
-  action = movebutton
-  y = -182
-}
-
-customization {
-  identifier = %id=400298%
-  width = 200
-  action = resizebutton
-  height = 25
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttonlabel
-  value = Singleplayer
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal.png
-}
-
-customization {
-  identifier = %id=400298%
-  seconds = 3.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.6
-  action = hidebuttonfor
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
@@ -86,18 +40,43 @@ customization {
 
 customization {
   identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal.png
+  backgroundhovered = config\fancymenu\button_hover.png
+  backgroundnormal = config\fancymenu\button_normal.png
 }
 
 customization {
-  identifier = %id=400322%
-  seconds = 3.1
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.6
-  action = hidebuttonfor
+  identifier = %id=604382%
+  orientation = top-left
+  x = 11
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=400382%
+  width = 88
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\button_hover.png
+  backgroundnormal = config\fancymenu\button_normal.png
 }
 
 customization {
@@ -117,18 +96,49 @@ customization {
 
 customization {
   identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal.png
+  backgroundhovered = config\fancymenu\button_hover.png
+  backgroundnormal = config\fancymenu\button_normal.png
 }
 
 customization {
-  identifier = %id=502382%
-  seconds = 3.7
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.6
-  action = hidebuttonfor
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -10
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -182
+}
+
+customization {
+  identifier = %id=400298%
+  width = 200
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\button_hover.png
+  backgroundnormal = config\fancymenu\button_normal.png
 }
 
 customization {
@@ -148,54 +158,16 @@ customization {
 
 customization {
   identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal.png
-}
-
-customization {
-  identifier = %id=400346%
-  seconds = 3.2
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.6
-  action = hidebuttonfor
+  backgroundhovered = config\fancymenu\button_hover.png
+  backgroundnormal = config\fancymenu\button_normal.png
 }
 
 customization {
   identifier = %id=502346%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=400382%
-  orientation = bottom-centered
-  x = -100
-  action = movebutton
-  y = -62
-}
-
-customization {
-  identifier = %id=400382%
-  width = 88
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=400382%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/button_hover.png
-  backgroundnormal = config/fancymenu/button_normal.png
-}
-
-customization {
-  identifier = %id=400382%
-  seconds = 3.6
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.6
-  action = hidebuttonfor
 }
 
 customization {
@@ -215,142 +187,99 @@ customization {
 }
 
 customization {
-  orientation = top-centered
-  delayappearanceseconds = 2.25
   path = config/fancymenu/logo.png
-  fadein = true
-  fadeinspeed = 0.75
+  orientation = top-centered
   x = -148
   width = 303
   action = addtexture
   actionid = d57a1e0b-f3c6-4cc6-98ad-34e1af3632621616137489240
   y = 6
-  delayappearance = true
-  delayappearanceeverytime = false
   height = 195
 }
 
 customization {
   orientation = bottom-centered
-  delayappearanceseconds = 3.3
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundhovered = config\fancymenu\button_hover.png
   label = Discord
-  fadein = true
-  fadeinspeed = 0.6
+  loopbackgroundanimations = true
   x = 1
   width = 99
   actionid = 0f2563c7-90eb-4bf7-a365-e058dd01b6d91620549476383
   action = addbutton
   y = -128
-  delayappearance = true
-  backgroundnormal = config/fancymenu/button_normal.png
+  backgroundnormal = config\fancymenu\button_normal.png
   value = https://discord.gg/sTm7QKNUEN
-  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
   orientation = bottom-centered
-  delayappearanceseconds = 3.4
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundhovered = config\fancymenu\button_hover.png
   label = Modpack's Progression Guide
-  fadein = true
-  fadeinspeed = 0.6
+  loopbackgroundanimations = true
   x = -100
   width = 200
   actionid = 123a81ab-c7ff-47a5-acc6-0bd212eab07c1620549476386
   action = addbutton
   y = -106
-  delayappearance = true
-  backgroundnormal = config/fancymenu/button_normal.png
+  backgroundnormal = config\fancymenu\button_normal.png
   value = https://docs.google.com/document/d/1ElYPkXnZbW2bl2eL9kO3SJioGR0tnblWSHVwg-U0s9A/edit?usp=sharing
-  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
   orientation = bottom-centered
-  delayappearanceseconds = 3.5
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/button_hover.png
+  backgroundhovered = config\fancymenu\button_hover.png
   label = Support the Creator - Rent a Server
+  loopbackgroundanimations = true
   hoverlabel = Powered by Bisecthosting!
-  fadein = true
-  fadeinspeed = 0.6
   x = -100
   width = 200
   actionid = fae3176e-b942-4fe2-95d8-30f1fa03a2291620549476389
   action = addbutton
   y = -84
-  delayappearance = true
-  backgroundnormal = config/fancymenu/button_normal.png
+  backgroundnormal = config\fancymenu\button_normal.png
   value = https://bisecthosting.com/xdreamz
-  delayappearanceeverytime = false
   height = 20
 }
 
 customization {
   orientation = bottom-centered
-  delayappearanceseconds = 4.0
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/vertical_dark_text_hover.png
+  backgroundhovered = config\fancymenu\vertical_dark_text_hover.png
   label = 
-  fadein = true
-  fadeinspeed = 1.0
+  loopbackgroundanimations = true
   x = -100
   width = 98
   actionid = 758f07fb-a4c4-4f1b-9d5d-a782ca63a4431620549476392
   action = addbutton
   y = -40
-  delayappearance = true
-  backgroundnormal = config/fancymenu/vertical_dark_text.png
+  backgroundnormal = config\fancymenu\vertical_dark_text.png
   value = https://bisecthosting.com/xdreamz
-  delayappearanceeverytime = false
   height = 35
 }
 
 customization {
-  identifier = %id=376382%
   orientation = bottom-centered
-  x = -10
-  action = movebutton
-  y = -62
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=376382%
-  seconds = 3.8
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.6
-  action = hidebuttonfor
-}
-
-customization {
-  orientation = bottom-centered
-  delayappearanceseconds = 4.0
+  restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/button_patreon_h.png
+  backgroundhovered = config\fancymenu\button_patreon_h.png
   label = 
-  fadein = true
-  fadeinspeed = 1.0
+  loopbackgroundanimations = true
   x = 2
   width = 98
   actionid = c5c29223-dafc-491a-ba87-5549d2844d231620549476395
   action = addbutton
   y = -40
-  delayappearance = true
-  backgroundnormal = config/fancymenu/button_patreon.png
+  backgroundnormal = config\fancymenu\button_patreon.png
   value = https://www.patreon.com/Dreams01
-  delayappearanceeverytime = false
   height = 36
 }
 

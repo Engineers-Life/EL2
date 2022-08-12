@@ -276,6 +276,9 @@ craftingTable.removeByName("vanillafoodpantry:bakery/portion_flour_from_wheat");
   craftingTable.addShapeless("flour_from_wheat_new_output", <item:vanillafoodpantry:portion_flour>, [<item:veggie_way:mill>.anyDamage().transformDamage(), <item:minecraft:wheat>]);
 //  craftingTable.addShapeless("crafttweaker:flour_x1_flour_plants_new_output", <item:vanillafoodpantry:portion_flour>, [<tag:items:forge:tool_grinder>, <tag:items:forge:flour_plants>]);
 
+//buddycards
+craftingTable.addShapeless("shredded_cards", <item:buddycards:shredded_buddycard>, [<item:notreepunching:diamond_knife>.anyDamage().transformDamage(), <tag:items:buddycards:packs>]);
+
 //pneumaticraft
 
 pc_upgrade.remove(<item:minecraft:lapis_lazuli>);

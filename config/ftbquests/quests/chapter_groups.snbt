@@ -1,3 +1,7 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "75733624F98E619E", title: "Exploration" }
+		{ id: "3B1E3634B0825340", title: "Provisioning" }
+		{ id: "516104C773A3B46A", title: "Technology" }
+	]
 }

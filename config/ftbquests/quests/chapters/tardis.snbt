@@ -1,7 +1,7 @@
 {
 	id: "14F4F74C56804B36"
-	group: ""
-	order_index: 15
+	group: "516104C773A3B46A"
+	order_index: 5
 	filename: "tardis"
 	title: "TARDIS"
 	icon: "tardis:telescope"
@@ -203,12 +203,20 @@
 			x: 3.5d
 			y: 0.0d
 			dependencies: ["0D12379C402F93C9"]
+			min_required_tasks: 1
 			id: "63472F84B5A95AF9"
-			tasks: [{
-				id: "3C79BC934DAF08BE"
-				type: "item"
-				item: "tardis:quantiscope_iron"
-			}]
+			tasks: [
+				{
+					id: "3C79BC934DAF08BE"
+					type: "item"
+					item: "tardis:quantiscope_iron"
+				}
+				{
+					id: "77F11BE35428308E"
+					type: "item"
+					item: "tardis:quantiscope_brass"
+				}
+			]
 			rewards: [{
 				id: "3C9D4122D6F26E5F"
 				type: "item"

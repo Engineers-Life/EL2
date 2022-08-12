@@ -35,8 +35,6 @@
 	drones_can_be_picked_up = false
 	#Show particle trail indicating the currently-debugged drone's planned path
 	drone_debugger_path_particles = true
-	#Blacklisted entity type ID's or tags (use '#' prefix), which the Vacuum Trap will not try to absorb. Note that players, tamed entities, boss entities, and PneumaticCraft drones may never be absorbed, regardless of config settings.
-	vacuum_trap_blacklist = []
 	#Cooldown, in ticks, between subsequent uses of Bandages. Set to 0 to disable cooldowns entirely.
 	#Range: > 0
 	bandage_cooldown = 160

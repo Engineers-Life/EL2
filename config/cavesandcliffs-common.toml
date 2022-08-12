@@ -1,13 +1,23 @@
 
+["Gameplay Settings"]
+	#Determines if monsters should only spawn where the light value equals zero.
+	MonstersSpawnInTotalDarkness = true
+
+	["Gameplay Settings"."Raw Ore Settings"]
+		#Determines if Iron, Gold and Copper should drop Raw Ores.
+		RawOreDrops = true
+		#Determines if Copper from other mods should also drop Raw Copper.
+		RawOreDropsForExternalCopper = false
+
 ["World Generation"]
 
 	["World Generation"."Ore Generation"]
 
 		["World Generation"."Ore Generation"."Copper Settings"]
 			#Determines if Copper should generate so it doesn't interfere with other modded copper.
-			GenerateCopperOre = false
+			GenerateCopperOre = true
 			#Determines if Large Copper Blobs should generate in Dripstone Caves.
-			DripstoneCaveLargeCopperBlobs = false
+			DripstoneCaveLargeCopperBlobs = true
 
 		["World Generation"."Ore Generation"."Tuff Settings"]
 			#Determines if Tuff Blobs should generate underground.
@@ -17,11 +27,11 @@
 
 		["World Generation"."Ore Generation"."Deepslate Settings"]
 			#Determines if Deepslate Blobs should generate underground.
-			GenerateDeepslate = false
+			GenerateDeepslate = true
 			#Determines the weight of spawning for Deepslate.
 			DeepslateSpawnWeight = 2
 			#Determines if Deepslate Ores should generate underground.
-			GenerateDeepslateOres = false
+			GenerateDeepslateOres = true
 
 	["World Generation"."Feature Generation"]
 		#Determines if Glow Lichen should generate underground.
@@ -33,9 +43,9 @@
 			#Determines what block should generate as the casing for Amethyst Geodes
 			AmethystGeodeCasingBlock = "cavesandcliffs:smooth_basalt"
 			#Determines the rarity of spawning for Amethyst Geodes.
-			AmethystGeodesSpawnRarity = 45
+			AmethystGeodesSpawnRarity = 24
 			#Determines the max height of spawning for Amethyst Geodes.
-			AmethystGeodesMaxHeight = 20
+			AmethystGeodesMaxHeight = 30
 
 		["World Generation"."Feature Generation"."Azalea Tree Settings"]
 			#Determines if Azalea Trees should generate in the surface.
@@ -75,16 +85,6 @@
 			GenerateGoats = true
 			#Determines the weight of spawning for Goats.
 			GoatSpawnWeight = 10
-
-["Gameplay Settings"]
-	#Determines if monsters should only spawn where the light value equals zero.
-	MonstersSpawnInTotalDarkness = false
-
-	["Gameplay Settings"."Raw Ore Settings"]
-		#Determines if Iron, Gold and Copper should drop Raw Ores.
-		RawOreDrops = false
-		#Determines if Copper from other mods should also drop Raw Copper.
-		RawOreDropsForExternalCopper = false
 
 ["Client Settings"]
 	#Determines the Value for the Panorama to display. 

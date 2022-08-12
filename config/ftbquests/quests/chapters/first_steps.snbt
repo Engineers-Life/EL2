@@ -1,6 +1,6 @@
 {
 	id: "0000000000000002"
-	group: ""
+	group: "75733624F98E619E"
 	order_index: 0
 	filename: "first_steps"
 	title: "First Steps"
@@ -3622,6 +3622,11 @@
 				type: "item"
 				item: "spareparts:experience_journal"
 			}]
+			rewards: [{
+				id: "55622F9F67BF93F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 		}
 		{
 			disable_toast: true
@@ -3635,6 +3640,11 @@
 				type: "item"
 				item: "minecraft:ender_eye"
 			}]
+			rewards: [{
+				id: "11BCE889DFB729C6"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			disable_toast: true
@@ -3647,6 +3657,11 @@
 				id: "706AEA749AEA138C"
 				type: "item"
 				item: "minecraft:writable_book"
+			}]
+			rewards: [{
+				id: "4079DE10C2598DBD"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{

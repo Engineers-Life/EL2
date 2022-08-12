@@ -4,33 +4,33 @@
 # 1 for spawning in most chunks and 1001 for no spawn.
 [Spawnrates]
 	#Range: 1 ~ 1001
-	badlandsVillageMaxChunkDistance = 54
+	badlandsVillageMaxChunkDistance = 84
 	#Range: 1 ~ 1001
-	birchVillageMaxChunkDistance = 67
+	birchVillageMaxChunkDistance = 97
 	#Range: 1 ~ 1001
-	darkForestVillageMaxChunkDistance = 57
+	darkForestVillageMaxChunkDistance = 87
 	#Range: 1 ~ 1001
-	jungleVillageMaxChunkDistance = 47
+	jungleVillageMaxChunkDistance = 77
 	#Range: 1 ~ 1001
-	swampVillageMaxChunkDistance = 57
+	swampVillageMaxChunkDistance = 87
 	#Range: 1 ~ 1001
-	mountainsVillageMaxChunkDistance = 47
+	mountainsVillageMaxChunkDistance = 97
 	#Range: 1 ~ 1001
-	villageMushroomAverageChunkDistance = 24
+	villageMushroomAverageChunkDistance = 44
 	#Range: 1 ~ 1001
-	giantTaigaVillageMaxChunkDistance = 57
+	giantTaigaVillageMaxChunkDistance = 97
 	#Range: 1 ~ 1001
-	oakVillageMaxChunkDistance = 47
+	oakVillageMaxChunkDistance = 97
 	#Range: 1 ~ 1001
-	crimsonVillageMaxChunkDistance = 40
+	crimsonVillageMaxChunkDistance = 60
 	#Range: 1 ~ 1001
-	warpedVillageMaxChunkDistance = 40
+	warpedVillageMaxChunkDistance = 60
 
 #-----------------------------------------------------------------------------------------
 # Size of the village. This is how many pieces long a path can be from the start piece.
 [Size]
 	#Range: 1 ~ 30
-	badlandsVillageSize = 5
+	badlandsVillageSize = 4
 	#Range: 1 ~ 30
 	birchVillageSize = 4
 	#Range: 1 ~ 30
@@ -40,13 +40,13 @@
 	#Range: 1 ~ 30
 	swampVillageSize = 4
 	#Range: 1 ~ 30
-	mountainsVillageSize = 6
+	mountainsVillageSize = 4
 	#Range: 1 ~ 30
-	mushroomVillageSize = 5
+	mushroomVillageSize = 4
 	#Range: 1 ~ 30
-	giantTaigaVillageSize = 5
+	giantTaigaVillageSize = 4
 	#Range: 1 ~ 30
-	oakVillageSize = 6
+	oakVillageSize = 4
 	#Range: 1 ~ 30
 	crimsonVillageSize = 4
 	#Range: 1 ~ 30

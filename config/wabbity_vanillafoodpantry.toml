@@ -75,7 +75,7 @@ version = 2
 	#Set to true to disable ONLY meat drops from killing horses when 'include_horse_drops' is enabled; ignored otherwise. Use if you have another mod that already drops horse meat.
 	exclude_horse_meat = true
 	#Set to true to disable ONLY meat drops from killing squid when 'include_squid_drops' is enabled; ignored otherwise. Use if you have another mod that already drops squid meat.
-	exclude_squid_meat = true
+	exclude_squid_meat = false
 	#Set to true to disable ONLY meat drops from killing wolves when 'include_wolf_drops' is enabled; ignored otherwise. Use if you have another mod that already drops wolf meat.
 	exclude_wolf_meat = false
 	#Set to true to disable ONLY meat drops from killing polar bears when 'include_polarbear_drops' is enabled; ignored otherwise. Use if you have another mod that already drops polar bear meat.

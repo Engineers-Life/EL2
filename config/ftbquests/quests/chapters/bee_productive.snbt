@@ -1,7 +1,7 @@
 {
 	id: "0000000000000778"
-	group: ""
-	order_index: 2
+	group: "3B1E3634B0825340"
+	order_index: 1
 	filename: "bee_productive"
 	title: "Bee Productive"
 	icon: "minecraft:honeycomb"
@@ -493,7 +493,7 @@
 			description: [
 				"The optimal form of transportation."
 				""
-				"Works like riding a pig or strider and lust be lead with a Treat on a Stick (which so kindly has been provided to you)."
+				"Works like riding a pig or strider and must be lead with a Treat on a Stick (which so kindly has been provided to you)."
 			]
 			dependencies: ["00000000000007A2"]
 			id: "3F2196582D1EF27A"

@@ -2,7 +2,7 @@
 # Average distance between spawn attempts for Jungle Fortresses.
 # 1 for spawning in most chunks and 1001 for no spawn.
 #Range: 1 ~ 1001
-jungleFortressMaxChunkDistance = 50
+jungleFortressMaxChunkDistance = 60
 #
 # Size of the fortress. This is how many pieces long a branch can be from the start piece.
 #Range: 1 ~ 30
